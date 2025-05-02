@@ -1,0 +1,1 @@
+for /f "delims=" %a in (dateiliste.txt) do copy "C:\Users\Marc Bielert\Google Drive\Zettelkasten\Zettelkasten\%a" "C:\Users\Marc Bielert\Github\docs\docs\"

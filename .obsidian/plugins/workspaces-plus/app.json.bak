@@ -1,0 +1,11 @@
+{
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "spellcheck": false,
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "inbox",
+  "attachmentFolderPath": "_attachements",
+  "showRibbon": true
+}

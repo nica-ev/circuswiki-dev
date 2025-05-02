@@ -1,0 +1,32 @@
+{
+  "showInstructions": true,
+  "showDeletePrompt": true,
+  "saveOnSwitch": false,
+  "saveOnChange": false,
+  "workspaceSettings": false,
+  "systemDarkMode": false,
+  "globalSettings": {
+    "baseFontSizeAction": true,
+    "cssTheme": "Minimal",
+    "showUnsupportedFiles": true,
+    "showInlineTitle": false,
+    "spellcheck": false,
+    "readableLineLength": false,
+    "alwaysUpdateLinks": true,
+    "newFileLocation": "folder",
+    "newFileFolderPath": "inbox",
+    "attachmentFolderPath": "_attachements",
+    "accentColor": "",
+    "theme": "moonstone",
+    "enabledCssSnippets": [
+      "obsidian-default-theme"
+    ],
+    "showRibbon": true
+  },
+  "activeWorkspaceDesktop": "Graph",
+  "activeWorkspaceMobile": "",
+  "reloadLivePreview": false,
+  "workspaceSwitcherRibbon": false,
+  "modeSwitcherRibbon": false,
+  "replaceNativeRibbon": false
+}

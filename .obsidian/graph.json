@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "path:docs -file:\"Liste aller Spiele\" -file:\"sitemap\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#moc  ",
+      "color": {
+        "a": 1,
+        "rgb": 15408670
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.773356401384083,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.15592475224694055,
+  "close": true
+}

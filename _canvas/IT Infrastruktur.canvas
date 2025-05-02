@@ -1,0 +1,203 @@
+{
+  "edges": [
+    {
+      "fromNode": "912a6577ab9fb2bf",
+      "fromSide": "top",
+      "id": "6597e9fae0d853bd",
+      "toNode": "d2f4ea23e2c01c12",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b6253e1184f82e95",
+      "fromSide": "top",
+      "id": "cd8a46be47b2e71f",
+      "toNode": "d2f4ea23e2c01c12",
+      "toSide": "bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1764,
+      "id": "dc16736ec6366987",
+      "label": "Interne Struktur / Anwendung",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1597,
+      "x": -1463,
+      "y": -1260
+    },
+    {
+      "height": 1635,
+      "id": "00aa4f33701326b2",
+      "label": "Buchhaltung",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 900,
+      "x": -1435,
+      "y": -1179
+    },
+    {
+      "height": 754,
+      "id": "2aa47ed405b0d902",
+      "label": "Außen Wahrnehmung",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1702,
+      "x": 315,
+      "y": -1260
+    },
+    {
+      "height": 419,
+      "id": "d2f4ea23e2c01c12",
+      "styleAttributes": {
+      },
+      "text": "# Buchhaltung\n\n- **Github** - private Repository\n- Plain Text Accounting mit Versionskontrolle\n- HLedger \n\n**Frage**: müssen mehrere Leute Zugriff haben?\nEventuell reicht es im Moment wenn nur ich Zugriff habe - dann laufen alle Abrechnungen über mich...\n",
+      "type": "text",
+      "width": 460,
+      "x": -1215,
+      "y": -1159
+    },
+    {
+      "file": "Plain Text Accounting.md",
+      "height": 400,
+      "id": "b6253e1184f82e95",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1415,
+      "y": -506
+    },
+    {
+      "file": "Ledger Overview.canvas",
+      "height": 222,
+      "id": "912a6577ab9fb2bf",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -955,
+      "y": -441
+    },
+    {
+      "height": 381,
+      "id": "4850bbc4f0a66dec",
+      "styleAttributes": {
+      },
+      "text": "# Beancount als Dockerfile nutzen?\n\n- https://github.com/yegle/fava-docker\n- https://beancount.github.io/docs/installing_beancount.html\n- https://docs.google.com/document/d/1FqyrTPwiHVLyncWTf3v5TcooCu9z5JRX8Nm41lVZi0U/edit#heading=h.gcyz1rs6n1jf\n- https://github.com/beancount/beancount#download-installation\n- https://www.mail-archive.com/beancount@googlegroups.com/msg02720.html",
+      "type": "text",
+      "width": 663,
+      "x": -1346,
+      "y": -11
+    },
+    {
+      "color": "4",
+      "height": 449,
+      "id": "f82f7dd1d5b5d13e",
+      "styleAttributes": {
+      },
+      "text": "# Nextcloud\n\n- interne Datenverwaltung\n- gemeinsamer Kalender ?\n- Adresslisten ?\n- Datenverwaltung / Zusammenarbeit digital\n\t- Honorar + Rechnungsverwaltung\n\t- Antragsverwaltung etc...\n\nTrebor sagt : NetCup (Serveranbieter)",
+      "type": "text",
+      "width": 560,
+      "x": -446,
+      "y": -127
+    },
+    {
+      "color": "4",
+      "height": 458,
+      "id": "1882606e2b018bd3",
+      "styleAttributes": {
+      },
+      "text": "# Mailinglisten / Newsletter\n\n- https://listmonk.app/\n- https://www.reddit.com/r/selfhosted/comments/ebt5x0/free_and_open_source_mailing_list_software/\n\n- Mailchimp",
+      "type": "text",
+      "width": 560,
+      "x": -446,
+      "y": -1147
+    },
+    {
+      "color": "4",
+      "height": 256,
+      "id": "cd0acb2dedaea14b",
+      "styleAttributes": {
+      },
+      "text": "# Zoom etc..\n- Zum abhalten von Online Workshops\n- Zur online Kommunikation\n\n--> welche **guten** Alternativen gibt es?",
+      "type": "text",
+      "width": 560,
+      "x": -446,
+      "y": -458
+    },
+    {
+      "height": 452,
+      "id": "d6e3b42933546017",
+      "styleAttributes": {
+      },
+      "text": "## Digitale Struktur - weitere Ideen / Infos\n- Email\n\t- Landing Pages\n\t- Verteilerlisten (Mailchimp?)\n\n> includes different methods, ideas and concepts\n> goal is to develop capacities, beeing accessible\n> bridge gaps between disciplines\n\n- if its an organisation\n\t- how is it structured\n\t- benefit of beeing a member\n\t\t- discount on events",
+      "type": "text",
+      "width": 644,
+      "x": 335,
+      "y": -428
+    },
+    {
+      "color": "4",
+      "height": 347,
+      "id": "90e56b7f75de4afa",
+      "styleAttributes": {
+      },
+      "text": "# Website\n\n- Wordpress ?\n- Elementor ?\n-  sollte einfach nutzbar und mit neuem Content zu füllen sein\n- möglichst wenig Plugins\n- wie geht man mit Sicherheitsrisiken um --> Bot-Angriffe siehe P13 Seite",
+      "type": "text",
+      "width": 560,
+      "x": 335,
+      "y": -1240
+    },
+    {
+      "color": "3",
+      "height": 734,
+      "id": "0fb5884b87fc0211",
+      "styleAttributes": {
+      },
+      "text": "# Social Media\n\n- Facebook\n- Instagram\n- Twitter / Mastodon ?\n- TikTok ?\n- Welche Möglichkeiten der Verwaltung und Vorplanung gibt es ?\n- \n## Socioboard\nsiehe . https://github.com/socioboard/Socioboard-5.0\n\n",
+      "type": "text",
+      "width": 478,
+      "x": 911,
+      "y": -1240
+    },
+    {
+      "color": "2",
+      "height": 551,
+      "id": "bd35d5b48bfddb86",
+      "styleAttributes": {
+      },
+      "text": "# Forum / Datenbank\n\n- erst später interessant aber als Grundfrage schonmal ganz gut\n- Forum als Austauschplattform \n- Datenbank zum verwalten/anzeigen von Daten wie Zertifizierungen, Events etc. ?\n- sie Jamie´s Idee einen Katalog von Übungen zu haben welche Auskunft geben über die Fahigkeiten / Kapazitäten die damit geübt werden",
+      "type": "text",
+      "width": 560,
+      "x": 1437,
+      "y": -1240
+    },
+    {
+      "color": "3",
+      "height": 264,
+      "id": "e08c61274304f0b8",
+      "styleAttributes": {
+      },
+      "text": "# Event Kalender\n\n- EventCalendar ? mit Buchung/Wartelisten ?\n",
+      "type": "text",
+      "width": 560,
+      "x": 335,
+      "y": -770
+    },
+    {
+      "file": "_canvas/Trebor Aufgaben.canvas",
+      "height": 1900,
+      "id": "bf69e28035c42285",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1860,
+      "x": 2240,
+      "y": -11
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "activePreset": "Default",
+  "activeFullscreenPreset": "Default",
+  "separateFullscreenPreset": false,
+  "presets": {
+    "Default": {
+      "plugin-backlink;1": {
+        "position": 5,
+        "visible": false
+      },
+      "plugin-properties;1": {
+        "position": 4,
+        "visible": false
+      },
+      "plugin-editor-status;1": {
+        "position": 0,
+        "visible": true
+      },
+      "plugin-word-count;1": {
+        "position": 3,
+        "visible": false
+      },
+      "plugin-workspaces-plus-workspace-switcher;1": {
+        "position": 2,
+        "visible": true
+      },
+      "plugin-workspaces-plus-mode-switcher;1": {
+        "position": 6,
+        "visible": false
+      },
+      "plugin-better-word-count;1": {
+        "position": 1,
+        "visible": true
+      }
+    }
+  },
+  "presetsOrder": [
+    "Default"
+  ],
+  "version": "2.1.2"
+}

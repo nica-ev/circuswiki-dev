@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "publish": "checkbox",
+    "authors": "multitext",
+    "created": "datetime",
+    "update": "datetime",
+    "date": "datetime",
+    "category": "multitext",
+    "source": "text",
+    "group-max": "number",
+    "group-min": "number",
+    "Spieldauer": "text"
+  }
+}

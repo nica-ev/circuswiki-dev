@@ -1,0 +1,163 @@
+# Project information
+site_name: NICA e.V. Documentation
+site_url: https://nica-ev.github.io/docs/
+site_author: Marc Bielert
+site_description: Dokumentationen über Prozesse und Abläufe des Vereines NICA e.V.
+
+# Repository
+repo_name: nica-ev/docs
+repo_url: https://github.com/nica-ev/docs
+
+# Copyright
+copyright: CC-BY-SA 4.0 <a href="#__consent">Change cookie settings</a>
+
+# Theme
+theme:
+  name: material
+  favicon: img/nica-logo-simple-small-150x150.png
+  logo: img/nica-logo-simple-small-150x150.png
+  palette: 
+    # Palette toggle for light mode
+    - scheme: primary
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mod
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - navigation.prune
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.follow
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - nl2br # treats markdown linebreaks as hard breaks
+  - admonition # enables the use of callouts
+  - toc:
+      permalink: true  
+  - pymdownx.details
+  - pymdownx.blocks.caption
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search              # enables search bar
+  - meta
+  - blog                # enables blog functionality (Mkdocs-Materials)
+  - pub-minifier:
+      jpeg:
+        enabled: true
+      png:
+        enabled: true
+      svg:
+        enabled: false
+      html:
+        enabled: false
+      css:
+        enabled: false
+      js:
+        enabled: false
+  - pub-obsidian
+  - tags
+
+nav:
+  - Home: 
+    - Home: 'index.md'
+    - NICA e.V.: 'Dokumentation Nica eV.md' 
+    - Mitmachen: 'mitmachen.md'
+    - Release Notes: 'release notes.md'
+  - NICA:
+    - NICA e.V.: 'Dokumentation Nica eV.md' 
+    - Buchhaltung: 'buchhaltung.md'
+    - Digitale Infrastruktur: 'digital-infrastruktur.md'
+    - Wordpress: 'wordpress.md'
+    - Nextcloud: 'nextcloud.md'
+    - Dokumentations-System: 'doc-sys-2.md'
+  - Bewegungs-Spiele: 
+    - Uebersicht: 'Bewegungs-Spiele.md'
+    - Liste aller Spiele: 'Liste aller Spiele.md'
+    - Kategorien:
+      - Kennenlernen: 'Spiele zum Kennenlernen.md'
+      - Fangen: 'Fangspiele.md'
+      - Warm-Up: 'Aufwärmspiele MOC.md'
+      - Cool-Down: 'Cooldown Spiele MOC.md'
+      - Kooperation: 'Kooperationsspiele.md'
+      - Kreisspiele: 'Kreisspiele MOC.md'
+      - Bewegung: 'Bewegungsspiele.md'
+      - Action: 'Schnelligkeit+Reaktionsspiele.md'
+      - Taktik: 'Taktik und Konzentrationsspiele.md'
+      - Call & Response: 'MOC Call & Response Spiele.md'
+      - Inklusion: 'Inklusion-Spiele.md'
+      - Sonstiges: 'Spiele für Zwischendurch.md'
+  - Blog: 
+    - 'blog/index.md'
+
+# The not_in_nav section prevents warnings for not included files in the navigation during build
+# Its meant as a fix during development (not affecting the compiled site)
+not_in_nav: |     
+  *.*   
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js      # enables sorting of markdown tables (by clicking on the headers)
+  - javascripts/feedback.js       # implements a feedback form
+
+extra_css:
+  - stylesheets/custom_style.css
+
+extra:
+  analytics:
+    provider: google
+    property: G-ZJ5FMB5HRM
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://github.com/nica-ev/docs/discussions/new?category=feedback&title=__PAGE_TITLE__%20Feedback" target="_blank" rel="noopener">feedback form</a>.
+
+
+
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  alternate:
+    - name: Deutsch
+      link: /
+      lang: de

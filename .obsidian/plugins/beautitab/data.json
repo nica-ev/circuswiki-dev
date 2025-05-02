@@ -1,0 +1,26 @@
+{
+  "backgroundTheme": "transparent",
+  "customBackground": "",
+  "localBackgrounds": [],
+  "showTopLeftSearchButton": false,
+  "topLeftSearchProvider": {
+    "command": "omnisearch:show-modal",
+    "display": "Omnisearch: Vault search"
+  },
+  "showTime": true,
+  "timeFormat": "24-hour",
+  "showGreeting": false,
+  "greetingText": "Hello, Beautiful.",
+  "showInlineSearch": true,
+  "inlineSearchProvider": {
+    "command": "omnisearch:show-modal",
+    "display": "Omnisearch: Vault search"
+  },
+  "showRecentFiles": true,
+  "showBookmarks": false,
+  "bookmarkSource": "all",
+  "bookmarkGroup": "",
+  "showQuote": false,
+  "quoteSource": "Quoteable",
+  "customQuotes": []
+}

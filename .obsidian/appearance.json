@@ -1,0 +1,11 @@
+{
+  "baseFontSizeAction": true,
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "obsidian-default-theme"
+  ],
+  "showRibbon": true,
+  "baseFontSize": 13
+}

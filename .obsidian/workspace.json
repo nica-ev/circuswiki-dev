@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "bf62ad948c5a8d3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9d30bc2adbb4d62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "180400aef808a21a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_inbox/Presentation Wiki Project.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentation Wiki Project"
+            }
+          },
+          {
+            "id": "132897a8bad41180",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_inbox/CircusWiki - Technical Manual.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CircusWiki - Technical Manual"
+            }
+          },
+          {
+            "id": "4e1d11d4419da554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/blog/posts/Taming Project Complexity.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Taming Project Complexity"
+            }
+          },
+          {
+            "id": "9e429d36a99a2ef5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/doc-sys-2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "doc-sys-2"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8efefdf7f00d96ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "10dea923e00026ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c16294ef306a06a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "346aa6b5a8026886",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "3da89fef1239b266",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "30219876b88d0162",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5
+  },
+  "right": {
+    "id": "6695d9278e344b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e5ffe27a2849cce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff2ff00355ab4cc5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_inbox/Unbenannt 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise für Unbenannt 3"
+            }
+          },
+          {
+            "id": "1d26c7fdc4eccc99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Spiele zum Kennenlernen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links von Spiele zum Kennenlernen öffnen"
+            }
+          },
+          {
+            "id": "0b72dae5f94a0ccf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ae24fe8dfe0bb79e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_inbox/CircusWiki - Technical Manual.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung von CircusWiki - Technical Manual"
+            }
+          },
+          {
+            "id": "c886df66f8d76ded",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "355acc6388e8621d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": true,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "workspaces:Workspace-Layouts verwalten": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "4e1d11d4419da554",
+  "lastOpenFiles": [
+    "docs/blog/posts/Spiele - Datenkram.md",
+    "docs/blog/posts/Taming Project Complexity.md",
+    "_inbox/CircusWiki - Technical Manual.md",
+    "_inbox/Presentation Wiki Project.md",
+    "docs/Hallo ich bin - mit Bällen.md",
+    "docs/doc-sys-2.md",
+    "docs/img/abhuva_Minimalist_illustration_of_an_open_doorway_leading_to_a__e24f29f5-9dfc-4b28-b25a-6c924b41290f.png",
+    "docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png",
+    "docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png",
+    "docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png",
+    "docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png",
+    "docs/Spiele zum Kennenlernen.md",
+    "docs/Bällewirrwarr.md",
+    "docs/Bewegungs-Spiele.md",
+    "docs/Alaska Baseball.md",
+    "docs/Aufwärmspiele MOC.md",
+    "docs/Eisbär auf der Scholle.md",
+    "docs/Der Hund im großen Haus.md",
+    "_dataview/Spiele yaml check.md",
+    "docs/Fangspiele.md",
+    "docs/Adler Hase Kohlkopf.md",
+    "docs/Zombie Hasche mit Namen.md",
+    "_inbox/Fuchs, Hase, Möhre.md",
+    "docs/Zombie - Hasche.md",
+    "docs/Zeithasche.md",
+    "docs/Tellerfänger.md",
+    "docs/Schwänzchen-Hasche.md",
+    "docs/Robbe und Eisbären.md",
+    "docs/Popcorn.md",
+    "docs/Pinguine und Killer-Flamingos.md",
+    "docs/Pinguine und Eisbären.md",
+    "site/stylesheets/nica-background.jpg",
+    "site/stylesheets/custom_style.css",
+    "site/stylesheets",
+    "site/javascripts/tablesort.js",
+    "site/javascripts/feedback.js",
+    "site/javascripts",
+    "site/search/search_index.json",
+    "site/search",
+    "site/blog/2025/02/25/zettelkasten-wiki-und-mehr---meine-motivation-für-dieses-projekt/index.html",
+    "site/blog/2025/02/25/zettelkasten-wiki-und-mehr---meine-motivation-für-dieses-projekt",
+    "site/blog/2025/02/25",
+    "site/assets/images/favicon.png",
+    "site/img/Kaskade-002-01.png",
+    "site/img/Kaskade-001-16.png",
+    "site/img/Kaskade-001-15.png",
+    "_canvas/Trebor Aufgaben.canvas",
+    "_canvas/Unbenannt.canvas",
+    "_canvas/IT Infrastruktur.canvas",
+    "Unbenannt.canvas"
+  ]
+}

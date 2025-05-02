@@ -1,0 +1,225 @@
+{
+  "edges": [
+    {
+      "fromNode": "45641fd79990686a",
+      "fromSide": "bottom",
+      "id": "7597af86f108e298",
+      "toNode": "b58e41f0e17910b2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "40910e11cb9ee2ae",
+      "fromSide": "bottom",
+      "id": "6eeda8acf66c939c",
+      "toNode": "45641fd79990686a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "40910e11cb9ee2ae",
+      "fromSide": "bottom",
+      "id": "c916f8040c6fc992",
+      "toNode": "7d47c6481a94e348",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1f6c4268e673aef",
+      "fromSide": "bottom",
+      "id": "eda7de958a944d9e",
+      "toNode": "4dada2c2764fa219",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7d47c6481a94e348",
+      "fromSide": "bottom",
+      "id": "a19e59e9e448c629",
+      "toNode": "b1f6c4268e673aef",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7d47c6481a94e348",
+      "fromSide": "bottom",
+      "id": "adfcf0786c117e9d",
+      "toNode": "2bf1aa0a01e7b348",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "18c8e860a6bfff6d",
+      "fromSide": "bottom",
+      "id": "48b888464379d666",
+      "toNode": "2b45c50ab8fd74a0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2bf1aa0a01e7b348",
+      "fromSide": "bottom",
+      "id": "879a5a15f1e9df77",
+      "toNode": "800444f9ab2677ab",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7d47c6481a94e348",
+      "fromSide": "bottom",
+      "id": "392b4b797c57e1c6",
+      "styleAttributes": {
+      },
+      "toNode": "18c8e860a6bfff6d",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1475,
+      "id": "45641fd79990686a",
+      "styleAttributes": {
+      },
+      "text": "# Setup, einmalige Arbeiten\n- [x] Domain + Hosting Space\n- [x] Betriebssystem aufspielen\n- [x] Firewall etc...\n- [x] Wordpress aufspielen\n- [x] Nextcloud aufsetzen  www.cloud.nica.network\n- [x] Nextcloud erste Administration\n- [x] PhpBB Forum   www.forum.nica.network\n---\n- [x] domain anmelden\n- [x] webspace : netcup (domain geht auch darüber)\n- [x] webnus, elementor --> mit olaf drüber reden\n- [x] wordpress (kostenfrei)\n- [x] E-Mail https://www.netcup.de/groupware/#groupware-details\n\t- [x] Email Konten anlegen\n\t\t- [x] info@nica.network\n\t\t- [x] admin@nica.network\n\t\t- [x] marc.bielert@nica.network\n\t\t- [x] peter.huhndorf@nica.network\n- [x] Nextcloud Dateisystem (FTP) anlegen und Zugriffsrechte vergeben\n- [x] Nextcloud Plugins\n\t- [x] Marc checkt welche (Calender)\n- [ ] Social Media Management\n\t- [ ] Marc checken ob wir das brauchen und welche Platformen zugänglich\n- [x] Updates (Trebor) \n\t- [x] Wordpress aller 3 Monate checken\n\t- [x] Forum: allgemein checken wie das geht\n\t- [x] Nextcloud\n- [x] Wordpress : Multilingual Sprachen: \n\t- [x] checken plugins",
+      "type": "text",
+      "width": 938,
+      "x": 740,
+      "y": 1069
+    },
+    {
+      "height": 120,
+      "id": "b58e41f0e17910b2",
+      "styleAttributes": {
+      },
+      "text": "# Kostenpunkt ca 800.- - 1000.-",
+      "type": "text",
+      "width": 938,
+      "x": 740,
+      "y": 2658
+    },
+    {
+      "height": 174,
+      "id": "40910e11cb9ee2ae",
+      "styleAttributes": {
+      },
+      "text": "# Trebor IT\n\n- www.nica.network",
+      "type": "text",
+      "width": 650,
+      "x": 1678,
+      "y": 524
+    },
+    {
+      "height": 127,
+      "id": "a761c204e9d56615",
+      "styleAttributes": {
+      },
+      "text": "# 1 / Monat\n",
+      "type": "text",
+      "width": 342,
+      "x": 2706,
+      "y": 2171
+    },
+    {
+      "height": 163,
+      "id": "84accf470290ff01",
+      "styleAttributes": {
+      },
+      "text": "# 1 Stunden / Monat\n ",
+      "type": "text",
+      "width": 480,
+      "x": 2088,
+      "y": 2175
+    },
+    {
+      "height": 143,
+      "id": "18c8e860a6bfff6d",
+      "styleAttributes": {
+      },
+      "text": "# Aller 3 Monate",
+      "type": "text",
+      "width": 523,
+      "x": 2605,
+      "y": 1715
+    },
+    {
+      "height": 120,
+      "id": "2b45c50ab8fd74a0",
+      "styleAttributes": {
+      },
+      "text": "wordpress updaten\nBackup Check \n",
+      "type": "text",
+      "width": 523,
+      "x": 2605,
+      "y": 1968
+    },
+    {
+      "height": 837,
+      "id": "32c3806234cc22da",
+      "styleAttributes": {
+      },
+      "text": "# Automatisiert\nBackups 1 x wöchentlich\nLangzeitBackup auf einen Slot aller 2 Monate\n\n# Regelmäßig\n1h pro Monat für Checks\n0,5 h / Monat : Updates Betriebssystem \n\n# Vergütung\nFür 2024 einigen wir uns auf folgende Rahmenbedingungen:\nStundenlohn 30.- € / h  (Ziel ist es zukünftig auf 30 - 50 zu kommen)\n3h / Monat plus 30h jährlich als Backup\n---> 1980.- € Budget pro Jahr\n\naller 3 Monat ungefähr kurze Rücksprache um Stunden etc. zu checken\n\n\n# Todo\n- robert schickt mir Stunden\n- marc schickt robert vertrag\n- abrechnung\n\n",
+      "type": "text",
+      "width": 1010,
+      "x": 2003,
+      "y": 2778
+    },
+    {
+      "height": 136,
+      "id": "b1f6c4268e673aef",
+      "styleAttributes": {
+      },
+      "text": "# aller 2 Wochen\n",
+      "type": "text",
+      "width": 494,
+      "x": 2034,
+      "y": 1715
+    },
+    {
+      "height": 120,
+      "id": "4dada2c2764fa219",
+      "styleAttributes": {
+      },
+      "text": "Betriebssystem\n",
+      "type": "text",
+      "width": 494,
+      "x": 2034,
+      "y": 1968
+    },
+    {
+      "height": 143,
+      "id": "2bf1aa0a01e7b348",
+      "styleAttributes": {
+      },
+      "text": "# Automatisch\n",
+      "type": "text",
+      "width": 484,
+      "x": 3204,
+      "y": 1715
+    },
+    {
+      "height": 120,
+      "id": "800444f9ab2677ab",
+      "styleAttributes": {
+      },
+      "text": "- [ ] Backup Script\n- [ ] Plugins",
+      "type": "text",
+      "width": 484,
+      "x": 3204,
+      "y": 1968
+    },
+    {
+      "height": 228,
+      "id": "0778127ef7fa83c8",
+      "styleAttributes": {
+      },
+      "text": "5 pro Monat --> bei 12.- € / Stunde \nca. 60.- / Monat\n\n---> 30.- bis 50.- € pro Stunde",
+      "type": "text",
+      "width": 674,
+      "x": 2191,
+      "y": 2430
+    },
+    {
+      "height": 160,
+      "id": "7d47c6481a94e348",
+      "styleAttributes": {
+      },
+      "text": "# Wiederkehrende Arbeiten\n",
+      "type": "text",
+      "width": 586,
+      "x": 2605,
+      "y": 1120
+    }
+  ]
+}

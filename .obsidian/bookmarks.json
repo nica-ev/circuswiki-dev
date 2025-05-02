@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1737597920458,
+      "path": "docs/Obsidian Setup.md",
+      "title": "Obsidian Setup"
+    },
+    {
+      "type": "group",
+      "ctime": 1737602036947,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1737602349668,
+          "path": "_dataview/List of non-existing pages.md",
+          "title": "Nicht vorhandene Notizen"
+        },
+        {
+          "type": "file",
+          "ctime": 1737602531763,
+          "path": "_dataview/Notizen ohne ausgehende Links.md",
+          "title": "Notizen ohne ausgehende Links"
+        },
+        {
+          "type": "file",
+          "ctime": 1737602511135,
+          "path": "_dataview/Notizen ohne Verlinkung.md",
+          "title": "Notizen ohne Verlinkung"
+        },
+        {
+          "type": "file",
+          "ctime": 1742183553486,
+          "path": "_dataview/Spiele yaml check.md",
+          "title": "Spiele YAML Check"
+        }
+      ],
+      "title": "Dataview"
+    },
+    {
+      "type": "group",
+      "ctime": 1737602053651,
+      "items": [],
+      "title": "Suche"
+    },
+    {
+      "type": "group",
+      "ctime": 1737690806240,
+      "items": [
+        {
+          "type": "graph",
+          "ctime": 1742177666303,
+          "title": "spiele",
+          "options": {
+            "collapse-filter": false,
+            "search": "path:docs  tag:#spiele -file:\"Liste aller Spiele\"",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": false,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "tag:#moc  ",
+                "color": {
+                  "a": 1,
+                  "rgb": 15408670
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": false,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1,
+            "lineSizeMultiplier": 1,
+            "collapse-forces": false,
+            "centerStrength": 0.773356401384083,
+            "repelStrength": 20,
+            "linkStrength": 1,
+            "linkDistance": 30,
+            "scale": 0.15592475224694055,
+            "close": true
+          }
+        }
+      ],
+      "title": "Graph"
+    }
+  ]
+}

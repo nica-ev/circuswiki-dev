@@ -1,0 +1,9 @@
+{
+  "baseFontSizeAction": true,
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "obsidian-default-theme"
+  ]
+}

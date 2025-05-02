@@ -1,0 +1,327 @@
+{
+  "edges": [
+    {
+      "fromNode": "ccfcb06608b7af30",
+      "fromSide": "right",
+      "id": "d855d701361247fb",
+      "styleAttributes": {
+      },
+      "toNode": "ac1088b0e2b29367",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ccfcb06608b7af30",
+      "fromSide": "right",
+      "id": "6cca9ff588ba7641",
+      "styleAttributes": {
+      },
+      "toNode": "0ea4b388b5411b41",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "63d6fefbf67ad453",
+      "styleAttributes": {
+      },
+      "toNode": "bb8b8cdd60f07f48",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "2c48c98ec33c3dd1",
+      "styleAttributes": {
+      },
+      "toNode": "66fdd2eb5fdab68f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "30ce0fb949539e8c",
+      "styleAttributes": {
+      },
+      "toNode": "ba0e068a1917f060",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "8b77da6c31daf7c7",
+      "styleAttributes": {
+      },
+      "toNode": "e78585ef4bafe89f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "cb41b87559ce0e95",
+      "styleAttributes": {
+      },
+      "toNode": "7ece97648432a049",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "083e901648d6d821",
+      "styleAttributes": {
+      },
+      "toNode": "314cbfb030a01f1c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0ea4b388b5411b41",
+      "fromSide": "bottom",
+      "id": "b571dbee2ea4580f",
+      "styleAttributes": {
+      },
+      "toNode": "2d04d0fecec57233",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "ccfcb06608b7af30",
+      "styleAttributes": {
+      },
+      "text": "Nextcloud",
+      "type": "text",
+      "width": 260,
+      "x": -760,
+      "y": -340
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "ac1088b0e2b29367",
+      "styleAttributes": {
+      },
+      "text": "Vereinsverwaltung",
+      "type": "text",
+      "width": 260,
+      "x": -310,
+      "y": -260
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "0ea4b388b5411b41",
+      "styleAttributes": {
+      },
+      "text": "Projektverwaltung",
+      "type": "text",
+      "width": 260,
+      "x": -310,
+      "y": -100
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "bb8b8cdd60f07f48",
+      "styleAttributes": {
+      },
+      "text": "NICA e.V.",
+      "type": "text",
+      "width": 260,
+      "x": 40,
+      "y": 40
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "66fdd2eb5fdab68f",
+      "styleAttributes": {
+      },
+      "text": "Tohu e.V.",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1320
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "e78585ef4bafe89f",
+      "styleAttributes": {
+      },
+      "text": "Musterpaket Vereinsdokumente",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1420
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "ba0e068a1917f060",
+      "styleAttributes": {
+      },
+      "text": "Mitarbeiter Verträge und Abrechnungen",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1520
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "7ece97648432a049",
+      "styleAttributes": {
+      },
+      "text": "Materialverleih + Kalkulation",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1620
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "314cbfb030a01f1c",
+      "styleAttributes": {
+      },
+      "text": "Budgetplanung",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1720
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "2d04d0fecec57233",
+      "styleAttributes": {
+      },
+      "text": "Bilder",
+      "type": "text",
+      "width": 260,
+      "x": -10,
+      "y": 1820
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "17c913789cee2d7d",
+      "styleAttributes": {
+      },
+      "text": "Finanzen\n",
+      "type": "text",
+      "width": 260,
+      "x": 170,
+      "y": 200
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "88bfcd5161d4d604",
+      "styleAttributes": {
+      },
+      "text": "Finanzen Elster Zugänge",
+      "type": "text",
+      "width": 260,
+      "x": 350,
+      "y": 310
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "c9efd0f7747b9500",
+      "styleAttributes": {
+      },
+      "text": "gestellte Rechnungen NICA",
+      "type": "text",
+      "width": 260,
+      "x": 350,
+      "y": 420
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "2748357b16eecc97",
+      "styleAttributes": {
+      },
+      "text": "Rechnungen NICA Ausgaben",
+      "type": "text",
+      "width": 260,
+      "x": 350,
+      "y": 520
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "67535f3be61c6657",
+      "styleAttributes": {
+      },
+      "text": "Sparkasse",
+      "type": "text",
+      "width": 260,
+      "x": 350,
+      "y": 610
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "dd23cf6a7d70112a",
+      "styleAttributes": {
+      },
+      "text": "Miete Büro Handwerkerhof",
+      "type": "text",
+      "width": 260,
+      "x": 350,
+      "y": 710
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "c7b3d09a715908fd",
+      "styleAttributes": {
+      },
+      "text": "Newsletter Nica",
+      "type": "text",
+      "width": 260,
+      "x": 170,
+      "y": 900
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "d075c52ce418a903",
+      "styleAttributes": {
+      },
+      "text": "NICA Website",
+      "type": "text",
+      "width": 260,
+      "x": 170,
+      "y": 1000
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "77e9e24111f233e9",
+      "styleAttributes": {
+      },
+      "text": "Protokolle",
+      "type": "text",
+      "width": 260,
+      "x": 170,
+      "y": 1100
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "67776a371fd981b3",
+      "styleAttributes": {
+      },
+      "text": "Vereinsgründung\n",
+      "type": "text",
+      "width": 260,
+      "x": 170,
+      "y": 1200
+    }
+  ]
+}

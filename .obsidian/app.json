@@ -1,0 +1,16 @@
+{
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "spellcheck": false,
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_inbox",
+  "attachmentFolderPath": "docs/img",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

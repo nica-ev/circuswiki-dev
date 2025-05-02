@@ -1,0 +1,431 @@
+{
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "_inbox",
+      "toolbar": "6bb4a042-380c-40ba-9bba-4347808c18af"
+    },
+    {
+      "folder": "*",
+      "toolbar": "cb892060-fb22-43ed-b481-be0ef12bdf5b"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "ribbonAction": "toolbar",
+  "scriptingEnabled": false,
+  "showEditInFabMenu": false,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "6bb4a042-380c-40ba-9bba-4347808c18af",
+      "customClasses": "",
+      "defaultStyles": [
+        "border",
+        "sticky",
+        "button"
+      ],
+      "items": [
+        {
+          "uuid": "1ca1d6ea-871b-4d45-a1e0-29c302a69548",
+          "label": "",
+          "icon": "lucide-move",
+          "link": "Datei in anderen Ordner verschieben",
+          "linkAttr": {
+            "commandId": "file-explorer:move-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Move to another folder",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "d394d3c1-5558-4d2f-851c-8494cfa254c5",
+          "label": "",
+          "icon": "lucide-save",
+          "link": "Aktuelle Datei speichern",
+          "linkAttr": {
+            "commandId": "editor:save-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Save the note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "21c16065-ce41-4c8c-a8bc-51f801b2fa04",
+          "label": "",
+          "icon": "lucide-file-plus",
+          "link": "Neue Notiz erstellen",
+          "linkAttr": {
+            "commandId": "file-explorer:new-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Opens a new note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "6a04d10c-8c27-4dca-992f-2b7a656d8423",
+          "label": "",
+          "icon": "lucide-trash-2",
+          "link": "Aktuelle Datei löschen",
+          "linkAttr": {
+            "commandId": "app:delete-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Deletes the note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "a4403d56-4a99-4038-8d35-64176a07b8a0",
+          "label": "",
+          "icon": "lucide-search",
+          "link": "Omnisearch: Vault search",
+          "linkAttr": {
+            "commandId": "omnisearch:show-modal",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Search",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Inbox",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-01-23T02:07:58.567Z"
+    },
+    {
+      "uuid": "cb892060-fb22-43ed-b481-be0ef12bdf5b",
+      "customClasses": "",
+      "defaultStyles": [
+        "border",
+        "sticky",
+        "button"
+      ],
+      "items": [
+        {
+          "uuid": "4f01824d-da19-4f81-9aaf-3995bbe41885",
+          "label": "",
+          "icon": "lucide-move",
+          "link": "Datei in anderen Ordner verschieben",
+          "linkAttr": {
+            "commandId": "file-explorer:move-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Move to another folder",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "e1cdbf8c-d2ba-452e-a629-ec35e689a486",
+          "label": "",
+          "icon": "lucide-save",
+          "link": "Aktuelle Datei speichern",
+          "linkAttr": {
+            "commandId": "editor:save-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Save the note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "1d0f3f68-cf89-4a4e-a6bc-e947d2fef180",
+          "label": "",
+          "icon": "lucide-file-plus",
+          "link": "Neue Notiz erstellen",
+          "linkAttr": {
+            "commandId": "file-explorer:new-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Opens a new note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "0acded10-9322-409a-90ee-68c7fea57d47",
+          "label": "",
+          "icon": "lucide-search",
+          "link": "Omnisearch: Vault search",
+          "linkAttr": {
+            "commandId": "omnisearch:show-modal",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Search",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Main",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-01-23T01:43:49.723Z"
+    }
+  ],
+  "version": 20240727.1,
+  "whatsnew_version": 1.16
+}
