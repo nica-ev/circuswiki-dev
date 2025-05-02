@@ -131,7 +131,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -255,6 +256,17 @@
   },
   "active": "4e1d11d4419da554",
   "lastOpenFiles": [
+    "sync.ffs_db.413a.ffs_tmp",
+    "sync.ffs_lock",
+    "sync.ffs_db.d577.ffs_tmp",
+    "sync.ffs_db.8379.ffs_tmp",
+    "sync.ffs_db.aea7.ffs_tmp",
+    "sync.ffs_db.7abd.ffs_tmp",
+    "sync.ffs_db.33e3.ffs_tmp",
+    "sync.ffs_db.8b1d.ffs_tmp",
+    "sync.ffs_db.280a.ffs_tmp",
+    "sync.ffs_db.d61a.ffs_tmp",
+    "sync.ffs_db.c6f0.ffs_tmp",
     "docs/blog/posts/Spiele - Datenkram.md",
     "docs/blog/posts/Taming Project Complexity.md",
     "_inbox/CircusWiki - Technical Manual.md",
@@ -285,18 +297,7 @@
     "docs/Robbe und Eisbären.md",
     "docs/Popcorn.md",
     "docs/Pinguine und Killer-Flamingos.md",
-    "docs/Pinguine und Eisbären.md",
     "site/stylesheets/nica-background.jpg",
-    "site/stylesheets/custom_style.css",
-    "site/stylesheets",
-    "site/javascripts/tablesort.js",
-    "site/javascripts/feedback.js",
-    "site/javascripts",
-    "site/search/search_index.json",
-    "site/search",
-    "site/blog/2025/02/25/zettelkasten-wiki-und-mehr---meine-motivation-für-dieses-projekt/index.html",
-    "site/blog/2025/02/25/zettelkasten-wiki-und-mehr---meine-motivation-für-dieses-projekt",
-    "site/blog/2025/02/25",
     "site/assets/images/favicon.png",
     "site/img/Kaskade-002-01.png",
     "site/img/Kaskade-001-16.png",
