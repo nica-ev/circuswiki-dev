@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Games - The Data Side",
+      "path": "docs/blog/posts/Games - The Data Side.md"
     },
     {
       "basename": "Taming Project Complexity",
       "path": "docs/blog/posts/Taming Project Complexity.md"
     },
     {
-      "basename": "Games - The Data Side",
-      "path": "docs/blog/posts/Games - The Data Side.md"
-    },
-    {
       "basename": "Zettelkasten, Wiki, and Beyond",
       "path": "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md"
     },
     {
+      "basename": "Translating PDF Documents",
+      "path": "docs/Translating PDF Documents.md"
+    },
+    {
       "basename": "CircusWiki - Technical Manual",
       "path": "_inbox/CircusWiki - Technical Manual.md"
+    },
+    {
+      "basename": "Screenshot-Google-AiStudio-Translation",
+      "path": "docs/img/Screenshot-Google-AiStudio-Translation.png"
+    },
+    {
+      "basename": "Screenshot-Google-AiStudio-Transcription",
+      "path": "docs/img/Screenshot-Google-AiStudio-Transcription.png"
+    },
+    {
+      "basename": "Kaskade 001",
+      "path": "docs/Kaskade 001.md"
+    },
+    {
+      "basename": "nica-logo-simple-small-150x150",
+      "path": "docs/img/nica-logo-simple-small-150x150.png"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Presentation Wiki Project",
@@ -179,26 +199,6 @@
     {
       "basename": "Suchkind",
       "path": "docs/Suchkind.md"
-    },
-    {
-      "basename": "Sich gegenseitig vorstellen",
-      "path": "docs/Sich gegenseitig vorstellen.md"
-    },
-    {
-      "basename": "Ohrfeigen und Küsse",
-      "path": "docs/Ohrfeigen und Küsse.md"
-    },
-    {
-      "basename": "Kennenlernen mit Bällen",
-      "path": "docs/Kennenlernen mit Bällen.md"
-    },
-    {
-      "basename": "Kennenlernen mit Bällen hinterherlaufen",
-      "path": "docs/Kennenlernen mit Bällen hinterherlaufen.md"
-    },
-    {
-      "basename": "Hallo ich bin",
-      "path": "docs/Hallo ich bin.md"
     }
   ],
   "omittedPaths": [],
