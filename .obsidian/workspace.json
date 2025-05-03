@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/posts/Taming Project Complexity.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Taming Project Complexity"
+              "title": "README"
             }
           },
           {
@@ -255,20 +255,20 @@
   },
   "active": "4e1d11d4419da554",
   "lastOpenFiles": [
+    "sync.ffs_db.15c0.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.29d0.ffs_tmp",
-    "sync.ffs_db.ef29.ffs_tmp",
-    "sync.ffs_db.ecd1.ffs_tmp",
-    "sync.ffs_db.b36c.ffs_tmp",
-    "sync.ffs_db.615e.ffs_tmp",
-    "sync.ffs_db.716e.ffs_tmp",
-    "sync.ffs_db.1139.ffs_tmp",
-    "sync.ffs_db.78f0.ffs_tmp",
-    "sync.ffs_db.cc0e.ffs_tmp",
-    "sync.ffs_db.5bf2.ffs_tmp",
+    "sync.ffs_db.d562.ffs_tmp",
+    "sync.ffs_db.d3f4.ffs_tmp",
+    "sync.ffs_db.577b.ffs_tmp",
+    "sync.ffs_db.51ab.ffs_tmp",
+    "sync.ffs_db.a36f.ffs_tmp",
+    "sync.ffs_db.fcf4.ffs_tmp",
+    "sync.ffs_db.0810.ffs_tmp",
+    "sync.ffs_db.1692.ffs_tmp",
+    "sync.ffs_db.3ea8.ffs_tmp",
+    "docs/blog/posts/Taming Project Complexity.md",
     "docs/blog/posts/Games - The Data Side.md",
     "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md",
-    "docs/blog/posts/Taming Project Complexity.md",
     "_inbox/CircusWiki - Technical Manual.md",
     "_inbox/Presentation Wiki Project.md",
     "docs/Hallo ich bin - mit Bällen.md",

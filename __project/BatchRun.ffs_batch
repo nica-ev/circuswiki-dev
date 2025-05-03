@@ -17,6 +17,10 @@
     <Filter>
         <Include>
             <Item>\docs\</Item>
+            <Item>readme.md</Item>
+            <Item>mkdocs.yml</Item>
+            <Item>requirements.txt</Item>
+            <Item>LICENSE</Item>
         </Include>
         <Exclude>
             <Item>\System Volume Information\</Item>

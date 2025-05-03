@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Taming Project Complexity",
       "path": "docs/blog/posts/Taming Project Complexity.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hallo ich bin",
       "path": "docs/Hallo ich bin.md"
-    },
-    {
-      "basename": "Gute Seiten",
-      "path": "docs/Gute Seiten.md"
     }
   ],
   "omittedPaths": [],
