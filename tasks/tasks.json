@@ -3,62 +3,62 @@
     {
       "id": 1,
       "title": "Set up project structure and dependencies",
-      "description": "Create the initial project structure, define required dependencies, and set up configuration file templates.",
+      "description": "Create the initial project structure for the translation tool within the 'translation-py' directory, define required dependencies, and set up configuration file templates.",
       "status": "pending",
       "dependencies": [],
       "priority": "high",
-      "details": "Create a Python project with appropriate directory structure. Add requirements.txt with dependencies: python-dotenv, ruamel.yaml, markdown-it-py, requests/httpx, hashlib, pathlib. Create template files for settings.txt and translate.env. Set up basic CLI entry point with argparse.",
-      "testStrategy": "Verify project structure is correct. Ensure all dependencies can be installed with pip. Confirm template files are created with appropriate placeholders.",
+      "details": "Create a Python project structure within a 'translation-py' folder. Add requirements.txt with dependencies: python-dotenv, ruamel.yaml, markdown-it-py, requests/httpx, hashlib, pathlib. Create template files for settings.txt and translate.env. Set up basic CLI entry point with argparse.",
+      "testStrategy": "Verify project structure is correct within 'translation-py'. Ensure all dependencies can be installed with pip. Confirm template files are created with appropriate placeholders.",
       "subtasks": [
         {
           "id": 1,
-          "title": "Create basic project directory structure",
-          "description": "Set up the initial directory structure for the Python project following standard practices",
+          "title": "Create basic project directory structure within translation-py",
+          "description": "Set up the initial directory structure for the Python project following standard practices within the 'translation-py' folder.",
           "status": "pending",
           "dependencies": [],
-          "details": "Create the following directory structure:\n- project_root/\n  - src/\n    - __init__.py\n  - tests/\n    - __init__.py\n  - docs/\n  - config/\n  - README.md\n  - .gitignore\n\nEnsure the .gitignore includes standard Python patterns (pycache, virtual environments, etc.). Create empty __init__.py files in appropriate directories to make them proper Python packages."
+          "details": "Create the following directory structure inside the 'translation-py' folder:\n- translation-py/\n  - src/\n    - __init__.py\n  - tests/\n    - __init__.py\n  - docs/\n  - config/\n  - README.md\n  - requirements.txt\n  - .gitignore\n\nEnsure the .gitignore includes standard Python patterns (pycache, virtual environments, etc.). Create empty __init__.py files in appropriate directories to make them proper Python packages. Ensure this structure is created relative to the main project root."
         },
         {
           "id": 2,
           "title": "Define project dependencies and create requirements.txt",
-          "description": "Create a requirements.txt file with all necessary dependencies for the project",
+          "description": "Create a requirements.txt file with all necessary dependencies for the project within the 'translation-py' directory.",
           "status": "pending",
           "dependencies": [
             1
           ],
-          "details": "Create a requirements.txt file in the project root with the following dependencies:\n\npython-dotenv>=1.0.0\nruamel.yaml>=0.17.21\nmarkdown-it-py>=2.2.0\nhttpx>=0.24.0\nrequests>=2.28.2\n\nSpecify minimum versions for each dependency to ensure compatibility. Include comments explaining what each dependency is used for. Consider separating dev dependencies (like testing libraries) into a requirements-dev.txt file."
+          "details": "Create a requirements.txt file inside the 'translation-py' directory with the following dependencies:\n\npython-dotenv>=1.0.0\nruamel.yaml>=0.17.21\nmarkdown-it-py>=2.2.0\nhttpx>=0.24.0\nrequests>=2.28.2\nhashlib\npathlib\n\nSpecify minimum versions for each dependency to ensure compatibility. Include comments explaining what each dependency is used for. Consider separating dev dependencies (like testing libraries) into a requirements-dev.txt file within 'translation-py'."
         },
         {
           "id": 3,
           "title": "Create configuration file templates",
-          "description": "Set up template files for settings.txt and translate.env",
+          "description": "Set up template files for settings.txt and translate.env within the 'translation-py/config' directory.",
           "status": "pending",
           "dependencies": [
             1
           ],
-          "details": "In the config/ directory, create:\n\n1. settings.txt template with placeholders for common configuration options:\n```\n# Application Settings\nDEBUG=false\nLOG_LEVEL=info\n# Add other configuration parameters with default values and comments\n```\n\n2. translate.env template for environment variables:\n```\n# API Keys\nAPI_KEY=your_api_key_here\n\n# Service Configuration\nSERVICE_URL=https://api.example.com/v1/translate\nTIMEOUT=30\n```\n\nInclude comments explaining each configuration option and how to set them."
+          "details": "In the 'translation-py/config/' directory, create:\n\n1. settings.txt template with placeholders for common configuration options:\n```ini\n# Application Settings\nINPUT_DIR=../docs # Default relative to translation-py\nOUTPUT_DIR=../translated_docs # Default relative to translation-py\nTARGET_LANGUAGES=DE,FR,ES\nYAML_TRANSLATE_FIELDS=title,description\nAPI_PROVIDER=DeepL\nTEST_MODE=false\n# Add other configuration parameters with default values and comments\n```\n\n2. translate.env template for environment variables:\n```\n# API Keys\nDEEPL_API_KEY=your_api_key_here\n# Other keys...\n```\n\nInclude comments explaining each configuration option and how to set them. Ensure the default paths consider the location within 'translation-py'."
         },
         {
           "id": 4,
           "title": "Set up CLI entry point structure",
-          "description": "Create the main CLI entry point file with argparse setup",
+          "description": "Create the main CLI entry point file within 'translation-py/src'.",
           "status": "pending",
           "dependencies": [
             1
           ],
-          "details": "Create a file named src/cli.py with the following structure:\n\n```python\n#!/usr/bin/env python3\nimport argparse\nimport sys\n\ndef parse_args():\n    parser = argparse.ArgumentParser(description='Description of your application')\n    \n    # Add common arguments\n    parser.add_argument('-c', '--config', help='Path to configuration file')\n    parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')\n    \n    # Add subparsers for different commands\n    subparsers = parser.add_subparsers(dest='command', help='Commands')\n    \n    # Example command\n    example_parser = subparsers.add_parser('example', help='Example command')\n    example_parser.add_argument('input', help='Input for example command')\n    \n    # Add more commands as needed\n    \n    return parser.parse_args()\n\ndef main():\n    args = parse_args()\n    # Main application logic will go here\n    print(f\"Arguments: {args}\")\n    \nif __name__ == \"__main__\":\n    sys.exit(main())\n```\n\nMake the file executable with appropriate permissions."
+          "details": "Create a file named 'translation-py/src/cli.py' with the following structure:\n\n```python\n#!/usr/bin/env python3\nimport argparse\nimport sys\n\ndef parse_args():\n    parser = argparse.ArgumentParser(description='Markdown Content Translator Tool')\n    \n    # Add common arguments\n    parser.add_argument('-s', '--settings', default='../config/settings.txt', help='Path to settings file (relative to script location)')\n    parser.add_argument('-e', '--env', default='../config/translate.env', help='Path to environment file (relative to script location)')\n    parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')\n    \n    # Add subparsers if needed for different commands later\n    # subparsers = parser.add_subparsers(dest='command', help='Commands')\n    \n    return parser.parse_args()\n\ndef main():\n    args = parse_args()\n    # Main application logic will go here\n    print(f\"Arguments: {args}\")\n    # TODO: Load config using args.settings and args.env\n    \nif __name__ == \"__main__\":\n    sys.exit(main())\n```\n\nMake the file executable with appropriate permissions. Adjust default config/env paths to be relative to the script's expected location within 'translation-py/src'."
         },
         {
           "id": 5,
           "title": "Create package entry point and setup.py",
-          "description": "Set up the main package entry point and create setup.py for installation",
+          "description": "Set up the main package entry point and create setup.py for installation within the 'translation-py' directory.",
           "status": "pending",
           "dependencies": [
             1,
             2,
             4
           ],
-          "details": "1. Create a __main__.py file in the src directory:\n```python\nfrom .cli import main\n\nif __name__ == \"__main__\":\n    main()\n```\n\n2. Create setup.py in the project root:\n```python\nfrom setuptools import setup, find_packages\n\nwith open(\"README.md\", \"r\", encoding=\"utf-8\") as fh:\n    long_description = fh.read()\n\nwith open(\"requirements.txt\", \"r\", encoding=\"utf-8\") as fh:\n    requirements = fh.read().splitlines()\n\nsetup(\n    name=\"your_package_name\",\n    version=\"0.1.0\",\n    author=\"Your Name\",\n    author_email=\"your.email@example.com\",\n    description=\"Short description of your package\",\n    long_description=long_description,\n    long_description_content_type=\"text/markdown\",\n    url=\"https://github.com/yourusername/your-repo\",\n    packages=find_packages(),\n    classifiers=[\n        \"Programming Language :: Python :: 3\",\n        \"License :: OSI Approved :: MIT License\",\n        \"Operating System :: OS Independent\",\n    ],\n    python_requires=\">=3.8\",\n    install_requires=requirements,\n    entry_points={\n        \"console_scripts\": [\n            \"your-command=src.cli:main\",\n        ],\n    },\n)\n```\n\nUpdate the package name, author details, and entry point command name to match your project."
+          "details": "1. Create a '__main__.py' file in the 'translation-py/src' directory:\n```python\nfrom .cli import main\n\nif __name__ == \"__main__\":\n    main()\n```\n\n2. Create 'setup.py' in the 'translation-py' directory:\n```python\nfrom setuptools import setup, find_packages\n\nwith open(\"README.md\", \"r\", encoding=\"utf-8\") as fh:\n    long_description = fh.read()\n\nwith open(\"requirements.txt\", \"r\", encoding=\"utf-8\") as fh:\n    requirements = fh.read().splitlines()\n\nsetup(\n    name=\"markdown_translator\",\n    version=\"0.1.0\",\n    author=\"Your Name / Project Team\",\n    author_email=\"your.email@example.com\",\n    description=\"Tool to translate Markdown files using LLM APIs\",\n    long_description=long_description,\n    long_description_content_type=\"text/markdown\",\n    # url=\"URL to project repo subsection if applicable\",\n    package_dir={'': 'src'},\n    packages=find_packages(where='src'),\n    classifiers=[\n        \"Programming Language :: Python :: 3\",\n        \"License :: OSI Approved :: MIT License\", # Choose appropriate license\n        \"Operating System :: OS Independent\",\n    ],\n    python_requires=\">=3.8\",\n    install_requires=requirements,\n    entry_points={\n        \"console_scripts\": [\n            \"mdtranslate=src.cli:main\",\n        ],\n    },\n)\n```\n\nUpdate the package name, author details, and entry point command name. Ensure `package_dir` and `find_packages` point correctly to the `src` directory within `translation-py`."
         }
       ]
     },
