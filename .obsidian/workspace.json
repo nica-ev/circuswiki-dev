@@ -131,8 +131,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,18 +255,19 @@
   },
   "active": "4e1d11d4419da554",
   "lastOpenFiles": [
-    "sync.ffs_db.9e8c.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.d1ce.ffs_tmp",
-    "sync.ffs_db.e6a3.ffs_tmp",
-    "sync.ffs_db.6350.ffs_tmp",
-    "sync.ffs_db.8f64.ffs_tmp",
-    "sync.ffs_db.3a89.ffs_tmp",
-    "sync.ffs_db.5987.ffs_tmp",
-    "sync.ffs_db.6737.ffs_tmp",
-    "sync.ffs_db.e2c1.ffs_tmp",
-    "sync.ffs_db.c8a5.ffs_tmp",
-    "docs/blog/posts/Spiele - Datenkram.md",
+    "sync.ffs_db.29d0.ffs_tmp",
+    "sync.ffs_db.ef29.ffs_tmp",
+    "sync.ffs_db.ecd1.ffs_tmp",
+    "sync.ffs_db.b36c.ffs_tmp",
+    "sync.ffs_db.615e.ffs_tmp",
+    "sync.ffs_db.716e.ffs_tmp",
+    "sync.ffs_db.1139.ffs_tmp",
+    "sync.ffs_db.78f0.ffs_tmp",
+    "sync.ffs_db.cc0e.ffs_tmp",
+    "sync.ffs_db.5bf2.ffs_tmp",
+    "docs/blog/posts/Games - The Data Side.md",
+    "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md",
     "docs/blog/posts/Taming Project Complexity.md",
     "_inbox/CircusWiki - Technical Manual.md",
     "_inbox/Presentation Wiki Project.md",
@@ -296,7 +296,6 @@
     "docs/Schwänzchen-Hasche.md",
     "docs/Robbe und Eisbären.md",
     "docs/Popcorn.md",
-    "docs/Pinguine und Killer-Flamingos.md",
     "site/stylesheets/nica-background.jpg",
     "site/assets/images/favicon.png",
     "site/img/Kaskade-002-01.png",

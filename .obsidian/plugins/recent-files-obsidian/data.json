@@ -5,8 +5,12 @@
       "path": "docs/blog/posts/Taming Project Complexity.md"
     },
     {
-      "basename": "Spiele - Datenkram",
-      "path": "docs/blog/posts/Spiele - Datenkram.md"
+      "basename": "Games - The Data Side",
+      "path": "docs/blog/posts/Games - The Data Side.md"
+    },
+    {
+      "basename": "Zettelkasten, Wiki, and Beyond",
+      "path": "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md"
     },
     {
       "basename": "CircusWiki - Technical Manual",
@@ -119,10 +123,6 @@
     {
       "basename": "Möhre Hase Fuchs",
       "path": "docs/Möhre Hase Fuchs.md"
-    },
-    {
-      "basename": "Zettelkasten, Wiki und mehr",
-      "path": "docs/blog/posts/Zettelkasten, Wiki und mehr.md"
     },
     {
       "basename": "Luftballon Hasche",

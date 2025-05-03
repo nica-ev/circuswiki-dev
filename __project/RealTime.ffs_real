@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="REAL" XmlFormat="2">
+    <Directories>
+        <Item>C:\Users\Marc Bielert\Github\circuswiki-public</Item>
+        <Item>C:\Users\Marc Bielert\Github\circuswiki-dev</Item>
+    </Directories>
+    <Delay>10</Delay>
+    <Commandline>"C:\Program Files\FreeFileSync\FreeFileSync.exe" "C:\Users\Marc Bielert\Github\circuswiki-dev\__project\BatchRun.ffs_batch"</Commandline>
+</FreeFileSync>
