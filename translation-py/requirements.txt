@@ -1,0 +1,9 @@
+# Dependencies for the Markdown Translator Tool
+
+python-dotenv>=1.0.0 # For loading environment variables from .env files (e.g., API keys)
+ruamel.yaml>=0.17.21 # For parsing and manipulating YAML files (e.g., front matter)
+markdown-it-py>=2.2.0 # For parsing Markdown content
+httpx>=0.24.0 # Asynchronous HTTP client (alternative to requests)
+requests>=2.28.2 # Synchronous HTTP client for API calls
+# hashlib - Built-in Python library for hashing
+# pathlib - Built-in Python library for path manipulation 

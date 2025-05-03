@@ -1,0 +1,11 @@
+# Application Settings
+INPUT_DIR=../docs # Default relative to translation-py root
+OUTPUT_DIR=../translated_docs # Default relative to translation-py root
+TARGET_LANGUAGES=DE,FR,ES # Comma-separated list of target language codes (e.g., DE, FR, ES)
+YAML_TRANSLATE_FIELDS=title,description # Comma-separated list of YAML front matter fields to translate
+API_PROVIDER=DeepL # Choose translation API provider (e.g., DeepL, OpenAI, GoogleTranslate)
+TEST_MODE=false # Set to true to run in test mode (e.g., limit API calls)
+
+# Add other configuration parameters with default values and comments as needed
+# Example: MAX_TOKENS=4000
+# Example: TEMPERATURE=0.7 
