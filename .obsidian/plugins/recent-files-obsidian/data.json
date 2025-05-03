@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/Aufwärmspiele MOC.md"
+    },
+    {
+      "basename": "Taktik und Konzentrationsspiele",
+      "path": "docs/Taktik und Konzentrationsspiele.md"
+    },
+    {
+      "basename": "Spiele zum Kennenlernen",
+      "path": "docs/Spiele zum Kennenlernen.md"
+    },
+    {
+      "basename": "Spiele für Zwischendurch",
+      "path": "docs/Spiele für Zwischendurch.md"
+    },
+    {
+      "basename": "sitemap",
+      "path": "docs/sitemap.md"
+    },
+    {
+      "basename": "Schnelligkeit+Reaktionsspiele",
+      "path": "docs/Schnelligkeit+Reaktionsspiele.md"
+    },
+    {
+      "basename": "MOC Call & Response Spiele",
+      "path": "docs/MOC Call & Response Spiele.md"
+    },
+    {
+      "basename": "Liste aller Spiele",
+      "path": "docs/Liste aller Spiele.md"
+    },
+    {
+      "basename": "Kreisspiele MOC",
+      "path": "docs/Kreisspiele MOC.md"
+    },
+    {
+      "basename": "Kooperationsspiele",
+      "path": "docs/Kooperationsspiele.md"
+    },
+    {
+      "basename": "Klatschspiele MOC",
+      "path": "docs/Klatschspiele MOC.md"
+    },
+    {
+      "basename": "Kaskade Workspace",
+      "path": "docs/Kaskade Workspace.md"
+    },
+    {
+      "basename": "Fangspiele",
+      "path": "docs/Fangspiele.md"
+    },
+    {
+      "basename": "Cooldown Spiele MOC",
+      "path": "docs/Cooldown Spiele MOC.md"
+    },
+    {
+      "basename": "Bewegungsspiele",
+      "path": "docs/Bewegungsspiele.md"
+    },
+    {
       "basename": "Games - The Data Side",
       "path": "docs/blog/posts/Games - The Data Side.md"
     },
@@ -53,10 +117,6 @@
       "path": "docs/doc-sys-2.md"
     },
     {
-      "basename": "Spiele zum Kennenlernen",
-      "path": "docs/Spiele zum Kennenlernen.md"
-    },
-    {
       "basename": "Bällewirrwarr",
       "path": "docs/Bällewirrwarr.md"
     },
@@ -69,10 +129,6 @@
       "path": "docs/Alaska Baseball.md"
     },
     {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/Aufwärmspiele MOC.md"
-    },
-    {
       "basename": "Eisbär auf der Scholle",
       "path": "docs/Eisbär auf der Scholle.md"
     },
@@ -83,10 +139,6 @@
     {
       "basename": "Spiele yaml check",
       "path": "_dataview/Spiele yaml check.md"
-    },
-    {
-      "basename": "Fangspiele",
-      "path": "docs/Fangspiele.md"
     },
     {
       "basename": "Adler Hase Kohlkopf",
@@ -130,10 +182,6 @@
     },
     {
       "basename": "index",
-      "path": "docs/index.md"
-    },
-    {
-      "basename": "index",
       "path": "docs/blog/index.md"
     },
     {
@@ -151,54 +199,6 @@
     {
       "basename": "Luftballon Hasche",
       "path": "docs/Luftballon Hasche.md"
-    },
-    {
-      "basename": "Zombieball",
-      "path": "docs/Zombieball.md"
-    },
-    {
-      "basename": "Mittelalter Schnick Schnack Schnuck",
-      "path": "docs/Mittelalter Schnick Schnack Schnuck.md"
-    },
-    {
-      "basename": "Komm mit, lauf weg",
-      "path": "docs/Komm mit, lauf weg.md"
-    },
-    {
-      "basename": "Ich habe Glück",
-      "path": "docs/Ich habe Glück.md"
-    },
-    {
-      "basename": "Fuchsjagd",
-      "path": "docs/Fuchsjagd.md"
-    },
-    {
-      "basename": "Fuchs und Hase",
-      "path": "docs/Fuchs und Hase.md"
-    },
-    {
-      "basename": "Festnageln",
-      "path": "docs/Festnageln.md"
-    },
-    {
-      "basename": "Farbenhasche",
-      "path": "docs/Farbenhasche.md"
-    },
-    {
-      "basename": "Bombenspiel",
-      "path": "docs/Bombenspiel.md"
-    },
-    {
-      "basename": "5 Drachen und Zwerge",
-      "path": "docs/5 Drachen und Zwerge.md"
-    },
-    {
-      "basename": "Vorstellungsrunde - Werdegang - Symbolisch",
-      "path": "docs/Vorstellungsrunde - Werdegang - Symbolisch.md"
-    },
-    {
-      "basename": "Suchkind",
-      "path": "docs/Suchkind.md"
     }
   ],
   "omittedPaths": [],

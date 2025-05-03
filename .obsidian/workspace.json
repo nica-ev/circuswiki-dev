@@ -43,13 +43,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/posts/Games - The Data Side.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Games - The Data Side"
+              "title": "index"
+            }
+          },
+          {
+            "id": "955262badc091cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Aufwärmspiele MOC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Aufwärmspiele MOC"
             }
           },
           {
@@ -100,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kaskade",
+                "query": "tag:#dynamic  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +146,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -255,20 +271,36 @@
   },
   "active": "5e3d77de6fb3b1a0",
   "lastOpenFiles": [
-    "sync.ffs_db.e730.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.78d5.ffs_tmp",
-    "sync.ffs_db.720a.ffs_tmp",
-    "sync.ffs_db.54a1.ffs_tmp",
-    "sync.ffs_db.0205.ffs_tmp",
-    "sync.ffs_db.4b08.ffs_tmp",
-    "sync.ffs_db.0e75.ffs_tmp",
-    "sync.ffs_db.23cc.ffs_tmp",
-    "sync.ffs_db.8fe0.ffs_tmp",
-    "sync.ffs_db.ad4b.ffs_tmp",
+    "sync.ffs_db.a1d9.ffs_tmp",
+    "sync.ffs_db.9801.ffs_tmp",
+    "sync.ffs_db.857e.ffs_tmp",
+    "sync.ffs_db.9dd6.ffs_tmp",
+    "sync.ffs_db.f9e0.ffs_tmp",
+    "sync.ffs_db.679e.ffs_tmp",
+    "sync.ffs_db.d7ed.ffs_tmp",
+    "sync.ffs_db.f89c.ffs_tmp",
+    "sync.ffs_db.02ab.ffs_tmp",
+    "sync.ffs_db.ba1a.ffs_tmp",
+    "docs/Aufwärmspiele MOC.md",
+    "docs/index.md",
+    "docs/Taktik und Konzentrationsspiele.md",
+    "docs/Spiele zum Kennenlernen.md",
+    "docs/Spiele für Zwischendurch.md",
+    "docs/sitemap.md",
+    "docs/Schnelligkeit+Reaktionsspiele.md",
+    "docs/MOC Call & Response Spiele.md",
+    "docs/Liste aller Spiele.md",
+    "docs/Kreisspiele MOC.md",
+    "docs/Kooperationsspiele.md",
+    "docs/Klatschspiele MOC.md",
+    "docs/Kaskade Workspace.md",
+    "docs/Fangspiele.md",
+    "docs/Cooldown Spiele MOC.md",
+    "docs/Bewegungsspiele.md",
+    "docs/blog/posts/Games - The Data Side.md",
     "docs/blog/posts/Taming Project Complexity.md",
     "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md",
-    "docs/blog/posts/Games - The Data Side.md",
     "docs/Translating PDF Documents.md",
     "_inbox/CircusWiki - Technical Manual.md",
     "docs/img/Screenshot-Google-AiStudio-Translation.png",
@@ -278,27 +310,11 @@
     "README.md",
     "_inbox/Presentation Wiki Project.md",
     "docs/Hallo ich bin - mit Bällen.md",
-    "docs/doc-sys-2.md",
     "docs/img/abhuva_Minimalist_illustration_of_an_open_doorway_leading_to_a__e24f29f5-9dfc-4b28-b25a-6c924b41290f.png",
     "docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png",
     "docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png",
     "docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png",
     "docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png",
-    "docs/Spiele zum Kennenlernen.md",
-    "docs/Bällewirrwarr.md",
-    "docs/Bewegungs-Spiele.md",
-    "docs/Alaska Baseball.md",
-    "docs/Aufwärmspiele MOC.md",
-    "docs/Eisbär auf der Scholle.md",
-    "docs/Der Hund im großen Haus.md",
-    "_dataview/Spiele yaml check.md",
-    "docs/Fangspiele.md",
-    "docs/Adler Hase Kohlkopf.md",
-    "docs/Zombie Hasche mit Namen.md",
-    "_inbox/Fuchs, Hase, Möhre.md",
-    "docs/Zombie - Hasche.md",
-    "docs/Zeithasche.md",
-    "docs/Tellerfänger.md",
     "site/stylesheets/nica-background.jpg",
     "site/assets/images/favicon.png",
     "_canvas/Trebor Aufgaben.canvas",
