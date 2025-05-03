@@ -1,0 +1,43 @@
+# Task ID: 15
+# Title: Implement YAML-only update for existing translated files
+# Status: pending
+# Dependencies: 13, 14
+# Priority: medium
+# Description: Create functionality to update only the YAML frontmatter of existing translated files.
+# Details:
+Extend FileManager to handle the YAML-only update scenario. Implement methods to read existing translated files, update only their YAML frontmatter (with translated fields if needed), and rewrite the files. Ensure the body content remains unchanged during this process.
+
+# Test Strategy:
+Create test scenarios with existing translated files and YAML-only changes in source files. Verify only the YAML frontmatter is updated in translated files. Confirm body content remains unchanged.
+
+# Subtasks:
+## 1. Create YAML frontmatter parsing utility [pending]
+### Dependencies: None
+### Description: Develop a utility function that can extract YAML frontmatter from markdown files while preserving the body content separately
+### Details:
+Implement a utility function that takes a file path as input and returns two separate components: the YAML frontmatter as a structured object and the body content as a string. The function should handle edge cases like missing frontmatter delimiters (---) and invalid YAML. Use existing YAML parsing libraries but create a wrapper that specifically handles the frontmatter extraction pattern in markdown files.
+
+## 2. Implement YAML frontmatter modification function [pending]
+### Dependencies: 15.1
+### Description: Create a function that can update specific fields in the YAML frontmatter without modifying others
+### Details:
+Build on the parsing utility to create a function that accepts the parsed YAML object, a set of fields to update with their new values, and returns the modified YAML object. This function should preserve all existing fields not specified in the update set. Include validation to ensure the updated YAML remains valid and properly formatted. The function should handle nested YAML structures and array fields appropriately.
+
+## 3. Develop file rewriting mechanism with content preservation [pending]
+### Dependencies: 15.1, 15.2
+### Description: Create a function that can rewrite a file with updated YAML frontmatter while preserving the original body content
+### Details:
+Implement a function that takes a file path, the updated YAML object, and the preserved body content, then writes them back to the file. The function should format the YAML properly with the correct delimiter markers (---), maintain any whitespace patterns between the frontmatter and content, and ensure the body content remains completely unchanged. Include error handling for file system operations and implement an atomic write pattern (write to temp file, then rename) to prevent data loss if the operation fails midway.
+
+## 4. Extend FileManager with YAML-only update method [pending]
+### Dependencies: 15.1, 15.2, 15.3
+### Description: Add a new method to the FileManager class that orchestrates the YAML-only update process
+### Details:
+Create a new method in the FileManager class named 'updateYamlOnly' that takes a file path and a set of YAML fields to update. This method should use the previously created utilities to: 1) read and parse the file, 2) update only the specified YAML fields, and 3) write the file back with the updated frontmatter and unchanged body. Include appropriate logging and error handling. The method should return a success/failure status and details about what was updated.
+
+## 5. Implement batch processing for multiple translated files [pending]
+### Dependencies: 15.4
+### Description: Create functionality to perform YAML-only updates across multiple translated files
+### Details:
+Extend the FileManager with a method that can process multiple files in batch. This method should accept a list of file paths and corresponding YAML updates for each, or a pattern to identify files and a common update to apply. Implement parallel processing with appropriate throttling to handle large numbers of files efficiently. Include comprehensive error handling that allows the process to continue even if individual files fail, with detailed reporting of successes and failures. Add transaction-like behavior where possible to ensure consistency across the batch operation.
+

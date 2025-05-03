@@ -1,0 +1,49 @@
+# Task ID: 7
+# Title: Implement translatable text extraction
+# Status: pending
+# Dependencies: 6
+# Priority: high
+# Description: Create functionality to extract text segments suitable for translation from the Markdown AST.
+# Details:
+Extend MarkdownProcessor to identify and extract text from paragraphs, lists, table cells, headers, emphasis, link text, and image alt text. Create a data structure to map extracted text segments to their original locations in the AST. Preserve non-translatable elements like code blocks, inline code, and URLs.
+
+# Test Strategy:
+Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate.
+
+# Subtasks:
+## 1. Define text segment data structure [pending]
+### Dependencies: None
+### Description: Create a data structure to represent extractable text segments and their mapping back to the AST
+### Details:
+Design and implement a TextSegment class/interface that contains: 1) the extracted text content, 2) a reference to the original AST node, 3) metadata about the segment type (paragraph, heading, list item, etc.), 4) position information for reassembly. Also implement a TranslationMap class to store and manage collections of TextSegments with methods to add, retrieve, and manipulate segments.
+
+## 2. Implement AST visitor pattern [pending]
+### Dependencies: 7.1
+### Description: Create a visitor pattern implementation to traverse the Markdown AST
+### Details:
+Implement a MarkdownAstVisitor class that can traverse all node types in the Markdown AST. This should follow the visitor design pattern with methods like visitParagraph(), visitHeading(), visitList(), etc. The visitor should maintain context during traversal (like nesting level) and provide hooks for processing different node types. This will serve as the foundation for text extraction in the next steps.
+
+## 3. Extract text from block elements [pending]
+### Dependencies: 7.1, 7.2
+### Description: Implement extraction of translatable text from block-level elements
+### Details:
+Extend the MarkdownProcessor to extract text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable.
+
+## 4. Extract text from inline elements [pending]
+### Dependencies: 7.1, 7.2, 7.3
+### Description: Implement extraction of translatable text from inline formatting elements
+### Details:
+Extend the text extraction to handle inline elements including: emphasis (bold/italic), links (extract link text but not URLs), image alt text, and other inline formatting. Create appropriate TextSegment instances for these elements, maintaining their relationship to parent block elements. Ensure inline code spans are preserved and not extracted for translation.
+
+## 5. Implement table content extraction [pending]
+### Dependencies: 7.1, 7.2
+### Description: Add support for extracting text from table headers and cells
+### Details:
+Extend the MarkdownProcessor to handle tables, extracting text from both header cells and body cells. Create TextSegment instances for each cell's content, maintaining information about the table structure (row/column position). Handle any inline formatting within table cells by leveraging the inline extraction logic. Ensure table structure metadata is preserved for reassembly.
+
+## 6. Create segment reassembly functionality [pending]
+### Dependencies: 7.1, 7.2, 7.3, 7.4, 7.5
+### Description: Implement functionality to replace translated text back into the original AST
+### Details:
+Create methods in the MarkdownProcessor to take translated TextSegments and update the original AST with the translated content. Implement a reassembly algorithm that uses the stored node references and position information to correctly place translated text while preserving all non-translatable elements and document structure. Add validation to ensure all segments are accounted for and the document structure remains intact.
+

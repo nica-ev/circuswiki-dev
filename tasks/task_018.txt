@@ -1,0 +1,37 @@
+# Task ID: 18
+# Title: Implement detailed logging
+# Status: pending
+# Dependencies: 17
+# Priority: medium
+# Description: Add comprehensive logging throughout the application.
+# Details:
+Implement detailed logging using Python's logging module. Include information about: files found, files skipped (with reason), files processed, translation status, files written, and errors encountered. Add configuration options for log level. Ensure logs are useful for debugging and monitoring progress.
+
+# Test Strategy:
+Run the application with various log levels and verify appropriate information is logged. Create test scenarios that trigger different log messages. Confirm logs provide useful information for debugging issues.
+
+# Subtasks:
+## 1. Set up basic logging infrastructure [pending]
+### Dependencies: None
+### Description: Create a logging configuration system that allows for different log levels and output destinations
+### Details:
+Create a logging module that initializes Python's logging system. Implement configuration options for log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL) that can be set via command line arguments or configuration file. Set up appropriate log formatters that include timestamp, log level, and message. Configure log output destinations (console, file, or both). Create helper functions that other parts of the application can use to get properly configured logger instances.
+
+## 2. Implement file discovery and selection logging [pending]
+### Dependencies: 18.1
+### Description: Add logging for file discovery process and selection criteria
+### Details:
+Add logging statements to the file discovery and selection components. Log at INFO level when scanning directories. Log at DEBUG level for each file found. Log at INFO level for files skipped with the specific reason (e.g., 'file already translated', 'file type not supported'). Include file counts in summary logs. Ensure all potential error conditions during file discovery are logged at WARNING or ERROR level as appropriate.
+
+## 3. Implement translation process logging [pending]
+### Dependencies: 18.1
+### Description: Add detailed logging for the translation process
+### Details:
+Add logging statements throughout the translation process. Log at INFO level when translation begins and ends for each file. Log at DEBUG level for detailed translation steps (e.g., 'extracting text', 'sending to translation API', 'received translation'). Log translation statistics at INFO level (e.g., number of segments translated, characters processed). Log any translation errors or warnings at appropriate levels. Include performance metrics such as translation time per file at DEBUG level.
+
+## 4. Implement output and error handling logging [pending]
+### Dependencies: 18.1, 18.2, 18.3
+### Description: Add logging for file writing operations and comprehensive error handling
+### Details:
+Add logging for all file writing operations. Log at INFO level when writing output files with destination paths. Log at DEBUG level for details about file content being written. Implement comprehensive error logging throughout the application, ensuring all exceptions are caught and logged with appropriate context. Create a system for aggregating errors and providing summary logs at the end of processing. Add logging for application startup and shutdown, including configuration settings at startup (at INFO level) and summary statistics at shutdown (number of files processed, success rate, etc.).
+

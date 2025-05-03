@@ -1,0 +1,43 @@
+# Task ID: 4
+# Title: Implement YAML frontmatter parsing
+# Status: pending
+# Dependencies: 3
+# Priority: high
+# Description: Create functionality to parse and extract YAML frontmatter from Markdown files.
+# Details:
+Extend FileManager to read Markdown files and extract YAML frontmatter. Use ruamel.yaml for parsing. Handle edge cases like files without frontmatter or with malformed YAML. Implement a function to check if a file is eligible for translation by verifying the 'orig: true' flag in frontmatter.
+
+# Test Strategy:
+Create test Markdown files with various frontmatter configurations. Verify correct parsing of valid frontmatter and appropriate handling of edge cases. Confirm 'orig: true' check works correctly.
+
+# Subtasks:
+## 1. Add ruamel.yaml dependency and create basic frontmatter extraction function [pending]
+### Dependencies: None
+### Description: Set up the project with the ruamel.yaml dependency and implement a basic function to extract YAML frontmatter from Markdown content
+### Details:
+Install ruamel.yaml package and add it to requirements.txt. Create a new function in FileManager called `extract_frontmatter(content)` that takes Markdown content as a string and returns the extracted YAML frontmatter as a Python dictionary. The function should identify content between '---' delimiters at the start of the file and parse it using ruamel.yaml.
+
+## 2. Extend FileManager to read Markdown files with frontmatter support [pending]
+### Dependencies: 4.1
+### Description: Modify the FileManager class to read Markdown files and automatically extract frontmatter when reading these files
+### Details:
+Add a new method to FileManager called `read_markdown_with_frontmatter(file_path)` that reads a Markdown file and returns a tuple containing (frontmatter_dict, content_without_frontmatter). This method should use the extract_frontmatter function from subtask 1. Ensure the returned content has the frontmatter section removed.
+
+## 3. Implement error handling for edge cases [pending]
+### Dependencies: 4.1, 4.2
+### Description: Add robust error handling for various edge cases in frontmatter parsing
+### Details:
+Enhance the frontmatter extraction function to handle edge cases: 1) Files without frontmatter should return an empty dictionary for frontmatter, 2) Files with malformed YAML should raise a specific custom exception (create a FrontmatterParsingError class), 3) Files with frontmatter delimiters but empty content should return an empty dictionary. Add appropriate logging for these scenarios.
+
+## 4. Implement translation eligibility checking [pending]
+### Dependencies: 4.1, 4.2, 4.3
+### Description: Create a function to determine if a file is eligible for translation based on frontmatter
+### Details:
+Add a method to FileManager called `is_eligible_for_translation(file_path)` that checks if a Markdown file should be translated. This function should extract the frontmatter and return True if the frontmatter contains 'orig: true', otherwise return False. Handle the case where the file doesn't exist or can't be read properly.
+
+## 5. Create utility functions for frontmatter manipulation [pending]
+### Dependencies: 4.1, 4.2, 4.3, 4.4
+### Description: Implement helper functions to work with frontmatter data
+### Details:
+Create additional utility functions in FileManager: 1) `get_frontmatter_value(file_path, key, default=None)` to retrieve a specific value from frontmatter, 2) `update_frontmatter(file_path, updates_dict)` to modify frontmatter and save changes back to the file, 3) `strip_frontmatter(content)` to remove frontmatter from content without parsing it. These functions should build on the existing functionality and maintain consistent error handling.
+

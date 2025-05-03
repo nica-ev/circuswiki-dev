@@ -1,0 +1,37 @@
+# Task ID: 9
+# Title: Implement test mode for TranslationService
+# Status: pending
+# Dependencies: 8
+# Priority: medium
+# Description: Add a test mode that simulates translation without making API calls.
+# Details:
+Extend TranslationService to check the TEST_MODE configuration flag. When enabled, return the original text instead of making API calls. Add logging to indicate when test mode is active. Ensure the same processing flow is followed regardless of test mode status.
+
+# Test Strategy:
+Enable test mode and verify no API calls are made. Confirm the original text is returned as the 'translation'. Verify logging indicates test mode is active.
+
+# Subtasks:
+## 1. Add TEST_MODE configuration flag [pending]
+### Dependencies: None
+### Description: Create a configuration flag that determines whether the translation service should operate in test mode
+### Details:
+Add a boolean TEST_MODE flag to the application's configuration system. This could be in an environment variable, configuration file, or wherever other configuration settings are stored. Default value should be false. Document the new configuration option in relevant documentation. Create a method in the configuration service to access this flag.
+
+## 2. Modify TranslationService to check for test mode [pending]
+### Dependencies: 9.1
+### Description: Update the TranslationService to check the TEST_MODE flag before processing translations
+### Details:
+Inject or access the configuration service in the TranslationService. At the beginning of the translation method, add logic to check if TEST_MODE is enabled. Create a private method like 'isTestModeEnabled()' that encapsulates this check for better readability and reuse. Ensure this check happens before any API call preparation.
+
+## 3. Implement test mode translation logic [pending]
+### Dependencies: 9.2
+### Description: Add conditional logic to return original text when in test mode instead of making API calls
+### Details:
+In the main translation method, add a conditional branch that executes when test mode is enabled. In this branch, skip the API call and instead return the original text wrapped in the same response object structure that would normally be returned after a successful API call. Ensure all the same data transformations and validations still occur so the return signature is identical regardless of mode.
+
+## 4. Add logging for test mode operation [pending]
+### Dependencies: 9.3
+### Description: Implement logging to indicate when translations are being processed in test mode
+### Details:
+Add appropriate log statements that indicate when the service is operating in test mode. Log at INFO level when test mode is active and a translation is being simulated. Include relevant details such as the original text length, language pairs, and any other contextual information that would be useful for debugging. Ensure logs clearly distinguish between real translations and test mode translations.
+

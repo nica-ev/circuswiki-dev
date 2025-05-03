@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "generatedAt": "2025-05-03T22:50:46.945Z",
+    "tasksAnalyzed": 20,
+    "thresholdScore": 5,
+    "projectName": "Your Project Name",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "Set up project structure and dependencies",
+      "complexityScore": 5,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the process of setting up a Python project structure with appropriate directories, dependencies management, configuration templates, and CLI entry point following best practices",
+      "reasoning": "This task involves creating a standard Python project structure with multiple components including directory setup, dependency management, template creation, and CLI setup. While not highly complex, it requires following Python project best practices and setting up multiple components correctly."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "Implement ConfigLoader component",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the steps to implement a ConfigLoader class that reads from multiple configuration sources, validates required fields, and handles errors appropriately",
+      "reasoning": "This task requires implementing a component that reads from multiple configuration sources, performs validation, and handles errors. It involves working with environment variables and configuration files, with proper error handling for various failure scenarios."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "Implement basic FileManager for directory scanning",
+      "complexityScore": 4,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the implementation of a FileManager class that recursively scans directories for Markdown files with proper error handling and cross-platform compatibility",
+      "reasoning": "This task involves implementing directory traversal with pathlib for cross-platform compatibility. While not highly complex, it requires proper error handling for directory access issues and recursive scanning logic."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "Implement YAML frontmatter parsing",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the steps to extend the FileManager to extract and parse YAML frontmatter from Markdown files, handling various edge cases and validation requirements",
+      "reasoning": "This task requires parsing Markdown files to extract YAML frontmatter, handling various edge cases like missing or malformed YAML. It involves working with external libraries and implementing validation logic for translation eligibility."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "Implement content hash calculation",
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the implementation of methods to calculate and normalize content hashes for both Markdown body and YAML frontmatter with consistent normalization",
+      "reasoning": "This task involves implementing hash calculation for different content types with specific exclusion rules. The complexity comes from ensuring consistent normalization to avoid false change detection and handling different content types appropriately."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Implement basic MarkdownProcessor with AST generation",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the steps to implement a MarkdownProcessor that parses Markdown into an AST and provides traversal mechanisms for different node types",
+      "reasoning": "This task requires working with Abstract Syntax Trees for Markdown, which involves understanding the markdown-it-py library and implementing traversal mechanisms. The complexity comes from handling the nested structure of Markdown documents and different node types."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "Implement translatable text extraction",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the process of extracting translatable text segments from different Markdown elements while preserving non-translatable elements and maintaining mapping to original locations",
+      "reasoning": "This task involves complex AST traversal to identify and extract text from various Markdown elements while preserving structure. Creating a mapping between extracted text and original locations adds significant complexity, as does handling various Markdown elements differently."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "Implement TranslationService with DeepL integration",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation of a TranslationService that integrates with the DeepL API, handles responses, errors, retries, and supports multiple target languages",
+      "reasoning": "This task involves external API integration with error handling, retries, and support for multiple languages. Working with external services adds complexity due to potential network issues, rate limiting, and parsing responses correctly."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Implement test mode for TranslationService",
+      "complexityScore": 3,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the steps to add a test mode to the TranslationService that simulates translation without making API calls while maintaining the same processing flow",
+      "reasoning": "This task is relatively simple as it extends existing functionality with a conditional path that returns original text instead of making API calls. The main challenge is ensuring the same processing flow is maintained regardless of mode."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Implement Markdown reconstruction from translated segments",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Detail the steps to rebuild Markdown content by replacing original text segments in the AST with translated segments while preserving all formatting and non-translated elements",
+      "reasoning": "This task involves complex AST manipulation to replace text segments while preserving structure. Ensuring all formatting, links, and non-translated elements are preserved correctly adds significant complexity, especially with nested elements."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "Implement output file generation",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the implementation of functionality to construct output paths, create directories, generate YAML frontmatter for translated files, and write reconstructed Markdown to output files",
+      "reasoning": "This task involves file path construction, directory creation, YAML frontmatter generation, and file writing operations. The complexity comes from handling multiple target languages and ensuring proper directory structure and frontmatter generation."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "Implement source file hash update",
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the steps to update content_hash and yaml_hash values in source file frontmatter after processing, with careful file writing and error handling",
+      "reasoning": "This task involves modifying existing files with new hash values, which requires careful file reading and writing to avoid data loss. The complexity comes from ensuring atomicity and handling potential file write failures."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "Implement YAML field translation",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the process of extending the MarkdownProcessor to identify, extract, translate, and update specified YAML frontmatter fields",
+      "reasoning": "This task requires extending existing components to handle YAML field translation, which involves identifying fields for translation, extracting text, updating mapping structures, and modifying the TranslationService. The complexity comes from integrating with multiple existing components."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "Implement change detection logic",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation of logic to compare calculated hashes with stored hashes and determine appropriate translation actions based on different change scenarios",
+      "reasoning": "This task involves implementing decision logic based on hash comparisons with multiple possible outcomes. The complexity comes from handling different scenarios correctly and integrating with the overall workflow."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "Implement YAML-only update for existing translated files",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the steps to implement functionality that updates only the YAML frontmatter of existing translated files while preserving body content",
+      "reasoning": "This task requires reading existing files, modifying only their YAML frontmatter, and rewriting them without changing body content. The complexity comes from ensuring only the intended parts are modified and handling potential file access issues."
+    },
+    {
+      "taskId": 16,
+      "taskTitle": "Implement support for WikiLinks syntax",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the steps to extend the MarkdownProcessor to recognize and handle WikiLinks patterns during translation, preserving link targets while translating aliases",
+      "reasoning": "This task involves extending the AST traversal and text extraction logic to handle specific Markdown syntax patterns. The complexity comes from identifying WikiLinks patterns and implementing special handling to translate only specific portions."
+    },
+    {
+      "taskId": 17,
+      "taskTitle": "Implement comprehensive error handling",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the process of implementing robust error handling throughout all components of the application with specific handling for different error types and recovery options",
+      "reasoning": "This task requires reviewing all components and adding comprehensive error handling for various scenarios. The complexity comes from handling different error types appropriately, implementing recovery options, and ensuring consistent error reporting across the application."
+    },
+    {
+      "taskId": 18,
+      "taskTitle": "Implement detailed logging",
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation of comprehensive logging throughout the application using Python's logging module with appropriate log levels and useful information",
+      "reasoning": "This task involves adding logging throughout the application with appropriate detail levels. While not technically complex, it requires careful consideration of what information is useful for debugging and monitoring across all components."
+    },
+    {
+      "taskId": 19,
+      "taskTitle": "Implement extensible translation provider system",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the steps to refactor the TranslationService to support multiple translation providers using a provider pattern with abstraction and factory method",
+      "reasoning": "This task involves refactoring existing code to use a provider pattern with abstraction, which requires careful design to ensure extensibility. The complexity comes from designing a flexible system that can accommodate different providers while maintaining existing functionality."
+    },
+    {
+      "taskId": 20,
+      "taskTitle": "Implement main application workflow",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Detail the implementation of the main application class that orchestrates all components into a complete workflow with progress reporting and CLI interface",
+      "reasoning": "This task involves orchestrating all components into a cohesive workflow, which requires understanding how all parts interact. The complexity comes from coordinating multiple components, handling edge cases, providing progress reporting, and creating a user-friendly CLI interface."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# Task ID: 16
+# Title: Implement support for WikiLinks syntax
+# Status: pending
+# Dependencies: 7, 10
+# Priority: low
+# Description: Add support for handling Obsidian-style WikiLinks during translation.
+# Details:
+Extend MarkdownProcessor to recognize WikiLinks patterns ([[LinkTarget]] or [[LinkTarget|Alias]]). Implement special handling to translate only the Alias portion while preserving the LinkTarget. Update the AST traversal and text extraction logic to handle these patterns correctly.
+
+# Test Strategy:
+Create test Markdown files with various WikiLinks patterns. Verify only the Alias portions are extracted for translation. Confirm reconstructed Markdown preserves the correct WikiLinks structure.
+
+# Subtasks:
+## 1. Add WikiLinks pattern recognition to MarkdownProcessor [pending]
+### Dependencies: None
+### Description: Extend the MarkdownProcessor to identify and parse Obsidian-style WikiLinks patterns in markdown text
+### Details:
+Create regular expressions to match both WikiLinks formats ([[LinkTarget]] and [[LinkTarget|Alias]]). Implement a method to identify these patterns in the source text before AST parsing. This will serve as the foundation for special handling of these elements. Add unit tests to verify pattern recognition works correctly for various WikiLinks formats.
+
+## 2. Extend AST to represent WikiLinks nodes [pending]
+### Dependencies: 16.1
+### Description: Create specialized AST node types to represent WikiLinks with their components (target and optional alias)
+### Details:
+Define new AST node classes (e.g., WikiLinkNode) that can store both the link target and alias components separately. Ensure these nodes properly integrate with the existing AST structure. Implement methods to distinguish between the target (which should not be translated) and alias (which should be translated). Update the AST builder to create these specialized nodes when WikiLinks patterns are encountered.
+
+## 3. Implement text extraction for WikiLinks translation [pending]
+### Dependencies: 16.2
+### Description: Modify the text extraction logic to properly handle WikiLinks, extracting only the alias portion for translation
+### Details:
+Update the text extraction visitor to recognize WikiLink nodes. For WikiLinks with aliases ([[LinkTarget|Alias]]), extract only the alias text for translation. For simple WikiLinks ([[LinkTarget]]), determine if the target should be left untranslated or if the displayed text should be translated. Add appropriate context markers in the extracted text to identify WikiLinks segments for reassembly later.
+
+## 4. Implement translation result reintegration for WikiLinks [pending]
+### Dependencies: 16.3
+### Description: Develop logic to correctly reintegrate translated text back into WikiLinks structure
+### Details:
+Create a specialized handler for WikiLinks during the translation reintegration phase. Ensure that only the alias portion is replaced with translated text while preserving the link target. Maintain the correct WikiLinks syntax ([[target|translated-alias]]) in the final output. Handle edge cases such as nested delimiters and escaped characters within WikiLinks.
+
+## 5. Add comprehensive testing and documentation for WikiLinks support [pending]
+### Dependencies: 16.4
+### Description: Create tests and documentation for the WikiLinks translation functionality
+### Details:
+Develop integration tests that verify the entire WikiLinks translation workflow from recognition to final output. Test various scenarios including simple links, links with aliases, links with special characters, and nested structures. Document the WikiLinks support in the user guide, explaining how the feature works and any limitations. Update developer documentation to explain the implementation approach and how to extend it if needed.
+

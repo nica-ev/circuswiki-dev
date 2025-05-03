@@ -1,0 +1,43 @@
+# Task ID: 8
+# Title: Implement TranslationService with DeepL integration
+# Status: pending
+# Dependencies: 2
+# Priority: high
+# Description: Create a service to send text to the DeepL API for translation.
+# Details:
+Implement a TranslationService class that sends extracted text to the DeepL API. Use the API key from configuration. Handle API response parsing, error handling, and retries. Include support for multiple target languages as specified in configuration.
+
+# Test Strategy:
+Create mock API responses to test successful translations and error handling. If possible, test with actual DeepL API using small text samples. Verify correct handling of multiple target languages.
+
+# Subtasks:
+## 1. Create TranslationService class structure and configuration [pending]
+### Dependencies: None
+### Description: Set up the basic class structure for TranslationService and implement configuration loading for the DeepL API key and supported languages
+### Details:
+Create a TranslationService class with constructor that loads configuration. Implement methods to retrieve the API key from configuration and load the list of supported target languages. Add appropriate interfaces and dependency injection support. Include configuration validation to ensure required settings are present.
+
+## 2. Implement core translation method with DeepL API integration [pending]
+### Dependencies: 8.1
+### Description: Create the primary translation method that sends text to the DeepL API and processes the basic response
+### Details:
+Implement a TranslateText method that takes source text and target language code as parameters. Create the HTTP client to communicate with DeepL API. Build the request with proper authentication headers using the API key. Send the request to the DeepL translation endpoint and parse the basic successful response. Return the translated text.
+
+## 3. Add comprehensive error handling for API responses [pending]
+### Dependencies: 8.2
+### Description: Enhance the translation method with proper error handling for various API response scenarios
+### Details:
+Implement error handling for different HTTP status codes (401 for authentication issues, 429 for rate limiting, etc.). Create custom exception types for different error scenarios. Parse error messages from the DeepL API response. Add logging for errors with appropriate severity levels. Ensure the service provides meaningful error messages to callers.
+
+## 4. Implement retry mechanism for transient failures [pending]
+### Dependencies: 8.3
+### Description: Add a retry mechanism to handle temporary failures when communicating with the DeepL API
+### Details:
+Implement an exponential backoff retry strategy for transient errors (network issues, 5xx responses, etc.). Configure retry count and delay parameters from configuration. Add circuit breaker pattern to prevent overwhelming the API during extended outages. Implement timeout handling. Add detailed logging for retry attempts.
+
+## 5. Add batch translation support and language detection [pending]
+### Dependencies: 8.4
+### Description: Extend the service with methods for batch translation and automatic language detection
+### Details:
+Implement a BatchTranslate method to efficiently translate multiple texts in a single API call. Add support for automatic source language detection using DeepL's detection capabilities. Create methods to validate if a target language is supported. Implement caching for frequently translated content to reduce API calls. Add usage statistics tracking to monitor API consumption.
+

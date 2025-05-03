@@ -1,0 +1,1276 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Set up project structure and dependencies",
+      "description": "Create the initial project structure, define required dependencies, and set up configuration file templates.",
+      "status": "pending",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Create a Python project with appropriate directory structure. Add requirements.txt with dependencies: python-dotenv, ruamel.yaml, markdown-it-py, requests/httpx, hashlib, pathlib. Create template files for settings.txt and translate.env. Set up basic CLI entry point with argparse.",
+      "testStrategy": "Verify project structure is correct. Ensure all dependencies can be installed with pip. Confirm template files are created with appropriate placeholders.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create basic project directory structure",
+          "description": "Set up the initial directory structure for the Python project following standard practices",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create the following directory structure:\n- project_root/\n  - src/\n    - __init__.py\n  - tests/\n    - __init__.py\n  - docs/\n  - config/\n  - README.md\n  - .gitignore\n\nEnsure the .gitignore includes standard Python patterns (pycache, virtual environments, etc.). Create empty __init__.py files in appropriate directories to make them proper Python packages."
+        },
+        {
+          "id": 2,
+          "title": "Define project dependencies and create requirements.txt",
+          "description": "Create a requirements.txt file with all necessary dependencies for the project",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Create a requirements.txt file in the project root with the following dependencies:\n\npython-dotenv>=1.0.0\nruamel.yaml>=0.17.21\nmarkdown-it-py>=2.2.0\nhttpx>=0.24.0\nrequests>=2.28.2\n\nSpecify minimum versions for each dependency to ensure compatibility. Include comments explaining what each dependency is used for. Consider separating dev dependencies (like testing libraries) into a requirements-dev.txt file."
+        },
+        {
+          "id": 3,
+          "title": "Create configuration file templates",
+          "description": "Set up template files for settings.txt and translate.env",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "In the config/ directory, create:\n\n1. settings.txt template with placeholders for common configuration options:\n```\n# Application Settings\nDEBUG=false\nLOG_LEVEL=info\n# Add other configuration parameters with default values and comments\n```\n\n2. translate.env template for environment variables:\n```\n# API Keys\nAPI_KEY=your_api_key_here\n\n# Service Configuration\nSERVICE_URL=https://api.example.com/v1/translate\nTIMEOUT=30\n```\n\nInclude comments explaining each configuration option and how to set them."
+        },
+        {
+          "id": 4,
+          "title": "Set up CLI entry point structure",
+          "description": "Create the main CLI entry point file with argparse setup",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Create a file named src/cli.py with the following structure:\n\n```python\n#!/usr/bin/env python3\nimport argparse\nimport sys\n\ndef parse_args():\n    parser = argparse.ArgumentParser(description='Description of your application')\n    \n    # Add common arguments\n    parser.add_argument('-c', '--config', help='Path to configuration file')\n    parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')\n    \n    # Add subparsers for different commands\n    subparsers = parser.add_subparsers(dest='command', help='Commands')\n    \n    # Example command\n    example_parser = subparsers.add_parser('example', help='Example command')\n    example_parser.add_argument('input', help='Input for example command')\n    \n    # Add more commands as needed\n    \n    return parser.parse_args()\n\ndef main():\n    args = parse_args()\n    # Main application logic will go here\n    print(f\"Arguments: {args}\")\n    \nif __name__ == \"__main__\":\n    sys.exit(main())\n```\n\nMake the file executable with appropriate permissions."
+        },
+        {
+          "id": 5,
+          "title": "Create package entry point and setup.py",
+          "description": "Set up the main package entry point and create setup.py for installation",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            4
+          ],
+          "details": "1. Create a __main__.py file in the src directory:\n```python\nfrom .cli import main\n\nif __name__ == \"__main__\":\n    main()\n```\n\n2. Create setup.py in the project root:\n```python\nfrom setuptools import setup, find_packages\n\nwith open(\"README.md\", \"r\", encoding=\"utf-8\") as fh:\n    long_description = fh.read()\n\nwith open(\"requirements.txt\", \"r\", encoding=\"utf-8\") as fh:\n    requirements = fh.read().splitlines()\n\nsetup(\n    name=\"your_package_name\",\n    version=\"0.1.0\",\n    author=\"Your Name\",\n    author_email=\"your.email@example.com\",\n    description=\"Short description of your package\",\n    long_description=long_description,\n    long_description_content_type=\"text/markdown\",\n    url=\"https://github.com/yourusername/your-repo\",\n    packages=find_packages(),\n    classifiers=[\n        \"Programming Language :: Python :: 3\",\n        \"License :: OSI Approved :: MIT License\",\n        \"Operating System :: OS Independent\",\n    ],\n    python_requires=\">=3.8\",\n    install_requires=requirements,\n    entry_points={\n        \"console_scripts\": [\n            \"your-command=src.cli:main\",\n        ],\n    },\n)\n```\n\nUpdate the package name, author details, and entry point command name to match your project."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Implement ConfigLoader component",
+      "description": "Create a component to load and validate configuration from settings.txt and translate.env files.",
+      "status": "pending",
+      "dependencies": [
+        1
+      ],
+      "priority": "high",
+      "details": "Implement a ConfigLoader class that reads settings.txt for INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE. Use python-dotenv to read translate.env for API keys (e.g., DEEPL_API_KEY). Include validation for required fields and appropriate error handling for missing or invalid configuration.",
+      "testStrategy": "Create test configuration files with valid and invalid settings. Verify ConfigLoader correctly loads settings, validates required fields, and raises appropriate exceptions for invalid configurations.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create ConfigLoader class skeleton with file path handling",
+          "description": "Set up the basic structure of the ConfigLoader class with initialization and file path handling for both configuration files.",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a new file `config_loader.py` with a ConfigLoader class. Implement the `__init__` method that accepts optional paths to settings.txt and translate.env files (with defaults). Add methods to validate file existence and readability. Include basic exception handling for file access issues and implement logging setup."
+        },
+        {
+          "id": 2,
+          "title": "Implement settings.txt parser",
+          "description": "Create functionality to read and parse the settings.txt file for configuration parameters.",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add a method `_parse_settings_file()` that reads the settings.txt file and extracts the required configuration parameters (INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE). Parse each line using appropriate string manipulation (e.g., splitting by '=' and stripping whitespace). Store the parsed values in a dictionary attribute. Handle comments and empty lines appropriately."
+        },
+        {
+          "id": 3,
+          "title": "Implement environment variable loading with python-dotenv",
+          "description": "Add functionality to load API keys from translate.env using python-dotenv.",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Use python-dotenv to load environment variables from the translate.env file. Add a method `_load_env_variables()` that reads API keys (e.g., DEEPL_API_KEY) from the environment file. Store these values in a separate dictionary attribute. Include error handling for missing or inaccessible environment files."
+        },
+        {
+          "id": 4,
+          "title": "Implement configuration validation",
+          "description": "Add validation logic to ensure all required configuration parameters are present and valid.",
+          "status": "pending",
+          "dependencies": [
+            2,
+            3
+          ],
+          "details": "Create a `validate_config()` method that checks if all required fields are present and have valid values. Define validation rules for each parameter (e.g., directories should exist or be creatable, TARGET_LANGUAGES should be a comma-separated list, API_PROVIDER should be one of the supported options). Implement type checking and format validation for each field. Raise specific exceptions with clear error messages for validation failures."
+        },
+        {
+          "id": 5,
+          "title": "Create public interface and documentation",
+          "description": "Implement public methods to access configuration and add comprehensive documentation.",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Create public getter methods to access validated configuration parameters (e.g., `get_input_dir()`, `get_target_languages()`, `get_api_key()`). Implement a `load_config()` method that orchestrates the entire loading and validation process. Add comprehensive docstrings following a standard format (e.g., Google style) for the class and all methods. Include usage examples in the module docstring. Add type hints to all methods and parameters."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Implement basic FileManager for directory scanning",
+      "description": "Create a component to recursively scan directories and identify Markdown files.",
+      "status": "pending",
+      "dependencies": [
+        2
+      ],
+      "priority": "high",
+      "details": "Implement a FileManager class with methods to scan the INPUT_DIR recursively and identify all .md files. Use pathlib for cross-platform path handling. Include error handling for directory access issues. Return a list of file paths for further processing.",
+      "testStrategy": "Create test directories with various file types. Verify the scanner correctly identifies all .md files and handles nested directories properly. Test error cases like non-existent or inaccessible directories.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create FileManager class structure with configuration",
+          "description": "Set up the basic FileManager class with initialization parameters and configuration for directory scanning",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a FileManager class with an __init__ method that accepts INPUT_DIR parameter. Initialize class variables for storing configuration like file extensions to scan for (.md). Use pathlib.Path for handling the input directory path to ensure cross-platform compatibility. Include basic validation to check if the provided path exists and is a directory."
+        },
+        {
+          "id": 2,
+          "title": "Implement recursive directory scanning logic",
+          "description": "Create a method to recursively traverse directories and collect file paths",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement a _scan_directory method that takes a directory path and recursively traverses it. Use pathlib's iterdir() and is_dir() methods for directory traversal. Create a helper method to check if a file matches the target extension (.md). Build the scanning logic to collect all matching file paths into a list. Ensure the method handles the recursive nature of directory traversal properly."
+        },
+        {
+          "id": 3,
+          "title": "Add error handling for directory access issues",
+          "description": "Enhance the scanning logic with robust error handling for permission and access issues",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Modify the directory scanning method to include try-except blocks for handling common errors: PermissionError for access denied scenarios, FileNotFoundError for missing directories, and a general exception handler for unexpected issues. Log appropriate error messages for each case. Implement a strategy to continue scanning when encountering inaccessible subdirectories rather than failing the entire process. Consider adding a method to report scanning errors encountered."
+        },
+        {
+          "id": 4,
+          "title": "Create public scan method with result formatting",
+          "description": "Implement the main public method that initiates scanning and returns properly formatted results",
+          "status": "pending",
+          "dependencies": [
+            2,
+            3
+          ],
+          "details": "Create a public scan_markdown_files method that calls the internal scanning logic and returns a list of pathlib.Path objects representing all found Markdown files. Include options for returning absolute or relative paths. Add documentation explaining the return format and possible exceptions. Implement basic statistics collection (number of files found, directories scanned, errors encountered) that can be optionally returned or logged. Test the method with various directory structures to ensure it works correctly."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Implement YAML frontmatter parsing",
+      "description": "Create functionality to parse and extract YAML frontmatter from Markdown files.",
+      "status": "pending",
+      "dependencies": [
+        3
+      ],
+      "priority": "high",
+      "details": "Extend FileManager to read Markdown files and extract YAML frontmatter. Use ruamel.yaml for parsing. Handle edge cases like files without frontmatter or with malformed YAML. Implement a function to check if a file is eligible for translation by verifying the 'orig: true' flag in frontmatter.",
+      "testStrategy": "Create test Markdown files with various frontmatter configurations. Verify correct parsing of valid frontmatter and appropriate handling of edge cases. Confirm 'orig: true' check works correctly.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Add ruamel.yaml dependency and create basic frontmatter extraction function",
+          "description": "Set up the project with the ruamel.yaml dependency and implement a basic function to extract YAML frontmatter from Markdown content",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Install ruamel.yaml package and add it to requirements.txt. Create a new function in FileManager called `extract_frontmatter(content)` that takes Markdown content as a string and returns the extracted YAML frontmatter as a Python dictionary. The function should identify content between '---' delimiters at the start of the file and parse it using ruamel.yaml."
+        },
+        {
+          "id": 2,
+          "title": "Extend FileManager to read Markdown files with frontmatter support",
+          "description": "Modify the FileManager class to read Markdown files and automatically extract frontmatter when reading these files",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add a new method to FileManager called `read_markdown_with_frontmatter(file_path)` that reads a Markdown file and returns a tuple containing (frontmatter_dict, content_without_frontmatter). This method should use the extract_frontmatter function from subtask 1. Ensure the returned content has the frontmatter section removed."
+        },
+        {
+          "id": 3,
+          "title": "Implement error handling for edge cases",
+          "description": "Add robust error handling for various edge cases in frontmatter parsing",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Enhance the frontmatter extraction function to handle edge cases: 1) Files without frontmatter should return an empty dictionary for frontmatter, 2) Files with malformed YAML should raise a specific custom exception (create a FrontmatterParsingError class), 3) Files with frontmatter delimiters but empty content should return an empty dictionary. Add appropriate logging for these scenarios."
+        },
+        {
+          "id": 4,
+          "title": "Implement translation eligibility checking",
+          "description": "Create a function to determine if a file is eligible for translation based on frontmatter",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3
+          ],
+          "details": "Add a method to FileManager called `is_eligible_for_translation(file_path)` that checks if a Markdown file should be translated. This function should extract the frontmatter and return True if the frontmatter contains 'orig: true', otherwise return False. Handle the case where the file doesn't exist or can't be read properly."
+        },
+        {
+          "id": 5,
+          "title": "Create utility functions for frontmatter manipulation",
+          "description": "Implement helper functions to work with frontmatter data",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "details": "Create additional utility functions in FileManager: 1) `get_frontmatter_value(file_path, key, default=None)` to retrieve a specific value from frontmatter, 2) `update_frontmatter(file_path, updates_dict)` to modify frontmatter and save changes back to the file, 3) `strip_frontmatter(content)` to remove frontmatter from content without parsing it. These functions should build on the existing functionality and maintain consistent error handling."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Implement content hash calculation",
+      "description": "Create functionality to calculate content hashes for change detection.",
+      "status": "pending",
+      "dependencies": [
+        4
+      ],
+      "priority": "high",
+      "details": "Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection.",
+      "testStrategy": "Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Implement content normalization functions",
+          "description": "Create utility functions to normalize Markdown content and YAML frontmatter before hashing to ensure consistent hash generation.",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. The Markdown normalization should handle line endings (convert to \\n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization should convert the frontmatter to a canonical form with consistent key ordering and value representation. Include comprehensive tests to verify normalization produces consistent output regardless of input formatting variations."
+        },
+        {
+          "id": 2,
+          "title": "Implement content_hash calculation for Markdown body",
+          "description": "Create a function to calculate SHA-256 hash for normalized Markdown content.",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Include error handling for invalid inputs and write unit tests to verify hash consistency across equivalent content with different formatting."
+        },
+        {
+          "id": 3,
+          "title": "Implement yaml_hash calculation for frontmatter",
+          "description": "Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Include validation to ensure all technical fields are properly excluded and write tests to verify hash consistency with different field orderings."
+        },
+        {
+          "id": 4,
+          "title": "Integrate hash calculation into document processing workflow",
+          "description": "Update the document processing workflow to calculate and store content and YAML hashes during document operations.",
+          "status": "pending",
+          "dependencies": [
+            2,
+            3
+          ],
+          "details": "Modify the document processing code to: 1) Calculate both hashes whenever a document is created or updated, 2) Store the hashes in the document's metadata, 3) Implement a change detection function that compares newly calculated hashes with stored hashes to determine if content has changed, 4) Add documentation explaining the hash calculation process and its use in change detection. Include integration tests that verify the entire workflow correctly identifies changes and ignores non-semantic differences."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Implement basic MarkdownProcessor with AST generation",
+      "description": "Create a component to parse Markdown into an Abstract Syntax Tree (AST) for processing.",
+      "status": "pending",
+      "dependencies": [
+        5
+      ],
+      "priority": "high",
+      "details": "Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown content into an AST. Include methods to separate frontmatter from body content. Create a basic traversal mechanism for the AST to access different node types.",
+      "testStrategy": "Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create MarkdownProcessor class skeleton with markdown-it-py integration",
+          "description": "Set up the basic structure of the MarkdownProcessor class with initialization and markdown-it-py integration",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation."
+        },
+        {
+          "id": 2,
+          "title": "Implement frontmatter extraction functionality",
+          "description": "Add methods to detect, parse and separate YAML frontmatter from the main Markdown content",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add a method to detect if frontmatter exists in the markdown content (typically delimited by '---'). Implement functionality to extract the frontmatter section. Use a YAML parser (like PyYAML) to convert the frontmatter into a Python dictionary. Return both the parsed frontmatter and the remaining markdown content. Handle edge cases like malformed frontmatter and provide appropriate error messages."
+        },
+        {
+          "id": 3,
+          "title": "Develop AST generation from Markdown content",
+          "description": "Create methods to parse Markdown content into an Abstract Syntax Tree representation",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement a method that takes markdown content and returns its AST representation using markdown-it-py. Ensure the method handles different markdown elements correctly (headings, lists, code blocks, etc.). Add validation to ensure the generated AST is properly structured. Include documentation about the structure of the returned AST. Implement error handling for parsing failures."
+        },
+        {
+          "id": 4,
+          "title": "Implement basic AST traversal mechanisms",
+          "description": "Create utility methods to traverse and access different node types in the Markdown AST",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Develop a traversal method that can walk through the AST in depth-first order. Implement node type filtering to find specific elements (e.g., headings, links, code blocks). Create helper methods to extract text content from nodes. Add functionality to get the path to a specific node. Include methods to transform nodes or modify the AST structure. Document the traversal API with examples."
+        },
+        {
+          "id": 5,
+          "title": "Add comprehensive processing method and test cases",
+          "description": "Create a main processing method that combines frontmatter extraction and AST generation with basic test cases",
+          "status": "pending",
+          "dependencies": [
+            2,
+            4
+          ],
+          "details": "Implement a comprehensive 'process' method that combines frontmatter extraction and AST generation. Return a structured result containing frontmatter data and the document AST. Add utility methods for common AST operations based on the traversal mechanism. Create test cases with various markdown inputs to verify correct processing. Include examples of extracting specific information from the AST. Document the complete API with usage examples."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Implement translatable text extraction",
+      "description": "Create functionality to extract text segments suitable for translation from the Markdown AST.",
+      "status": "pending",
+      "dependencies": [
+        6
+      ],
+      "priority": "high",
+      "details": "Extend MarkdownProcessor to identify and extract text from paragraphs, lists, table cells, headers, emphasis, link text, and image alt text. Create a data structure to map extracted text segments to their original locations in the AST. Preserve non-translatable elements like code blocks, inline code, and URLs.",
+      "testStrategy": "Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Define text segment data structure",
+          "description": "Create a data structure to represent extractable text segments and their mapping back to the AST",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Design and implement a TextSegment class/interface that contains: 1) the extracted text content, 2) a reference to the original AST node, 3) metadata about the segment type (paragraph, heading, list item, etc.), 4) position information for reassembly. Also implement a TranslationMap class to store and manage collections of TextSegments with methods to add, retrieve, and manipulate segments."
+        },
+        {
+          "id": 2,
+          "title": "Implement AST visitor pattern",
+          "description": "Create a visitor pattern implementation to traverse the Markdown AST",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement a MarkdownAstVisitor class that can traverse all node types in the Markdown AST. This should follow the visitor design pattern with methods like visitParagraph(), visitHeading(), visitList(), etc. The visitor should maintain context during traversal (like nesting level) and provide hooks for processing different node types. This will serve as the foundation for text extraction in the next steps."
+        },
+        {
+          "id": 3,
+          "title": "Extract text from block elements",
+          "description": "Implement extraction of translatable text from block-level elements",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Extend the MarkdownProcessor to extract text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable."
+        },
+        {
+          "id": 4,
+          "title": "Extract text from inline elements",
+          "description": "Implement extraction of translatable text from inline formatting elements",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3
+          ],
+          "details": "Extend the text extraction to handle inline elements including: emphasis (bold/italic), links (extract link text but not URLs), image alt text, and other inline formatting. Create appropriate TextSegment instances for these elements, maintaining their relationship to parent block elements. Ensure inline code spans are preserved and not extracted for translation."
+        },
+        {
+          "id": 5,
+          "title": "Implement table content extraction",
+          "description": "Add support for extracting text from table headers and cells",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Extend the MarkdownProcessor to handle tables, extracting text from both header cells and body cells. Create TextSegment instances for each cell's content, maintaining information about the table structure (row/column position). Handle any inline formatting within table cells by leveraging the inline extraction logic. Ensure table structure metadata is preserved for reassembly."
+        },
+        {
+          "id": 6,
+          "title": "Create segment reassembly functionality",
+          "description": "Implement functionality to replace translated text back into the original AST",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "details": "Create methods in the MarkdownProcessor to take translated TextSegments and update the original AST with the translated content. Implement a reassembly algorithm that uses the stored node references and position information to correctly place translated text while preserving all non-translatable elements and document structure. Add validation to ensure all segments are accounted for and the document structure remains intact."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Implement TranslationService with DeepL integration",
+      "description": "Create a service to send text to the DeepL API for translation.",
+      "status": "pending",
+      "dependencies": [
+        2
+      ],
+      "priority": "high",
+      "details": "Implement a TranslationService class that sends extracted text to the DeepL API. Use the API key from configuration. Handle API response parsing, error handling, and retries. Include support for multiple target languages as specified in configuration.",
+      "testStrategy": "Create mock API responses to test successful translations and error handling. If possible, test with actual DeepL API using small text samples. Verify correct handling of multiple target languages.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create TranslationService class structure and configuration",
+          "description": "Set up the basic class structure for TranslationService and implement configuration loading for the DeepL API key and supported languages",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a TranslationService class with constructor that loads configuration. Implement methods to retrieve the API key from configuration and load the list of supported target languages. Add appropriate interfaces and dependency injection support. Include configuration validation to ensure required settings are present."
+        },
+        {
+          "id": 2,
+          "title": "Implement core translation method with DeepL API integration",
+          "description": "Create the primary translation method that sends text to the DeepL API and processes the basic response",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement a TranslateText method that takes source text and target language code as parameters. Create the HTTP client to communicate with DeepL API. Build the request with proper authentication headers using the API key. Send the request to the DeepL translation endpoint and parse the basic successful response. Return the translated text."
+        },
+        {
+          "id": 3,
+          "title": "Add comprehensive error handling for API responses",
+          "description": "Enhance the translation method with proper error handling for various API response scenarios",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Implement error handling for different HTTP status codes (401 for authentication issues, 429 for rate limiting, etc.). Create custom exception types for different error scenarios. Parse error messages from the DeepL API response. Add logging for errors with appropriate severity levels. Ensure the service provides meaningful error messages to callers."
+        },
+        {
+          "id": 4,
+          "title": "Implement retry mechanism for transient failures",
+          "description": "Add a retry mechanism to handle temporary failures when communicating with the DeepL API",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Implement an exponential backoff retry strategy for transient errors (network issues, 5xx responses, etc.). Configure retry count and delay parameters from configuration. Add circuit breaker pattern to prevent overwhelming the API during extended outages. Implement timeout handling. Add detailed logging for retry attempts."
+        },
+        {
+          "id": 5,
+          "title": "Add batch translation support and language detection",
+          "description": "Extend the service with methods for batch translation and automatic language detection",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Implement a BatchTranslate method to efficiently translate multiple texts in a single API call. Add support for automatic source language detection using DeepL's detection capabilities. Create methods to validate if a target language is supported. Implement caching for frequently translated content to reduce API calls. Add usage statistics tracking to monitor API consumption."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Implement test mode for TranslationService",
+      "description": "Add a test mode that simulates translation without making API calls.",
+      "status": "pending",
+      "dependencies": [
+        8
+      ],
+      "priority": "medium",
+      "details": "Extend TranslationService to check the TEST_MODE configuration flag. When enabled, return the original text instead of making API calls. Add logging to indicate when test mode is active. Ensure the same processing flow is followed regardless of test mode status.",
+      "testStrategy": "Enable test mode and verify no API calls are made. Confirm the original text is returned as the 'translation'. Verify logging indicates test mode is active.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Add TEST_MODE configuration flag",
+          "description": "Create a configuration flag that determines whether the translation service should operate in test mode",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Add a boolean TEST_MODE flag to the application's configuration system. This could be in an environment variable, configuration file, or wherever other configuration settings are stored. Default value should be false. Document the new configuration option in relevant documentation. Create a method in the configuration service to access this flag."
+        },
+        {
+          "id": 2,
+          "title": "Modify TranslationService to check for test mode",
+          "description": "Update the TranslationService to check the TEST_MODE flag before processing translations",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Inject or access the configuration service in the TranslationService. At the beginning of the translation method, add logic to check if TEST_MODE is enabled. Create a private method like 'isTestModeEnabled()' that encapsulates this check for better readability and reuse. Ensure this check happens before any API call preparation."
+        },
+        {
+          "id": 3,
+          "title": "Implement test mode translation logic",
+          "description": "Add conditional logic to return original text when in test mode instead of making API calls",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "In the main translation method, add a conditional branch that executes when test mode is enabled. In this branch, skip the API call and instead return the original text wrapped in the same response object structure that would normally be returned after a successful API call. Ensure all the same data transformations and validations still occur so the return signature is identical regardless of mode."
+        },
+        {
+          "id": 4,
+          "title": "Add logging for test mode operation",
+          "description": "Implement logging to indicate when translations are being processed in test mode",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Add appropriate log statements that indicate when the service is operating in test mode. Log at INFO level when test mode is active and a translation is being simulated. Include relevant details such as the original text length, language pairs, and any other contextual information that would be useful for debugging. Ensure logs clearly distinguish between real translations and test mode translations."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Implement Markdown reconstruction from translated segments",
+      "description": "Create functionality to rebuild Markdown content using translated text segments.",
+      "status": "pending",
+      "dependencies": [
+        7,
+        8
+      ],
+      "priority": "high",
+      "details": "Extend MarkdownProcessor to replace original text segments in the AST with translated segments based on the mapping created during extraction. Implement methods to reconstruct the full Markdown content from the modified AST. Ensure all formatting, links, and non-translated elements are preserved correctly.",
+      "testStrategy": "Create a test workflow with extraction, simulated translation, and reconstruction. Compare the reconstructed Markdown with expected output to verify structure preservation. Test with complex Markdown features.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create AST node replacement method",
+          "description": "Implement a method in MarkdownProcessor that can replace text content in AST nodes while preserving node structure and attributes",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a method called `replaceNodeContent(node, originalText, translatedText)` that takes an AST node, the original text, and the translated text as parameters. The method should update the node's content with the translated text while preserving all node attributes, formatting, and structure. Handle different node types (paragraph, heading, list item, etc.) appropriately. Include unit tests to verify the method works correctly for various node types."
+        },
+        {
+          "id": 2,
+          "title": "Implement segment mapping lookup functionality",
+          "description": "Create a mechanism to efficiently look up translated segments based on original text and node context",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement a `SegmentMapper` class that manages the mapping between original text segments and their translations. Include methods like `getTranslationForSegment(originalText, nodeContext)` that retrieves the appropriate translation based on the original text and contextual information about the node (like node type, position, etc.). This will handle cases where the same text might have different translations in different contexts. Add appropriate caching to optimize performance for repeated lookups."
+        },
+        {
+          "id": 3,
+          "title": "Develop AST traversal and modification algorithm",
+          "description": "Create a recursive algorithm to traverse the Markdown AST and apply translations to each text node",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Implement a method called `traverseAndTranslateAST(ast, segmentMapper)` that recursively walks through the AST, identifies text nodes that need translation, and applies the appropriate translations using the segment mapper and node replacement method. The algorithm should handle nested structures correctly and maintain the hierarchical relationships between nodes. Include special handling for nodes that should not be modified (like code blocks or already processed custom elements)."
+        },
+        {
+          "id": 4,
+          "title": "Implement special element preservation logic",
+          "description": "Create handlers for preserving special Markdown elements like links, images, and formatting during reconstruction",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Extend the AST traversal algorithm with specialized handlers for complex Markdown elements. Implement methods like `preserveLinks(node)`, `preserveImages(node)`, and `preserveFormatting(node)` that ensure these elements are correctly maintained during translation. For links, ensure the link text is translated while the URL is preserved. For images, translate alt text while preserving the image path. For formatting (bold, italic, etc.), ensure the formatting markers are correctly applied to the translated text."
+        },
+        {
+          "id": 5,
+          "title": "Create Markdown reconstruction method",
+          "description": "Implement functionality to convert the modified AST back into valid Markdown text",
+          "status": "pending",
+          "dependencies": [
+            3,
+            4
+          ],
+          "details": "Create a method called `reconstructMarkdown(ast)` that takes the modified AST and generates valid Markdown text. This should handle all Markdown syntax elements correctly, including headings, lists, code blocks, tables, and formatting. Ensure proper indentation and line breaks are maintained. The method should produce Markdown that is semantically equivalent to the original but with translated text segments."
+        },
+        {
+          "id": 6,
+          "title": "Add integration and validation functionality",
+          "description": "Implement methods to validate the reconstructed Markdown and integrate the entire translation process",
+          "status": "pending",
+          "dependencies": [
+            5
+          ],
+          "details": "Create a `validateReconstructedMarkdown(original, translated)` method that checks the structural integrity of the translated Markdown compared to the original. Implement the main public method `translateMarkdown(markdown, translations)` that orchestrates the entire process: parsing the original Markdown to AST, applying translations, reconstructing the Markdown, and validating the result. Add comprehensive error handling and logging to identify and report any issues during the translation process. Include integration tests that verify the entire workflow with various Markdown structures and translation scenarios."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Implement output file generation",
+      "description": "Create functionality to write translated content to output files with proper directory structure.",
+      "status": "pending",
+      "dependencies": [
+        10
+      ],
+      "priority": "high",
+      "details": "Extend FileManager to construct output paths (OUTPUT_DIR/<lang_code>/...) and create necessary subdirectories. Implement methods to generate YAML frontmatter for translated files (setting lang, orig: false, including translated fields, copying others, adding source hashes). Write the reconstructed Markdown with frontmatter to output files.",
+      "testStrategy": "Process test files and verify output files are created with correct paths and content. Confirm directory structure matches expectations. Verify YAML frontmatter in output files contains all required fields.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Extend FileManager to construct output paths",
+          "description": "Add methods to FileManager to construct output file paths based on language code and original file path",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a method `get_output_path(file_path, lang_code)` that takes an original file path and language code as inputs and returns the corresponding output path in the format OUTPUT_DIR/<lang_code>/.... The method should handle both absolute and relative paths correctly. Define OUTPUT_DIR as a configurable constant in the configuration file."
+        },
+        {
+          "id": 2,
+          "title": "Implement directory creation functionality",
+          "description": "Add methods to create necessary subdirectories for output files",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Create a method `ensure_output_directory(output_path)` that checks if the directory for an output file exists and creates it if necessary. This should handle nested directories and ensure proper permissions. Use the output path construction from subtask 1 to determine which directories need to be created."
+        },
+        {
+          "id": 3,
+          "title": "Implement YAML frontmatter generation",
+          "description": "Create functionality to generate YAML frontmatter for translated files",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a method `generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash)` that takes the original frontmatter, translated fields, language code, and source hash as inputs. The method should set 'lang' to the language code, 'orig' to false, include all translated fields, copy other fields from the original frontmatter, and add the source hash for tracking changes. Return the frontmatter as a dictionary that can be serialized to YAML."
+        },
+        {
+          "id": 4,
+          "title": "Implement file writing functionality",
+          "description": "Create methods to write translated content with frontmatter to output files",
+          "status": "pending",
+          "dependencies": [
+            2,
+            3
+          ],
+          "details": "Create a method `write_translated_file(output_path, frontmatter, content)` that takes an output path, frontmatter dictionary, and translated content as inputs. The method should convert the frontmatter to YAML format, combine it with the content using proper delimiters (---), and write the result to the specified output path. Ensure proper error handling for file writing operations."
+        },
+        {
+          "id": 5,
+          "title": "Integrate output generation into translation workflow",
+          "description": "Connect the output file generation to the translation process",
+          "status": "pending",
+          "dependencies": [
+            1,
+            4
+          ],
+          "details": "Update the translation workflow to call the output file generation methods after translation is complete. For each translated file, construct the output path, ensure the directory exists, generate the frontmatter, and write the file. Add logging to track successful file generation and any errors that occur. Include a summary of generated files at the end of the translation process."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Implement source file hash update",
+      "description": "Create functionality to update content_hash and yaml_hash in source files after processing.",
+      "status": "pending",
+      "dependencies": [
+        5,
+        11
+      ],
+      "priority": "high",
+      "details": "Extend FileManager to update the content_hash and yaml_hash values in source file frontmatter after successful processing. Implement careful file writing to avoid data loss. Include error handling for file write failures.",
+      "testStrategy": "Process test files and verify source files are updated with new hash values. Modify content, process again, and confirm hashes are updated. Test error handling by simulating write failures.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Extend FileManager with hash update method",
+          "description": "Add a new method to the FileManager class that will handle updating content_hash and yaml_hash in source file frontmatter",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a new method in FileManager called updateFileHashes(filePath, contentHash, yamlHash) that will be responsible for updating the hash values in a file's frontmatter. This method should accept the file path and the new hash values as parameters. Define the method signature and structure with appropriate documentation, but leave the implementation empty for now."
+        },
+        {
+          "id": 2,
+          "title": "Implement frontmatter parsing and modification",
+          "description": "Create functionality to parse existing frontmatter, update hash values, and prepare the modified content",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement the core logic of the updateFileHashes method to: 1) Read the file content, 2) Parse the YAML frontmatter section, 3) Update the content_hash and yaml_hash values with the new values, 4) Reconstruct the file content with the updated frontmatter. Use existing YAML parsing libraries to handle the frontmatter. Ensure the formatting of the frontmatter is preserved as much as possible."
+        },
+        {
+          "id": 3,
+          "title": "Implement safe file writing mechanism",
+          "description": "Create a safe file writing process that prevents data loss during updates",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Enhance the updateFileHashes method with a safe file writing mechanism that: 1) Creates a temporary backup of the original file, 2) Writes the modified content to a temporary file, 3) Verifies the write was successful, 4) Replaces the original file with the temporary file using atomic operations when possible. This approach ensures that if any part of the process fails, the original file remains intact."
+        },
+        {
+          "id": 4,
+          "title": "Add comprehensive error handling",
+          "description": "Implement error handling for all potential failure points in the hash update process",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Complete the updateFileHashes method by adding comprehensive error handling for: 1) File read errors, 2) YAML parsing errors, 3) File write errors, 4) File replacement errors. Each error case should be properly logged with meaningful error messages. The method should clean up any temporary files created during the process, even if an error occurs. Return appropriate success/failure status that can be used by calling code to determine if the update was successful."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Implement YAML field translation",
+      "description": "Add support for translating specified YAML frontmatter fields.",
+      "status": "pending",
+      "dependencies": [
+        7,
+        8
+      ],
+      "priority": "medium",
+      "details": "Extend MarkdownProcessor to identify YAML fields listed in YAML_TRANSLATE_FIELDS configuration. Extract text from these fields for translation. Update the mapping structure to include YAML field locations. Modify the TranslationService to handle both body content and YAML field text.",
+      "testStrategy": "Configure test files with translatable YAML fields. Process files and verify both body content and specified YAML fields are translated. Confirm non-specified YAML fields remain unchanged.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Add YAML_TRANSLATE_FIELDS configuration option",
+          "description": "Create a configuration option that allows users to specify which YAML frontmatter fields should be translated",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Add a new configuration option called YAML_TRANSLATE_FIELDS to the application's configuration system. This should be an array of strings representing field names in YAML frontmatter that should be translated. Update the configuration documentation to explain this new option. Implement validation to ensure the configuration value is an array of strings when provided."
+        },
+        {
+          "id": 2,
+          "title": "Extend MarkdownProcessor to identify translatable YAML fields",
+          "description": "Modify the MarkdownProcessor to detect and extract YAML frontmatter fields that are marked for translation",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Update the MarkdownProcessor to parse YAML frontmatter at the beginning of markdown files. Add logic to check each field against the YAML_TRANSLATE_FIELDS configuration. For fields that match, extract their text content and store it separately from the main markdown body. Ensure the processor can handle various YAML data types (strings, arrays, nested objects) and extract translatable text appropriately."
+        },
+        {
+          "id": 3,
+          "title": "Update mapping structure to include YAML field locations",
+          "description": "Extend the translation mapping structure to track the location and context of text from YAML fields",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Modify the existing mapping structure to distinguish between body content and YAML field content. For YAML fields, store additional metadata including the field name, path (for nested fields), and original position in the document. This mapping should allow the system to correctly replace translated content back into the appropriate YAML fields. Create a consistent format for identifying YAML field locations that can be used throughout the translation pipeline."
+        },
+        {
+          "id": 4,
+          "title": "Modify TranslationService to process YAML field text",
+          "description": "Update the TranslationService to handle translation of both markdown body and YAML field content",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Extend the TranslationService to process text from YAML fields alongside the main markdown content. Implement logic to handle different translation requirements for YAML fields (e.g., preserving formatting, handling special characters). Ensure the service can batch translate both types of content efficiently. Update any translation caching mechanisms to properly handle and identify YAML field content."
+        },
+        {
+          "id": 5,
+          "title": "Implement reassembly of translated YAML fields",
+          "description": "Create functionality to reconstruct the markdown file with translated YAML fields and body content",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Develop the logic to reassemble a complete markdown file after translation. Use the mapping structure to place translated YAML field content back into the correct fields in the frontmatter. Ensure the YAML structure and formatting is preserved during reassembly. Add validation to verify that the reconstructed document maintains the original structure with only the content changed. Test with various YAML structures including nested objects and arrays."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Implement change detection logic",
+      "description": "Create logic to determine if translation/update is needed based on hash comparison.",
+      "status": "pending",
+      "dependencies": [
+        5,
+        12
+      ],
+      "priority": "high",
+      "details": "Implement logic to compare calculated hashes with stored hashes in source file frontmatter. Create decision logic to: 1) Trigger full translation if content_hash changes, 2) Trigger YAML-only update if only yaml_hash changes, 3) Skip file if hashes match. Include appropriate logging for each decision.",
+      "testStrategy": "Create test scenarios for unchanged files, body content changes, and YAML-only changes. Verify the correct action is taken in each case. Confirm appropriate logging messages are generated.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create hash comparison function",
+          "description": "Implement a function that compares calculated content and YAML hashes with stored hashes from frontmatter",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a function that takes calculated content_hash and yaml_hash as inputs along with the existing frontmatter data. The function should extract stored hashes from the frontmatter and perform comparison between new and stored hashes. Return a comparison result object with boolean flags indicating if content_hash changed, yaml_hash changed, or both match. Handle edge cases where hashes might not exist in frontmatter yet."
+        },
+        {
+          "id": 2,
+          "title": "Implement decision logic for translation actions",
+          "description": "Create a function that determines the required action based on hash comparison results",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Build a function that takes the comparison result from subtask 1 and determines the appropriate action: 1) Full translation if content_hash changed, 2) YAML-only update if only yaml_hash changed, 3) Skip file if both hashes match. The function should return an action type enum/string and any relevant metadata needed for the next steps in the workflow. Include validation to ensure the comparison result contains all required data."
+        },
+        {
+          "id": 3,
+          "title": "Add logging for change detection decisions",
+          "description": "Implement detailed logging for each decision path in the change detection logic",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Enhance the decision logic function to include appropriate logging for each path: 1) Log when content has changed and full translation is needed, including the old and new hash values, 2) Log when only YAML data has changed and partial update is needed, 3) Log when file is skipped due to matching hashes, 4) Add debug logging for the comparison process itself. Use consistent log formatting and appropriate log levels (info for normal operation, debug for details, warn for potential issues)."
+        },
+        {
+          "id": 4,
+          "title": "Integrate change detection with workflow",
+          "description": "Connect the change detection logic to the main translation workflow",
+          "status": "pending",
+          "dependencies": [
+            2,
+            3
+          ],
+          "details": "Integrate the hash comparison and decision logic into the main workflow. Ensure the workflow calls the change detection functions at the appropriate time after hashes are calculated but before translation begins. Modify the workflow to branch based on the determined action: proceed with full translation, perform YAML-only update, or skip the file. Add error handling for unexpected comparison results or missing hash data. Test the integrated workflow with various scenarios to verify correct branching behavior."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Implement YAML-only update for existing translated files",
+      "description": "Create functionality to update only the YAML frontmatter of existing translated files.",
+      "status": "pending",
+      "dependencies": [
+        13,
+        14
+      ],
+      "priority": "medium",
+      "details": "Extend FileManager to handle the YAML-only update scenario. Implement methods to read existing translated files, update only their YAML frontmatter (with translated fields if needed), and rewrite the files. Ensure the body content remains unchanged during this process.",
+      "testStrategy": "Create test scenarios with existing translated files and YAML-only changes in source files. Verify only the YAML frontmatter is updated in translated files. Confirm body content remains unchanged.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create YAML frontmatter parsing utility",
+          "description": "Develop a utility function that can extract YAML frontmatter from markdown files while preserving the body content separately",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Implement a utility function that takes a file path as input and returns two separate components: the YAML frontmatter as a structured object and the body content as a string. The function should handle edge cases like missing frontmatter delimiters (---) and invalid YAML. Use existing YAML parsing libraries but create a wrapper that specifically handles the frontmatter extraction pattern in markdown files."
+        },
+        {
+          "id": 2,
+          "title": "Implement YAML frontmatter modification function",
+          "description": "Create a function that can update specific fields in the YAML frontmatter without modifying others",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Build on the parsing utility to create a function that accepts the parsed YAML object, a set of fields to update with their new values, and returns the modified YAML object. This function should preserve all existing fields not specified in the update set. Include validation to ensure the updated YAML remains valid and properly formatted. The function should handle nested YAML structures and array fields appropriately."
+        },
+        {
+          "id": 3,
+          "title": "Develop file rewriting mechanism with content preservation",
+          "description": "Create a function that can rewrite a file with updated YAML frontmatter while preserving the original body content",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Implement a function that takes a file path, the updated YAML object, and the preserved body content, then writes them back to the file. The function should format the YAML properly with the correct delimiter markers (---), maintain any whitespace patterns between the frontmatter and content, and ensure the body content remains completely unchanged. Include error handling for file system operations and implement an atomic write pattern (write to temp file, then rename) to prevent data loss if the operation fails midway."
+        },
+        {
+          "id": 4,
+          "title": "Extend FileManager with YAML-only update method",
+          "description": "Add a new method to the FileManager class that orchestrates the YAML-only update process",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3
+          ],
+          "details": "Create a new method in the FileManager class named 'updateYamlOnly' that takes a file path and a set of YAML fields to update. This method should use the previously created utilities to: 1) read and parse the file, 2) update only the specified YAML fields, and 3) write the file back with the updated frontmatter and unchanged body. Include appropriate logging and error handling. The method should return a success/failure status and details about what was updated."
+        },
+        {
+          "id": 5,
+          "title": "Implement batch processing for multiple translated files",
+          "description": "Create functionality to perform YAML-only updates across multiple translated files",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Extend the FileManager with a method that can process multiple files in batch. This method should accept a list of file paths and corresponding YAML updates for each, or a pattern to identify files and a common update to apply. Implement parallel processing with appropriate throttling to handle large numbers of files efficiently. Include comprehensive error handling that allows the process to continue even if individual files fail, with detailed reporting of successes and failures. Add transaction-like behavior where possible to ensure consistency across the batch operation."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Implement support for WikiLinks syntax",
+      "description": "Add support for handling Obsidian-style WikiLinks during translation.",
+      "status": "pending",
+      "dependencies": [
+        7,
+        10
+      ],
+      "priority": "low",
+      "details": "Extend MarkdownProcessor to recognize WikiLinks patterns ([[LinkTarget]] or [[LinkTarget|Alias]]). Implement special handling to translate only the Alias portion while preserving the LinkTarget. Update the AST traversal and text extraction logic to handle these patterns correctly.",
+      "testStrategy": "Create test Markdown files with various WikiLinks patterns. Verify only the Alias portions are extracted for translation. Confirm reconstructed Markdown preserves the correct WikiLinks structure.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Add WikiLinks pattern recognition to MarkdownProcessor",
+          "description": "Extend the MarkdownProcessor to identify and parse Obsidian-style WikiLinks patterns in markdown text",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create regular expressions to match both WikiLinks formats ([[LinkTarget]] and [[LinkTarget|Alias]]). Implement a method to identify these patterns in the source text before AST parsing. This will serve as the foundation for special handling of these elements. Add unit tests to verify pattern recognition works correctly for various WikiLinks formats."
+        },
+        {
+          "id": 2,
+          "title": "Extend AST to represent WikiLinks nodes",
+          "description": "Create specialized AST node types to represent WikiLinks with their components (target and optional alias)",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Define new AST node classes (e.g., WikiLinkNode) that can store both the link target and alias components separately. Ensure these nodes properly integrate with the existing AST structure. Implement methods to distinguish between the target (which should not be translated) and alias (which should be translated). Update the AST builder to create these specialized nodes when WikiLinks patterns are encountered."
+        },
+        {
+          "id": 3,
+          "title": "Implement text extraction for WikiLinks translation",
+          "description": "Modify the text extraction logic to properly handle WikiLinks, extracting only the alias portion for translation",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "Update the text extraction visitor to recognize WikiLink nodes. For WikiLinks with aliases ([[LinkTarget|Alias]]), extract only the alias text for translation. For simple WikiLinks ([[LinkTarget]]), determine if the target should be left untranslated or if the displayed text should be translated. Add appropriate context markers in the extracted text to identify WikiLinks segments for reassembly later."
+        },
+        {
+          "id": 4,
+          "title": "Implement translation result reintegration for WikiLinks",
+          "description": "Develop logic to correctly reintegrate translated text back into WikiLinks structure",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Create a specialized handler for WikiLinks during the translation reintegration phase. Ensure that only the alias portion is replaced with translated text while preserving the link target. Maintain the correct WikiLinks syntax ([[target|translated-alias]]) in the final output. Handle edge cases such as nested delimiters and escaped characters within WikiLinks."
+        },
+        {
+          "id": 5,
+          "title": "Add comprehensive testing and documentation for WikiLinks support",
+          "description": "Create tests and documentation for the WikiLinks translation functionality",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Develop integration tests that verify the entire WikiLinks translation workflow from recognition to final output. Test various scenarios including simple links, links with aliases, links with special characters, and nested structures. Document the WikiLinks support in the user guide, explaining how the feature works and any limitations. Update developer documentation to explain the implementation approach and how to extend it if needed."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Implement comprehensive error handling",
+      "description": "Add robust error handling throughout the application.",
+      "status": "pending",
+      "dependencies": [
+        11,
+        12,
+        15
+      ],
+      "priority": "medium",
+      "details": "Review all components and add comprehensive error handling. Include specific handling for: configuration errors, file access issues, parsing errors, API errors (with retries), and file writing failures. Implement a consistent error reporting mechanism. Add recovery options where possible to continue processing other files when one fails.",
+      "testStrategy": "Create test scenarios that trigger various error conditions. Verify errors are caught, reported clearly, and handled appropriately. Confirm the application can continue processing other files when possible.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design error handling architecture",
+          "description": "Create a consistent error handling architecture and reporting mechanism",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Define error types/categories (configuration, file access, parsing, API, file writing). Create a centralized error handling utility with standardized error objects. Design error logging format with severity levels, timestamps, context data, and stack traces. Define how errors propagate through the application. Document the architecture for team reference."
+        },
+        {
+          "id": 2,
+          "title": "Implement configuration and startup error handling",
+          "description": "Add error handling for application configuration and startup processes",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement validation for configuration files/parameters with descriptive error messages. Add try-catch blocks around startup processes. Create fallback mechanisms for missing/invalid configurations. Implement graceful shutdown procedures for critical startup failures. Add detailed logging for configuration-related errors."
+        },
+        {
+          "id": 3,
+          "title": "Implement file access and parsing error handling",
+          "description": "Add error handling for file operations and data parsing",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add try-catch blocks around file read/write operations. Implement specific error types for file not found, permission issues, and corruption. Create recovery mechanisms to skip problematic files and continue processing others. Add validation for parsed data with appropriate error messages. Implement retry logic for temporary file access issues."
+        },
+        {
+          "id": 4,
+          "title": "Implement API error handling with retry mechanism",
+          "description": "Add robust error handling for all API interactions",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Implement exponential backoff retry logic for API calls. Handle different HTTP status codes appropriately. Add timeout handling for API requests. Create circuit breaker pattern to prevent cascading failures. Implement fallback mechanisms when APIs are unavailable. Add detailed logging of API errors with request/response information."
+        },
+        {
+          "id": 5,
+          "title": "Implement UI error feedback mechanisms",
+          "description": "Create user-friendly error messages and recovery options in the UI",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "details": "Design user-friendly error messages that avoid technical jargon. Implement toast notifications for non-critical errors. Create modal dialogs for critical errors requiring user action. Add retry buttons for failed operations where appropriate. Implement error boundaries in UI components to prevent complete UI crashes. Create an error details expansion option for technical users."
+        },
+        {
+          "id": 6,
+          "title": "Implement global error monitoring and reporting",
+          "description": "Create a system to monitor, aggregate and report application errors",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "details": "Implement a global error handler to catch unhandled exceptions. Create an error dashboard showing error frequency and patterns. Add automated alerts for critical or frequent errors. Implement error aggregation to group similar errors. Create error reports with filtering options. Add telemetry to track error resolution times and effectiveness of error handling."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Implement detailed logging",
+      "description": "Add comprehensive logging throughout the application.",
+      "status": "pending",
+      "dependencies": [
+        17
+      ],
+      "priority": "medium",
+      "details": "Implement detailed logging using Python's logging module. Include information about: files found, files skipped (with reason), files processed, translation status, files written, and errors encountered. Add configuration options for log level. Ensure logs are useful for debugging and monitoring progress.",
+      "testStrategy": "Run the application with various log levels and verify appropriate information is logged. Create test scenarios that trigger different log messages. Confirm logs provide useful information for debugging issues.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Set up basic logging infrastructure",
+          "description": "Create a logging configuration system that allows for different log levels and output destinations",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a logging module that initializes Python's logging system. Implement configuration options for log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL) that can be set via command line arguments or configuration file. Set up appropriate log formatters that include timestamp, log level, and message. Configure log output destinations (console, file, or both). Create helper functions that other parts of the application can use to get properly configured logger instances."
+        },
+        {
+          "id": 2,
+          "title": "Implement file discovery and selection logging",
+          "description": "Add logging for file discovery process and selection criteria",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add logging statements to the file discovery and selection components. Log at INFO level when scanning directories. Log at DEBUG level for each file found. Log at INFO level for files skipped with the specific reason (e.g., 'file already translated', 'file type not supported'). Include file counts in summary logs. Ensure all potential error conditions during file discovery are logged at WARNING or ERROR level as appropriate."
+        },
+        {
+          "id": 3,
+          "title": "Implement translation process logging",
+          "description": "Add detailed logging for the translation process",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Add logging statements throughout the translation process. Log at INFO level when translation begins and ends for each file. Log at DEBUG level for detailed translation steps (e.g., 'extracting text', 'sending to translation API', 'received translation'). Log translation statistics at INFO level (e.g., number of segments translated, characters processed). Log any translation errors or warnings at appropriate levels. Include performance metrics such as translation time per file at DEBUG level."
+        },
+        {
+          "id": 4,
+          "title": "Implement output and error handling logging",
+          "description": "Add logging for file writing operations and comprehensive error handling",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2,
+            3
+          ],
+          "details": "Add logging for all file writing operations. Log at INFO level when writing output files with destination paths. Log at DEBUG level for details about file content being written. Implement comprehensive error logging throughout the application, ensuring all exceptions are caught and logged with appropriate context. Create a system for aggregating errors and providing summary logs at the end of processing. Add logging for application startup and shutdown, including configuration settings at startup (at INFO level) and summary statistics at shutdown (number of files processed, success rate, etc.)."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Implement extensible translation provider system",
+      "description": "Refactor TranslationService to support multiple translation providers.",
+      "status": "pending",
+      "dependencies": [
+        8,
+        9
+      ],
+      "priority": "low",
+      "details": "Refactor TranslationService to use a provider pattern. Create an abstract base class or interface for translation providers. Implement the DeepL provider as the initial concrete implementation. Add factory method to create the appropriate provider based on API_PROVIDER configuration. Design for easy addition of new providers in the future.",
+      "testStrategy": "Verify the DeepL provider works correctly through the new abstraction. Create a simple mock provider for testing. Confirm the factory correctly instantiates providers based on configuration.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Create ITranslationProvider interface",
+          "description": "Define the interface that all translation providers must implement",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create an interface named ITranslationProvider that defines the contract for all translation providers. Include methods for translation (e.g., translateText, translateBatch), language detection, and any other common functionality. Add documentation to each method explaining its purpose, parameters, and return values. Consider adding methods for provider initialization and validation of API credentials."
+        },
+        {
+          "id": 2,
+          "title": "Implement DeepL provider",
+          "description": "Create the first concrete implementation of ITranslationProvider for DeepL",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Create a DeepLTranslationProvider class that implements the ITranslationProvider interface. Move the existing DeepL-specific code from TranslationService into this new class. Ensure all interface methods are properly implemented. Handle API key configuration, request formatting, error handling, and response parsing specific to DeepL. Add unit tests to verify the implementation works correctly."
+        },
+        {
+          "id": 3,
+          "title": "Create TranslationProviderFactory",
+          "description": "Implement a factory class to instantiate the appropriate provider",
+          "status": "pending",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "Create a TranslationProviderFactory class with a createProvider method that returns an instance of ITranslationProvider based on configuration. Read the API_PROVIDER configuration value to determine which provider to instantiate. Initially support only the DeepL provider, but design the factory to be easily extended with additional providers. Include error handling for unknown or misconfigured providers. Consider implementing a singleton pattern if appropriate for your architecture."
+        },
+        {
+          "id": 4,
+          "title": "Refactor TranslationService",
+          "description": "Update TranslationService to use the provider pattern",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Refactor the existing TranslationService to use the provider pattern. Remove DeepL-specific code that was moved to DeepLTranslationProvider. Update the service to get a provider instance from TranslationProviderFactory and delegate translation operations to it. Maintain the same public API to ensure backward compatibility with existing code. Update any configuration handling to work with the new provider system. Add appropriate error handling for provider failures."
+        },
+        {
+          "id": 5,
+          "title": "Add configuration and documentation",
+          "description": "Update configuration files and add documentation for the new provider system",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Update configuration files to support the new provider system. Add documentation explaining how to configure different translation providers. Create a guide for implementing new providers, including a template or example. Update existing documentation to reflect the changes. Add comments in the code explaining the provider pattern implementation. Consider creating a simple mock provider for testing purposes. Verify that the existing functionality works with the new implementation through integration tests."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Implement main application workflow",
+      "description": "Create the main application workflow that orchestrates all components.",
+      "status": "pending",
+      "dependencies": [
+        14,
+        15,
+        17,
+        18
+      ],
+      "priority": "high",
+      "details": "Implement the main application class that orchestrates the entire workflow: load configuration, scan directories, process each file (check eligibility, calculate hashes, determine if translation is needed, extract content, translate, reconstruct, write output, update source hashes). Include progress reporting and summary statistics. Create a clean CLI interface with appropriate help text.",
+      "testStrategy": "Create end-to-end tests with various scenarios (initial run, no changes, content changes, YAML changes). Verify the entire workflow functions correctly in each scenario. Test the CLI interface with various arguments and options.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Implement configuration loading and validation",
+          "description": "Create the initial part of the main application class that handles loading and validating configuration settings",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Implement a method to load configuration from command line arguments, environment variables, and/or config files. Include validation logic to ensure all required settings are present and valid. Handle configuration errors gracefully with informative error messages. This should include settings for source/target directories, language pairs, file types to process, and any API credentials needed for translation services."
+        },
+        {
+          "id": 2,
+          "title": "Implement directory scanning and file collection",
+          "description": "Create functionality to scan directories and collect eligible files for processing",
+          "status": "pending",
+          "dependencies": [
+            1
+          ],
+          "details": "Using the validated configuration, implement methods to recursively scan source directories and identify files that need processing. Apply file type filters based on configuration. Create a data structure to track files for processing with their metadata (path, size, last modified date). Include logic to skip files that should be excluded based on configuration rules (e.g., hidden files, specific patterns)."
+        },
+        {
+          "id": 3,
+          "title": "Implement file eligibility and hash calculation",
+          "description": "Add logic to determine which files need translation by checking eligibility and calculating hashes",
+          "status": "pending",
+          "dependencies": [
+            2
+          ],
+          "details": "For each collected file, implement the logic to: 1) Calculate file hash, 2) Check against stored hashes to determine if translation is needed, 3) Create a prioritized queue of files that need processing. Include logic to handle file access errors gracefully. This component should prepare the final list of files that will proceed to content extraction and translation."
+        },
+        {
+          "id": 4,
+          "title": "Implement the core processing pipeline",
+          "description": "Create the main processing loop that handles content extraction, translation, and reconstruction",
+          "status": "pending",
+          "dependencies": [
+            3
+          ],
+          "details": "Implement the core processing pipeline that: 1) Extracts translatable content from each file, 2) Sends content for translation, 3) Reconstructs the translated file with the original formatting preserved, 4) Writes the output to the target location. This should handle different file types appropriately by delegating to the correct extractor/translator components. Include proper error handling for each step."
+        },
+        {
+          "id": 5,
+          "title": "Implement progress reporting and statistics",
+          "description": "Add functionality to track and report progress during processing",
+          "status": "pending",
+          "dependencies": [
+            4
+          ],
+          "details": "Enhance the processing pipeline with progress reporting. Implement: 1) Real-time progress indicators (percentage complete, files processed/remaining), 2) Logging of important events and errors, 3) Collection of statistics (files processed, translation volume, errors encountered, time taken). Design this to work in both interactive terminal environments and non-interactive contexts (like CI/CD pipelines)."
+        },
+        {
+          "id": 6,
+          "title": "Implement CLI interface and help documentation",
+          "description": "Create a user-friendly command-line interface with comprehensive help text",
+          "status": "pending",
+          "dependencies": [
+            5
+          ],
+          "details": "Finalize the application by implementing a clean CLI interface. Include: 1) Command-line argument parsing with sensible defaults, 2) Comprehensive help text explaining all options and their usage, 3) Examples of common use cases, 4) Version information and attribution. Ensure the interface follows CLI best practices (e.g., supporting both short and long option formats, providing clear error messages for invalid inputs)."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectName": "Markdown Translation Tool",
+    "totalTasks": 20,
+    "sourceFile": "scripts/prd.txt",
+    "generatedAt": "2023-11-10"
+  }
+}

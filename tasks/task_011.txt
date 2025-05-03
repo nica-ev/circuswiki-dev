@@ -1,0 +1,43 @@
+# Task ID: 11
+# Title: Implement output file generation
+# Status: pending
+# Dependencies: 10
+# Priority: high
+# Description: Create functionality to write translated content to output files with proper directory structure.
+# Details:
+Extend FileManager to construct output paths (OUTPUT_DIR/<lang_code>/...) and create necessary subdirectories. Implement methods to generate YAML frontmatter for translated files (setting lang, orig: false, including translated fields, copying others, adding source hashes). Write the reconstructed Markdown with frontmatter to output files.
+
+# Test Strategy:
+Process test files and verify output files are created with correct paths and content. Confirm directory structure matches expectations. Verify YAML frontmatter in output files contains all required fields.
+
+# Subtasks:
+## 1. Extend FileManager to construct output paths [pending]
+### Dependencies: None
+### Description: Add methods to FileManager to construct output file paths based on language code and original file path
+### Details:
+Create a method `get_output_path(file_path, lang_code)` that takes an original file path and language code as inputs and returns the corresponding output path in the format OUTPUT_DIR/<lang_code>/.... The method should handle both absolute and relative paths correctly. Define OUTPUT_DIR as a configurable constant in the configuration file.
+
+## 2. Implement directory creation functionality [pending]
+### Dependencies: 11.1
+### Description: Add methods to create necessary subdirectories for output files
+### Details:
+Create a method `ensure_output_directory(output_path)` that checks if the directory for an output file exists and creates it if necessary. This should handle nested directories and ensure proper permissions. Use the output path construction from subtask 1 to determine which directories need to be created.
+
+## 3. Implement YAML frontmatter generation [pending]
+### Dependencies: None
+### Description: Create functionality to generate YAML frontmatter for translated files
+### Details:
+Create a method `generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash)` that takes the original frontmatter, translated fields, language code, and source hash as inputs. The method should set 'lang' to the language code, 'orig' to false, include all translated fields, copy other fields from the original frontmatter, and add the source hash for tracking changes. Return the frontmatter as a dictionary that can be serialized to YAML.
+
+## 4. Implement file writing functionality [pending]
+### Dependencies: 11.2, 11.3
+### Description: Create methods to write translated content with frontmatter to output files
+### Details:
+Create a method `write_translated_file(output_path, frontmatter, content)` that takes an output path, frontmatter dictionary, and translated content as inputs. The method should convert the frontmatter to YAML format, combine it with the content using proper delimiters (---), and write the result to the specified output path. Ensure proper error handling for file writing operations.
+
+## 5. Integrate output generation into translation workflow [pending]
+### Dependencies: 11.1, 11.4
+### Description: Connect the output file generation to the translation process
+### Details:
+Update the translation workflow to call the output file generation methods after translation is complete. For each translated file, construct the output path, ensure the directory exists, generate the frontmatter, and write the file. Add logging to track successful file generation and any errors that occur. Include a summary of generated files at the end of the translation process.
+

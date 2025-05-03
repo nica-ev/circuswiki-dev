@@ -1,0 +1,49 @@
+# Task ID: 20
+# Title: Implement main application workflow
+# Status: pending
+# Dependencies: 14, 15, 17, 18
+# Priority: high
+# Description: Create the main application workflow that orchestrates all components.
+# Details:
+Implement the main application class that orchestrates the entire workflow: load configuration, scan directories, process each file (check eligibility, calculate hashes, determine if translation is needed, extract content, translate, reconstruct, write output, update source hashes). Include progress reporting and summary statistics. Create a clean CLI interface with appropriate help text.
+
+# Test Strategy:
+Create end-to-end tests with various scenarios (initial run, no changes, content changes, YAML changes). Verify the entire workflow functions correctly in each scenario. Test the CLI interface with various arguments and options.
+
+# Subtasks:
+## 1. Implement configuration loading and validation [pending]
+### Dependencies: None
+### Description: Create the initial part of the main application class that handles loading and validating configuration settings
+### Details:
+Implement a method to load configuration from command line arguments, environment variables, and/or config files. Include validation logic to ensure all required settings are present and valid. Handle configuration errors gracefully with informative error messages. This should include settings for source/target directories, language pairs, file types to process, and any API credentials needed for translation services.
+
+## 2. Implement directory scanning and file collection [pending]
+### Dependencies: 20.1
+### Description: Create functionality to scan directories and collect eligible files for processing
+### Details:
+Using the validated configuration, implement methods to recursively scan source directories and identify files that need processing. Apply file type filters based on configuration. Create a data structure to track files for processing with their metadata (path, size, last modified date). Include logic to skip files that should be excluded based on configuration rules (e.g., hidden files, specific patterns).
+
+## 3. Implement file eligibility and hash calculation [pending]
+### Dependencies: 20.2
+### Description: Add logic to determine which files need translation by checking eligibility and calculating hashes
+### Details:
+For each collected file, implement the logic to: 1) Calculate file hash, 2) Check against stored hashes to determine if translation is needed, 3) Create a prioritized queue of files that need processing. Include logic to handle file access errors gracefully. This component should prepare the final list of files that will proceed to content extraction and translation.
+
+## 4. Implement the core processing pipeline [pending]
+### Dependencies: 20.3
+### Description: Create the main processing loop that handles content extraction, translation, and reconstruction
+### Details:
+Implement the core processing pipeline that: 1) Extracts translatable content from each file, 2) Sends content for translation, 3) Reconstructs the translated file with the original formatting preserved, 4) Writes the output to the target location. This should handle different file types appropriately by delegating to the correct extractor/translator components. Include proper error handling for each step.
+
+## 5. Implement progress reporting and statistics [pending]
+### Dependencies: 20.4
+### Description: Add functionality to track and report progress during processing
+### Details:
+Enhance the processing pipeline with progress reporting. Implement: 1) Real-time progress indicators (percentage complete, files processed/remaining), 2) Logging of important events and errors, 3) Collection of statistics (files processed, translation volume, errors encountered, time taken). Design this to work in both interactive terminal environments and non-interactive contexts (like CI/CD pipelines).
+
+## 6. Implement CLI interface and help documentation [pending]
+### Dependencies: 20.5
+### Description: Create a user-friendly command-line interface with comprehensive help text
+### Details:
+Finalize the application by implementing a clean CLI interface. Include: 1) Command-line argument parsing with sensible defaults, 2) Comprehensive help text explaining all options and their usage, 3) Examples of common use cases, 4) Version information and attribution. Ensure the interface follows CLI best practices (e.g., supporting both short and long option formats, providing clear error messages for invalid inputs).
+

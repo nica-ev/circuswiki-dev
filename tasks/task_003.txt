@@ -1,0 +1,37 @@
+# Task ID: 3
+# Title: Implement basic FileManager for directory scanning
+# Status: pending
+# Dependencies: 2
+# Priority: high
+# Description: Create a component to recursively scan directories and identify Markdown files.
+# Details:
+Implement a FileManager class with methods to scan the INPUT_DIR recursively and identify all .md files. Use pathlib for cross-platform path handling. Include error handling for directory access issues. Return a list of file paths for further processing.
+
+# Test Strategy:
+Create test directories with various file types. Verify the scanner correctly identifies all .md files and handles nested directories properly. Test error cases like non-existent or inaccessible directories.
+
+# Subtasks:
+## 1. Create FileManager class structure with configuration [pending]
+### Dependencies: None
+### Description: Set up the basic FileManager class with initialization parameters and configuration for directory scanning
+### Details:
+Create a FileManager class with an __init__ method that accepts INPUT_DIR parameter. Initialize class variables for storing configuration like file extensions to scan for (.md). Use pathlib.Path for handling the input directory path to ensure cross-platform compatibility. Include basic validation to check if the provided path exists and is a directory.
+
+## 2. Implement recursive directory scanning logic [pending]
+### Dependencies: 3.1
+### Description: Create a method to recursively traverse directories and collect file paths
+### Details:
+Implement a _scan_directory method that takes a directory path and recursively traverses it. Use pathlib's iterdir() and is_dir() methods for directory traversal. Create a helper method to check if a file matches the target extension (.md). Build the scanning logic to collect all matching file paths into a list. Ensure the method handles the recursive nature of directory traversal properly.
+
+## 3. Add error handling for directory access issues [pending]
+### Dependencies: 3.2
+### Description: Enhance the scanning logic with robust error handling for permission and access issues
+### Details:
+Modify the directory scanning method to include try-except blocks for handling common errors: PermissionError for access denied scenarios, FileNotFoundError for missing directories, and a general exception handler for unexpected issues. Log appropriate error messages for each case. Implement a strategy to continue scanning when encountering inaccessible subdirectories rather than failing the entire process. Consider adding a method to report scanning errors encountered.
+
+## 4. Create public scan method with result formatting [pending]
+### Dependencies: 3.2, 3.3
+### Description: Implement the main public method that initiates scanning and returns properly formatted results
+### Details:
+Create a public scan_markdown_files method that calls the internal scanning logic and returns a list of pathlib.Path objects representing all found Markdown files. Include options for returning absolute or relative paths. Add documentation explaining the return format and possible exceptions. Implement basic statistics collection (number of files found, directories scanned, errors encountered) that can be optionally returned or logged. Test the method with various directory structures to ensure it works correctly.
+

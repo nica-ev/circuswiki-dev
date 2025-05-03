@@ -1,0 +1,37 @@
+# Task ID: 5
+# Title: Implement content hash calculation
+# Status: pending
+# Dependencies: 4
+# Priority: high
+# Description: Create functionality to calculate content hashes for change detection.
+# Details:
+Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection.
+
+# Test Strategy:
+Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change.
+
+# Subtasks:
+## 1. Implement content normalization functions [pending]
+### Dependencies: None
+### Description: Create utility functions to normalize Markdown content and YAML frontmatter before hashing to ensure consistent hash generation.
+### Details:
+Create two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. The Markdown normalization should handle line endings (convert to \n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization should convert the frontmatter to a canonical form with consistent key ordering and value representation. Include comprehensive tests to verify normalization produces consistent output regardless of input formatting variations.
+
+## 2. Implement content_hash calculation for Markdown body [pending]
+### Dependencies: 5.1
+### Description: Create a function to calculate SHA-256 hash for normalized Markdown content.
+### Details:
+Implement `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Include error handling for invalid inputs and write unit tests to verify hash consistency across equivalent content with different formatting.
+
+## 3. Implement yaml_hash calculation for frontmatter [pending]
+### Dependencies: 5.1
+### Description: Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
+### Details:
+Implement `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Include validation to ensure all technical fields are properly excluded and write tests to verify hash consistency with different field orderings.
+
+## 4. Integrate hash calculation into document processing workflow [pending]
+### Dependencies: 5.2, 5.3
+### Description: Update the document processing workflow to calculate and store content and YAML hashes during document operations.
+### Details:
+Modify the document processing code to: 1) Calculate both hashes whenever a document is created or updated, 2) Store the hashes in the document's metadata, 3) Implement a change detection function that compares newly calculated hashes with stored hashes to determine if content has changed, 4) Add documentation explaining the hash calculation process and its use in change detection. Include integration tests that verify the entire workflow correctly identifies changes and ignores non-semantic differences.
+

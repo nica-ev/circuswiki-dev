@@ -1,0 +1,189 @@
+# Overview
+This document outlines the requirements for a command-line tool designed to automate the translation of Markdown (`.md`) files. It solves the problem of efficiently translating collections of Markdown documents while preserving structure and formatting, primarily for documentation maintainers and content creators needing to reach multilingual audiences. The tool scans source directories, identifies eligible files (marked `orig:true`), intelligently extracts translatable text (from the body and specified YAML frontmatter fields), leverages external LLM APIs (starting with DeepL) for translation, and reconstructs translated Markdown files in an output directory. Key value propositions include automation, structure preservation (code blocks, links, HTML), efficiency (only translating changed files via content hashing), configurability, and extensibility to support multiple translation providers.
+
+# Core Features
+
+*   **FR1: Configuration Management:**
+    *   **What:** Load settings from external files (`settings.txt`, `translate.env`).
+    *   **Why:** Allows easy customization of directories, languages, API keys, and features without code changes. Securely manages credentials.
+    *   **How:** Read `settings.txt` for `INPUT_DIR`, `OUTPUT_DIR`, `TARGET_LANGUAGES`, `YAML_TRANSLATE_FIELDS`, `API_PROVIDER`, `TEST_MODE`. Read `translate.env` for API keys (e.g., `DEEPL_API_KEY`).
+
+*   **FR2: Source File Discovery:**
+    *   **What:** Recursively scan a specified input directory for Markdown files.
+    *   **Why:** Identify all potential source files for translation.
+    *   **How:** Traverse `INPUT_DIR` and identify all `.md` files.
+
+*   **FR3: File Processing & Change Detection:**
+    *   **What:** Process each found `.md` file, check eligibility, calculate content hashes, and determine if translation/update is needed.
+    *   **Why:** Ensure only necessary files are processed and translated, saving time and API costs. Handles updates to content and/or metadata separately.
+    *   **How:**
+        *   Parse YAML frontmatter.
+        *   Skip if `orig` flag is not `true`.
+        *   Calculate `content_hash` (for body) and `yaml_hash` (for frontmatter, excluding hash/technical fields).
+        *   Compare calculated hashes with stored hashes in the source file's frontmatter.
+        *   Identify YAML fields listed in `YAML_TRANSLATE_FIELDS` for potential translation.
+        *   Trigger full translation/reconstruction if `content_hash` changes.
+        *   Trigger YAML-only update if only `yaml_hash` changes.
+        *   Skip file if hashes match.
+
+*   **FR4: Intelligent Content Extraction:**
+    *   **What:** Parse Markdown content and identify/extract text segments suitable for translation, while preserving non-translatable elements.
+    *   **Why:** Ensure accurate translation without breaking code, links, or formatting. Allows translation of specific YAML fields. Handles standard and potentially non-standard (e.g., WikiLink alias) syntax.
+    *   **How:**
+        *   Use a Markdown parser (like `markdown-it-py`) to generate an AST or token stream.
+        *   Extract text from paragraphs, lists, table cells, headers, emphasis, link text, image alt text.
+        *   Isolate and preserve code blocks, inline code, URLs, HTML tags/blocks, and potentially non-standard syntax structures (like `[[LinkTarget]]` or `[[LinkTarget|...]]` structure, translating only the Alias).
+        *   Extract string values from YAML fields specified in `YAML_TRANSLATE_FIELDS`.
+        *   Aggregate all translatable text segments, maintaining mapping to their original location.
+
+*   **FR5: External Translation API Integration:**
+    *   **What:** Send extracted text segments to a configured translation API (initially DeepL) and retrieve translations. Includes a test mode.
+    *   **Why:** Leverage powerful LLMs for translation. Allows testing without API cost.
+    *   **How:**
+        *   If `TEST_MODE` is true, simulate by returning original text.
+        *   If false, send aggregated text segments to the API specified by `API_PROVIDER` (e.g., DeepL) for each `TARGET_LANGUAGE`.
+        *   Handle API errors gracefully.
+
+*   **FR6: Markdown Reconstruction:**
+    *   **What:** Rebuild the Markdown document using the translated text segments while maintaining the original structure and non-translated elements.
+    *   **Why:** Create accurate, well-formatted translated documents.
+    *   **How:**
+        *   Replace original text segments in the AST/token stream and YAML data with translated segments based on the mapping from FR4.
+        *   Reconstruct the full Markdown content from the modified AST/token stream/YAML data.
+
+*   **FR7: Output File Generation & Update:**
+    *   **What:** Create new translated Markdown files or update the YAML frontmatter of existing ones.
+    *   **Why:** Store the translation results in the specified output structure. Handles updates efficiently when only metadata changes.
+    *   **How:**
+        *   Construct output path (`OUTPUT_DIR/<lang_code>/...`).
+        *   Create necessary subdirectories.
+        *   Generate YAML frontmatter for the translated file (setting `lang`, `orig: false`, including translated YAML fields, copying others, adding source hashes for reference).
+        *   If full reconstruction (FR3.6 content change): Write new frontmatter and reconstructed Markdown body to the output file.
+        *   If YAML-only update (FR3.6 yaml change): Read existing translated file, update *only* its YAML frontmatter, and rewrite the file.
+
+*   **FR8: Source File Hash Update:**
+    *   **What:** Update the `content_hash` and `yaml_hash` values in the source file's frontmatter after processing.
+    *   **Why:** Ensure the source file reflects the state that was last used for comparison, enabling correct change detection on subsequent runs.
+    *   **How:** Write the newly calculated `content_hash` and `yaml_hash` back to the source file's YAML frontmatter.
+
+# User Experience
+
+*   **User Personas:**
+    *   **Documentation Maintainer:** Needs to translate large sets of technical docs into multiple languages efficiently. Values structure preservation (especially code blocks) and avoiding manual work.
+    *   **Developer:** Integrates the tool into CI/CD or content pipelines. Needs clear configuration (dirs, keys) and reliability. Values the test mode for debugging.
+    *   **Content Creator (e.g., using Obsidian):** Creates content with specific Markdown flavors (like WikiLinks). Needs the tool to handle this syntax correctly, translating aliases but not link targets.
+*   **Key User Flows:**
+    1.  **Initial Setup:** User defines source/output directories, target languages, and translatable YAML fields in `settings.txt`. Adds API key to `translate.env`. Marks source files with `orig: true` in frontmatter.
+    2.  **First Run:** User executes the tool. It scans the input dir, finds `orig:true` files, parses them, extracts content, calls the translation API for each target language, reconstructs, and writes new translated files to the output dir. Source file hashes are updated.
+    3.  **Subsequent Run (No Changes):** User re-runs the tool. It scans, calculates hashes, finds they match the stored hashes in source files, and skips processing/API calls for those files. Finishes quickly.
+    4.  **Subsequent Run (Content Change):** User modifies the body of a source Markdown file. Re-runs the tool. The tool detects the `content_hash` mismatch, re-extracts, re-translates (for all languages), reconstructs, and overwrites the corresponding translated files. Source file hashes are updated.
+    5.  **Subsequent Run (YAML Change):** User modifies a field *not* listed in `YAML_TRANSLATE_FIELDS` in a source file's frontmatter. Re-runs the tool. The tool detects the `yaml_hash` mismatch but matching `content_hash`. It updates the YAML frontmatter in the *existing* translated files (copying the changed untranslated value), without re-translating the body. Source file hashes are updated.
+    6.  **Subsequent Run (Translatable YAML Change):** User modifies a field listed in `YAML_TRANSLATE_FIELDS` (e.g., `description`). Re-runs the tool. Detects `yaml_hash` mismatch. Re-translates *only* the changed YAML field value(s) for each language. Updates the YAML frontmatter in existing translated files. Source file hashes are updated.
+    7.  **Test Run:** User sets `TEST_MODE=true`. Runs the tool. It performs all steps (scanning, parsing, hash comparison, reconstruction, output file writing) *except* calling the external translation API. Allows verification of logic without cost.
+*   **UI/UX Considerations:**
+    *   Command-line interface only (No GUI).
+    *   Clear logging of progress (files found, files skipped, files processed, files written, errors).
+    *   Meaningful error messages for configuration issues, file errors, or API problems.
+    *   Configuration via simple text files (`.txt`, `.env`) for ease of use.
+
+# Technical Architecture
+
+*   **Language:** Python 3.x
+*   **System Components:**
+    *   `ConfigLoader`: Handles reading `settings.txt` and `translate.env`.
+    *   `FileManager`: Manages directory scanning, file reading/writing, and source file hash updates.
+    *   `MarkdownProcessor`: Encapsulates Markdown/YAML parsing, AST/token traversal, content/hash extraction, and reconstruction logic using a suitable library.
+    *   `TranslationService`: Provides an abstraction layer for interacting with translation APIs (initially DeepL), handling API key injection, request formatting, error handling, and `TEST_MODE` logic.
+*   **Data Models:**
+    *   Internal representation of parsed YAML frontmatter (e.g., Python dictionary).
+    *   Internal representation of Markdown content (e.g., AST or token stream from `markdown-it-py`).
+    *   Data structure mapping extracted translatable text segments to their original locations (Markdown node, YAML key).
+*   **APIs and Integrations:**
+    *   External LLM Translation API (DeepL initially, configurable via `API_PROVIDER`). Requires HTTP requests.
+*   **Infrastructure Requirements:**
+    *   Python 3.x environment.
+    *   Internet connectivity for API calls (unless in `TEST_MODE`).
+    *   File system access to read input/config files and write output files.
+
+# Development Roadmap
+
+*   **Phase 1: Core Translation Engine (MVP)**
+    *   Implement `ConfigLoader` for `settings.txt` and `translate.env`.
+    *   Implement `FileManager` for basic directory scanning (FR2) and file read/write.
+    *   Implement `MarkdownProcessor` using `markdown-it-py`:
+        *   Basic YAML frontmatter parsing (FR3.1).
+        *   Content hash calculation (`content_hash` only initially) (FR3.3).
+        *   AST/token traversal to extract translatable text (paragraphs, lists, headers, emphasis) (FR4.2 subset).
+        *   Preservation of basic non-translatable elements (code blocks, inline code, URLs) (FR4.3 subset).
+        *   Markdown reconstruction from AST/stream (FR6.2).
+    *   Implement `TranslationService` for DeepL (FR5.2):
+        *   Basic API call structure.
+    *   Implement core workflow: Scan -> Read -> Check `orig` (FR3.2) -> Calculate `content_hash` -> Extract body text -> Translate -> Reconstruct -> Write output file (FR7.1, FR7.2, FR7.4 basic version).
+    *   Implement source file hash update (`content_hash` only) (FR8).
+    *   Basic logging.
+
+*   **Phase 2: Efficient Updates & YAML Handling**
+    *   Enhance `MarkdownProcessor` & `FileManager`:
+        *   Implement `yaml_hash` calculation and comparison (FR3.3, FR3.4).
+        *   Implement logic to differentiate content vs. YAML-only changes (FR3.6).
+        *   Implement extraction of specified YAML fields (`YAML_TRANSLATE_FIELDS`) (FR3.5).
+        *   Aggregate text from body *and* specified YAML fields for translation service (FR4.5).
+        *   Update reconstruction (FR6.1) and output generation (FR7.3) to handle translated YAML fields.
+        *   Implement logic for updating *existing* translated files when only `yaml_hash` changes (FR7.5).
+    *   Update `FileManager` to write both `content_hash` and `yaml_hash` to source files (FR8).
+
+*   **Phase 3: Robustness & Extensibility**
+    *   Implement `TEST_MODE` flag in `ConfigLoader` and `TranslationService` (FR5.1).
+    *   Improve error handling (API errors, file errors, parsing errors) (FR5.3, NFR2).
+    *   Refine `MarkdownProcessor` to handle more complex Markdown structures reliably (tables, footnotes, HTML blocks pass-through) (FR4.1, FR4.3).
+    *   Formalize `TranslationService` interface and `API_PROVIDER` setting for future extensibility (Goal 5).
+    *   Add more detailed progress logging.
+
+*   **Phase 4: Advanced Features & Future Considerations**
+    *   Implement custom parsing rules (e.g., via `markdown-it-py` plugins) for non-standard syntax like Obsidian WikiLinks (FR4.4). Requires careful design based on PDD section 10.
+    *   Investigate and potentially implement API batching (NFR1, PDD 10).
+    *   Consider adding features from "Future Considerations" like caching, orphaned file detection, forced YAML re-evaluation based on priority and complexity.
+
+# Logical Dependency Chain
+
+1.  **Configuration Loading (FR1):** Foundational, needed by all other components.
+2.  **File Scanning & Reading (FR2, FR3 part):** Need to find files before processing.
+3.  **Core Parsing & Hash Calculation (FR3, FR4 part):** Need to parse content and calculate initial `content_hash` to determine if translation is needed.
+4.  **Content Extraction (FR4):** Must occur after parsing to identify translatable segments.
+5.  **Translation API Call (FR5):** Depends on extracted content.
+6.  **Markdown Reconstruction (FR6):** Depends on translated segments and original structure representation (AST/stream).
+7.  **Output File Writing (FR7):** Depends on reconstructed content and frontmatter.
+8.  **Source File Hash Update (FR8):** Should happen after successful processing of a source file.
+9.  **YAML Handling (FR3.5, FR7.3, FR7.5):** Depends on core parsing (FR3.1) and hash comparison logic (FR3.4, FR3.6). Integrated into Extraction, Reconstruction, and Output stages.
+10. **Test Mode (FR5.1):** A modification to the Translation API call step.
+11. **Advanced Syntax Handling (FR4.4):** An enhancement to the Parsing/Extraction step.
+12. **API Extensibility:** An enhancement to the Translation Service component.
+
+*Getting to Usable/Visible:* Phase 1 provides the core end-to-end translation flow for the main body content, which is the most critical part. Phase 2 adds efficiency and metadata handling. Phase 3 adds robustness.
+
+# Risks and Mitigations
+
+*   **Technical Challenge: Accurate Parsing & Reconstruction:**
+    *   **Risk:** Failing to correctly identify all translatable text or perfectly preserving non-translatable elements (code, HTML, links, specific syntax) during parsing and reconstruction, leading to broken output. Handling diverse Markdown flavors and edge cases is complex.
+    *   **Mitigation:** Use a robust, extensible parser like `markdown-it-py`. Implement thorough testing with diverse Markdown examples. Start with core syntax and incrementally add support for extensions and non-standard syntax. Prioritize preserving structure over translating ambiguous segments initially.
+*   **Technical Challenge: Change Detection Logic:**
+    *   **Risk:** The two-hash system (`content_hash`, `yaml_hash`) might miss certain changes or trigger unnecessary updates if not implemented carefully (e.g., normalization issues, deciding exactly what goes into `yaml_hash`).
+    *   **Mitigation:** Clearly define what constitutes the "content" for hashing. Use a standard hashing algorithm (SHA-256). Carefully define which fields are excluded from `yaml_hash`. Test edge cases (e.g., only whitespace changes, changes in non-translated YAML fields vs. translated ones). Consider the trade-offs mentioned in PDD Section 10 regarding `yaml_hash` granularity if performance issues arise.
+*   **Dependency Risk: External Translation API:**
+    *   **Risk:** Reliance on external APIs introduces potential issues like rate limits, API key management errors, network failures, changes in API behavior, or translation quality variations.
+    *   **Mitigation:** Implement robust error handling, including retries with backoff for transient errors. Use secure credential management (`.env`). Abstract the API interaction (`TranslationService`) to allow switching providers if needed. Implement `TEST_MODE` for offline testing/debugging. Clearly document API usage limits.
+*   **Scope Risk: Handling Non-Standard Syntax:**
+    *   **Risk:** Supporting various non-standard syntaxes (like Obsidian WikiLinks) adds significant complexity to the parsing logic (FR4.4). Defining and implementing rules for each can be time-consuming and brittle.
+    *   **Mitigation:** Clearly define which non-standard syntaxes are in scope for initial versions. Prioritize based on user needs (e.g., WikiLink aliases mentioned in User Stories). Use parser plugins if possible for maintainability. If a syntax cannot be reliably parsed for selective translation, default to treating the entire block as non-translatable (FR4.3). Defer less common syntaxes to future enhancements.
+*   **Performance Risk:**
+    *   **Risk:** Processing a very large number of files could be slow, primarily due to sequential API calls (NFR1).
+    *   **Mitigation:** Ensure efficient file I/O and parsing. Implement the hash-based change detection correctly to minimize API calls. Investigate and potentially implement API batching if the chosen provider supports it (Future Consideration). Provide progress indication.
+
+# Appendix
+
+*   **Key Libraries:** `python-dotenv`, `PyYAML`/`ruamel.yaml`, `markdown-it-py`, `requests`/`httpx`, `deepl` (optional), `hashlib`, `pathlib`.
+*   **Configuration Files:**
+    *   `settings.txt` (or similar format like JSON/YAML): Contains directory paths, language list, YAML fields to translate, API provider, test mode flag.
+    *   `translate.env`: Contains API keys (e.g., `DEEPL_API_KEY`). Must be gitignored.
+*   **Hashing:** SHA-256 recommended for `content_hash` and `yaml_hash`.
+*   **Reference:** See `__project/pdd.md` for the full Product Design Document. 

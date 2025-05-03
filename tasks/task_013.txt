@@ -1,0 +1,43 @@
+# Task ID: 13
+# Title: Implement YAML field translation
+# Status: pending
+# Dependencies: 7, 8
+# Priority: medium
+# Description: Add support for translating specified YAML frontmatter fields.
+# Details:
+Extend MarkdownProcessor to identify YAML fields listed in YAML_TRANSLATE_FIELDS configuration. Extract text from these fields for translation. Update the mapping structure to include YAML field locations. Modify the TranslationService to handle both body content and YAML field text.
+
+# Test Strategy:
+Configure test files with translatable YAML fields. Process files and verify both body content and specified YAML fields are translated. Confirm non-specified YAML fields remain unchanged.
+
+# Subtasks:
+## 1. Add YAML_TRANSLATE_FIELDS configuration option [pending]
+### Dependencies: None
+### Description: Create a configuration option that allows users to specify which YAML frontmatter fields should be translated
+### Details:
+Add a new configuration option called YAML_TRANSLATE_FIELDS to the application's configuration system. This should be an array of strings representing field names in YAML frontmatter that should be translated. Update the configuration documentation to explain this new option. Implement validation to ensure the configuration value is an array of strings when provided.
+
+## 2. Extend MarkdownProcessor to identify translatable YAML fields [pending]
+### Dependencies: 13.1
+### Description: Modify the MarkdownProcessor to detect and extract YAML frontmatter fields that are marked for translation
+### Details:
+Update the MarkdownProcessor to parse YAML frontmatter at the beginning of markdown files. Add logic to check each field against the YAML_TRANSLATE_FIELDS configuration. For fields that match, extract their text content and store it separately from the main markdown body. Ensure the processor can handle various YAML data types (strings, arrays, nested objects) and extract translatable text appropriately.
+
+## 3. Update mapping structure to include YAML field locations [pending]
+### Dependencies: 13.2
+### Description: Extend the translation mapping structure to track the location and context of text from YAML fields
+### Details:
+Modify the existing mapping structure to distinguish between body content and YAML field content. For YAML fields, store additional metadata including the field name, path (for nested fields), and original position in the document. This mapping should allow the system to correctly replace translated content back into the appropriate YAML fields. Create a consistent format for identifying YAML field locations that can be used throughout the translation pipeline.
+
+## 4. Modify TranslationService to process YAML field text [pending]
+### Dependencies: 13.3
+### Description: Update the TranslationService to handle translation of both markdown body and YAML field content
+### Details:
+Extend the TranslationService to process text from YAML fields alongside the main markdown content. Implement logic to handle different translation requirements for YAML fields (e.g., preserving formatting, handling special characters). Ensure the service can batch translate both types of content efficiently. Update any translation caching mechanisms to properly handle and identify YAML field content.
+
+## 5. Implement reassembly of translated YAML fields [pending]
+### Dependencies: 13.4
+### Description: Create functionality to reconstruct the markdown file with translated YAML fields and body content
+### Details:
+Develop the logic to reassemble a complete markdown file after translation. Use the mapping structure to place translated YAML field content back into the correct fields in the frontmatter. Ensure the YAML structure and formatting is preserved during reassembly. Add validation to verify that the reconstructed document maintains the original structure with only the content changed. Test with various YAML structures including nested objects and arrays.
+

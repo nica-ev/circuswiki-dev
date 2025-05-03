@@ -1,0 +1,43 @@
+# Task ID: 2
+# Title: Implement ConfigLoader component
+# Status: pending
+# Dependencies: 1
+# Priority: high
+# Description: Create a component to load and validate configuration from settings.txt and translate.env files.
+# Details:
+Implement a ConfigLoader class that reads settings.txt for INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE. Use python-dotenv to read translate.env for API keys (e.g., DEEPL_API_KEY). Include validation for required fields and appropriate error handling for missing or invalid configuration.
+
+# Test Strategy:
+Create test configuration files with valid and invalid settings. Verify ConfigLoader correctly loads settings, validates required fields, and raises appropriate exceptions for invalid configurations.
+
+# Subtasks:
+## 1. Create ConfigLoader class skeleton with file path handling [pending]
+### Dependencies: None
+### Description: Set up the basic structure of the ConfigLoader class with initialization and file path handling for both configuration files.
+### Details:
+Create a new file `config_loader.py` with a ConfigLoader class. Implement the `__init__` method that accepts optional paths to settings.txt and translate.env files (with defaults). Add methods to validate file existence and readability. Include basic exception handling for file access issues and implement logging setup.
+
+## 2. Implement settings.txt parser [pending]
+### Dependencies: 2.1
+### Description: Create functionality to read and parse the settings.txt file for configuration parameters.
+### Details:
+Add a method `_parse_settings_file()` that reads the settings.txt file and extracts the required configuration parameters (INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE). Parse each line using appropriate string manipulation (e.g., splitting by '=' and stripping whitespace). Store the parsed values in a dictionary attribute. Handle comments and empty lines appropriately.
+
+## 3. Implement environment variable loading with python-dotenv [pending]
+### Dependencies: 2.1
+### Description: Add functionality to load API keys from translate.env using python-dotenv.
+### Details:
+Use python-dotenv to load environment variables from the translate.env file. Add a method `_load_env_variables()` that reads API keys (e.g., DEEPL_API_KEY) from the environment file. Store these values in a separate dictionary attribute. Include error handling for missing or inaccessible environment files.
+
+## 4. Implement configuration validation [pending]
+### Dependencies: 2.2, 2.3
+### Description: Add validation logic to ensure all required configuration parameters are present and valid.
+### Details:
+Create a `validate_config()` method that checks if all required fields are present and have valid values. Define validation rules for each parameter (e.g., directories should exist or be creatable, TARGET_LANGUAGES should be a comma-separated list, API_PROVIDER should be one of the supported options). Implement type checking and format validation for each field. Raise specific exceptions with clear error messages for validation failures.
+
+## 5. Create public interface and documentation [pending]
+### Dependencies: 2.4
+### Description: Implement public methods to access configuration and add comprehensive documentation.
+### Details:
+Create public getter methods to access validated configuration parameters (e.g., `get_input_dir()`, `get_target_languages()`, `get_api_key()`). Implement a `load_config()` method that orchestrates the entire loading and validation process. Add comprehensive docstrings following a standard format (e.g., Google style) for the class and all methods. Include usage examples in the module docstring. Add type hints to all methods and parameters.
+

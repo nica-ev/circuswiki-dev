@@ -1,0 +1,49 @@
+# Task ID: 10
+# Title: Implement Markdown reconstruction from translated segments
+# Status: pending
+# Dependencies: 7, 8
+# Priority: high
+# Description: Create functionality to rebuild Markdown content using translated text segments.
+# Details:
+Extend MarkdownProcessor to replace original text segments in the AST with translated segments based on the mapping created during extraction. Implement methods to reconstruct the full Markdown content from the modified AST. Ensure all formatting, links, and non-translated elements are preserved correctly.
+
+# Test Strategy:
+Create a test workflow with extraction, simulated translation, and reconstruction. Compare the reconstructed Markdown with expected output to verify structure preservation. Test with complex Markdown features.
+
+# Subtasks:
+## 1. Create AST node replacement method [pending]
+### Dependencies: None
+### Description: Implement a method in MarkdownProcessor that can replace text content in AST nodes while preserving node structure and attributes
+### Details:
+Create a method called `replaceNodeContent(node, originalText, translatedText)` that takes an AST node, the original text, and the translated text as parameters. The method should update the node's content with the translated text while preserving all node attributes, formatting, and structure. Handle different node types (paragraph, heading, list item, etc.) appropriately. Include unit tests to verify the method works correctly for various node types.
+
+## 2. Implement segment mapping lookup functionality [pending]
+### Dependencies: 10.1
+### Description: Create a mechanism to efficiently look up translated segments based on original text and node context
+### Details:
+Implement a `SegmentMapper` class that manages the mapping between original text segments and their translations. Include methods like `getTranslationForSegment(originalText, nodeContext)` that retrieves the appropriate translation based on the original text and contextual information about the node (like node type, position, etc.). This will handle cases where the same text might have different translations in different contexts. Add appropriate caching to optimize performance for repeated lookups.
+
+## 3. Develop AST traversal and modification algorithm [pending]
+### Dependencies: 10.1, 10.2
+### Description: Create a recursive algorithm to traverse the Markdown AST and apply translations to each text node
+### Details:
+Implement a method called `traverseAndTranslateAST(ast, segmentMapper)` that recursively walks through the AST, identifies text nodes that need translation, and applies the appropriate translations using the segment mapper and node replacement method. The algorithm should handle nested structures correctly and maintain the hierarchical relationships between nodes. Include special handling for nodes that should not be modified (like code blocks or already processed custom elements).
+
+## 4. Implement special element preservation logic [pending]
+### Dependencies: 10.3
+### Description: Create handlers for preserving special Markdown elements like links, images, and formatting during reconstruction
+### Details:
+Extend the AST traversal algorithm with specialized handlers for complex Markdown elements. Implement methods like `preserveLinks(node)`, `preserveImages(node)`, and `preserveFormatting(node)` that ensure these elements are correctly maintained during translation. For links, ensure the link text is translated while the URL is preserved. For images, translate alt text while preserving the image path. For formatting (bold, italic, etc.), ensure the formatting markers are correctly applied to the translated text.
+
+## 5. Create Markdown reconstruction method [pending]
+### Dependencies: 10.3, 10.4
+### Description: Implement functionality to convert the modified AST back into valid Markdown text
+### Details:
+Create a method called `reconstructMarkdown(ast)` that takes the modified AST and generates valid Markdown text. This should handle all Markdown syntax elements correctly, including headings, lists, code blocks, tables, and formatting. Ensure proper indentation and line breaks are maintained. The method should produce Markdown that is semantically equivalent to the original but with translated text segments.
+
+## 6. Add integration and validation functionality [pending]
+### Dependencies: 10.5
+### Description: Implement methods to validate the reconstructed Markdown and integrate the entire translation process
+### Details:
+Create a `validateReconstructedMarkdown(original, translated)` method that checks the structural integrity of the translated Markdown compared to the original. Implement the main public method `translateMarkdown(markdown, translations)` that orchestrates the entire process: parsing the original Markdown to AST, applying translations, reconstructing the Markdown, and validating the result. Add comprehensive error handling and logging to identify and report any issues during the translation process. Include integration tests that verify the entire workflow with various Markdown structures and translation scenarios.
+
