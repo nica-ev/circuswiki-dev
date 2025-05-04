@@ -66,7 +66,7 @@
       "id": 2,
       "title": "Implement ConfigLoader component",
       "description": "Create a component to load and validate configuration from settings.txt and translate.env files.",
-      "status": "pending",
+      "status": "done",
       "dependencies": [
         1
       ],
@@ -86,38 +86,38 @@
           "id": 2,
           "title": "Implement settings.txt parser",
           "description": "Create functionality to read and parse the settings.txt file for configuration parameters.",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1
           ],
-          "details": "Add a method `_parse_settings_file()` that reads the settings.txt file and extracts the required configuration parameters (INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE). Parse each line using appropriate string manipulation (e.g., splitting by '=' and stripping whitespace). Store the parsed values in a dictionary attribute. Handle comments and empty lines appropriately."
+          "details": "Add a method `_parse_settings_file()` that reads the settings.txt file and extracts the required configuration parameters (INPUT_DIR, OUTPUT_DIR, TARGET_LANGUAGES, YAML_TRANSLATE_FIELDS, API_PROVIDER, TEST_MODE). Parse each line using appropriate string manipulation (e.g., splitting by '=' and stripping whitespace). Store the parsed values in a dictionary attribute. Handle comments and empty lines appropriately.\n\n<info added on 2025-05-04T00:59:53.262Z>\nThe implementation in `translation-py/src/config_loader.py` should handle several edge cases:\n\n1. Type conversion for specific settings:\n   - Convert `TARGET_LANGUAGES` from comma-separated string to a list\n   - Convert `YAML_TRANSLATE_FIELDS` from comma-separated string to a list\n   - Convert `TEST_MODE` string to boolean value\n\n2. Default values for optional parameters:\n   - Set `TEST_MODE=False` if not specified\n   - Use current directory for `INPUT_DIR` or `OUTPUT_DIR` if missing\n\n3. Validation logic:\n   - Check that required parameters exist after parsing\n   - Verify that directories in `INPUT_DIR` and `OUTPUT_DIR` are valid paths\n\nExample implementation snippet:\n```python\ndef _parse_settings_file(self):\n    self.settings = {}\n    try:\n        with open(self.settings_path, 'r', encoding='utf-8') as file:\n            for line in file:\n                line = line.strip()\n                if not line or line.startswith('#'):\n                    continue\n                    \n                try:\n                    key, value = [part.strip() for part in line.split('=', 1)]\n                    \n                    # Type conversions\n                    if key in ['TARGET_LANGUAGES', 'YAML_TRANSLATE_FIELDS']:\n                        value = [item.strip() for item in value.split(',') if item.strip()]\n                    elif key == 'TEST_MODE':\n                        value = value.lower() in ['true', 'yes', '1']\n                        \n                    self.settings[key] = value\n                except ValueError:\n                    self.logger.warning(f\"Skipping invalid line in settings file: {line}\")\n        \n        # Apply defaults\n        self.settings.setdefault('TEST_MODE', False)\n        self.settings.setdefault('INPUT_DIR', os.getcwd())\n        self.settings.setdefault('OUTPUT_DIR', os.getcwd())\n        \n        # Validate required settings\n        self._validate_settings()\n    except OSError as e:\n        raise ConfigError(f\"Failed to read settings file: {e}\")\n```\n</info added on 2025-05-04T00:59:53.262Z>"
         },
         {
           "id": 3,
           "title": "Implement environment variable loading with python-dotenv",
           "description": "Add functionality to load API keys from translate.env using python-dotenv.",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1
           ],
-          "details": "Use python-dotenv to load environment variables from the translate.env file. Add a method `_load_env_variables()` that reads API keys (e.g., DEEPL_API_KEY) from the environment file. Store these values in a separate dictionary attribute. Include error handling for missing or inaccessible environment files."
+          "details": "Use python-dotenv to load environment variables from the translate.env file. Add a method `_load_env_variables()` that reads API keys (e.g., DEEPL_API_KEY) from the environment file. Store these values in a separate dictionary attribute. Include error handling for missing or inaccessible environment files.\n\n<info added on 2025-05-04T01:03:38.876Z>\n```python\n# Implementation details for _load_env_variables method:\ndef _load_env_variables(self):\n    \"\"\"Load environment variables from translate.env file.\"\"\"\n    import os\n    from dotenv import load_dotenv\n    \n    try:\n        # Check if env file exists\n        if os.path.exists(self.env_file):\n            # Load environment variables from file\n            load_dotenv(dotenv_path=self.env_file, override=False)\n            self.logger.info(f\"Environment variables loaded from {self.env_file}\")\n            \n            # Store API keys in dictionary for easy access\n            self.env_vars = {\n                'DEEPL_API_KEY': os.getenv('DEEPL_API_KEY'),\n                'GOOGLE_API_KEY': os.getenv('GOOGLE_API_KEY'),\n                'AZURE_API_KEY': os.getenv('AZURE_API_KEY'),\n                'AZURE_REGION': os.getenv('AZURE_REGION')\n            }\n            \n            # Filter out None values\n            self.env_vars = {k: v for k, v in self.env_vars.items() if v is not None}\n            \n            if not self.env_vars:\n                self.logger.warning(\"No API keys found in environment file\")\n        else:\n            self.logger.warning(f\"Environment file {self.env_file} not found\")\n            self.env_vars = {}\n    except Exception as e:\n        self.logger.error(f\"Error loading environment variables: {str(e)}\")\n        self.env_vars = {}\n```\n\nAdd this method to the ConfigLoader class and update the `__init__` method to call `self._load_env_variables()` after initializing the env_file path. This implementation provides proper error handling and stores API keys in a dedicated dictionary for convenient access throughout the application.\n</info added on 2025-05-04T01:03:38.876Z>"
         },
         {
           "id": 4,
           "title": "Implement configuration validation",
           "description": "Add validation logic to ensure all required configuration parameters are present and valid.",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             2,
             3
           ],
-          "details": "Create a `validate_config()` method that checks if all required fields are present and have valid values. Define validation rules for each parameter (e.g., directories should exist or be creatable, TARGET_LANGUAGES should be a comma-separated list, API_PROVIDER should be one of the supported options). Implement type checking and format validation for each field. Raise specific exceptions with clear error messages for validation failures."
+          "details": "Create a `validate_config()` method that checks if all required fields are present and have valid values. Define validation rules for each parameter (e.g., directories should exist or be creatable, TARGET_LANGUAGES should be a comma-separated list, API_PROVIDER should be one of the supported options). Implement type checking and format validation for each field. Raise specific exceptions with clear error messages for validation failures.\n\n<info added on 2025-05-04T01:05:31.628Z>\n```python\ndef _validate_config(self):\n    \"\"\"Validates configuration parameters and raises ConfigValidationError if invalid.\"\"\"\n    # Check required settings\n    required_settings = ['INPUT_DIR', 'OUTPUT_DIR', 'TARGET_LANGUAGES', 'API_PROVIDER']\n    missing = [setting for setting in required_settings if not self.settings.get(setting)]\n    if missing:\n        raise ConfigValidationError(f\"Missing required settings: {', '.join(missing)}\")\n    \n    # Validate directories\n    for dir_setting in ['INPUT_DIR', 'OUTPUT_DIR']:\n        path = Path(self.settings[dir_setting])\n        if not path.exists():\n            try:\n                path.mkdir(parents=True)\n                logger.info(f\"Created directory: {path}\")\n            except Exception as e:\n                raise ConfigValidationError(f\"Cannot create {dir_setting} directory: {str(e)}\")\n    \n    # Validate target languages\n    if not self.settings['TARGET_LANGUAGES'].strip():\n        raise ConfigValidationError(\"TARGET_LANGUAGES cannot be empty\")\n    self.settings['TARGET_LANGUAGES_LIST'] = [\n        lang.strip() for lang in self.settings['TARGET_LANGUAGES'].split(',')\n    ]\n    \n    # Validate API provider\n    allowed_providers = ['DeepL', 'Google', 'Azure']\n    if self.settings['API_PROVIDER'] not in allowed_providers:\n        raise ConfigValidationError(\n            f\"API_PROVIDER must be one of: {', '.join(allowed_providers)}\"\n        )\n    \n    # Process TEST_MODE\n    test_mode = self.settings.get('TEST_MODE', 'false').lower()\n    self.settings['TEST_MODE_BOOL'] = test_mode in ['true', '1', 'yes']\n    \n    # Validate YAML_TRANSLATE_FIELDS if present\n    if 'YAML_TRANSLATE_FIELDS' in self.settings and not self.settings['YAML_TRANSLATE_FIELDS'].strip():\n        raise ConfigValidationError(\"YAML_TRANSLATE_FIELDS cannot be empty if specified\")\n    \n    # Check for API keys when not in test mode\n    if not self.settings['TEST_MODE_BOOL']:\n        api_key_map = {\n            'DeepL': 'DEEPL_API_KEY',\n            'Google': 'GOOGLE_CLOUD_KEY',\n            'Azure': 'MICROSOFT_TRANSLATOR_KEY'\n        }\n        required_key = api_key_map[self.settings['API_PROVIDER']]\n        if not self.env_vars.get(required_key):\n            raise ConfigValidationError(f\"Missing required API key: {required_key}\")\n\nclass ConfigValidationError(Exception):\n    \"\"\"Exception raised for configuration validation errors.\"\"\"\n    pass\n```\n</info added on 2025-05-04T01:05:31.628Z>"
         },
         {
           "id": 5,
           "title": "Create public interface and documentation",
           "description": "Implement public methods to access configuration and add comprehensive documentation.",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             4
           ],
