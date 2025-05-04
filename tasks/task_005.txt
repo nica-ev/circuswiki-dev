@@ -197,7 +197,7 @@ The test suite includes edge cases such as:
 - Non-string inputs to verify error handling
 </info added on 2025-05-04T02:04:58.223Z>
 
-## 3. Implement yaml_hash calculation for frontmatter [in-progress]
+## 3. Implement yaml_hash calculation for frontmatter [done]
 ### Dependencies: 5.1, 5.5
 ### Description: Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
 ### Details:

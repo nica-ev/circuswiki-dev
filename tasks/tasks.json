@@ -280,7 +280,7 @@
           "id": 3,
           "title": "Implement yaml_hash calculation for frontmatter",
           "description": "Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.",
-          "status": "in-progress",
+          "status": "done",
           "dependencies": [
             1,
             "5.5"

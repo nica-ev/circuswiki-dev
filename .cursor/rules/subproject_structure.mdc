@@ -1,0 +1,13 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+-   **Standard Subproject Structure:**
+    -   Source code for a distinct subproject (e.g., `translation-py`, `another-feature`) should reside in `subproject-name/src/`.
+    -   Tests for code in `subproject-name/src/` should reside in `subproject-name/tests/`, mirroring the `src` structure.
+    -   Example: Code in [`translation-py/src/utils/hashing.py`](mdc:translation-py/src/utils/hashing.py) should have tests in [`translation-py/tests/utils/test_hashing.py`](mdc:translation-py/tests/utils/test_hashing.py).
+-   **Root Level Code:**
+    -   Code and tests not belonging to a specific subproject can reside in the root `src/` and `tests/` directories, respectively (if applicable, like in the initial attempt).
+-   **Avoid Root Tests for Subproject Code:**
+    -   Do not place tests for code within `subproject-name/src/` into the root `tests/` directory.
