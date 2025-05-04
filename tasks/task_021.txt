@@ -1,0 +1,65 @@
+# Task ID: 21
+# Title: Implement Robust HTML Parsing and Reassembly in MarkdownProcessor
+# Status: pending
+# Dependencies: 7
+# Priority: medium
+# Description: Enhance the MarkdownProcessor to properly parse HTML content within Markdown documents, extract text from allowed HTML tags, and correctly reassemble translated content while preserving structure.
+# Details:
+Implement a robust HTML parsing and reassembly system in the MarkdownProcessor class with the following components:
+
+1. HTML Parser Integration:
+   - Integrate a reliable HTML parsing library (BeautifulSoup or html.parser) to identify and extract HTML blocks within Markdown content
+   - Create a configurable HTML tag whitelist system that specifies which tags and attributes should be processed
+   - Implement proper handling of nested HTML structures
+
+2. Text Extraction Strategy:
+   - Develop a configurable strategy to extract text content from specific allowed HTML tags (e.g., <p>, <h1>-<h6>, <li>, <td>, <th>)
+   - Extract text from relevant attributes of specific tags (e.g., alt from <img>, title from <a>)
+   - Preserve the original HTML structure, including all attributes and non-text content
+   - Handle special cases like HTML entities and CDATA sections correctly
+
+3. HTML Reassembly:
+   - Create a system to correctly reintegrate translated text back into the original HTML structure
+   - Ensure all original attributes, tag hierarchies, and non-translatable elements remain intact
+   - Implement proper escaping to prevent HTML injection or malformation
+   - Maintain original whitespace and formatting where appropriate
+
+4. Configuration System:
+   - Create a configuration interface that allows users to specify:
+     * Which HTML tags should have their text content extracted for translation
+     * Which attributes of which tags should be extracted for translation
+     * Any tags that should be completely ignored/preserved as-is
+
+5. Error Handling:
+   - Implement robust error handling for malformed HTML
+   - Add detailed logging for parsing and reassembly operations
+   - Ensure the system degrades gracefully when encountering unexpected HTML structures
+
+# Test Strategy:
+1. Unit Tests:
+   - Test HTML parsing with various HTML structures (simple tags, nested tags, self-closing tags)
+   - Test extraction of text from different allowed tags and attributes
+   - Test reassembly with different complexity levels of HTML
+   - Test handling of malformed HTML input
+   - Test with HTML entities and special characters
+
+2. Integration Tests:
+   - Test the complete workflow from Markdown with embedded HTML through parsing, extraction, translation, and reassembly
+   - Verify that the original structure is preserved after processing
+   - Test with real-world examples of Markdown documents containing HTML
+
+3. Edge Cases:
+   - Test with extremely large HTML blocks
+   - Test with uncommon but valid HTML structures
+   - Test with HTML containing mixed language content
+   - Test with HTML containing code samples or other non-translatable content
+
+4. Validation Methods:
+   - Compare the DOM structure before and after processing to ensure they match
+   - Verify all attributes are preserved exactly as in the original
+   - Confirm that only the text content from allowed tags/attributes is modified
+   - Use HTML validators to ensure the output remains valid HTML
+
+5. Performance Testing:
+   - Measure and establish performance benchmarks for processing documents with varying amounts of HTML content
+   - Ensure memory usage remains reasonable with large documents
