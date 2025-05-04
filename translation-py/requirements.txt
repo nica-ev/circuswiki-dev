@@ -7,3 +7,5 @@ requests>=2.28.2 # Synchronous HTTP client for API calls
 # httpx>=0.24.0 # Asynchronous HTTP client (alternative to requests) - Keep commented out for now unless needed
 # hashlib - Built-in Python library for hashing
 # pathlib - Built-in Python library for path manipulation
+pytest
+PyYAML
