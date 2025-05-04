@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+- **Working Directory:** All development related to the translation tool task set (e.g., tasks involving hashing, normalization, API calls for translation) MUST occur within the `translation-py` subdirectory.
+- **File Paths:** When creating or modifying files for this tool, ensure paths start with `translation-py/` relative to the project root (e.g., `translation-py/src/utils/hashing.py`).
+- **Imports:** Python imports within the `translation-py` module should be relative within the `src` directory (e.g., `from .utils import ...` when inside `src/some_module.py`) or based on the `src` root when testing (e.g., `from src.utils import ...` when inside `translation-py/tests/`).
+- **Testing:** Tests should be placed in `translation-py/tests/` and run specifying this directory, preferably using `python -m pytest translation-py/tests`.
+- **Tool Calls:** Ensure file paths provided to tools for this subproject are correctly prefixed with `translation-py/`.

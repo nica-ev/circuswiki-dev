@@ -197,15 +197,119 @@ The test suite includes edge cases such as:
 - Non-string inputs to verify error handling
 </info added on 2025-05-04T02:04:58.223Z>
 
-## 3. Implement yaml_hash calculation for frontmatter [pending]
+## 3. Implement yaml_hash calculation for frontmatter [in-progress]
 ### Dependencies: 5.1
 ### Description: Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
 ### Details:
 Using TDD, first write tests for the `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Tests should verify all technical fields are properly excluded and hash consistency with different field orderings. Only after tests are complete, implement the actual function to pass the tests.
+
+<info added on 2025-05-04T02:09:38.330Z>
+Here's additional information for the yaml_hash calculation subtask:
+
+```python
+# Example test cases for calculate_yaml_hash function
+def test_calculate_yaml_hash_excludes_technical_fields():
+    frontmatter = {
+        'title': 'Test Document',
+        'date': '2023-01-01',
+        'content_hash': 'abc123',  # Should be excluded
+        'yaml_hash': 'def456',     # Should be excluded
+        'lang': 'en'               # Should be excluded
+    }
+    
+    # Hash should only include title and date
+    expected_input_to_hash = {
+        'title': 'Test Document',
+        'date': '2023-01-01'
+    }
+    
+    # Calculate expected hash manually for verification
+    expected_hash = hashlib.sha256(normalize_yaml(expected_input_to_hash).encode()).hexdigest()
+    assert calculate_yaml_hash(frontmatter) == expected_hash
+
+def test_calculate_yaml_hash_order_independence():
+    frontmatter1 = {'title': 'Test', 'author': 'John', 'date': '2023-01-01'}
+    frontmatter2 = {'date': '2023-01-01', 'title': 'Test', 'author': 'John'}
+    
+    assert calculate_yaml_hash(frontmatter1) == calculate_yaml_hash(frontmatter2)
+```
+
+Implementation considerations:
+- Define a constant `TECHNICAL_FIELDS = {'content_hash', 'yaml_hash', 'lang', 'path', 'url', 'last_updated'}` to maintain a single source of truth for excluded fields
+- Use dictionary comprehension for efficient filtering: `{k: v for k, v in frontmatter.items() if k not in TECHNICAL_FIELDS}`
+- Consider adding a parameter to allow custom technical fields to be excluded beyond the default set
+- Ensure proper error handling for edge cases (None input, non-dictionary input)
+- Document the function with clear docstring explaining normalization process and field exclusion
+</info added on 2025-05-04T02:09:38.330Z>
+
+<info added on 2025-05-04T02:13:46.398Z>
+<info added>
+For the implementation of `calculate_yaml_hash` in `src/utils/hashing.py`, here's a solution to the import error and additional implementation details:
+
+```python
+import hashlib
+from typing import Dict, Any, Optional, Set
+from .yaml_utils import normalize_yaml  # This will work once subtask 1 is complete
+
+# Define technical fields that should be excluded from hash calculation
+TECHNICAL_FIELDS: Set[str] = {'content_hash', 'yaml_hash', 'lang', 'path', 'url', 'last_updated'}
+
+def calculate_yaml_hash(frontmatter: Dict[str, Any], 
+                        additional_exclude_fields: Optional[Set[str]] = None) -> str:
+    """
+    Calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
+    
+    Args:
+        frontmatter: Dictionary containing frontmatter fields
+        additional_exclude_fields: Optional set of additional fields to exclude
+        
+    Returns:
+        Hexadecimal digest of SHA-256 hash
+        
+    Raises:
+        TypeError: If frontmatter is not a dictionary
+    """
+    if not isinstance(frontmatter, dict):
+        raise TypeError("Frontmatter must be a dictionary")
+    
+    if frontmatter is None:
+        return hashlib.sha256(b"").hexdigest()
+    
+    # Determine fields to exclude
+    exclude_fields = TECHNICAL_FIELDS.copy()
+    if additional_exclude_fields:
+        exclude_fields.update(additional_exclude_fields)
+    
+    # Create filtered copy of frontmatter
+    filtered_frontmatter = {k: v for k, v in frontmatter.items() if k not in exclude_fields}
+    
+    # Normalize and hash
+    normalized_yaml = normalize_yaml(filtered_frontmatter)
+    return hashlib.sha256(normalized_yaml.encode('utf-8')).hexdigest()
+```
+
+For temporary testing before subtask 1 is complete, you can create a simple placeholder for `normalize_yaml` in a file called `yaml_utils.py` in the same directory:
+
+```python
+def normalize_yaml(data):
+    """Placeholder for the real normalize_yaml function from subtask 1"""
+    import yaml
+    return yaml.dump(data, sort_keys=True)
+```
+
+This will allow you to run the tests and verify the functionality of `calculate_yaml_hash` while waiting for the proper implementation of `normalize_yaml`.
+</info added>
+</info added on 2025-05-04T02:13:46.398Z>
 
 ## 4. Integrate hash calculation into document processing workflow [pending]
 ### Dependencies: 5.2, 5.3
 ### Description: Update the document processing workflow to calculate and store content and YAML hashes during document operations.
 ### Details:
 Following TDD principles, first write integration tests that verify: 1) Hashes are calculated whenever a document is created or updated, 2) Hashes are stored in the document's metadata, 3) Change detection function correctly compares newly calculated hashes with stored hashes, 4) The system correctly identifies changes and ignores non-semantic differences. Only after tests are complete, modify the document processing code to implement these features and add documentation explaining the hash calculation process and its use in change detection.
+
+## 5. Implement YAML normalization function [pending]
+### Dependencies: None
+### Description: Create a function `normalize_yaml(data: dict)` in `src/utils/yaml_utils.py` that takes a dictionary, sorts keys recursively, and returns a consistent YAML string representation suitable for hashing.
+### Details:
+The function should handle nested dictionaries and lists. Use TDD: write tests first in `tests/test_utils.py` covering different data structures, key orders, and nested elements. Ensure consistent output format (e.g., indentation, flow style). Implement the function after tests are written.
 
