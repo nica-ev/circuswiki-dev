@@ -1,0 +1,23 @@
+# API Configuration
+API_PROVIDER: DeepL # Example: DeepL
+
+# --- Translation Service Settings --- 
+TARGET_LANGUAGES_LIST:
+  - DE
+  - FR
+  # Add more target languages as needed
+
+# Set to true to simulate API calls without hitting the actual endpoint
+# Useful for testing extraction and reassembly logic without API costs/quota
+TEST_MODE_BOOL: false
+
+# --- Retry Logic Configuration --- 
+RETRY_MAX_ATTEMPTS: 3
+RETRY_BACKOFF_FACTOR: 0.5 # Base delay in seconds for exponential backoff
+# HTTP status codes that should trigger a retry attempt
+RETRY_STATUS_CODES:
+  - 429 # Too Many Requests (Rate Limiting)
+  - 500 # Internal Server Error
+  - 502 # Bad Gateway
+  - 503 # Service Unavailable
+  - 504 # Gateway Timeout 

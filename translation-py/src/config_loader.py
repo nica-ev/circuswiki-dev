@@ -30,6 +30,7 @@ import logging
 from pathlib import Path
 from typing import Optional, Dict, Any
 from dotenv import load_dotenv
+import yaml
 
 class ConfigError(Exception):
     """Base exception for configuration errors."""
@@ -50,169 +51,107 @@ class ConfigValidationError(ConfigError):
 class ConfigLoader:
     """Loads and validates configuration from settings.txt and translate.env files."""
 
-    def __init__(self, settings_path: Optional[str] = None, env_path: Optional[str] = None):
-        """
-        Initializes the ConfigLoader, loads settings and env vars, and validates.
-
-        Orchestrates the loading and validation process by calling private helper
-        methods.
-
-        Args:
-            settings_path (Optional[str]): Path to the settings.txt file. 
-                Defaults to 'config/settings.txt' relative to the project root.
-            env_path (Optional[str]): Path to the .env file (e.g., translate.env).
-                Defaults to 'config/translate.env' relative to the project root.
-        
-        Raises:
-            ConfigFileNotFoundError: If a required config file doesn't exist.
-            ConfigFileNotReadableError: If a config file exists but is not readable.
-            ConfigValidationError: If configuration validation fails.
-            ConfigError: For other configuration-related errors during loading.
-        """
-        # Get the directory where this script's parent (src) is located
-        base_dir = Path(__file__).parent.parent
-
-        # Resolve absolute paths for config files
-        self.settings_file: Path = Path(settings_path or base_dir / "config" / "settings.txt").resolve()
-        self.env_file: Path = Path(env_path or base_dir / "config" / "translate.env").resolve()
-
-        # Initialize empty configuration dictionaries
-        self.settings: Dict[str, Any] = {}
-        self.env_vars: Dict[str, str] = {}
-
-        # Set up logging
+    def __init__(self, env_file='.env', settings_file='settings.yaml', default_settings_file='settings.default.yaml'):
+        self.env_file = env_file
+        self.settings_file = settings_file
+        self.default_settings_file = default_settings_file
+        self.env_vars = {}
+        self.settings = {}
         self.logger = logging.getLogger(__name__)
-        if not self.logger.handlers:
-             # Add handler if logger is not already configured (e.g., by root logger)
-             handler = logging.StreamHandler()
-             formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-             handler.setFormatter(formatter)
-             self.logger.addHandler(handler)
-             self.logger.setLevel(logging.INFO) # Default level
+        self._load_config()
 
-        self.logger.info("Initializing ConfigLoader...")
-        self.logger.debug(f"Using settings file: {self.settings_file}")
-        self.logger.debug(f"Using environment file: {self.env_file}")
-
-        # Validate configuration files
+    def _load_dotenv(self):
+        """Loads environment variables from the .env file."""
         try:
-            self._validate_file(self.settings_file)
-            self._validate_file(self.env_file)
-            self.logger.info("Configuration files validated successfully.")
-            
-            # Parse settings after validation
-            self._parse_settings_file()
-            
-            # Placeholder for environment variable loading (Subtask 2.3)
-            self._load_env_variables()
-            
-            # Placeholder for full config validation (Subtask 2.4)
-            self._validate_config()
-            
-        except ConfigError as e:
-            self.logger.error(f"Configuration error during initialization: {e}")
-            raise # Re-raise the specific config error
-
-    def _parse_settings_file(self) -> None:
-        """
-        Parses the settings.txt file and populates the self.settings dictionary.
-        
-        Handles comments (#) and empty lines. Strips whitespace from keys/values.
-        Assumes file existence and readability have been validated.
-
-        Raises:
-            ConfigError: If the file cannot be read or contains parsing errors.
-        """
-        self.logger.debug(f"Parsing settings file: {self.settings_file}")
-        try:
-            with open(self.settings_file, 'r', encoding='utf-8') as f:
-                for line_number, line in enumerate(f, 1):
-                    line = line.strip()
-                    # Skip empty lines and comments
-                    if not line or line.startswith('#'):
-                        continue
-                    
-                    # Split line into key and value
-                    if '=' not in line:
-                        self.logger.warning(f"Ignoring malformed line {line_number} in {self.settings_file}: '{line}' (missing '=')")
-                        continue
-                    
-                    key, value = line.split('=', 1)
-                    key = key.strip()
-                    value = value.strip()
-                    
-                    # Basic validation (can be expanded later)
-                    if not key:
-                         self.logger.warning(f"Ignoring line {line_number} with empty key in {self.settings_file}")
-                         continue
-                         
-                    self.settings[key] = value
-                    self.logger.debug(f"Loaded setting: {key}={value}")
-            
-            self.logger.info(f"Successfully parsed {len(self.settings)} settings from {self.settings_file}")
-            
-        except OSError as e:
-            msg = f"Error reading settings file {self.settings_file}: {e}"
-            self.logger.error(msg)
-            # Wrap OSError in a ConfigError for consistent exception handling
-            raise ConfigError(msg) from e
-        except Exception as e: # Catch potential parsing errors or other unexpected issues
-            msg = f"Unexpected error parsing settings file {self.settings_file}: {e}"
-            self.logger.error(msg, exc_info=True) # Log traceback for unexpected errors
-            raise ConfigError(msg) from e
-
-    def _load_env_variables(self) -> None:
-        """
-        Loads environment variables from the .env file specified by self.env_file.
-        
-        Uses python-dotenv to load variables into os.environ. Expected keys 
-        (e.g., API keys) are then read from os.environ and stored in 
-        self.env_vars for direct access. Assumes file existence and 
-        readability have been validated.
-        
-        Raises:
-            ConfigError: If there are issues parsing the .env file.
-        """
-        self.logger.debug(f"Attempting to load environment variables from: {self.env_file}")
-        try:
-            # load_dotenv will not override existing environment variables by default.
-            loaded = load_dotenv(dotenv_path=self.env_file, override=False)
-            
-            if loaded:
-                self.logger.info(f"Successfully processed environment file: {self.env_file}")
-                # Define expected environment variables (e.g., API keys)
-                expected_keys = [
-                    'DEEPL_API_KEY',
-                    'GOOGLE_CLOUD_KEY', # Example for another provider
-                    'MICROSOFT_TRANSLATOR_KEY' # Example for another provider
-                    # Add other relevant keys as needed
-                ]
-                
-                # Populate self.env_vars with values found in os.environ after loading
-                found_keys_count = 0
-                for key in expected_keys:
-                    value = os.getenv(key)
-                    if value:
-                        self.env_vars[key] = value
-                        self.logger.debug(f"Found and stored env var: {key}")
-                        found_keys_count += 1
-                    else:
-                         self.logger.debug(f"Env var '{key}' not found after loading {self.env_file}")
-                         
-                if found_keys_count > 0:
-                     self.logger.info(f"Stored {found_keys_count} environment variables from {self.env_file}.")
-                else:
-                     self.logger.warning(f"No expected environment variables (e.g., API keys) found in {self.env_file} or environment.")
-                     
+            if load_dotenv(dotenv_path=self.env_file, override=True):
+                self.logger.info(f"Loaded environment variables from {self.env_file}")
             else:
-                # File might be empty or not found (validation already checked existence)
-                self.logger.info(f"Environment file {self.env_file} was empty or not found by dotenv. No variables loaded.")
-                
+                self.logger.debug(f"{self.env_file} not found or empty, relying on system environment variables.")
+            # Load all environment variables (system + .env)
+            self.env_vars = dict(os.environ)
         except Exception as e:
-            # Catch potential errors during file parsing by dotenv itself
-            msg = f"Error parsing environment variables from {self.env_file}: {e}"
-            self.logger.error(msg, exc_info=True)
-            raise ConfigError(msg) from e
+            self.logger.error(f"Error loading {self.env_file}: {e}", exc_info=True)
+
+    def _load_yaml_settings(self):
+        """Loads settings from YAML files, prioritizing user file over default."""
+        loaded_settings = {}
+        # Load defaults first
+        try:
+            with open(self.default_settings_file, 'r') as f:
+                loaded_settings = yaml.safe_load(f) or {}
+                self.logger.info(f"Loaded default settings from {self.default_settings_file}")
+        except FileNotFoundError:
+            self.logger.warning(f"Default settings file {self.default_settings_file} not found.")
+        except yaml.YAMLError as e:
+            self.logger.error(f"Error parsing {self.default_settings_file}: {e}", exc_info=True)
+        except Exception as e:
+            self.logger.error(f"Error reading {self.default_settings_file}: {e}", exc_info=True)
+
+        # Load user settings and merge/override defaults
+        try:
+            with open(self.settings_file, 'r') as f:
+                user_settings = yaml.safe_load(f) or {}
+                self.logger.info(f"Loaded user settings from {self.settings_file}")
+                # Simple top-level merge: user settings override defaults
+                loaded_settings.update(user_settings)
+        except FileNotFoundError:
+            self.logger.info(f"User settings file {self.settings_file} not found, using defaults.")
+        except yaml.YAMLError as e:
+            self.logger.error(f"Error parsing {self.settings_file}: {e}", exc_info=True)
+        except Exception as e:
+            self.logger.error(f"Error reading {self.settings_file}: {e}", exc_info=True)
+
+        self.settings = loaded_settings
+        # --- Perform Type/Value Validation --- 
+        self._validate_settings()
+
+    def _validate_settings(self):
+        """Validate essential settings after loading."""
+        # Example validation (add more as needed)
+        provider = self.settings.get('API_PROVIDER')
+        if not provider or not isinstance(provider, str):
+            self.logger.warning("API_PROVIDER setting is missing or not a string.")
+            # Decide if this is critical enough to raise an error
+
+        langs = self.settings.get('TARGET_LANGUAGES_LIST')
+        if not isinstance(langs, list):
+            self.logger.warning("TARGET_LANGUAGES_LIST is missing or not a list. Setting to empty list.")
+            self.settings['TARGET_LANGUAGES_LIST'] = []
+
+        test_mode = self.settings.get('TEST_MODE_BOOL')
+        if not isinstance(test_mode, bool):
+            self.logger.warning("TEST_MODE_BOOL is missing or not a boolean. Defaulting to False.")
+            self.settings['TEST_MODE_BOOL'] = False
+
+        # Validate Retry Settings
+        retry_attempts = self.settings.get('RETRY_MAX_ATTEMPTS')
+        if not isinstance(retry_attempts, int) or retry_attempts < 0:
+            self.logger.warning("RETRY_MAX_ATTEMPTS is missing or invalid. Defaulting to 3.")
+            self.settings['RETRY_MAX_ATTEMPTS'] = 3
+        
+        retry_backoff = self.settings.get('RETRY_BACKOFF_FACTOR')
+        if not isinstance(retry_backoff, (int, float)) or retry_backoff < 0:
+            self.logger.warning("RETRY_BACKOFF_FACTOR is missing or invalid. Defaulting to 0.5.")
+            self.settings['RETRY_BACKOFF_FACTOR'] = 0.5
+
+        retry_codes = self.settings.get('RETRY_STATUS_CODES')
+        if not isinstance(retry_codes, list) or not all(isinstance(code, int) for code in retry_codes):
+            self.logger.warning("RETRY_STATUS_CODES is missing or invalid. Defaulting to [429, 500, 502, 503, 504].")
+            self.settings['RETRY_STATUS_CODES'] = [429, 500, 502, 503, 504]
+
+        self.logger.debug(f"Final loaded settings: {self.settings}")
+
+    def _load_config(self):
+        """Loads all configuration sources."""
+        self.logger.info("Starting configuration loading...")
+        self._load_dotenv()
+        self._load_yaml_settings()
+        self.logger.info("Configuration loading complete.")
+
+    def reload(self):
+        """Reloads configuration from files."""
+        self.logger.info("Reloading configuration...")
+        self._load_config()
 
     def _validate_file(self, file_path: Path) -> None:
         """
