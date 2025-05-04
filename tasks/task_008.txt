@@ -11,17 +11,183 @@ Implement a TranslationService class that sends extracted text to the DeepL API.
 Create mock API responses to test successful translations and error handling. If possible, test with actual DeepL API using small text samples. Verify correct handling of multiple target languages.
 
 # Subtasks:
-## 1. Create TranslationService class structure and configuration [pending]
+## 1. Create TranslationService class structure and configuration [done]
 ### Dependencies: None
 ### Description: Set up the basic class structure for TranslationService and implement configuration loading for the DeepL API key and supported languages
 ### Details:
 Create a TranslationService class with constructor that loads configuration. Implement methods to retrieve the API key from configuration and load the list of supported target languages. Add appropriate interfaces and dependency injection support. Include configuration validation to ensure required settings are present.
 
-## 2. Implement core translation method with DeepL API integration [pending]
+<info added on 2025-05-04T17:38:53.434Z>
+## Implementation Details
+
+### TranslationService Class Structure
+```python
+from typing import List, Dict, Optional
+import logging
+from src.config.config_loader import ConfigLoader
+
+class TranslationService:
+    def __init__(self, config_loader: ConfigLoader):
+        self.logger = logging.getLogger(__name__)
+        self.config_loader = config_loader
+        
+        # Load API provider configuration
+        self.api_provider = self.config_loader.settings.get('API_PROVIDER')
+        if not self.api_provider:
+            raise ValueError("API_PROVIDER not specified in configuration")
+        
+        # Load API key based on provider
+        env_key_name = f"{self.api_provider.upper()}_API_KEY"
+        self.api_key = self.config_loader.env_vars.get(env_key_name)
+        if not self.api_key:
+            raise ValueError(f"Missing API key for {self.api_provider}. Set {env_key_name} environment variable")
+        
+        # Load and validate target languages
+        self.target_languages = self.config_loader.settings.get('TARGET_LANGUAGES_LIST', [])
+        if not self.target_languages or not isinstance(self.target_languages, list):
+            raise ValueError("TARGET_LANGUAGES_LIST must be a non-empty list")
+            
+        self.logger.info(f"TranslationService initialized with {self.api_provider} provider")
+        self.logger.debug(f"Supported target languages: {', '.join(self.target_languages)}")
+    
+    def get_supported_languages(self) -> List[str]:
+        """Return the list of supported target languages"""
+        return self.target_languages.copy()
+    
+    def is_language_supported(self, language_code: str) -> bool:
+        """Check if a specific language code is supported"""
+        return language_code in self.target_languages
+    
+    def translate_text(self, text: str, target_language: str, source_language: Optional[str] = None) -> str:
+        """Translate a single text string to the target language"""
+        raise NotImplementedError("Method will be implemented in the next iteration")
+    
+    def translate_batch(self, texts: List[str], target_language: str, source_language: Optional[str] = None) -> List[str]:
+        """Translate a batch of text strings to the target language"""
+        raise NotImplementedError("Method will be implemented in the next iteration")
+```
+
+### Configuration Example
+```python
+# Example configuration in settings.yaml
+API_PROVIDER: "DeepL"
+TARGET_LANGUAGES_LIST:
+  - "DE"  # German
+  - "FR"  # French
+  - "ES"  # Spanish
+  - "IT"  # Italian
+  - "JA"  # Japanese
+```
+
+### Test Cases
+```python
+def test_get_supported_languages():
+    """Test that get_supported_languages returns a copy of the languages list"""
+    mock_config = MagicMock()
+    mock_config.settings = {'API_PROVIDER': 'DeepL', 'TARGET_LANGUAGES_LIST': ['DE', 'FR', 'ES']}
+    mock_config.env_vars = {'DEEPL_API_KEY': 'fake-key'}
+    
+    service = TranslationService(mock_config)
+    languages = service.get_supported_languages()
+    
+    # Verify it returns the correct languages
+    assert languages == ['DE', 'FR', 'ES']
+    
+    # Verify it's a copy (modifying the returned list shouldn't affect the original)
+    languages.append('IT')
+    assert service.get_supported_languages() == ['DE', 'FR', 'ES']
+
+def test_is_language_supported():
+    """Test that is_language_supported correctly identifies supported languages"""
+    mock_config = MagicMock()
+    mock_config.settings = {'API_PROVIDER': 'DeepL', 'TARGET_LANGUAGES_LIST': ['DE', 'FR', 'ES']}
+    mock_config.env_vars = {'DEEPL_API_KEY': 'fake-key'}
+    
+    service = TranslationService(mock_config)
+    
+    assert service.is_language_supported('DE') is True
+    assert service.is_language_supported('FR') is True
+    assert service.is_language_supported('IT') is False
+    assert service.is_language_supported('') is False
+```
+
+### Dependency Injection Setup
+For dependency injection, register the service in your DI container:
+
+```python
+# In your dependency injection setup file
+from dependency_injector import containers, providers
+from src.config.config_loader import ConfigLoader
+from src.services.translation_service import TranslationService
+
+class Container(containers.DeclarativeContainer):
+    config = providers.Singleton(ConfigLoader)
+    translation_service = providers.Singleton(
+        TranslationService,
+        config_loader=config
+    )
+```
+</info added on 2025-05-04T17:38:53.434Z>
+
+## 2. Implement core translation method with DeepL API integration [done]
 ### Dependencies: 8.1
 ### Description: Create the primary translation method that sends text to the DeepL API and processes the basic response
 ### Details:
 Implement a TranslateText method that takes source text and target language code as parameters. Create the HTTP client to communicate with DeepL API. Build the request with proper authentication headers using the API key. Send the request to the DeepL translation endpoint and parse the basic successful response. Return the translated text.
+
+<info added on 2025-05-04T17:42:14.630Z>
+## Implementation Plan (Iteration 1)
+
+1.  **Dependency Check**: Ensure `httpx` is in `translation-py/requirements.txt`. Add if missing.
+2.  **Modify `TranslationService` (`translation-py/src/services/translation_service.py`)**:
+    *   Import `httpx`.
+    *   Import `Optional` from `typing` if not already present.
+    *   Implement `_initialize_http_client`:
+        *   If `self._http_client` is None, create `self._http_client = httpx.Client(timeout=30.0)`.
+    *   Implement `translate_text`:
+        *   Call `self._validate_target_language(target_language)`.
+        *   Handle `self.test_mode` (return simulated translation).
+        *   Call `self._initialize_http_client()`.
+        *   Define `DEEPL_API_URL` (e.g., `"https://api-free.deepl.com/v2/translate"`).
+        *   Prepare `headers = {'Authorization': f'DeepL-Auth-Key {self.api_key}'}`.
+        *   Prepare `payload = {'text': text, 'target_lang': target_language}`.
+        *   If `source_language` is provided, add it to `payload`.
+        *   Wrap the API call in a `try...except httpx.RequestError as e:` block for basic network errors.
+        *   Make the call: `response = self._http_client.post(DEEPL_API_URL, headers=headers, data=payload)`.
+        *   Check `response.status_code`:
+            *   If 200: Parse `response.json()`, extract `['translations'][0]['text']`, and return it.
+            *   If not 200: Log the error (status code, response text) and raise `RuntimeError(f"DeepL API Error {response.status_code}: {response.text}")`. (More specific error handling in 8.3).
+
+3.  **Modify Tests (`translation-py/tests/services/test_translation_service.py`)**:
+    *   Add `from unittest.mock import patch`.
+    *   `test_translate_text_success`:
+        *   Use `@patch('httpx.Client')`.
+        *   Mock the `post` method of the client instance to return a MagicMock response with `status_code=200` and `.json()` returning `{'translations': [{'text': 'Hallo Welt'}]}`.
+        *   Instantiate `TranslationService` with appropriate mock config.
+        *   Call `service.translate_text('Hello World', 'DE')`.
+        *   Assert the return value is `'Hallo Welt'`. Assert `mock_post.assert_called_once()`.
+    *   `test_translate_text_api_error`:
+        *   Use `@patch('httpx.Client')`.
+        *   Mock `post` to return a response with `status_code=403` and `text='Forbidden'`. 
+        *   Use `pytest.raises(RuntimeError, match="DeepL API Error 403")` when calling `service.translate_text`.
+    *   `test_translate_text_network_error`:
+        *   Use `@patch('httpx.Client')`.
+        *   Mock `post` to raise `httpx.RequestError("Network issue")`.
+        *   Use `pytest.raises(httpx.RequestError)` when calling `service.translate_text`.
+    *   `test_translate_text_respects_test_mode`:
+        *   Instantiate service with `TEST_MODE_BOOL=True`.
+        *   Use `@patch('httpx.Client')` just to verify it's *not* called.
+        *   Call `service.translate_text('Hello', 'DE')`.
+        *   Assert the result is the simulated `"[Translated DE] Hello"`.
+        *   Assert `mock_client_instance.post.assert_not_called()`.
+    *   `test_translate_text_with_source_language`:
+        *   Use `@patch('httpx.Client')`.
+        *   Mock `post` to return a successful response.
+        *   Call `service.translate_text('Bonjour', 'EN', source_language='FR')`.
+        *   Assert `mock_post.assert_called_once()` and inspect the `data` argument passed to `post` to ensure `source_lang='FR'` was included.
+
+4.  **Next Steps**: Implement code and run tests.
+</info added on 2025-05-04T17:42:14.630Z>
 
 ## 3. Add comprehensive error handling for API responses [pending]
 ### Dependencies: 8.2

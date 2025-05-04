@@ -1,0 +1,46 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+- **Dependency Injection:**
+    - Services should receive dependencies (like configuration objects, other services) via their constructor (`__init__`).
+    - Avoid global state or direct instantiation of dependencies within the service.
+    - Example:
+      ```python
+      # ✅ DO: Inject dependencies
+      class MyService:
+          def __init__(self, config_loader: ConfigLoader, another_service: AnotherService):
+              self.config = config_loader
+              self.another_service = another_service
+              self.logger = logging.getLogger(__name__)
+              # ... validation ...
+
+      # ❌ DON'T: Instantiate dependencies internally
+      class BadService:
+          def __init__(self):
+              self.config = ConfigLoader() # Avoid this
+              self.logger = logging.getLogger(__name__)
+              # ...
+      ```
+    - Referencing [translation_service.py](mdc:translation-py/src/services/translation_service.py) for a good example.
+
+- **Initialization:**
+    - The `__init__` method should perform essential setup:
+        - Store injected dependencies.
+        - Load *required* configuration values needed for the service's operation.
+        - Perform validation on configuration values (e.g., check for required keys, valid formats). Raise specific, informative exceptions (e.g., a custom `ConfigError` subclass) on validation failure.
+        - Initialize a logger instance (`self.logger = logging.getLogger(__name__)`).
+    - Avoid performing heavy I/O or complex logic in `__init__`. Initialize resources lazily if possible (e.g., HTTP clients).
+
+- **Error Handling:**
+    - Define custom, specific exception classes for service-related errors (e.g., `TranslationConfigError(ValueError)` in [translation_service.py](mdc:translation-py/src/services/translation_service.py)).
+    - Catch specific exceptions within methods and either handle them or wrap them in service-specific exceptions before re-raising.
+    - Use logging extensively to report errors and operational status.
+
+- **Structure:**
+    - Separate concerns into distinct methods.
+    - Use private methods (`_method_name`) for internal implementation details.
+    - Provide clear public methods for the service's intended functionality.
+    - Use type hints for all method signatures and important variables.
+    - Include comprehensive docstrings for the class and all public methods, explaining purpose, arguments, returns, and potential exceptions.

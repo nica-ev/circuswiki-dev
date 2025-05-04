@@ -1,6 +1,6 @@
 # Task ID: 7
 # Title: Implement translatable text extraction
-# Status: pending
+# Status: done
 # Dependencies: 6
 # Priority: high
 # Description: Create functionality to extract translatable text segments from Markdown content, including complex inline syntax like WikiLinks, Obsidian attributes, and potentially HTML, using a TDD approach. This involves parsing the AST and potentially implementing a secondary inline parser.
