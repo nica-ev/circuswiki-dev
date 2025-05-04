@@ -14,24 +14,38 @@ def normalize_markdown_content(content: str) -> str:
     Returns:
         The normalized Markdown content string.
     """
-    # 1. Normalize line endings to LF (\n)
-    content_lf = re.sub(r'\r\n|\r', '\n', content)
+    if not isinstance(content, str):
+        raise TypeError("Input content must be a string.")
 
-    # 2. Reduce multiple blank lines (more than two consecutive \n) to a single blank line (two \n)
-    # Operate on content_lf before stripping lines
-    content_reduced_blanks = re.sub(r'\n{3,}', '\n\n', content_lf)
+    # 1. Normalize line endings to LF
+    content = re.sub(r'\r\n|\r', '\n', content)
 
-    # 3. Trim leading/trailing whitespace from each line
-    lines = content_reduced_blanks.split('\n')
-    stripped_lines = [line.strip() for line in lines]
-    # Remove potential fully blank lines resulting from stripping lines containing only whitespace
-    non_blank_lines = [line for line in stripped_lines if line]
-    content_stripped = '\n'.join(non_blank_lines)
+    # 2. Normalize Unicode to NFC form
+    content = unicodedata.normalize('NFC', content)
 
-    # 4. Normalize Unicode characters to NFC form
-    normalized_content = unicodedata.normalize('NFC', content_stripped)
+    # 3. Process lines: Trim whitespace from each, reduce blank lines
+    lines = content.split('\n')
+    normalized_lines = []
+    in_blank_sequence = False
+    for line in lines:
+        stripped_line = line.strip()
+        if not stripped_line: # It's a blank line
+            if not in_blank_sequence:
+                normalized_lines.append("") # Add one blank line
+                in_blank_sequence = True
+        else:
+            # Add the line *after* stripping leading/trailing whitespace
+            normalized_lines.append(stripped_line) 
+            in_blank_sequence = False
 
-    return normalized_content
+    # 4. Join lines back
+    content_processed_lines = '\n'.join(normalized_lines)
+
+    # 5. Trim leading/trailing whitespace from the entire result *only*
+    # This handles potential blank lines at the very start/end after processing
+    final_content = content_processed_lines.strip()
+
+    return final_content
 
 
 def _sort_dict_recursively(d):
@@ -78,4 +92,10 @@ def calculate_content_hash(markdown_content: str) -> str:
     hash_object = hashlib.sha256(content_bytes)
 
     # 4. Return the hexadecimal representation of the hash
-    return hash_object.hexdigest() 
+    return hash_object.hexdigest()
+
+# Placeholder/Example for YAML normalization (from Subtask 5.5)
+def normalize_yaml(data: dict) -> str:
+    """Placeholder/Example: Normalize a dictionary to a consistent YAML representation."""
+    # Simple sort keys for consistency
+    return yaml.dump(data, sort_keys=True) 

@@ -1,52 +1,74 @@
 import hashlib
-import copy
-# Assuming normalize_yaml is in a sibling file - uncommenting now
-# This import should work correctly once normalize_yaml is implemented
-# in the expected location (likely src/utils/yaml_utils.py or normalization.py)
-from .yaml_utils import normalize_yaml 
+from typing import Dict, Any, Optional, Set
+# Attempt to import the real normalization function, fallback to placeholder if needed
+try:
+    from .yaml_utils import normalize_yaml
+except ImportError:
+    # Placeholder if yaml_utils is not yet available
+    import yaml
+    def normalize_yaml(data):
+        return yaml.dump(data, sort_keys=True)
 
-TECHNICAL_FIELDS = {'content_hash', 'yaml_hash', 'lang', 'path', 'url', 'last_updated'}
+# Define technical fields that should be excluded from hash calculation
+TECHNICAL_FIELDS: Set[str] = {'content_hash', 'yaml_hash', 'lang', 'path', 'url', 'last_updated'}
 
-def calculate_yaml_hash(frontmatter: dict) -> str | None:
+
+def calculate_content_hash(markdown_content: str) -> str:
     """
-    Calculates the SHA-256 hash of normalized YAML frontmatter, excluding technical fields.
+    Calculate SHA-256 hash for normalized Markdown content.
+    # ... (rest of docstring) ...
+    """
+    # ... (implementation remains the same) ...
+    if not isinstance(markdown_content, str):
+        raise TypeError("Input must be a string")
+
+    # Normalize the content first
+    # Assumes normalize_markdown_content exists in normalization.py
+    from .normalization import normalize_markdown_content
+    normalized_content = normalize_markdown_content(markdown_content)
+
+    # Create hash object and update with UTF-8 encoded content
+    hash_obj = hashlib.sha256()
+    hash_obj.update(normalized_content.encode('utf-8'))
+
+    # Return hexadecimal representation
+    return hash_obj.hexdigest()
+
+def calculate_yaml_hash(frontmatter: Optional[Dict[str, Any]],
+                        additional_exclude_fields: Optional[Set[str]] = None) -> str:
+    """
+    Calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
 
     Args:
-        frontmatter: A dictionary representing the YAML frontmatter.
+        frontmatter: Dictionary containing frontmatter fields or None.
+        additional_exclude_fields: Optional set of additional fields to exclude.
 
     Returns:
-        The hexadecimal SHA-256 hash digest, or None if input is invalid.
-        
+        Hexadecimal digest of SHA-256 hash.
+
     Raises:
-        TypeError: If input is not a dictionary.
-        ImportError: If yaml_utils or normalize_yaml cannot be found.
+        TypeError: If frontmatter is not a dictionary or None.
     """
+    # Handle None input explicitly
+    if frontmatter is None:
+        return hashlib.sha256(b"").hexdigest() # Return hash of empty string for None
+
+    # Check if it's a dictionary
     if not isinstance(frontmatter, dict):
-        raise TypeError("Input frontmatter must be a dictionary.")
+        # Match the expected error message from the test
+        raise TypeError("Frontmatter must be a dictionary or None")
 
-    # Create a deep copy to avoid modifying the original dictionary
-    fm_copy = copy.deepcopy(frontmatter)
+    # Determine fields to exclude
+    exclude_fields = TECHNICAL_FIELDS.copy()
+    if additional_exclude_fields:
+        exclude_fields.update(additional_exclude_fields)
 
-    # Filter out technical fields
-    filtered_fm = {k: v for k, v in fm_copy.items() if k not in TECHNICAL_FIELDS}
+    # Create filtered copy of frontmatter, ONLY including string keys
+    filtered_fm = {
+        k: v for k, v in frontmatter.items()
+        if isinstance(k, str) and k not in exclude_fields
+    }
 
-    # Normalize the filtered YAML content
-    # This relies on normalize_yaml being implemented correctly in yaml_utils.py
-    try:
-        # We need to ensure the actual normalize_yaml function is available
-        # Assuming it's in yaml_utils.py as per previous steps
-        normalized_yaml_str = normalize_yaml(filtered_fm) 
-    except NameError: # Should be caught by ImportError on module load, but belt-and-suspenders
-        print("Error: normalize_yaml function not found. Make sure yaml_utils.py is present and correct.")
-        raise ImportError("normalize_yaml function not found.")
-        
-    if normalized_yaml_str is None: # Handle case where normalize_yaml might return None
-        # Decide on behavior: return None, empty hash, or raise error?
-        # Returning hash of empty string might be safest default.
-        normalized_yaml_str = ""
-
-    # Calculate SHA-256 hash
-    hash_object = hashlib.sha256(normalized_yaml_str.encode('utf-8'))
-    hex_dig = hash_object.hexdigest()
-
-    return hex_dig 
+    # Normalize and hash
+    normalized_yaml_str = normalize_yaml(filtered_fm)
+    return hashlib.sha256(normalized_yaml_str.encode('utf-8')).hexdigest() 

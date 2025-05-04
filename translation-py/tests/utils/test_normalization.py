@@ -10,14 +10,14 @@ MARKDOWN_LINE_ENDINGS_LF = "Line 1\nLine 2"
 MARKDOWN_LINE_ENDINGS_CR = "Line 1\rLine 2"
 MARKDOWN_EXPECTED_NORMALIZED_LINES = "Line 1\nLine 2"
 
-MARKDOWN_WHITESPACE = "  Leading and trailing whitespace  \n  Another line  "
-MARKDOWN_EXPECTED_NORMALIZED_WHITESPACE = "Leading and trailing whitespace\nAnother line" # Assuming trim
+MARKDOWN_WHITESPACE = "  Leading and trailing whitespace  \n\n  \n  Another line  "
+MARKDOWN_EXPECTED_NORMALIZED_WHITESPACE = "Leading and trailing whitespace\n\nAnother line"
 
 MARKDOWN_BLANK_LINES = "Line 1\n\n\nLine 2\n\n\n\nLine 3"
 MARKDOWN_EXPECTED_NORMALIZED_BLANK_LINES = "Line 1\n\nLine 2\n\nLine 3" # Assuming reduction to single blank line
 
 MARKDOWN_MIXED_INDENT = "  Line 1\n\tLine 2"
-MARKDOWN_EXPECTED_NORMALIZED_INDENT = "Line 1\nLine 2" # Because strip() removes it
+MARKDOWN_EXPECTED_NORMALIZED_INDENT = "Line 1\nLine 2"
 
 UNICODE_NFD = unicodedata.normalize('NFD', 'élan\nFileña') # Decomposed form
 UNICODE_NFC = unicodedata.normalize('NFC', 'élan\nFileña') # Composed form (usually preferred)

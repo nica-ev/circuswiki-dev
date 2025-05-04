@@ -139,3 +139,87 @@ class TestMarkdownProcessorBlockElements:
             assert has_segment(segments, text, seg_type)
         assert not has_text(segments, 'ignored code')
         assert not has_text(segments, 'print("hello")') 
+
+# New class for inline element tests
+class TestMarkdownProcessorInlineElements:
+
+    @pytest.fixture
+    def processor(self):
+        return MarkdownProcessor()
+
+    def test_extract_italic(self, processor):
+        markdown = "This has *italic* text."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # The _extract_inline_text helper should concatenate the text
+        assert segments[0].text == "This has italic text."
+
+    def test_extract_bold(self, processor):
+        markdown = "This has **bold** text."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "This has bold text."
+
+    def test_extract_nested_emphasis(self, processor):
+        markdown = "Mixed **bold and *italic*** text."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Mixed bold and italic text."
+
+    def test_extract_link_text(self, processor):
+        markdown = "Here is a [link text](http://example.com)."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # Expecting only the link text to be part of the segment
+        assert segments[0].text == "Here is a link text."
+
+    def test_extract_image_alt_text(self, processor):
+        markdown = "An image: ![Alt text here](/path/to/image.jpg)"
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # Expecting alt text to be extracted along with surrounding text
+        assert segments[0].text == "An image: Alt text here"
+
+    def test_ignore_inline_code(self, processor):
+        markdown = "Text with `inline code` should ignore code."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # Expecting inline code content to be excluded
+        assert segments[0].text == "Text with should ignore code."
+
+    def test_ignore_link_url(self, processor):
+        markdown = "Another [link](http://ignore.this/url)."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Another link."
+
+    def test_ignore_image_src(self, processor):
+        markdown = "Image ![alt text](/ignore/this/path.png) source."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Image alt text source."
+
+    def test_mixed_inline_elements(self, processor):
+        markdown = "A para with *italic*, **bold**, `code`, [link](url), and ![img alt](src)."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        expected = "A para with italic, bold, , link, and img alt."
+        assert segments[0].text == expected 

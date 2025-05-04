@@ -483,7 +483,7 @@ function extractBlockElements($: CheerioAPI, translationMap: TranslationMap): vo
 ```
 </info added on 2025-05-04T15:16:52.063Z>
 
-## 4. Extract text from inline elements [pending]
+## 4. Extract text from inline elements [done]
 ### Dependencies: 7.1, 7.2, 7.3
 ### Description: Implement extraction of translatable text from inline formatting elements
 ### Details:
@@ -503,6 +503,61 @@ When processing inline elements:
 
 Update dependencies to include subtask 7.12 (Granular Inline Parser) as this subtask now processes its output rather than performing its own parsing.
 </info added on 2025-05-04T03:38:54.851Z>
+
+<info added on 2025-05-04T15:47:15.412Z>
+For this subtask implementation, I'll add specific technical details about handling inline elements:
+
+When implementing the `_extract_inline_text` method:
+
+```python
+def _extract_inline_text(self, inline_tokens, parent_segment=None):
+    """Process inline tokens to extract translatable text segments."""
+    segments = []
+    current_text = ""
+    
+    for token in inline_tokens:
+        if token.type == 'text':
+            current_text += token.content
+        elif token.type in ('em_open', 'strong_open', 'link_open'):
+            # Process nested content within emphasis/links
+            nested_segments = self._extract_inline_text(token.children, parent_segment)
+            segments.extend(nested_segments)
+        elif token.type == 'image':
+            # Extract alt text if present
+            if token.attrs.get('alt'):
+                alt_segment = TextSegment(
+                    text=token.attrs['alt'],
+                    segment_type=SegmentType.INLINE_ALT_TEXT,
+                    parent=parent_segment
+                )
+                segments.append(alt_segment)
+        elif token.type == 'code_inline':
+            # Skip code spans - they shouldn't be translated
+            pass
+    
+    # Create segment for accumulated text if any
+    if current_text:
+        text_segment = TextSegment(
+            text=current_text,
+            segment_type=SegmentType.INLINE_TEXT,
+            parent=parent_segment
+        )
+        segments.append(text_segment)
+    
+    return segments
+```
+
+Key implementation considerations:
+- Store position metadata (start/end indices) with each segment to enable accurate reassembly
+- Create a bidirectional mapping between original markdown and extracted segments using a dictionary structure
+- For nested elements, maintain proper hierarchy using parent references
+- Implement special handling for markdown-it-py's token structure, particularly for nested tokens
+- Use custom segment types (enum values) to differentiate between regular text, link text, and alt text
+- Consider implementing a visitor pattern for cleaner token processing logic
+- Add context attributes to segments to preserve formatting information needed during reassembly
+
+When consuming Granular Inline Parser output, implement a transformation layer that converts the parser's AST into TextSegment instances while preserving the hierarchical relationships.
+</info added on 2025-05-04T15:47:15.412Z>
 
 ## 5. Implement table content extraction [pending]
 ### Dependencies: 7.1, 7.2
@@ -572,7 +627,7 @@ Using TDD, implement a parser that tokenizes inline content into distinct units:
 ### Details:
 Decide on the HTML handling strategy (e.g., ignore all HTML, translate content of specific tags, preserve all HTML). Implement the chosen strategy within the text extraction and reassembly logic. If extracting content, ensure the mapping correctly identifies text originating from HTML. Add configuration options if the strategy needs to be user-adjustable. Use TDD.
 
-## 14. Fix Failing Utility Tests (Hashing & Normalization) [pending]
+## 14. Fix Failing Utility Tests (Hashing & Normalization) [done]
 ### Dependencies: None
 ### Description: Address the 5 failing tests identified in `translation-py/tests/utils/test_hashing.py` and `translation-py/tests/utils/test_normalization.py`. These tests cover edge cases for YAML hashing (None input, invalid types, exclude fields, non-string keys) and Markdown blank line normalization.
 ### Details:
