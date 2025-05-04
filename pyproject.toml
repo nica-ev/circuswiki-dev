@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "circuswiki-dev"
+version = "0.1.0"
+description = "Main project for Circus Wiki development, including nested sub-projects like translation-py."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9" # Assuming Python 3.9+, adjust if needed
+
+# Dependencies from root requirements.txt
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+    "pymdown-extensions",
+    "mkdocs-pub-minifier",
+    "mkdocs-pub-obsidian",
+    "markdown-it-py>=2.2.0",
+    "PyYAML>=6.0"
+    # Add other dependencies from translation-py/requirements.txt if necessary
+    # Or manage them separately if translation-py is truly independent.
+]
+
+[tool.setuptools]
+# packages = ["src"] # Option 1: Only include root src as installable package
+
+[tool.setuptools.packages.find]
+# where = ["src"] # Option 2 (often preferred): Find packages under src
+namespaces = true
+include = ["src", "src.*"] # Explicitly include src and subpackages
+# exclude = ["tests*"] # Optionally exclude test directories
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src",              # Add root src directory explicitly
+    "translation-py"  # Add translation-py directory (for translation-py/src)
+]
+testpaths = [
+    "tests",              # Find tests in root tests directory
+    "translation-py/tests" # Also find tests in translation-py/tests directory
+]
+# Example: Add markers if needed
+# markers = [
+#     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+# ] 

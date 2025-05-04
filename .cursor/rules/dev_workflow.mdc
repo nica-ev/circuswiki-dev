@@ -3,10 +3,15 @@ description: Guide for using Task Master to manage task-driven development workf
 globs: **/*
 alwaysApply: true
 ---
-
 # Task Master Development Workflow
 
 This guide outlines the typical process for using Task Master to manage software development projects.
+
+## Project Structure
+
+Before starting, it's crucial to understand the project's directory layout. This workspace may contain nested sub-projects (like `translation-py`). 
+
+**Refer to [`PROJECT_STRUCTURE.md`](mdc:PROJECT_STRUCTURE.md) for a detailed map of directories and their purposes.** Understanding this structure is essential for locating files, configuring tools, and running tests correctly.
 
 ## Primary Interaction: MCP Server vs. CLI
 

@@ -414,12 +414,12 @@
           "id": 3,
           "title": "Extract text from block elements",
           "description": "Implement extraction of translatable text from block-level elements",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1,
             2
           ],
-          "details": "Using TDD, write tests first for extracting text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. Then extend the MarkdownProcessor to implement this functionality. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable."
+          "details": "Using TDD, write tests first for extracting text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. Then extend the MarkdownProcessor to implement this functionality. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable.\n\n<info added on 2025-05-04T15:16:52.063Z>\n```typescript\n// Implementation details for extracting text from block elements\n\n// Test structure example\ndescribe('MarkdownProcessor - block element extraction', () => {\n  test('extracts text from paragraphs', () => {\n    const markdown = '## Header\\n\\nThis is a paragraph.\\n\\nThis is another paragraph.';\n    const processor = new MarkdownProcessor();\n    const result = processor.extractTranslatableSegments(markdown);\n    \n    expect(result.segments.length).toBe(3);\n    expect(result.segments[1].text).toBe('This is a paragraph.');\n    expect(result.segments[1].type).toBe('paragraph');\n  });\n  \n  test('handles nested blockquotes correctly', () => {\n    const markdown = '> Outer quote\\n> > Inner quote\\n> More outer';\n    // Assertions for proper nesting handling\n  });\n  \n  test('skips code blocks', () => {\n    const markdown = 'Text\\n\\n```js\\nconst x = 1;\\n```\\n\\nMore text';\n    // Verify only \"Text\" and \"More text\" are extracted\n  });\n});\n\n// Implementation approach\nfunction extractBlockElements($: CheerioAPI, translationMap: TranslationMap): void {\n  // Process paragraphs\n  $('p').each((_, element) => {\n    if (!isWithinCodeBlock(element)) {\n      const text = $(element).text().trim();\n      if (text) {\n        translationMap.addSegment(new TextSegment(text, 'paragraph', getElementPath(element)));\n      }\n    }\n  });\n  \n  // Process headings with level detection\n  $('h1, h2, h3, h4, h5, h6').each((_, element) => {\n    const level = element.name.substring(1); // Extract heading level (1-6)\n    const text = $(element).text().trim();\n    if (text) {\n      translationMap.addSegment(new TextSegment(text, `heading-${level}`, getElementPath(element)));\n    }\n  });\n  \n  // Helper function to check if element is within a code block\n  function isWithinCodeBlock(element: CheerioElement): boolean {\n    return $(element).parents('pre, code').length > 0;\n  }\n  \n  // Helper to generate path for element location tracking\n  function getElementPath(element: CheerioElement): string {\n    // Implementation to create a path like \"body > article > p:nth-child(3)\"\n  }\n}\n```\n</info added on 2025-05-04T15:16:52.063Z>"
         },
         {
           "id": 4,
@@ -543,6 +543,15 @@
           "dependencies": [
             "7.1"
           ],
+          "parentTaskId": 7
+        },
+        {
+          "id": 14,
+          "title": "Fix Failing Utility Tests (Hashing & Normalization)",
+          "description": "Address the 5 failing tests identified in `translation-py/tests/utils/test_hashing.py` and `translation-py/tests/utils/test_normalization.py`. These tests cover edge cases for YAML hashing (None input, invalid types, exclude fields, non-string keys) and Markdown blank line normalization.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
           "parentTaskId": 7
         }
       ]

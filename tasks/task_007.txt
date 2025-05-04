@@ -416,11 +416,72 @@ This approach ensures consistent handling of complex inline formatting across al
 </info added on 2025-05-05T14:22:10.000Z>
 </info added on 2025-05-04T03:54:17.908Z>
 
-## 3. Extract text from block elements [pending]
+## 3. Extract text from block elements [done]
 ### Dependencies: 7.1, 7.2
 ### Description: Implement extraction of translatable text from block-level elements
 ### Details:
 Using TDD, write tests first for extracting text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. Then extend the MarkdownProcessor to implement this functionality. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable.
+
+<info added on 2025-05-04T15:16:52.063Z>
+```typescript
+// Implementation details for extracting text from block elements
+
+// Test structure example
+describe('MarkdownProcessor - block element extraction', () => {
+  test('extracts text from paragraphs', () => {
+    const markdown = '## Header\n\nThis is a paragraph.\n\nThis is another paragraph.';
+    const processor = new MarkdownProcessor();
+    const result = processor.extractTranslatableSegments(markdown);
+    
+    expect(result.segments.length).toBe(3);
+    expect(result.segments[1].text).toBe('This is a paragraph.');
+    expect(result.segments[1].type).toBe('paragraph');
+  });
+  
+  test('handles nested blockquotes correctly', () => {
+    const markdown = '> Outer quote\n> > Inner quote\n> More outer';
+    // Assertions for proper nesting handling
+  });
+  
+  test('skips code blocks', () => {
+    const markdown = 'Text\n\n```js\nconst x = 1;\n```\n\nMore text';
+    // Verify only "Text" and "More text" are extracted
+  });
+});
+
+// Implementation approach
+function extractBlockElements($: CheerioAPI, translationMap: TranslationMap): void {
+  // Process paragraphs
+  $('p').each((_, element) => {
+    if (!isWithinCodeBlock(element)) {
+      const text = $(element).text().trim();
+      if (text) {
+        translationMap.addSegment(new TextSegment(text, 'paragraph', getElementPath(element)));
+      }
+    }
+  });
+  
+  // Process headings with level detection
+  $('h1, h2, h3, h4, h5, h6').each((_, element) => {
+    const level = element.name.substring(1); // Extract heading level (1-6)
+    const text = $(element).text().trim();
+    if (text) {
+      translationMap.addSegment(new TextSegment(text, `heading-${level}`, getElementPath(element)));
+    }
+  });
+  
+  // Helper function to check if element is within a code block
+  function isWithinCodeBlock(element: CheerioElement): boolean {
+    return $(element).parents('pre, code').length > 0;
+  }
+  
+  // Helper to generate path for element location tracking
+  function getElementPath(element: CheerioElement): string {
+    // Implementation to create a path like "body > article > p:nth-child(3)"
+  }
+}
+```
+</info added on 2025-05-04T15:16:52.063Z>
 
 ## 4. Extract text from inline elements [pending]
 ### Dependencies: 7.1, 7.2, 7.3
@@ -510,4 +571,10 @@ Using TDD, implement a parser that tokenizes inline content into distinct units:
 ### Description: Define and implement the strategy for handling raw HTML tags within Markdown content.
 ### Details:
 Decide on the HTML handling strategy (e.g., ignore all HTML, translate content of specific tags, preserve all HTML). Implement the chosen strategy within the text extraction and reassembly logic. If extracting content, ensure the mapping correctly identifies text originating from HTML. Add configuration options if the strategy needs to be user-adjustable. Use TDD.
+
+## 14. Fix Failing Utility Tests (Hashing & Normalization) [pending]
+### Dependencies: None
+### Description: Address the 5 failing tests identified in `translation-py/tests/utils/test_hashing.py` and `translation-py/tests/utils/test_normalization.py`. These tests cover edge cases for YAML hashing (None input, invalid types, exclude fields, non-string keys) and Markdown blank line normalization.
+### Details:
+
 
