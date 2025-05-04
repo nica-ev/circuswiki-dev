@@ -127,6 +127,106 @@ class MarkdownProcessor:
             self.logger.exception(f"Error parsing Markdown text: {e}")
             raise
 
+    def process(self, text: Optional[str]) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+        """
+        Processes the full Markdown text, extracting frontmatter and parsing the 
+        remaining content into an AST.
+
+        Args:
+            text: The full input string, potentially containing frontmatter.
+
+        Returns:
+            A tuple containing:
+            - A dictionary with the parsed frontmatter (empty if none found or invalid).
+            - A list of tokens representing the AST of the content part.
+            
+        Raises:
+            TypeError: If the input text is None.
+        """
+        if text is None:
+            self.logger.error("Input text cannot be None for processing.")
+            raise TypeError("Input text cannot be None")
+
+        if not text: # Handle empty string input
+            self.logger.info("Processing empty string, returning empty results.")
+            return ({}, [])
+
+        self.logger.info("Starting to process text...")
+        frontmatter, content_text = self.extract_frontmatter(text)
+
+        if frontmatter:
+            self.logger.info(f"Extracted frontmatter: {list(frontmatter.keys())}")
+        else:
+            self.logger.info("No valid frontmatter found.")
+            # If extraction failed, content_text is the original text
+
+        self.logger.info("Parsing content into AST...")
+        ast_tokens = self.parse(content_text)
+        self.logger.info(f"Generated AST with {len(ast_tokens)} tokens.")
+
+        return frontmatter, ast_tokens
+
+    # --- AST Traversal Methods ---
+
+    def find_nodes_by_type(self, ast: List[Dict[str, Any]], node_type: str) -> List[Dict[str, Any]]:
+        """
+        Finds all nodes (tokens) in the AST list that match the given type.
+
+        Args:
+            ast: The list of tokens representing the AST.
+            node_type: The 'type' string to match (e.g., 'heading_open', 'inline').
+
+        Returns:
+            A list containing all matching node dictionaries.
+        """
+        if not ast:
+            return []
+        return [node for node in ast if node.get('type') == node_type]
+
+    def get_node_text_content(self, ast: List[Dict[str, Any]], node_index: int) -> str:
+        """
+        Extracts the combined text content from an 'inline' node's children.
+
+        This is useful for getting the rendered text of elements like paragraphs
+        or headings, which are represented by an 'inline' token containing 
+        child tokens for text, emphasis, links, etc.
+
+        Args:
+            ast: The list of tokens representing the AST.
+            node_index: The index of the 'inline' node in the AST list.
+
+        Returns:
+            The combined text content of the inline node's children, or an
+            empty string if the node is not 'inline', has no children, or 
+            the index is invalid.
+            
+        Raises:
+            IndexError: If node_index is out of bounds for the ast list.
+        """
+        if not ast or node_index < 0 or node_index >= len(ast):
+            self.logger.warning(f"Invalid index {node_index} or empty AST provided.")
+            # Raise IndexError if out of bounds, consistent with list behavior
+            if node_index < 0 or node_index >= len(ast):
+                 raise IndexError("Node index out of range")
+            return "" # Return empty if AST itself is empty but index is 0
+
+        node = ast[node_index]
+
+        # Only extract text from 'inline' nodes which contain renderable content
+        if node.get('type') != 'inline':
+            self.logger.debug(f"Node at index {node_index} is not type 'inline', returning empty text.")
+            return ""
+
+        children = node.get('children')
+        if not children:
+            # Return the node's own content if no children (e.g., simple text node within inline)
+            # Although usually inline nodes *should* have children if they represent complex text
+            return node.get('content', '') 
+
+        # Concatenate the 'content' from all child tokens
+        text_parts = [child.get('content', '') for child in children if child.get('content')]
+        return "".join(text_parts)
+
 # Basic logging setup if the module is run directly (for testing/example)
 # In a real application, logging would be configured centrally.
 if __name__ == '__main__':
