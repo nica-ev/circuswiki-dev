@@ -249,14 +249,14 @@
     {
       "id": 5,
       "title": "Implement content hash calculation",
-      "description": "Create functionality to calculate content hashes for change detection.",
+      "description": "Create functionality to calculate content hashes for change detection using Test-Driven Development (TDD).",
       "status": "pending",
       "dependencies": [
         4
       ],
       "priority": "high",
-      "details": "Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection.",
-      "testStrategy": "Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change.",
+      "details": "Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection. Follow Test-Driven Development principles by writing tests before implementing the actual functionality for each component.",
+      "testStrategy": "Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change. Following TDD, write all tests first to define expected behavior before implementing the actual hashing logic.",
       "subtasks": [
         {
           "id": 1,
@@ -264,7 +264,7 @@
           "description": "Create utility functions to normalize Markdown content and YAML frontmatter before hashing to ensure consistent hash generation.",
           "status": "pending",
           "dependencies": [],
-          "details": "Create two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. The Markdown normalization should handle line endings (convert to \\n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization should convert the frontmatter to a canonical form with consistent key ordering and value representation. Include comprehensive tests to verify normalization produces consistent output regardless of input formatting variations."
+          "details": "Following TDD, first write tests for two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. Tests should verify that the Markdown normalization handles line endings (convert to \\n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization tests should verify that frontmatter is converted to a canonical form with consistent key ordering and value representation. Only after tests are complete, implement the actual normalization functions to pass the tests.\n\n<info added on 2025-05-04T01:32:23.880Z>\n# TDD Approach\n\n## Test Cases for `normalize_markdown_content`:\n- Different line endings (CR, LF, CRLF)\n- Leading/trailing whitespace\n- Multiple consecutive blank lines\n- Mixed indentation (spaces vs tabs)\n- Unicode characters and normalization forms\n- HTML content within markdown\n\n## Test Cases for `normalize_yaml_frontmatter`:\n- Different key ordering\n- Nested structures\n- Various data types (strings, numbers, booleans, lists)\n- Quoted vs unquoted strings\n- Multi-line strings\n- Empty values\n\n## Implementation Notes:\n- For markdown normalization, consider using regex patterns like `re.sub(r'\\r\\n|\\r', '\\n', content)` for line endings\n- For YAML normalization, parse to Python objects then serialize in canonical form:\n  ```python\n  def normalize_yaml_frontmatter(frontmatter):\n      # Parse YAML to Python dict\n      data = yaml.safe_load(frontmatter)\n      # Sort keys recursively\n      normalized_data = _sort_dict_recursively(data)\n      # Return serialized in canonical form\n      return yaml.dump(normalized_data, sort_keys=True, default_flow_style=False)\n  \n  def _sort_dict_recursively(d):\n      # Helper function to sort nested dictionaries\n      if not isinstance(d, dict):\n          return d\n      return {k: _sort_dict_recursively(v) for k, v in sorted(d.items())}\n  ```\n- Consider using libraries like `pyyaml` for YAML handling and `unicodedata` for Unicode normalization\n</info added on 2025-05-04T01:32:23.880Z>"
         },
         {
           "id": 2,
@@ -274,7 +274,7 @@
           "dependencies": [
             1
           ],
-          "details": "Implement `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Include error handling for invalid inputs and write unit tests to verify hash consistency across equivalent content with different formatting."
+          "details": "Using TDD, first write tests for the `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Tests should verify hash consistency across equivalent content with different formatting and include error handling for invalid inputs. Only after tests are complete, implement the actual function to pass the tests."
         },
         {
           "id": 3,
@@ -284,7 +284,7 @@
           "dependencies": [
             1
           ],
-          "details": "Implement `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Include validation to ensure all technical fields are properly excluded and write tests to verify hash consistency with different field orderings."
+          "details": "Using TDD, first write tests for the `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Tests should verify all technical fields are properly excluded and hash consistency with different field orderings. Only after tests are complete, implement the actual function to pass the tests."
         },
         {
           "id": 4,
@@ -295,21 +295,21 @@
             2,
             3
           ],
-          "details": "Modify the document processing code to: 1) Calculate both hashes whenever a document is created or updated, 2) Store the hashes in the document's metadata, 3) Implement a change detection function that compares newly calculated hashes with stored hashes to determine if content has changed, 4) Add documentation explaining the hash calculation process and its use in change detection. Include integration tests that verify the entire workflow correctly identifies changes and ignores non-semantic differences."
+          "details": "Following TDD principles, first write integration tests that verify: 1) Hashes are calculated whenever a document is created or updated, 2) Hashes are stored in the document's metadata, 3) Change detection function correctly compares newly calculated hashes with stored hashes, 4) The system correctly identifies changes and ignores non-semantic differences. Only after tests are complete, modify the document processing code to implement these features and add documentation explaining the hash calculation process and its use in change detection."
         }
       ]
     },
     {
       "id": 6,
       "title": "Implement basic MarkdownProcessor with AST generation",
-      "description": "Create a component to parse Markdown into an Abstract Syntax Tree (AST) for processing.",
+      "description": "Create a component to parse Markdown into an Abstract Syntax Tree (AST) for processing, following Test-Driven Development (TDD) principles.",
       "status": "pending",
       "dependencies": [
         5
       ],
       "priority": "high",
-      "details": "Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown content into an AST. Include methods to separate frontmatter from body content. Create a basic traversal mechanism for the AST to access different node types.",
-      "testStrategy": "Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing.",
+      "details": "Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown content into an AST. Include methods to separate frontmatter from body content. Create a basic traversal mechanism for the AST to access different node types. Follow Test-Driven Development (TDD) methodology by writing tests before implementing each feature of the MarkdownProcessor.",
+      "testStrategy": "Write tests before implementing any functionality, following TDD principles. Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing. Create test fixtures with expected inputs and outputs for each component of the processor.",
       "subtasks": [
         {
           "id": 1,
@@ -317,7 +317,7 @@
           "description": "Set up the basic structure of the MarkdownProcessor class with initialization and markdown-it-py integration",
           "status": "pending",
           "dependencies": [],
-          "details": "Create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation."
+          "details": "First write tests for the MarkdownProcessor class initialization and basic functionality. Then create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation."
         },
         {
           "id": 2,
@@ -327,7 +327,7 @@
           "dependencies": [
             1
           ],
-          "details": "Add a method to detect if frontmatter exists in the markdown content (typically delimited by '---'). Implement functionality to extract the frontmatter section. Use a YAML parser (like PyYAML) to convert the frontmatter into a Python dictionary. Return both the parsed frontmatter and the remaining markdown content. Handle edge cases like malformed frontmatter and provide appropriate error messages."
+          "details": "Begin by writing tests for frontmatter extraction with various test cases. Then add a method to detect if frontmatter exists in the markdown content (typically delimited by '---'). Implement functionality to extract the frontmatter section. Use a YAML parser (like PyYAML) to convert the frontmatter into a Python dictionary. Return both the parsed frontmatter and the remaining markdown content. Handle edge cases like malformed frontmatter and provide appropriate error messages.\n\n<info added on 2025-05-04T01:32:56.104Z>\n```python\n# Test cases to implement:\ndef test_valid_frontmatter():\n    md = \"\"\"---\ntitle: Test Document\nauthor: John Doe\ndate: 2023-01-01\n---\n# Actual Content\nThis is the body.\"\"\"\n    # Assert frontmatter contains correct key-values and body starts with \"# Actual Content\"\n\ndef test_no_frontmatter():\n    md = \"# Just content\\nNo frontmatter here.\"\n    # Assert empty frontmatter dict and unchanged content\n\ndef test_malformed_frontmatter():\n    md = \"\"\"---\ntitle: Test: with colon error\n---\nContent\"\"\"\n    # Assert appropriate error handling\n\n# Implementation approach:\ndef extract_frontmatter(content):\n    \"\"\"\n    Extracts YAML frontmatter from markdown content.\n    \n    Args:\n        content (str): Markdown content with possible frontmatter\n        \n    Returns:\n        tuple: (frontmatter_dict, remaining_content)\n    \"\"\"\n    import re\n    import yaml\n    \n    # Regex pattern to match frontmatter between triple dashes\n    pattern = r'^---\\s*\\n(.*?)\\n---\\s*\\n(.*)$'\n    match = re.match(pattern, content, re.DOTALL)\n    \n    if not match:\n        return {}, content\n        \n    try:\n        frontmatter = yaml.safe_load(match.group(1))\n        if not isinstance(frontmatter, dict):\n            frontmatter = {}\n        content_body = match.group(2)\n        return frontmatter, content_body\n    except yaml.YAMLError as e:\n        # Handle parsing errors gracefully\n        return {}, content\n```\n\nConsider adding a custom exception class `FrontmatterError` to provide detailed error information when YAML parsing fails. The implementation should handle both standard triple-dash delimiters and potentially other formats (like `+++` for TOML).\n</info added on 2025-05-04T01:32:56.104Z>"
         },
         {
           "id": 3,
@@ -337,7 +337,7 @@
           "dependencies": [
             1
           ],
-          "details": "Implement a method that takes markdown content and returns its AST representation using markdown-it-py. Ensure the method handles different markdown elements correctly (headings, lists, code blocks, etc.). Add validation to ensure the generated AST is properly structured. Include documentation about the structure of the returned AST. Implement error handling for parsing failures."
+          "details": "Start with writing tests for AST generation with expected outputs for different markdown inputs. Then implement a method that takes markdown content and returns its AST representation using markdown-it-py. Ensure the method handles different markdown elements correctly (headings, lists, code blocks, etc.). Add validation to ensure the generated AST is properly structured. Include documentation about the structure of the returned AST. Implement error handling for parsing failures."
         },
         {
           "id": 4,
@@ -347,7 +347,7 @@
           "dependencies": [
             3
           ],
-          "details": "Develop a traversal method that can walk through the AST in depth-first order. Implement node type filtering to find specific elements (e.g., headings, links, code blocks). Create helper methods to extract text content from nodes. Add functionality to get the path to a specific node. Include methods to transform nodes or modify the AST structure. Document the traversal API with examples."
+          "details": "First write tests for AST traversal functionality with expected outcomes for different traversal scenarios. Then develop a traversal method that can walk through the AST in depth-first order. Implement node type filtering to find specific elements (e.g., headings, links, code blocks). Create helper methods to extract text content from nodes. Add functionality to get the path to a specific node. Include methods to transform nodes or modify the AST structure. Document the traversal API with examples."
         },
         {
           "id": 5,
@@ -358,21 +358,29 @@
             2,
             4
           ],
-          "details": "Implement a comprehensive 'process' method that combines frontmatter extraction and AST generation. Return a structured result containing frontmatter data and the document AST. Add utility methods for common AST operations based on the traversal mechanism. Create test cases with various markdown inputs to verify correct processing. Include examples of extracting specific information from the AST. Document the complete API with usage examples."
+          "details": "Begin with comprehensive tests for the full processing workflow with various markdown inputs and expected outputs. Then implement a comprehensive 'process' method that combines frontmatter extraction and AST generation. Return a structured result containing frontmatter data and the document AST. Add utility methods for common AST operations based on the traversal mechanism. Include examples of extracting specific information from the AST. Document the complete API with usage examples."
+        },
+        {
+          "id": 6,
+          "title": "Create test fixtures for TDD approach",
+          "description": "Develop a set of test fixtures and expected outputs to support TDD for all MarkdownProcessor functionality",
+          "status": "pending",
+          "dependencies": [],
+          "details": "Create a collection of markdown test files with varying complexity and features. Define expected outputs for each test file, including frontmatter extraction results and AST structures. Implement helper functions to compare actual and expected AST structures. Create mock objects and test doubles where needed. Document how to use the test fixtures for TDD implementation of each component."
         }
       ]
     },
     {
       "id": 7,
       "title": "Implement translatable text extraction",
-      "description": "Create functionality to extract text segments suitable for translation from the Markdown AST.",
+      "description": "Create functionality to extract text segments suitable for translation from the Markdown AST using Test-Driven Development (TDD) approach.",
       "status": "pending",
       "dependencies": [
         6
       ],
       "priority": "high",
-      "details": "Extend MarkdownProcessor to identify and extract text from paragraphs, lists, table cells, headers, emphasis, link text, and image alt text. Create a data structure to map extracted text segments to their original locations in the AST. Preserve non-translatable elements like code blocks, inline code, and URLs.",
-      "testStrategy": "Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate.",
+      "details": "Extend MarkdownProcessor to identify and extract text from paragraphs, lists, table cells, headers, emphasis, link text, and image alt text. Create a data structure to map extracted text segments to their original locations in the AST. Preserve non-translatable elements like code blocks, inline code, and URLs. Follow Test-Driven Development principles by writing tests before implementing each feature to ensure correct behavior and comprehensive test coverage.",
+      "testStrategy": "Following TDD principles, write tests first for each component before implementation. Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate.",
       "subtasks": [
         {
           "id": 1,
@@ -380,7 +388,7 @@
           "description": "Create a data structure to represent extractable text segments and their mapping back to the AST",
           "status": "pending",
           "dependencies": [],
-          "details": "Design and implement a TextSegment class/interface that contains: 1) the extracted text content, 2) a reference to the original AST node, 3) metadata about the segment type (paragraph, heading, list item, etc.), 4) position information for reassembly. Also implement a TranslationMap class to store and manage collections of TextSegments with methods to add, retrieve, and manipulate segments."
+          "details": "Using TDD, first write tests for the TextSegment class/interface that contains: 1) the extracted text content, 2) a reference to the original AST node, 3) metadata about the segment type (paragraph, heading, list item, etc.), 4) position information for reassembly. Then implement the class to pass the tests. Similarly, test-drive the implementation of a TranslationMap class to store and manage collections of TextSegments with methods to add, retrieve, and manipulate segments."
         },
         {
           "id": 2,
@@ -390,7 +398,7 @@
           "dependencies": [
             1
           ],
-          "details": "Implement a MarkdownAstVisitor class that can traverse all node types in the Markdown AST. This should follow the visitor design pattern with methods like visitParagraph(), visitHeading(), visitList(), etc. The visitor should maintain context during traversal (like nesting level) and provide hooks for processing different node types. This will serve as the foundation for text extraction in the next steps."
+          "details": "Following TDD principles, write tests first for a MarkdownAstVisitor class that can traverse all node types in the Markdown AST. This should follow the visitor design pattern with methods like visitParagraph(), visitHeading(), visitList(), etc. The visitor should maintain context during traversal (like nesting level) and provide hooks for processing different node types. Implement the visitor to pass the tests. This will serve as the foundation for text extraction in the next steps."
         },
         {
           "id": 3,
@@ -401,7 +409,7 @@
             1,
             2
           ],
-          "details": "Extend the MarkdownProcessor to extract text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable."
+          "details": "Using TDD, write tests first for extracting text from block-level elements including: paragraphs, headings (h1-h6), blockquotes, and list items. Then extend the MarkdownProcessor to implement this functionality. For each element type, identify the text content, create TextSegment instances, and add them to the TranslationMap. Ensure proper handling of nested structures, especially for lists and blockquotes. Skip code blocks entirely as they are non-translatable."
         },
         {
           "id": 4,
@@ -413,7 +421,7 @@
             2,
             3
           ],
-          "details": "Extend the text extraction to handle inline elements including: emphasis (bold/italic), links (extract link text but not URLs), image alt text, and other inline formatting. Create appropriate TextSegment instances for these elements, maintaining their relationship to parent block elements. Ensure inline code spans are preserved and not extracted for translation."
+          "details": "Following TDD, write tests first for extracting text from inline elements including: emphasis (bold/italic), links (extract link text but not URLs), image alt text, and other inline formatting. Then implement the functionality to pass these tests. Create appropriate TextSegment instances for these elements, maintaining their relationship to parent block elements. Ensure inline code spans are preserved and not extracted for translation."
         },
         {
           "id": 5,
@@ -424,7 +432,7 @@
             1,
             2
           ],
-          "details": "Extend the MarkdownProcessor to handle tables, extracting text from both header cells and body cells. Create TextSegment instances for each cell's content, maintaining information about the table structure (row/column position). Handle any inline formatting within table cells by leveraging the inline extraction logic. Ensure table structure metadata is preserved for reassembly."
+          "details": "Using TDD, write tests first for extracting text from tables, including both header cells and body cells. Then extend the MarkdownProcessor to implement this functionality. Create TextSegment instances for each cell's content, maintaining information about the table structure (row/column position). Handle any inline formatting within table cells by leveraging the inline extraction logic. Ensure table structure metadata is preserved for reassembly."
         },
         {
           "id": 6,
@@ -438,7 +446,7 @@
             4,
             5
           ],
-          "details": "Create methods in the MarkdownProcessor to take translated TextSegments and update the original AST with the translated content. Implement a reassembly algorithm that uses the stored node references and position information to correctly place translated text while preserving all non-translatable elements and document structure. Add validation to ensure all segments are accounted for and the document structure remains intact."
+          "details": "Following TDD principles, write tests first for reassembling translated content back into the original document. Then implement methods in the MarkdownProcessor to take translated TextSegments and update the original AST with the translated content. Implement a reassembly algorithm that uses the stored node references and position information to correctly place translated text while preserving all non-translatable elements and document structure. Add validation to ensure all segments are accounted for and the document structure remains intact."
         }
       ]
     },

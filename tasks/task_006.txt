@@ -3,41 +3,106 @@
 # Status: pending
 # Dependencies: 5
 # Priority: high
-# Description: Create a component to parse Markdown into an Abstract Syntax Tree (AST) for processing.
+# Description: Create a component to parse Markdown into an Abstract Syntax Tree (AST) for processing, following Test-Driven Development (TDD) principles.
 # Details:
-Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown content into an AST. Include methods to separate frontmatter from body content. Create a basic traversal mechanism for the AST to access different node types.
+Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown content into an AST. Include methods to separate frontmatter from body content. Create a basic traversal mechanism for the AST to access different node types. Follow Test-Driven Development (TDD) methodology by writing tests before implementing each feature of the MarkdownProcessor.
 
 # Test Strategy:
-Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing.
+Write tests before implementing any functionality, following TDD principles. Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing. Create test fixtures with expected inputs and outputs for each component of the processor.
 
 # Subtasks:
 ## 1. Create MarkdownProcessor class skeleton with markdown-it-py integration [pending]
 ### Dependencies: None
 ### Description: Set up the basic structure of the MarkdownProcessor class with initialization and markdown-it-py integration
 ### Details:
-Create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation.
+First write tests for the MarkdownProcessor class initialization and basic functionality. Then create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation.
 
 ## 2. Implement frontmatter extraction functionality [pending]
 ### Dependencies: 6.1
 ### Description: Add methods to detect, parse and separate YAML frontmatter from the main Markdown content
 ### Details:
-Add a method to detect if frontmatter exists in the markdown content (typically delimited by '---'). Implement functionality to extract the frontmatter section. Use a YAML parser (like PyYAML) to convert the frontmatter into a Python dictionary. Return both the parsed frontmatter and the remaining markdown content. Handle edge cases like malformed frontmatter and provide appropriate error messages.
+Begin by writing tests for frontmatter extraction with various test cases. Then add a method to detect if frontmatter exists in the markdown content (typically delimited by '---'). Implement functionality to extract the frontmatter section. Use a YAML parser (like PyYAML) to convert the frontmatter into a Python dictionary. Return both the parsed frontmatter and the remaining markdown content. Handle edge cases like malformed frontmatter and provide appropriate error messages.
+
+<info added on 2025-05-04T01:32:56.104Z>
+```python
+# Test cases to implement:
+def test_valid_frontmatter():
+    md = """---
+title: Test Document
+author: John Doe
+date: 2023-01-01
+---
+# Actual Content
+This is the body."""
+    # Assert frontmatter contains correct key-values and body starts with "# Actual Content"
+
+def test_no_frontmatter():
+    md = "# Just content\nNo frontmatter here."
+    # Assert empty frontmatter dict and unchanged content
+
+def test_malformed_frontmatter():
+    md = """---
+title: Test: with colon error
+---
+Content"""
+    # Assert appropriate error handling
+
+# Implementation approach:
+def extract_frontmatter(content):
+    """
+    Extracts YAML frontmatter from markdown content.
+    
+    Args:
+        content (str): Markdown content with possible frontmatter
+        
+    Returns:
+        tuple: (frontmatter_dict, remaining_content)
+    """
+    import re
+    import yaml
+    
+    # Regex pattern to match frontmatter between triple dashes
+    pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+    match = re.match(pattern, content, re.DOTALL)
+    
+    if not match:
+        return {}, content
+        
+    try:
+        frontmatter = yaml.safe_load(match.group(1))
+        if not isinstance(frontmatter, dict):
+            frontmatter = {}
+        content_body = match.group(2)
+        return frontmatter, content_body
+    except yaml.YAMLError as e:
+        # Handle parsing errors gracefully
+        return {}, content
+```
+
+Consider adding a custom exception class `FrontmatterError` to provide detailed error information when YAML parsing fails. The implementation should handle both standard triple-dash delimiters and potentially other formats (like `+++` for TOML).
+</info added on 2025-05-04T01:32:56.104Z>
 
 ## 3. Develop AST generation from Markdown content [pending]
 ### Dependencies: 6.1
 ### Description: Create methods to parse Markdown content into an Abstract Syntax Tree representation
 ### Details:
-Implement a method that takes markdown content and returns its AST representation using markdown-it-py. Ensure the method handles different markdown elements correctly (headings, lists, code blocks, etc.). Add validation to ensure the generated AST is properly structured. Include documentation about the structure of the returned AST. Implement error handling for parsing failures.
+Start with writing tests for AST generation with expected outputs for different markdown inputs. Then implement a method that takes markdown content and returns its AST representation using markdown-it-py. Ensure the method handles different markdown elements correctly (headings, lists, code blocks, etc.). Add validation to ensure the generated AST is properly structured. Include documentation about the structure of the returned AST. Implement error handling for parsing failures.
 
 ## 4. Implement basic AST traversal mechanisms [pending]
 ### Dependencies: 6.3
 ### Description: Create utility methods to traverse and access different node types in the Markdown AST
 ### Details:
-Develop a traversal method that can walk through the AST in depth-first order. Implement node type filtering to find specific elements (e.g., headings, links, code blocks). Create helper methods to extract text content from nodes. Add functionality to get the path to a specific node. Include methods to transform nodes or modify the AST structure. Document the traversal API with examples.
+First write tests for AST traversal functionality with expected outcomes for different traversal scenarios. Then develop a traversal method that can walk through the AST in depth-first order. Implement node type filtering to find specific elements (e.g., headings, links, code blocks). Create helper methods to extract text content from nodes. Add functionality to get the path to a specific node. Include methods to transform nodes or modify the AST structure. Document the traversal API with examples.
 
 ## 5. Add comprehensive processing method and test cases [pending]
 ### Dependencies: 6.2, 6.4
 ### Description: Create a main processing method that combines frontmatter extraction and AST generation with basic test cases
 ### Details:
-Implement a comprehensive 'process' method that combines frontmatter extraction and AST generation. Return a structured result containing frontmatter data and the document AST. Add utility methods for common AST operations based on the traversal mechanism. Create test cases with various markdown inputs to verify correct processing. Include examples of extracting specific information from the AST. Document the complete API with usage examples.
+Begin with comprehensive tests for the full processing workflow with various markdown inputs and expected outputs. Then implement a comprehensive 'process' method that combines frontmatter extraction and AST generation. Return a structured result containing frontmatter data and the document AST. Add utility methods for common AST operations based on the traversal mechanism. Include examples of extracting specific information from the AST. Document the complete API with usage examples.
+
+## 6. Create test fixtures for TDD approach [pending]
+### Dependencies: None
+### Description: Develop a set of test fixtures and expected outputs to support TDD for all MarkdownProcessor functionality
+### Details:
+Create a collection of markdown test files with varying complexity and features. Define expected outputs for each test file, including frontmatter extraction results and AST structures. Implement helper functions to compare actual and expected AST structures. Create mock objects and test doubles where needed. Document how to use the test fixtures for TDD implementation of each component.
 

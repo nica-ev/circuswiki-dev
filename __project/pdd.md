@@ -12,7 +12,8 @@ This document outlines the design for a command-line tool that automates the tra
 *   **Configurability:** Allow users to easily configure input/output directories, target languages, and API endpoints/providers via external files.
 *   **Extensibility:** Design with the possibility of supporting multiple LLM translation providers (e.g., DeepL, OpenAI, Gemini, OpenRouter).
 *   **Secure Credential Management:** Keep API keys separate from the main configuration and codebase.
-*   **Testability:** Include a test/dry-run mode to simulate the process without incurring API costs.
+*   **Testability:** Include a test/dry-run mode to simulate the process without incurring API costs. Employ Test-Driven Development (TDD) principles throughout the project.
+*   **Maintainability:** Adhere to clean code principles and ensure good test coverage driven by TDD.
 
 **3. Non-Goals**
 
@@ -99,13 +100,14 @@ This document outlines the design for a command-line tool that automates the tra
 **6. Non-Functional Requirements**
 
 *   **NFR1: Performance:** The tool should process a moderate number of files (e.g., 100 files) in a reasonable timeframe, with the primary bottleneck expected to be the external API calls. Consider potential for batching API requests if the provider supports it. The two-hash system helps avoid unnecessary API calls for YAML-only changes.
-*   **NFR2: Reliability:** The tool should handle common errors like file not found, invalid Markdown, network issues, and API errors gracefully, logging issues without crashing.
-*   **NFR3: Maintainability:** The codebase should be well-structured, potentially separating concerns like file handling, configuration, parsing, API interaction, and reconstruction into different modules or classes. The logic differentiating full updates from YAML-only updates should be clear.
+*   **NFR2: Reliability:** The tool should handle common errors like file not found, invalid Markdown, network issues, and API errors gracefully, logging issues without crashing. Reliability will be enforced through comprehensive test suites developed via TDD.
+*   **NFR3: Maintainability:** The codebase should be well-structured, potentially separating concerns like file handling, configuration, parsing, API interaction, and reconstruction into different modules or classes. TDD will contribute to maintainability by ensuring components are testable and behavior is well-defined. The logic differentiating full updates from YAML-only updates should be clear.
 *   **NFR4: Security:** API keys must not be hardcoded or checked into version control. Loading from a `.env` file is the minimum requirement.
 
 **7. Technical Design & Architecture**
 
 *   **Language:** Python 3.x is recommended due to its strong libraries for file handling, text processing, API requests, and Markdown parsing.
+*   **Testing Framework:** `pytest` is recommended for writing and running unit and integration tests. Tests MUST be written *before* implementation code (TDD).
 *   **Key Libraries:**
     *   `python-dotenv`: For loading `.env` files.
     *   `PyYAML` or `ruamel.yaml`: For parsing and updating YAML frontmatter (preserving comments/style if possible with `ruamel.yaml`).

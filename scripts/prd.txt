@@ -186,4 +186,7 @@ This document outlines the requirements for a command-line tool designed to auto
     *   `settings.txt` (or similar format like JSON/YAML): Contains directory paths, language list, YAML fields to translate, API provider, test mode flag.
     *   `translate.env`: Contains API keys (e.g., `DEEPL_API_KEY`). Must be gitignored.
 *   **Hashing:** SHA-256 recommended for `content_hash` and `yaml_hash`.
-*   **Reference:** See `__project/pdd.md` for the full Product Design Document. 
+*   **Reference:** See `__project/pdd.md` for the full Product Design Document.
+*   **Development Approach:** Test-Driven Development (TDD) using `pytest` will be employed. Tests will be written *before* implementation code for all new functionality.
+
+*Getting to Usable/Visible:* Phase 1 provides the core end-to-end translation flow for the main body content, which is the most critical part. Phase 2 adds efficiency and metadata handling. Phase 3 adds robustness. 

@@ -3,35 +3,75 @@
 # Status: pending
 # Dependencies: 4
 # Priority: high
-# Description: Create functionality to calculate content hashes for change detection.
+# Description: Create functionality to calculate content hashes for change detection using Test-Driven Development (TDD).
 # Details:
-Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection.
+Implement methods to calculate content_hash (for Markdown body) and yaml_hash (for frontmatter, excluding technical fields). Use SHA-256 via hashlib. For yaml_hash, exclude fields like content_hash, yaml_hash, and lang. Ensure consistent normalization of content before hashing to avoid false change detection. Follow Test-Driven Development principles by writing tests before implementing the actual functionality for each component.
 
 # Test Strategy:
-Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change.
+Create test files with various content and verify hash calculation is consistent. Modify content and verify hash changes. Modify excluded YAML fields and verify yaml_hash doesn't change. Following TDD, write all tests first to define expected behavior before implementing the actual hashing logic.
 
 # Subtasks:
 ## 1. Implement content normalization functions [pending]
 ### Dependencies: None
 ### Description: Create utility functions to normalize Markdown content and YAML frontmatter before hashing to ensure consistent hash generation.
 ### Details:
-Create two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. The Markdown normalization should handle line endings (convert to \n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization should convert the frontmatter to a canonical form with consistent key ordering and value representation. Include comprehensive tests to verify normalization produces consistent output regardless of input formatting variations.
+Following TDD, first write tests for two normalization functions: `normalize_markdown_content(content)` and `normalize_yaml_frontmatter(frontmatter)`. Tests should verify that the Markdown normalization handles line endings (convert to \n), whitespace trimming, and any other text normalization needed for consistency. The YAML normalization tests should verify that frontmatter is converted to a canonical form with consistent key ordering and value representation. Only after tests are complete, implement the actual normalization functions to pass the tests.
+
+<info added on 2025-05-04T01:32:23.880Z>
+# TDD Approach
+
+## Test Cases for `normalize_markdown_content`:
+- Different line endings (CR, LF, CRLF)
+- Leading/trailing whitespace
+- Multiple consecutive blank lines
+- Mixed indentation (spaces vs tabs)
+- Unicode characters and normalization forms
+- HTML content within markdown
+
+## Test Cases for `normalize_yaml_frontmatter`:
+- Different key ordering
+- Nested structures
+- Various data types (strings, numbers, booleans, lists)
+- Quoted vs unquoted strings
+- Multi-line strings
+- Empty values
+
+## Implementation Notes:
+- For markdown normalization, consider using regex patterns like `re.sub(r'\r\n|\r', '\n', content)` for line endings
+- For YAML normalization, parse to Python objects then serialize in canonical form:
+  ```python
+  def normalize_yaml_frontmatter(frontmatter):
+      # Parse YAML to Python dict
+      data = yaml.safe_load(frontmatter)
+      # Sort keys recursively
+      normalized_data = _sort_dict_recursively(data)
+      # Return serialized in canonical form
+      return yaml.dump(normalized_data, sort_keys=True, default_flow_style=False)
+  
+  def _sort_dict_recursively(d):
+      # Helper function to sort nested dictionaries
+      if not isinstance(d, dict):
+          return d
+      return {k: _sort_dict_recursively(v) for k, v in sorted(d.items())}
+  ```
+- Consider using libraries like `pyyaml` for YAML handling and `unicodedata` for Unicode normalization
+</info added on 2025-05-04T01:32:23.880Z>
 
 ## 2. Implement content_hash calculation for Markdown body [pending]
 ### Dependencies: 5.1
 ### Description: Create a function to calculate SHA-256 hash for normalized Markdown content.
 ### Details:
-Implement `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Include error handling for invalid inputs and write unit tests to verify hash consistency across equivalent content with different formatting.
+Using TDD, first write tests for the `calculate_content_hash(markdown_content)` function that: 1) Takes raw Markdown content as input, 2) Uses the normalization function from subtask 1, 3) Calculates SHA-256 hash using hashlib, 4) Returns the hexadecimal digest of the hash. Tests should verify hash consistency across equivalent content with different formatting and include error handling for invalid inputs. Only after tests are complete, implement the actual function to pass the tests.
 
 ## 3. Implement yaml_hash calculation for frontmatter [pending]
 ### Dependencies: 5.1
 ### Description: Create a function to calculate SHA-256 hash for normalized YAML frontmatter, excluding technical fields.
 ### Details:
-Implement `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Include validation to ensure all technical fields are properly excluded and write tests to verify hash consistency with different field orderings.
+Using TDD, first write tests for the `calculate_yaml_hash(frontmatter)` function that: 1) Takes a dictionary of frontmatter as input, 2) Creates a copy and removes technical fields ('content_hash', 'yaml_hash', 'lang', etc.), 3) Uses the YAML normalization function from subtask 1, 4) Calculates SHA-256 hash using hashlib, 5) Returns the hexadecimal digest. Tests should verify all technical fields are properly excluded and hash consistency with different field orderings. Only after tests are complete, implement the actual function to pass the tests.
 
 ## 4. Integrate hash calculation into document processing workflow [pending]
 ### Dependencies: 5.2, 5.3
 ### Description: Update the document processing workflow to calculate and store content and YAML hashes during document operations.
 ### Details:
-Modify the document processing code to: 1) Calculate both hashes whenever a document is created or updated, 2) Store the hashes in the document's metadata, 3) Implement a change detection function that compares newly calculated hashes with stored hashes to determine if content has changed, 4) Add documentation explaining the hash calculation process and its use in change detection. Include integration tests that verify the entire workflow correctly identifies changes and ignores non-semantic differences.
+Following TDD principles, first write integration tests that verify: 1) Hashes are calculated whenever a document is created or updated, 2) Hashes are stored in the document's metadata, 3) Change detection function correctly compares newly calculated hashes with stored hashes, 4) The system correctly identifies changes and ignores non-semantic differences. Only after tests are complete, modify the document processing code to implement these features and add documentation explaining the hash calculation process and its use in change detection.
 
