@@ -1,6 +1,6 @@
 # Task ID: 5
 # Title: Implement content hash calculation
-# Status: pending
+# Status: done
 # Dependencies: 4
 # Priority: high
 # Description: Create functionality to calculate content hashes for change detection using Test-Driven Development (TDD).
@@ -301,11 +301,153 @@ This will allow you to run the tests and verify the functionality of `calculate_
 </info added>
 </info added on 2025-05-04T02:13:46.398Z>
 
-## 4. Integrate hash calculation into document processing workflow [pending]
+## 4. Integrate hash calculation into document processing workflow [done]
 ### Dependencies: 5.2, 5.3
 ### Description: Update the document processing workflow to calculate and store content and YAML hashes during document operations.
 ### Details:
 Following TDD principles, first write integration tests that verify: 1) Hashes are calculated whenever a document is created or updated, 2) Hashes are stored in the document's metadata, 3) Change detection function correctly compares newly calculated hashes with stored hashes, 4) The system correctly identifies changes and ignores non-semantic differences. Only after tests are complete, modify the document processing code to implement these features and add documentation explaining the hash calculation process and its use in change detection.
+
+<info added on 2025-05-04T02:59:08.623Z>
+## Implementation Details
+
+### Hash Storage Format
+Store hashes in frontmatter under a dedicated namespace to avoid conflicts:
+```yaml
+---
+title: "Document Title"
+date: "2023-01-01"
+_system:
+  content_hash: "abc123def456"
+  yaml_hash: "789ghi012jkl"
+---
+```
+
+### Integration Points
+1. **Document Creation**: Calculate and store hashes when a document is first processed
+2. **Document Update**: Recalculate hashes after any content/metadata changes
+3. **Pre-processing Check**: Compare stored vs. calculated hashes to detect changes
+
+### Hash Comparison Function
+```python
+def compare_hashes(old_hashes, new_hashes):
+    """
+    Compare old and new hashes to detect changes.
+    
+    Args:
+        old_hashes (dict): Dictionary with 'content_hash' and 'yaml_hash' keys
+        new_hashes (dict): Dictionary with 'content_hash' and 'yaml_hash' keys
+    
+    Returns:
+        dict: Dictionary with 'content_changed' and 'yaml_changed' boolean flags
+    """
+    # Handle first-run scenario
+    if not old_hashes:
+        return {'content_changed': True, 'yaml_changed': True}
+        
+    return {
+        'content_changed': old_hashes.get('content_hash') != new_hashes.get('content_hash'),
+        'yaml_changed': old_hashes.get('yaml_hash') != new_hashes.get('yaml_hash')
+    }
+```
+
+### Performance Considerations
+- Calculate hashes only when needed (avoid redundant calculations)
+- Consider caching hash results for frequently accessed documents
+- Use hash comparison as an early exit mechanism before more expensive operations
+
+### Error Handling
+- Add robust error handling for missing or corrupted hash values
+- Implement fallback behavior when hash comparison fails (default to assuming change)
+- Log hash calculation/comparison issues for debugging
+</info added on 2025-05-04T02:59:08.623Z>
+
+<info added on 2025-05-04T02:59:33.578Z>
+## Implementation Specifics for Hash Integration
+
+### Namespace Structure
+To avoid potential conflicts with user-defined frontmatter fields, use a nested namespace structure:
+
+```yaml
+_system:
+  hashes:
+    content: "abc123def456"
+    yaml: "789ghi012jkl"
+    last_calculated: "2023-05-04T10:15:30Z"
+```
+
+This provides better organization and future extensibility compared to flat keys.
+
+### Optimized Hash Calculation
+```python
+def calculate_document_hashes(content, frontmatter):
+    """
+    Calculate both content and YAML hashes in a single pass.
+    
+    Args:
+        content (str): Document content without frontmatter
+        frontmatter (dict): Document metadata
+        
+    Returns:
+        dict: Dictionary containing both hash values
+    """
+    # Remove any existing hash data to avoid including it in the calculation
+    frontmatter_copy = copy.deepcopy(frontmatter)
+    if '_system' in frontmatter_copy and 'hashes' in frontmatter_copy['_system']:
+        del frontmatter_copy['_system']['hashes']
+        
+    return {
+        'content': calculate_content_hash(content),
+        'yaml': calculate_yaml_hash(frontmatter_copy),
+        'last_calculated': datetime.now(timezone.utc).isoformat()
+    }
+```
+
+### Incremental Processing Optimization
+For large document collections, implement a change-detection-first approach:
+
+```python
+def should_reprocess_document(file_path):
+    """Determine if a document needs reprocessing based on hash comparison"""
+    content, frontmatter = file_manager.read_markdown_with_frontmatter(file_path)
+    
+    # Get stored hashes
+    stored_hashes = {}
+    if frontmatter and '_system' in frontmatter and 'hashes' in frontmatter['_system']:
+        stored_hashes = frontmatter['_system']['hashes']
+    
+    # Calculate new hashes
+    new_hashes = calculate_document_hashes(content, frontmatter)
+    
+    # Compare and return change status
+    changes = compare_hashes(stored_hashes, new_hashes)
+    
+    # Only reprocess if something changed
+    return changes['content_changed'] or changes['yaml_changed']
+```
+
+### Test Fixtures for Edge Cases
+Include these specific test fixtures:
+
+1. Documents with Unicode characters to verify hash consistency
+2. Documents with whitespace variations to test non-semantic change handling
+3. Documents with existing hash data that needs to be excluded from recalculation
+4. Empty documents (both content and frontmatter)
+
+### Logging Strategy
+Implement detailed logging for hash operations:
+
+```python
+def log_hash_operation(file_path, old_hashes, new_hashes, changes):
+    """Log hash calculation and comparison details for debugging"""
+    logger.debug(f"Hash calculation for {file_path}")
+    logger.debug(f"Old hashes: {old_hashes}")
+    logger.debug(f"New hashes: {new_hashes}")
+    logger.debug(f"Detected changes: {changes}")
+    
+    if changes['content_changed'] or changes['yaml_changed']:
+        logger.info(f"Changes detected in {file_path}: content={changes['content_changed']}, metadata={changes['yaml_changed']}")
+```
+</info added on 2025-05-04T02:59:33.578Z>
 
 ## 5. Implement YAML normalization function [done]
 ### Dependencies: None

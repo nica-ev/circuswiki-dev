@@ -11,13 +11,85 @@ Implement a MarkdownProcessor class that uses markdown-it-py to parse Markdown c
 Write tests before implementing any functionality, following TDD principles. Parse various Markdown files and verify the AST structure matches expected output. Test with complex Markdown features like tables, lists, and code blocks to ensure correct parsing. Create test fixtures with expected inputs and outputs for each component of the processor.
 
 # Subtasks:
-## 1. Create MarkdownProcessor class skeleton with markdown-it-py integration [pending]
+## 1. Create MarkdownProcessor class skeleton with markdown-it-py integration [done]
 ### Dependencies: None
 ### Description: Set up the basic structure of the MarkdownProcessor class with initialization and markdown-it-py integration
 ### Details:
 First write tests for the MarkdownProcessor class initialization and basic functionality. Then create a new file for the MarkdownProcessor class. Initialize the class with markdown-it-py as the parser. Include constructor parameters for configuration options. Set up basic methods for parsing markdown content. Add proper error handling for initialization failures. Include necessary imports and documentation.
 
-## 2. Implement frontmatter extraction functionality [pending]
+<info added on 2025-05-04T03:00:45.875Z>
+# Implementation Plan (Subtask 6.1) - TDD Approach
+
+## Goal:
+Create the skeleton for the `MarkdownProcessor` class, integrating `markdown-it-py` for basic AST generation.
+
+## Files & Dependencies:
+- **Create:** `src/processing/markdown_processor.py`
+- **Create (if needed):** `src/processing/__init__.py`
+- **Create:** `tests/processing/test_markdown_processor.py`
+- **Create (if needed):** `tests/processing/__init__.py`
+- **Verify/Add Dependency:** `markdown-it-py>=2.2.0` in `requirements.txt`.
+
+## TDD Steps:
+
+1.  **Test Setup (`test_markdown_processor.py`):**
+    *   Import `pytest`, `MarkdownProcessor` (from `src.processing.markdown_processor`), `MarkdownIt`.
+    *   Create basic test class `TestMarkdownProcessor`.
+
+2.  **Test 1: Initialization (`test_initialization`):**
+    *   Instantiate `processor = MarkdownProcessor()`.
+    *   Assert `isinstance(processor, MarkdownProcessor)`.
+    *   Assert `isinstance(processor.md, MarkdownIt)`.
+
+3.  **Test 2: Basic Parsing (`test_basic_parsing_returns_ast`):**
+    *   `markdown_text = "# Heading\n\nParagraph."`
+    *   `processor = MarkdownProcessor()`
+    *   `ast = processor.parse(markdown_text)`
+    *   Assert `isinstance(ast, list)`.
+    *   Assert `len(ast) > 0`.
+    *   (Optional) Assert specific token types exist (e.g., `heading_open`, `paragraph_open`).
+
+4.  **Test 3: Empty Input (`test_parse_empty_string`):**
+    *   `processor = MarkdownProcessor()`
+    *   `ast = processor.parse("")`
+    *   Assert `isinstance(ast, list)`.
+    *   Assert `len(ast) == 0`.
+
+5.  **Test 4: None Input (`test_parse_none_input`):**
+    *   `processor = MarkdownProcessor()`
+    *   Use `pytest.raises(TypeError):`
+        *   `processor.parse(None)`
+
+6.  **Implementation (`src/processing/markdown_processor.py`):**
+    *   Add imports: `MarkdownIt` from `markdown_it`, `Optional`, `List`, `Dict`, `Any` from `typing`, `logging`.
+    *   Define `MarkdownProcessor` class.
+    *   `__init__(self, config: Optional[Dict[str, Any]] = None)`:
+        *   `self.md = MarkdownIt()`
+        *   `self.config = config or {}`
+        *   `self.logger = logging.getLogger(__name__)`
+        *   `self.logger.info("MarkdownProcessor initialized.")`
+    *   `parse(self, text: Optional[str]) -> List[Dict[str, Any]]`:
+        *   `if text is None:`
+            *   `self.logger.error("Input text cannot be None")`
+            *   `raise TypeError("Input text cannot be None")`
+        *   `if not text:`
+            *   `return []`
+        *   `try:`
+            *   `tokens = self.md.parse(text)`
+            *   `self.logger.debug(f"Successfully parsed text into {len(tokens)} tokens.")`
+            *   `return tokens`
+        *   `except Exception as e:`
+            *   `self.logger.exception(f"Error parsing Markdown text: {e}")`
+            *   `raise # Re-raise after logging`
+    *   Add module/class/method docstrings and type hints.
+
+## Next Steps:
+- Verify plan logging.
+- Set status to `in-progress`.
+- Implement tests and code.
+</info added on 2025-05-04T03:00:45.875Z>
+
+## 2. Implement frontmatter extraction functionality [done]
 ### Dependencies: 6.1
 ### Description: Add methods to detect, parse and separate YAML frontmatter from the main Markdown content
 ### Details:
@@ -81,6 +153,78 @@ def extract_frontmatter(content):
 
 Consider adding a custom exception class `FrontmatterError` to provide detailed error information when YAML parsing fails. The implementation should handle both standard triple-dash delimiters and potentially other formats (like `+++` for TOML).
 </info added on 2025-05-04T01:32:56.104Z>
+
+<info added on 2025-05-04T03:04:12.439Z>
+# Implementation Plan (Subtask 6.2) - TDD Approach
+
+## Goal:
+Add a method to `MarkdownProcessor` to extract YAML frontmatter (between `---` delimiters) from markdown text, separating it from the content. Use `PyYAML`.
+
+## Files & Dependencies:
+- **Modify:** `src/processing/markdown_processor.py`
+- **Modify:** `tests/processing/test_markdown_processor.py`
+- **Add Dependency:** `PyYAML>=6.0` (Done)
+
+## TDD Steps (`tests/processing/test_markdown_processor.py`):
+
+1.  **Imports:** Add `import yaml`.
+2.  **Add Test Methods to `TestMarkdownProcessor`:**
+    *   `test_extract_frontmatter_valid`:
+        *   Input: `"---\ntitle: Test\nauthor: Me\n---\n# Content"`
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({'title': 'Test', 'author': 'Me'}, '# Content')` (or similar, content might have leading/trailing whitespace stripped).
+    *   `test_extract_frontmatter_no_frontmatter`:
+        *   Input: `"# Content Only"`
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({}, '# Content Only')`.
+    *   `test_extract_frontmatter_malformed_yaml`:
+        *   Input: `"---\ntitle: Test: Colon Error\n---\nContent"`
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({}, input)` (original text because parsing failed).
+        *   (Optional: Check logs for a warning).
+    *   `test_extract_frontmatter_empty_block`:
+        *   Input: `"---\n---\nContent"`
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({}, 'Content')`.
+    *   `test_extract_frontmatter_no_close_delimiter`:
+        *   Input: `"---\ntitle: No Close\nActual Content"`
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({}, input)`.
+    *   `test_extract_frontmatter_not_a_dict`:
+        *   Input: `"---\n- item1\n- item2\n---\nContent"` (Valid YAML, but not a dict)
+        *   Call `processor.extract_frontmatter(input)`.
+        *   Assert returns `({}, input)`. (As frontmatter should be a dictionary).
+
+## Implementation (`src/processing/markdown_processor.py`):
+
+1.  **Imports:** Add `import re`, `import yaml`, `from typing import Tuple`.
+2.  **Add Method `extract_frontmatter(self, text: str) -> Tuple[Dict[str, Any], str]`:**
+    *   Use regex `pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'` with `re.DOTALL | re.MULTILINE`.
+    *   `match = re.match(pattern, text)`
+    *   `if not match:`
+        *   `return {}, text`
+    *   `yaml_part = match.group(1).strip()`
+    *   `content_part = match.group(2).strip()`
+    *   `if not yaml_part:` # Handle empty block
+        *   `return {}, content_part`
+    *   `try:`
+        *   `frontmatter = yaml.safe_load(yaml_part)`
+        *   `if isinstance(frontmatter, dict):`
+            *   `self.logger.debug("Successfully extracted frontmatter.")`
+            *   `return frontmatter, content_part`
+        *   `else:`
+            *   `self.logger.warning(f"Parsed frontmatter is not a dictionary (type: {type(frontmatter)}). Treating as no frontmatter.")`
+            *   `return {}, text # Return original text if frontmatter isn't a dict`
+    *   `except yaml.YAMLError as e:`
+        *   `self.logger.warning(f"Could not parse YAML frontmatter: {e}")`
+        *   `return {}, text # Return original text on YAML error`
+3.  Add docstrings and type hints.
+
+## Next Steps:
+- Verify plan logging.
+- Set status to `in-progress`.
+- Implement tests and code.
+</info added on 2025-05-04T03:04:12.439Z>
 
 ## 3. Develop AST generation from Markdown content [pending]
 ### Dependencies: 6.1
