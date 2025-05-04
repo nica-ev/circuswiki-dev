@@ -3,12 +3,12 @@
 # Status: pending
 # Dependencies: 6
 # Priority: high
-# Description: Create functionality to extract text segments suitable for translation from the Markdown AST using Test-Driven Development (TDD) approach.
+# Description: Create functionality to extract translatable text segments from Markdown content, including complex inline syntax like WikiLinks, Obsidian attributes, and potentially HTML, using a TDD approach. This involves parsing the AST and potentially implementing a secondary inline parser.
 # Details:
-Extend MarkdownProcessor to identify and extract text from paragraphs, lists, table cells, headers, emphasis, link text, and image alt text. Create a data structure to map extracted text segments to their original locations in the AST. Preserve non-translatable elements like code blocks, inline code, and URLs. Follow Test-Driven Development principles by writing tests before implementing each feature to ensure correct behavior and comprehensive test coverage.
+Extend MarkdownProcessor or implement a secondary parsing stage to handle complex inline sequences within blocks (paragraphs, lists, etc.). Identify and extract only translatable text from: paragraphs, lists, table cells, headers, emphasis, standard link text, image alt text, WikiLink aliases (`[[target|alias]]`), and potentially content within specified HTML tags. Create a robust data structure mapping extracted segments to their precise original locations (including within inline sequences) for accurate reassembly. Preserve all non-translatable elements: code blocks, inline code, URLs, WikiLink targets (`[[target]]`), Obsidian attributes (`{ .some-attr }`), HTML tags (unless configured for translation), and other non-text syntax. Follow TDD principles rigorously, especially for parsing inline sequences and reassembly.
 
 # Test Strategy:
-Following TDD principles, write tests first for each component before implementation. Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate.
+Following TDD principles, write tests first for each component before implementation. Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate. Add emphasis on testing complex inline sequences: Process Markdown files containing mixed text, WikiLinks, attributes, inline code, standard links/images, and HTML. Verify correct extraction of only translatable parts (e.g., WikiLink alias, text nodes) and accurate preservation of all non-translatable syntax. Verify the mapping enables perfect reconstruction after simulated translation.
 
 # Subtasks:
 ## 1. Define text segment data structure [pending]
@@ -17,11 +17,31 @@ Following TDD principles, write tests first for each component before implementa
 ### Details:
 Using TDD, first write tests for the TextSegment class/interface that contains: 1) the extracted text content, 2) a reference to the original AST node, 3) metadata about the segment type (paragraph, heading, list item, etc.), 4) position information for reassembly. Then implement the class to pass the tests. Similarly, test-drive the implementation of a TranslationMap class to store and manage collections of TextSegments with methods to add, retrieve, and manipulate segments.
 
+<info added on 2025-05-04T03:37:30.837Z>
+The reference/position information must be highly granular to support accurate reassembly of complex inline sequences (mixed text, links, code, attributes). Consider using character offsets, node paths within inline parses, or unique segment IDs tied to a detailed parse tree. For inline elements, implement a nested segment approach where parent segments contain references to child segments with precise boundary information. Use a combination of absolute document position and relative node position to handle cases where the same text appears multiple times. Consider implementing a "breadcrumb trail" of node types and indices to ensure exact placement during reassembly, especially for nested inline formatting like `**bold _italic_ text**` where order matters. Test with complex cases involving nested formatting, links with formatted text, and code blocks with annotations.
+</info added on 2025-05-04T03:37:30.837Z>
+
 ## 2. Implement AST visitor pattern [pending]
 ### Dependencies: 7.1
 ### Description: Create a visitor pattern implementation to traverse the Markdown AST
 ### Details:
 Following TDD principles, write tests first for a MarkdownAstVisitor class that can traverse all node types in the Markdown AST. This should follow the visitor design pattern with methods like visitParagraph(), visitHeading(), visitList(), etc. The visitor should maintain context during traversal (like nesting level) and provide hooks for processing different node types. Implement the visitor to pass the tests. This will serve as the foundation for text extraction in the next steps.
+
+<info added on 2025-05-04T03:38:43.613Z>
+The visitor should integrate with the Granular Inline Parser (Subtask 7.12) when processing block-level nodes that contain inline content. Specifically:
+
+1. For nodes like paragraphs, list items, table cells, and blockquotes, the visitor should delegate inline content processing to the Granular Inline Parser.
+
+2. Implement a method like `processInlineContent(String content)` that utilizes the inline parser to generate a token stream of inline elements (emphasis, links, code spans, etc.).
+
+3. The visitor should maintain a stack-based context that tracks not only nesting level but also the current inline parsing state when traversing mixed content.
+
+4. Add callback hooks that allow consumers to intercept both block-level nodes and the fine-grained inline tokens.
+
+5. Consider implementing a composite pattern where block visitors can contain inline visitors, allowing for specialized processing at different structural levels.
+
+This approach ensures consistent handling of complex inline formatting across all block contexts and provides maximum flexibility for downstream processors.
+</info added on 2025-05-04T03:38:43.613Z>
 
 ## 3. Extract text from block elements [pending]
 ### Dependencies: 7.1, 7.2
@@ -35,6 +55,21 @@ Using TDD, write tests first for extracting text from block-level elements inclu
 ### Details:
 Following TDD, write tests first for extracting text from inline elements including: emphasis (bold/italic), links (extract link text but not URLs), image alt text, and other inline formatting. Then implement the functionality to pass these tests. Create appropriate TextSegment instances for these elements, maintaining their relationship to parent block elements. Ensure inline code spans are preserved and not extracted for translation.
 
+<info added on 2025-05-04T03:38:54.851Z>
+For this subtask, I'll add information about processing the Granular Inline Parser output and handling WikiLink aliases:
+
+The implementation should now consume the structured output from the Granular Inline Parser (7.12) rather than parsing inline elements directly. Create a mapping system that tracks the relationship between original inline elements and their extracted TextSegment instances to facilitate accurate reassembly later.
+
+When processing inline elements:
+- For WikiLink aliases (e.g., `[[Page|Displayed Text]]`), extract only the display text portion ("Displayed Text") as translatable
+- Maintain metadata about each inline element's type and position in the document structure
+- Implement special handling for nested inline elements (e.g., bold text within links)
+- Create a clear separation between translatable content and non-translatable syntax elements like Obsidian-specific attributes
+- Design the extraction to be reversible, ensuring translated content can be correctly reinserted into the original inline structure
+
+Update dependencies to include subtask 7.12 (Granular Inline Parser) as this subtask now processes its output rather than performing its own parsing.
+</info added on 2025-05-04T03:38:54.851Z>
+
 ## 5. Implement table content extraction [pending]
 ### Dependencies: 7.1, 7.2
 ### Description: Add support for extracting text from table headers and cells
@@ -46,4 +81,60 @@ Using TDD, write tests first for extracting text from tables, including both hea
 ### Description: Implement functionality to replace translated text back into the original AST
 ### Details:
 Following TDD principles, write tests first for reassembling translated content back into the original document. Then implement methods in the MarkdownProcessor to take translated TextSegments and update the original AST with the translated content. Implement a reassembly algorithm that uses the stored node references and position information to correctly place translated text while preserving all non-translatable elements and document structure. Add validation to ensure all segments are accounted for and the document structure remains intact.
+
+<info added on 2025-05-04T03:39:04.859Z>
+The reassembly process must accurately reconstruct complex inline sequences by leveraging the detailed mapping created in task 7.1 and the structured output from the Granular Inline Parser (7.12). When reassembling, the algorithm should:
+
+1. Use position markers and node references to precisely interleave translated text segments with preserved non-translatable syntax elements
+2. Maintain the integrity of inline code blocks, WikiLink targets, HTML tag attributes, URLs, and other elements identified as non-translatable in task 7.13
+3. Implement a verification step that confirms all inline elements are correctly positioned relative to each other after reassembly
+4. Handle nested structures (like formatting within links, or links within formatting) by respecting the hierarchy established in the original AST
+5. Preserve whitespace patterns between inline elements to maintain document formatting
+
+Consider implementing a two-phase reassembly approach: first reconstruct inline sequences at the leaf nodes, then rebuild the document hierarchy from bottom up. This ensures complex inline formatting is preserved while maintaining the overall document structure.
+
+Dependencies should be updated to include tasks 7.12 and 7.13, as the reassembly logic depends on both the granular parsing of inline content and the non-translatable element preservation strategy.
+</info added on 2025-05-04T03:39:04.859Z>
+
+## 7. Implement WikiLink extraction [pending]
+### Dependencies: 7.1, 7.2, 7.4
+### Description: Add support for extracting translatable text from WikiLinks
+### Details:
+Using TDD, write tests first for identifying and extracting translatable text from WikiLinks (e.g., the alias portion in `[[target|alias]]`). Implement a parser or extend the existing inline parser to correctly identify WikiLink components. Create TextSegment instances for the translatable portions (aliases) while preserving the non-translatable targets. Ensure the mapping maintains the relationship between extracted text and its precise location within the WikiLink syntax for accurate reassembly.
+
+## 8. Implement Obsidian attributes handling [pending]
+### Dependencies: 7.1, 7.2, 7.4
+### Description: Add support for preserving Obsidian attributes during extraction
+### Details:
+Following TDD principles, write tests first for correctly identifying and preserving Obsidian attributes (e.g., `{ .some-attr }`) during text extraction. Implement functionality to recognize these attributes as non-translatable elements and ensure they are properly preserved during both extraction and reassembly processes. Update the visitor or parser to handle these special syntax elements.
+
+## 9. Implement HTML content extraction [pending]
+### Dependencies: 7.1, 7.2, 7.4
+### Description: Add support for handling HTML tags and extracting translatable content from within specified tags
+### Details:
+Using TDD, write tests first for identifying HTML tags within Markdown content and extracting translatable text from within specified tags. Implement functionality to parse HTML content, determine which parts should be translated based on configuration, and create appropriate TextSegment instances. Ensure HTML tags themselves are preserved as non-translatable elements. Add configuration options to specify which HTML tags should have their content extracted for translation.
+
+## 10. Enhance inline sequence parsing [pending]
+### Dependencies: 7.1, 7.2, 7.4, 7.7, 7.8, 7.9
+### Description: Implement a secondary inline parser for complex mixed content
+### Details:
+Following TDD principles, write tests first for handling complex mixed inline sequences containing combinations of regular text, WikiLinks, attributes, HTML, and standard Markdown formatting. Implement a secondary parsing stage that can accurately identify and extract only the translatable portions while maintaining precise position information. Ensure the parser can handle nested structures and edge cases. Update the mapping data structure to accommodate these complex inline sequences for perfect reassembly.
+
+## 11. Update reassembly for complex inline sequences [pending]
+### Dependencies: 7.6, 7.7, 7.8, 7.9, 7.10
+### Description: Enhance the reassembly functionality to handle complex inline sequences
+### Details:
+Using TDD, write tests first for reassembling translated content back into complex inline sequences. Extend the existing reassembly functionality to handle the more complex mapping created for WikiLinks, Obsidian attributes, HTML content, and mixed inline sequences. Implement algorithms that can precisely reconstruct these elements with translated content while preserving all non-translatable syntax. Add validation to ensure perfect reconstruction of the original format with only the translatable text replaced.
+
+## 12. Implement Granular Inline Parser [pending]
+### Dependencies: 7.1
+### Description: Develop a secondary parser specifically for inline content within blocks (paragraphs, list items, etc.).
+### Details:
+Using TDD, implement a parser that tokenizes inline content into distinct units: plain text, standard Markdown (bold, italic), inline code, standard links, images, WikiLinks (target and alias), Obsidian attributes (`{...}`). It should handle nested structures and produce a detailed token stream or mini-AST for each inline sequence, preserving non-translatable syntax precisely. This parser will be used by the main AST visitor.
+
+## 13. Define and Implement HTML Handling Strategy [pending]
+### Dependencies: 7.1
+### Description: Define and implement the strategy for handling raw HTML tags within Markdown content.
+### Details:
+Decide on the HTML handling strategy (e.g., ignore all HTML, translate content of specific tags, preserve all HTML). Implement the chosen strategy within the text extraction and reassembly logic. If extracting content, ensure the mapping correctly identifies text originating from HTML. Add configuration options if the strategy needs to be user-adjustable. Use TDD.
 
