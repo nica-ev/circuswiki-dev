@@ -50,4 +50,8 @@ alwaysApply: true
   - Keep descriptions concise
   - Include both DO and DON'T examples
   - Reference actual code over theoretical examples
-  - Use consistent formatting across rules 
+  - Use consistent formatting across rules
+
+  **Tool Calls:**
+  - Always use absolute paths in tool calls.
+  - Always provide absolute paths for tool calls if they need paths as argument
