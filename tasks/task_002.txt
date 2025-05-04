@@ -11,11 +11,84 @@ Implement a ConfigLoader class that reads settings.txt for INPUT_DIR, OUTPUT_DIR
 Create test configuration files with valid and invalid settings. Verify ConfigLoader correctly loads settings, validates required fields, and raises appropriate exceptions for invalid configurations.
 
 # Subtasks:
-## 1. Create ConfigLoader class skeleton with file path handling [pending]
+## 1. Create ConfigLoader class skeleton with file path handling [done]
 ### Dependencies: None
 ### Description: Set up the basic structure of the ConfigLoader class with initialization and file path handling for both configuration files.
 ### Details:
 Create a new file `config_loader.py` with a ConfigLoader class. Implement the `__init__` method that accepts optional paths to settings.txt and translate.env files (with defaults). Add methods to validate file existence and readability. Include basic exception handling for file access issues and implement logging setup.
+
+<info added on 2025-05-04T00:52:33.012Z>
+```python
+# Implementation details for config_loader.py
+
+import os
+import logging
+from pathlib import Path
+from typing import Optional, Dict, Any
+
+class ConfigError(Exception):
+    """Base exception for configuration errors."""
+    pass
+
+class ConfigFileNotFoundError(ConfigError):
+    """Raised when a configuration file cannot be found."""
+    pass
+
+class ConfigFileNotReadableError(ConfigError):
+    """Raised when a configuration file exists but cannot be read."""
+    pass
+
+class ConfigLoader:
+    def __init__(self, settings_path: Optional[str] = None, env_path: Optional[str] = None):
+        # Get the directory where this script is located
+        base_dir = Path(__file__).parent.parent
+        
+        # Set default paths relative to the project root
+        self.settings_file = Path(settings_path or base_dir / "config" / "settings.txt").resolve()
+        self.env_file = Path(env_path or base_dir / "config" / "translate.env").resolve()
+        
+        # Initialize empty configuration dictionaries
+        self.settings: Dict[str, Any] = {}
+        self.env_vars: Dict[str, str] = {}
+        
+        # Set up logging
+        self.logger = logging.getLogger(__name__)
+        
+        # Validate configuration files
+        try:
+            self._validate_file(self.settings_file)
+            self._validate_file(self.env_file)
+            self.logger.info(f"Configuration files validated successfully")
+        except ConfigError as e:
+            self.logger.error(f"Configuration error: {str(e)}")
+            raise
+    
+    def _validate_file(self, file_path: Path) -> None:
+        """
+        Validate that a configuration file exists and is readable.
+        
+        Args:
+            file_path: Path to the configuration file
+            
+        Raises:
+            ConfigFileNotFoundError: If the file doesn't exist
+            ConfigFileNotReadableError: If the file exists but can't be read
+        """
+        self.logger.debug(f"Validating configuration file: {file_path}")
+        
+        if not file_path.exists():
+            self.logger.error(f"Configuration file not found: {file_path}")
+            raise ConfigFileNotFoundError(f"Configuration file not found: {file_path}")
+        
+        if not file_path.is_file():
+            self.logger.error(f"Path exists but is not a file: {file_path}")
+            raise ConfigFileNotFoundError(f"Path exists but is not a file: {file_path}")
+        
+        if not os.access(file_path, os.R_OK):
+            self.logger.error(f"Configuration file not readable: {file_path}")
+            raise ConfigFileNotReadableError(f"Configuration file not readable: {file_path}")
+```
+</info added on 2025-05-04T00:52:33.012Z>
 
 ## 2. Implement settings.txt parser [pending]
 ### Dependencies: 2.1
