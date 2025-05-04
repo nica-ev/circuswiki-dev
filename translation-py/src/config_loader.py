@@ -44,8 +44,8 @@ class ConfigFileNotReadableError(ConfigError):
     """Raised when a configuration file exists but cannot be read."""
     pass
 
-class ConfigValidationError(ConfigError):
-    """Raised when configuration validation fails."""
+class ConfigValidationError(Exception):
+    """Exception raised for configuration validation errors."""
     pass
 
 class ConfigLoader:

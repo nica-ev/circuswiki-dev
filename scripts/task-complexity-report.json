@@ -1,123 +1,67 @@
 {
   "meta": {
-    "generatedAt": "2025-05-04T03:53:10.828Z",
-    "tasksAnalyzed": 14,
+    "generatedAt": "2025-05-04T20:01:33.141Z",
+    "tasksAnalyzed": 7,
     "thresholdScore": 5,
     "projectName": "Your Project Name",
-    "usedResearch": false
+    "usedResearch": true
   },
   "complexityAnalysis": [
-    {
-      "taskId": 7,
-      "taskTitle": "Implement translatable text extraction",
-      "complexityScore": 9,
-      "recommendedSubtasks": 7,
-      "expansionPrompt": "Break down the implementation of translatable text extraction from Markdown content into specific subtasks, including AST parsing, handling of complex inline syntax (WikiLinks, attributes, HTML), creating a mapping data structure, and implementing TDD tests for each component.",
-      "reasoning": "This task involves complex parsing logic for Markdown with special syntax, requiring deep understanding of AST structures and inline parsing. The need to preserve precise location information while handling nested structures adds significant complexity. The TDD approach also requires careful test design."
-    },
-    {
-      "taskId": 8,
-      "taskTitle": "Implement TranslationService with DeepL integration",
-      "complexityScore": 6,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of the TranslationService with DeepL integration into specific subtasks, including API client creation, configuration management, response handling, error handling, and retry mechanisms.",
-      "reasoning": "This task involves external API integration with DeepL, requiring proper error handling, retry logic, and configuration management. While the core functionality is straightforward, robust error handling and support for multiple languages increases complexity."
-    },
-    {
-      "taskId": 9,
-      "taskTitle": "Implement test mode for TranslationService",
-      "complexityScore": 3,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the implementation of test mode for TranslationService into specific subtasks, including configuration flag handling, mock translation logic, logging enhancements, and test coverage.",
-      "reasoning": "This is a relatively simple feature that extends the TranslationService with a test mode flag. The main complexity comes from ensuring the same processing flow is maintained regardless of mode and implementing proper logging."
-    },
-    {
-      "taskId": 10,
-      "taskTitle": "Implement Markdown reconstruction from translated segments",
-      "complexityScore": 8,
-      "recommendedSubtasks": 6,
-      "expansionPrompt": "Break down the implementation of Markdown reconstruction from translated segments into specific subtasks, including AST modification, segment replacement logic, preservation of non-translated elements, handling of special syntax, and comprehensive testing.",
-      "reasoning": "This task requires careful manipulation of the AST to replace text segments while preserving all formatting and special elements. The complexity comes from ensuring all nested structures are correctly maintained and reconstructed, especially with inline elements."
-    },
-    {
-      "taskId": 11,
-      "taskTitle": "Implement output file generation",
-      "complexityScore": 5,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of output file generation into specific subtasks, including path construction, directory creation, YAML frontmatter generation, file writing with error handling, and testing for various scenarios.",
-      "reasoning": "This task involves file system operations and YAML manipulation. The complexity comes from ensuring proper directory structures, generating correct frontmatter with translated fields, and handling potential file system errors."
-    },
-    {
-      "taskId": 12,
-      "taskTitle": "Implement source file hash update",
-      "complexityScore": 5,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the implementation of source file hash updates into specific subtasks, including safe file reading/writing mechanisms, frontmatter modification, error handling for file operations, and testing for edge cases.",
-      "reasoning": "This task requires careful file manipulation to avoid data loss when updating source files. The complexity involves safely reading, modifying, and writing files with proper error handling and recovery options."
-    },
-    {
-      "taskId": 13,
-      "taskTitle": "Implement YAML field translation",
-      "complexityScore": 6,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of YAML field translation into specific subtasks, including field identification based on configuration, text extraction from YAML, mapping structure extension, translation service integration, and testing with various YAML structures.",
-      "reasoning": "This task extends the translation system to handle YAML frontmatter fields. The complexity comes from identifying translatable fields, extracting their content, and integrating with the existing translation pipeline while maintaining proper mapping information."
-    },
-    {
-      "taskId": 14,
-      "taskTitle": "Implement change detection logic",
-      "complexityScore": 5,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the implementation of change detection logic into specific subtasks, including hash comparison algorithms, decision tree implementation, logging enhancements, and comprehensive testing for all decision paths.",
-      "reasoning": "This task involves implementing decision logic based on hash comparisons. The complexity comes from handling different scenarios (full translation, YAML-only update, or skip) and ensuring correct decisions are made with appropriate logging."
-    },
     {
       "taskId": 15,
       "taskTitle": "Implement YAML-only update for existing translated files",
       "complexityScore": 6,
       "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of YAML-only updates into specific subtasks, including file reading with preservation of body content, YAML frontmatter extraction and modification, safe file writing, error handling, and testing for various scenarios.",
-      "reasoning": "This task requires careful handling of existing translated files to update only their frontmatter. The complexity involves parsing files to separate frontmatter from content, updating specific fields, and rewriting files while preserving the body content."
+      "expansionPrompt": "Break down the process of updating only the YAML frontmatter of existing translated files into subtasks, including reading files, parsing and validating YAML, updating fields, preserving body content, and handling file rewrite operations with error handling.",
+      "reasoning": "This task involves precise file manipulation: reading, parsing, and updating only the YAML frontmatter while ensuring the body remains unchanged. Challenges include handling various YAML schemas, preserving formatting, and ensuring atomic file writes. Best practices for YAML frontmatter and batch updates should be followed to avoid data loss or corruption[1][2][5]."
     },
     {
       "taskId": 16,
       "taskTitle": "Implement support for WikiLinks syntax",
-      "complexityScore": 7,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of WikiLinks syntax support into specific subtasks, including pattern recognition, parsing logic for different WikiLink formats, selective translation of aliases, AST traversal modifications, and comprehensive testing.",
-      "reasoning": "This task involves extending the parser to handle specialized Obsidian WikiLinks syntax. The complexity comes from correctly identifying and parsing these patterns, especially distinguishing between targets and aliases, and integrating with the existing AST traversal logic."
+      "complexityScore": 5,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "List the steps required to add WikiLinks syntax support to the MarkdownProcessor, including pattern recognition, AST traversal updates, selective translation of Alias, and thorough testing for edge cases.",
+      "reasoning": "Adding WikiLinks support is moderately complex, requiring regex or parser updates to detect patterns, AST logic changes, and careful handling to translate only the Alias portion. The scope is limited to Markdown parsing and text extraction, but edge cases and integration with translation logic add some complexity."
     },
     {
       "taskId": 17,
       "taskTitle": "Implement comprehensive error handling",
-      "complexityScore": 7,
+      "complexityScore": 8,
       "recommendedSubtasks": 6,
-      "expansionPrompt": "Break down the implementation of comprehensive error handling into specific subtasks, including error categorization, handling strategies for different error types, recovery mechanisms, consistent reporting system, and testing for error scenarios.",
-      "reasoning": "This task requires a system-wide approach to error handling across multiple components. The complexity comes from identifying all potential error points, implementing appropriate handling strategies, and creating recovery options to maintain application resilience."
+      "expansionPrompt": "Identify and break down all major error sources in the application (configuration, file access, parsing, API, writing), and define subtasks for implementing detection, handling, reporting, and recovery strategies for each.",
+      "reasoning": "Comprehensive error handling is critical and complex, as it requires a systematic review of all components, consistent reporting, and robust recovery mechanisms. It must address diverse failure modes, ensure graceful degradation, and maintain application stability across the workflow."
     },
     {
       "taskId": 18,
       "taskTitle": "Implement detailed logging",
-      "complexityScore": 4,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the implementation of detailed logging into specific subtasks, including logging configuration, log level management, strategic log point identification across components, and testing of logging output.",
-      "reasoning": "This task involves adding comprehensive logging throughout the application. While conceptually straightforward, the challenge is in identifying appropriate logging points and ensuring logs provide useful information for debugging and monitoring without being excessive."
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Outline the steps to implement detailed logging, including log event identification, integration with Python's logging module, configuration options, log formatting, and ensuring logs are actionable for debugging and monitoring.",
+      "reasoning": "While logging is a standard practice, implementing detailed, configurable, and actionable logs across all components requires careful planning. Ensuring logs are informative, non-redundant, and useful for both debugging and monitoring adds moderate complexity."
     },
     {
       "taskId": 19,
       "taskTitle": "Implement extensible translation provider system",
-      "complexityScore": 6,
+      "complexityScore": 7,
       "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the implementation of an extensible translation provider system into specific subtasks, including interface/abstract class design, provider factory implementation, DeepL provider refactoring, configuration integration, and testing with mock providers.",
-      "reasoning": "This task involves refactoring the translation service to use a provider pattern. The complexity comes from designing a flexible interface that can accommodate different translation services while maintaining the existing functionality and ensuring easy extensibility."
+      "expansionPrompt": "Break down the steps to refactor TranslationService for extensibility, including designing an abstract provider interface, implementing the initial DeepL provider, creating a provider factory, and ensuring future providers can be added easily.",
+      "reasoning": "Designing for extensibility requires careful abstraction and interface design. Implementing the provider pattern, ensuring backward compatibility, and supporting future integration of new providers increases architectural complexity."
     },
     {
       "taskId": 20,
       "taskTitle": "Implement main application workflow",
-      "complexityScore": 8,
+      "complexityScore": 9,
       "recommendedSubtasks": 7,
-      "expansionPrompt": "Break down the implementation of the main application workflow into specific subtasks, including component orchestration, file processing pipeline, progress reporting, CLI interface design, configuration loading, error handling integration, and end-to-end testing.",
-      "reasoning": "This task ties together all components into a cohesive application workflow. The complexity comes from orchestrating multiple components, managing the processing pipeline for each file, handling errors appropriately, and providing meaningful progress information and statistics."
+      "expansionPrompt": "List the major workflow steps and orchestrations needed for the main application, including configuration loading, directory scanning, file processing, translation orchestration, progress reporting, summary statistics, and CLI interface design.",
+      "reasoning": "This is the core orchestration task, integrating all components and managing the end-to-end workflow. It requires robust coordination, error handling, progress tracking, and a user-friendly CLI, making it the most complex and critical part of the system."
+    },
+    {
+      "taskId": 21,
+      "taskTitle": "Implement Robust HTML Parsing and Reassembly in MarkdownProcessor",
+      "complexityScore": 8,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the implementation of robust HTML parsing and reassembly into subtasks, covering parser integration, tag/attribute configuration, text extraction, reassembly logic, error handling, and logging.",
+      "reasoning": "Properly parsing and reconstructing HTML within Markdown is challenging due to the need for accurate extraction, preservation of structure, handling of malformed HTML, and configurability. Ensuring robustness and extensibility adds to the complexity."
     }
   ]
 }

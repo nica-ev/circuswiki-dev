@@ -1,6 +1,6 @@
 # Task ID: 14
 # Title: Implement change detection logic
-# Status: pending
+# Status: done
 # Dependencies: 5, 12
 # Priority: high
 # Description: Create logic to determine if translation/update is needed based on hash comparison.
@@ -11,25 +11,25 @@ Implement logic to compare calculated hashes with stored hashes in source file f
 Create test scenarios for unchanged files, body content changes, and YAML-only changes. Verify the correct action is taken in each case. Confirm appropriate logging messages are generated.
 
 # Subtasks:
-## 1. Create hash comparison function [pending]
+## 1. Create hash comparison function [done]
 ### Dependencies: None
 ### Description: Implement a function that compares calculated content and YAML hashes with stored hashes from frontmatter
 ### Details:
 Create a function that takes calculated content_hash and yaml_hash as inputs along with the existing frontmatter data. The function should extract stored hashes from the frontmatter and perform comparison between new and stored hashes. Return a comparison result object with boolean flags indicating if content_hash changed, yaml_hash changed, or both match. Handle edge cases where hashes might not exist in frontmatter yet.
 
-## 2. Implement decision logic for translation actions [pending]
+## 2. Implement decision logic for translation actions [done]
 ### Dependencies: 14.1
 ### Description: Create a function that determines the required action based on hash comparison results
 ### Details:
 Build a function that takes the comparison result from subtask 1 and determines the appropriate action: 1) Full translation if content_hash changed, 2) YAML-only update if only yaml_hash changed, 3) Skip file if both hashes match. The function should return an action type enum/string and any relevant metadata needed for the next steps in the workflow. Include validation to ensure the comparison result contains all required data.
 
-## 3. Add logging for change detection decisions [pending]
+## 3. Add logging for change detection decisions [done]
 ### Dependencies: 14.2
 ### Description: Implement detailed logging for each decision path in the change detection logic
 ### Details:
 Enhance the decision logic function to include appropriate logging for each path: 1) Log when content has changed and full translation is needed, including the old and new hash values, 2) Log when only YAML data has changed and partial update is needed, 3) Log when file is skipped due to matching hashes, 4) Add debug logging for the comparison process itself. Use consistent log formatting and appropriate log levels (info for normal operation, debug for details, warn for potential issues).
 
-## 4. Integrate change detection with workflow [pending]
+## 4. Integrate change detection with workflow [done]
 ### Dependencies: 14.2, 14.3
 ### Description: Connect the change detection logic to the main translation workflow
 ### Details:

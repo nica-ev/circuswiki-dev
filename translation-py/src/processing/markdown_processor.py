@@ -3,7 +3,7 @@
 from typing import List, Tuple, Dict, Any, Optional, MutableMapping, Callable
 import markdown_it
 from markdown_it.token import Token
-from ..utils.types import TranslationMap, TextSegment # Uncommented import
+from ..utils.types import TranslationMap, TextSegment, SegmentType # Updated import
 import re # Add import for regex
 import copy # For deep copying tokens if needed
 import logging # Added logging
@@ -210,17 +210,24 @@ class MarkdownProcessor:
         # Final whitespace cleanup
         return re.sub(r'\s+', ' ', text).strip()
 
-    def extract_translatable_segments(self, markdown_content: str) -> TranslationMap:
+    def extract_translatable_segments(
+        self, 
+        markdown_content: str, 
+        frontmatter: Optional[Dict[str, Any]] = None
+    ) -> TranslationMap:
         """
-        Parses Markdown content and extracts translatable text segments.
-        Focus for Task 7.3: Paragraphs, Headings, List Items, Blockquotes.
+        Parses Markdown content and specified YAML frontmatter fields,
+        extracting translatable text segments.
 
         Args:
-            markdown_content: The Markdown string to process.
+            markdown_content: The Markdown string to process (without frontmatter).
+            frontmatter: The dictionary representing the parsed YAML frontmatter.
 
         Returns:
-            A TranslationMap object containing the extracted segments.
+            A TranslationMap object containing the extracted segments from both
+            Markdown body and specified YAML fields.
         """
+        self.logger.info("Starting translatable segment extraction...")
         tokens: List[Token] = self.md.parse(markdown_content)
         translation_map = TranslationMap()
         token_stack: List[Token] = []
@@ -229,11 +236,14 @@ class MarkdownProcessor:
         table_count = 0
         path_counts: Dict[str, int] = {}
 
+        # --- 1. Extract from Markdown Body --- 
+        self.logger.debug("Extracting segments from Markdown body...")
         while i < len(tokens):
             token = tokens[i]
 
             # --- Skip Code/HTML Blocks --- 
             if token.type in ['fence', 'code_block', 'html_block']:
+                self.logger.debug(f"Skipping non-translatable block: {token.type}")
                 i += 1
                 continue
             
@@ -247,61 +257,60 @@ class MarkdownProcessor:
                  if token.type == 'thead_open': table_context['in_header'] = True; table_context['row_index'] = 0 
                  elif token.type == 'tbody_open': table_context['in_header'] = False; table_context['row_index'] = 0 
                  elif token.type == 'tr_open': table_context['row_index'] += 1; table_context['cell_index'] = 0 
-                 elif token.type == 'th_open' or token.type == 'td_open': table_context['cell_index'] += 1; table_context['cell_type'] = token.tag
-            
-            # --- Process Translatable Blocks --- 
-            segment_text: Optional[str] = None
-            segment_type: Optional[str] = None
-            segment_path: Optional[str] = None
-            is_block_opening = token.type.endswith('_open')
-            is_block_closing = token.type.endswith('_close')
+                 elif token.type == 'th_open' or token.type == 'td_open': 
+                     table_context['cell_index'] += 1
+                     table_context['cell_tag'] = token.tag # Store td or th
+            # --- End Table Context --- 
 
-            if is_block_opening:
-                token_stack.append(token)
-                
-                # Check if this block start immediately contains inline content
-                if token.type in ['heading_open', 'paragraph_open', 'th_open', 'td_open', 'list_item_open', 'blockquote_open']:
-                    if i + 1 < len(tokens) and tokens[i+1].type == 'inline':
-                        inline_token = tokens[i+1]
-                        segment_text = self._extract_inline_text(inline_token.children or [])
-                        segment_text = re.sub(r'\s+', ' ', segment_text).strip()
-                        
-                        # Determine segment type based on the opening token
-                        if token.type == 'heading_open': segment_type = f'heading_{token.tag[1]}'
-                        elif token.type == 'th_open': segment_type = 'table_header_cell'
-                        elif token.type == 'td_open': segment_type = 'table_data_cell'
-                        elif token.type == 'paragraph_open':
-                            parent_token = token_stack[-2] if len(token_stack) > 1 else None
-                            if parent_token and parent_token.type == 'list_item_open': segment_type = 'paragraph_in_list' 
-                            elif parent_token and parent_token.type == 'blockquote_open': segment_type = 'paragraph_in_blockquote'
-                            else: segment_type = 'paragraph'
-                        elif token.type == 'list_item_open':
-                             # List items might have paragraph inside, handle paragraph_open instead?
-                             # For now, let's assume direct inline content in list items is possible but less common
-                             segment_type = 'list_item' # Or maybe skip direct list item content?
-                        elif token.type == 'blockquote_open':
-                             # Similar to list items, usually contains paragraph_open
-                             segment_type = 'blockquote' # Or maybe skip?
-
-                        # Generate path and add segment *immediately* after pushing the opening token
-                        if segment_text is not None and segment_type and segment_text:
-                            segment_path = get_element_path(token_stack, path_counts, table_context)
-                            translation_map.addSegment(TextSegment(segment_text, segment_type, segment_path))
-                            # print(f"DEBUG Extract: Added Segment - Path={segment_path}, Type={segment_type}, Text='{segment_text[:20]}...'")
-
-            elif is_block_closing:
-                # Pop matching opening tag from stack
-                if token_stack and token_stack[-1].type == token.type.replace('_close', '_open'):
+            # --- Manage Token Stack --- 
+            if 'close' in token.type and token_stack:
+                if token_stack[-1].type == token.type.replace('_close', '_open'):
                     token_stack.pop()
                 else:
-                    self.logger.warning(f"Mismatched closing tag: {token.type} vs stack top {token_stack[-1].type if token_stack else 'Empty'}")
-            
-            # Always advance by 1 with this simplified logic
-            i += 1
-            
-        if token_stack: # Check for unclosed tags at the end
-             self.logger.warning(f"Unclosed tags at end of parsing: {[t.type for t in token_stack]}")
+                    # Log potential mismatch but pop anyway for robustness?
+                    self.logger.warning(f"Token stack mismatch: Expected {token_stack[-1].type.replace('_open', '_close')}, got {token.type} at level {token.level}")
+                    if token_stack: token_stack.pop() # Pop cautiously
+            elif 'open' in token.type:
+                 token_stack.append(token)
+            # --- End Token Stack --- 
 
+            # --- Extract Text Content --- 
+            if token.type == 'inline' and token.content:
+                inline_text = self._extract_inline_text(token.children)
+                if inline_text:
+                    # Use a copy of the stack up to this point for path generation
+                    current_stack = token_stack[:] 
+                    # Add the inline token itself to represent the content container?
+                    # Maybe not, path should point to the *block* element holding it.
+                    path = get_element_path(current_stack, path_counts, table_context)
+                    segment = TextSegment(text=inline_text, type=SegmentType.MARKDOWN, path=path)
+                    translation_map.add_segment(segment)
+                    self.logger.debug(f"Extracted MD segment: Path='{path}', Text='{inline_text[:50]}...'")
+            
+            i += 1
+        
+        # --- 2. Extract from YAML Frontmatter --- 
+        self.logger.debug("Extracting segments from YAML frontmatter...")
+        yaml_fields_to_translate = self.config.get('YAML_TRANSLATE_FIELDS_LIST', [])
+        if frontmatter and yaml_fields_to_translate:
+            for field_name in yaml_fields_to_translate:
+                if field_name in frontmatter:
+                    field_value = frontmatter[field_name]
+                    # Only translate string fields for now
+                    if isinstance(field_value, str) and field_value.strip():
+                        # Define a path convention for YAML fields
+                        yaml_path = f"yaml > {field_name}"
+                        segment = TextSegment(text=field_value.strip(), type=SegmentType.YAML, path=yaml_path)
+                        translation_map.add_segment(segment)
+                        self.logger.debug(f"Extracted YAML segment: Path='{yaml_path}', Text='{field_value[:50]}...'")
+                    elif field_value: # Log if field exists but isn't a translatable string
+                        self.logger.debug(f"Skipping YAML field '{field_name}': Not a non-empty string (type: {type(field_value)})")
+                else:
+                     self.logger.debug(f"Skipping YAML field '{field_name}': Not found in frontmatter.")
+        else:
+             self.logger.debug("No YAML fields configured or no frontmatter provided.")
+
+        self.logger.info(f"Extraction complete. Found {len(translation_map.segments)} segments.")
         return translation_map
 
     def _find_token_by_path(self, tokens: List[Dict[str, Any]], path: str) -> Optional[Dict[str, Any]]:
