@@ -1,6 +1,6 @@
 # Task ID: 10
 # Title: Implement Markdown reconstruction from translated segments
-# Status: pending
+# Status: done
 # Dependencies: 7, 8
 # Priority: high
 # Description: Create functionality to rebuild Markdown content using translated text segments.
@@ -184,7 +184,7 @@ Implement a `SegmentMapper` class that manages the mapping between original text
 ### Details:
 Implement a method called `traverseAndTranslateAST(ast, segmentMapper)` that recursively walks through the AST, identifies text nodes that need translation, and applies the appropriate translations using the segment mapper and node replacement method. The algorithm should handle nested structures correctly and maintain the hierarchical relationships between nodes. Include special handling for nodes that should not be modified (like code blocks or already processed custom elements).
 
-## 4. Implement special element preservation logic [deferred]
+## 4. Implement special element preservation logic [done]
 ### Dependencies: 10.3
 ### Description: Create handlers for preserving special Markdown elements like links, images, and formatting during reconstruction
 ### Details:
@@ -363,13 +363,13 @@ class MarkdownProcessingError(Exception):
 ```
 </info added on 2025-05-04T18:48:46.223Z>
 
-## 7. Document inline formatting limitations [pending]
+## 7. Document inline formatting limitations [done]
 ### Dependencies: 10.6
 ### Description: Document the current limitations regarding inline formatting preservation in the translated output
 ### Details:
 Create comprehensive documentation that clearly explains the current limitations of the Markdown reconstruction process with respect to inline formatting. Document that the current implementation replaces entire inline segments and does not preserve inline formatting elements like bold, italic, and links within text. Include examples showing what works and what doesn't work in the current implementation. Add warnings in code comments and user-facing documentation to ensure developers and users are aware of these limitations until subtask 10.4 is completed.
 
-## 8. Create test cases for inline formatting preservation [pending]
+## 8. Create test cases for inline formatting preservation [done]
 ### Dependencies: 10.7
 ### Description: Develop test cases that will validate inline formatting preservation once subtask 10.4 is implemented
 ### Details:

@@ -106,40 +106,90 @@ class ConfigLoader:
         self._validate_settings()
 
     def _validate_settings(self):
-        """Validate essential settings after loading."""
-        # Example validation (add more as needed)
-        provider = self.settings.get('API_PROVIDER')
-        if not provider or not isinstance(provider, str):
-            self.logger.warning("API_PROVIDER setting is missing or not a string.")
-            # Decide if this is critical enough to raise an error
+        """Validates configuration parameters and raises ConfigValidationError if invalid."""
+        required_settings = ['INPUT_DIR', 'OUTPUT_DIR', 'TARGET_LANGUAGES', 'API_PROVIDER']
+        missing = [setting for setting in required_settings if not self.settings.get(setting)]
+        if missing:
+            raise ConfigValidationError(f"Missing required settings: {', '.join(missing)}")
 
-        langs = self.settings.get('TARGET_LANGUAGES_LIST')
-        if not isinstance(langs, list):
-            self.logger.warning("TARGET_LANGUAGES_LIST is missing or not a list. Setting to empty list.")
-            self.settings['TARGET_LANGUAGES_LIST'] = []
+        # Validate directories
+        for dir_setting in ['INPUT_DIR', 'OUTPUT_DIR']:
+            path = Path(self.settings[dir_setting]) # Ensure path is Path object
+            if not path.exists():
+                try:
+                    path.mkdir(parents=True, exist_ok=True) # Added exist_ok=True
+                    self.logger.info(f"Created directory: {path}")
+                except Exception as e:
+                    raise ConfigValidationError(f"Cannot create {dir_setting} directory: {path} - {str(e)}")
+            elif not path.is_dir(): # Check if it exists but is not a directory
+                 raise ConfigValidationError(f"{dir_setting} path exists but is not a directory: {path}")
 
-        test_mode = self.settings.get('TEST_MODE_BOOL')
-        if not isinstance(test_mode, bool):
-            self.logger.warning("TEST_MODE_BOOL is missing or not a boolean. Defaulting to False.")
-            self.settings['TEST_MODE_BOOL'] = False
+        # Validate target languages
+        target_langs = self.settings.get('TARGET_LANGUAGES')
+        if not isinstance(target_langs, list) or not target_langs:
+            raise ConfigValidationError("TARGET_LANGUAGES must be a non-empty list")
+        self.settings['TARGET_LANGUAGES_LIST'] = [str(lang).strip() for lang in target_langs] # Simplified assignment
 
-        # Validate Retry Settings
-        retry_attempts = self.settings.get('RETRY_MAX_ATTEMPTS')
-        if not isinstance(retry_attempts, int) or retry_attempts < 0:
-            self.logger.warning("RETRY_MAX_ATTEMPTS is missing or invalid. Defaulting to 3.")
-            self.settings['RETRY_MAX_ATTEMPTS'] = 3
-        
-        retry_backoff = self.settings.get('RETRY_BACKOFF_FACTOR')
-        if not isinstance(retry_backoff, (int, float)) or retry_backoff < 0:
-            self.logger.warning("RETRY_BACKOFF_FACTOR is missing or invalid. Defaulting to 0.5.")
-            self.settings['RETRY_BACKOFF_FACTOR'] = 0.5
+        # Validate API provider
+        allowed_providers = ['DeepL', 'Google', 'Azure']
+        if self.settings.get('API_PROVIDER') not in allowed_providers:
+            raise ConfigValidationError(
+                f"API_PROVIDER must be one of: {', '.join(allowed_providers)}"
+            )
 
-        retry_codes = self.settings.get('RETRY_STATUS_CODES')
-        if not isinstance(retry_codes, list) or not all(isinstance(code, int) for code in retry_codes):
-            self.logger.warning("RETRY_STATUS_CODES is missing or invalid. Defaulting to [429, 500, 502, 503, 504].")
-            self.settings['RETRY_STATUS_CODES'] = [429, 500, 502, 503, 504]
+        # Process TEST_MODE (ensure it's boolean)
+        test_mode_val = self.settings.get('TEST_MODE', False)
+        if isinstance(test_mode_val, str):
+            self.settings['TEST_MODE_BOOL'] = test_mode_val.lower() in ['true', '1', 'yes']
+        else:
+            self.settings['TEST_MODE_BOOL'] = bool(test_mode_val)
 
-        self.logger.debug(f"Final loaded settings: {self.settings}")
+        # Validate YAML_TRANSLATE_FIELDS if present
+        yaml_fields = self.settings.get('YAML_TRANSLATE_FIELDS')
+        if yaml_fields is not None:
+            if not isinstance(yaml_fields, list):
+                 raise ConfigValidationError("YAML_TRANSLATE_FIELDS must be a list")
+            self.settings['YAML_TRANSLATE_FIELDS_LIST'] = [str(field).strip() for field in yaml_fields] # Simplified assignment
+        else:
+             self.settings['YAML_TRANSLATE_FIELDS_LIST'] = []
+
+        # Validate numeric types
+        for key in ['API_REQUEST_TIMEOUT', 'BATCH_SIZE', 'RETRY_MAX_ATTEMPTS', 'RETRY_BACKOFF_FACTOR']:
+            try:
+                self.settings[key] = float(self.settings[key]) if key == 'RETRY_BACKOFF_FACTOR' else int(self.settings[key])
+            except (ValueError, TypeError):
+                 raise ConfigValidationError(f"Invalid numeric value for {key}: {self.settings.get(key)}")
+
+        # Validate boolean types
+        for key in ['PRESERVE_FORMATTING', 'SKIP_EXISTING']:
+             val = self.settings.get(key)
+             if isinstance(val, str):
+                  self.settings[key] = val.lower() in ['true', '1', 'yes']
+             else:
+                  self.settings[key] = bool(val)
+
+        # Validate list types
+        for key in ['FILE_EXTENSIONS', 'RETRY_STATUS_CODES']:
+             val = self.settings.get(key)
+             if not isinstance(val, list):
+                  raise ConfigValidationError(f"{key} must be a list")
+             if key == 'RETRY_STATUS_CODES':
+                  try:
+                      self.settings[key] = [int(code) for code in val]
+                  except ValueError:
+                       raise ConfigValidationError(f"Invalid integer found in RETRY_STATUS_CODES: {val}")
+
+        # Check for API keys when not in test mode
+        if not self.settings.get('TEST_MODE_BOOL'):
+            api_key_map = {
+                'DeepL': 'DEEPL_API_KEY',
+                'Google': 'GOOGLE_API_KEY', # Changed from GOOGLE_CLOUD_KEY
+                'Azure': 'AZURE_API_KEY' # Changed from MICROSOFT_TRANSLATOR_KEY
+            }
+            provider = self.settings.get('API_PROVIDER')
+            required_key = api_key_map.get(provider)
+            if required_key and not self.env_vars.get(required_key):
+                raise ConfigValidationError(f"Missing required API key for {provider}: {required_key}")
 
     def _load_config(self):
         """Loads all configuration sources."""
@@ -310,29 +360,12 @@ class ConfigLoader:
     # --- Public Interface --- 
 
     def get_setting(self, key: str, default: Any = None) -> Any:
-        """Gets a specific setting value.
-
-        Args:
-            key: The setting key to retrieve.
-            default: The default value to return if the key is not found.
-
-        Returns:
-            The value of the setting or the default value.
-        """
+        """Get a validated configuration setting."""
         return self.settings.get(key, default)
 
     def get_env_var(self, key: str, default: Optional[str] = None) -> Optional[str]:
-        """Gets a specific environment variable value loaded from the .env file.
-
-        Args:
-            key: The environment variable key to retrieve.
-            default: The default value to return if the key is not found.
-
-        Returns:
-            The value of the environment variable or the default value.
-        """
-        # Prefer directly stored value if populated, otherwise check os.environ
-        return self.env_vars.get(key, os.getenv(key, default))
+        """Get an environment variable."""
+        return self.env_vars.get(key, default)
 
     def get_input_dir(self) -> Path:
         """Gets the validated input directory path.

@@ -334,16 +334,18 @@ class MarkdownProcessor:
     def replace_node_content(self, token: Dict[str, Any], translated_text: str) -> bool:
         """
         Replace the content of the first text child within an inline token.
-        
+
         Args:
-            token: The inline token containing text to replace.
-            translated_text: The new text content.
-            
+            token: The inline token containing text to replace
+            translated_text: The new text content
+
         Returns:
-            bool: True if replacement succeeded, False otherwise.
+            bool: True if replacement succeeded, False otherwise
         """
-        if not isinstance(token, dict) or token.get('type') != 'inline':
-            self.logger.error(f"Expected 'inline' token dictionary for content replacement, got {type(token)}")
+        # WARNING: This is a simplified replacement that loses inline formatting.
+        # See Task 10.4 for implementation of formatting preservation.
+        if token.get('type') != 'inline':
+            self.logger.error(f"Expected inline token, got {token.get('type')}")
             return False
 
         children = token.get('children')
@@ -374,10 +376,20 @@ class MarkdownProcessor:
         return True
 
     def reassemble_markdown(self, original_markdown: str, translated_segments: Dict[str, str]) -> str:
-        """Reassembles the markdown document using translated segments."""
-        self.logger.info(f"Starting reassembly with {len(translated_segments)} translations.")
-        frontmatter_dict, content = self.extract_frontmatter(original_markdown)
-        original_tokens = self.parse(content)
+        """
+        Reassemble markdown with translations applied to appropriate tokens.
+
+        Args:
+            original_markdown: The source Markdown text.
+            translated_segments: Dictionary mapping original text to translated text.
+
+        Returns:
+            str: Reassembled markdown with translations.
+        """
+        # WARNING: Current reassembly does not preserve inline formatting (bold, italic, etc.)
+        # This limitation is tracked in Task 10.4.
+        # Create a deep copy to avoid modifying original tokens
+        original_tokens = self.parse(original_markdown)
         modified_tokens = [t.copy() for t in original_tokens] # Work on a copy
 
         processed_paths = set()
@@ -415,9 +427,10 @@ class MarkdownProcessor:
         except Exception as e:
              self.logger.exception(f"Error rendering modified tokens: {e}")
              # Fallback: return original content or raise error?
-             return content # Fallback for now
+             return original_markdown # Fallback for now
 
         # Reconstruct frontmatter + content
+        frontmatter_dict, content = self.extract_frontmatter(original_markdown)
         if frontmatter_dict:
             try:
                 # Use ruamel.yaml if available for better formatting preservation

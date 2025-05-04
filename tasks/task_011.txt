@@ -1,6 +1,6 @@
 # Task ID: 11
 # Title: Implement output file generation
-# Status: pending
+# Status: done
 # Dependencies: 10
 # Priority: high
 # Description: Create functionality to write translated content to output files with proper directory structure.
@@ -11,31 +11,169 @@ Extend FileManager to construct output paths (OUTPUT_DIR/<lang_code>/...) and cr
 Process test files and verify output files are created with correct paths and content. Confirm directory structure matches expectations. Verify YAML frontmatter in output files contains all required fields.
 
 # Subtasks:
-## 1. Extend FileManager to construct output paths [pending]
+## 1. Extend FileManager to construct output paths [done]
 ### Dependencies: None
 ### Description: Add methods to FileManager to construct output file paths based on language code and original file path
 ### Details:
 Create a method `get_output_path(file_path, lang_code)` that takes an original file path and language code as inputs and returns the corresponding output path in the format OUTPUT_DIR/<lang_code>/.... The method should handle both absolute and relative paths correctly. Define OUTPUT_DIR as a configurable constant in the configuration file.
 
-## 2. Implement directory creation functionality [pending]
+<info added on 2025-05-04T19:16:32.526Z>
+The implementation should handle path normalization and validation:
+
+```python
+def get_output_path(self, file_path, lang_code):
+    """
+    Constructs output file path based on language code and original file path.
+    
+    Args:
+        file_path (str or Path): Original file path (absolute or relative)
+        lang_code (str): Target language code (e.g., 'es', 'fr')
+        
+    Returns:
+        Path: Absolute path to the output file
+        
+    Raises:
+        ValueError: If file_path is not within input_dir
+    """
+    file_path = Path(file_path).resolve()
+    
+    # Verify file is within input directory to prevent path traversal
+    try:
+        relative_path = file_path.relative_to(self.input_dir)
+    except ValueError:
+        raise ValueError(f"File {file_path} is not within input directory {self.input_dir}")
+    
+    # Construct output path
+    output_path = self.output_dir / lang_code / relative_path
+    
+    # Ensure parent directories exist
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    return output_path
+```
+
+Also add a method to create all necessary output directories for a set of language codes:
+
+```python
+def prepare_output_directories(self, lang_codes):
+    """
+    Creates output directories for all specified language codes.
+    
+    Args:
+        lang_codes (list): List of language codes to prepare directories for
+    """
+    for lang_code in lang_codes:
+        (self.output_dir / lang_code).mkdir(parents=True, exist_ok=True)
+```
+</info added on 2025-05-04T19:16:32.526Z>
+
+## 2. Implement directory creation functionality [done]
 ### Dependencies: 11.1
 ### Description: Add methods to create necessary subdirectories for output files
 ### Details:
 Create a method `ensure_output_directory(output_path)` that checks if the directory for an output file exists and creates it if necessary. This should handle nested directories and ensure proper permissions. Use the output path construction from subtask 1 to determine which directories need to be created.
 
-## 3. Implement YAML frontmatter generation [pending]
+<info added on 2025-05-04T19:16:56.154Z>
+The `ensure_output_directory` method should be implemented in the file_manager.py module with proper error handling and logging. Here's the implementation approach:
+
+```python
+def ensure_output_directory(output_path: Path) -> bool:
+    """
+    Ensures the directory for the given output path exists, creating it if necessary.
+    
+    Args:
+        output_path: Path object representing the intended output file
+        
+    Returns:
+        bool: True if directory exists or was created successfully, False otherwise
+        
+    Raises:
+        OSError: If directory creation fails due to permissions or other system issues
+    """
+    try:
+        # Get the parent directory of the output file
+        directory = output_path.parent
+        
+        # Create directory and any missing parents with appropriate permissions
+        directory.mkdir(parents=True, exist_ok=True)
+        
+        # Verify directory exists and has write permissions
+        if not directory.exists():
+            logger.error(f"Failed to create directory: {directory}")
+            return False
+            
+        if not os.access(directory, os.W_OK):
+            logger.warning(f"Directory exists but may not be writable: {directory}")
+            
+        logger.debug(f"Ensured directory exists: {directory}")
+        return True
+        
+    except OSError as e:
+        logger.error(f"Error creating directory for {output_path}: {str(e)}")
+        raise
+```
+
+This implementation includes permission checking after directory creation and proper logging at different severity levels based on the outcome.
+</info added on 2025-05-04T19:16:56.154Z>
+
+## 3. Implement YAML frontmatter generation [done]
 ### Dependencies: None
 ### Description: Create functionality to generate YAML frontmatter for translated files
 ### Details:
 Create a method `generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash)` that takes the original frontmatter, translated fields, language code, and source hash as inputs. The method should set 'lang' to the language code, 'orig' to false, include all translated fields, copy other fields from the original frontmatter, and add the source hash for tracking changes. Return the frontmatter as a dictionary that can be serialized to YAML.
 
-## 4. Implement file writing functionality [pending]
+<info added on 2025-05-04T19:17:59.180Z>
+The `generate_frontmatter` method should handle several edge cases:
+
+1. If `original_frontmatter` is None, initialize an empty dictionary
+2. Create a deep copy of the original frontmatter to avoid modifying the original
+3. Handle potential key conflicts between original frontmatter and translated fields
+4. Implement special handling for nested frontmatter structures
+
+Implementation example:
+```python
+@staticmethod
+def generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash=None):
+    """
+    Generate frontmatter for translated files.
+    
+    Args:
+        original_frontmatter (dict or None): Original frontmatter dictionary
+        translated_fields (dict): Dictionary of translated fields
+        lang_code (str): Language code for the translation
+        source_hash (str, optional): Hash of source content for tracking changes
+        
+    Returns:
+        dict: New frontmatter dictionary
+    """
+    # Initialize with empty dict if None provided
+    result = copy.deepcopy(original_frontmatter or {})
+    
+    # Set required translation metadata
+    result['lang'] = lang_code
+    result['orig'] = False
+    
+    # Add source hash if provided
+    if source_hash:
+        result['source_hash'] = source_hash
+    
+    # Add all translated fields, overriding any existing fields
+    for key, value in translated_fields.items():
+        result[key] = value
+        
+    return result
+```
+
+Include unit tests that verify correct behavior with various input combinations, including empty frontmatter, nested structures, and edge cases.
+</info added on 2025-05-04T19:17:59.180Z>
+
+## 4. Implement file writing functionality [done]
 ### Dependencies: 11.2, 11.3
 ### Description: Create methods to write translated content with frontmatter to output files
 ### Details:
 Create a method `write_translated_file(output_path, frontmatter, content)` that takes an output path, frontmatter dictionary, and translated content as inputs. The method should convert the frontmatter to YAML format, combine it with the content using proper delimiters (---), and write the result to the specified output path. Ensure proper error handling for file writing operations.
 
-## 5. Integrate output generation into translation workflow [pending]
+## 5. Integrate output generation into translation workflow [done]
 ### Dependencies: 11.1, 11.4
 ### Description: Connect the output file generation to the translation process
 ### Details:

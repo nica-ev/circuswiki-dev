@@ -622,7 +622,7 @@
       "id": 9,
       "title": "Implement test mode for TranslationService",
       "description": "Add a test mode that simulates translation without making API calls.",
-      "status": "pending",
+      "status": "done",
       "dependencies": [
         8
       ],
@@ -634,7 +634,7 @@
           "id": 1,
           "title": "Add TEST_MODE configuration flag",
           "description": "Create a configuration flag that determines whether the translation service should operate in test mode",
-          "status": "pending",
+          "status": "done",
           "dependencies": [],
           "details": "Add a boolean TEST_MODE flag to the application's configuration system. This could be in an environment variable, configuration file, or wherever other configuration settings are stored. Default value should be false. Document the new configuration option in relevant documentation. Create a method in the configuration service to access this flag."
         },
@@ -642,7 +642,7 @@
           "id": 2,
           "title": "Modify TranslationService to check for test mode",
           "description": "Update the TranslationService to check the TEST_MODE flag before processing translations",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1
           ],
@@ -652,7 +652,7 @@
           "id": 3,
           "title": "Implement test mode translation logic",
           "description": "Add conditional logic to return original text when in test mode instead of making API calls",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             2
           ],
@@ -662,7 +662,7 @@
           "id": 4,
           "title": "Add logging for test mode operation",
           "description": "Implement logging to indicate when translations are being processed in test mode",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             3
           ],
@@ -674,7 +674,7 @@
       "id": 10,
       "title": "Implement Markdown reconstruction from translated segments",
       "description": "Create functionality to rebuild Markdown content using translated text segments.",
-      "status": "pending",
+      "status": "done",
       "dependencies": [
         7,
         8
@@ -716,7 +716,7 @@
           "id": 4,
           "title": "Implement special element preservation logic",
           "description": "Create handlers for preserving special Markdown elements like links, images, and formatting during reconstruction",
-          "status": "deferred",
+          "status": "done",
           "dependencies": [
             3
           ],
@@ -747,7 +747,7 @@
           "id": 7,
           "title": "Document inline formatting limitations",
           "description": "Document the current limitations regarding inline formatting preservation in the translated output",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             6
           ],
@@ -757,7 +757,7 @@
           "id": 8,
           "title": "Create test cases for inline formatting preservation",
           "description": "Develop test cases that will validate inline formatting preservation once subtask 10.4 is implemented",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             7
           ],
@@ -769,7 +769,7 @@
       "id": 11,
       "title": "Implement output file generation",
       "description": "Create functionality to write translated content to output files with proper directory structure.",
-      "status": "pending",
+      "status": "done",
       "dependencies": [
         10
       ],
@@ -781,33 +781,33 @@
           "id": 1,
           "title": "Extend FileManager to construct output paths",
           "description": "Add methods to FileManager to construct output file paths based on language code and original file path",
-          "status": "pending",
+          "status": "done",
           "dependencies": [],
-          "details": "Create a method `get_output_path(file_path, lang_code)` that takes an original file path and language code as inputs and returns the corresponding output path in the format OUTPUT_DIR/<lang_code>/.... The method should handle both absolute and relative paths correctly. Define OUTPUT_DIR as a configurable constant in the configuration file."
+          "details": "Create a method `get_output_path(file_path, lang_code)` that takes an original file path and language code as inputs and returns the corresponding output path in the format OUTPUT_DIR/<lang_code>/.... The method should handle both absolute and relative paths correctly. Define OUTPUT_DIR as a configurable constant in the configuration file.\n\n<info added on 2025-05-04T19:16:32.526Z>\nThe implementation should handle path normalization and validation:\n\n```python\ndef get_output_path(self, file_path, lang_code):\n    \"\"\"\n    Constructs output file path based on language code and original file path.\n    \n    Args:\n        file_path (str or Path): Original file path (absolute or relative)\n        lang_code (str): Target language code (e.g., 'es', 'fr')\n        \n    Returns:\n        Path: Absolute path to the output file\n        \n    Raises:\n        ValueError: If file_path is not within input_dir\n    \"\"\"\n    file_path = Path(file_path).resolve()\n    \n    # Verify file is within input directory to prevent path traversal\n    try:\n        relative_path = file_path.relative_to(self.input_dir)\n    except ValueError:\n        raise ValueError(f\"File {file_path} is not within input directory {self.input_dir}\")\n    \n    # Construct output path\n    output_path = self.output_dir / lang_code / relative_path\n    \n    # Ensure parent directories exist\n    output_path.parent.mkdir(parents=True, exist_ok=True)\n    \n    return output_path\n```\n\nAlso add a method to create all necessary output directories for a set of language codes:\n\n```python\ndef prepare_output_directories(self, lang_codes):\n    \"\"\"\n    Creates output directories for all specified language codes.\n    \n    Args:\n        lang_codes (list): List of language codes to prepare directories for\n    \"\"\"\n    for lang_code in lang_codes:\n        (self.output_dir / lang_code).mkdir(parents=True, exist_ok=True)\n```\n</info added on 2025-05-04T19:16:32.526Z>"
         },
         {
           "id": 2,
           "title": "Implement directory creation functionality",
           "description": "Add methods to create necessary subdirectories for output files",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1
           ],
-          "details": "Create a method `ensure_output_directory(output_path)` that checks if the directory for an output file exists and creates it if necessary. This should handle nested directories and ensure proper permissions. Use the output path construction from subtask 1 to determine which directories need to be created."
+          "details": "Create a method `ensure_output_directory(output_path)` that checks if the directory for an output file exists and creates it if necessary. This should handle nested directories and ensure proper permissions. Use the output path construction from subtask 1 to determine which directories need to be created.\n\n<info added on 2025-05-04T19:16:56.154Z>\nThe `ensure_output_directory` method should be implemented in the file_manager.py module with proper error handling and logging. Here's the implementation approach:\n\n```python\ndef ensure_output_directory(output_path: Path) -> bool:\n    \"\"\"\n    Ensures the directory for the given output path exists, creating it if necessary.\n    \n    Args:\n        output_path: Path object representing the intended output file\n        \n    Returns:\n        bool: True if directory exists or was created successfully, False otherwise\n        \n    Raises:\n        OSError: If directory creation fails due to permissions or other system issues\n    \"\"\"\n    try:\n        # Get the parent directory of the output file\n        directory = output_path.parent\n        \n        # Create directory and any missing parents with appropriate permissions\n        directory.mkdir(parents=True, exist_ok=True)\n        \n        # Verify directory exists and has write permissions\n        if not directory.exists():\n            logger.error(f\"Failed to create directory: {directory}\")\n            return False\n            \n        if not os.access(directory, os.W_OK):\n            logger.warning(f\"Directory exists but may not be writable: {directory}\")\n            \n        logger.debug(f\"Ensured directory exists: {directory}\")\n        return True\n        \n    except OSError as e:\n        logger.error(f\"Error creating directory for {output_path}: {str(e)}\")\n        raise\n```\n\nThis implementation includes permission checking after directory creation and proper logging at different severity levels based on the outcome.\n</info added on 2025-05-04T19:16:56.154Z>"
         },
         {
           "id": 3,
           "title": "Implement YAML frontmatter generation",
           "description": "Create functionality to generate YAML frontmatter for translated files",
-          "status": "pending",
+          "status": "done",
           "dependencies": [],
-          "details": "Create a method `generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash)` that takes the original frontmatter, translated fields, language code, and source hash as inputs. The method should set 'lang' to the language code, 'orig' to false, include all translated fields, copy other fields from the original frontmatter, and add the source hash for tracking changes. Return the frontmatter as a dictionary that can be serialized to YAML."
+          "details": "Create a method `generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash)` that takes the original frontmatter, translated fields, language code, and source hash as inputs. The method should set 'lang' to the language code, 'orig' to false, include all translated fields, copy other fields from the original frontmatter, and add the source hash for tracking changes. Return the frontmatter as a dictionary that can be serialized to YAML.\n\n<info added on 2025-05-04T19:17:59.180Z>\nThe `generate_frontmatter` method should handle several edge cases:\n\n1. If `original_frontmatter` is None, initialize an empty dictionary\n2. Create a deep copy of the original frontmatter to avoid modifying the original\n3. Handle potential key conflicts between original frontmatter and translated fields\n4. Implement special handling for nested frontmatter structures\n\nImplementation example:\n```python\n@staticmethod\ndef generate_frontmatter(original_frontmatter, translated_fields, lang_code, source_hash=None):\n    \"\"\"\n    Generate frontmatter for translated files.\n    \n    Args:\n        original_frontmatter (dict or None): Original frontmatter dictionary\n        translated_fields (dict): Dictionary of translated fields\n        lang_code (str): Language code for the translation\n        source_hash (str, optional): Hash of source content for tracking changes\n        \n    Returns:\n        dict: New frontmatter dictionary\n    \"\"\"\n    # Initialize with empty dict if None provided\n    result = copy.deepcopy(original_frontmatter or {})\n    \n    # Set required translation metadata\n    result['lang'] = lang_code\n    result['orig'] = False\n    \n    # Add source hash if provided\n    if source_hash:\n        result['source_hash'] = source_hash\n    \n    # Add all translated fields, overriding any existing fields\n    for key, value in translated_fields.items():\n        result[key] = value\n        \n    return result\n```\n\nInclude unit tests that verify correct behavior with various input combinations, including empty frontmatter, nested structures, and edge cases.\n</info added on 2025-05-04T19:17:59.180Z>"
         },
         {
           "id": 4,
           "title": "Implement file writing functionality",
           "description": "Create methods to write translated content with frontmatter to output files",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             2,
             3
@@ -818,7 +818,7 @@
           "id": 5,
           "title": "Integrate output generation into translation workflow",
           "description": "Connect the output file generation to the translation process",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1,
             4
@@ -831,7 +831,7 @@
       "id": 12,
       "title": "Implement source file hash update",
       "description": "Create functionality to update content_hash and yaml_hash in source files after processing.",
-      "status": "pending",
+      "status": "done",
       "dependencies": [
         5,
         11
@@ -844,7 +844,7 @@
           "id": 1,
           "title": "Extend FileManager with hash update method",
           "description": "Add a new method to the FileManager class that will handle updating content_hash and yaml_hash in source file frontmatter",
-          "status": "pending",
+          "status": "done",
           "dependencies": [],
           "details": "Create a new method in FileManager called updateFileHashes(filePath, contentHash, yamlHash) that will be responsible for updating the hash values in a file's frontmatter. This method should accept the file path and the new hash values as parameters. Define the method signature and structure with appropriate documentation, but leave the implementation empty for now."
         },
@@ -852,7 +852,7 @@
           "id": 2,
           "title": "Implement frontmatter parsing and modification",
           "description": "Create functionality to parse existing frontmatter, update hash values, and prepare the modified content",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             1
           ],
@@ -862,7 +862,7 @@
           "id": 3,
           "title": "Implement safe file writing mechanism",
           "description": "Create a safe file writing process that prevents data loss during updates",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             2
           ],
@@ -872,7 +872,7 @@
           "id": 4,
           "title": "Add comprehensive error handling",
           "description": "Implement error handling for all potential failure points in the hash update process",
-          "status": "pending",
+          "status": "done",
           "dependencies": [
             3
           ],

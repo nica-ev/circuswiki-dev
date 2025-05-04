@@ -1,0 +1,30 @@
+# translation-py/config/settings.default.yaml
+
+# Default settings for the Markdown Translator
+
+# Directory Settings
+INPUT_DIR: ../docs/ # Default relative to translation-py
+OUTPUT_DIR: ../translated_docs/ # Default relative to translation-py
+
+# Language & File Settings
+TARGET_LANGUAGES: ["DE", "FR", "ES"] # List of ISO 639-1 codes
+FILE_EXTENSIONS: [".md"] # Only process these file types
+
+# Translation Service Settings
+API_PROVIDER: "DeepL" # Supported: "DeepL", "Google", "Azure"
+API_REQUEST_TIMEOUT: 30 # Seconds
+BATCH_SIZE: 50 # Number of segments per API request
+PRESERVE_FORMATTING: true # Attempt to preserve Markdown/HTML formatting
+SKIP_EXISTING: false # Overwrite existing translated files
+TEST_MODE: false # If true, simulate translation without API calls
+
+# YAML Frontmatter Settings
+YAML_TRANSLATE_FIELDS: ["title", "description", "author"] # List of fields to translate
+
+# Processing Settings
+LOG_LEVEL: "INFO" # Options: DEBUG, INFO, WARNING, ERROR
+
+# Retry Settings
+RETRY_MAX_ATTEMPTS: 3
+RETRY_BACKOFF_FACTOR: 1.5 # Multiplier for exponential backoff
+RETRY_STATUS_CODES: [429, 500, 502, 503, 504] # HTTP codes to retry on 

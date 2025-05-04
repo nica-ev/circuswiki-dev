@@ -957,3 +957,77 @@ class TestMarkdownProcessorHtmlElements:
         assert has_segment(segments, 'Item 3', 'paragraph_in_list')
         # assert not has_text(segments, 'bold HTML') # Removed old assertion
         assert not has_text(segments, 'HTML block in list')
+
+# === Tests for Inline Formatting Preservation (Expected to Fail until Task 10.4) ===
+
+@pytest.mark.xfail(reason="Inline formatting preservation not yet implemented (Task 10.4)")
+def test_reassemble_preserves_bold(processor): # Added processor fixture
+    """Test that bold formatting is preserved during reassembly."""
+    original_md = "This has **bold text** inside."
+    # Path is simplified for this example
+    translations = {
+        'paragraph_open_0 > inline_1 > text_0': 'Ceci a du ',
+        'paragraph_open_0 > inline_1 > strong_open_1': 'texte gras', # Assuming strong content is extracted separately
+        'paragraph_open_0 > inline_1 > text_2': ' dedans.'
+    }
+    # Simulate extraction would likely produce path for "bold text"
+    # For simplicity, we assume a path exists and provide a translation
+    # A more realistic test would mock the extraction process
+    mock_translations = {
+        'paragraph_open_0 > inline_1': "Ceci a du texte gras dedans." # Simplified path for the whole inline block
+    }
+    expected_reassembled_md = "Ceci a du **texte gras** dedans."
+    
+    # Run reassembly (which currently loses formatting)
+    # We need the full markdown, not just content, for reassemble_markdown
+    actual_reassembled_md = processor.reassemble_markdown(original_md, mock_translations)
+    
+    assert actual_reassembled_md.strip() == expected_reassembled_md
+
+@pytest.mark.xfail(reason="Inline formatting preservation not yet implemented (Task 10.4)")
+def test_reassemble_preserves_italic(processor): # Added processor fixture
+    """Test that italic formatting is preserved during reassembly."""
+    original_md = "An *italic word* here."
+    mock_translations = {
+        'paragraph_open_0 > inline_1': "Un mot en italique ici."
+    }
+    expected_reassembled_md = "Un *mot en italique* ici."
+    actual_reassembled_md = processor.reassemble_markdown(original_md, mock_translations)
+    assert actual_reassembled_md.strip() == expected_reassembled_md
+
+@pytest.mark.xfail(reason="Inline formatting preservation not yet implemented (Task 10.4)")
+def test_reassemble_preserves_link_text(processor): # Added processor fixture
+    """Test that link text is translated but the URL is preserved."""
+    original_md = "Visit the [Google website](https://google.com) for search."
+    # Assuming extraction provides segments for "Visit the ", "Google website", " for search."
+    mock_translations = {
+        'paragraph_open_0 > inline_1': "Visitez le site Web Google pour rechercher."
+    }
+    expected_reassembled_md = "Visitez le [site Web Google](https://google.com) pour rechercher."
+    actual_reassembled_md = processor.reassemble_markdown(original_md, mock_translations)
+    assert actual_reassembled_md.strip() == expected_reassembled_md
+
+@pytest.mark.xfail(reason="Inline formatting preservation not yet implemented (Task 10.4)")
+def test_reassemble_preserves_inline_code(processor): # Added processor fixture
+    """Test that inline code spans are preserved and not translated."""
+    original_md = "Use the `process_data()` function."
+    # Inline code should not be extracted, so only surrounding text is translated
+    mock_translations = {
+        'paragraph_open_0 > inline_1': "Utilisez la fonction `process_data()`."
+    }
+    expected_reassembled_md = "Utilisez la `process_data()` fonction."
+    actual_reassembled_md = processor.reassemble_markdown(original_md, mock_translations)
+    assert actual_reassembled_md.strip() == expected_reassembled_md
+
+@pytest.mark.xfail(reason="Inline formatting preservation not yet implemented (Task 10.4)")
+def test_reassemble_preserves_mixed_inline_formatting(processor): # Added processor fixture
+    """Test preservation of multiple inline formatting types."""
+    original_md = "Some **bold** and *italic* text with a [link](url)."
+    mock_translations = {
+        'paragraph_open_0 > inline_1': "Du texte gras et italique avec un lien."
+    }
+    expected_reassembled_md = "Du **texte gras** et *italique* avec un [lien](url)."
+    actual_reassembled_md = processor.reassemble_markdown(original_md, mock_translations)
+    assert actual_reassembled_md.strip() == expected_reassembled_md
+
+# Add more complex test cases as needed, e.g., nested formatting, lists with inline formatting, etc.

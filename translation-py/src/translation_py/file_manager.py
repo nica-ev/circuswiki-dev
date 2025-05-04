@@ -4,8 +4,12 @@ import re
 from ruamel.yaml import YAML, RoundTripDumper
 from ruamel.yaml.error import YAMLError
 from io import StringIO
+import os # Added for path manipulation
 
 logger = logging.getLogger(__name__)
+
+# Configuration (Consider moving to a dedicated config file/system later)
+OUTPUT_DIR = Path("output") # Default output directory, relative to project root? Or CWD? Let's assume CWD for now.
 
 # Custom Exception
 class FrontmatterParsingError(Exception):
@@ -18,6 +22,121 @@ FRONTMATTER_RE = re.compile(r'^---\s*\n(.*?)---\s*\n', re.DOTALL | re.MULTILINE)
 class FileManager:
     """Manages file system operations like scanning for specific file types."""
 
+    @staticmethod
+    def generate_frontmatter(
+        original_frontmatter: dict | None,
+        translated_fields: dict,
+        lang_code: str,
+        source_hash: str | None = None # Optional for now
+    ) -> dict:
+        """Generates the YAML frontmatter dictionary for a translated file.
+
+        Args:
+            original_frontmatter: The frontmatter dictionary from the original file (can be None).
+            translated_fields: A dictionary containing the translated key-value pairs.
+            lang_code: The target language code.
+            source_hash: An optional hash of the original source content/frontmatter for tracking.
+
+        Returns:
+            A dictionary representing the new frontmatter.
+        """
+        if original_frontmatter is None:
+            new_frontmatter = {}
+        else:
+            # Start with a shallow copy to avoid modifying the original dict in place
+            new_frontmatter = original_frontmatter.copy()
+
+        # Set standard translated file fields
+        new_frontmatter['lang'] = lang_code
+        new_frontmatter['orig'] = False # Indicate this is not the original language file
+        if source_hash:
+             new_frontmatter['source_hash'] = source_hash # Add source hash if provided
+
+        # Update with translated fields, overwriting existing keys if necessary
+        for key, value in translated_fields.items():
+            if value is not None: # Only update if translation provided
+                new_frontmatter[key] = value
+            elif key in new_frontmatter:
+                # If translation is None, maybe remove the key? Or keep original?
+                # Let's keep the original for now, unless explicitly told otherwise.
+                logger.debug(f"Translated value for '{key}' is None, keeping original value if present.")
+
+        logger.debug(f"Generated frontmatter for lang '{lang_code}': {new_frontmatter}")
+        return new_frontmatter
+
+    @staticmethod
+    def _extract_frontmatter_and_content(content: str) -> tuple[dict | None, str]:
+        """Extracts YAML frontmatter and the remaining content from a string.
+
+        Args:
+            content: The string content (typically from a file).
+
+        Returns:
+            A tuple containing:
+            - The parsed frontmatter as a dictionary.
+            - Returns None for frontmatter if:
+                - No frontmatter block is found.
+                - Frontmatter block is found but is not a valid YAML dictionary.
+            - Returns {} for frontmatter if delimiters --- exist but are empty.
+            - The content string without the frontmatter section.
+
+        Raises:
+            FrontmatterParsingError: If the frontmatter is present but malformed YAML.
+        """
+        frontmatter: dict | None = None
+        match = FRONTMATTER_RE.match(content)
+
+        if match:
+            yaml_string = match.group(1)
+            content_without_frontmatter = content[match.end():]
+
+            if yaml_string.strip():
+                try:
+                    yaml = YAML(typ='safe')
+                    parsed_data = yaml.load(yaml_string)
+                    if isinstance(parsed_data, dict):
+                        frontmatter = parsed_data
+                    else:
+                        # Valid YAML, but not a dictionary
+                        logger.warning(
+                            f"Frontmatter parsed successfully but is not a dictionary (type: {type(parsed_data)}). Treating as no frontmatter."
+                        )
+                        # Return original content as frontmatter wasn't usable
+                        content_without_frontmatter = content
+                        frontmatter = None # Explicitly None
+                except YAMLError as e:
+                    msg = f"Malformed YAML frontmatter detected: {e}"
+                    logger.error(msg)
+                    # Raise custom error, wrapping original
+                    raise FrontmatterParsingError(msg) from e
+            else:
+                # Delimiters found, but empty content between them
+                logger.debug("Found empty frontmatter block (--- ---). Returning {} for frontmatter.")
+                frontmatter = {}
+        else:
+            # No --- delimiters found at the start
+            logger.debug("No frontmatter block detected.")
+            content_without_frontmatter = content
+            frontmatter = None
+
+        return frontmatter, content_without_frontmatter
+
+    @staticmethod
+    def _strip_frontmatter(content: str) -> str:
+        """Removes the YAML frontmatter block from the start of a string.
+
+        Args:
+            content: The string content.
+
+        Returns:
+            The content string without the frontmatter block.
+        """
+        match = FRONTMATTER_RE.match(content)
+        if match:
+            return content[match.end():]
+        else:
+            return content
+
     def __init__(self, input_dir: str | Path):
         """Initializes the FileManager.
 
@@ -28,9 +147,12 @@ class FileManager:
             FileNotFoundError: If the input directory does not exist.
             NotADirectoryError: If the input path is not a directory.
         """
-        self.input_dir = Path(input_dir)
+        self.input_dir = Path(input_dir).resolve() # Ensure input_dir is absolute
         self.target_extension = ".md"
         self.errors = [] # Store errors encountered during scanning
+        # Resolve OUTPUT_DIR relative to the input directory's parent perhaps? Or CWD?
+        # Let's make it absolute based on CWD for simplicity, but this might need refinement.
+        self.output_dir = OUTPUT_DIR.resolve()
 
         if not self.input_dir.exists():
             msg = f"Input directory not found: {self.input_dir}"
@@ -174,6 +296,60 @@ class FileManager:
         """Returns a list of error messages encountered during the last scan."""
         return self.errors
 
+    def get_output_path(self, file_path: str | Path, lang_code: str) -> Path:
+        """Constructs the full output path for a translated file.
+
+        Args:
+            file_path: The path to the original Markdown file (absolute or relative to input_dir).
+            lang_code: The target language code (e.g., 'de', 'fr').
+
+        Returns:
+            A pathlib.Path object representing the absolute output file path.
+
+        Raises:
+            ValueError: If the file_path is not within the configured input_dir.
+        """
+        absolute_file_path = Path(file_path)
+        if not absolute_file_path.is_absolute():
+            # Assume relative paths are relative to the input directory
+            absolute_file_path = self.input_dir / file_path
+        
+        absolute_file_path = absolute_file_path.resolve() # Ensure it's canonical
+
+        # Verify the file is within the input directory structure
+        try:
+            relative_path = absolute_file_path.relative_to(self.input_dir)
+        except ValueError:
+            msg = f"File path {absolute_file_path} is not within the input directory {self.input_dir}"
+            logger.error(msg)
+            raise ValueError(msg) from None
+
+        # Construct the output path: output_dir / lang_code / relative_path
+        output_path = self.output_dir / lang_code / relative_path
+        logger.debug(f"Constructed output path for '{file_path}' ({lang_code}): {output_path}")
+        return output_path
+
+    def ensure_output_directory(self, output_path: Path):
+        """Ensures the parent directory for the given output path exists.
+
+        Args:
+            output_path: The full path to the intended output file.
+
+        Raises:
+            OSError: If the directory cannot be created due to permissions or other OS issues.
+        """
+        output_dir = output_path.parent
+        try:
+            if not output_dir.exists():
+                logger.info(f"Creating output directory: {output_dir}")
+                output_dir.mkdir(parents=True, exist_ok=True)
+            else:
+                 logger.debug(f"Output directory already exists: {output_dir}")
+        except OSError as e:
+            msg = f"Failed to create output directory {output_dir}: {e}"
+            logger.error(msg, exc_info=True)
+            raise # Re-raise the OSError after logging
+
     def read_markdown_with_frontmatter(self, file_path: str | Path) -> tuple[dict | None, str]:
         """Reads a Markdown file and extracts frontmatter.
 
@@ -226,63 +402,6 @@ class FileManager:
             # Raise a generic exception or a custom one?
             raise IOError(msg) from e
 
-    @staticmethod
-    def _extract_frontmatter_and_content(content: str) -> tuple[dict | None, str]:
-        """Extracts YAML frontmatter and the remaining content from a string.
-
-        Args:
-            content: The string content (typically from a file).
-
-        Returns:
-            A tuple containing:
-            - The parsed frontmatter as a dictionary.
-            - Returns None for frontmatter if:
-                - No frontmatter block is found.
-                - Frontmatter block is found but is not a valid YAML dictionary.
-            - Returns {} for frontmatter if delimiters --- exist but are empty.
-            - The content string without the frontmatter section.
-
-        Raises:
-            FrontmatterParsingError: If the frontmatter is present but malformed YAML.
-        """
-        frontmatter: dict | None = None
-        match = FRONTMATTER_RE.match(content)
-
-        if match:
-            yaml_string = match.group(1)
-            content_without_frontmatter = content[match.end():]
-
-            if yaml_string.strip():
-                try:
-                    yaml = YAML(typ='safe')
-                    parsed_data = yaml.load(yaml_string)
-                    if isinstance(parsed_data, dict):
-                        frontmatter = parsed_data
-                    else:
-                        # Valid YAML, but not a dictionary
-                        logger.warning(
-                            f"Frontmatter parsed successfully but is not a dictionary (type: {type(parsed_data)}). Treating as no frontmatter."
-                        )
-                        # Return original content as frontmatter wasn't usable
-                        content_without_frontmatter = content
-                        frontmatter = None # Explicitly None
-                except YAMLError as e:
-                    msg = f"Malformed YAML frontmatter detected: {e}"
-                    logger.error(msg)
-                    # Raise custom error, wrapping original
-                    raise FrontmatterParsingError(msg) from e
-            else:
-                # Delimiters found, but empty content between them
-                logger.debug("Found empty frontmatter block (--- ---). Returning {} for frontmatter.")
-                frontmatter = {}
-        else:
-            # No --- delimiters found at the start
-            logger.debug("No frontmatter block detected.")
-            content_without_frontmatter = content
-            frontmatter = None
-
-        return frontmatter, content_without_frontmatter
-
     def is_eligible_for_translation(self, file_path: str | Path) -> bool:
         """Checks if a Markdown file is eligible for translation based on frontmatter.
 
@@ -319,22 +438,6 @@ class FileManager:
         except Exception as e:
             logger.error(f"Eligibility check failed: Unexpected error for {file_path}: {e}", exc_info=True)
             return False
-
-    @staticmethod
-    def _strip_frontmatter(content: str) -> str:
-        """Removes the YAML frontmatter block from the start of a string.
-
-        Args:
-            content: The string content.
-
-        Returns:
-            The content string without the frontmatter block.
-        """
-        match = FRONTMATTER_RE.match(content)
-        if match:
-            return content[match.end():]
-        else:
-            return content
 
     def get_frontmatter_value(self, file_path: str | Path, key: str, default=None):
         """Gets a specific value from the frontmatter of a Markdown file.

@@ -3,6 +3,7 @@ import logging
 import httpx
 import time # Import time for sleep
 from typing import List, Dict, Optional, Any, Tuple
+import random
 
 # Adjust the import path based on your project structure
 try:
@@ -29,11 +30,16 @@ class TranslationAuthError(TranslationError):
 
 class TranslationRateLimitError(TranslationError):
     """Raised for rate limit errors (429)."""
-    pass
+    def __init__(self, message, retry_after=None):
+        super().__init__(message)
+        self.retry_after = retry_after
 
 class TranslationAPIError(TranslationError):
     """Raised for other 4xx/5xx API errors."""
-    pass
+    def __init__(self, message, status_code=None, response_body=None):
+        super().__init__(message)
+        self.status_code = status_code
+        self.response_body = response_body
 
 class TranslationNetworkError(TranslationError):
     """Raised for network connectivity issues."""
@@ -58,56 +64,107 @@ class TranslationService:
 
         self.logger = logging.getLogger(__name__)
         self.config_loader = config_loader
-        self.test_mode = self.config_loader.settings.get('TEST_MODE_BOOL', False)
+        self._http_client: Optional[httpx.Client] = None
 
-        # --- Load API Provider --- 
-        self.api_provider = self.config_loader.settings.get('API_PROVIDER')
+        # Load configuration values during initialization
+        self.api_provider = self.config_loader.get_setting('API_PROVIDER')
         if not self.api_provider:
-            raise TranslationConfigError("API_PROVIDER not specified or invalid in configuration.")
-        self.logger.info(f"Initializing TranslationService with provider: {self.api_provider}")
+            raise ValueError("API_PROVIDER not specified in configuration")
 
-        # --- Load API Key (unless in test mode) ---
-        self.api_key: Optional[str] = None
-        if not self.test_mode:
-            # Construct the expected environment variable name (e.g., DEEPL_API_KEY)
-            env_key_name = f"{self.api_provider.upper()}_API_KEY"
-            self.api_key = self.config_loader.env_vars.get(env_key_name)
-            if not self.api_key:
-                raise TranslationConfigError(f"Missing API key for provider '{self.api_provider}'. "
-                                           f"Set the {env_key_name} environment variable or ensure it's in the .env file.")
-            self.logger.debug(f"API key loaded for {self.api_provider}.")
-        else:
-            self.logger.info("TranslationService running in TEST MODE. API calls will be simulated.")
+        env_key_name = f"{self.api_provider.upper()}_API_KEY"
+        self.api_key = self.config_loader.get_env_var(env_key_name)
+        if not self.api_key:
+            self.logger.warning(f"Missing API key for {self.api_provider}. Set {env_key_name} environment variable.")
+            # Allow initialization without key, but raise error on API call if needed
 
-        # --- Load Target Languages ---
-        self.target_languages: List[str] = self.config_loader.settings.get('TARGET_LANGUAGES_LIST', [])
-        if not self.target_languages or not isinstance(self.target_languages, list) or len(self.target_languages) == 0:
-            raise TranslationConfigError("TARGET_LANGUAGES_LIST must be a non-empty list in configuration.")
-        self.logger.debug(f"Supported target languages: {self.target_languages}")
+        self.target_languages = self.config_loader.get_setting('TARGET_LANGUAGES_LIST', [])
+        if not self.target_languages:
+            raise ValueError("TARGET_LANGUAGES_LIST must be a non-empty list")
 
-        # --- Load Retry Configuration --- 
-        self.retry_max_attempts = self.config_loader.settings.get('RETRY_MAX_ATTEMPTS', 3)
-        self.retry_backoff_factor = self.config_loader.settings.get('RETRY_BACKOFF_FACTOR', 0.5)
-        self.retry_status_codes = self.config_loader.settings.get('RETRY_STATUS_CODES', [429, 500, 502, 503, 504])
-        self.logger.debug(f"Retry config: Max Attempts={self.retry_max_attempts}, Backoff={self.retry_backoff_factor}, Codes={self.retry_status_codes}")
+        self.request_timeout = self.config_loader.get_setting('API_REQUEST_TIMEOUT', 30)
+        self.retry_max_attempts = self.config_loader.get_setting('RETRY_MAX_ATTEMPTS', 3)
+        self.retry_backoff_factor = self.config_loader.get_setting('RETRY_BACKOFF_FACTOR', 1.5)
+        self.retry_status_codes = self.config_loader.get_setting('RETRY_STATUS_CODES', [429, 500, 502, 503, 504])
+        self.batch_size = self.config_loader.get_setting('BATCH_SIZE', 50)
+        self.test_mode = self.config_loader.get_setting('TEST_MODE_BOOL', False) # Load test mode flag
 
-        # Placeholder for HTTP client (e.g., httpx.Client)
-        self._http_client: Optional[httpx.Client] = None # Initialize with type hint
+        # Provider specific URLs (could be moved to config or provider classes later)
+        self.api_urls = {
+            'DeepL': "https://api-free.deepl.com/v2/translate" # Example, use correct endpoint
+            # Add URLs for other providers
+        }
+        self.api_url = self.api_urls.get(self.api_provider)
+        if not self.api_url:
+            raise ValueError(f"API URL not configured for provider: {self.api_provider}")
 
-        self.logger.info("TranslationService initialized successfully.")
+        self.logger.info(f"TranslationService initialized with {self.api_provider} provider")
+        if self.test_mode:
+            self.logger.info("TranslationService is running in TEST MODE. No actual API calls will be made.")
+        self.logger.debug(f"Supported target languages: {', '.join(self.target_languages)}")
 
     def _initialize_http_client(self):
-        """Initializes the HTTP client if not already done."""
-        if self._http_client is None and not self.test_mode:
-            self.logger.debug("Initializing HTTPX client...")
+        """Initialize the httpx client if it doesn't exist."""
+        if self._http_client is None:
+            self._http_client = httpx.Client(timeout=self.request_timeout)
+
+    def _validate_target_language(self, target_language: str):
+        """Check if the target language is supported."""
+        if target_language not in self.target_languages:
+            raise ValueError(f"Target language '{target_language}' is not supported. Supported: {self.target_languages}")
+
+    def _is_test_mode_enabled(self) -> bool:
+        """Check if the service is running in test mode."""
+        return self.test_mode
+
+    def _make_api_call_with_retry(self, method: str, endpoint: str, payload: Optional[Dict] = None) -> httpx.Response:
+        """Make an API call with retry logic."""
+        self._initialize_http_client()
+
+        # Check for API key just before making the call (unless in test mode)
+        if not self.api_key and not self._is_test_mode_enabled():
+            env_key_name = f"{self.api_provider.upper()}_API_KEY"
+            raise TranslationAuthError(f"API key for {self.api_provider} ({env_key_name}) is missing.")
+
+        headers = {'Authorization': f'DeepL-Auth-Key {self.api_key}'} # Example for DeepL
+
+        for attempt in range(self.retry_max_attempts):
             try:
-                # Set default timeout, can be made configurable later
-                self._http_client = httpx.Client(timeout=30.0)
-                self.logger.info("HTTPX client initialized.")
-            except Exception as e:
-                self.logger.exception("Failed to initialize HTTPX client")
-                # Decide if this should raise an error or just log
-                # For now, let it proceed, subsequent calls will fail if client is None
+                self.logger.debug(f"Attempt {attempt + 1}/{self.retry_max_attempts}: Calling {method} {endpoint}")
+                response = self._http_client.request(method, self.api_url + endpoint, headers=headers, data=payload) # Assuming base URL handles provider
+                response.raise_for_status() # Raise HTTPStatusError for 4xx/5xx
+                return response
+            except httpx.TimeoutException as e:
+                error = TranslationNetworkError(f"Request timed out: {e}")
+                if attempt == self.retry_max_attempts - 1:
+                    self.logger.error(f"API call timed out after {self.retry_max_attempts} attempts.")
+                    raise error
+            except httpx.RequestError as e:
+                error = TranslationNetworkError(f"Network error: {e}")
+                if attempt == self.retry_max_attempts - 1:
+                    self.logger.error(f"API call failed after {self.retry_max_attempts} attempts due to network error.")
+                    raise error
+            except httpx.HTTPStatusError as e:
+                error = self._handle_http_error(e.response)
+                if not self._is_retryable_error(error) or attempt == self.retry_max_attempts - 1:
+                    self.logger.error(f"API call failed: {error} (Attempt {attempt + 1}/{self.retry_max_attempts})")
+                    raise error
+
+            # If error is retryable and attempts remain
+            wait_time = self.retry_backoff_factor * (2 ** attempt) * (0.8 + 0.4 * random.random()) # Add jitter
+            self.logger.warning(
+                f"API call failed, retrying in {wait_time:.2f} seconds...",
+                extra={
+                    "attempt": attempt + 1,
+                    "max_attempts": self.retry_max_attempts,
+                    "wait_time": wait_time,
+                    "error_type": type(error).__name__,
+                    "status_code": getattr(error, "status_code", None)
+                }
+            )
+            time.sleep(wait_time)
+        
+        # Should not be reached if loop completes correctly, but raise generic error just in case
+        raise TranslationError(f"API call failed after {self.retry_max_attempts} attempts.")
 
     def get_supported_languages(self) -> List[str]:
         """Returns a copy of the list of supported target languages."""
@@ -118,12 +175,6 @@ class TranslationService:
         if not isinstance(language_code, str):
              return False
         return language_code in self.target_languages
-
-    def _validate_target_language(self, target_language: str):
-        """Raises an error if the target language is not supported."""
-        if not self.is_language_supported(target_language):
-             self.logger.error(f"Attempted translation to unsupported language: {target_language}")
-             raise TranslationConfigError(f"Target language '{target_language}' is not supported.")
 
     def translate_text(self, text: str, target_language: str, source_language: Optional[str] = None) -> str:
         """Translates a single text string to the target language.
@@ -144,9 +195,12 @@ class TranslationService:
         self._validate_target_language(target_language)
         self.logger.debug(f"translate_text called for target language: {target_language}, source: {source_language}")
 
-        if self.test_mode:
-            self.logger.info(f"[TEST MODE] Simulating translation for text: '{text[:50]}...'")
-            return f"[Translated {target_language}] {text}" # Simulate translation
+        if self._is_test_mode_enabled():
+            self.logger.info(f"[TEST MODE] Simulating translation for target language: {target_language}")
+            return f"[Translated {target_language}] {text}" # Return simulated translation
+
+        if not text:
+            return ""
 
         # --- Prepare API Call --- 
         self._initialize_http_client()
@@ -173,7 +227,7 @@ class TranslationService:
             payload['source_lang'] = source_language
 
         # --- Execute API Call with Retry --- 
-        response = self._make_api_call_with_retry(deepl_api_url, headers, payload)
+        response = self._make_api_call_with_retry('POST', deepl_api_url, payload)
 
         # --- Process Successful Response --- 
         # (Error handling is now inside _make_api_call_with_retry)
@@ -205,71 +259,17 @@ class TranslationService:
             return True
         return False
 
-    def _make_api_call_with_retry(self, url: str, headers: Dict, payload: Dict) -> httpx.Response:
-        """Makes the API POST request with exponential backoff retry logic."""
-        last_exception: Optional[Exception] = None
-
-        for attempt in range(self.retry_max_attempts):
-            self.logger.debug(f"Attempt {attempt+1}/{self.retry_max_attempts} to call {url}")
-            try:
-                if not self._http_client:
-                    raise RuntimeError("HTTP client became unavailable during retries.")
-                
-                response = self._http_client.post(url, headers=headers, data=payload)
-                response.raise_for_status() # Check for 4xx/5xx errors
-                # --- Success --- 
-                self.logger.debug(f"API call successful on attempt {attempt+1}")
-                return response
-
-            except httpx.HTTPStatusError as e:
-                status_code = e.response.status_code
-                error_text = e.response.text
-                self.logger.warning(f"API call attempt {attempt+1} failed with HTTP status {status_code}")
-                last_exception = e # Store the exception
-                if status_code in [401, 403]:
-                    error_to_check = TranslationAuthError(f"Authentication failed ({status_code}): {error_text}", status_code=status_code) 
-                elif status_code == 429:
-                    error_to_check = TranslationRateLimitError(f"Rate limit exceeded ({status_code}): {error_text}", status_code=status_code)
-                else:
-                    error_to_check = TranslationAPIError(f"API error ({status_code}): {error_text}", status_code=status_code)
-            
-            except httpx.RequestError as e:
-                self.logger.warning(f"API call attempt {attempt+1} failed with network error: {e}")
-                last_exception = e # Store the exception
-                error_to_check = TranslationNetworkError(f"Network error during API call: {e}")
-            
-            except Exception as e:
-                # Catch unexpected errors during the request itself
-                self.logger.error(f"Unexpected error during API call attempt {attempt+1}: {e}", exc_info=True)
-                last_exception = e
-                error_to_check = TranslationError(f"Unexpected error during API call: {e}")
-
-            # --- Retry Logic --- 
-            if self._is_retryable_error(error_to_check):
-                if attempt < self.retry_max_attempts - 1:
-                    wait_time = self.retry_backoff_factor * (2 ** attempt)
-                    # Add jitter? random.uniform(0.8, 1.2)
-                    self.logger.warning(f"Retryable error detected. Retrying in {wait_time:.2f}s...")
-                    try:
-                        time.sleep(wait_time)
-                    except KeyboardInterrupt:
-                         self.logger.warning("Retry sleep interrupted by user.")
-                         raise error_to_check from last_exception # Raise the caught error directly
-                    continue # Go to the next attempt
-                else:
-                    self.logger.error(f"API call failed after {self.retry_max_attempts} attempts due to retryable error.")
-                    raise error_to_check from last_exception # Raise the last caught retryable error
-            else:
-                # Non-retryable error occurred
-                self.logger.error(f"Non-retryable error occurred on attempt {attempt+1}. Raising immediately.")
-                raise error_to_check from last_exception # Raise the non-retryable error
-        
-        # This part should theoretically not be reached if max_attempts > 0
-        # but included for safety. Raise the last exception if the loop finishes without returning/raising.
-        if last_exception:
-             raise TranslationError("API call failed after all retries without specific error type.") from last_exception
-        else: # Should not happen if max_attempts >= 1
-             raise TranslationError("API call failed unexpectedly without exceptions after retries.")
+    def _handle_http_error(self, response: httpx.Response) -> Exception:
+        """Handles HTTP errors and returns a suitable exception."""
+        status_code = response.status_code
+        error_text = response.text
+        self.logger.warning(f"API call failed with HTTP status {status_code}")
+        if status_code in [401, 403]:
+            return TranslationAuthError(f"Authentication failed ({status_code}): {error_text}", status_code=status_code)
+        elif status_code == 429:
+            return TranslationRateLimitError(f"Rate limit exceeded ({status_code}): {error_text}", retry_after=response.headers.get('Retry-After'))
+        else:
+            return TranslationAPIError(f"API error ({status_code}): {error_text}", status_code=status_code, response_body=error_text)
 
     def translate_batch(self, texts: List[str], target_language: str, source_language: Optional[str] = None) -> List[str]:
         """Translates a batch of text strings to the target language.
@@ -290,18 +290,16 @@ class TranslationService:
         self._validate_target_language(target_language)
         self.logger.debug(f"translate_batch called for {len(texts)} items, target language: {target_language}")
 
+        if not isinstance(texts, list) or not all(isinstance(t, str) for t in texts):
+            raise TypeError("Input 'texts' must be a list of strings.")
+
+        if self._is_test_mode_enabled():
+            self.logger.info(f"[TEST MODE] Simulating batch translation for {len(texts)} items to target language: {target_language}")
+            return [f"[Translated {target_language}] {text}" for text in texts] # Return simulated batch translation
+
         if not texts:
-            self.logger.warning("translate_batch called with an empty list of texts. Returning empty list.")
             return []
         
-        # Simple type check for input
-        if not isinstance(texts, list) or not all(isinstance(t, str) for t in texts):
-             raise TypeError("Input 'texts' must be a list of strings.")
-
-        if self.test_mode:
-            self.logger.info(f"[TEST MODE] Simulating batch translation for {len(texts)} items.")
-            return [f"[Translated {target_language}] {text}" for text in texts]
-
         # --- Prepare API Call --- 
         self._initialize_http_client()
         if not self._http_client:
@@ -326,7 +324,7 @@ class TranslationService:
 
         # --- Execute API Call with Retry --- 
         # The retry helper handles underlying API/network errors
-        response = self._make_api_call_with_retry(deepl_api_url, headers, payload_list)
+        response = self._make_api_call_with_retry('POST', deepl_api_url, payload_list)
 
         # --- Process Successful Response --- 
         try:
