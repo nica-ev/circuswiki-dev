@@ -6,12 +6,8 @@ from typing import List, Dict, Optional, Any, Tuple
 import random
 
 # Adjust the import path based on your project structure
-try:
-    # Assuming running from the root of the translation-py subproject
-    from src.config_loader import ConfigLoader
-except ImportError:
-    # Fallback if running from workspace root or structure differs
-    from translation_py.src.config_loader import ConfigLoader
+# Use relative import for intra-package modules
+from ..config_loader import ConfigLoader
 
 class TranslationConfigError(ValueError):
     """Custom exception for translation service configuration errors."""
