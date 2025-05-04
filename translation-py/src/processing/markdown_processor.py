@@ -1,11 +1,14 @@
 # translation-py/src/processing/markdown_processor.py
 
-from typing import List, Tuple, Dict, Any, Optional, MutableMapping
+from typing import List, Tuple, Dict, Any, Optional, MutableMapping, Callable
 import markdown_it
 from markdown_it.token import Token
 from ..utils.types import TranslationMap, TextSegment # Uncommented import
 import re # Add import for regex
 import copy # For deep copying tokens if needed
+import logging # Added logging
+import yaml
+
 # Placeholder types if real ones aren't ready
 # class TranslationMap:
 #     def __init__(self):
@@ -21,7 +24,11 @@ import copy # For deep copying tokens if needed
 from .md_plugins.wikilinks import wikilinks_plugin
 # Import the new attributes plugin
 from .md_plugins.attributes import attributes_plugin
-import logging # Added logging
+
+# Custom Exception for Processing Errors
+class MarkdownProcessingError(Exception):
+    """Exception raised for errors in the Markdown processing pipeline."""
+    pass
 
 def get_element_path(
     token_stack: List[Token],
@@ -69,13 +76,58 @@ def get_element_path(
 class MarkdownProcessor:
     """Processes Markdown content to extract translatable segments."""
 
-    def __init__(self):
+    def __init__(self, config: Optional[Dict[str, Any]] = None):
         # Initialize markdown-it parser, enable table, use wikilinks and attributes plugins
         self.md = markdown_it.MarkdownIt()\
             .enable('table')\
             .use(wikilinks_plugin)\
             .use(attributes_plugin) # Enable attributes plugin
         self.logger = logging.getLogger(__name__) # Added logger
+        self.config = config or {}
+        self.renderer = self.md.renderer # Store renderer instance
+        self.logger.info("MarkdownProcessor initialized.")
+
+    def parse(self, text: Optional[str]) -> List[Dict[str, Any]]:
+        """Parse markdown text into a list of tokens (AST)."""
+        if text is None:
+            self.logger.error("Input text cannot be None")
+            raise TypeError("Input text cannot be None")
+        if not text:
+            return []
+        try:
+            tokens = self.md.parse(text)
+            self.logger.debug(f"Successfully parsed text into {len(tokens)} tokens.")
+            return tokens
+        except Exception as e:
+            self.logger.exception(f"Error parsing Markdown text: {e}")
+            raise
+
+    def extract_frontmatter(self, text: str) -> Tuple[Dict[str, Any], str]:
+        """Extract YAML frontmatter and the remaining content."""
+        # Regex pattern to match frontmatter between triple dashes
+        pattern = r'^---\s*\n(.*?)\n---\s*\n(.*)$'
+        match = re.match(pattern, text, re.DOTALL | re.MULTILINE) # Added MULTILINE flag
+
+        if not match:
+            return {}, text
+        
+        yaml_part = match.group(1).strip()
+        content_part = match.group(2).strip()
+        
+        if not yaml_part: # Handle empty block
+            return {}, content_part
+            
+        try:
+            frontmatter = yaml.safe_load(yaml_part)
+            if isinstance(frontmatter, dict):
+                self.logger.debug("Successfully extracted frontmatter.")
+                return frontmatter, content_part
+            else:
+                self.logger.warning(f"Parsed frontmatter is not a dictionary (type: {type(frontmatter)}). Treating as no frontmatter.")
+                return {}, text # Return original text if frontmatter isn't a dict
+        except yaml.YAMLError as e:
+            self.logger.warning(f"Could not parse YAML frontmatter: {e}")
+            return {}, text # Return original text on YAML error
 
     def _extract_inline_text(self, tokens: List[Token]) -> str:
         """
@@ -252,129 +304,298 @@ class MarkdownProcessor:
 
         return translation_map
 
-    def reassemble_markdown(self, original_markdown: str, translated_segments: TranslationMap) -> str:
-        """
-        Reassembles the Markdown document with translated text segments.
-        Currently uses Strategy A: Replaces the content of the first text node
-        within an inline sequence.
-        """
+    def _find_token_by_path(self, tokens: List[Dict[str, Any]], path: str) -> Optional[Dict[str, Any]]:
+        """Finds a token in the AST based on its path (basic implementation)."""
+        # This is a simplified version. A robust implementation needs to handle the path structure correctly.
+        # The current path structure might need refinement.
         try:
-            tokens = self.md.parse(original_markdown)
-        except Exception as e:
-            self.logger.exception(f"Markdown parsing failed during reassembly: {e}")
-            return original_markdown # Return original if parsing fails
+            # Assuming path is like "paragraph_open_1.inline_2" or just "paragraph_open_1"
+            # For now, we just use the index from the last part of the path.
+            # This will break if paths become more complex.
+            parts = path.split('.')
+            last_part = parts[-1]
+            # Extract index if it exists after an underscore
+            match = re.search(r'_(\d+)$', last_part)
+            if match:
+                index = int(match.group(1))
+                if 0 <= index < len(tokens):
+                    # The path points to the opening token. We need the corresponding inline token.
+                    opening_token = tokens[index]
+                    if opening_token.type.endswith('_open') and index + 1 < len(tokens) and tokens[index+1].type == 'inline':
+                        return tokens[index+1] # Return the inline token
+                    elif opening_token.type == 'inline': # Maybe path points directly to inline? Needs review.
+                         return opening_token
+            self.logger.warning(f"Could not parse index from path part: {last_part} in path {path}")
+            return None
+        except (IndexError, ValueError, TypeError) as e:
+            self.logger.error(f"Error finding token by path '{path}': {e}")
+            return None
+        
+    def replace_node_content(self, token: Dict[str, Any], translated_text: str) -> bool:
+        """
+        Replace the content of the first text child within an inline token.
+        
+        Args:
+            token: The inline token containing text to replace.
+            translated_text: The new text content.
             
-        path_counts: MutableMapping[str, int] = {}
-        token_stack: List[Token] = []
-        table_context: Optional[Dict] = None # For table cell tracking
+        Returns:
+            bool: True if replacement succeeded, False otherwise.
+        """
+        if not isinstance(token, dict) or token.get('type') != 'inline':
+            self.logger.error(f"Expected 'inline' token dictionary for content replacement, got {type(token)}")
+            return False
 
-        # Deep copy tokens to avoid modifying the original parse result if reused
+        children = token.get('children')
+        if children is None:
+            self.logger.warning(f"Inline token has no children list. Path: {token.get('path', 'N/A')}")
+            return False
+        
+        if not isinstance(children, list):
+             self.logger.error(f"Inline token children is not a list. Path: {token.get('path', 'N/A')}")
+             return False
+
+        found_text_child = False
+        for i, child_token in enumerate(children):
+            if isinstance(child_token, dict) and child_token.get('type') == 'text':
+                original_content = child_token.get('content', '')
+                child_token['content'] = translated_text
+                # According to Strategy A, remove subsequent children 
+                # This simplifies reassembly but loses internal formatting.
+                token['children'] = children[:i+1]
+                self.logger.debug(f"Replaced content in token path {token.get('path', 'N/A')}: '{original_content[:30]}...' -> '{translated_text[:30]}...'")
+                found_text_child = True
+                break # Only replace the first text child
+        
+        if not found_text_child:
+            self.logger.warning(f"No text child found in inline token to replace content. Path: {token.get('path', 'N/A')}")
+            return False
+            
+        return True
+
+    def reassemble_markdown(self, original_markdown: str, translated_segments: Dict[str, str]) -> str:
+        """Reassembles the markdown document using translated segments."""
+        self.logger.info(f"Starting reassembly with {len(translated_segments)} translations.")
+        frontmatter_dict, content = self.extract_frontmatter(original_markdown)
+        original_tokens = self.parse(content)
+        modified_tokens = [t.copy() for t in original_tokens] # Work on a copy
+
+        processed_paths = set()
+        errors = 0
+
+        for path, translation in translated_segments.items():
+            if path in processed_paths:
+                 self.logger.warning(f"Skipping duplicate path in translation data: {path}")
+                 continue
+
+            target_token = self._find_token_by_path(modified_tokens, path)
+            
+            if not target_token:
+                self.logger.error(f"Could not find target token for path: {path}")
+                errors += 1
+                continue
+
+            # Assign path to token for logging within replace_node_content
+            target_token['path'] = path 
+
+            if not self.replace_node_content(target_token, translation):
+                self.logger.error(f"Failed to replace content for token at path: {path}")
+                errors += 1
+            else:
+                processed_paths.add(path)
+
+        if errors > 0:
+             self.logger.error(f"Reassembly completed with {errors} errors.")
+        else:
+             self.logger.info("Reassembly completed successfully.")
+
+        # Render the modified token list back to HTML (or markdown if renderer supports it)
         try:
-            tokens_copy = copy.deepcopy(tokens)
+            reassembled_content = self.renderer.render(modified_tokens)
         except Exception as e:
-             self.logger.exception(f"Failed to deep copy tokens: {e}")
-             # Fallback or re-raise? For now, maybe try rendering original tokens?
-             return self.md.renderer.render(tokens, self.md.options, {}) 
+             self.logger.exception(f"Error rendering modified tokens: {e}")
+             # Fallback: return original content or raise error?
+             return content # Fallback for now
 
-        i = 0
-        # Initialize table_count for reassembly loop
-        table_count = 0 
-        while i < len(tokens_copy):
-            token = tokens_copy[i]
-
-            # --- Context Management (Path Stack & Table Tracking) ---
-            is_block_opening = token.type.endswith('_open') and token.nesting == 1
-            is_block_closing = token.type.endswith('_close') and token.nesting == -1
-
-            # === COPY EXACT Table Context Logic from Extraction ===
-            if token.type == 'table_open':
-                table_count += 1
-                table_context = {'table_index': table_count, 'row_index': 0, 'cell_index': 0, 'in_header': False}
-            elif token.type == 'table_close' and table_context:
-                table_context = None
-            elif table_context:
-                 if token.type == 'thead_open':
-                     table_context['in_header'] = True
-                     table_context['row_index'] = 0
-                 elif token.type == 'thead_close' and table_context: table_context['in_header'] = False
-                 elif token.type == 'tr_open' and table_context: table_context['row_index'] += 1; table_context['cell_index'] = 0
-                 elif token.type in ['th_open', 'td_open'] and table_context: table_context['cell_index'] += 1
-            # === END COPIED LOGIC ===
-
-            # --- Stack Management --- (Same as before)
-            if is_block_opening:
-                token_stack.append(token)
-            elif is_block_closing and token_stack and token_stack[-1].type == token.type.replace('_close', '_open'):
-                token_stack.pop()
-            elif not token_stack and token.nesting != 0:
-                 self.logger.warning(f"Token stack empty but token has nesting: {token}")
-                 pass
-
-            # --- Translation Replacement (Strategy A) ---
-            is_translatable_block_start = token.type in [
-                'paragraph_open', 'heading_open',
-                'list_item_open', 'blockquote_open',
-                'th_open', 'td_open'
-            ]
-
-            if is_translatable_block_start and i + 1 < len(tokens_copy) and tokens_copy[i+1].type == 'inline':
-                inline_token = tokens_copy[i+1]
+        # Reconstruct frontmatter + content
+        if frontmatter_dict:
+            try:
+                # Use ruamel.yaml if available for better formatting preservation
                 try:
-                    # REMOVED DEBUG PRINT - Reassembly
-                    current_path = get_element_path(list(token_stack), path_counts, table_context)
-                except Exception as e:
-                    self.logger.exception(f"Error generating path for token {token}: {e}")
-                    current_path = None
-                    
-                if current_path:
-                    translated_text = translated_segments.get(current_path)
-                    if translated_text is not None:
-                        # Strategy A: Find the first text token in children and replace its content
-                        first_text_child_found = False
-                        if inline_token.children:
-                            for child_idx, child_token in enumerate(inline_token.children):
-                                if child_token.type == 'text':
-                                    self.logger.debug(f"Replacing text in path '{current_path}'. Original: '{child_token.content[:30]}...'")
-                                    child_token.content = translated_text # Replace content
-                                    inline_token.children = inline_token.children[:child_idx+1] 
-                                    first_text_child_found = True
-                                    break
-                        
-                        if not first_text_child_found:
-                             self.logger.debug(f"No text child found for path '{current_path}', inserting new text token.")
-                             inline_token.children.insert(0, Token(type='text', tag='', nesting=0, content=translated_text))
-            i += 1 # Move to the next token
+                    from ruamel.yaml import YAML
+                    from io import StringIO
+                    yaml_parser = YAML()
+                    yaml_parser.indent(mapping=2, sequence=4, offset=2)
+                    string_stream = StringIO()
+                    yaml_parser.dump(frontmatter_dict, string_stream)
+                    frontmatter_yaml = string_stream.getvalue()
+                except ImportError:
+                     # Fallback to pyyaml
+                    frontmatter_yaml = yaml.dump(frontmatter_dict, default_flow_style=False, sort_keys=False)
+                
+                return f"---\
+{frontmatter_yaml}---\
+\n{reassembled_content}"
+            except Exception as e:
+                 self.logger.exception(f"Error reconstructing frontmatter: {e}")
+                 # Fallback if frontmatter fails
+                 return reassembled_content
+        else:
+            return reassembled_content
 
-        # Render the modified token stream back to HTML
+    # --- Validation --- 
+
+    def _compare_ast_structure(self, original_nodes: List[Dict], translated_nodes: List[Dict]) -> bool:
+        """
+        Recursively compares the structure of two AST lists (token streams).
+        Only compares node types and hierarchy, not content or attributes.
+
+        Args:
+            original_nodes: The first AST list (token stream).
+            translated_nodes: The second AST list (token stream).
+
+        Returns:
+            bool: True if structures match, False otherwise.
+        """
+        if len(original_nodes) != len(translated_nodes):
+            self.logger.debug(f"_compare_ast_structure: Length mismatch ({len(original_nodes)} vs {len(translated_nodes)})")
+            return False
+
+        for i in range(len(original_nodes)):
+            orig_node = original_nodes[i]
+            trans_node = translated_nodes[i]
+
+            # Compare node type
+            if orig_node.get('type') != trans_node.get('type'):
+                self.logger.debug(f"_compare_ast_structure: Type mismatch at index {i}: {orig_node.get('type')} vs {trans_node.get('type')}")
+                return False
+
+            # Compare nesting level
+            if orig_node.get('level') != trans_node.get('level'):
+                self.logger.debug(f"_compare_ast_structure: Level mismatch at index {i}: {orig_node.get('level')} vs {trans_node.get('level')}")
+                return False
+
+            # Compare presence of children (handle None or empty list)
+            orig_children = orig_node.get('children')
+            trans_children = trans_node.get('children')
+            orig_has_children = bool(orig_children)
+            trans_has_children = bool(trans_children)
+
+            if orig_has_children != trans_has_children:
+                self.logger.debug(f"_compare_ast_structure: Children presence mismatch at index {i}")
+                return False
+
+            # Recursively compare children if they exist
+            if orig_has_children: # Both must have children if one does due to check above
+                if not self._compare_ast_structure(orig_children, trans_children): # Recursive call on children lists
+                    return False
+
+        return True
+
+    def validateReconstructedMarkdown(self, original_markdown: str, reconstructed_markdown: str) -> bool:
+        """
+        Validates the structural integrity of translated Markdown compared to original.
+
+        Args:
+            original_markdown: The source Markdown text.
+            reconstructed_markdown: The translated Markdown text.
+
+        Returns:
+            bool: True if validation passes, False otherwise.
+        """
         try:
-            rendered_html = self.md.renderer.render(tokens_copy, self.md.options, {})
-            return rendered_html
+            # Basic validation: ensure the translated content can be parsed
+            self.logger.debug("Validating reconstructed markdown: Parsing...")
+            translated_ast = self.parse(reconstructed_markdown)
+            original_ast = self.parse(original_markdown)
+            self.logger.debug("Validating reconstructed markdown: Comparing structure...")
+
+            # Compare structure (not content) of both ASTs
+            if not self._compare_ast_structure(original_ast, translated_ast):
+                self.logger.warning("Structural mismatch between original and translated Markdown ASTs.")
+                return False
+
+            self.logger.debug("Reconstructed Markdown validation passed.")
+            return True
         except Exception as e:
-             self.logger.exception(f"Error rendering modified tokens to HTML: {e}")
-             # Fallback: Try rendering original tokens?
-             try:
-                 return self.md.renderer.render(tokens, self.md.options, {})
-             except Exception as re:
-                  self.logger.exception(f"Fallback rendering also failed: {re}")
-                  return f"<p>Error during reassembly: {e}</p>" # Return error message
+            self.logger.error(f"Validation failed during parsing or comparison: {str(e)}", exc_info=True)
+            return False
 
-# Example Usage (for testing/dev):
+    # --- Main Orchestration --- 
+
+    def translateMarkdown(self, markdown_text: str, translations: Dict[str, str]) -> str:
+        """
+        Orchestrates the entire Markdown translation process.
+
+        Args:
+            markdown_text: Original Markdown content.
+            translations: Dictionary mapping original segment paths to translated text.
+
+        Returns:
+            str: Translated Markdown content.
+
+        Raises:
+            MarkdownProcessingError: If the translation process fails.
+        """
+        try:
+            # 1. Extract Frontmatter (Optional but good practice)
+            self.logger.info("Extracting frontmatter...")
+            frontmatter, content_to_process = self.extract_frontmatter(markdown_text)
+            # Note: Frontmatter isn't used directly here but might be in a full workflow
+
+            # 2. Parse the main content to AST
+            self.logger.info("Parsing original Markdown to AST...")
+            # Use original_ast for reassembly to preserve original structure accurately
+            original_ast = self.parse(content_to_process) 
+
+            # 3. Apply translations and reconstruct
+            # We need the original AST to modify it based on paths from extraction
+            # (Assuming `extract_translatable_segments` generated the paths for `translations` dict)
+            self.logger.info(f"Applying {len(translations)} translations to AST...")
+            # Pass a deep copy of the AST to reassemble_markdown to avoid modifying the original in place
+            reconstructed_markdown = self.reassemble_markdown(copy.deepcopy(original_ast), translations)
+
+            # 4. Validate the result (Optional but recommended)
+            self.logger.info("Validating reconstructed Markdown structure...")
+            if not self.validateReconstructedMarkdown(content_to_process, reconstructed_markdown):
+                # Log warning but proceed - maybe structure change is acceptable?
+                self.logger.warning("Structural validation warnings occurred during reconstruction.")
+            else:
+                self.logger.info("Structural validation passed.")
+
+            # 5. Re-add frontmatter if it existed
+            if frontmatter:
+                # This step requires careful formatting to prepend YAML correctly
+                try:
+                    # Use safe_dump for security and Dumper to control formatting
+                    yaml_string = yaml.dump(frontmatter, Dumper=yaml.SafeDumper, default_flow_style=False, allow_unicode=True)
+                    final_output = f"---\n{yaml_string.strip()}\n---\n{reconstructed_markdown}"
+                    self.logger.debug("Prepended original frontmatter to reconstructed content.")
+                except yaml.YAMLError as yml_err:
+                    self.logger.error(f"Failed to dump frontmatter back to YAML: {yml_err}")
+                    # Fallback to just returning the reconstructed content without frontmatter
+                    final_output = reconstructed_markdown
+            else:
+                final_output = reconstructed_markdown
+
+            self.logger.info("Markdown translation process completed successfully.")
+            return final_output
+
+        except MarkdownProcessingError as mpe:
+             self.logger.error(f"Markdown processing error during translation: {mpe}", exc_info=True)
+             raise # Re-raise specific processing errors
+        except Exception as e:
+            error_msg = f"Unexpected error during Markdown translation: {str(e)}"
+            self.logger.error(error_msg, exc_info=True) # Log with stack trace
+            raise MarkdownProcessingError(error_msg) from e
+
+# Example Usage (for illustration)
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.DEBUG)
     processor = MarkdownProcessor()
-    md_example = """
-# Header 1
-
-This is a paragraph with *emphasis*.
-
-- List item 1
-- List item 2
-
-> A blockquote here.
-
-```python
-print("ignore me")
-```
-    """
-    tmap = processor.extract_translatable_segments(md_example)
-    for segment in tmap.segments:
-        print(f"Type: {segment.type}, Path: {segment.path}, Text: {segment.text}") 
+    # ... add example markdown and translations ...
+    # try:
+    #     translated_md = processor.translateMarkdown(example_md, example_translations)
+    #     print("Translated Markdown:\n", translated_md)
+    # except MarkdownProcessingError as e:
+    #     print(f"Error: {e}") 
