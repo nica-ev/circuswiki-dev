@@ -11,7 +11,7 @@ Extend MarkdownProcessor or implement a secondary parsing stage to handle comple
 Following TDD principles, write tests first for each component before implementation. Process Markdown files with various elements and verify all translatable text is correctly extracted. Confirm non-translatable elements are preserved. Verify the mapping between extracted text and original locations is accurate. Add emphasis on testing complex inline sequences: Process Markdown files containing mixed text, WikiLinks, attributes, inline code, standard links/images, and HTML. Verify correct extraction of only translatable parts (e.g., WikiLink alias, text nodes) and accurate preservation of all non-translatable syntax. Verify the mapping enables perfect reconstruction after simulated translation.
 
 # Subtasks:
-## 1. Define text segment data structure [pending]
+## 1. Define text segment data structure [done]
 ### Dependencies: None
 ### Description: Create a data structure to represent extractable text segments and their mapping back to the AST
 ### Details:
@@ -20,6 +20,302 @@ Using TDD, first write tests for the TextSegment class/interface that contains: 
 <info added on 2025-05-04T03:37:30.837Z>
 The reference/position information must be highly granular to support accurate reassembly of complex inline sequences (mixed text, links, code, attributes). Consider using character offsets, node paths within inline parses, or unique segment IDs tied to a detailed parse tree. For inline elements, implement a nested segment approach where parent segments contain references to child segments with precise boundary information. Use a combination of absolute document position and relative node position to handle cases where the same text appears multiple times. Consider implementing a "breadcrumb trail" of node types and indices to ensure exact placement during reassembly, especially for nested inline formatting like `**bold _italic_ text**` where order matters. Test with complex cases involving nested formatting, links with formatted text, and code blocks with annotations.
 </info added on 2025-05-04T03:37:30.837Z>
+
+<info added on 2025-05-04T03:47:59.766Z>
+<info added on 2025-05-05T14:22:45.123Z>
+## Implementation Details
+
+### TextSegment Interface
+```typescript
+interface TextSegment {
+  id: string;                    // Unique identifier
+  content: string;               // Extracted text content
+  astNode: Node;                 // Reference to original AST node
+  segmentType: SegmentType;      // Type classification
+  position: PositionInfo;        // Position metadata
+  parentId?: string;             // Optional reference to parent segment
+  childIds?: string[];           // Optional references to child segments
+}
+
+enum SegmentType {
+  PARAGRAPH,
+  HEADING,
+  LIST_ITEM,
+  CODE_BLOCK,
+  INLINE_CODE,
+  BOLD,
+  ITALIC,
+  LINK,
+  IMAGE,
+  TABLE_CELL,
+  // Add other types as needed
+}
+
+interface PositionInfo {
+  startOffset: number;           // Character offset in document
+  endOffset: number;             // End character offset
+  nodePath: string[];            // Path of indices to node in AST
+  breadcrumbs: NodeBreadcrumb[]; // Detailed path information
+}
+
+interface NodeBreadcrumb {
+  nodeType: string;              // Type of node
+  index: number;                 // Index within parent's children
+  attributes?: Record<string, any>; // Any attributes to preserve
+}
+```
+
+### TranslationMap Class
+```typescript
+class TranslationMap {
+  private segments: Map<string, TextSegment> = new Map();
+  private orderedIds: string[] = [];
+  
+  addSegment(segment: TextSegment): void {
+    if (this.segments.has(segment.id)) {
+      throw new Error(`Segment with ID ${segment.id} already exists`);
+    }
+    this.segments.set(segment.id, segment);
+    this.orderedIds.push(segment.id);
+    
+    // If this segment has a parent, update the parent's childIds
+    if (segment.parentId && this.segments.has(segment.parentId)) {
+      const parent = this.segments.get(segment.parentId)!;
+      parent.childIds = parent.childIds || [];
+      parent.childIds.push(segment.id);
+    }
+  }
+  
+  getSegment(id: string): TextSegment | undefined {
+    return this.segments.get(id);
+  }
+  
+  getAllSegments(): TextSegment[] {
+    return this.orderedIds.map(id => this.segments.get(id)!);
+  }
+  
+  getNestedSegments(): TextSegment[] {
+    // Return only top-level segments (those without parents)
+    return this.getAllSegments().filter(segment => !segment.parentId);
+  }
+  
+  getChildSegments(parentId: string): TextSegment[] {
+    const parent = this.segments.get(parentId);
+    if (!parent || !parent.childIds) return [];
+    return parent.childIds.map(id => this.segments.get(id)!);
+  }
+}
+```
+
+### Segment ID Generation Strategy
+Implement a deterministic ID generation function that combines:
+1. Document-level position information
+2. Node type
+3. Content hash (for uniqueness when same content appears multiple times)
+
+```typescript
+function generateSegmentId(node: Node, position: PositionInfo, content: string): string {
+  const contentHash = createHash('md5').update(content).digest('hex').substring(0, 8);
+  return `${position.startOffset}-${position.endOffset}-${node.type}-${contentHash}`;
+}
+```
+
+This approach ensures reliable reassembly even with complex nested structures and repeated content patterns.
+</info added on 2025-05-05T14:22:45.123Z>
+</info added on 2025-05-04T03:47:59.766Z>
+
+<info added on 2025-05-04T03:48:28.866Z>
+<info added on 2025-05-06T15:30:12.456Z>
+## Implementation Plan (TDD Approach)
+
+### Phase 1: Setup and Basic Implementation
+1. **Setup Files**:
+   - Create `src/processing/segments.ts`
+   - Create `src/processing/segments.test.ts`
+
+2. **Define Types/Interfaces (`segments.ts`)**:
+   - Define basic `TextSegment` structure (start simple: id, content, type, basic position)
+   - Define basic `TranslationMap` structure (start simple: addSegment, getSegmentById)
+
+3. **Write Initial Tests (`segments.test.ts`)**:
+   ```typescript
+   describe('TextSegment', () => {
+     it('should create a valid segment with minimal data', () => {
+       const segment = {
+         id: 'seg1',
+         content: 'Sample text',
+         segmentType: SegmentType.PARAGRAPH,
+         astNode: mockAstNode,
+         position: { startOffset: 0, endOffset: 11, nodePath: [], breadcrumbs: [] }
+       };
+       expect(segment.id).toBe('seg1');
+       expect(segment.content).toBe('Sample text');
+     });
+   });
+
+   describe('TranslationMap', () => {
+     it('should add and retrieve segments', () => {
+       const map = new TranslationMap();
+       const segment = createTestSegment('seg1', 'Sample text');
+       
+       map.addSegment(segment);
+       expect(map.getSegment('seg1')).toEqual(segment);
+     });
+   });
+   ```
+
+4. **Implement to Pass Tests (`segments.ts`)**:
+   - Implement the minimal `TextSegment` interface and `TranslationMap` class
+
+### Phase 2: Refinement and Advanced Features
+5. **Refine Position Information**:
+   - Test: Write tests for complex position data handling
+   ```typescript
+   it('should store and retrieve detailed position information', () => {
+     const breadcrumbs = [
+       { nodeType: 'document', index: 0 },
+       { nodeType: 'paragraph', index: 2, attributes: { className: 'intro' } }
+     ];
+     const segment = createTestSegment('seg2', 'Text with position', {
+       startOffset: 45,
+       endOffset: 62,
+       nodePath: ['0', '2', '0'],
+       breadcrumbs
+     });
+     
+     const map = new TranslationMap();
+     map.addSegment(segment);
+     const retrieved = map.getSegment('seg2');
+     
+     expect(retrieved?.position.breadcrumbs).toEqual(breadcrumbs);
+     expect(retrieved?.position.nodePath).toEqual(['0', '2', '0']);
+   });
+   ```
+
+6. **Implement Nested Segments**:
+   - Test: Write tests for parent-child relationships
+   ```typescript
+   it('should handle parent-child segment relationships', () => {
+     const map = new TranslationMap();
+     const parent = createTestSegment('parent1', 'Parent text');
+     const child1 = createTestSegment('child1', 'Child 1', undefined, 'parent1');
+     const child2 = createTestSegment('child2', 'Child 2', undefined, 'parent1');
+     
+     map.addSegment(parent);
+     map.addSegment(child1);
+     map.addSegment(child2);
+     
+     expect(map.getChildSegments('parent1')).toHaveLength(2);
+     expect(map.getChildSegments('parent1')[0].id).toBe('child1');
+     expect(map.getNestedSegments()).toHaveLength(1); // Only parent is top-level
+   });
+   ```
+
+7. **Test Edge Cases**:
+   ```typescript
+   it('should throw error when adding duplicate segment ID', () => {
+     const map = new TranslationMap();
+     const segment1 = createTestSegment('dup', 'First');
+     const segment2 = createTestSegment('dup', 'Second');
+     
+     map.addSegment(segment1);
+     expect(() => map.addSegment(segment2)).toThrow(/already exists/);
+   });
+   
+   it('should handle complex nested formatting correctly', () => {
+     // Create a complex structure with multiple nesting levels
+     const boldSegment = createTestSegment('bold1', '**bold _italic_ text**');
+     const italicSegment = createTestSegment('italic1', '_italic_', undefined, 'bold1');
+     
+     const map = new TranslationMap();
+     map.addSegment(boldSegment);
+     map.addSegment(italicSegment);
+     
+     // Test retrieval and relationships
+     expect(map.getSegment('bold1')?.childIds).toContain('italic1');
+     expect(map.getSegment('italic1')?.parentId).toBe('bold1');
+   });
+   ```
+
+8. **Test ID Generation**:
+   ```typescript
+   describe('generateSegmentId', () => {
+     it('should generate deterministic IDs for the same input', () => {
+       const node = mockAstNode;
+       const position = { startOffset: 10, endOffset: 20, nodePath: ['0', '1'], breadcrumbs: [] };
+       const content = 'Test content';
+       
+       const id1 = generateSegmentId(node, position, content);
+       const id2 = generateSegmentId(node, position, content);
+       
+       expect(id1).toBe(id2);
+     });
+     
+     it('should generate different IDs for different content', () => {
+       const node = mockAstNode;
+       const position = { startOffset: 10, endOffset: 20, nodePath: ['0', '1'], breadcrumbs: [] };
+       
+       const id1 = generateSegmentId(node, position, 'Content A');
+       const id2 = generateSegmentId(node, position, 'Content B');
+       
+       expect(id1).not.toBe(id2);
+     });
+   });
+   ```
+
+### Helper Functions for Testing
+```typescript
+function createTestSegment(
+  id: string, 
+  content: string, 
+  position?: Partial<PositionInfo>,
+  parentId?: string
+): TextSegment {
+  return {
+    id,
+    content,
+    astNode: mockAstNode,
+    segmentType: SegmentType.PARAGRAPH,
+    position: {
+      startOffset: 0,
+      endOffset: content.length,
+      nodePath: [],
+      breadcrumbs: [],
+      ...position
+    },
+    parentId,
+    childIds: []
+  };
+}
+
+const mockAstNode = { type: 'paragraph', children: [] };
+```
+</info added on 2025-05-06T15:30:12.456Z>
+</info added on 2025-05-04T03:48:28.866Z>
+
+<info added on 2025-05-04T03:48:40.938Z>
+## TDD Implementation Plan (Attempt 3)
+
+**Phase 1: Setup & Basics**
+1. Create `src/processing/segments.ts` and `src/processing/segments.test.ts`.
+2. Define initial `TextSegment`, `PositionInfo`, `SegmentType`, `NodeBreadcrumb` interfaces and `TranslationMap` class structure in `segments.ts`.
+3. Write basic tests in `segments.test.ts`:
+   - `TextSegment` creation.
+   - `TranslationMap.addSegment`.
+   - `TranslationMap.getSegment`.
+4. Implement minimal code in `segments.ts` to make basic tests pass.
+
+**Phase 2: Feature Implementation (Iterative)**
+5. **Complex Positions**: Test -> Implement -> Test complex `PositionInfo` (breadcrumbs, nodePath).
+6. **Segment Ordering**: Test -> Implement -> Test `TranslationMap.getAllSegments` returns in added order.
+7. **Nesting**: Test -> Implement -> Test `TextSegment` `parentId`/`childIds` & `TranslationMap.getChildSegments` / `getNestedSegments`.
+8. **Duplicate Check**: Test -> Implement -> Test `TranslationMap.addSegment` throws on duplicate ID.
+9. **ID Generation**: Test -> Implement -> Test `generateSegmentId` utility (if created separately).
+
+**Phase 3: Finalize**
+10. Review all code and tests.
+11. Ensure all requirements from the initial description and previous notes are met.
+</info added on 2025-05-04T03:48:40.938Z>
 
 ## 2. Implement AST visitor pattern [pending]
 ### Dependencies: 7.1
