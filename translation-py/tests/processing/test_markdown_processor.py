@@ -2,6 +2,7 @@
 
 import pytest
 from src.processing.markdown_processor import MarkdownProcessor, TextSegment, TranslationMap
+from typing import Dict
 
 # Helper function to check if a segment with specific text/type exists
 def has_segment(segments, text, seg_type):
@@ -170,7 +171,16 @@ class TestMarkdownProcessorInlineElements:
         segments = result.segments
         assert len(segments) == 1
         assert segments[0].type == 'paragraph'
+        # markdown-it-py renders <strong><em>, so extracted text is concatenated
         assert segments[0].text == "Mixed bold and italic text."
+        
+    def test_extract_nested_emphasis_alternative(self, processor):
+        markdown = "More ***bold italic*** mixed."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "More bold italic mixed."
 
     def test_extract_link_text(self, processor):
         markdown = "Here is a [link text](http://example.com)."
@@ -221,5 +231,260 @@ class TestMarkdownProcessorInlineElements:
         segments = result.segments
         assert len(segments) == 1
         assert segments[0].type == 'paragraph'
+        # Expected: text + italic + text + bold + text + (skipped code) + text + link_text + text + img_alt + text
         expected = "A para with italic, bold, , link, and img alt."
-        assert segments[0].text == expected 
+        assert segments[0].text == expected
+
+    # --- WikiLink Tests (Subtask 7.7) ---
+    
+    def test_extract_wikilink_simple_no_alias(self, processor):
+        # Decision: Do not extract target if no alias is present.
+        markdown = "Link to [[Another Page]]."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Link to ." # Target is not extracted
+
+    def test_extract_wikilink_alias(self, processor):
+        markdown = "Link with [[Target Page|Display Alias]]."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Link with Display Alias." # Alias is extracted
+        
+    def test_extract_wikilink_alias_empty(self, processor):
+        # Behavior for empty alias might depend on desired handling/plugin logic
+        # Assuming empty alias means extract nothing for now.
+        markdown = "Link with [[Target Page|]]."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Link with ." 
+        
+    def test_wikilink_ignored_in_code(self, processor):
+        markdown = "Code `[[ignore this|alias]]` block."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Code block." # Code content ignored
+        assert "alias" not in segments[0].text
+        
+    def test_mixed_content_with_wikilinks(self, processor):
+        markdown = "Text, [[Target1|Alias1]], more text, [[Target2]], final."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Text, Alias1, more text, , final." # Only alias extracted
+
+    # --- Attribute Tests (Subtask 7.8) ---
+    def test_attribute_block_ignored_simple_class(self, processor):
+        markdown = "Text before { .my-class } after text."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Text before after text."
+
+    def test_attribute_block_ignored_key_value(self, processor):
+        markdown = "More text { key=value another=\"quoted val\" } here."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "More text here."
+
+    def test_attribute_block_in_code_is_code(self, processor):
+        markdown = "This is code `with an { .attribute } inside`."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # The content of code_inline is ignored by the extractor
+        assert segments[0].text == "This is code ."
+
+    def test_attribute_block_near_other_inline(self, processor):
+        markdown = "Some *italic*{.attr}**bold** text."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Some italicbold text."
+
+    def test_attribute_block_with_escaped_braces_ignored(self, processor):
+        # Assuming escaped braces should not trigger attribute parsing
+        markdown = "Text with \\{escaped\\} braces."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        # Escaped braces are typically rendered as literal braces by markdown-it
+        assert segments[0].text == "Text with {escaped} braces."
+
+    def test_attribute_block_unterminated(self, processor):
+        # Expect the unterminated block to be treated as text
+        markdown = "Text with an { incomplete attribute."
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert len(segments) == 1
+        assert segments[0].type == 'paragraph'
+        assert segments[0].text == "Text with an { incomplete attribute."
+
+# New class for table element tests
+class TestMarkdownProcessorTableElements:
+
+    @pytest.fixture
+    def processor(self):
+        return MarkdownProcessor()
+
+    def test_simple_table(self, processor):
+        markdown = """
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+"""
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert has_segment(segments, 'Header 1', 'table_header_cell')
+        assert has_segment(segments, 'Header 2', 'table_header_cell')
+        assert has_segment(segments, 'Cell 1', 'table_data_cell')
+        assert has_segment(segments, 'Cell 2', 'table_data_cell')
+        assert has_segment(segments, 'Cell 3', 'table_data_cell')
+        assert has_segment(segments, 'Cell 4', 'table_data_cell')
+        assert len(segments) == 6
+        # Optional: Verify path contains row/col info if implemented
+        # e.g., assert segments[0].path.endswith('tr_1 > th_1')
+
+    def test_table_with_inline_formatting(self, processor):
+        markdown = """
+| Header | Formatted Cell |
+|--------|----------------|
+| Row 1  | Cell with *italic* and **bold** |
+| Row 2  | Cell with `code` and [link](url) |
+"""
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert has_segment(segments, 'Header', 'table_header_cell')
+        assert has_segment(segments, 'Formatted Cell', 'table_header_cell')
+        assert has_segment(segments, 'Row 1', 'table_data_cell')
+        assert has_segment(segments, 'Cell with italic and bold', 'table_data_cell')
+        assert has_segment(segments, 'Row 2', 'table_data_cell')
+        # Expecting code ignored, link text extracted
+        assert has_segment(segments, 'Cell with and link', 'table_data_cell') 
+        assert len(segments) == 6
+        assert not has_text(segments, 'code')
+        assert not has_text(segments, 'url')
+
+    def test_table_with_empty_cells(self, processor):
+        markdown = """
+| Col A | Col B |
+|-------|-------|
+| Data  |       |
+|       | Data2 |
+"""
+        result = processor.extract_translatable_segments(markdown)
+        segments = result.segments
+        assert has_segment(segments, 'Col A', 'table_header_cell')
+        assert has_segment(segments, 'Col B', 'table_header_cell')
+        assert has_segment(segments, 'Data', 'table_data_cell')
+        assert has_segment(segments, 'Data2', 'table_data_cell')
+        # Only 4 segments expected, empty cells should not produce segments
+        assert len(segments) == 4 
+
+# New class for reassembly tests
+class TestMarkdownProcessorReassembly:
+
+    @pytest.fixture
+    def processor(self):
+        return MarkdownProcessor()
+
+    def _get_dummy_translations(self, processor: MarkdownProcessor, markdown: str) -> Dict[str, str]:
+        """Helper to extract segments and create dummy translations."""
+        segments_map = processor.extract_translatable_segments(markdown)
+        translations = {}
+        for segment in segments_map.segments:
+            translations[segment.path] = f"{segment.text}[Translated]"
+        return translations
+
+    def test_reassemble_simple_paragraph(self, processor):
+        markdown = "This is a simple paragraph."
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        expected = "This is a simple paragraph.[Translated]"
+        # Note: Exact output depends heavily on reassembly implementation (e.g., newline handling)
+        # We might need to adjust assertion based on how md-it renderer works or our string building.
+        # Initial simple assertion:
+        assert reassembled.strip() == expected.strip()
+
+    def test_reassemble_headings(self, processor):
+        markdown = "# H1\n## H2"
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        expected = "# H1[Translated]\n\n## H2[Translated]"
+        assert reassembled.strip() == expected.strip() # Basic check
+
+    def test_reassemble_list_items(self, processor):
+        markdown = "- Item 1\n- Item 2"
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        expected = "- Item 1[Translated]\n- Item 2[Translated]"
+        # This assumes simple list rendering. Might need adjustment.
+        assert reassembled.strip().replace('\n', '') == expected.strip().replace('\n', '') # Looser check for now
+
+    def test_reassemble_blockquote(self, processor):
+        markdown = "> This is a quote."
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        expected = "> This is a quote.[Translated]"
+        assert reassembled.strip() == expected.strip()
+
+    def test_reassemble_table(self, processor):
+        markdown = """
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+"""
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        # Expected output might be tricky to get exactly right without running the impl.
+        # Focus on ensuring translated text appears.
+        assert "Header 1[Translated]" in reassembled
+        assert "Header 2[Translated]" in reassembled
+        assert "Cell 1[Translated]" in reassembled
+        assert "Cell 2[Translated]" in reassembled
+        assert "|----------|----------|" in reassembled # Verify structure preserved
+
+    def test_reassemble_inline_formatting(self, processor):
+        markdown = "A para with *italic*, **bold**, `code`, [link](url), and ![img alt](src)."
+        translations = self._get_dummy_translations(processor, markdown)
+        # Expected translation based on extraction rules:
+        # Path for "A para with italic, bold, , link, and img alt.": ..._paragraph_open_0
+        translations['paragraph_open_0'] = "A para with italic[Translated], bold[Translated], , link[Translated], and img alt[Translated]."
+        
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        
+        # We expect the *structure* preserved, but the text content replaced based on the *block* segment
+        # (since we aren't doing granular inline reassembly yet)
+        # So, bold/italic markers etc. might be gone if we just replace the whole inline content.
+        # Let's assert the translated block content is there, and crucially, the non-translatable bits.
+        assert "A para with italic[Translated], bold[Translated], , link[Translated], and img alt[Translated]." in reassembled
+        assert "`code`" in reassembled # Inline code preserved
+        assert "[link](url)" in reassembled # Link structure preserved
+        assert "![img alt](src)" in reassembled # Image structure preserved
+        # assert "*italic*" not in reassembled # Formatting might be lost with simple inline replacement
+        # assert "**bold**" not in reassembled
+
+    def test_reassemble_mixed_content(self, processor):
+        markdown = "# Title\n\nPara 1.\n\n- List 1\n\n```python\ncode\n```\n\nPara 2."
+        translations = self._get_dummy_translations(processor, markdown)
+        reassembled = processor.reassemble_markdown(markdown, translations)
+        assert "# Title[Translated]" in reassembled
+        assert "Para 1.[Translated]" in reassembled
+        assert "- List 1[Translated]" in reassembled # Adjust based on list rendering
+        assert "```python\ncode\n```" in reassembled # Code block preserved
+        assert "Para 2.[Translated]" in reassembled 

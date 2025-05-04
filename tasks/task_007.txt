@@ -559,13 +559,43 @@ Key implementation considerations:
 When consuming Granular Inline Parser output, implement a transformation layer that converts the parser's AST into TextSegment instances while preserving the hierarchical relationships.
 </info added on 2025-05-04T15:47:15.412Z>
 
-## 5. Implement table content extraction [pending]
+## 5. Implement table content extraction [done]
 ### Dependencies: 7.1, 7.2
 ### Description: Add support for extracting text from table headers and cells
 ### Details:
 Using TDD, write tests first for extracting text from tables, including both header cells and body cells. Then extend the MarkdownProcessor to implement this functionality. Create TextSegment instances for each cell's content, maintaining information about the table structure (row/column position). Handle any inline formatting within table cells by leveraging the inline extraction logic. Ensure table structure metadata is preserved for reassembly.
 
-## 6. Create segment reassembly functionality [pending]
+<info added on 2025-05-04T15:57:32.076Z>
+```
+Implementation Plan (Subtask 7.5 - Table Extraction):
+1. **TDD - Write Tests (`tests/processing/test_markdown_processor.py`):**
+    - Test cases for simple tables (headers `<th>`, data cells `<td>`).
+    - Include tests with inline formatting within cells.
+    - Verify empty cells produce no segments.
+    - Check segment types: `table_header_cell`, `table_data_cell`.
+    - Attempt to include basic row/column info in the path (e.g., `table_1 > tr_2 > td_3`).
+2. **Implement Extraction (`src/processing/markdown_processor.py`):**
+    - Enhance `extract_translatable_segments` to detect table tokens (`table_open/close`, `thead_open/close`, `tbody_open/close`, `tr_open/close`, `th_open/close`, `td_open/close`).
+    - Maintain context (current row/cell index) while inside a table.
+    - For `th_open`/`td_open`, locate the next `inline` token.
+    - Extract text using `_extract_inline_text` from the `inline` token's children.
+    - Create `TextSegment` with correct type and path including row/col info.
+    - Add segments to `TranslationMap`.
+    - Ensure correct `token_stack` management for table elements.
+3. **Test & Refine:** Run `pytest` and iterate on implementation.
+4. **Log Progress:** Update subtask details if needed.
+
+**Technical Considerations:**
+- Table structure in markdown-it-py tokens follows HTML structure: `table > thead/tbody > tr > th/td > inline > text/code_inline/etc`
+- Track table context with variables like `current_table_id`, `current_row`, `current_cell`
+- For complex tables, consider creating a `TableContext` class to manage state
+- Store cell coordinates in segment metadata: `{"row": row_idx, "col": col_idx, "is_header": bool}`
+- Handle merged cells by checking for `colspan` and `rowspan` attributes in tokens
+- For reassembly, maintain original token indices to preserve exact table structure
+```
+</info added on 2025-05-04T15:57:32.076Z>
+
+## 6. Create segment reassembly functionality [deferred]
 ### Dependencies: 7.1, 7.2, 7.3, 7.4, 7.5
 ### Description: Implement functionality to replace translated text back into the original AST
 ### Details:
@@ -585,17 +615,351 @@ Consider implementing a two-phase reassembly approach: first reconstruct inline 
 Dependencies should be updated to include tasks 7.12 and 7.13, as the reassembly logic depends on both the granular parsing of inline content and the non-translatable element preservation strategy.
 </info added on 2025-05-04T03:39:04.859Z>
 
-## 7. Implement WikiLink extraction [pending]
+<info added on 2025-05-04T15:59:42.340Z>
+<info added on 2025-05-05T14:22:18.000Z>
+## Implementation Details for Segment Reassembly
+
+### Core Data Structures
+1. Create a `ReassemblyContext` class to track state during reassembly:
+   ```python
+   class ReassemblyContext:
+       def __init__(self):
+           self.path_stack = []
+           self.current_path = ""
+           self.in_table = False
+           self.row_index = 0
+           self.col_index = 0
+           self.pending_tokens = []  # For buffering tokens during reassembly
+   ```
+
+2. Implement a `SegmentMap` class to efficiently lookup translated segments:
+   ```python
+   class SegmentMap:
+       def __init__(self, translated_segments: Dict[str, str]):
+           self.segments = translated_segments
+           self.used_segments = set()  # Track which segments were used
+           
+       def get(self, path: str) -> Optional[str]:
+           if path in self.segments:
+               self.used_segments.add(path)
+               return self.segments[path]
+           return None
+           
+       def verify_all_used(self) -> List[str]:
+           """Returns list of unused segment paths"""
+           return [p for p in self.segments if p not in self.used_segments]
+   ```
+
+### Algorithm Implementation
+The reassembly algorithm should follow these steps:
+
+1. **Token Stream Processing**:
+   ```python
+   def reassemble_markdown(self, original_markdown: str, translated_segments: Dict[str, str]) -> str:
+       tokens = self.md.parse(original_markdown)
+       segment_map = SegmentMap(translated_segments)
+       context = ReassemblyContext()
+       result = []
+       
+       for i, token in enumerate(tokens):
+           # Update context based on token
+           self._update_reassembly_context(token, context)
+           
+           # Handle token based on type
+           if self._is_translatable_content_token(token):
+               translated = self._process_translatable_token(token, context, segment_map)
+               result.append(translated)
+           else:
+               # Non-translatable token, preserve as-is
+               result.append(self._render_token(token))
+               
+       # Verify all segments were used
+       unused = segment_map.verify_all_used()
+       if unused:
+           self.logger.warning(f"Unused segments during reassembly: {unused}")
+           
+       return ''.join(result)
+   ```
+
+2. **Inline Content Handling**:
+   ```python
+   def _process_translatable_token(self, token, context, segment_map):
+       if token.type == 'inline':
+           # Get translated content for this path
+           translated_text = segment_map.get(context.current_path)
+           if translated_text:
+               # Create a modified token with translated content
+               return self._reassemble_inline_content(token, translated_text)
+           
+       return self._render_token(token)
+   ```
+
+3. **Inline Reassembly**:
+   ```python
+   def _reassemble_inline_content(self, token, translated_text):
+       # For simple cases, just replace the content
+       # For complex inline sequences (to be enhanced in 7.12/7.13),
+       # this will need to parse the translated text and merge with
+       # non-translatable elements from the original
+       
+       # Simple implementation for now:
+       token_copy = copy.deepcopy(token)
+       token_copy.content = translated_text
+       return self.md.renderer.renderToken([token_copy], 0, {})
+   ```
+
+### Validation & Error Handling
+1. Implement validation to ensure document integrity:
+   ```python
+   def _validate_reassembled_document(self, reassembled_markdown):
+       """Verify the reassembled document is valid markdown"""
+       try:
+           tokens = self.md.parse(reassembled_markdown)
+           # Additional structural validation can be added here
+           return True
+       except Exception as e:
+           self.logger.error(f"Reassembly validation failed: {str(e)}")
+           return False
+   ```
+
+2. Add error recovery for missing segments:
+   ```python
+   # In _process_translatable_token:
+   translated_text = segment_map.get(context.current_path)
+   if not translated_text:
+       self.logger.warning(f"Missing translation for segment: {context.current_path}")
+       # Fall back to original content
+       translated_text = token.content
+   ```
+
+This implementation provides a solid foundation for basic reassembly while setting up the structure for the more complex inline handling that will be implemented in tasks 7.12 and 7.13.
+</info added on 2025-05-05T14:22:18.000Z>
+</info added on 2025-05-04T15:59:42.340Z>
+
+<info added on 2025-05-04T16:09:34.090Z>
+## Reassembly Implementation Challenges and Strategy
+
+The reassembly task presents several technical challenges that justify its deferred status:
+
+1. **Source Mapping Limitations**: 
+   - Markdown-it-py's token system doesn't maintain perfect bidirectional mapping between source text and tokens
+   - Position information is often approximate, especially with nested inline elements
+   - Whitespace handling differs between parsing and rendering phases
+
+2. **Alternative Implementation Approaches**:
+   - **AST Transformation**: Instead of string replacement, consider working directly with the AST, replacing content at the node level before rendering
+   - **Token Stream Modification**: Implement a token stream processor that replaces content in-place before rendering
+   - **Custom Renderer**: Develop a Markdown-specific renderer (not HTML) that reconstructs Markdown syntax from modified tokens
+
+3. **Error Recovery Strategy**:
+   - Implement fallback mechanisms for when segment boundaries don't align perfectly
+   - Create a validation system that can detect and report potential structure corruption
+   - Consider a diff-based approach to identify and resolve structural inconsistencies
+
+4. **Testing Framework**:
+   - Develop specialized test fixtures for complex nested structures
+   - Create property-based tests that verify structural invariants are maintained
+   - Implement round-trip testing (original → segmented → translated → reassembled → parsed) to verify equivalence
+
+This task should be revisited after the Granular Inline Parser is complete, as it will provide the necessary foundation for accurate segment boundary tracking and reconstruction.
+</info added on 2025-05-04T16:09:34.090Z>
+
+## 7. Implement WikiLink extraction [done]
 ### Dependencies: 7.1, 7.2, 7.4
 ### Description: Add support for extracting translatable text from WikiLinks
 ### Details:
 Using TDD, write tests first for identifying and extracting translatable text from WikiLinks (e.g., the alias portion in `[[target|alias]]`). Implement a parser or extend the existing inline parser to correctly identify WikiLink components. Create TextSegment instances for the translatable portions (aliases) while preserving the non-translatable targets. Ensure the mapping maintains the relationship between extracted text and its precise location within the WikiLink syntax for accurate reassembly.
 
-## 8. Implement Obsidian attributes handling [pending]
+<info added on 2025-05-04T16:16:19.494Z>
+Here's additional implementation information for the WikiLink extraction subtask:
+
+```python
+# Example WikiLink parser implementation structure
+def wikilinks_plugin(md):
+    # Regular expression for matching WikiLinks
+    WIKILINK_RE = r'\[\[([^\]\|]+)(?:\|([^\]]+))?\]\]'
+    
+    def tokenize(state, silent):
+        # Match WikiLink pattern
+        match = re.search(WIKILINK_RE, state.src[state.pos:])
+        if not match:
+            return False
+            
+        # Skip if in code block
+        if state.isInCode:
+            return False
+            
+        # Extract target and alias
+        target = match.group(1).strip()
+        alias = match.group(2).strip() if match.group(2) else target
+        
+        # Create token sequence
+        token_open = state.push('wikilink_open', '', 1)
+        
+        token_target = state.push('wikilink_target', '', 0)
+        token_target.content = target
+        token_target.translatable = False  # Mark as non-translatable
+        
+        if match.group(2):  # If alias exists
+            token_sep = state.push('wikilink_separator', '|', 0)
+            token_sep.translatable = False
+            
+            token_alias = state.push('wikilink_alias', '', 0)
+            token_alias.content = alias
+            token_alias.translatable = True  # Mark as translatable
+        
+        token_close = state.push('wikilink_close', '', -1)
+        
+        # Update parser position
+        state.pos += match.end()
+        return True
+    
+    md.inline.ruler.push('wikilink', tokenize)
+```
+
+For the text segment creation logic:
+
+```python
+def _extract_inline_text(self, tokens):
+    segments = []
+    for token in tokens:
+        if token.type == 'wikilink_alias' and hasattr(token, 'translatable') and token.translatable:
+            # Create a TextSegment for the alias portion
+            segment = TextSegment(
+                text=token.content,
+                context=f"WikiLink alias for target: {self._get_wikilink_target(token)}",
+                metadata={
+                    "type": "wikilink_alias",
+                    "target": self._get_wikilink_target(token)
+                }
+            )
+            segments.append(segment)
+    return segments
+
+def _get_wikilink_target(self, alias_token):
+    """Helper to find the target associated with an alias token"""
+    # Implementation depends on token structure, but generally:
+    # Look backward in the token stream to find the wikilink_target token
+    # that precedes this alias token
+    pass
+```
+
+When reassembling translated content, ensure the WikiLink structure is preserved:
+
+```python
+def _reassemble_wikilink(self, target, translated_alias):
+    """Reconstruct a WikiLink with the translated alias"""
+    return f"[[{target}|{translated_alias}]]"
+```
+
+Consider edge cases:
+- WikiLinks with no alias (`[[target]]`) - decide whether to extract the target as translatable
+- Nested formatting within aliases (`[[target|**bold** text]]`) - handle markdown within aliases
+- Case sensitivity in targets - preserve original casing for targets
+</info added on 2025-05-04T16:16:19.494Z>
+
+## 8. Implement Obsidian attributes handling [in-progress]
 ### Dependencies: 7.1, 7.2, 7.4
 ### Description: Add support for preserving Obsidian attributes during extraction
 ### Details:
 Following TDD principles, write tests first for correctly identifying and preserving Obsidian attributes (e.g., `{ .some-attr }`) during text extraction. Implement functionality to recognize these attributes as non-translatable elements and ensure they are properly preserved during both extraction and reassembly processes. Update the visitor or parser to handle these special syntax elements.
+
+<info added on 2025-05-04T16:20:23.933Z>
+## Implementation Details for Obsidian Attributes Handling
+
+### Regex Pattern Design
+- Use a pattern like `/{([^{}]|\{[^{}]*\})*}/` to handle basic nesting
+- Consider edge cases: escaped braces `\{`, inline code with braces, and attributes within other inline elements
+
+### Attribute Structure Parsing
+- Parse attributes into structured data:
+  ```python
+  def parse_attributes(attr_content):
+      """Parse Obsidian attribute content into structured data"""
+      attributes = {}
+      # Handle class attributes (.class-name)
+      class_match = re.findall(r'\.([a-zA-Z0-9_-]+)', attr_content)
+      if class_match:
+          attributes['class'] = class_match
+          
+      # Handle key-value pairs (key=value or key="quoted value")
+      kv_matches = re.findall(r'([a-zA-Z0-9_-]+)=(?:"([^"]*)"|([^ }]*))', attr_content)
+      for key, quoted_val, unquoted_val in kv_matches:
+          attributes[key] = quoted_val if quoted_val else unquoted_val
+          
+      return attributes
+  ```
+
+### Token Handling Strategy
+- Create a token type that preserves the entire attribute block as non-translatable
+- Store original attribute text in token metadata for exact reconstruction
+- Consider implementing a `reconstruct_attributes()` function to ensure proper reassembly
+
+### Integration with Markdown-It
+- Position the rule carefully in the parsing chain (before emphasis but after code_inline)
+- Use `state.push()` with appropriate nesting levels
+- Set `token.markup = '{}'` for proper syntax highlighting in debug views
+
+### Testing Edge Cases
+- Test attributes on headings: `## Heading {.class}`
+- Test attributes on links: `[link](url){.class}`
+- Test attributes with special characters: `{.class-name data-test="value with spaces"}`
+- Test malformed attributes: `{incomplete` or `text { not closed properly`
+</info added on 2025-05-04T16:20:23.933Z>
+
+<info added on 2025-05-04T16:38:38.284Z>
+## Implementation Approach for Obsidian Attributes
+
+### Visitor Pattern Enhancement
+- Extend the `MarkdownVisitor` class to recognize attribute tokens:
+  ```python
+  def visit_attribute(self, token, children):
+      # Skip attribute tokens entirely during extraction
+      # They should be preserved verbatim in the original document
+      return None
+  ```
+
+### Attribute Position Tracking
+- Implement position tracking to handle attributes attached to different elements:
+  ```python
+  class AttributeTracker:
+      def __init__(self):
+          self.attached_elements = {}  # Maps element_id to attribute data
+          
+      def register_attribute(self, element_id, attribute_data):
+          self.attached_elements[element_id] = attribute_data
+          
+      def get_attributes_for(self, element_id):
+          return self.attached_elements.get(element_id, None)
+  ```
+
+### Reassembly Considerations
+- During reassembly, attributes must be reattached to the correct elements:
+  ```python
+  def reassemble_with_attributes(self, element, translated_text):
+      element_id = element.get('id')
+      attributes = self.attribute_tracker.get_attributes_for(element_id)
+      
+      if attributes:
+          # Handle different attachment positions based on element type
+          if element.get('type') == 'block':
+              return f"{translated_text} {attributes}"
+          elif element.get('type') == 'inline':
+              # For inline elements, attributes typically follow immediately
+              return f"{translated_text}{attributes}"
+      return translated_text
+  ```
+
+### Performance Optimization
+- Cache compiled regex patterns for attribute detection
+- Use a two-pass approach: first identify all attributes, then process content
+- Consider implementing a lookup table for common attribute patterns
+
+### Compatibility Testing
+- Test with various Obsidian plugins that extend attribute functionality
+- Verify compatibility with CommonMark and GitHub Flavored Markdown
+- Create test cases for attributes in multilingual documents
+</info added on 2025-05-04T16:38:38.284Z>
 
 ## 9. Implement HTML content extraction [pending]
 ### Dependencies: 7.1, 7.2, 7.4
@@ -615,11 +979,84 @@ Following TDD principles, write tests first for handling complex mixed inline se
 ### Details:
 Using TDD, write tests first for reassembling translated content back into complex inline sequences. Extend the existing reassembly functionality to handle the more complex mapping created for WikiLinks, Obsidian attributes, HTML content, and mixed inline sequences. Implement algorithms that can precisely reconstruct these elements with translated content while preserving all non-translatable syntax. Add validation to ensure perfect reconstruction of the original format with only the translatable text replaced.
 
-## 12. Implement Granular Inline Parser [pending]
+## 12. Implement Granular Inline Parser [done]
 ### Dependencies: 7.1
 ### Description: Develop a secondary parser specifically for inline content within blocks (paragraphs, list items, etc.).
 ### Details:
 Using TDD, implement a parser that tokenizes inline content into distinct units: plain text, standard Markdown (bold, italic), inline code, standard links, images, WikiLinks (target and alias), Obsidian attributes (`{...}`). It should handle nested structures and produce a detailed token stream or mini-AST for each inline sequence, preserving non-translatable syntax precisely. This parser will be used by the main AST visitor.
+
+<info added on 2025-05-04T16:10:09.980Z>
+# Implementation Plan (Subtask 7.12 - Granular Inline Parser)
+
+## Token Types and Structure
+```python
+from enum import Enum, auto
+from dataclasses import dataclass
+from typing import List, Optional, Dict, Any
+
+class InlineTokenType(Enum):
+    TEXT = auto()
+    EMPHASIS = auto()  # *italic*
+    STRONG = auto()    # **bold**
+    CODE = auto()      # `code`
+    LINK = auto()      # [text](url)
+    IMAGE = auto()     # ![alt](src)
+    WIKILINK = auto()  # [[target]] or [[target|alias]]
+    ATTRIBUTE = auto() # {key: value}
+
+@dataclass
+class InlineToken:
+    type: InlineTokenType
+    content: str  # Processed content
+    raw: str      # Original raw text
+    attrs: Dict[str, Any] = None  # Additional attributes
+    children: List['InlineToken'] = None  # For nested tokens
+```
+
+## Parser Implementation Strategy
+The parser should use a state machine approach with these states:
+- NORMAL: Processing regular text
+- EMPHASIS: Inside `*` markers
+- STRONG: Inside `**` markers
+- CODE: Inside backticks
+- LINK_TEXT: Inside `[...]`
+- LINK_URL: Inside `(...)`
+- WIKILINK: Inside `[[...]]`
+- ATTRIBUTE: Inside `{...}`
+
+Key implementation considerations:
+- Use a stack to track nested formatting states
+- Handle escaped characters (`\*`, `\[`, etc.)
+- Process WikiLinks with regex like `\[\[(.*?)(?:\|(.*?))?\]\]`
+- For attributes, parse JSON-like syntax while preserving original format
+
+## Example Test Cases
+```python
+def test_mixed_formatting():
+    parser = InlineParser()
+    text = "This is **bold with *italic* inside** and `code with **ignored** formatting`"
+    tokens = parser.parse(text)
+    
+    assert len(tokens) == 3
+    assert tokens[0].type == InlineTokenType.TEXT
+    assert tokens[0].content == "This is "
+    
+    assert tokens[1].type == InlineTokenType.STRONG
+    assert tokens[1].content == "bold with italic inside"
+    assert len(tokens[1].children) == 3  # Text, Emphasis, Text
+    assert tokens[1].children[1].type == InlineTokenType.EMPHASIS
+    
+    assert tokens[2].type == InlineTokenType.CODE
+    assert tokens[2].content == "code with **ignored** formatting"
+```
+
+## Integration with AST Visitor
+When integrating with the main AST visitor:
+- Pass block content to `InlineParser.parse()`
+- Use visitor pattern to process inline tokens
+- Preserve raw content for non-translatable elements
+- Map token types to appropriate HTML/output elements
+</info added on 2025-05-04T16:10:09.980Z>
 
 ## 13. Define and Implement HTML Handling Strategy [pending]
 ### Dependencies: 7.1
