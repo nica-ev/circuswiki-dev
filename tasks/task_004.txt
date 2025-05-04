@@ -1,6 +1,6 @@
 # Task ID: 4
 # Title: Implement YAML frontmatter parsing
-# Status: pending
+# Status: done
 # Dependencies: 3
 # Priority: high
 # Description: Create functionality to parse and extract YAML frontmatter from Markdown files.
@@ -11,33 +11,204 @@ Extend FileManager to read Markdown files and extract YAML frontmatter. Use ruam
 Create test Markdown files with various frontmatter configurations. Verify correct parsing of valid frontmatter and appropriate handling of edge cases. Confirm 'orig: true' check works correctly.
 
 # Subtasks:
-## 1. Add ruamel.yaml dependency and create basic frontmatter extraction function [pending]
+## 1. Add ruamel.yaml dependency and create basic frontmatter extraction function [done]
 ### Dependencies: None
 ### Description: Set up the project with the ruamel.yaml dependency and implement a basic function to extract YAML frontmatter from Markdown content
 ### Details:
 Install ruamel.yaml package and add it to requirements.txt. Create a new function in FileManager called `extract_frontmatter(content)` that takes Markdown content as a string and returns the extracted YAML frontmatter as a Python dictionary. The function should identify content between '---' delimiters at the start of the file and parse it using ruamel.yaml.
 
-## 2. Extend FileManager to read Markdown files with frontmatter support [pending]
+<info added on 2025-05-04T01:18:08.114Z>
+Here's the additional information to add:
+
+The implementation uses a static method `_extract_frontmatter_and_content(content)` rather than the originally specified `extract_frontmatter(content)` to provide both the parsed frontmatter and the remaining content as a tuple. This is more efficient as it avoids parsing the content twice.
+
+The regex pattern `r'^---\s*\n(.*?)---\s*\n'` with `re.DOTALL | re.MULTILINE` flags ensures proper matching of the frontmatter block even with multiline content. The method handles cases where no frontmatter exists by returning `(None, original_content)`.
+
+Error handling is implemented to catch `YAMLError` exceptions during parsing, which returns `(None, original_content)` in case of malformed YAML.
+
+Example usage:
+```python
+frontmatter, content = FileManager._extract_frontmatter_and_content(markdown_text)
+if frontmatter:
+    # Process frontmatter metadata
+    title = frontmatter.get('title', 'Untitled')
+    # Work with clean content
+    process_markdown(content)
+```
+
+The `typ='safe'` parameter for YAML loading prevents execution of arbitrary code that might be embedded in the YAML.
+</info added on 2025-05-04T01:18:08.114Z>
+
+## 2. Extend FileManager to read Markdown files with frontmatter support [done]
 ### Dependencies: 4.1
 ### Description: Modify the FileManager class to read Markdown files and automatically extract frontmatter when reading these files
 ### Details:
 Add a new method to FileManager called `read_markdown_with_frontmatter(file_path)` that reads a Markdown file and returns a tuple containing (frontmatter_dict, content_without_frontmatter). This method should use the extract_frontmatter function from subtask 1. Ensure the returned content has the frontmatter section removed.
 
-## 3. Implement error handling for edge cases [pending]
+<info added on 2025-05-04T01:18:30.396Z>
+Add a private static method `_extract_frontmatter_and_content(text)` that handles the parsing logic, separating concerns from the public method. This method should:
+
+1. Check if the file starts with "---" to identify frontmatter
+2. Use regex pattern `r'^---\s*\n(.*?)\n---\s*\n'` with re.DOTALL flag to extract frontmatter content
+3. Parse the extracted YAML using `yaml.safe_load()`
+4. Return empty dict if no frontmatter is found
+
+For error handling, include specific error messages:
+- "File not found: {file_path}" for FileNotFoundError
+- "Permission denied when accessing: {file_path}" for PermissionError
+- "Invalid YAML in frontmatter: {str(e)}" for YAMLError
+
+Add unit tests covering:
+- Files with valid frontmatter
+- Files without frontmatter
+- Files with malformed YAML
+- Non-existent files
+- Permission-restricted files
+
+Consider adding an optional `encoding` parameter defaulting to 'utf-8' to support different file encodings.
+</info added on 2025-05-04T01:18:30.396Z>
+
+## 3. Implement error handling for edge cases [done]
 ### Dependencies: 4.1, 4.2
 ### Description: Add robust error handling for various edge cases in frontmatter parsing
 ### Details:
 Enhance the frontmatter extraction function to handle edge cases: 1) Files without frontmatter should return an empty dictionary for frontmatter, 2) Files with malformed YAML should raise a specific custom exception (create a FrontmatterParsingError class), 3) Files with frontmatter delimiters but empty content should return an empty dictionary. Add appropriate logging for these scenarios.
 
-## 4. Implement translation eligibility checking [pending]
+<info added on 2025-05-04T01:19:04.228Z>
+```python
+class FrontmatterParsingError(Exception):
+    """Custom exception for frontmatter parsing failures."""
+    def __init__(self, message, original_exception=None):
+        super().__init__(message)
+        self.original_exception = original_exception
+
+def _extract_frontmatter_and_content(content):
+    """Extract frontmatter and content from markdown text.
+    
+    Returns:
+        tuple: (frontmatter_dict, content_without_frontmatter) or (None, original_content)
+    
+    Raises:
+        FrontmatterParsingError: When YAML parsing fails
+    """
+    import yaml
+    import logging
+    
+    # Check for frontmatter delimiters
+    if not content.startswith('---'):
+        logging.debug("No frontmatter found, returning original content")
+        return None, content
+        
+    # Find the closing delimiter
+    try:
+        end_delimiter = content.index('---', 3)
+    except ValueError:
+        logging.warning("Opening frontmatter delimiter found but no closing delimiter")
+        return None, content
+        
+    # Extract and parse frontmatter
+    frontmatter_yaml = content[3:end_delimiter].strip()
+    
+    # Handle empty frontmatter case
+    if not frontmatter_yaml:
+        logging.info("Empty frontmatter found between delimiters")
+        return {}, content[end_delimiter+3:].strip()
+    
+    # Parse YAML frontmatter
+    try:
+        frontmatter = yaml.safe_load(frontmatter_yaml)
+        
+        # Ensure frontmatter is a dictionary
+        if not isinstance(frontmatter, dict):
+            logging.warning(f"Frontmatter parsed successfully but is not a dictionary: {type(frontmatter)}")
+            return None, content
+            
+        return frontmatter, content[end_delimiter+3:].strip()
+    except yaml.YAMLError as e:
+        logging.error(f"Failed to parse frontmatter YAML: {str(e)}")
+        raise FrontmatterParsingError(f"Invalid YAML in frontmatter: {str(e)}", e)
+
+def read_markdown_with_frontmatter(file_path):
+    """Read markdown file with frontmatter and return both parts."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        frontmatter, markdown_content = _extract_frontmatter_and_content(content)
+        return frontmatter or {}, markdown_content
+    except FrontmatterParsingError as e:
+        logging.error(f"Error parsing frontmatter in {file_path}: {str(e)}")
+        # Re-raise or handle as needed by your application
+        raise
+```
+
+This implementation includes proper logging at different severity levels, handles all specified edge cases, and provides detailed docstrings. The `FrontmatterParsingError` wraps the original exception for debugging while providing a clean API.
+</info added on 2025-05-04T01:19:04.228Z>
+
+## 4. Implement translation eligibility checking [done]
 ### Dependencies: 4.1, 4.2, 4.3
 ### Description: Create a function to determine if a file is eligible for translation based on frontmatter
 ### Details:
 Add a method to FileManager called `is_eligible_for_translation(file_path)` that checks if a Markdown file should be translated. This function should extract the frontmatter and return True if the frontmatter contains 'orig: true', otherwise return False. Handle the case where the file doesn't exist or can't be read properly.
 
-## 5. Create utility functions for frontmatter manipulation [pending]
+<info added on 2025-05-04T01:19:25.828Z>
+The method should be implemented with robust error handling as follows:
+
+```python
+def is_eligible_for_translation(self, file_path):
+    """
+    Determines if a Markdown file is eligible for translation based on frontmatter.
+    
+    Args:
+        file_path (str): Path to the Markdown file
+        
+    Returns:
+        bool: True if file has 'orig: true' in frontmatter, False otherwise
+    """
+    try:
+        content, frontmatter = self.read_markdown_with_frontmatter(file_path)
+        
+        # Check if frontmatter exists and contains 'orig: true'
+        if isinstance(frontmatter, dict):
+            return frontmatter.get('orig') is True
+        return False
+        
+    except FileNotFoundError:
+        self.logger.warning(f"File not found: {file_path}")
+        return False
+    except PermissionError:
+        self.logger.error(f"Permission denied when accessing: {file_path}")
+        return False
+    except FrontmatterParsingError:
+        self.logger.warning(f"Failed to parse frontmatter in: {file_path}")
+        return False
+    except Exception as e:
+        self.logger.error(f"Unexpected error checking translation eligibility for {file_path}: {str(e)}")
+        return False
+```
+
+The implementation should strictly check for `is True` rather than just truthy values to avoid considering strings like "false" as true.
+</info added on 2025-05-04T01:19:25.828Z>
+
+## 5. Create utility functions for frontmatter manipulation [done]
 ### Dependencies: 4.1, 4.2, 4.3, 4.4
 ### Description: Implement helper functions to work with frontmatter data
 ### Details:
 Create additional utility functions in FileManager: 1) `get_frontmatter_value(file_path, key, default=None)` to retrieve a specific value from frontmatter, 2) `update_frontmatter(file_path, updates_dict)` to modify frontmatter and save changes back to the file, 3) `strip_frontmatter(content)` to remove frontmatter from content without parsing it. These functions should build on the existing functionality and maintain consistent error handling.
+
+<info added on 2025-05-04T01:20:02.876Z>
+For the frontmatter utility functions, implement these technical details:
+
+1. `get_frontmatter_value()`: Use a nested key lookup approach with dot notation support (e.g., "metadata.author") by splitting the key on dots and traversing the dictionary recursively. Handle missing intermediate keys gracefully.
+
+2. `update_frontmatter()`: Implement deep dictionary merging to preserve nested structures. Use `ruamel.yaml` instead of PyYAML to maintain comments and formatting when updating. Include a `create_if_missing` parameter (default=False) to optionally create frontmatter if none exists.
+
+3. `strip_frontmatter()`: Use regex pattern `r'^---\s*\n(.*?)\n---\s*\n'` with re.DOTALL flag. Add an optional `keep_delimiters` parameter (default=False) to preserve the frontmatter delimiters.
+
+4. Add a new utility `has_frontmatter(content)` that returns a boolean indicating if content contains valid frontmatter.
+
+5. Include proper type hints for all functions and comprehensive docstrings with examples.
+
+6. Implement caching for frequently accessed frontmatter to improve performance when the same file is accessed multiple times.
+</info added on 2025-05-04T01:20:02.876Z>
 
