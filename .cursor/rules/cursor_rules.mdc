@@ -55,3 +55,4 @@ alwaysApply: true
   **Tool Calls:**
   - Always use absolute paths in tool calls.
   - Always provide absolute paths for tool calls if they need paths as argument
+  - Always use Windows styled format for paths

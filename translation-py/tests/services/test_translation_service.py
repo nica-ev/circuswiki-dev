@@ -6,22 +6,14 @@ import time # Import time for mocking sleep
 from unittest.mock import MagicMock, patch, ANY, call
 
 # Adjust the import path based on your project structure
-try:
-    # Assuming tests run from the root of the translation-py subproject
-    from src.services.translation_service import (
-        TranslationService, TranslationConfigError,
-        TranslationError, TranslationAuthError, TranslationRateLimitError,
-        TranslationAPIError, TranslationNetworkError # Import custom exceptions
-    )
-    from src.config_loader import ConfigLoader
-except ImportError:
-    # Fallback if running from workspace root or structure differs
-    from translation_py.src.services.translation_service import (
-        TranslationService, TranslationConfigError,
-        TranslationError, TranslationAuthError, TranslationRateLimitError,
-        TranslationAPIError, TranslationNetworkError # Import custom exceptions
-    )
-    from translation_py.src.config_loader import ConfigLoader
+# Use absolute import assuming workspace root is in sys.path
+# and translation-py is installed editably as 'markdown_translator'
+from markdown_translator.services.translation_service import (
+    TranslationService, TranslationConfigError,
+    TranslationError, TranslationAuthError, TranslationRateLimitError,
+    TranslationAPIError, TranslationNetworkError # Import custom exceptions
+)
+from markdown_translator.config_loader import ConfigLoader
 
 # Configure logging for tests (optional, but can be helpful)
 logging.basicConfig(level=logging.DEBUG)
@@ -34,9 +26,6 @@ def mock_config_loader():
     # Set default attributes that ConfigLoader would have after loading
     loader.settings = {}
     loader.env_vars = {}
-    # Ensure the mock has the attributes accessed in TranslationService.__init__
-    loader.settings.get = MagicMock(side_effect=lambda key, default=None: loader.settings.get(key, default))
-    loader.env_vars.get = MagicMock(side_effect=lambda key, default=None: loader.env_vars.get(key, default))
     
     # --- Add Default Retry Settings to Mock --- 
     loader.settings['RETRY_MAX_ATTEMPTS'] = 3

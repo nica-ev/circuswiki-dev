@@ -15,8 +15,8 @@ dependencies = [
     "mkdocs",
     "mkdocs-material",
     "pymdown-extensions",
-    "mkdocs-pub-minifier",
-    "mkdocs-pub-obsidian",
+    # "mkdocs-pub-minifier", # Temporarily commented out - package not found
+    # "mkdocs-pub-obsidian", # Temporarily commented out - package not found
     "markdown-it-py>=2.2.0",
     "PyYAML>=6.0"
     # Add other dependencies from translation-py/requirements.txt if necessary
@@ -33,10 +33,10 @@ include = ["src", "src.*"] # Explicitly include src and subpackages
 # exclude = ["tests*"] # Optionally exclude test directories
 
 [tool.pytest.ini_options]
-pythonpath = [
-    "src",              # Add root src directory explicitly
-    "translation-py"  # Add translation-py directory (for translation-py/src)
-]
+# pythonpath = [
+#     "src",              # Add root src directory explicitly
+#     "translation-py"  # Add translation-py directory (for translation-py/src)
+# ]
 testpaths = [
     "tests",              # Find tests in root tests directory
     "translation-py/tests" # Also find tests in translation-py/tests directory

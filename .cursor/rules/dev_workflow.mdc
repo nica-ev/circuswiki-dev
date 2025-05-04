@@ -196,7 +196,8 @@ Once a task has been broken down into subtasks using `expand_task` or similar me
     *   Identify any new or modified code patterns, conventions, or best practices established during the implementation.
     *   Create new or update existing Cursor rules in the `.cursor/rules/` directory to capture these patterns, following the guidelines in [`cursor_rules.mdc`](mdc:.cursor/rules/cursor_rules.mdc) and [`self_improve.mdc`](mdc:.cursor/rules/self_improve.mdc).
 
-8.  **Mark Task Complete:**
+8.  **Run Tests & Mark Task Complete:**
+    *   **Mandatory:** Execute the relevant test suite (e.g., `pytest`). All tests related to the implemented subtask **must pass** before proceeding. Address any failures.
     *   After verifying the implementation and updating any necessary rules, mark the subtask as completed: `set_task_status` / `task-master set-status --id=<subtaskId> --status=done`.
 
 9.  **Commit Changes (If using Git):**

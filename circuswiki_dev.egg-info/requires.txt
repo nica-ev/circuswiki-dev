@@ -1,0 +1,5 @@
+mkdocs
+mkdocs-material
+pymdown-extensions
+markdown-it-py>=2.2.0
+PyYAML>=6.0

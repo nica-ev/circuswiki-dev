@@ -1,0 +1,44 @@
+# Default configuration for processing HTML embedded in Markdown
+
+# Tags whose direct text content should be extracted for translation
+extract_content_tags:
+  - p
+  - h1
+  - h2
+  - h3
+  - h4
+  - h5
+  - h6
+  - li
+  - td
+  - th
+  - figcaption
+  - blockquote
+  - summary # For <details> element
+
+# Tags whose specific attributes should be extracted for translation
+# Format: tag_name: [attribute1, attribute2]
+extract_attribute_tags:
+  img: 
+    - alt
+    - title
+  a:
+    - title
+  area: # For image maps
+    - alt 
+    - title
+
+# Tags that should be preserved entirely (content and attributes)
+# No text within these tags or their children will be extracted
+preserve_tags:
+  - pre
+  - code
+  - script
+  - style
+  - svg
+  - math
+
+# Default behavior for tags NOT listed in any of the above categories
+# Options: 'preserve' (keep as-is), 'extract' (attempt to extract text content)
+# 'preserve' is generally safer.
+default_tag_behavior: preserve 

@@ -1,5 +1,5 @@
 import pytest
-from translation_py.src.processing.change_detection import (
+from src.processing.change_detection import (
     compare_hashes, determine_action, ChangeDetectionResult, ActionType
 )
 

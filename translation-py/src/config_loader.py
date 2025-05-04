@@ -51,12 +51,21 @@ class ConfigValidationError(Exception):
 class ConfigLoader:
     """Loads and validates configuration from settings.txt and translate.env files."""
 
-    def __init__(self, env_file='.env', settings_file='settings.yaml', default_settings_file='settings.default.yaml'):
+    def __init__(self, 
+                 env_file='.env', 
+                 settings_file='settings.yaml', 
+                 default_settings_file='settings.default.yaml', 
+                 html_config_file='html_config.yaml', # Added HTML config file
+                 default_html_config_file='html_config.default.yaml' # Optional default HTML config
+                 ):
         self.env_file = env_file
         self.settings_file = settings_file
         self.default_settings_file = default_settings_file
+        self.html_config_file = html_config_file # Store HTML config path
+        self.default_html_config_file = default_html_config_file # Store default HTML config path
         self.env_vars = {}
         self.settings = {}
+        self.html_config = {} # Initialize html_config dictionary
         self.logger = logging.getLogger(__name__)
         self._load_config()
 
@@ -72,38 +81,46 @@ class ConfigLoader:
         except Exception as e:
             self.logger.error(f"Error loading {self.env_file}: {e}", exc_info=True)
 
+    def _load_yaml_file(self, filepath: str, description: str) -> Dict:
+        """Helper function to load a single YAML file."""
+        try:
+            with open(filepath, 'r') as f:
+                data = yaml.safe_load(f) or {}
+                self.logger.info(f"Loaded {description} from {filepath}")
+                return data
+        except FileNotFoundError:
+            self.logger.info(f"{description.capitalize()} file {filepath} not found.")
+        except yaml.YAMLError as e:
+            self.logger.error(f"Error parsing {filepath}: {e}", exc_info=True)
+        except Exception as e:
+            self.logger.error(f"Error reading {filepath}: {e}", exc_info=True)
+        return {}
+
     def _load_yaml_settings(self):
         """Loads settings from YAML files, prioritizing user file over default."""
-        loaded_settings = {}
         # Load defaults first
-        try:
-            with open(self.default_settings_file, 'r') as f:
-                loaded_settings = yaml.safe_load(f) or {}
-                self.logger.info(f"Loaded default settings from {self.default_settings_file}")
-        except FileNotFoundError:
-            self.logger.warning(f"Default settings file {self.default_settings_file} not found.")
-        except yaml.YAMLError as e:
-            self.logger.error(f"Error parsing {self.default_settings_file}: {e}", exc_info=True)
-        except Exception as e:
-            self.logger.error(f"Error reading {self.default_settings_file}: {e}", exc_info=True)
+        default_settings = self._load_yaml_file(self.default_settings_file, "default settings")
+        # Load user settings 
+        user_settings = self._load_yaml_file(self.settings_file, "user settings")
+        
+        # Merge settings (user overrides default)
+        self.settings = {**default_settings, **user_settings} 
 
-        # Load user settings and merge/override defaults
-        try:
-            with open(self.settings_file, 'r') as f:
-                user_settings = yaml.safe_load(f) or {}
-                self.logger.info(f"Loaded user settings from {self.settings_file}")
-                # Simple top-level merge: user settings override defaults
-                loaded_settings.update(user_settings)
-        except FileNotFoundError:
-            self.logger.info(f"User settings file {self.settings_file} not found, using defaults.")
-        except yaml.YAMLError as e:
-            self.logger.error(f"Error parsing {self.settings_file}: {e}", exc_info=True)
-        except Exception as e:
-            self.logger.error(f"Error reading {self.settings_file}: {e}", exc_info=True)
-
-        self.settings = loaded_settings
         # --- Perform Type/Value Validation --- 
-        self._validate_settings()
+        self._validate_settings() # Keep validation for main settings
+
+    def _load_html_config(self):
+        """Loads HTML configuration from YAML files."""
+        # Load default HTML config first
+        default_html_conf = self._load_yaml_file(self.default_html_config_file, "default HTML config")
+        # Load user HTML config
+        user_html_conf = self._load_yaml_file(self.html_config_file, "user HTML config")
+
+        # Merge HTML config (user overrides default)
+        self.html_config = {**default_html_conf, **user_html_conf}
+
+        # --- Validate HTML Config --- 
+        self._validate_html_config()
 
     def _validate_settings(self):
         """Validates configuration parameters and raises ConfigValidationError if invalid."""
@@ -191,11 +208,55 @@ class ConfigLoader:
             if required_key and not self.env_vars.get(required_key):
                 raise ConfigValidationError(f"Missing required API key for {provider}: {required_key}")
 
+    def _validate_html_config(self):
+        """Validates the loaded HTML configuration."""
+        self.logger.debug("Validating HTML configuration...")
+        # Ensure top-level keys exist and are lists/dicts where expected
+        list_keys = ['extract_content_tags', 'preserve_tags']
+        dict_keys = ['extract_attribute_tags']
+        str_keys = ['default_tag_behavior']
+
+        for key in list_keys:
+            val = self.html_config.get(key)
+            if val is not None and not isinstance(val, list):
+                raise ConfigValidationError(f"HTML config key '{key}' must be a list.")
+            # Ensure default empty list if missing
+            self.html_config.setdefault(key, [])
+
+        for key in dict_keys:
+            val = self.html_config.get(key)
+            if val is not None and not isinstance(val, dict):
+                raise ConfigValidationError(f"HTML config key '{key}' must be a dictionary.")
+            # Ensure default empty dict if missing
+            self.html_config.setdefault(key, {})
+
+        for key in str_keys:
+             val = self.html_config.get(key)
+             if val is not None and not isinstance(val, str):
+                 raise ConfigValidationError(f"HTML config key '{key}' must be a string.")
+
+        # Validate default_tag_behavior value
+        default_behavior = self.html_config.get('default_tag_behavior', 'preserve')
+        if default_behavior not in ['preserve', 'extract']:
+            raise ConfigValidationError(f"Invalid value for HTML config 'default_tag_behavior': '{default_behavior}'. Must be 'preserve' or 'extract'.")
+        self.html_config['default_tag_behavior'] = default_behavior # Ensure default
+        
+        # Convert tag names to lowercase for consistent matching
+        self.html_config['extract_content_tags'] = [tag.lower() for tag in self.html_config.get('extract_content_tags', [])]
+        self.html_config['preserve_tags'] = [tag.lower() for tag in self.html_config.get('preserve_tags', [])]
+        self.html_config['extract_attribute_tags'] = { 
+            tag.lower(): [attr.lower() for attr in attrs] 
+            for tag, attrs in self.html_config.get('extract_attribute_tags', {}).items() 
+        }
+
+        self.logger.debug("HTML configuration validated successfully.")
+
     def _load_config(self):
         """Loads all configuration sources."""
         self.logger.info("Starting configuration loading...")
         self._load_dotenv()
-        self._load_yaml_settings()
+        self._load_yaml_settings() # Load main settings
+        self._load_html_config() # Load HTML config
         self.logger.info("Configuration loading complete.")
 
     def reload(self):
@@ -431,8 +492,8 @@ class ConfigLoader:
         api_provider = self.get_api_provider()
         api_key_map = {
             'DeepL': 'DEEPL_API_KEY',
-            'Google': 'GOOGLE_CLOUD_KEY',
-            'Azure': 'MICROSOFT_TRANSLATOR_KEY'
+            'Google': 'GOOGLE_API_KEY',
+            'Azure': 'AZURE_API_KEY'
         }
         key_name = api_key_map.get(api_provider)
         
@@ -441,6 +502,18 @@ class ConfigLoader:
             return self.get_env_var(key_name)
             
         return None # Should not happen if provider is valid
+
+    def get_html_config(self) -> Dict[str, Any]:
+        """Returns the loaded and validated HTML configuration."""
+        return self.html_config.copy() # Return a copy
+
+    def get_batch_size(self) -> int:
+        """Returns the configured batch size for API calls."""
+        return self.settings.get('BATCH_SIZE', 50)
+
+    def get_timeout(self) -> int:
+        """Returns the configured API request timeout."""
+        return self.settings.get('API_REQUEST_TIMEOUT', 30)
 
 # Example usage (for testing during development)
 if __name__ == '__main__':

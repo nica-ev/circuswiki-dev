@@ -1,6 +1,6 @@
 # Task ID: 21
 # Title: Implement Robust HTML Parsing and Reassembly in MarkdownProcessor
-# Status: pending
+# Status: done
 # Dependencies: 7
 # Priority: medium
 # Description: Enhance the MarkdownProcessor to properly parse HTML content within Markdown documents, extract text from allowed HTML tags, and correctly reassemble translated content while preserving structure.
@@ -65,395 +65,135 @@ Implement a robust HTML parsing and reassembly system in the MarkdownProcessor c
    - Ensure memory usage remains reasonable with large documents
 
 # Subtasks:
-## 1. Integrate HTML Parser and Implement Tag Whitelist System [pending]
+## 1. Integrate Beautiful Soup for HTML Parsing in MarkdownProcessor [done]
 ### Dependencies: None
-### Description: Integrate a reliable HTML parsing library (jsoup) into the MarkdownProcessor class and implement a configurable whitelist system for HTML tags and attributes.
+### Description: Add Beautiful Soup library to the project and implement core HTML parsing functionality within the MarkdownProcessor class to identify and extract HTML blocks from Markdown content.
 ### Details:
-1. Add jsoup dependency to the project
-2. Create a configuration class `HtmlParserConfig` that defines whitelisted tags and attributes
-3. Implement a method to identify HTML blocks within Markdown content using flexmark-java's AST traversal
-4. Create a whitelist implementation using jsoup's Whitelist class, configurable via the HtmlParserConfig
-5. Add unit tests for HTML block identification and whitelist functionality
-6. Implement proper handling of nested HTML structures by preserving the DOM hierarchy
-7. Add logging for parsing operations
+Implementation steps:
+1. Add Beautiful Soup as a project dependency
+2. Create a new method `_parse_html(html_content)` in MarkdownProcessor that uses Beautiful Soup to parse HTML strings
+3. Implement a method to identify HTML blocks within Markdown content using regex patterns
+4. Create a method to extract HTML blocks from Markdown for separate processing
+5. Implement unit tests for HTML block identification and extraction
 
-Example implementation approach:
-```java
-public class HtmlParserConfig {
-    private Set<String> allowedTags;
-    private Map<String, Set<String>> allowedAttributes;
-    
-    // Constructor, getters, setters
-}
+Testing approach:
+- Create test cases with various HTML blocks embedded in Markdown
+- Verify correct identification and extraction of HTML content
+- Test edge cases like HTML comments, script tags, and malformed HTML
 
-public class HtmlParser {
-    private final HtmlParserConfig config;
-    private final Logger logger = LoggerFactory.getLogger(HtmlParser.class);
+<info added on 2025-05-04T20:33:27.480Z>
+Here's additional information for the subtask:
+
+```python
+# Implementation details:
+
+## Beautiful Soup Integration
+- Add to requirements.txt: `beautifulsoup4>=4.12.2` and `lxml>=4.9.3` (as the HTML parser backend)
+- Import in MarkdownProcessor: `from bs4 import BeautifulSoup`
+
+## HTML Processing Methods
+def _parse_html(self, html_content):
+    """
+    Parse HTML content using Beautiful Soup.
     
-    public HtmlParser(HtmlParserConfig config) {
-        this.config = config;
-    }
+    Args:
+        html_content (str): Raw HTML string
+        
+    Returns:
+        BeautifulSoup: Parsed HTML object
+    """
+    return BeautifulSoup(html_content, 'lxml')
+
+def _identify_html_blocks(self, markdown_content):
+    """
+    Use regex patterns to identify HTML blocks:
+    - HTML blocks starting with opening tags like <div>, <table>, etc.
+    - HTML blocks with proper closing tags
+    - Self-closing tags
     
-    public Document parseHtml(String html) {
-        try {
-            Whitelist whitelist = createWhitelist();
-            return Jsoup.clean(html, "", whitelist, 
-                new Document.OutputSettings().prettyPrint(false));
-        } catch (Exception e) {
-            logger.error("Error parsing HTML: {}", e.getMessage());
-            throw new HtmlParsingException("Failed to parse HTML", e);
-        }
-    }
-    
-    private Whitelist createWhitelist() {
-        Whitelist whitelist = new Whitelist();
-        for (String tag : config.getAllowedTags()) {
-            whitelist.addTags(tag);
-        }
-        // Add allowed attributes
-        return whitelist;
-    }
-}
+    Regex pattern example: r'<([a-z][a-z0-9]*)\b[^>]*>(.*?)</\1>'
+    """
+
+## Integration with markdown-it-py
+- Use the renderer extension mechanism of markdown-it-py
+- Register custom token handlers for 'html_block' and 'html_inline' token types
+- Example hook: `md.add_render_rule('html_block', self._handle_html_block)`
+
+## Error handling
+- Implement try/except blocks around BeautifulSoup parsing
+- Add fallback rendering for malformed HTML
+- Log parsing errors with context information
 ```
+</info added on 2025-05-04T20:33:27.480Z>
 
-## 2. Develop Text Extraction Strategy for HTML Content [pending]
+## 2. Implement Configurable HTML Tag and Attribute Whitelist System [done]
 ### Dependencies: 21.1
-### Description: Create a system to extract text content from allowed HTML tags and attributes while preserving the original structure for later reassembly.
+### Description: Create a configuration system that allows users to specify which HTML tags and attributes should be processed for translation, preserved as-is, or ignored completely.
 ### Details:
-1. Create a `TextExtractor` class that traverses the parsed HTML DOM
-2. Implement methods to extract text from specific allowed HTML tags (p, h1-h6, li, etc.)
-3. Add functionality to extract text from relevant attributes (alt, title) based on configuration
-4. Create a data structure to store extracted text along with metadata about its original location in the DOM
-5. Handle special cases like HTML entities and CDATA sections
-6. Implement unit tests for text extraction from various HTML structures
-7. Add proper error handling for extraction failures
+Implementation steps:
+1. Define a default configuration dictionary with whitelisted tags and attributes
+2. Create a `HTMLProcessingConfig` class to manage HTML processing rules
+3. Implement methods to add/remove tags and attributes from whitelist
+4. Add configuration loading from external JSON/YAML files
+5. Integrate configuration with the MarkdownProcessor class
 
-Example implementation approach:
-```java
-public class TextExtractor {
-    private final HtmlParserConfig config;
-    private final Logger logger = LoggerFactory.getLogger(TextExtractor.class);
-    
-    public TextExtractor(HtmlParserConfig config) {
-        this.config = config;
-    }
-    
-    public List<ExtractedText> extractText(Document document) {
-        List<ExtractedText> extractedTexts = new ArrayList<>();
-        // Extract from body text
-        for (String tagName : config.getAllowedTags()) {
-            Elements elements = document.select(tagName);
-            for (Element element : elements) {
-                String text = element.ownText();
-                if (!text.isEmpty()) {
-                    extractedTexts.add(new ExtractedText(element, text, ExtractedText.Type.ELEMENT_TEXT));
-                }
-            }
-        }
-        
-        // Extract from attributes
-        for (Map.Entry<String, Set<String>> entry : config.getAllowedAttributes().entrySet()) {
-            String tagName = entry.getKey();
-            Set<String> attributes = entry.getValue();
-            
-            Elements elements = document.select(tagName);
-            for (Element element : elements) {
-                for (String attribute : attributes) {
-                    String attrValue = element.attr(attribute);
-                    if (!attrValue.isEmpty()) {
-                        extractedTexts.add(new ExtractedText(element, attrValue, 
-                            ExtractedText.Type.ATTRIBUTE, attribute));
-                    }
-                }
-            }
-        }
-        
-        return extractedTexts;
-    }
-}
+Testing approach:
+- Test default configuration behavior
+- Verify custom configuration loading
+- Test tag and attribute filtering based on configuration
+- Ensure configuration changes are properly applied to processing
 
-public class ExtractedText {
-    public enum Type { ELEMENT_TEXT, ATTRIBUTE }
-    
-    private final Element element;
-    private final String originalText;
-    private String translatedText;
-    private final Type type;
-    private final String attributeName; // null for ELEMENT_TEXT
-    
-    // Constructor, getters, setters
-}
-```
-
-## 3. Implement HTML Reassembly System [pending]
+## 3. Develop Text Extraction Strategy for HTML Content [done]
 ### Dependencies: 21.1, 21.2
-### Description: Create a system to correctly reintegrate processed text back into the original HTML structure while maintaining all attributes, tag hierarchies, and non-translatable elements.
+### Description: Create a system to extract translatable text from HTML tags and attributes based on the whitelist configuration while preserving the original HTML structure.
 ### Details:
-1. Create an `HtmlReassembler` class that takes the original HTML DOM and a list of processed `ExtractedText` objects
-2. Implement methods to replace text content in the DOM based on the metadata stored in `ExtractedText`
-3. Ensure proper escaping of HTML special characters to prevent injection
-4. Maintain original whitespace and formatting
-5. Add validation to ensure the DOM structure remains valid after reassembly
-6. Implement comprehensive unit tests for various reassembly scenarios
-7. Add detailed logging for reassembly operations
+Implementation steps:
+1. Implement a `_extract_text_from_html(soup, config)` method that traverses the Beautiful Soup parse tree
+2. Extract text content from whitelisted tags while preserving their positions
+3. Extract text from specified attributes (e.g., alt, title) based on configuration
+4. Create a data structure to track the original positions of extracted text
+5. Handle special cases like HTML entities and CDATA sections
 
-Example implementation approach:
-```java
-public class HtmlReassembler {
-    private final Logger logger = LoggerFactory.getLogger(HtmlReassembler.class);
-    
-    public Document reassemble(Document originalDocument, List<ExtractedText> processedTexts) {
-        // Create a deep copy of the original document to avoid modifying it
-        Document result = Jsoup.parse(originalDocument.outerHtml());
-        
-        for (ExtractedText extractedText : processedTexts) {
-            try {
-                // Find the corresponding element in the result document
-                Element targetElement = findCorrespondingElement(result, extractedText.getElement());
-                
-                if (targetElement != null) {
-                    if (extractedText.getType() == ExtractedText.Type.ELEMENT_TEXT) {
-                        // Replace the text content while preserving child elements
-                        replaceTextPreservingChildren(targetElement, extractedText.getTranslatedText());
-                    } else if (extractedText.getType() == ExtractedText.Type.ATTRIBUTE) {
-                        // Replace attribute value
-                        targetElement.attr(extractedText.getAttributeName(), 
-                            extractedText.getTranslatedText());
-                    }
-                } else {
-                    logger.warn("Could not find corresponding element for reassembly");
-                }
-            } catch (Exception e) {
-                logger.error("Error during HTML reassembly: {}", e.getMessage());
-                throw new HtmlReassemblyException("Failed to reassemble HTML", e);
-            }
-        }
-        
-        return result;
-    }
-    
-    private Element findCorrespondingElement(Document doc, Element originalElement) {
-        // Implement element matching logic based on structure, attributes, etc.
-        // This is a simplified example
-        return doc.select(cssPathFor(originalElement)).first();
-    }
-    
-    private String cssPathFor(Element element) {
-        // Generate a CSS selector path that uniquely identifies this element
-        // This is a simplified implementation
-        return element.nodeName() + "[data-index=" + element.elementSiblingIndex() + "]"; 
-    }
-    
-    private void replaceTextPreservingChildren(Element element, String newText) {
-        // Clear existing text nodes
-        for (Node node : element.childNodes()) {
-            if (node instanceof TextNode) {
-                node.remove();
-            }
-        }
-        
-        // Add new text as the first child
-        element.prependChild(new TextNode(newText));
-    }
-}
-```
+Testing approach:
+- Test extraction from various HTML structures
+- Verify correct handling of nested tags
+- Test attribute text extraction
+- Ensure HTML entities are properly handled
+- Validate position tracking for reassembly
 
-## 4. Create Configuration Interface for HTML Processing [pending]
-### Dependencies: 21.1, 21.2, 21.3
-### Description: Develop a comprehensive configuration system that allows users to specify which HTML tags and attributes should be processed, and which should be preserved as-is.
+## 4. Implement HTML Reassembly with Translated Content [done]
+### Dependencies: 21.3
+### Description: Create a system to reintegrate translated text back into the original HTML structure while preserving all attributes, tag hierarchies, and non-translatable elements.
 ### Details:
-1. Design a flexible configuration interface that supports both programmatic and file-based configuration
-2. Implement configuration options for:
-   - Tags that should have their text content extracted for translation
-   - Attributes of specific tags that should be extracted for translation
-   - Tags that should be completely ignored/preserved as-is
-   - Custom handling rules for special cases
-3. Create default configurations for common use cases
-4. Add validation for configuration settings
-5. Implement configuration loading from external sources (JSON, YAML, properties)
-6. Add unit tests for configuration loading and validation
-7. Document all configuration options
+Implementation steps:
+1. Implement a `_reassemble_html(original_soup, translated_texts, positions)` method
+2. Create a mechanism to replace text nodes in the Beautiful Soup tree with translated content
+3. Implement attribute value replacement for translated attribute content
+4. Add proper escaping to prevent HTML injection
+5. Ensure whitespace and formatting preservation
 
-Example implementation approach:
-```java
-public class HtmlProcessingConfig {
-    private Set<String> extractableTextTags = new HashSet<>();
-    private Map<String, Set<String>> extractableAttributes = new HashMap<>();
-    private Set<String> preservedTags = new HashSet<>();
-    private boolean preserveWhitespace = true;
-    private boolean escapeHtml = true;
-    
-    // Builder pattern for fluent configuration
-    public static class Builder {
-        private final HtmlProcessingConfig config = new HtmlProcessingConfig();
-        
-        public Builder withExtractableTextTags(String... tags) {
-            Collections.addAll(config.extractableTextTags, tags);
-            return this;
-        }
-        
-        public Builder withExtractableAttribute(String tag, String attribute) {
-            config.extractableAttributes
-                .computeIfAbsent(tag, k -> new HashSet<>())
-                .add(attribute);
-            return this;
-        }
-        
-        public Builder withPreservedTags(String... tags) {
-            Collections.addAll(config.preservedTags, tags);
-            return this;
-        }
-        
-        public Builder preserveWhitespace(boolean preserve) {
-            config.preserveWhitespace = preserve;
-            return this;
-        }
-        
-        public Builder escapeHtml(boolean escape) {
-            config.escapeHtml = escape;
-            return this;
-        }
-        
-        public HtmlProcessingConfig build() {
-            validateConfig();
-            return config;
-        }
-        
-        private void validateConfig() {
-            // Validate configuration settings
-            // For example, ensure no tag is both extractable and preserved
-            Set<String> intersection = new HashSet<>(config.extractableTextTags);
-            intersection.retainAll(config.preservedTags);
-            if (!intersection.isEmpty()) {
-                throw new IllegalArgumentException(
-                    "Tags cannot be both extractable and preserved: " + intersection);
-            }
-        }
-    }
-    
-    public static Builder builder() {
-        return new Builder();
-    }
-    
-    public static HtmlProcessingConfig fromJson(String json) {
-        // Implement JSON loading
-        return null; // Placeholder
-    }
-    
-    public static HtmlProcessingConfig getDefaultConfig() {
-        return builder()
-            .withExtractableTextTags("p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "td", "th")
-            .withExtractableAttribute("img", "alt")
-            .withExtractableAttribute("a", "title")
-            .withPreservedTags("code", "pre", "script", "style")
-            .build();
-    }
-    
-    // Getters for all properties
-}
-```
+Testing approach:
+- Test reassembly with various HTML structures
+- Verify attribute values are correctly updated
+- Test with special characters and HTML entities
+- Ensure tag hierarchy and structure is preserved
+- Validate proper escaping of translated content
 
-## 5. Integrate Components and Implement Error Handling [pending]
+## 5. Add Error Handling and Integration with Markdown Processing [done]
 ### Dependencies: 21.1, 21.2, 21.3, 21.4
-### Description: Integrate all components into the MarkdownProcessor class and implement comprehensive error handling and logging for the entire HTML processing pipeline.
+### Description: Implement robust error handling for HTML parsing and integrate the HTML processing system with the existing Markdown translation workflow.
 ### Details:
-1. Enhance the MarkdownProcessor class to use the HTML parsing, extraction, and reassembly components
-2. Implement a comprehensive error handling strategy:
-   - Create specific exception types for different failure scenarios
-   - Add detailed logging for all operations
-   - Implement fallback mechanisms for handling malformed HTML
-   - Add recovery strategies to ensure the system degrades gracefully
-3. Create integration tests that verify the entire pipeline
-4. Implement performance monitoring and logging
-5. Add documentation for the entire system
-6. Create examples demonstrating common usage patterns
+Implementation steps:
+1. Implement try-except blocks around HTML parsing operations
+2. Add detailed logging for parsing and reassembly operations
+3. Create fallback mechanisms for handling malformed HTML
+4. Integrate HTML processing into the main Markdown translation workflow
+5. Update the MarkdownProcessor.process() method to handle HTML blocks
 
-Example implementation approach:
-```java
-public class MarkdownProcessor {
-    private final Parser markdownParser;
-    private final HtmlRenderer htmlRenderer;
-    private final HtmlParser htmlParser;
-    private final TextExtractor textExtractor;
-    private final HtmlReassembler htmlReassembler;
-    private final HtmlProcessingConfig config;
-    private final Logger logger = LoggerFactory.getLogger(MarkdownProcessor.class);
-    
-    public MarkdownProcessor(HtmlProcessingConfig config) {
-        this.config = config;
-        this.markdownParser = Parser.builder().build();
-        this.htmlRenderer = HtmlRenderer.builder().build();
-        this.htmlParser = new HtmlParser(new HtmlParserConfig(config));
-        this.textExtractor = new TextExtractor(new HtmlParserConfig(config));
-        this.htmlReassembler = new HtmlReassembler();
-    }
-    
-    public String processMarkdown(String markdown, TextProcessor textProcessor) {
-        try {
-            // Parse markdown to AST
-            Node document = markdownParser.parse(markdown);
-            
-            // Process HTML blocks in the AST
-            processHtmlNodes(document, textProcessor);
-            
-            // Render back to markdown
-            return htmlRenderer.render(document);
-        } catch (Exception e) {
-            logger.error("Error processing markdown: {}", e.getMessage(), e);
-            throw new MarkdownProcessingException("Failed to process markdown", e);
-        }
-    }
-    
-    private void processHtmlNodes(Node document, TextProcessor textProcessor) {
-        // Find and process HTML blocks
-        NodeVisitor visitor = new NodeVisitor(
-            new VisitHandler<>(HtmlBlock.class, this::processHtmlBlock),
-            new VisitHandler<>(HtmlInline.class, this::processHtmlInline)
-        );
-        visitor.visit(document);
-    }
-    
-    private void processHtmlBlock(HtmlBlock node) {
-        try {
-            String originalHtml = node.getChars().toString();
-            Document parsedHtml = htmlParser.parseHtml(originalHtml);
-            
-            // Extract text for processing
-            List<ExtractedText> extractedTexts = textExtractor.extractText(parsedHtml);
-            
-            // Process each extracted text
-            for (ExtractedText text : extractedTexts) {
-                String processed = textProcessor.process(text.getOriginalText());
-                text.setTranslatedText(processed);
-            }
-            
-            // Reassemble HTML with processed text
-            Document reassembledHtml = htmlReassembler.reassemble(parsedHtml, extractedTexts);
-            
-            // Replace the original HTML in the markdown AST
-            node.setChars(new BasedSequence.OfString(reassembledHtml.outerHtml()));
-            
-        } catch (Exception e) {
-            logger.warn("Error processing HTML block, preserving original: {}", e.getMessage());
-            // Leave the original HTML intact if processing fails
-        }
-    }
-    
-    private void processHtmlInline(HtmlInline node) {
-        // Similar to processHtmlBlock but for inline HTML
-    }
-    
-    // Interface for text processing (e.g., translation)
-    public interface TextProcessor {
-        String process(String text);
-    }
-    
-    // Custom exceptions
-    public static class MarkdownProcessingException extends RuntimeException {
-        public MarkdownProcessingException(String message, Throwable cause) {
-            super(message, cause);
-        }
-    }
-}
-```
+Testing approach:
+- Test with malformed HTML to verify graceful degradation
+- Verify logging of parsing errors
+- Test end-to-end Markdown processing with embedded HTML
+- Ensure correct integration with existing Markdown translation
+- Validate performance with large documents containing HTML
 

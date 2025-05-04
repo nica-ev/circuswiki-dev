@@ -2,9 +2,12 @@
 
 import pytest
 from typing import List, Dict, Any, Optional
-from src.processing.markdown_processor import MarkdownProcessor # Assuming Task 6 is done
+from unittest.mock import MagicMock, patch
+# Assuming Task 6 is done
+from src.processing.markdown_processor import MarkdownProcessor
 from src.processing.ast_visitor import MarkdownAstVisitor
 from markdown_it.token import Token # Assuming Token type
+from src.processing.segments import TextSegment, CodeBlockSegment, LinkSegment
 
 # --- Test Visitor Subclass ---
 

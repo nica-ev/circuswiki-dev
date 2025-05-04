@@ -1,0 +1,51 @@
+# Configuration for handling HTML content within Markdown files
+
+# Tags whose direct text content should be extracted for translation
+# Example: <p>Translate this</p> -> extracts "Translate this"
+extract_content_tags:
+  - p
+  - h1
+  - h2
+  - h3
+  - h4
+  - h5
+  - h6
+  - li
+  - td
+  - th
+  - caption
+  - figcaption
+  - blockquote
+  - div # Add div cautiously, might contain non-prose content
+  - span # Add span cautiously
+
+# Tags whose specific attributes should be extracted for translation
+# Format: tag_name: [attribute1, attribute2]
+# Example: <img src="image.jpg" alt="Translate this alt text"> -> extracts "Translate this alt text"
+extract_attribute_tags:
+  img: [alt, title]
+  a: [title]
+  # Add other tags and their translatable attributes here
+
+# Tags that should be completely ignored (including their content and attributes)
+# These tags and their content will be preserved as-is in the output.
+preserve_tags:
+  - code
+  - pre
+  - script
+  - style
+  - kbd
+  - samp
+  - var
+
+# Tags whose content should be preserved, but attributes might be handled
+# (Currently not implemented, placeholder for future extension)
+# preserve_content_tags: []
+
+# Behavior for tags not explicitly listed in any category above
+# Options: 'preserve' (treat like preserve_tags), 'extract' (treat like extract_content_tags)
+default_tag_behavior: preserve
+
+# Whether to attempt parsing content within unknown/unhandled tags
+# (Currently not implemented, placeholder)
+# parse_unknown_tags: false 
