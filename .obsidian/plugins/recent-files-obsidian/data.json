@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "5 Drachen und Zwerge",
+      "path": "docs/5 Drachen und Zwerge.md"
+    },
+    {
       "basename": "index",
       "path": "docs/index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Möhre Hase Fuchs",
       "path": "docs/Möhre Hase Fuchs.md"
-    },
-    {
-      "basename": "Luftballon Hasche",
-      "path": "docs/Luftballon Hasche.md"
     }
   ],
   "omittedPaths": [],

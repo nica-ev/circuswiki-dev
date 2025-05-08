@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/5 Drachen und Zwerge.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "5 Drachen und Zwerge"
             }
           },
           {
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dynamic  ",
+                "query": "inklu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -271,6 +271,7 @@
   },
   "active": "5e3d77de6fb3b1a0",
   "lastOpenFiles": [
+    "docs/index.md",
     "sync.ffs_lock",
     "sync.ffs_db.a1d9.ffs_tmp",
     "sync.ffs_db.9801.ffs_tmp",
@@ -281,9 +282,7 @@
     "sync.ffs_db.d7ed.ffs_tmp",
     "sync.ffs_db.f89c.ffs_tmp",
     "sync.ffs_db.02ab.ffs_tmp",
-    "sync.ffs_db.ba1a.ffs_tmp",
     "docs/Aufwärmspiele MOC.md",
-    "docs/index.md",
     "docs/Taktik und Konzentrationsspiele.md",
     "docs/Spiele zum Kennenlernen.md",
     "docs/Spiele für Zwischendurch.md",

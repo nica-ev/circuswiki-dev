@@ -54,3 +54,5 @@ translation-py/
 *   **Dependencies:** It might have its own `requirements.txt`, potentially duplicating or extending the root `requirements.txt`.
 *   **Imports:** Code within `translation-py` needs to import modules from its *own* `src` directory (e.g., `from src.utils import ...`). Imports from the *root* `src` directory might require careful path configuration if needed.
 *   **Testing:** Running `pytest` from the root directory requires configuration (e.g., via `pyproject.toml` or `pytest.ini`) to correctly discover tests and source files in *both* the root `tests`/`src` and `translation-py/tests`/`translation-py/src` locations without import errors. 
+
+...
