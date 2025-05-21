@@ -1,3 +1,8 @@
+---
+created: 2025-05-04 17:34:32
+update: 2025-05-22 00:49:28
+---
+
 # Project Structure Overview
 
 This document outlines the directory structure of the `circuswiki-dev` workspace.

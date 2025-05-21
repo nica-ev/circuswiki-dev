@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "5 Drachen und Zwerge",
-      "path": "docs/5 Drachen und Zwerge.md"
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/Aufwärmspiele MOC.md"
+    },
+    {
+      "basename": "Bewegungsspiele",
+      "path": "docs/Bewegungsspiele.md"
+    },
+    {
+      "basename": "Cooldown Spiele MOC",
+      "path": "docs/Cooldown Spiele MOC.md"
+    },
+    {
+      "basename": "Fangspiele",
+      "path": "docs/Fangspiele.md"
     },
     {
       "basename": "index",
       "path": "docs/index.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/Aufwärmspiele MOC.md"
     },
     {
       "basename": "Taktik und Konzentrationsspiele",
@@ -21,18 +29,6 @@
       "path": "docs/Spiele zum Kennenlernen.md"
     },
     {
-      "basename": "Spiele für Zwischendurch",
-      "path": "docs/Spiele für Zwischendurch.md"
-    },
-    {
-      "basename": "sitemap",
-      "path": "docs/sitemap.md"
-    },
-    {
-      "basename": "Schnelligkeit+Reaktionsspiele",
-      "path": "docs/Schnelligkeit+Reaktionsspiele.md"
-    },
-    {
       "basename": "MOC Call & Response Spiele",
       "path": "docs/MOC Call & Response Spiele.md"
     },
@@ -41,52 +37,32 @@
       "path": "docs/Liste aller Spiele.md"
     },
     {
-      "basename": "Kreisspiele MOC",
-      "path": "docs/Kreisspiele MOC.md"
+      "basename": "Ball werfen im Stern",
+      "path": "docs/Ball werfen im Stern.md"
     },
     {
-      "basename": "Kooperationsspiele",
-      "path": "docs/Kooperationsspiele.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "Klatschspiele MOC",
-      "path": "docs/Klatschspiele MOC.md"
+      "basename": "README-task-master",
+      "path": "README-task-master.md"
     },
     {
-      "basename": "Kaskade Workspace",
-      "path": "docs/Kaskade Workspace.md"
+      "basename": "PROJECT_STRUCTURE",
+      "path": "PROJECT_STRUCTURE.md"
     },
     {
-      "basename": "Fangspiele",
-      "path": "docs/Fangspiele.md"
-    },
-    {
-      "basename": "Cooldown Spiele MOC",
-      "path": "docs/Cooldown Spiele MOC.md"
-    },
-    {
-      "basename": "Bewegungsspiele",
-      "path": "docs/Bewegungsspiele.md"
-    },
-    {
-      "basename": "Games - The Data Side",
-      "path": "docs/blog/posts/Games - The Data Side.md"
-    },
-    {
-      "basename": "Taming Project Complexity",
-      "path": "docs/blog/posts/Taming Project Complexity.md"
-    },
-    {
-      "basename": "Zettelkasten, Wiki, and Beyond",
-      "path": "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md"
-    },
-    {
-      "basename": "Translating PDF Documents",
-      "path": "docs/Translating PDF Documents.md"
+      "basename": "Presentation Wiki Project",
+      "path": "_inbox/Presentation Wiki Project.md"
     },
     {
       "basename": "CircusWiki - Technical Manual",
       "path": "_inbox/CircusWiki - Technical Manual.md"
+    },
+    {
+      "basename": "Translating PDF Documents",
+      "path": "docs/Translating PDF Documents.md"
     },
     {
       "basename": "Screenshot-Google-AiStudio-Translation",
@@ -97,96 +73,12 @@
       "path": "docs/img/Screenshot-Google-AiStudio-Transcription.png"
     },
     {
-      "basename": "Kaskade 001",
-      "path": "docs/Kaskade 001.md"
-    },
-    {
       "basename": "nica-logo-simple-small-150x150",
       "path": "docs/img/nica-logo-simple-small-150x150.png"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Presentation Wiki Project",
-      "path": "_inbox/Presentation Wiki Project.md"
-    },
-    {
-      "basename": "Hallo ich bin - mit Bällen",
-      "path": "docs/Hallo ich bin - mit Bällen.md"
-    },
-    {
-      "basename": "doc-sys-2",
-      "path": "docs/doc-sys-2.md"
-    },
-    {
-      "basename": "Bällewirrwarr",
-      "path": "docs/Bällewirrwarr.md"
-    },
-    {
-      "basename": "Bewegungs-Spiele",
-      "path": "docs/Bewegungs-Spiele.md"
-    },
-    {
-      "basename": "Alaska Baseball",
-      "path": "docs/Alaska Baseball.md"
-    },
-    {
-      "basename": "Eisbär auf der Scholle",
-      "path": "docs/Eisbär auf der Scholle.md"
-    },
-    {
-      "basename": "Der Hund im großen Haus",
-      "path": "docs/Der Hund im großen Haus.md"
-    },
-    {
       "basename": "Spiele yaml check",
       "path": "_dataview/Spiele yaml check.md"
-    },
-    {
-      "basename": "Adler Hase Kohlkopf",
-      "path": "docs/Adler Hase Kohlkopf.md"
-    },
-    {
-      "basename": "Zombie Hasche mit Namen",
-      "path": "docs/Zombie Hasche mit Namen.md"
-    },
-    {
-      "basename": "Zombie - Hasche",
-      "path": "docs/Zombie - Hasche.md"
-    },
-    {
-      "basename": "Zeithasche",
-      "path": "docs/Zeithasche.md"
-    },
-    {
-      "basename": "Tellerfänger",
-      "path": "docs/Tellerfänger.md"
-    },
-    {
-      "basename": "Schwänzchen-Hasche",
-      "path": "docs/Schwänzchen-Hasche.md"
-    },
-    {
-      "basename": "Robbe und Eisbären",
-      "path": "docs/Robbe und Eisbären.md"
-    },
-    {
-      "basename": "Popcorn",
-      "path": "docs/Popcorn.md"
-    },
-    {
-      "basename": "Pinguine und Killer-Flamingos",
-      "path": "docs/Pinguine und Killer-Flamingos.md"
-    },
-    {
-      "basename": "Pinguine und Eisbären",
-      "path": "docs/Pinguine und Eisbären.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/blog/index.md"
     },
     {
       "basename": "index",
@@ -195,10 +87,6 @@
     {
       "basename": "index",
       "path": "translation_test/index.md"
-    },
-    {
-      "basename": "Möhre Hase Fuchs",
-      "path": "docs/Möhre Hase Fuchs.md"
     }
   ],
   "omittedPaths": [],
