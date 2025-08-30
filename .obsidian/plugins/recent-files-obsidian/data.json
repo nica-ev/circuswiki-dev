@@ -5,24 +5,100 @@
       "path": "docs/Introduction.md"
     },
     {
-      "basename": "Case Study 04 - Greece",
-      "path": "docs/Case Study 04 - Greece.md"
+      "basename": "Case Study 15 - Belgium",
+      "path": "docs/Case Study 15 - Belgium.md"
     },
     {
-      "basename": "Case Study 03 - Greece",
-      "path": "docs/Case Study 03 - Greece.md"
+      "basename": "Case Study 14 - United States",
+      "path": "docs/Case Study 14 - United States.md"
     },
     {
-      "basename": "Monokyklo",
-      "path": "docs/Monokyklo.md"
+      "basename": "Case Study 13 - United States",
+      "path": "docs/Case Study 13 - United States.md"
+    },
+    {
+      "basename": "Case Study 11 - Latin America",
+      "path": "docs/Case Study 11 - Latin America.md"
+    },
+    {
+      "basename": "Case Study 12 - Latin America",
+      "path": "docs/Case Study 12 - Latin America.md"
+    },
+    {
+      "basename": "Case Study 10 - Germany",
+      "path": "docs/Case Study 10 - Germany.md"
+    },
+    {
+      "basename": "Case Study 09 - Germany",
+      "path": "docs/Case Study 09 - Germany.md"
+    },
+    {
+      "basename": "Case Study 08 - Poland",
+      "path": "docs/Case Study 08 - Poland.md"
+    },
+    {
+      "basename": "poland-01",
+      "path": "docs/img/poland-01.jpg"
+    },
+    {
+      "basename": "poland-03",
+      "path": "docs/img/poland-03.jpg"
+    },
+    {
+      "basename": "poland-02",
+      "path": "docs/img/poland-02.jpg"
+    },
+    {
+      "basename": "Case Study 07 - Poland",
+      "path": "docs/Case Study 07 - Poland.md"
+    },
+    {
+      "basename": "Case Study 06 - Greece",
+      "path": "docs/Case Study 06 - Greece.md"
+    },
+    {
+      "basename": "Case Study 05 - Greece",
+      "path": "docs/Case Study 05 - Greece.md"
+    },
+    {
+      "basename": "Case Study 04 - Italy",
+      "path": "docs/Case Study 04 - Italy.md"
+    },
+    {
+      "basename": "Case Study 03 - Italy",
+      "path": "docs/Case Study 03 - Italy.md"
+    },
+    {
+      "basename": "Case Study 02 - Hungary",
+      "path": "docs/Case Study 02 - Hungary.md"
+    },
+    {
+      "basename": "Case Study 01 - Hungary",
+      "path": "docs/Case Study 01 - Hungary.md"
+    },
+    {
+      "basename": "Case studies publication. Erasmus + project",
+      "path": "docs/img/Case studies publication. Erasmus + project.pdf"
+    },
+    {
+      "basename": "Unbenannt 3",
+      "path": "_inbox/Unbenannt 3.md"
+    },
+    {
+      "basename": "Spiele zum Kennenlernen",
+      "path": "docs/Spiele zum Kennenlernen.md"
+    },
+    {
+      "basename": "Bewegungs-Spiele",
+      "path": "docs/Bewegungs-Spiele.md"
     },
     {
       "basename": "index",
       "path": "docs/index.md"
     },
     {
-      "basename": "Case Study 01 - Germany",
-      "path": "docs/Case Study 01 - Germany.md"
+      "basename": "Monokyklo",
+      "path": "docs/Monokyklo.md"
     },
     {
       "basename": "Unbenannt 4",
@@ -31,10 +107,6 @@
     {
       "basename": "NICA-EV",
       "path": "docs/NICA-EV.md"
-    },
-    {
-      "basename": "Case Study 02 - Germany",
-      "path": "docs/Case Study 02 - Germany.md"
     },
     {
       "basename": "Kaskade 001",
@@ -85,10 +157,6 @@
       "path": "docs/Taktik und Konzentrationsspiele.md"
     },
     {
-      "basename": "Spiele zum Kennenlernen",
-      "path": "docs/Spiele zum Kennenlernen.md"
-    },
-    {
       "basename": "MOC Call & Response Spiele",
       "path": "docs/MOC Call & Response Spiele.md"
     },
@@ -131,22 +199,6 @@
     {
       "basename": "Screenshot-Google-AiStudio-Transcription",
       "path": "docs/img/Screenshot-Google-AiStudio-Transcription.png"
-    },
-    {
-      "basename": "nica-logo-simple-small-150x150",
-      "path": "docs/img/nica-logo-simple-small-150x150.png"
-    },
-    {
-      "basename": "Spiele yaml check",
-      "path": "_dataview/Spiele yaml check.md"
-    },
-    {
-      "basename": "index",
-      "path": "translation_test/en/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "translation_test/index.md"
     }
   ],
   "omittedPaths": [],
