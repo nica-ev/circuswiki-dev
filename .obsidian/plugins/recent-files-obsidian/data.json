@@ -1,40 +1,104 @@
 {
   "recentFiles": [
     {
-      "basename": "Introduction",
-      "path": "docs/Introduction.md"
+      "basename": "Lets talk about inclusive circus practice",
+      "path": "docs/Lets talk about inclusive circus practice.md"
     },
     {
-      "basename": "Case Study 15 - Belgium",
-      "path": "docs/Case Study 15 - Belgium.md"
+      "basename": "Quat Props",
+      "path": "docs/Quat Props.md"
+    },
+    {
+      "basename": "Case Study 15 - United States",
+      "path": "docs/Case Study 15 - United States.md"
     },
     {
       "basename": "Case Study 14 - United States",
       "path": "docs/Case Study 14 - United States.md"
     },
     {
-      "basename": "Case Study 13 - United States",
-      "path": "docs/Case Study 13 - United States.md"
-    },
-    {
-      "basename": "Case Study 11 - Latin America",
-      "path": "docs/Case Study 11 - Latin America.md"
-    },
-    {
       "basename": "Case Study 12 - Latin America",
       "path": "docs/Case Study 12 - Latin America.md"
+    },
+    {
+      "basename": "Case Study 13 - Latin America",
+      "path": "docs/Case Study 13 - Latin America.md"
+    },
+    {
+      "basename": "Hula Hoop Integral",
+      "path": "docs/Hula Hoop Integral.md"
+    },
+    {
+      "basename": "Case Study 09 - Belgium",
+      "path": "docs/Case Study 09 - Belgium.md"
+    },
+    {
+      "basename": "Circusatelier Woesh",
+      "path": "docs/Circusatelier Woesh.md"
+    },
+    {
+      "basename": "Case Study 11 - Germany",
+      "path": "docs/Case Study 11 - Germany.md"
     },
     {
       "basename": "Case Study 10 - Germany",
       "path": "docs/Case Study 10 - Germany.md"
     },
     {
-      "basename": "Case Study 09 - Germany",
-      "path": "docs/Case Study 09 - Germany.md"
-    },
-    {
       "basename": "Case Study 08 - Poland",
       "path": "docs/Case Study 08 - Poland.md"
+    },
+    {
+      "basename": "Case Study 07 - Poland",
+      "path": "docs/Case Study 07 - Poland.md"
+    },
+    {
+      "basename": "Odskocznia Studio",
+      "path": "docs/Odskocznia Studio.md"
+    },
+    {
+      "basename": "Case Study 04 - Italy",
+      "path": "docs/Case Study 04 - Italy.md"
+    },
+    {
+      "basename": "Case Study 03 - Italy",
+      "path": "docs/Case Study 03 - Italy.md"
+    },
+    {
+      "basename": "SELF APS",
+      "path": "docs/SELF APS.md"
+    },
+    {
+      "basename": "Inspirál Circus Center",
+      "path": "docs/Inspirál Circus Center.md"
+    },
+    {
+      "basename": "Case Study 01 - Hungary",
+      "path": "docs/Case Study 01 - Hungary.md"
+    },
+    {
+      "basename": "Case Study 02 - Hungary",
+      "path": "docs/Case Study 02 - Hungary.md"
+    },
+    {
+      "basename": "Case Study 06 - Greece",
+      "path": "docs/Case Study 06 - Greece.md"
+    },
+    {
+      "basename": "Case Study 05 - Greece",
+      "path": "docs/Case Study 05 - Greece.md"
+    },
+    {
+      "basename": "NICA-EV",
+      "path": "docs/NICA-EV.md"
+    },
+    {
+      "basename": "Monokyklo",
+      "path": "docs/Monokyklo.md"
+    },
+    {
+      "basename": "CircusWiki - Technical Manual",
+      "path": "_inbox/CircusWiki - Technical Manual.md"
     },
     {
       "basename": "poland-01",
@@ -47,34 +111,6 @@
     {
       "basename": "poland-02",
       "path": "docs/img/poland-02.jpg"
-    },
-    {
-      "basename": "Case Study 07 - Poland",
-      "path": "docs/Case Study 07 - Poland.md"
-    },
-    {
-      "basename": "Case Study 06 - Greece",
-      "path": "docs/Case Study 06 - Greece.md"
-    },
-    {
-      "basename": "Case Study 05 - Greece",
-      "path": "docs/Case Study 05 - Greece.md"
-    },
-    {
-      "basename": "Case Study 04 - Italy",
-      "path": "docs/Case Study 04 - Italy.md"
-    },
-    {
-      "basename": "Case Study 03 - Italy",
-      "path": "docs/Case Study 03 - Italy.md"
-    },
-    {
-      "basename": "Case Study 02 - Hungary",
-      "path": "docs/Case Study 02 - Hungary.md"
-    },
-    {
-      "basename": "Case Study 01 - Hungary",
-      "path": "docs/Case Study 01 - Hungary.md"
     },
     {
       "basename": "Case studies publication. Erasmus + project",
@@ -97,16 +133,8 @@
       "path": "docs/index.md"
     },
     {
-      "basename": "Monokyklo",
-      "path": "docs/Monokyklo.md"
-    },
-    {
       "basename": "Unbenannt 4",
       "path": "_inbox/Unbenannt 4.md"
-    },
-    {
-      "basename": "NICA-EV",
-      "path": "docs/NICA-EV.md"
     },
     {
       "basename": "Kaskade 001",
@@ -171,34 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "README-task-master",
-      "path": "README-task-master.md"
-    },
-    {
-      "basename": "PROJECT_STRUCTURE",
-      "path": "PROJECT_STRUCTURE.md"
-    },
-    {
-      "basename": "Presentation Wiki Project",
-      "path": "_inbox/Presentation Wiki Project.md"
-    },
-    {
-      "basename": "CircusWiki - Technical Manual",
-      "path": "_inbox/CircusWiki - Technical Manual.md"
-    },
-    {
-      "basename": "Translating PDF Documents",
-      "path": "docs/Translating PDF Documents.md"
-    },
-    {
-      "basename": "Screenshot-Google-AiStudio-Translation",
-      "path": "docs/img/Screenshot-Google-AiStudio-Translation.png"
-    },
-    {
-      "basename": "Screenshot-Google-AiStudio-Transcription",
-      "path": "docs/img/Screenshot-Google-AiStudio-Transcription.png"
     }
   ],
   "omittedPaths": [],

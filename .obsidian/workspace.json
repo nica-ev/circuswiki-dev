@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "972bd744ae659f09",
+        "id": "85adc8d0cab0dac7",
         "type": "tabs",
         "children": [
           {
-            "id": "7deca5be5ef8d1b0",
+            "id": "514771bd92e512d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Introduction.md",
+                "file": "docs/Lets talk about inclusive circus practice.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Lets talk about inclusive circus practice"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "home",
+                "query": "technical ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,11 +85,13 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 380.5,
+    "collapsed": true
   },
   "right": {
     "id": "6695d9278e344b32",
@@ -105,10 +107,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/Introduction.md"
+                "file": "docs/Lets talk about inclusive circus practice.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von Introduction"
+              "title": "Dateieigenschaften von Lets talk about inclusive circus practice"
             }
           },
           {
@@ -117,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Introduction.md",
+                "file": "docs/Lets talk about inclusive circus practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Introduction"
+              "title": "Gliederung von Lets talk about inclusive circus practice"
             }
           },
           {
@@ -208,54 +210,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7deca5be5ef8d1b0",
+  "active": "514771bd92e512d3",
   "lastOpenFiles": [
-    "sync.ffs_db.4d88.ffs_tmp",
+    "docs/Quat Props.md",
+    "docs/Lets talk about inclusive circus practice.md",
+    "docs/Case Study 15 - United States.md",
+    "docs/Case Study 14 - United States.md",
+    "docs/Case Study 12 - Latin America.md",
+    "docs/Case Study 13 - Latin America.md",
+    "docs/Hula Hoop Integral.md",
+    "docs/Case Study 09 - Belgium.md",
+    "docs/Circusatelier Woesh.md",
+    "docs/Case Study 11 - Germany.md",
+    "docs/Case Study 10 - Germany.md",
+    "docs/Case Study 08 - Poland.md",
+    "docs/Case Study 07 - Poland.md",
+    "docs/Odskocznia Studio.md",
+    "docs/Case Study 04 - Italy.md",
+    "docs/Case Study 03 - Italy.md",
+    "docs/SELF APS.md",
+    "docs/Inspirál Circus Center.md",
+    "docs/Case Study 01 - Hungary.md",
+    "docs/Case Study 02 - Hungary.md",
+    "docs/Case Study 06 - Greece.md",
+    "docs/Case Study 05 - Greece.md",
+    "docs/NICA-EV.md",
+    "docs/Monokyklo.md",
+    "_inbox/NICA eV.md",
+    "_inbox/CircusWiki - Technical Manual.md",
+    "sync.ffs_db.ff60.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.ea2e.ffs_tmp",
-    "sync.ffs_db.f89c.ffs_tmp",
-    "sync.ffs_db.3d89.ffs_tmp",
-    "sync.ffs_db.1c48.ffs_tmp",
-    "sync.ffs_db.598c.ffs_tmp",
-    "sync.ffs_db.adcb.ffs_tmp",
-    "sync.ffs_db.660e.ffs_tmp",
-    "sync.ffs_db.ca5a.ffs_tmp",
-    "sync.ffs_db.3001.ffs_tmp",
-    "docs/Case Study 15 - Belgium.md",
+    "sync.ffs_db.abb0.ffs_tmp",
+    "sync.ffs_db.488c.ffs_tmp",
+    "sync.ffs_db.f36e.ffs_tmp",
+    "sync.ffs_db.6824.ffs_tmp",
+    "sync.ffs_db.ba48.ffs_tmp",
+    "sync.ffs_db.6a00.ffs_tmp",
+    "sync.ffs_db.8b71.ffs_tmp",
+    "sync.ffs_db.a41c.ffs_tmp",
     "docs/img/belgium-3.png",
     "docs/img/belgium-2.png",
     "docs/img/belgium-1.jpg",
-    "docs/Introduction.md",
-    "docs/Case Study 14 - United States.md",
-    "docs/Case Study 13 - United States.md",
-    "docs/Case Study 11 - Latin America.md",
-    "docs/Case Study 12 - Latin America.md",
-    "docs/Case Study 10 - Germany.md",
-    "docs/Case Study 09 - Germany.md",
-    "docs/Case Study 08 - Poland.md",
     "docs/img/poland-01.jpg",
     "docs/img/poland-03.jpg",
     "docs/img/poland-02.jpg",
-    "docs/Case Study 07 - Poland.md",
-    "docs/Case Study 06 - Greece.md",
-    "docs/Case Study 05 - Greece.md",
-    "docs/Case Study 04 - Italy.md",
     "docs/img/italy-5.jpg",
     "docs/img/italy-6.jpg",
     "docs/img/italy-7.jpg",
-    "docs/Case Study 03 - Italy.md",
     "docs/img/italy-2.jpg",
-    "docs/Case Study 02 - Hungary.md",
-    "docs/Case Study 01 - Hungary.md",
-    "_inbox/Unbenannt 3.md",
-    "docs/Spiele zum Kennenlernen.md",
-    "docs/Bewegungs-Spiele.md",
-    "docs/index.md",
-    "docs/Monokyklo.md",
-    "_inbox/Unbenannt 4.md",
-    "docs/NICA-EV.md",
-    "docs/Kaskade 001.md",
-    "docs/3 gewinnt - Kopie.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",
