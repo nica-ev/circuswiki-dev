@@ -17,7 +17,7 @@ authors:
 [[Dokumentation Nica eV]] | [[Bewegungs-Spiele|Bewegungs-Spiele]] | [[mitmachen|mitmachen]] | [[Beigoma|Beigoma]] | [[Kaskade Workspace]] | [[Jonglage|Jonglage]]
 
 # Erasmus+ 
-[[Lets talk about inclusive circus practice|Introduction and more...]]
+[[Lets-talk-about-inclusive-circus-practice|Introduction and more...]]
 ## Kürzliche Änderungen
 [[release notes|Release Notes]]
 

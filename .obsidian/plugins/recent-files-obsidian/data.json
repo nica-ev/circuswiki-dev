@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Lets talk about inclusive circus practice",
-      "path": "docs/Lets talk about inclusive circus practice.md"
+      "basename": "Disclaimer",
+      "path": "docs/Disclaimer.md"
+    },
+    {
+      "basename": "Lets-talk-about-inclusive-circus-practice",
+      "path": "docs/Lets-talk-about-inclusive-circus-practice.md"
+    },
+    {
+      "basename": "EN_FundedbytheEU_RGB_POS",
+      "path": "docs/img/EN_FundedbytheEU_RGB_POS.png"
     },
     {
       "basename": "Quat Props",
@@ -191,14 +199,6 @@
     {
       "basename": "Liste aller Spiele",
       "path": "docs/Liste aller Spiele.md"
-    },
-    {
-      "basename": "Ball werfen im Stern",
-      "path": "docs/Ball werfen im Stern.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
