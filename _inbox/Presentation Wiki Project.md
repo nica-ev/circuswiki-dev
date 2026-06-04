@@ -73,7 +73,7 @@ https://nica.network
 - use github to contribute directly (we can help with getting this to work for you)
 
 ---
-![[abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png]]
+![](../docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png)
 # **An Open, Community driven Knowledge Space**
 
 ## **1. Introduction (2 minutes)**
@@ -82,7 +82,7 @@ https://nica.network
 - But I've also noticed how often this knowledge feels scattered and difficult to access.
 - This observation led me to think about how we could create a more accessible and sustainable way to share this collective wisdom.  Not just for ourselves, but for the broader community.
 - This is what sparked the idea for this project.  It's an initiative – still very much in early development – to build a community-based knowledge space for movement pedagogy.
-![[abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png]]
+![](../docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png)
 ## **2. The "Why" - Problem & *Underlying Motivation* (4 minutes)**
 
 - I'm sure many of you have experienced this: you remember a great game from a workshop, or you know there's a fantastic resource out there, but you can't quite put your finger on it. 
@@ -95,7 +95,7 @@ https://nica.network
 - So, the core idea is simple: to create a shared, open space where we can collectively document and share information about movement pedagogy (and similar topics).  
 - A kind of community-built library, if you will - thats owned by the community, not an individual (or society)
 
-![[abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png]]
+![](../docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png)
 ## **3. *Design Principles* (5 minutes)**
 
 * **Open & Wiki-like** 
@@ -118,7 +118,7 @@ https://nica.network
 	* This means the content is free for anyone to use and share, but with attribution and share-alike conditions. 
 	* It's about ensuring open access while also protecting the integrity of the resource and encouraging further sharing within the community.
 
-![[abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png]]
+![](../docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png)
 ## **4. Invitation to Explore, Contribute (3 minutes)**
 
 * At this stage, the project is very much a work in progress.  
@@ -140,7 +140,7 @@ https://nica.network
 	* This is intended to be a community resource, and its **development will be shaped by the community**.  
 	* Your feedback and contributions are essential to making it truly valuable and sustainable.
 
-![[abhuva_Minimalist_illustration_of_an_open_doorway_leading_to_a__e24f29f5-9dfc-4b28-b25a-6c924b41290f.png]]
+![](../docs/img/abhuva_Minimalist_illustration_of_an_open_doorway_leading_to_a__e24f29f5-9dfc-4b28-b25a-6c924b41290f.png)
 ## **5. Q&A  (1 minute)**
 - We're really keen to hear your thoughts and suggestions.
 - www.nica.network

@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Disclaimer.md",
+                "file": "docs/Spiele zum Kennenlernen.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Disclaimer"
+              "title": "Spiele zum Kennenlernen"
             }
           },
           {
@@ -130,10 +130,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/Disclaimer.md"
+                "file": "docs/Spiele zum Kennenlernen.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von Disclaimer"
+              "title": "Dateieigenschaften von Spiele zum Kennenlernen"
             }
           },
           {
@@ -221,8 +221,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Neue Base erstellen": false,
       "graph:Graph-Ansicht öffnen": false,
-      "bases:Create new base": false,
       "switcher:Schnellauswahl öffnen": true,
       "canvas:Neuen Canvas erstellen": false,
       "command-palette:Befehlspalette öffnen": false,
@@ -235,19 +235,20 @@
   },
   "active": "08c7d89a3834f47a",
   "lastOpenFiles": [
-    "docs/Lets-talk-about-inclusive-circus-practice.md",
-    "docs/Disclaimer.md",
-    "docs/img/EN_FundedbytheEU_RGB_POS.png",
-    "sync.ffs_db.b57e.ffs_tmp",
+    "sync.ffs_db.4c26.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.a0f9.ffs_tmp",
-    "sync.ffs_db.53f4.ffs_tmp",
-    "sync.ffs_db.809f.ffs_tmp",
-    "sync.ffs_db.6fc8.ffs_tmp",
-    "sync.ffs_db.7d68.ffs_tmp",
-    "sync.ffs_db.fe84.ffs_tmp",
-    "sync.ffs_db.9253.ffs_tmp",
-    "sync.ffs_db.a1a4.ffs_tmp",
+    "sync.ffs_db.c180.ffs_tmp",
+    "sync.ffs_db.b9a9.ffs_tmp",
+    "sync.ffs_db.839b.ffs_tmp",
+    "sync.ffs_db.1b8a.ffs_tmp",
+    "sync.ffs_db.832f.ffs_tmp",
+    "sync.ffs_db.5fe5.ffs_tmp",
+    "sync.ffs_db.526c.ffs_tmp",
+    "sync.ffs_db.e228.ffs_tmp",
+    "sync.ffs_db.2c43.ffs_tmp",
+    "docs/Disclaimer.md",
+    "docs/Lets-talk-about-inclusive-circus-practice.md",
+    "docs/img/EN_FundedbytheEU_RGB_POS.png",
     "docs/Quat Props.md",
     "docs/Case Study 15 - United States.md",
     "docs/Case Study 14 - United States.md",
