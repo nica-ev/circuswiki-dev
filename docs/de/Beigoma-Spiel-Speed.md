@@ -11,6 +11,8 @@ title: Speed
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Einführung in das Spiel "Speed".
 Spielbeschreibung.

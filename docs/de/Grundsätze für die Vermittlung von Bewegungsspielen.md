@@ -9,6 +9,8 @@ title: Grundsätze für die Vermittlung von Bewegungsspielen
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Grundsätze für die Vermittlung von Bewegungsspielen
 

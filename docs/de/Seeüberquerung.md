@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - Kooperation
+translation_status: original
+translation_source_lang: de
 ---
 Gruppen a 5 Teilnehmer
 die versuchen mit 6 Stücken Papier einen See (das Spielfeld) zu überqueren und zu einer Insel (Weichbodenmatte) zu gelangen.

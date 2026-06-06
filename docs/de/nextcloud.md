@@ -9,6 +9,8 @@ title: Nextcloud
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Backups
 Wie werden die Backups gemanaged --> Trebor fragen. #todo 

@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - sonstiges
+translation_status: original
+translation_source_lang: de
 ---
 alle Kinder stehen im Kreis und halten sich an den Händen.
 Ein oder mehrere (HulaHoop) Reifen werden umgehangen. Dazu greift ein Kind durch den Reifen und fässt danach wieder seinen Nachbarn so das der Reifen "im Kreis hängt"

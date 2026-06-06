@@ -10,6 +10,8 @@ title: Jonglage
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Jonglage
 

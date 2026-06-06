@@ -16,6 +16,8 @@ instagram: "@hulahoopintegral"
 youtube: "@hulahoopintegral"
 website: linktr.ee/hulahoopintegral
 land: Argentina
+translation_status: original
+translation_source_lang: de
 ---
 # Hula Hoop Integral 
  Hula Hoop Integral is a pedagogical and artistic project born in Latin America that explores the hoop as a tool for learning, expression, and social 

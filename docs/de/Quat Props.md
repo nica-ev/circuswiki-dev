@@ -15,6 +15,8 @@ facebook: "@quatprops"
 instagram: "@quatprops"
 youtube: "@quatprops"
 website: www.quatprops.net
+translation_status: original
+translation_source_lang: de
 ---
 # Quat Props 
  Founded by Craig Quat, is an international initiative dedicated to advancing accessibility and inclusion through juggling. By developing innovative tools 

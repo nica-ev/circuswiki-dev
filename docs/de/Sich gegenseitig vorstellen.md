@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 5
 group-max: 15
 todo: Text überarbeiten, ähnlihche Notizen verlinken
+translation_status: original
+translation_source_lang: de
 ---
 # Sich gegenseitig "vorstellen"
 

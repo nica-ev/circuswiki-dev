@@ -9,6 +9,8 @@ update: 2025-01-23 05:44:55
 title: Buchhaltung Übersicht
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Buchhaltung Übersicht
 

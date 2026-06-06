@@ -19,6 +19,8 @@ source:
   - Tasifan Spielebuch
 group-min: "30"
 group-max: "100"
+translation_status: original
+translation_source_lang: de
 ---
 # Alaska Baseball
 

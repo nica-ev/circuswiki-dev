@@ -9,6 +9,8 @@ title: Markdown
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Our markdown files have a very specific structure and commands they allow (that also extend standard markdown in some cases)
 

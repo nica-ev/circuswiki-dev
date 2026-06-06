@@ -9,6 +9,8 @@ title: Release Notes
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 >[!info]
 >Diese Release Notes geben nur einen groben Überblick, kleine Änderungen (wie z.b. einzelne neue Seiten, Änderungen an bestehendem Content) werden nicht alle aufgeführt. Diese können aber in der Historie des Repositories genau nachvollzogen werden.

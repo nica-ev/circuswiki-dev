@@ -8,6 +8,8 @@ update: 2025-01-23 05:45:18
 title: Impressum
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 NICA e.V.
 An der Schwemme 3

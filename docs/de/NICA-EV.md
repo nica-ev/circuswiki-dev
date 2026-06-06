@@ -14,6 +14,8 @@ authors:
 website: www.nica.network
 email: info@nica.network
 land: Germany
+translation_status: original
+translation_source_lang: de
 ---
 # NICA e.V. - Network for inclusive circus arts
 

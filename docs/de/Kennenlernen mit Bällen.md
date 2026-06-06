@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 4
 group-max: 20
 todo: Text überarbeiten, ähnlihche Notizen verlinken
+translation_status: original
+translation_source_lang: de
 ---
 # Kennenlernen mit Bällen
 

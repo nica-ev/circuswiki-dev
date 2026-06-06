@@ -13,6 +13,8 @@ authors:
 category:
   - action
   - kreisspiel
+translation_status: original
+translation_source_lang: de
 ---
 # Zah
 

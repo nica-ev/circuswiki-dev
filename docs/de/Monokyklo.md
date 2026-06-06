@@ -15,6 +15,8 @@ facebook: "@monokyklo"
 instagram: "@monokyklo"
 youtube: "@circusdanceyoga2472"
 website: circustogether.eu
+translation_status: original
+translation_source_lang: de
 ---
 # Monokyklo
 

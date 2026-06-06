@@ -10,6 +10,8 @@ update: 2025-01-23 05:45:45
 title: Wordpress
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Wordpress
 

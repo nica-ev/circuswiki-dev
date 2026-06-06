@@ -10,6 +10,8 @@ title: Einführung der Beigoma-Terminologie
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Beim Spielen mit Beigoma kommen und gehen verschiedene Fachbegriffe. Nur einfache Inhalte. Wenn Sie es wissen, wird es einfacher zu kommunizieren sein, also benutzen Sie es bitte!
 

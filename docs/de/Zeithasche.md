@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 6
 group-max: 30
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein temporeiches Fangspiel für kleine bis mittlere Gruppen, bei dem zwei Mannschaften um die beste Fangzeit konkurrieren.

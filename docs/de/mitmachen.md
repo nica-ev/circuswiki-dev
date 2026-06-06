@@ -8,6 +8,8 @@ update: 2025-01-23 05:45:25
 title: Mitmachen
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Ihr seid herzlich eingeladen euch an der Dokumentation zu beteiligen.
 Mögliche Themen wären:

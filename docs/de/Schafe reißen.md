@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - bewegung
+translation_status: original
+translation_source_lang: de
 ---
 >[!info]
 >"Schafe reißen" ist ein Spiel, bei dem die Schafe versuchen, sicher auf die Seite der Wölfe zu gelangen, während die Wölfe versuchen, die Schafe zu reißen und ebenfalls auf die andere Seite zu gelangen. Wenn ein Schaf von einem Wolf über die Ziellinie gezogen wird, wird es selbst zum Wolf. Das Spiel endet, wenn alle Schafe zu Wölfen geworden sind.

@@ -9,6 +9,8 @@ title: Workflows Sprachmodelle
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 ## Frontend: Msty
 Als Frontend nutze ich die App [Msty](https://msty.app).

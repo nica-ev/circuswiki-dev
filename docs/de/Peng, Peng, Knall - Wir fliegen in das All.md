@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - kreisspiel
+translation_status: original
+translation_source_lang: de
 ---
 # Peng, Peng, Knall - Wir fliegen in das All
 

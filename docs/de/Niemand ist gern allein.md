@@ -19,6 +19,8 @@ Material: keines
 Spieldauer: beliebig
 group-min: 8
 group-max: 99
+translation_status: original
+translation_source_lang: de
 ---
 # Niemand ist gern allein
 

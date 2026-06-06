@@ -11,6 +11,8 @@ description: Transkript des Magazines "Kaskade 004" von 1985
 authors:
   - Marc Bielert
 type: Magazin
+translation_status: original
+translation_source_lang: de
 ---
 ## There's Something In The Air
 

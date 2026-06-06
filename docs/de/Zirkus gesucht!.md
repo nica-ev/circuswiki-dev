@@ -12,6 +12,8 @@ authors:
   - Kattrin & Uli
 type: Artikel
 source: Kaskade 001
+translation_status: original
+translation_source_lang: de
 ---
 ## Zirkus gesucht!
 **Ein Bericht zweier Clowns, die keine Lust mehr hatten, in der DDR zu leben**

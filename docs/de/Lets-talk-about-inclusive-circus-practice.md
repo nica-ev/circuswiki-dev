@@ -12,6 +12,8 @@ description:
 authors:
   - Marc Bielert
   - Craig Quat
+translation_status: original
+translation_source_lang: de
 ---
 [About the project and partners](Disclaimer.md)
 ## Prolog

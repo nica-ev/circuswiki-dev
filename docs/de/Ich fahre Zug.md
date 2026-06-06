@@ -19,6 +19,8 @@ group-max: "30"
 Schwierigkeit: mittel
 Material: Stühle
 Spieldauer: beliebig
+translation_status: original
+translation_source_lang: de
 ---
 # Ich fahre Zug
 

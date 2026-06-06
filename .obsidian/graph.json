@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "path:docs -file:\"Liste aller Spiele\" -file:\"sitemap\"",
+  "collapse-filter": true,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -12,6 +12,27 @@
       "color": {
         "a": 1,
         "rgb": 15408670
+      }
+    },
+    {
+      "query": "[\"lang\":de]",
+      "color": {
+        "a": 1,
+        "rgb": 65344
+      }
+    },
+    {
+      "query": "[\"lang\":en]",
+      "color": {
+        "a": 1,
+        "rgb": 43775
+      }
+    },
+    {
+      "query": "[\"lang\":pl]",
+      "color": {
+        "a": 1,
+        "rgb": 14041855
       }
     }
   ],
@@ -25,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.15592475224694055,
-  "close": true
+  "scale": 0.1559247522469403,
+  "close": false
 }

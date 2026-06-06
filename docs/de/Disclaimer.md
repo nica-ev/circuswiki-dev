@@ -8,6 +8,8 @@ tags:
 title: About the projects
 description:
 authors:
+translation_status: original
+translation_source_lang: de
 ---
 ![EN_FundedbytheEU_RGB_POS.png](../img/EN_FundedbytheEU_RGB_POS.png)
 ## About the projects

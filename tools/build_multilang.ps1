@@ -5,6 +5,7 @@ $Site = Join-Path $Root "site"
 
 Push-Location $Root
 try {
+    python tools/configure_site_base.py
     python tools/stage_multilang.py
 
     if (Test-Path $Site) {
@@ -13,6 +14,7 @@ try {
 
     zensical build
     zensical build -f zensical.en.toml
+    zensical build -f zensical.pl.toml
 }
 finally {
     Pop-Location

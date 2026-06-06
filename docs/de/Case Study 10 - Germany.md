@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-10-germany
 created: 2025-08-29 19:27:16
-update: 2025-08-31 20:22:34
+update: 2026-06-06 21:49:14
 publish: false
 tags:
   - case-study
@@ -12,94 +12,99 @@ authors:
   - Marc Bielert
 type: Artikel
 land: Germany
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 10 - Germany.md
+translation_source_hash: 33e0c90409adbc227592d99087134d67586fff800f0f24581d1ac61ab4673e5d
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:22+00:00
 ---
-# **Movement and Play in Early Childhood Education**
+# **Bewegung und Spiel in der frühkindlichen Bildung**
 
-[NICA e.V.](NICA-EV.md), Halle, Germany
-*Written by Marc Bielert*
+[NICA e.V.](NICA-EV.md), Halle
+*Verfasst von Marc Bielert*
 
-## **Project Overview and Context**  
- This case study explores a long-term circus workshop delivered in a **kindergarten located in a socially disadvantaged area of Eastern Germany**. The project became a valued and consistent part of the weekly routine, engaging a **highly diverse group of children aged 1.5 to 6 years**. According to the kindergarten director, approximately **90% of the children spoke German as a second or even third language**. This linguistic landscape created a persistent communication challenge: some children had learned to signal understanding to please adults, even when confused.
+## **Projektübersicht und Kontext**
+Diese Fallstudie untersucht einen langfristigen Zirkusworkshop in einem **Kindergarten in einem sozial benachteiligten Gebiet Ostdeutschlands**. Das Projekt wurde zu einem geschätzten und festen Bestandteil der wöchentlichen Routine und bezog eine **sehr heterogene Gruppe von Kindern im Alter von 1,5 bis 6 Jahren** ein. Laut der Kindergartenleitung sprachen etwa **90 % der Kinder Deutsch als Zweit- oder sogar Drittsprache**. Diese sprachliche Vielfalt stellte eine ständige Kommunikationsherausforderung dar: Einige Kinder hatten gelernt, Verständnis zu signalisieren, um den Erwachsenen zu gefallen, auch wenn sie nichts verstanden.
 
-This required facilitators to develop **strong sensitivity to both verbal and non-verbal cues**. The team, composed of **two facilitators with 4 to 15 years of experience** in inclusive circus work and academic backgrounds in **Educational Sciences and Social Pedagogy**, encountered a familiar reality in under-resourced communities: a **dedicated but understaffed educational team**. This limited the kindergarten’s ability to offer individualized support, making the external workshop a **welcomed addition** to the children’s lives.
-
----
-
-## **Philosophy and Pedagogical Approach**  
- The project was guided by a **simple yet powerful principle**: children are exposed to a **wide variety of movement experiences in a playful setting**. The pedagogical approach emphasized **equality**, **eye-level interaction**, and the creation of a **low-pressure, exploratory atmosphere**. Success was defined not by performance, but by **engagement, curiosity**, and the **freedom to try, fail, and try again**.
-
-This gentle environment coexisted with **clear structure and boundaries**. Facilitators maintained **rules and adult authority when needed**, ensuring safety and group cohesion. At the same time, children were encouraged to **navigate minor social conflicts independently**, fostering **negotiation and self-regulation skills**.
+Dies erforderte von den Kursleitern, eine **hohe Sensibilität für verbale und nonverbale Signale** zu entwickeln. Das Team, bestehend aus **zwei Kursleitern mit 4 bis 15 Jahren Erfahrung** in inklusiver Zirkusarbeit und akademischem Hintergrund in **Erziehungswissenschaften und Sozialpädagogik**, sah sich in unterversorgten Gemeinden mit einer bekannten Realität konfrontiert: ein **engagiertes, aber unterbesetztes pädagogisches Team**. Dies schränkte die Möglichkeiten des Kindergartens zur individuellen Förderung ein, wodurch der externe Workshop eine **willkommene Ergänzung** für das Leben der Kinder wurde.
 
 ---
 
-## **Materials and Environment**  
- Workshops were held in a **small sports room** transformed using both **specialized and traditional circus equipment**, including:
+## **Philosophie und pädagogischer Ansatz**
+Das Projekt wurde von einem **einfachen, aber wirkungsvollen Prinzip** geleitet: Kinder sollen in einem **spielerischen Rahmen eine Vielzahl von Bewegungserfahrungen** sammeln. Der pädagogische Ansatz betonte **Gleichheit**, **Interaktion auf Augenhöhe** und die Schaffung einer **druckfreien, explorativen Atmosphäre**. Erfolg wurde nicht durch Leistung definiert, sondern durch **Engagement, Neugier** und die **Freiheit, auszuprobieren, zu scheitern und es erneut zu versuchen**.
 
-* **Juggle Boards**, enabling structured pattern exploration without scattered balls
+Diese sanfte Umgebung existierte neben einer **klaren Struktur und Grenzen**. Die Kursleiter wahrteten **Regeln und Autorität der Erwachsenen, wenn nötig**, um Sicherheit und Gruppenzusammenhalt zu gewährleisten. Gleichzeitig wurden die Kinder ermutigt, **kleinere soziale Konflikte eigenständig zu lösen**, was die Entwicklung von **Verhandlungs- und Selbstregulationsfähigkeiten** förderte.
 
-* **Newton Devices**, for controlled tossing and coordination
+---
 
-* **Curved Wobble Boards**, for balance, crawling, and rolling
+## **Materialien und Umgebung**
+Die Workshops fanden in einem **kleinen Sportraum** statt, der sowohl mit **spezialisierten als auch mit traditionellen Zirkusmaterialien** gestaltet wurde, darunter:
 
-* **Parkour elements**, such as beams and mats for gross motor development
+*   **Jonglierbretter**, die eine strukturierte Mustererkundung ohne verstreute Bälle ermöglichten
 
-* Later additions: **poi, hula hoops, scarves**, and **spinning plates** to enrich sensory and movement variety
+*   **Newton-Geräte**, für kontrolliertes Werfen und Koordination
 
-This environment was designed to be both **inviting and developmentally supportive**, allowing children to explore movement freely while fostering key motor skills.
+*   **Gebogene Wackelbretter**, für Gleichgewicht, Krabbeln und Rollen
+
+*   **Parkour-Elemente**, wie Balken und Matten zur Förderung der Grobmotorik
+
+*   Spätere Ergänzungen: **Poi, Hula-Hoops, Tücher** und **Teller zum Balancieren**, um die sensorische und bewegungsbezogene Vielfalt zu bereichern
+
+Diese Umgebung war darauf ausgelegt, sowohl **einladend als auch entwicklungsfördernd** zu sein, sodass die Kinder Bewegung frei erkunden und gleichzeitig wichtige motorische Fähigkeiten entwickeln konnten.
 
 ![Case-Study-Kindergarten-3.jpg](../img/Case-Study-Kindergarten-3.jpg){ align=left }
 
 ---
 
-## **Workshop Design for Toddlers (Ages 1.5–3)**  
- Participation was always voluntary. To ensure fairness, **children were selected through a mix of random choice and educator recommendation**. The team aimed for a **low trainer-to-child ratio (ideally 1:4)** to provide the individual attention otherwise unavailable.
+## **Workshop-Gestaltung für Kleinkinder (1,5–3 Jahre)**
+Die Teilnahme war stets freiwillig. Um Fairness zu gewährleisten, wurden die **Kinder durch eine Mischung aus zufälliger Auswahl und Empfehlung der Erzieher ausgewählt**. Das Team strebte ein **niedriges Betreuungsverhältnis (ideal 1:4)** an, um die sonst nicht verfügbare individuelle Aufmerksamkeit zu ermöglichen.
 
-Each **60-minute session followed a ritualized structure**:
+Jede **60-minütige Sitzung folgte einer rituellen Struktur**:
 
-* A **welcome song with movement** created rhythm and psychological safety
+*   Ein **Begrüßungslied mit Bewegung** schuf Rhythmus und psychologische Sicherheit
 
-* Immediate engagement with **physical play**, including parkour and Juggle Board games
+*   Sofortige Einbindung in **körperliche Spiele**, einschließlich Parkour und Jonglierbrett-Spielen
 
-* **Finger-plays and familiar songs** provided structure and focus
+*   **Finger- und bekannte Lieder** boten Struktur und Fokus
 
-* To prevent overstimulation, **no recorded music** was used—only **live group singing**
+*   Um Überstimulation zu vermeiden, wurde **keine aufgenommene Musik** verwendet – nur **gemeinsames Live-Singen**
 
-* A **farewell song** and a **coloring picture** as a participation token closed the session
+*   Ein **Abschiedslied** und ein **Ausmalbild** als Teilnahmegeschenk schlossen die Sitzung ab
 
-This predictable sequence offered **comfort and rhythm** to a group too young for complex narrative structures.
+Diese vorhersehbare Abfolge bot der Gruppe, die noch zu jung für komplexe Erzählstrukturen war, **Geborgenheit und Rhythmus**.
 
 ![Case-Study-Kindergarten-1.jpg](../img/Case-Study-Kindergarten-1.jpg){ align=left }
 
 ---
 
-## **Workshop Design for Pre-Schoolers (Ages 4–6)**  
- The 90-minute sessions for older children built upon the same foundations but were **enriched with a narrative arc**. Each session was tied to **one of five stories**, each linked to a **puzzle piece** that served as a **motivational and symbolic anchor**.
+## **Workshop-Gestaltung für Vorschulkinder (4–6 Jahre)**
+Die 90-minütigen Sitzungen für ältere Kinder bauten auf denselben Grundlagen auf, wurden aber **mit einem narrativen Bogen angereichert**. Jede Sitzung war mit **einer von fünf Geschichten** verbunden, die jeweils mit einem **Puzzleteil** verknüpft waren, das als **motivierender und symbolischer Anker** diente.
 
-The activities followed a **dynamic flow**:
+Die Aktivitäten folgten einem **dynamischen Ablauf**:
 
-* **High-energy parkour**
+*   **Energiegeladener Parkour**
 
-* **Focused coordination** with the Newton Device
+*   **Fokussierte Koordination** mit dem Newton-Gerät
 
-* **Cooperative, calming play** on the Juggle Boards
+*   **Kooperatives, beruhigendes Spiel** auf den Jonglierbrettern
 
-As children completed each phase, they **earned a new puzzle piece**, creating a sense of **progression and excitement**. **Recorded music and movement games** like freeze dance were incorporated to sustain energy and enjoyment.
+Nach Abschluss jeder Phase **verdienten die Kinder ein neues Puzzleteil**, was ein Gefühl von **Fortschritt und Aufregung** erzeugte. **Aufgenommene Musik und Bewegungsspiele** wie Freeze Dance wurden integriert, um Energie und Spaß aufrechtzuerhalten.
 
 ![Case-Study-Kindergarten-2.jpg](../img/Case-Study-Kindergarten-2.jpg){ align=left }
 
 ---
 
-## **Outcomes and Observations**  
- Short-term outcomes were **consistently positive**. Children were **joyful and deeply engaged**. Facilitators observed improvements in **physical abilities** (balance, coordination), **cognitive development** (concentration, focus), and **social confidence**.
+## **Ergebnisse und Beobachtungen**
+Kurzfristige Ergebnisse waren **durchweg positiv**. Die Kinder waren **freudig und tief engagiert**. Die Kursleiter beobachteten Verbesserungen in **körperlichen Fähigkeiten** (Gleichgewicht, Koordination), **kognitiver Entwicklung** (Konzentration, Fokus) und **sozialem Selbstvertrauen**.
 
-A striking observation was the **sustained attention of toddlers**. Children as young as 1.5 years remained focused for the **entire session**—a fact noted with **astonishment by the regular educators**.
+Eine bemerkenswerte Beobachtung war die **anhaltende Aufmerksamkeit der Kleinkinder**. Kinder ab 1,5 Jahren blieben über die **gesamte Sitzung** konzentriert – eine Tatsache, die von den regulären Erziehern **mit Erstaunen zur Kenntnis genommen** wurde.
 
-The project’s strengths—**eye-level interaction, low-pressure play, and empowerment in conflict resolution**—created a deeply **nurturing environment**. However, the very success of the program posed a challenge: **demand consistently exceeded capacity**. The children's enthusiasm made it emotionally difficult to limit group size, and the **ideal trainer ratio was occasionally stretched**.
+Die Stärken des Projekts – **Interaktion auf Augenhöhe, druckfreies Spiel und Ermächtigung bei der Konfliktlösung** – schufen eine zutiefst **fördernde Umgebung**. Der Erfolg des Programms barg jedoch eine Herausforderung: Die **Nachfrage überstieg konstant die Kapazität**. Die Begeisterung der Kinder machte es emotional schwierig, die Gruppengröße zu begrenzen, und das **ideale Betreuungsverhältnis wurde gelegentlich strapaziert**.
 
 ---
 
-## **Evolving Practice and Future Directions**  
- Over its **seven-year evolution**, the project methodology has continued to adapt. For the older group, facilitators are now **shifting away from rigid narratives** toward **more open-ended, child-led activities**. Traditional circus skills like **poi and plate spinning** are becoming more central.
+## **Entwicklung der Praxis und zukünftige Richtungen**
+Im Laufe seiner **siebenjährigen Entwicklung** hat sich die Methodik des Projekts weiter angepasst. Für die ältere Gruppe **wenden sich die Kursleiter nun von starren Erzählungen ab** und hin zu **offeneren, kindzentrierten Aktivitäten**. Traditionelle Zirkusfähigkeiten wie **Poi und Tellerdrehen** gewinnen an Bedeutung.
 
-Additionally, facilitators are **incorporating children’s favorite songs** into free-play segments, enhancing **personal relevance and emotional connection**. The project continues to explore how to maintain its **core values of inclusivity and engagement**, while responding flexibly to changing needs and interests.
-
+Darüber hinaus **integrieren die Kursleiter die Lieblingslieder der Kinder** in Freispielphasen, um die **persönliche Relevanz und emotionale Verbindung** zu stärken. Das Projekt erforscht weiterhin, wie seine **Kernwerte der Inklusivität und des Engagements** beibehalten werden können, während es flexibel auf sich ändernde Bedürfnisse und Interessen reagiert.

@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - Kooperation
+translation_status: original
+translation_source_lang: de
 ---
 Eine Person steht mit dem Rücken zu den anderen da, hinter ihr liegt ein kleiner Gegenstand (z.b. ein Ball)
 

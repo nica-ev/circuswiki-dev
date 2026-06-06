@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 8
 group-max: 25
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein dynamisches Fangspiel für mittlere und große Gruppen, das räumliches Denken und Reaktionsfähigkeit fördert.

@@ -13,6 +13,8 @@ authors:
 category:
   - cool-down
   - kreisspiel
+translation_status: original
+translation_source_lang: de
 ---
 #  Klatsch mit Augenkontakt
 

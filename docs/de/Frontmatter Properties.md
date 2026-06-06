@@ -9,6 +9,8 @@ title: Frontmatter Properties
 description: Wie nutzen wir Frontmatter in den Markdown Dateien
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Wir nutzen folgendes Frontmatter Format
 

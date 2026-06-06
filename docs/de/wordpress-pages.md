@@ -10,6 +10,8 @@ update: 2025-01-23 05:46:07
 title: Eine neue Seite in Wordpress bauen
 authors:
   - Piiit
+translation_status: original
+translation_source_lang: de
 ---
 # Eine neue Page (Seite) in Wordpress bauen
 

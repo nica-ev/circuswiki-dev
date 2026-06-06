@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-02-hungary
 created: 2025-08-30 19:07:41
-update: 2025-08-30 20:06:58
+update: 2026-06-06 21:48:14
 publish: false
 tags:
   - case-study
@@ -14,116 +14,120 @@ type: Artikel
 land: Hungary
 town: Budapest
 organisation:
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 02 - Hungary.md
+translation_source_hash: 752e31b06de9f7996ecc9a45055576a185e16c5778af42f6de8708caea2f6748
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:35+00:00
 ---
-# **The Juggle Board in Kindergarten**
+# **Das Jonglierbrett im Kindergarten**
 
-**Almáskert Kindergarten – District III, Budapest, Hungary**  
- *Written by Zsuzsa Székely, Somatic Education Specialist*
-
----
-
-## **Introduction**
-
-A few years ago, at **Almáskert Kindergarten** in Budapest’s 3rd district, we hosted a short workshop where special education teachers, development specialists, and interested kindergarten educators could learn the basics of **Juggle Board**. I participated in that training as a special education teacher, and those few days turned out to be energizing and deeply motivating.
-
-Soon after, the kindergarten leadership purchased a Juggle Board for each of the institution’s three branches. This is how my journey began—working with the Juggle Board in a kindergarten that includes children with **a wide range of needs and special educational profiles**.
+**Kindergarten Almáskert – Bezirk III, Budapest, Ungarn**
+*Verfasst von Zsuzsa Székely, Spezialistin für somatische Erziehung*
 
 ---
 
-## **How It Started**
+## **Einleitung**
 
-I began by integrating the Juggle Board into **individual or small-group movement development sessions**, conducted in a separate room during the morning hours. These sessions were offered to children whose personalized education plans (as prescribed by the expert committee) included movement development or therapy—sometimes as a **complementary therapeutic tool**.
+Vor einigen Jahren fand im **Kindergarten Almáskert** in Budapest, Bezirk III, ein kurzer Workshop statt, bei dem Sonderpädagogen, Entwicklungsfachleute und interessierte Erzieherinnen die Grundlagen des **Jonglierbretts** erlernen konnten. Ich nahm als Sonderpädagogin an dieser Schulung teil, und diese wenigen Tage erwiesen sich als belebend und zutiefst motivierend.
+
+Kurz darauf kaufte die Kindergartenleitung für jeden der drei Zweige der Einrichtung ein Jonglierbrett. So begann meine Reise – die Arbeit mit dem Jonglierbrett in einem Kindergarten, der Kinder mit **unterschiedlichsten Bedürfnissen und sonderpädagogischen Profilen** betreut.
+
+---
+
+## **Wie es begann**
+
+Ich begann damit, das Jonglierbrett in **Einzel- oder Kleingruppen-Bewegungsförderungseinheiten** zu integrieren, die vormittags in einem separaten Raum stattfanden. Diese Einheiten wurden Kindern angeboten, deren individuelle Förderpläne (gemäß den Vorgaben des Expertengremiums) Bewegungsförderung oder -therapie vorsahen – manchmal als **ergänzendes therapeutisches Werkzeug**.
 
 ---
 
 ![hungary-1-2.jpg|200](../img/hungary-1-2.jpg){ align=right }
-## **Early Experiences and Functional Use**
+## **Erste Erfahrungen und funktioneller Einsatz**
 
-I first used the Juggle Board with **children with physical disabilities**, specifically to support **functional improvement**. For one girl, both upper limbs were affected due to central nervous system impairment, making **shoulder and hand flexion movements extremely difficult**. The Juggle Board proved to be an exciting new tool for her.
+Ich setzte das Jonglierbrett zunächst bei **Kindern mit körperlichen Behinderungen** ein, insbesondere zur Unterstützung der **funktionalen Verbesserung**. Bei einem Mädchen waren beide oberen Extremitäten aufgrund einer Beeinträchtigung des zentralen Nervensystems betroffen, was **Bewegungen der Schulter- und Handflexion extrem erschwerte**. Das Jonglierbrett erwies sich für sie als ein spannendes neues Werkzeug.
 
-Even though the required movements demanded the same amount of **concentration and effort** as with other therapeutic tools, the fact that the balls **rolled within fixed channels** and could be initiated with **small movements** made success feel **more attainable**. This led to a stronger sense of accomplishment.
+Obwohl die erforderlichen Bewegungen die gleiche **Konzentration und Anstrengung** erforderten wie bei anderen therapeutischen Werkzeugen, schien der Erfolg durch die Tatsache, dass die Bälle **in festen Bahnen rollten** und mit **kleinen Bewegungen** in Gang gesetzt werden konnten, **erreichbarer**. Dies führte zu einem stärkeren Erfolgserlebnis.
 
-In this case, I didn’t prioritize teaching the board’s base pattern. Instead, I focused on her **individual developmental goals**, such as:
+In diesem Fall priorisierte ich nicht das Erlernen des Grundmusters des Brettes. Stattdessen konzentrierte ich mich auf ihre **individuellen Entwicklungsziele**, wie zum Beispiel:
 
-* Strengthening and stretching the hand muscles  
-* Improving posture  
-* Preventing compensatory movements
+* Stärkung und Dehnung der Handmuskulatur
+* Verbesserung der Körperhaltung
+* Vermeidung von kompensatorischen Bewegungen
 
-I often let her take the lead in the activity. I noticed that this **sense of control** made her more enthusiastic and persistent with the exercises.
+Ich ließ sie oft die Aktivität selbst steuern. Ich bemerkte, dass dieses **Kontrollgefühl** sie für die Übungen begeisterter und beharrlicher machte.
 
 ---
 
 ![hungary-1-1.jpg|200](../img/hungary-1-1.jpg){ align=left }
-## **Adapting for Lower Limb Engagement**
+## **Anpassung für die Beteiligung der unteren Extremitäten**
 
-In another case, I worked with a child who had significant **leg length discrepancy**. We used the Juggle Board with the **feet**. Our goal was to **activate the shorter leg**, which had limited movement due to an orthosis and was underused in daily life. After we found the right position, the child played using **only the affected leg**.
+In einem anderen Fall arbeitete ich mit einem Kind, das eine erhebliche **Beinlängendifferenz** aufwies. Wir benutzten das Jonglierbrett mit den **Füßen**. Unser Ziel war es, **das kürzere Bein zu aktivieren**, das aufgrund einer Orthese nur eingeschränkt beweglich war und im Alltag unterfordert wurde. Nachdem wir die richtige Position gefunden hatten, spielte das Kind **nur mit dem betroffenen Bein**.
 
-This wasn’t easy—it required intense effort and led to quick fatigue—but it was accompanied by **lots of laughter and small victories**.
-
----
-
-## **Body Awareness and Integration**
-
-We also played with the Juggle Board **using feet only** with a child who had underdeveloped **body awareness and body image**. This child barely acknowledged the existence of his legs and had difficulty moving them independently. He instinctively tried to **reintroduce his hands** during play, even though the activity focused on the legs.
-
-Helping him develop a sense of his full body—its parts, movements, and position in space—was essential for his overall development. Behind his challenges was a rare genetic disorder that resulted in a **highly uneven cognitive profile**: excellent verbal skills but weak focus and sensory integration.
-
-Eventually, we expanded the play to include **cognitive challenges** using hand-based table play. For example:
-
-* Creating and remembering **color sequences**  
-* Assigning animal identities to the balls, who had to “come out of their caves” when called—even if they had changed places
-
-These activities proved effective when combined with other tools, contributing clearly to the child’s **development and maturation**.
+Das war nicht einfach – es erforderte intensive Anstrengung und führte zu schneller Ermüdung –, aber es wurde von **viel Lachen und kleinen Siegen** begleitet.
 
 ---
 
-## **Posture and Group Work**
+## **Körperbewusstsein und Integration**
 
-We also use the Juggle Board in **group movement development classes**, particularly for **postural improvement and strengthening back muscles**. In these cases, children play lying on their stomachs.
+Wir spielten auch mit dem Jonglierbrett **nur mit den Füßen** mit einem Kind, das ein unterentwickeltes **Körperbewusstsein und Körperbild** hatte. Dieses Kind nahm die Existenz seiner Beine kaum wahr und hatte Schwierigkeiten, sie unabhängig zu bewegen. Es versuchte instinktiv, **seine Hände wieder einzubringen**, obwohl die Aktivität auf die Beine ausgerichtet war.
+
+Ihm zu helfen, ein Gefühl für seinen ganzen Körper – seine Teile, Bewegungen und seine Position im Raum – zu entwickeln, war für seine Gesamtentwicklung unerlässlich. Hinter seinen Herausforderungen steckte eine seltene genetische Störung, die zu einem **sehr ungleichen kognitiven Profil** führte: ausgezeichnete verbale Fähigkeiten, aber schwache Konzentration und sensorische Integration.
+
+Schließlich erweiterten wir das Spiel um **kognitive Herausforderungen** mit handbasiertem Tischspiel. Zum Beispiel:
+
+* Erstellen und Erinnern von **Farbreihenfolgen**
+* Zuweisen von Tieridentitäten zu den Bällen, die auf Zuruf „aus ihren Höhlen“ kommen mussten – auch wenn sie die Plätze getauscht hatten
+
+Diese Aktivitäten erwiesen sich in Kombination mit anderen Werkzeugen als wirksam und trugen eindeutig zur **Entwicklung und Reifung** des Kindes bei.
+
+---
+
+## **Haltung und Gruppenarbeit**
+
+Wir nutzen das Jonglierbrett auch in **Gruppen-Bewegungsförderungsklassen**, insbesondere zur **Haltungsverbesserung und Stärkung der Rückenmuskulatur**. In diesen Fällen spielen die Kinder auf dem Bauch liegend.
 
 ---
 
 ![hungary-1-3.jpg|200](../img/hungary-1-3.jpg){ align=left }
+## **Soziale Integration und Beobachtung**
 
-## **Social Integration and Observation**
+Über die motorische und kognitive Entwicklung hinaus begann ich, das Potenzial des Jonglierbretts zur Förderung der **sozialen Interaktion** zu erkennen. Wir führten es Kindern ein, die **Schwierigkeiten bei der Kontaktaufnahme** hatten – jenen, die mit gegenseitiger Aufmerksamkeit und Kooperation zu kämpfen hatten.
 
-Beyond motor and cognitive development, I began to notice the Juggle Board’s potential for enhancing **social interaction**. We introduced it to children who were experiencing **connection difficulties**—those who struggled with mutual attention and cooperation.
+Während des Spiels beobachtete ich:
 
-During play, I would observe:
+* Ob die Kinder vom Brett zu ihrem Partner aufblickten
+* Ob sie den Ball auf irgendeine Weise anforderten
+* Ob sie die Anwesenheit des anderen Spielers anerkannten
 
-* Whether children looked up from the board to their partner  
-* Whether they requested the ball in any way  
-* Whether they acknowledged the presence of the other player
+Für eine strukturiertere Kooperation spielten wir in **Triaden**, mit zwei Kindern auf einer Seite des Brettes. Das Spiel beinhaltete **einfache Regeln**, die **gemeinsame Problemlösung** erforderten, wie zum Beispiel:
 
-For more structured cooperation, we played in **triads**, with two children on one side of the board. The game involved **simple rules** that required **collaborative problem-solving**, such as:
+* Ein Kind durfte nur blaue Bälle rollen, das andere nur grüne
+* Bälle durften auf jeder Bahn ankommen
+* Sie mussten sich gegenseitig helfen, Raum und Timing zu meistern, ohne sich gegenseitig zu blockieren
 
-* One child could only roll blue balls, the other only green  
-* Balls could arrive on any track  
-* They had to help each other navigate space and timing without blocking one another
-
-These dynamics were **highly informative**, both as a facilitator and as an observer.
-
----
-
-## **A Case of Control and Regulation**
-
-With one child—frequently in conflict with both peers and adults—we used the Juggle Board to observe and gently challenge **control-related behaviors**. This child had a **strong need to maintain control** over daily routines and play.
-
-During board play, he initially attempted to take over the session subtly, then increasingly overtly—even when playing with another child under structured rules, he could take control in a matter of minutes. When playing with me, he would often withdraw quickly if the activity wasn’t fully on his terms.
-
-This presented an opportunity: through **micro-adjustments in facilitation**, we began to build moments where he could stay in the game without compromising his sense of autonomy—creating a **balance between structure and choice**.
+Diese Dynamiken waren sowohl für mich als Moderatorin als auch als Beobachterin **sehr aufschlussreich**.
 
 ---
 
-## **Ongoing Use and Professional Growth**
+## **Ein Fall von Kontrolle und Regulation**
 
-We now use the Juggle Board throughout the academic year to assess and strengthen:
+Mit einem Kind – das häufig in Konflikt mit Gleichaltrigen und Erwachsenen geriet – nutzten wir das Jonglierbrett, um **kontrollbezogene Verhaltensweisen** zu beobachten und sanft herauszufordern. Dieses Kind hatte ein **starkes Bedürfnis, die Kontrolle** über tägliche Routinen und Spiele zu behalten.
 
-* Motor skills  
-* Cognitive processes  
-* Social abilities
+Während des Brettspiels versuchte es zunächst subtil, dann immer offener, die Sitzung zu übernehmen – selbst wenn es mit einem anderen Kind unter strukturierten Regeln spielte, konnte es innerhalb weniger Minuten die Kontrolle übernehmen. Wenn es mit mir spielte, zog es sich oft schnell zurück, wenn die Aktivität nicht vollständig nach seinen Vorstellungen verlief.
 
-In every case, I have observed clear signs of growth and development in the participating children.
+Dies bot eine Gelegenheit: Durch **Mikroanpassungen in der Moderation** begannen wir, Momente zu schaffen, in denen es am Spiel teilnehmen konnte, ohne sein Autonomiegefühl zu beeinträchtigen – und so ein **Gleichgewicht zwischen Struktur und Wahlmöglichkeiten** zu schaffen.
 
-For me, the ongoing evolution of my Juggle Board work is supported and inspired by participation in professional workshops, where I can share experiences, learn new approaches, and renew my creative toolkit. Whenever I feel stuck or too anchored in familiar patterns, these workshops offer fresh perspectives and new energy—helping me return to the classroom refreshed and re-inspired.
+---
 
+## **Fortlaufende Nutzung und berufliche Weiterentwicklung**
+
+Wir nutzen das Jonglierbrett nun das ganze akademische Jahr über zur Beurteilung und Stärkung von:
+
+* Motorischen Fähigkeiten
+* Kognitiven Prozessen
+* Sozialen Fähigkeiten
+
+In jedem Fall habe ich klare Anzeichen von Wachstum und Entwicklung bei den teilnehmenden Kindern beobachtet.
+
+Für mich wird die fortlaufende Weiterentwicklung meiner Arbeit mit dem Jonglierbrett durch die Teilnahme an Fachworkshops unterstützt und inspiriert, wo ich Erfahrungen austauschen, neue Ansätze erlernen und meinen kreativen Werkzeugkasten erneuern kann. Wann immer ich feststecke oder zu sehr in bekannten Mustern verhaftet bin, bieten diese Workshops neue Perspektiven und neue Energie – und helfen mir, erfrischt und neu inspiriert ins Klassenzimmer zurückzukehren.

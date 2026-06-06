@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 10
 group-max: 98
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Zombie - Hasche
 

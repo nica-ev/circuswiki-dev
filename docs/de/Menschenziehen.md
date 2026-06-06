@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - Taktik
+translation_status: original
+translation_source_lang: de
 ---
 # Menschenziehen
 

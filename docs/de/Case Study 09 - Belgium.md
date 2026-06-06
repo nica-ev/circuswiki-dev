@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-09-belgium
 created: 2025-08-30 23:54:25
-update: 2025-08-31 20:59:32
+update: 2026-06-06 21:49:08
 publish: false
 tags:
   - case-study
@@ -11,114 +11,119 @@ description:
 authors:
   - Elga Pollet
 land: Belgium
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 09 - Belgium.md
+translation_source_hash: 1d3989ac9df661d846b4bdadb7b5152cbf79084ff0dfbbfa7ac30858e23cd6f5
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:16+00:00
 ---
-# **Case Study: Designing Together – Inclusive Circus Props Through Cross-Sector Collaboration (Belgium)**
+# **Fallstudie: Gemeinsam gestalten – Inklusive Zirkusrequisiten durch sektorübergreifende Zusammenarbeit (Belgien)**
 
-Written by Elga Pollet, Director of [Circusatelier Woesh](Circusatelier%20Woesh.md)
+Verfasst von Elga Pollet, Direktorin von [Circusatelier Woesh](Circusatelier%20Woesh.md)
 
 ---
 
-## **Overview**
+## **Überblick**
 
-This case study explores a multi-year, cross-sector collaboration between **inclusive circus educators**, **university students**, and **community organizations** in Belgium. The initiative was spearheaded by me, **Elga Pollet**, together with the dedicated team at **Circusatelier Woesh**, based in the West Flanders region.
+Diese Fallstudie untersucht eine mehrjährige, sektorübergreifende Zusammenarbeit zwischen **inklusiven Zirkuspädagogen**, **Universitätsstudenten** und **Gemeinschaftsorganisationen** in Belgien. Die Initiative wurde von mir, **Elga Pollet**, zusammen mit dem engagierten Team von **Circusatelier Woesh** in der Region Westflandern ins Leben gerufen.
 
-With activities spanning **Bruges, Oostende, Roeselare**, and **Kortrijk**, Woesh has long been committed to blending **artistic circus practices** with a deep **social mission**. The project described here was developed as part of a larger initiative called **Bushcraft**, a long-term program dedicated to sustainable and inclusive circus development in Flanders and beyond.
+Mit Aktivitäten in **Brügge, Ostende, Roeselare** und **Kortrijk** hat sich Woesh seit langem der Verbindung von **künstlerischen Zirkuspraktiken** mit einer tiefen **sozialen Mission** verschrieben. Das hier beschriebene Projekt wurde als Teil einer größeren Initiative namens **Bushcraft** entwickelt, einem langfristigen Programm zur nachhaltigen und inklusiven Zirkusentwicklung in Flandern und darüber hinaus.
 
-In 2019, our team asked a central question: **How can we transform short-term interventions into long-lasting, self-sustaining inclusive programs?**
+Im Jahr 2019 stellte unser Team eine zentrale Frage: **Wie können wir kurzfristige Interventionen in langlebige, sich selbst tragende inklusive Programme umwandeln?**
 
-The result was a dual-track approach combining:
+Das Ergebnis war ein zweigleisiger Ansatz, der Folgendes kombinierte:
 
-1. The creation of **Customized Circus Assistant roles** for people with disabilities  
-2. The **collaborative design of inclusive circus props** through academic partnerships
+1. Die Schaffung von **maßgeschneiderten Zirkusassistenten-Rollen** für Menschen mit Behinderungen
+2. Die **gemeinsame Gestaltung inklusiver Zirkusrequisiten** durch akademische Partnerschaften
 
-International collaborators such as **Craig Quat**, founder of **Quat Props**, joined us during this process—offering insight, mentorship, and validation that helped shape our work.
+Internationale Kollaborateure wie **Craig Quat**, Gründer von **Quat Props**, schlossen sich uns während dieses Prozesses an und boten Einblicke, Mentoring und Bestätigung, die zur Gestaltung unserer Arbeit beitrugen.
 
 ![belgium-2.png](../img/belgium-2.png)
-## **Track 1: Customized Circus Assistant Roles**
+## **Gleis 1: Maßgeschneiderte Zirkusassistenten-Rollen**
 
-In our workshops and outreach programs, we consistently include participants with **physical and intellectual disabilities**. While we saw meaningful moments arise from these encounters, we realized that **short-term inclusion wasn’t enough**. 
+In unseren Workshops und Outreach-Programmen beziehen wir konsequent Teilnehmer mit **körperlichen und geistigen Behinderungen** ein. Obwohl wir aus diesen Begegnungen bedeutsame Momente entstanden sahen, erkannten wir, dass **kurzfristige Inklusion nicht ausreichte**.
 
-We wanted to go further. So, we asked ourselves: **Could people with disabilities also become facilitators and leaders within our programs?**
+Wir wollten weiter gehen. Also fragten wir uns: **Könnten Menschen mit Behinderungen auch zu Moderatoren und Führungskräften in unseren Programmen werden?**
 
-To test this, we partnered with local networks such as **VZW De Viersprong** to create long-term **assistant positions** within our team. These assistants—adults with disabilities, elderly participants, and youth from vulnerable backgrounds—received ongoing training in:
+Um dies zu testen, schlossen wir uns mit lokalen Netzwerken wie **VZW De Viersprong** zusammen, um langfristige **Assistenzpositionen** in unserem Team zu schaffen. Diese Assistenten – Erwachsene mit Behinderungen, ältere Teilnehmer und Jugendliche aus benachteiligten Verhältnissen – erhielten fortlaufende Schulungen in:
 
-* **Basic circus pedagogy**  
-* **Facilitation strategies**  
-* **Physical expression and sensory engagement**
+* **Grundlagen der Zirkuspädagogik**
+* **Moderationsstrategien**
+* **Körperlicher Ausdruck und sensorische Wahrnehmung**
 
-One of the most effective tools we used was the **Juggle Board** system. Its **non-verbal interaction**, **rhythmic structure**, and **accessible entry point** allowed assistants to co-lead from the very beginning.
+Eines der effektivsten Werkzeuge, das wir einsetzten, war das **Juggle Board**-System. Seine **nonverbale Interaktion**, **rhythmische Struktur** und der **zugängliche Einstieg** ermöglichten es den Assistenten, von Anfang an mitzuwirken.
 
-With time, our assistants took on increasingly meaningful responsibilities:
+Mit der Zeit übernahmen unsere Assistenten zunehmend bedeutsame Aufgaben:
 
-* Leading sessions in **schools**, **care homes**, and **public spaces**  
-* Collaborating directly with **lead facilitators** and being supported by dedicated coaches  
-* Learning **symbolic communication systems** or **sign language** to enhance accessibility
+* Leitung von Kursen in **Schulen**, **Pflegeheimen** und **öffentlichen Räumen**
+* Direkte Zusammenarbeit mit **leitenden Moderatoren** und Unterstützung durch engagierte Coaches
+* Erlernen von **symbolischen Kommunikationssystemen** oder **Gebärdensprache**, um die Zugänglichkeit zu verbessern
 
-One of our assistant groups has now been active for **more than five years**, demonstrating the sustainability and depth of this model. Their presence has enriched our classes and brought new levels of **empathy, diversity, and shared ownership** into our pedagogy.
+Eine unserer Assistentengruppen ist nun seit **mehr als fünf Jahren** aktiv und zeigt die Nachhaltigkeit und Tiefe dieses Modells. Ihre Präsenz hat unsere Kurse bereichert und neue Ebenen von **Empathie, Vielfalt und geteilter Verantwortung** in unsere Pädagogik gebracht.
 
 ![belgium-3.png](../img/belgium-3.png)
-## **Track 2: Inclusive Prop Design Through Academic Collaboration**
+## **Gleis 2: Inklusive Requisitenentwicklung durch akademische Zusammenarbeit**
 
-At the same time, we identified another major obstacle: **most standard circus equipment is not designed with inclusion in mind**. In response, we **launched a design collaboration with HOWEST University of Applied Sciences**, engaging students from the **Product Design** program in a multi-year effort to prototype new, accessible tools.
+Gleichzeitig identifizierten wir ein weiteres großes Hindernis: **Die meisten Standard-Zirkusgeräte sind nicht auf Inklusion ausgelegt**. Als Reaktion darauf **starteten wir eine Design-Kollaboration mit der HOWEST University of Applied Sciences**, an der Studenten des Studiengangs **Produktdesign** in einem mehrjährigen Projekt zur Prototypenentwicklung neuer, zugänglicher Werkzeuge beteiligt waren.
 
-For three years, multidisciplinary student teams were invited to design **new circus tools** based on a set of criteria we co-created:
+Drei Jahre lang wurden multidisziplinäre Studententeams eingeladen, **neue Zirkuswerkzeuge** auf der Grundlage von Kriterien zu entwerfen, die wir gemeinsam entwickelt hatten:
 
-* **Ease of use** (solo and group-based)  
-* **Sensory engagement**  
-* **Visible learning curves**  
-* **Emotional expression and flow**  
-* **Replicability and adaptability**
+* **Benutzerfreundlichkeit** (solo und in Gruppen)
+* **Sensorische Wahrnehmung**
+* **Sichtbare Lernkurven**
+* **Emotionale Ausdruckskraft und Fluss**
+* **Reproduzierbarkeit und Anpassungsfähigkeit**
 
-The students were challenged to move beyond conventional circus shapes and methods. With guidance from our team—and feedback from both educators and participants—they developed **dozens of prototypes**. Some used **low-tech recycled materials**; others explored **3D printing** and **interchangeable systems**.
+Die Studenten wurden herausgefordert, über konventionelle Zirkusformen und -methoden hinauszugehen. Mit Anleitung unseres Teams – und Feedback von Pädagogen und Teilnehmern – entwickelten sie **Dutzende von Prototypen**. Einige verwendeten **Low-Tech-Recyclingmaterialien**; andere erforschten **3D-Druck** und **austauschbare Systeme**.
 
-Notable creations included:
+Bemerkenswerte Kreationen waren:
 
-* **Sensory juggling towers**  
-* **Rolling frames for large-group manipulation**  
-* **Adapted flower sticks and flipper boards**  
-* **Ring sticks and “juggle mill” tools**  
-* **Modular toolkits** that could shift functions depending on user needs
+* **Sensorische Jongliertürme**
+* **Rollrahmen für die Manipulation durch große Gruppen**
+* **Angepasste Blumenstäbe und Flipperboards**
+* **Ringstäbe und „Jongliermühlen“-Werkzeuge**
+* **Modulare Werkzeugkästen**, die je nach Benutzerbedürfnissen ihre Funktion ändern konnten
 
-We were also fortunate to host **Craig Quat** as a visiting mentor. He observed presentation sessions, participated in user-testing, and helped students reflect on how to **focus on ability and process**, rather than only compensating for limitations. 
+Wir hatten auch das Glück, **Craig Quat** als Gastmentor begrüßen zu dürfen. Er beobachtete Präsentationen, nahm an Benutzertests teil und half den Studenten zu reflektieren, wie sie sich auf **Fähigkeiten und Prozesse konzentrieren** können, anstatt nur Einschränkungen zu kompensieren.
 
 ![belgium-1.jpg](../img/belgium-1.jpg)
-## **Outcomes**
+## **Ergebnisse**
 
-The results of this collaboration have been both **practical and cultural**.
+Die Ergebnisse dieser Zusammenarbeit waren sowohl **praktischer als auch kultureller Natur**.
 
-**Practically, the project:**
+**Praktisch gesehen hat das Projekt:**
 
-* Produced over **15 inclusive circus prototypes**  
-* Created **10+ long-term assistant roles** for people with disabilities  
-* Enabled successful testing of new tools in real community contexts
+* Über **15 inklusive Zirkus-Prototypen** hervorgebracht
+* **Mehr als 10 langfristige Assistentenstellen** für Menschen mit Behinderungen geschaffen
+* Erfolgreiche Tests neuer Werkzeuge in realen Gemeinschaftskontexten ermöglicht
 
-**Culturally, the project:**
+**Kulturell gesehen hat das Projekt:**
 
-* Built bridges between **art, therapy, and design**  
-* Offered students and staff **firsthand experiences of accessibility**  
-* Sparked **interdisciplinary conversations** that continue to evolve  
-* Strengthened our organization’s internal **capacity for inclusion**
+* Brücken zwischen **Kunst, Therapie und Design** gebaut
+* Studenten und Mitarbeitern **erste Erfahrungen mit Barrierefreiheit** ermöglicht
+* **Interdisziplinäre Gespräche angestoßen**, die sich weiterentwickeln
+* Die interne **Kapazität für Inklusion** unserer Organisation gestärkt
 
-Perhaps most importantly, the project shifted how everyone involved—participants, designers, teachers—**saw themselves**. Not just as recipients or observers, but as **co-creators of a shared vision** for an inclusive future in circus.
+Am wichtigsten ist vielleicht, dass das Projekt die Art und Weise verändert hat, wie sich alle Beteiligten – Teilnehmer, Designer, Lehrer – **selbst sahen**. Nicht nur als Empfänger oder Beobachter, sondern als **Mitgestalter einer gemeinsamen Vision** für eine inklusive Zukunft im Zirkus.
 
 ---
 
-## **Next Steps**
+## **Nächste Schritte**
 
-Our work continues under a the banner: **Woeshcraft**—a platform for further development, reflection, and exchange. Our current priorities include:
+Unsere Arbeit wird unter dem Motto **Woeshcraft** fortgesetzt – einer Plattform für weitere Entwicklung, Reflexion und Austausch. Unsere aktuellen Prioritäten umfassen:
 
-* Publishing **“Adopt-a-Prop” open-source manuals** for our designs  
-* Building a **feedback loop** with other practitioners who adapt the tools  
-* Deepening partnerships with **rehabilitation and care organizations**  
-* Continuing to integrate assistants into our **regular class programming**
+* Veröffentlichung von **„Adopt-a-Prop“-Open-Source-Handbüchern** für unsere Designs
+* Aufbau einer **Feedbackschleife** mit anderen Praktikern, die die Werkzeuge anpassen
+* Vertiefung der Partnerschaften mit **Rehabilitations- und Pflegeorganisationen**
+* Fortsetzung der Integration von Assistenten in unsere **regelmäßigen Kursangebote**
 
-## **Conclusion**
+## **Schlussfolgerung**
 
-This project demonstrated that inclusion in circus requires both **structural adaptation (props, roles)** and **organizational commitment**. We confirmed that when participants are given real responsibility and tools that match their needs, they contribute in meaningful ways—often beyond expectations.
+Dieses Projekt hat gezeigt, dass Inklusion im Zirkus sowohl **strukturelle Anpassungen (Requisiten, Rollen)** als auch **organisatorisches Engagement** erfordert. Wir haben bestätigt, dass Teilnehmer, wenn sie echte Verantwortung und bedarfsgerechte Werkzeuge erhalten, auf bedeutsame Weise beitragen – oft über die Erwartungen hinaus.
 
-Through the dual approach of training **Differently Abled Circus Assistants** and developing **accessible tools in partnership with HOWEST**, we created new roles and new props that expand participation in concrete ways.
+Durch den zweigleisigen Ansatz der Ausbildung von **Zirkusassistenten mit besonderen Fähigkeiten** und der Entwicklung von **zugänglichen Werkzeugen in Partnerschaft mit HOWEST** haben wir neue Rollen und neue Requisiten geschaffen, die die Teilnahme auf konkrete Weise erweitern.
 
-The results were transformative. We now have **long-term assistants embedded in our programs**, a **catalogue of inclusive prototypes**, and a growing network of partners who are rethinking what circus can look like.
+Die Ergebnisse waren transformativ. Wir haben jetzt **langfristige Assistenten, die in unsere Programme integriert sind**, einen **Katalog inklusiver Prototypen** und ein wachsendes Netzwerk von Partnern, die neu darüber nachdenken, wie Zirkus aussehen kann.
 
-This is a **living process**. We’re eager to connect with others who are imagining new ways for circus to include everyone—and we hope this work **sparks new ideas and partnerships**, because **circus only becomes truly inclusive when we design it together**.
-
+Dies ist ein **lebendiger Prozess**. Wir sind bestrebt, mit anderen in Kontakt zu treten, die neue Wege für den Zirkus erfinden, um alle einzubeziehen – und wir hoffen, dass diese Arbeit **neue Ideen und Partnerschaften anregt**, denn **Zirkus wird nur dann wirklich inklusiv, wenn wir ihn gemeinsam gestalten**.

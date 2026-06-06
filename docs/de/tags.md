@@ -8,6 +8,8 @@ publish: true
 title: Tag Übersicht
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Eine Übersicht über alle, auf dieser Seite verwendeten Tags und die Seiten die mit ihnen verknüpft sind.
 

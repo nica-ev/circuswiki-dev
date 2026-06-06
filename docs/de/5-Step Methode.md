@@ -10,6 +10,8 @@ title: 5-Step Methode
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # 5-Step Methode
 

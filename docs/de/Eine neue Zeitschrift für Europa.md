@@ -13,6 +13,8 @@ authors:
   - Paul Keaton
 type: Artikel
 source: Kaskade 001
+translation_status: original
+translation_source_lang: de
 ---
 ## Eine neue Zeitschrift für Europas
 [Kaskade 001](Kaskade%20001.md#Eine%20neue%20Zeitschrift%20für%20Europas)

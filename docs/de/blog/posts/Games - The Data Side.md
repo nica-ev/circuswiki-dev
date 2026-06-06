@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 categories: 
   - development
+translation_status: original
+translation_source_lang: de
 ---
 # **Games - The Data Side**  
 **How game descriptions were standardized and made more dynamic using metadata and Obsidian plugins.**

@@ -11,6 +11,8 @@ description: Transkript des Magazines "Kaskade 005" von 1985
 authors:
   - Marc Bielert
 type: Magazin
+translation_status: original
+translation_source_lang: de
 ---
 ## LOUVAIN LA NEUVE
 ### Infrarot gegen Ultraviolett

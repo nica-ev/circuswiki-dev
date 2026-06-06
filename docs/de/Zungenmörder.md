@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 10
 group-max: 30
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Zungenmörder
 

@@ -10,6 +10,8 @@ title: Juggleboard
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 #todo  mit Inhalt füllen
 

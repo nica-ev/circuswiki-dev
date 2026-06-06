@@ -9,6 +9,8 @@ update: 2025-01-24 23:08:37
 authors:
   - Marc Bielert
 description:
+translation_status: original
+translation_source_lang: de
 ---
 ```
 Nextcloud

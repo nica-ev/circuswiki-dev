@@ -10,6 +10,8 @@ title: Partnerübung Wurfjonglage Passing
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Partnerübung Wurfjonglage Passing
 

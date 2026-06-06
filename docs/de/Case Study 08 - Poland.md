@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-08-poland
 created: 2025-08-30 20:51:10
-update: 2025-08-31 20:43:07
+update: 2026-06-06 21:49:02
 publish: false
 tags:
   - case-study
@@ -12,102 +12,107 @@ authors:
   - Wiktoria Witenberg*
 land: Poland
 type: Artikel
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 08 - Poland.md
+translation_source_hash: c960d134175552c55a135927b6aaa8bcff04afee156862667fddef47607517d1
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:09+00:00
 ---
-# **No Age Limit — Functional Juggling with Seniors During Lockdown**
+# **Kein Alter als Grenze – Funktionelles Jonglieren mit Senioren während des Lockdowns**
 
-[Odskocznia Studio](Odskocznia%20Studio.md) - Warsaw, Poland
-Written by Wiktoria Witenberg
+[Odskocznia Studio](Odskocznia%20Studio.md) – Warschau, Polen
+Geschrieben von Wiktoria Witenberg
 
-## **Target Group**  
- This project, led by **Odskocznia Studio**, was designed for **adults aged 65 and older**. Through an **open call**, we invited seniors to join **Functional Juggling (FJ)** classes hosted at the **Centrum Kultury Praga-Południe** in Warsaw. Participants were **independent, active older adults**—capable of registering and attending on their own—whom I would describe as functioning at an **average to high level for their age**.
+## **Zielgruppe**
+Dieses Projekt unter der Leitung von **Odskocznia Studio** richtete sich an **Erwachsene ab 65 Jahren**. Durch einen **offenen Aufruf** luden wir Senioren ein, an den **Funktionellen Jonglierkursen (FJ)** im **Centrum Kultury Praga-Południe** in Warschau teilzunehmen. Die Teilnehmenden waren **unabhängige, aktive ältere Menschen** – in der Lage, sich selbstständig anzumelden und teilzunehmen –, die ich als im **Durchschnitt bis überdurchschnittlich für ihr Alter** funktionierend beschreiben würde.
 
 ---
 
-## **Origins and Context**  
- The idea emerged in **March 2020**, during the first **COVID-19 lockdown**. Paulina, founder of Odskocznia Studio, expressed interest in developing a **circus-based program for seniors**. A few months later, as restrictions temporarily lifted, we began planning. Despite rising case numbers and the threat of a second lockdown, we made the collective decision to proceed—with caution.
+## **Ursprung und Kontext**
+Die Idee entstand im **März 2020**, während des ersten **COVID-19-Lockdowns**. Paulina, Gründerin von Odskocznia Studio, äußerte Interesse an der Entwicklung eines **zirkusbasierten Programms für Senioren**. Einige Monate später, als die Beschränkungen vorübergehend gelockert wurden, begannen wir mit der Planung. Trotz steigender Fallzahlen und der drohenden zweiten Welle beschlossen wir kollektiv, vorsichtig fortzufahren.
 
-Our **team of four trainers** included:
-* Two main trainers (with some experience teaching juggle boards)
-* Two support trainers (new to Functional Juggling)
+Unser **vierköpfiges Trainerteam** bestand aus:
+* Zwei Haupttrainer*innen (mit Erfahrung im Unterrichten von Juggle Boards)
+* Zwei unterstützende Trainer*innen (neu im Funktionellen Jonglieren)
 
-Each **group of up to 12 participants** was led by one main trainer and one assistant.
+Jede **Gruppe von bis zu 12 Teilnehmenden** wurde von einer*m Haupttrainer*in und einer*m Assistent*in betreut.
 
-My own background included:
-* A **three-day workshop** with Craig Quat in 2017 (before “The Seminar” was formalized)
-* A **pilot project** with seniors in Warsaw (6 sessions / 9 hours)
-* Several **one-on-one FJ sessions**
+Mein eigener Hintergrund umfasste:
+* Einen **dreitägigen Workshop** mit Craig Quat im Jahr 2017 (bevor „The Seminar“ formalisiert wurde)
+* Ein **Pilotprojekt** mit Senioren in Warschau (6 Sitzungen / 9 Stunden)
+* Mehrere **Einzelstunden FJ**
 
-Kamil, one of the main trainers, had co-led the pilot. Paulina and Julia were new to the methodology. Before launching **No Age Limit**, I conducted a **two-hour training** on basic FJ principles and **Juggle Board patterns** for the support trainers.
+Kamil, einer der Haupttrainer*innen, hatte das Pilotprojekt mitgeleitet. Paulina und Julia waren neu in der Methodik. Vor dem Start von **Kein Alter als Grenze** führte ich ein **zweistündiges Training** zu den grundlegenden FJ-Prinzipien und **Juggle Board-Mustern** für die unterstützenden Trainer*innen durch.
 
 ![Odskocznia-Studio_fot_Marcin Kościelny_RLF0193.jpg](../img/poland-01.jpg)
 
 ---
 
-## **Goals**
+## **Ziele**
 
-**Trainer Development**  
- To give new trainers **hands-on experience** facilitating Functional Juggling, helping expand a local base of **confident and independent facilitators**.
+**Trainerentwicklung**
+Neuen Trainer*innen **praktische Erfahrung** in der Leitung von Funktionellem Jonglieren zu vermitteln und so die lokale Basis von **zuversichtlichen und unabhängigen Kursleiter*innen** zu erweitern.
 
-**Participant Wellbeing**  
- To provide seniors with **joyful, embodied experiences** that supported **social connection and physical activity**, especially during a time of **heightened isolation**. Sessions were designed with a focus on **emotional safety, sensory play**, and **flow-state movement**, while respecting **strict health protocols** (distancing, masks, no physical contact).
+**Wohlbefinden der Teilnehmenden**
+Senioren **freudvolle, verkörperte Erfahrungen** zu ermöglichen, die **soziale Verbindung und körperliche Aktivität** förderten, insbesondere in einer Zeit **erhöhter Isolation**. Die Sitzungen waren auf **emotionale Sicherheit, sensorisches Spiel** und **Flow-Bewegung** ausgerichtet, unter Einhaltung **strenger Gesundheitsprotokolle** (Abstand, Masken, kein Körperkontakt).
 
 ---
 
-## **Setting and Tools**  
- Classes took place in a **spacious basement** of the cultural center. Initially, we imagined a cozy yoga studio, but the open space proved ideal for **safe distancing**. We divided the room into two zones:
+## **Ort und Materialien**
+Die Kurse fanden in einem **geräumigen Kellerraum** des Kulturzentrums statt. Anfangs stellten wir uns ein gemütliches Yogastudio vor, aber der offene Raum erwies sich als ideal für **sicheren Abstand**. Wir teilten den Raum in zwei Zonen auf:
 
-* A **seated circle** for group reflection
-* A **Juggle Board area**, where each pair had a **dedicated table spaced two meters apart**
+* Einen **Sitzkreis** für die gemeinsame Reflexion
+* Einen **Juggle Board-Bereich**, in dem jedes Paar einen **dedizierten Tisch mit zwei Metern Abstand** hatte
 
-During the **first session**, all participants chose to remain seated. But over time, **more began standing**—a sign of **growing confidence** and **physical comfort**. We always ensured that **chairs were available**, allowing participants to begin where they felt safe.
+Während der **ersten Sitzung** entschieden sich alle Teilnehmenden, im Sitzen zu bleiben. Mit der Zeit begannen jedoch **mehrere aufzustehen** – ein Zeichen für **wachsendes Selbstvertrauen** und **körperliches Wohlbefinden**. Wir stellten immer sicher, dass **Stühle zur Verfügung standen**, damit die Teilnehmenden dort beginnen konnten, wo sie sich sicher fühlten.
 
-Props included:
+Als Materialien dienten:
 * **Juggle Boards**
-* **Scarves, balls, rings, clubs, poi**
-* **Peacock feathers**
-* **Hula hoops** (introduced in the final session)
+* **Tücher, Bälle, Ringe, Keulen, Poi**
+* **Pfauenfeder**
+* **Hula-Hoops** (eingeführt in der letzten Sitzung)
 
-For two sessions, we moved into a **smaller enclosed gym** to explore feathers and hoops. The intimate setting allowed for **creative chaos** while maintaining **group cohesion**—something more difficult in the larger space.
+Für zwei Sitzungen zogen wir in eine **kleinere, geschlossene Turnhalle**, um Federn und Reifen zu erkunden. Die intime Atmosphäre ermöglichte **kreatives Chaos** bei gleichzeitiger **Gruppenzusammengehörigkeit** – etwas, das im größeren Raum schwieriger zu erreichen war.
 
 ![Odskocznia Studio_fot_Marcin Kościelny__RLF0520.jpg](../img/poland-02.jpg)
 
 ---
 
-## **Session Design and Flow**  
- The program ran for **five weeks**, with **one 90-minute session per week**, always scheduled in the mornings (which, as we later learned, was **not the preferred time** for many participants).
+## **Gestaltung und Ablauf der Sitzungen**
+Das Programm lief über **fünf Wochen**, mit **einer 90-minütigen Sitzung pro Woche**, immer am Vormittag (was, wie wir später erfuhren, **nicht die bevorzugte Zeit** für viele Teilnehmende war).
 
-**Session Structure**:
-* **Welcome Circle**
-* **Brain Warm-Ups** (e.g., bilateral coordination, “pianist” finger exercises)
-* **First Prop-Based Activity** (always the Juggle Board)
-* **Short Break**
-* **Second Prop-Based Activity** (rotating: poi, scarves, balls, feathers, hula hoop)
-* **Reflection and Goodbye Circle**
+**Sitzungsstruktur**:
+* **Begrüßungskreis**
+* **Gehirn-Aufwärmübungen** (z. B. bilaterale Koordination, „Pianisten“-Fingerübungen)
+* **Erste Aktivität mit Materialien** (immer das Juggle Board)
+* **Kurze Pause**
+* **Zweite Aktivität mit Materialien** (wechselnd: Poi, Tücher, Bälle, Federn, Hula-Hoop)
+* **Reflexion und Verabschiedungskreis**
 
-With this elder group, the **opening and closing circles naturally extended** longer than in other contexts. Many participants expressed a strong need to **share, reflect, and connect**—a meaningful response to months of isolation.
+Bei dieser Seniorengruppe dauerten die **Eröffnungs- und Abschlusskreise natürlich länger** als in anderen Kontexten. Viele Teilnehmende äußerten ein starkes Bedürfnis, **zu teilen, zu reflektieren und sich zu verbinden** – eine bedeutsame Reaktion auf monatelange Isolation.
 
-Each session was guided by **one trainer and one assistant**, ensuring **individualized attention** and supportive pacing.
+Jede Sitzung wurde von **einer*m Trainer*in und einer*m Assistent*in geleitet**, was eine **individuelle Betreuung** und ein unterstützendes Tempo sicherstellte.
 
 ![Odskocznia Studio_fot_Marcin Kościelny__RLF0421.jpg](../img/poland-03.jpg)
 
 ---
 
-## **Outcomes and Reflections**
+## **Ergebnisse und Reflexionen**
 
-**Trainer Development**  
- Due to the **second lockdown**, our capacity to **mentor new trainers** was limited. As the lead facilitator, much of my energy remained focused on managing the group’s **emotional wellbeing**. Still, the support trainers gained valuable **hands-on experience** and a clearer understanding of **foundational FJ patterns**.
+**Trainerentwicklung**
+Aufgrund des **zweiten Lockdowns** war unsere Kapazität zur **Mentoring neuer Trainer*innen** begrenzt. Als leitende Kursleiterin konzentrierte sich ein Großteil meiner Energie auf die Bewältigung des **emotionalen Wohlbefindens** der Gruppe. Dennoch sammelten die unterstützenden Trainer*innen wertvolle **praktische Erfahrungen** und gewannen ein klareres Verständnis für **grundlegende FJ-Muster**.
 
-**Participant Wellbeing**  
- This goal was **fully achieved**. The group remained engaged and joyful throughout, and we concluded the program with a room full of **satisfied, connected participants**.
+**Wohlbefinden der Teilnehmenden**
+Dieses Ziel wurde **vollständig erreicht**. Die Gruppe blieb durchweg engagiert und freudvoll, und wir schlossen das Programm mit einem Raum voller **zufriedener, verbundener Teilnehmender** ab.
 
-One key insight involved **scheduling**. We had assumed that seniors would prefer morning sessions. However, feedback revealed a **preference for later times**, reminding us to **challenge assumptions**—even those based in logic or past experience.
+Eine wichtige Erkenntnis betraf die **Terminplanung**. Wir hatten angenommen, dass Senioren Vormittagssitzungen bevorzugen würden. Das Feedback ergab jedoch eine **Präferenz für spätere Zeiten**, was uns daran erinnerte, **Annahmen zu hinterfragen** – selbst solche, die auf Logik oder Erfahrung basieren.
 
-To assess outcomes, we used both **verbal feedback** and a **creative tool**: the **Blob Tree**. Participants selected and colored the character that best reflected how they felt. Most chose the figure **center stage in the spotlight**. Their comments spoke of feeling **seen, appreciated, and connected**—after just five sessions.
+Zur Bewertung der Ergebnisse nutzten wir sowohl **mündliches Feedback** als auch ein **kreatives Werkzeug**: den **Blob Tree**. Die Teilnehmenden wählten und bemalten die Figur, die ihre Gefühle am besten widerspiegelte. Die meisten wählten die Figur **im Zentrum des Scheinwerfers**. Ihre Kommentare sprachen davon, **gesehen, geschätzt und verbunden** zu werden – nach nur fünf Sitzungen.
 
 ---
 
-## **Closing Thoughts**  
- In a time of fear and uncertainty, this project created a **small but powerful space** for **community, joy, and presence**. Even with **masks and distance**, even during lockdown, it was possible to **cultivate connection**.
+## **Schlussgedanken**
+In einer Zeit der Angst und Unsicherheit schuf dieses Projekt einen **kleinen, aber kraftvollen Raum** für **Gemeinschaft, Freude und Präsenz**. Selbst mit **Masken und Abstand**, selbst während des Lockdowns, war es möglich, **Verbindung zu kultivieren**.
 
-**Functional Juggling** and **social circus practices** provided more than physical activity—they offered a **path to resilience, expression, and belonging**. The experience reminded us that **age is not a limit, but a beginning**.
-
+**Funktionelles Jonglieren** und **soziale Zirkuspraktiken** boten mehr als körperliche Aktivität – sie boten einen **Weg zu Resilienz, Ausdruck und Zugehörigkeit**. Die Erfahrung erinnerte uns daran, dass **Alter keine Grenze, sondern ein Anfang ist**.

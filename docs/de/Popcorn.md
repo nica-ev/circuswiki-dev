@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 5
 group-max: 99
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein dynamisches Fangespiel für alle Gruppengrößen, das sich ideal als Aufwärmspiel eignet und bei dem sich die Teilnehmer von "Maiskörnern" in hüpfendes "Popcorn" verwandeln.

@@ -21,6 +21,8 @@ source:
 group-min: "9"
 group-max: "99"
 todo: Text überarbeiten
+translation_status: original
+translation_source_lang: de
 ---
 >[!info] Kurzbeschreibung
 >In dem Spiel "Zuzwinkern" versucht ein Spieler durch Zuzwinkern einen Partner zu finden, während die anderen versuchen, diesen davon abzuhalten. Das Ziel ist es, möglichst lange nicht alleine im Kreis zu stehen.

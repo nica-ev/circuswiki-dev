@@ -19,6 +19,8 @@ source:
   - Tasifan Spielebuch
 group-min: "5"
 group-max: "15"
+translation_status: original
+translation_source_lang: de
 ---
 # Bällewirrwarr
 

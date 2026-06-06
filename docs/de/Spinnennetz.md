@@ -19,6 +19,8 @@ Material: Seile
 Spieldauer: 5 - 15
 group-min: 6
 group-max: 14
+translation_status: original
+translation_source_lang: de
 ---
 # Spinnennetz
 

@@ -19,6 +19,8 @@ Spieldauer: 5 - 10
 source: Tasifan Spielebuch
 group-min: 10
 group-max: 30
+translation_status: original
+translation_source_lang: de
 ---
 # Eisbär auf der Scholle
 

@@ -10,6 +10,8 @@ update: 2025-01-23 05:45:14
 title: Github - Einführung
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Mitmachen bei der Doku – So geht's ganz einfach!
 

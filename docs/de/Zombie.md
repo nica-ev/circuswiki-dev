@@ -19,6 +19,8 @@ source:
   - Tasifan Spielebuch
 group-min: 6
 group-max: 18
+translation_status: original
+translation_source_lang: de
 ---
 # Zombie
 

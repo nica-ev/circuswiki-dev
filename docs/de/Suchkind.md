@@ -19,6 +19,8 @@ source: Portmann2009
 group-min: 5
 group-max: 20
 todo: fertig
+translation_status: original
+translation_source_lang: de
 ---
 # Suchkind
 

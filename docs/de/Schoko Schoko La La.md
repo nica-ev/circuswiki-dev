@@ -19,6 +19,8 @@ source:
   - unbekannt
 group-min: "2"
 group-max: "2"
+translation_status: original
+translation_source_lang: de
 ---
 # Schoko Schoko La La
 

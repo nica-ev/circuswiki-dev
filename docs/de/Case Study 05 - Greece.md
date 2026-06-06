@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-05-greece
 created: 2025-08-29 21:14:58
-update: 2025-08-29 22:15:01
+update: 2026-06-06 21:48:39
 publish: false
 tags:
   - case-study
@@ -12,67 +12,72 @@ authors:
   - Monokyklo team
 type: Artikel
 land: Greece
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 05 - Greece.md
+translation_source_hash: c4c9c2d381bb2f791e3df06b7d847677666878c95ebca3aca81c1fca68392a24
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:52+00:00
 ---
-# **Colours and Patterns to Unlock Friendly Interactions**
+# **Farben und Muster zur Förderung freundlicher Interaktionen**
 
-[Monokyklo](Monokyklo.md) -  Thessaloniki, Greece
-**Written by** the Monokyklo team
+[Monokyklo](Monokyklo.md) - Thessaloniki, Griechenland
+**Verfasst von** dem Monokyklo-Team
 
 ---
 
-## **Structure and Setting**  
- 
-Each session began with a **brief introduction of the games** to both trainers and participants, followed by **free exploration**. Participants were encouraged to **take initiative**, allowing us to observe which **patterns, colours, or movements naturally attracted their interest**. Facilitators provided **gentle, non-intrusive support**, focusing on encouragement and autonomy.
+## **Struktur und Rahmenbedingungen**
 
-Sessions took place indoors in **designated recreational areas** of each DDC. Materials were displayed on tables and included:
+Jede Sitzung begann mit einer **kurzen Vorstellung der Spiele** für Trainer und Teilnehmende, gefolgt von einer **freien Erkundungsphase**. Die Teilnehmenden wurden ermutigt, **Initiative zu ergreifen**, was uns ermöglichte zu beobachten, welche **Muster, Farben oder Bewegungen ihr Interesse auf natürliche Weise weckten**. Die Betreuenden boten **sanfte, unaufdringliche Unterstützung**, wobei der Fokus auf Ermutigung und Autonomie lag.
 
-* The **Juggle Board**
-* **Hula hoops**, **spinning plates**, **scarves**, and **juggling balls**
+Die Sitzungen fanden in **ausgewiesenen Freizeitbereichen** jedes DDC statt. Die Materialien waren auf Tischen ausgelegt und umfassten:
 
-The program ran for several months, with **near-daily visits to five different centers**, creating an opportunity for **longitudinal observation and diverse participant engagement**.
+* Das **Jonglierbrett**
+* **Hula-Hoops**, **Teller zum Balancieren**, **Tücher** und **Jonglierbälle**
+
+Das Programm lief mehrere Monate lang mit **nahezu täglichen Besuchen in fünf verschiedenen Zentren**, was eine Gelegenheit für **längsschnittliche Beobachtungen und vielfältige Teilnehmenden-Interaktion** bot.
 
 ![GEROPOULOU_GREECE.jpg](../img/GEROPOULOU_GREECE.jpg)
 
 ---
 
-## **Session Flow and Game Design**  
+## **Ablauf der Sitzung und Spieldesign**
 
-Each 90-minute session followed a consistent structure:
+Jede 90-minütige Sitzung folgte einer einheitlichen Struktur:
 
-* Opening **circle game** where everyone shared names and personal updates
-* A **main session** with rotating activity stations or small-group games
-* A **10–20 minute break** depending on group energy
-* Closing **group reflection**, sharing highlights and feedback
+* Ein **eröffnendes Kreisspiel**, bei dem alle Namen und persönliche Neuigkeiten austauschten
+* Eine **Hauptsitzung** mit wechselnden Aktivitätsstationen oder Kleingruppenspielen
+* Eine **10-20-minütige Pause**, abhängig von der Energie der Gruppe
+* Eine **abschließende Gruppendiskussion**, bei der Höhepunkte und Feedback geteilt wurden
 
-The activities rotated through **Functional Juggling games** and other circus-based experiences. Some sessions used a **clock-style layout**, allowing participants to move independently between activities. The structured yet playful design allowed for **adaptation to individual interests and needs**.
+Die Aktivitäten wechselten zwischen **funktionalen Jonglierspielen** und anderen zirkusbasierten Erfahrungen. Einige Sitzungen nutzten eine **Uhr-ähnliche Anordnung**, die es den Teilnehmenden ermöglichte, sich unabhängig zwischen den Aktivitäten zu bewegen. Das strukturierte und dennoch spielerische Design erlaubte eine **Anpassung an individuelle Interessen und Bedürfnisse**.
 
 ![GEROPOULOU_GREECE2.jpg](../img/GEROPOULOU_GREECE2.jpg)
 
 ---
 
-## **Observations and Outcomes**  
+## **Beobachtungen und Ergebnisse**
 
-The central focus—**facilitating social openness and peer interaction**—was clearly met. We observed:
+Das zentrale Ziel – die **Förderung sozialer Offenheit und Peer-Interaktion** – wurde klar erreicht. Wir beobachteten:
 
-* **Stronger interpersonal connections**, especially among previously withdrawn individuals
-* A noticeable difference in **game preferences** based on age and type of disability
-* Two participants with hyperactivity displayed **impulsivity**, though it remained **non-disruptive**
-* Participants were **drawn to bright colours and structured patterns**, and although creating new sequences was challenging, most persisted and **succeeded with guidance**
+* **Stärkere zwischenmenschliche Verbindungen**, insbesondere bei bisher zurückgezogenen Personen
+* Einen deutlichen Unterschied in den **Spielpräferenzen** je nach Alter und Art der Behinderung
+* Zwei Teilnehmende mit Hyperaktivität zeigten **Impulsivität**, die jedoch **nicht störend** war
+* Die Teilnehmenden fühlten sich von **leuchtenden Farben und strukturierten Mustern angezogen**, und obwohl das Erstellen neuer Sequenzen herausfordernd war, hielten die meisten durch und **erfolgten mit Anleitung**
 
-**Familiar educators played a crucial role**. When participants were supported by someone they trusted, **focus, engagement, and joy all increased**. Tools that incorporated **colour and number coding** proved especially effective. Across all five DDCs, participants showed:
+**Vertraute Betreuer spielten eine entscheidende Rolle**. Wenn Teilnehmende von jemandem unterstützt wurden, dem sie vertrauten, **nahmen Fokus, Engagement und Freude zu**. Werkzeuge, die **Farb- und Zahlenkodierungen** enthielten, erwiesen sich als besonders effektiv. In allen fünf DDCs zeigten die Teilnehmenden:
 
-* **Greater behavioral regulation**
-* **More consistent participation**
-* **Increased openness to trying new things**
-* **Heightened social engagement** with both peers and trainers
+* **Größere Verhaltensregulation**
+* **Konstantere Teilnahme**
+* **Erhöhte Offenheit für Neues**
+* **Verstärkte soziale Interaktion** mit Gleichaltrigen und Betreuern
 
 ![GEROPOULOU_GREECE3.jpg](../img/GEROPOULOU_GREECE3.jpg)
 
 ---
 
-## **Conclusion**  
+## **Schlussfolgerung**
 
-This initiative demonstrated how Functional Juggling can be a **powerful tool for inclusion and connection**. With **more frequent and structured sessions**, we believe it would be possible to achieve even **greater progress in motor skills, cognitive engagement, and social behavior**.
+Diese Initiative zeigte, wie funktionelles Jonglieren ein **mächtiges Werkzeug für Inklusion und Verbindung** sein kann. Mit **häufigeren und strukturierteren Sitzungen** glauben wir, dass es möglich wäre, noch **größere Fortschritte in motorischen Fähigkeiten, kognitiver Beteiligung und sozialem Verhalten** zu erzielen.
 
-The consistent involvement of **DDC staff was a key success factor**. Their presence helped build a **secure and familiar atmosphere** in which participants felt safe to explore, take risks, and form new relationships. The program not only enriched the daily experience of the participants but also **empowered caregivers and educators** to engage with inclusive pedagogy in a practical, joyful way.
-
+Die konsequente Einbindung des **DDC-Personals war ein entscheidender Erfolgsfaktor**. Ihre Anwesenheit half, eine **sichere und vertraute Atmosphäre** zu schaffen, in der sich die Teilnehmenden sicher fühlten, zu erkunden, Risiken einzugehen und neue Beziehungen aufzubauen. Das Programm bereicherte nicht nur den Alltag der Teilnehmenden, sondern **befähigte auch Betreuer und Pädagogen**, sich auf praktische und freudvolle Weise mit inklusiver Pädagogik auseinanderzusetzen.

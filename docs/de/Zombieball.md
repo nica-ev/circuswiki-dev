@@ -19,6 +19,8 @@ group-min: 5
 group-max: 30
 source: Tasifan Spielebuch
 todo: Text überarbeiten
+translation_status: original
+translation_source_lang: de
 ---
 >[!info] Kurzbeschreibung 
 >"Zombieball" ist ein Abwurfspiel, bei dem Spieler sich gegenseitig mit einem Ball abwerfen. Abgeworfene Spieler können wieder ins Spiel zurückkehren, indem der Spieler, der sie abgeworfen hat, selbst abgeworfen wird.

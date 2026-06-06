@@ -19,6 +19,8 @@ Material: keines
 Spieldauer: 5 - 15
 source: unbekannt
 todo: fertig
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung 
 > "Schattenlauf" ist ein Bewegungsspiel, bei dem Partner die Bewegungen des jeweils anderen imitieren.

@@ -5,14 +5,17 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 03:01:43
+update: 2026-06-06 21:03:57
 title: Drei gewinnt
 description: 
 authors:
   - Marc Bielert
 category:
   - bewegung
+translation_status: original
+translation_source_lang: de
 ---
+
 **Gruppengröße**: Ab ca 4-6 Mitspieler
 **Schwierigkeit**: mittel
 **Material**: 9 Ringe, 6 farbige Gegenstände (Tuch, Teller etc.) davon jeweils 3 in der gleichen Farbe, Seil o.ä. als Startmarkierung

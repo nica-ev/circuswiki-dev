@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 4
 group-max: 99
 todo: fertig
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Dieses Wurfspiel für kleine Gruppen, dessen Ursprung vermutlich in Ägypten liegt, fordert Konzentration und Reaktionsfähigkeit. Ziel ist es, den Ball zur richtigen Person zu werfen, während die Gegnergruppe versucht, Fehler zu vermeiden.

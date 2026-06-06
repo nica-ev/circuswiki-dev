@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 6
 group-max: 31
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Pinguine und Eisbären
 

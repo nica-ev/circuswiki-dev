@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 2
 group-max: 10
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein kreatives Kennenlernspiel für kleine Gruppen, bei dem die Teilnehmenden ihren persönlichen Werdegang oder andere Themen symbolisch mit Objekten darstellen und so einen tiefgründigen Einblick in ihre Erfahrungen geben.

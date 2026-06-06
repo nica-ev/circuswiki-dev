@@ -16,6 +16,8 @@ instagram: inspiralcircus
 facebook: INspiral Cirkuszközpont
 youtube: "@MZsonglorEgyesulet"
 land: Hungary
+translation_status: original
+translation_source_lang: de
 ---
 ### **Inspirál Circus Center (Budapest, Hungary)**
 

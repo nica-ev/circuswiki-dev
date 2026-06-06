@@ -11,6 +11,8 @@ description: Transkript der Artikel der Kaskade 002 von 1984
 authors:
   - Marc Bielert
 type: Magazin
+translation_status: original
+translation_source_lang: de
 ---
 ## JONGLIERWOCHE '84
 **Müßige Gedanken zu Frankfurt von einem, der dabei war**

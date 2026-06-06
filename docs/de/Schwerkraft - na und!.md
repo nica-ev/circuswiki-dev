@@ -12,6 +12,8 @@ authors:
   - Christoph Schmitt
 type: Artikel
 source: Kaskade 001
+translation_status: original
+translation_source_lang: de
 ---
 ## Autonome Jongliergruppe Wiesbaden und die 7. Europäische Jonglierwoche
 **Schwerkraft - na und!**

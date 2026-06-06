@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-03-italy
 created: 2025-08-30 20:14:34
-update: 2025-08-31 20:37:22
+update: 2026-06-06 21:48:25
 publish: false
 tags:
   - case-study
@@ -12,95 +12,101 @@ authors:
   - Sara Papadato*
 type: Artikel
 land: Italy
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 03 - Italy.md
+translation_source_hash: cc535b6a3f89ac46b4e89e447fbcd33f66710fcb5d805d77a97399e58530ce17
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:43+00:00
 ---
-# **More Than Movement: A Long-Term Journey with Functional Juggling**
+# **Mehr als nur Bewegung: Eine Langzeitreise mit Functional Juggling**
 
 [SELF APS](SELF%20APS.md)
-**Disabled Day Centre –  Italy**  
- *Written by Sara Papadato*
+**Tagesstätte für Menschen mit Behinderungen – Italien**
+*Verfasst von Sara Papadato*
 
-## **Target Group**
+## **Zielgruppe**
 
-This work focuses on a person with disabilities with high support needs who attends a Disabled Day Center in the North of Italy 
+Diese Arbeit konzentriert sich auf eine Frau mit Behinderungen und hohem Unterstützungsbedarf, die eine Tagesstätte für Menschen mit Behinderungen in Norditalien besucht.
 
-She navigates her environment in a wheelchair and is accompanied by an operator. Her diagnosis often masks her warmth and potential - but beneath it all she is a woman full of energy, joy, and determination.
+Sie bewegt sich im Rollstuhl und wird von einer Betreuerin begleitet. Ihre Diagnose überschattet oft ihre Herzlichkeit und ihr Potenzial – doch darunter verbirgt sich eine Frau voller Energie, Freude und Entschlossenheit.
 
-## **Beginning Situation**
+## **Ausgangssituation**
 
-I hold a degree in **Physical Education and Sport Sciences** and have worked in the field of disability for many years. Since 2011, I have specialized in **circus pedagogy**, and in 2018 I became a certified **Functional Juggling** facilitator through training with Craig Quat.
+Ich habe einen Abschluss in **Sportwissenschaften** und arbeite seit vielen Jahren im Bereich der Behindertenhilfe. Seit 2011 habe ich mich auf **Zirkuspädagogik** spezialisiert und bin seit 2018 zertifizierte **Functional Juggling**-Trainerin nach einer Ausbildung bei Craig Quat.
 
-I first met this woman in 2016 through a **Motor Activities Training Program (MATP)**, developed in collaboration with **Special Olympics**. The activity took place at a Disabled Day Care Center managed by the **Azienda Speciale Consortile Offertasociale (Vimercate-MB)** with **Cooperativa Sociale Solaris (Triuggio- MB)** as the contracting entity 
+Diese Frau lernte ich 2016 im Rahmen eines **Motor Activities Training Program (MATP)** kennen, das in Zusammenarbeit mit **Special Olympics** entwickelt wurde. Die Aktivität fand in einer Tagesstätte für Menschen mit Behinderungen statt, die von der **Azienda Speciale Consortile Offertasociale (Vimercate-MB)** verwaltet wurde, mit der **Cooperativa Sociale Solaris (Triuggio-MB)** als Auftragnehmer.
 
-In 2018, we transitioned from MATP to a **Functional Juggling project**, supported by a collaborative and open team of educators and therapists. When she started, her **right hand was tied to the wheelchair** due to self-injurious behavior and object-mouthing. Today, she wears a **protective glove** instead - and has gained far more **freedom** and **control**.
+2018 stellten wir von MATP auf ein **Functional Juggling-Projekt** um, das von einem kooperativen und offenen Team von Pädagogen und Therapeuten unterstützt wurde. Zu Beginn war ihre **rechte Hand aufgrund von selbstverletzendem Verhalten und dem In-den-Mund-Nehmen von Gegenständen an den Rollstuhl gefesselt**. Heute trägt sie stattdessen einen **Schutzhandschuh** – und hat dadurch weitaus mehr **Freiheit** und **Kontrolle** gewonnen.
 
 ![italy-3.jpg](../img/italy-3.jpg)
 
-## **Goals**
+## **Ziele**
 
-Initially, the shared goal was simple but essential:
+Anfänglich war das gemeinsame Ziel einfach, aber essenziell:
 
-* **To participate in the activity without enacting dysfunctional behavior**
+*   **An der Aktivität teilnehmen, ohne dysfunktionales Verhalten zu zeigen**
 
-Over time, with input from the physiotherapist and staff, the goals evolved to include:
+Im Laufe der Zeit entwickelten sich die Ziele, mit Beiträgen der Physiotherapeutin und des Personals, um Folgendes einzuschließen:
 
-* **Stimulating movement in the left upper limb**  
-* **Encouraging interaction with peers through juggling activities**
+*   **Bewegungsanregung der linken oberen Extremität**
+*   **Förderung der Interaktion mit Gleichaltrigen durch Jonglieraktivitäten**
 
-## **Setting and Tools**
+## **Rahmen und Werkzeuge**
 
-Sessions took place in a **multi-use room**, typically used as an office, but reserved weekly for juggling. The **materials were assembled and dismantled** before and after each session, which lasted between **20 and 30 minutes**, depending on the participant’s physical condition. All work was conducted in a **one-on-one** setting.
+Die Sitzungen fanden in einem **Mehrzweckraum** statt, der normalerweise als Büro genutzt wurde, aber wöchentlich für das Jonglieren reserviert war. Die **Materialien wurden vor und nach jeder Sitzung auf- und abgebaut**. Die Sitzungen dauerten je nach körperlicher Verfassung der Teilnehmerin zwischen **20 und 30 Minuten**. Alle Arbeiten fanden im **Einzelsetting** statt.
 
-**Props used included**:
+**Verwendete Requisiten waren**:
 
-* Juggle Board (horizontal and inclined)  
-* Abacus  
-* Flashcups  
-* Flowersticks  
-* Juggling rings
+*   Juggle Board (horizontal und geneigt)
+*   Abakus
+*   Flashcups
+*   Flowersticks
+*   Jonglierringe
 
 ![italy-1.jpg](../img/italy-1.jpg)
 
-## **Process**
+## **Ablauf**
 
-Since 2018, the client has participated in **weekly sessions** from October to May. Our first steps focused on building **rapport**, discovering her **interests**, and creating ways for her to engage with the activity.
+Seit 2018 nimmt die Klientin von Oktober bis Mai an **wöchentlichen Sitzungen** teil. Unsere ersten Schritte konzentrierten sich auf den Aufbau einer **Beziehung**, die Entdeckung ihrer **Interessen** und die Schaffung von Möglichkeiten, sie für die Aktivität zu begeistern.
 
-In the early phase, she was always accompanied by an educator who knew her well. As our relationship grew stronger, I was eventually able to work with her **independently**.
+In der Anfangsphase wurde sie stets von einer Betreuerin begleitet, die sie gut kannte. Als sich unsere Beziehung festigte, konnte ich schließlich **selbstständig** mit ihr arbeiten.
 
-**Each session followed a consistent structure**:
+**Jede Sitzung folgte einer konsistenten Struktur**:
 
-1. **Greeting and welcome** on the ground floor  
-2. **Activation phase** – often with the Juggle Board  
-3. **Core work** – combining color association and limb engagement using the board, abacus, and flashcups  
-4. **Left upper limb activation** using horizontal movement tools  
-5. **Final phase** – a game of her choice and a summary of the session
+1.  **Begrüßung und Willkommen** im Erdgeschoss
+2.  **Aktivierungsphase** – oft mit dem Juggle Board
+3.  **Kernarbeit** – Kombination von Farbassoziation und Gliedmaßenaktivierung unter Verwendung des Boards, des Abakus und der Flashcups
+4.  **Aktivierung der linken oberen Extremität** mit horizontalen Bewegungswerkzeugen
+5.  **Abschlussphase** – ein Spiel ihrer Wahl und eine Zusammenfassung der Sitzung
 
-The participant was **highly engaged** with the materials and, over time, learned to better **accept and enjoy new challenges** - while still showing preferences. A key strategy was to maintain her attention on **movement-based tasks**, not on self-regulatory or avoidance behaviors, and to **frame activities as games or mini-competitions** to increase motivation.
+Die Teilnehmerin war **sehr engagiert** mit den Materialien und lernte im Laufe der Zeit, neue Herausforderungen besser **anzunehmen und zu genießen** – zeigte aber weiterhin Präferenzen. Eine Schlüsselstrategie war es, ihre Aufmerksamkeit auf **bewegungsbasierte Aufgaben** zu lenken, nicht auf selbstregulierendes oder vermeidendes Verhalten, und **Aktivitäten als Spiele oder Mini-Wettbewerbe zu gestalten**, um die Motivation zu steigern.
 
-We discovered that she was able to identify and match colors, especially when using props like the **abacus** and **Juggle Board**. These moments offered valuable opportunities to combine **cognitive stimulation** with **motor play**.
+Wir stellten fest, dass sie Farben erkennen und zuordnen konnte, insbesondere bei der Verwendung von Requisiten wie dem **Abakus** und dem **Juggle Board**. Diese Momente boten wertvolle Gelegenheiten, **kognitive Stimulation** mit **motorischem Spiel** zu verbinden.
 
-Close collaboration with the **educator team** - and ongoing support from the **physiotherapists** - proved essential in aligning our shared goals and designing effective strategies for **guided left arm activation**.
+Die enge Zusammenarbeit mit dem **Betreuerteam** – und die fortlaufende Unterstützung durch die **Physiotherapeuten** – erwiesen sich als unerlässlich, um unsere gemeinsamen Ziele abzustimmen und effektive Strategien für die **gezielte Aktivierung des linken Arms** zu entwickeln.
 
 ![italy-2.jpg](../img/italy-2.jpg)
-## **Outcomes**
 
-We used **ongoing observation** as our primary method of evaluation, and the progress - although often subtle - proved to be deeply meaningful:
+## **Ergebnisse**
 
-* In the beginning, the participant would frequently attempt to bring her right hand to her mouth as soon as it was untied. Today, this behavior appears only once or twice per session, and she is able to redirect herself back to the activity with ease.  
-* Her right hand is no longer tied down and now only requires a **protective glove**.  
-* She can now **intentionally reach out with her left arm** up to four consecutive times to interact with props such as the Juggle Board or Flashcups.  
-* She has played with **peers, family members, and young children**, always accompanied by an educator - demonstrating increasing openness and cooperation.
+Wir nutzten die **fortlaufende Beobachtung** als primäre Evaluationsmethode, und die Fortschritte – obwohl oft subtil – erwiesen sich als zutiefst bedeutsam:
 
-Perhaps most remarkably, she has become the **“expert”** of the Functional Juggling activity within the center, frequently demonstrating what she has learned to others - with evident pride.
+*   Anfangs versuchte die Teilnehmerin häufig, ihre rechte Hand zum Mund zu führen, sobald sie losgebunden war. Heute tritt dieses Verhalten nur noch ein- bis zweimal pro Sitzung auf, und sie kann sich leicht wieder der Aktivität zuwenden.
+*   Ihre rechte Hand ist nicht mehr gefesselt und benötigt nur noch einen **Schutzhandschuh**.
+*   Sie kann nun **gezielt mit ihrem linken Arm bis zu viermal hintereinander zugreifen**, um mit Requisiten wie dem Juggle Board oder den Flashcups zu interagieren.
+*   Sie hat mit **Gleichaltrigen, Familienmitgliedern und kleinen Kindern** gespielt, stets begleitet von einer Betreuerin – und zeigte dabei zunehmende Offenheit und Kooperationsbereitschaft.
 
-There is still **room for growth** - particularly in implementing more measurable tracking systems. Ideally, future sessions would integrate **video documentation** or **sensor-based tools** to enable deeper layers of reflection and **data-informed analysis**. These additions could support both real-time facilitation and post-session review, enhancing the clarity and continuity of long-term progress monitoring.
+Am bemerkenswertesten ist vielleicht, dass sie zur **„Expertin“** für die Functional Juggling-Aktivität im Zentrum geworden ist und anderen häufig mit sichtbarem Stolz zeigt, was sie gelernt hat.
+
+Es gibt noch **Raum für Wachstum** – insbesondere bei der Implementierung messbarerer Tracking-Systeme. Idealerweise würden zukünftige Sitzungen **Videoaufzeichnungen** oder **sensorbasierte Werkzeuge** integrieren, um tiefere Reflexionsebenen und **datenbasierte Analysen** zu ermöglichen. Diese Ergänzungen könnten sowohl die Echtzeit-Betreuung als auch die Nachbereitung von Sitzungen unterstützen und die Klarheit und Kontinuität der langfristigen Fortschrittsüberwachung verbessern.
 
 ---
 
-## **Conclusions and Reflections**
+## **Schlussfolgerungen und Reflexionen**
 
-Working long-term with a person with complex disabilities requires **patience, consistency**, and deep **commitment**. At first, I felt uncertain - wondering if any real change was taking place. But slowly, with the attentive eyes of her educator team, I began to see the truth: the **tiny shifts** were in fact **huge steps**.
+Die langfristige Arbeit mit einer Person mit komplexen Behinderungen erfordert **Geduld, Beständigkeit** und tiefes **Engagement**. Anfangs fühlte ich mich unsicher – ich fragte mich, ob überhaupt eine wirkliche Veränderung stattfand. Aber langsam, mit den aufmerksamen Augen ihres Betreuerteams, begann ich die Wahrheit zu erkennen: Die **winzigen Verschiebungen** waren tatsächlich **riesige Schritte**.
 
-What we do with Functional Juggling is not just about movement - it’s about **trust**, **attention**, **presence**, and creating the conditions for each person to **show us who they are and what they’re capable of**.
+Was wir mit Functional Juggling tun, ist nicht nur Bewegung – es geht um **Vertrauen**, **Aufmerksamkeit**, **Präsenz** und darum, die Bedingungen zu schaffen, damit jeder Mensch uns **zeigen kann, wer er ist und wozu er fähig ist**.
 
-It may not always *look* like progress - but when we learn to look differently, we begin to see just how far someone has come.
-
+Es mag nicht immer wie Fortschritt *aussehen* – aber wenn wir lernen, anders hinzusehen, beginnen wir zu erkennen, wie weit jemand gekommen ist.

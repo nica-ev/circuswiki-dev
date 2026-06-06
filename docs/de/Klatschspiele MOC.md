@@ -12,15 +12,17 @@ title: Klatschpiele
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Klatschpiele
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "klatschspiel") -->
 <!-- SerializedQuery: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "klatschspiel") -->
 
-| File                                                 | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                       |
-| ---------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------ |
-| [Ding Dang Dong](docs/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
-| [Schoko Schoko La La](docs/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
+| File                                                    | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                       |
+| ------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------ |
+| [Ding Dang Dong](docs/de/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/de/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
 
 <!-- SerializedQuery END -->

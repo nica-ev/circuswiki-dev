@@ -14,6 +14,8 @@ authors:
 source: Kaskade 001
 type: Tutorial
 sub-type: Bälle
+translation_status: original
+translation_source_lang: de
 ---
 ### Schummeln!
 Quelle: [Kaskade 001](Kaskade%20001.md#Schummeln!)

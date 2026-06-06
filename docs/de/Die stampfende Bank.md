@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - action
+translation_status: original
+translation_source_lang: de
 ---
 # Die stampfende Bank
 

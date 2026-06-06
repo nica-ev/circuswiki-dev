@@ -19,6 +19,8 @@ source:
   - Tasifan Spielebuch
 group-min: 4
 group-max: 12
+translation_status: original
+translation_source_lang: de
 ---
 # Robert die rennende Robbe
 

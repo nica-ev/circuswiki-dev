@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - bewegung
+translation_status: original
+translation_source_lang: de
 ---
 >[!info]
 >"Hai und Fisch" ist ein einfaches Gruppenspiel, bei dem ein oder mehrere Haie versuchen, die Fische zu fangen, während die Fische versuchen, sicher auf die andere Seite zu gelangen. Wenn ein Fisch vom Hai getippt wird, wird er zur Alge und kann selbst andere Fische fangen. Das Spiel endet, wenn entweder alle Fische gefangen wurden oder eine bestimmte Zeit abgelaufen ist.

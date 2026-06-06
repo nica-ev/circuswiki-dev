@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 5
 group-max: 99
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Pinguine und Killer-Flamingos
 

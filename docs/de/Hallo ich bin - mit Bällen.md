@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 3
 group-max: 30
 todo: Text überarbeiten, ähnlihche Notizen verlinken
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > "Hallo, ich bin - mit Bällen" ist eine spielerische Kennenlernübung im Kreis, die Namen und motorische Fähigkeiten verbindet und die Gruppendynamik fördert.

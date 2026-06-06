@@ -21,6 +21,8 @@ source: Tasifan Spielebuch
 group-min: 15
 group-max: 99
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Möhre Hase Fuchs
 

@@ -14,6 +14,8 @@ authors:
 website:
 instagram: odskoczniastudio
 land: Poland
+translation_status: original
+translation_source_lang: de
 ---
 # **Odskocznia Studio**
 

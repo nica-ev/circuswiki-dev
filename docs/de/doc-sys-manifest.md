@@ -8,6 +8,8 @@ update: 2025-01-24 03:18:42
 title: Dokumentation - Manifest
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Manifest: Meine Prinzipien für das Wissensmanagement
 

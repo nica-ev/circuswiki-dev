@@ -13,6 +13,8 @@ authors:
 category:
   - Taktik
   - cool-down
+translation_status: original
+translation_source_lang: de
 ---
 # Mörderspiel
 

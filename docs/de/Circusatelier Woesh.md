@@ -15,14 +15,20 @@ facebook: "@circusatelierwoesh"
 instagram: "@circusatelierwoesh"
 youtube: "@circusatelierwoesh"
 website: www.woesh.be
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Circusatelier Woesh.md
+translation_source_hash: 48db5da3a12ac48f8f93c1ba331662e6a32f59c81ef5e770d6a7cac9222a41e0
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:49+00:00
 ---
-# Circusatelier Woesh 
- Is a youth circus organisation based in Bruges and Ostend that inspires communities across West Flanders. We believe in the power of circus as a medium that brings people together - regardless of age, background, experience, or talent.
- 
-Woesh pays special attention to individuals with specific support needs and is developing itself as an open learning space where artistic experimentation, education, and inclusion go hand in hand.
-We do not do this alone: we work in close collaboration with a wide network of partners.
+# Circusatelier Woesh
+Ist eine Jugendzirkusorganisation mit Sitz in Brügge und Ostende, die Menschen in ganz Westflandern begeistert. Wir glauben an die Kraft des Zirkus als Medium, das Menschen zusammenbringt – unabhängig von Alter, Herkunft, Erfahrung oder Talent.
 
-# Contact
+Woesh legt besonderen Wert auf Menschen mit besonderen Unterstützungsbedürfnissen und entwickelt sich zu einem offenen Lernraum, in dem künstlerisches Experimentieren, Bildung und Inklusion Hand in Hand gehen.
+Dies tun wir nicht allein: Wir arbeiten eng mit einem breiten Netzwerk von Partnern zusammen.
+
+# Kontakt
 
 facebook: @circusatelierwoesh
 instagram: @circusatelierwoesh

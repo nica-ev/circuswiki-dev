@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-14-united-states
 created: 2025-08-30 21:35:00
-update: 2025-08-31 21:11:55
+update: 2026-06-06 21:49:38
 publish: false
 tags:
   - case-study
@@ -11,63 +11,68 @@ description:
 authors:
   - Craig Quat
 land: United States
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 14 - United States.md
+translation_source_hash: 443f002e7947cf39f860a4c596a7e62a780f63d6f19fa04f58e2516a925104df
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:43+00:00
 ---
-# **Functional Juggling to Support Writing Tool Proficiency in a Child with ADHD**
+# **Funktionelles Jonglieren zur Förderung der Schreibwerkzeugkompetenz bei einem Kind mit ADHS**
 
-[Quat Props](Quat%20Props.md) - United States
- *Written by Craig Quat*
-
----
-
-## **Initial Challenge**
-
-A 9-year-old boy diagnosed with ADHD began attending my circus school in New Jersey, accompanied by his mother, who was seeking support for his struggles with handwriting. Despite being physically capable and cognitively sharp, he found writing frustrating and unengaging. Completing assignments was a battle, and he had developed a strong aversion to the tools themselves. His mother believed his low academic performance was directly tied to his ADHD.
-
-Rather than addressing handwriting directly, I introduced **Functional Juggling** as a way to shift the entire **emotional and sensory relationship** with writing tools. My goal wasn’t just to improve motor control, but to reframe how he experienced the activity—transforming it from a task he dreaded into a game he could enjoy.
+[Quat Props](Quat%20Props.md) - Vereinigte Staaten
+ *Geschrieben von Craig Quat*
 
 ---
 
-## **Creating Playful Repetition**
+## **Anfängliche Herausforderung**
 
-We began with the **Juggle Board**, using its structured rhythm and nonverbal language to spark curiosity. Once he was engaged in that system of play, I replaced the board with a large sheet of paper and swapped the juggling balls for five **colored markers**.
+Ein 9-jähriger Junge mit ADHS-Diagnose begann meine Zirkusschule in New Jersey zu besuchen. Seine Mutter suchte Unterstützung für seine Schwierigkeiten beim Schreiben. Obwohl er körperlich fähig und geistig scharf war, empfand er das Schreiben als frustrierend und wenig ansprechend. Das Erledigen von Aufgaben war ein Kampf, und er entwickelte eine starke Abneigung gegen die Werkzeuge selbst. Seine Mutter glaubte, dass seine geringen schulischen Leistungen direkt mit seiner ADHS zusammenhingen.
 
-We used the same **sequencing logic**—picking up, passing, and placing the markers—to draw mirrored patterns across the page. Instead of copying letters or words, he was exploring movement through color and shape, with each drawing forming part of a fluid, rhythmic sequence.
-
----
-
-## **Engagement Through Creativity**
-
-He embraced the format quickly—especially when we incorporated **creative themes** like animals, houses, or imaginary creatures. These themes required not only motor coordination, but also **interpretation, adaptation, and collaboration**. They brought the task to life.
-
-We told stories through drawings. We made jokes. We improvised. Sometimes we worked in silence, other times we built elaborate worlds together. His **attention and motivation exceeded all expectations**. At the end of each session, he took home his drawings with pride—something he could show, share, and revisit.
+Anstatt das Schreiben direkt anzugehen, führte ich **funktionales Jonglieren** ein, um die gesamte **emotionale und sensorische Beziehung** zu Schreibwerkzeugen zu verändern. Mein Ziel war es nicht nur, die motorische Kontrolle zu verbessern, sondern auch, wie er die Aktivität erlebte, neu zu gestalten – sie von einer gefürchteten Aufgabe in ein Spiel zu verwandeln, das er genießen konnte.
 
 ---
 
-## **Progress Through Play**
+## **Spielerische Wiederholung schaffen**
 
-What stood out wasn’t just the technical progress—it was the emotional shift. During our first session, he told me he thought writing was “stupid.” By the end, he didn’t want to put the markers down. He was excited to show his work to his sister. That shift was rapid—and real.
+Wir begannen mit dem **Jonglierbrett**, nutzten dessen strukturierten Rhythmus und nonverbale Sprache, um Neugier zu wecken. Sobald er sich auf dieses Spielsystem eingelassen hatte, ersetzte ich das Brett durch ein großes Blatt Papier und die Jonglierbälle durch fünf **farbige Marker**.
 
-Over time, his **motor control, bilateral coordination, and cross-midline movement** improved significantly. His **writing proficiency** surpassed expectations. But more importantly, his relationship to the tools had changed. He no longer resisted. He wanted to engage.
-
----
-
-## **Reflections and Outcomes**
-
-His mother was pleased—especially by the academic gains. But for me, the deeper transformation was social-emotional. What had once been a source of stress and shame had become a **point of pride and connection**.
-
-This case reminded me that juggling isn’t just about movement. It’s about how we relate to objects, to rhythm, to ourselves. In this case, it was about a pencil—or, more precisely, what the pencil had come to represent.
-
-By meeting this child in play, we rewrote his emotional script. We created space for autonomy, expression, and joy. We didn’t just train a skill—we **transformed a relationship**.
+Wir nutzten die gleiche **Sequenzierungslogik** – das Aufnehmen, Weitergeben und Ablegen der Marker –, um gespiegelte Muster über die Seite zu zeichnen. Anstatt Buchstaben oder Wörter zu kopieren, erkundete er Bewegung durch Farbe und Form, wobei jede Zeichnung Teil einer flüssigen, rhythmischen Sequenz wurde.
 
 ---
 
-## **Scalability and Application**
+## **Engagement durch Kreativität**
 
-This approach requires minimal resources and can be replicated across classrooms, clinics, or home settings. Educators, therapists, and caregivers can adapt the structure using simple tools like markers, paper, or everyday objects—so long as the guiding principles remain:
+Er nahm das Format schnell an – besonders als wir **kreative Themen** wie Tiere, Häuser oder Fantasiewesen einbezogen. Diese Themen erforderten nicht nur motorische Koordination, sondern auch **Interpretation, Anpassung und Zusammenarbeit**. Sie erweckten die Aufgabe zum Leben.
 
-* **Structured repetition**  
-* **Embodied rhythm**  
-* **Playful interaction**
+Wir erzählten Geschichten durch Zeichnungen. Wir machten Witze. Wir improvisierten. Manchmal arbeiteten wir schweigend, manchmal bauten wir gemeinsam ausgefeilte Welten. Seine **Aufmerksamkeit und Motivation übertrafen alle Erwartungen**. Am Ende jeder Sitzung nahm er seine Zeichnungen stolz mit nach Hause – etwas, das er zeigen, teilen und wieder besuchen konnte.
 
-When we offer movement-based learning in a joyful, accessible format, we don’t just teach skills—we help build confidence, reshape perception, and create lasting emotional resilience.
+---
 
+## **Fortschritt durch Spiel**
+
+Was auffiel, war nicht nur der technische Fortschritt, sondern die emotionale Veränderung. Während unserer ersten Sitzung sagte er mir, dass er Schreiben für „dumm“ halte. Am Ende wollte er die Marker nicht mehr weglegen. Er war begeistert, seine Arbeit seiner Schwester zu zeigen. Diese Veränderung war schnell – und echt.
+
+Mit der Zeit verbesserten sich seine **motorische Kontrolle, bilaterale Koordination und die Bewegung über die Mittellinie** erheblich. Seine **Schreibkompetenz** übertraf die Erwartungen. Aber wichtiger noch, seine Beziehung zu den Werkzeugen hatte sich verändert. Er leistete keinen Widerstand mehr. Er wollte sich einbringen.
+
+---
+
+## **Reflexionen und Ergebnisse**
+
+Seine Mutter war erfreut – besonders über die schulischen Fortschritte. Aber für mich war die tiefere Verwandlung sozial-emotional. Was einst eine Quelle von Stress und Scham war, war zu einem **Punkt des Stolzes und der Verbindung** geworden.
+
+Dieser Fall erinnerte mich daran, dass Jonglieren nicht nur Bewegung ist. Es geht darum, wie wir uns zu Objekten, zu Rhythmus, zu uns selbst verhalten. In diesem Fall ging es um einen Bleistift – oder genauer gesagt, um das, wofür der Bleistift geworden war.
+
+Indem wir dieses Kind im Spiel trafen, schrieben wir sein emotionales Skript neu. Wir schufen Raum für Autonomie, Ausdruck und Freude. Wir trainierten nicht nur eine Fähigkeit – wir **verwandelten eine Beziehung**.
+
+---
+
+## **Skalierbarkeit und Anwendung**
+
+Dieser Ansatz erfordert minimale Ressourcen und kann in Klassenzimmern, Kliniken oder zu Hause repliziert werden. Pädagogen, Therapeuten und Betreuer können die Struktur mit einfachen Werkzeugen wie Markern, Papier oder Alltagsgegenständen anpassen – solange die Leitprinzipien erhalten bleiben:
+
+* **Strukturierte Wiederholung**
+* **Verkörperter Rhythmus**
+* **Spielerische Interaktion**
+
+Wenn wir bewegungsbasierte Lernerfahrungen in einem freudigen, zugänglichen Format anbieten, lehren wir nicht nur Fähigkeiten – wir helfen, Selbstvertrauen aufzubauen, Wahrnehmungen zu verändern und dauerhafte emotionale Widerstandsfähigkeit zu schaffen.

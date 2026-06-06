@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 4
 group-max: 25
 todo: Text überarbeiten, ähnlihche Notizen verlinken
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > "Hallo, ich bin" ist eine einfache und schnelle Kennenlernübung für Gruppen.

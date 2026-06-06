@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - call-response
+translation_status: original
+translation_source_lang: de
 ---
 # Löwenjagd
 

@@ -21,6 +21,8 @@ source: Tasifan Spielebuch, Unbekannt
 group-min: 5
 group-max: 99
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein dynamisches Laufspiel für größere Gruppen, das Reaktionsschnelligkeit, Orientierung und Teamgeist fördert, indem es die Teilnehmer zu schnellen Richtungswechseln und gemeinsamer Bewegung auffordert.

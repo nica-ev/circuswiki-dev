@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CircusWiki Translation Console</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">CircusWiki Local Tooling</p>
+          <h1>Translation Console</h1>
+        </div>
+        <nav class="tabs" aria-label="Console sections">
+          <button class="tab active" type="button" data-tab="file-test">Individual File Test</button>
+          <button class="tab" type="button" data-tab="vault-health">Vault Health</button>
+          <button class="tab" type="button" data-tab="batch-translate">Batch Translate</button>
+        </nav>
+      </header>
+
+      <section class="panel metrics" id="metrics">
+        <div>
+          <span class="metric-label">Sources</span>
+          <strong id="metric-total">-</strong>
+        </div>
+        <div>
+          <span class="metric-label">Translated</span>
+          <strong id="metric-translated">-</strong>
+        </div>
+        <div>
+          <span class="metric-label">Needs Work</span>
+          <strong id="metric-needs">-</strong>
+        </div>
+        <div>
+          <span class="metric-label">Issues</span>
+          <strong id="metric-issues">-</strong>
+        </div>
+        <div>
+          <span class="metric-label">Matrix</span>
+          <strong id="metric-matrix">-</strong>
+        </div>
+      </section>
+
+      <section class="tab-panel active" id="tab-file-test">
+        <section class="workspace">
+          <aside class="panel file-list">
+            <div class="toolbar">
+              <h2>Pages</h2>
+              <button id="refresh" type="button">Refresh</button>
+            </div>
+            <input id="filter" type="search" placeholder="Filter pages">
+            <div id="pages" class="pages"></div>
+          </aside>
+
+          <section class="panel inspector">
+            <h2>Selected Page</h2>
+            <dl id="details" class="details compact"></dl>
+
+            <div class="form-grid">
+              <label>
+                Model
+                <input id="model" type="text">
+              </label>
+
+              <label>
+                Prompt Template
+                <textarea id="prompt" rows="10" placeholder="Use {source_lang} and {target_lang}; they are injected per translation."></textarea>
+              </label>
+            </div>
+
+            <div class="actions">
+              <button id="dry-run" type="button">Dry Run</button>
+              <button id="translate" type="button" class="primary">Translate File</button>
+            </div>
+
+            <pre id="log" class="log">Ready.</pre>
+          </section>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-vault-health">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Vault Health Matrix</h2>
+              <p class="hint">Compact overview: languages are vertical, notes run horizontally. Click a pixel for details.</p>
+            </div>
+            <div class="toolbar-actions">
+              <input id="health-filter" type="search" placeholder="Filter details">
+              <select id="health-status">
+                <option value="all">All statuses</option>
+                <option value="red">Missing only</option>
+                <option value="yellow">Issues only</option>
+                <option value="green">Green only</option>
+              </select>
+              <button id="repair-health" type="button" class="primary">Run Repair</button>
+              <button id="refresh-health" type="button">Refresh</button>
+            </div>
+          </div>
+
+          <div class="health-summary" id="health-summary"></div>
+          <div class="repair-panel">
+            <progress id="repair-progress" value="0" max="0"></progress>
+            <span id="repair-status">Repair idle.</span>
+          </div>
+          <div class="matrix-wrap">
+            <table class="matrix" id="health-matrix"></table>
+          </div>
+          <pre id="health-details" class="log health-details">Select a matrix cell.</pre>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-batch-translate">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Batch Translate</h2>
+              <p class="hint">Plan first. Planning does not call the API. Running processes only the planned files.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="batch-target"></select>
+              <input id="batch-max-files" type="number" min="1" max="100" value="5" title="Maximum files to process">
+              <button id="batch-plan" type="button">Plan</button>
+              <button id="batch-run" type="button" class="primary" disabled>Run Planned</button>
+            </div>
+          </div>
+
+          <div class="repair-panel">
+            <progress id="batch-progress" value="0" max="0"></progress>
+            <span id="batch-status">No batch plan yet.</span>
+          </div>
+
+          <div id="batch-summary" class="health-summary"></div>
+          <div class="batch-list-wrap">
+            <table class="batch-list" id="batch-list"></table>
+          </div>
+          <pre id="batch-log" class="log health-details">Batch output.</pre>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

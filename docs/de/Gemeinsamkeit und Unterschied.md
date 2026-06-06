@@ -5,14 +5,17 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 03:06:49
+update: 2026-06-06 21:03:32
 title: Gemeinsamkeit und Unterschied
 description: 
 authors:
   - Marc Bielert
 category:
   - inklusion
+translation_status: original
+translation_source_lang: de
 ---
+
 # Gemeinsamkeit und Unterschied
 
 Ein kleines Spiel zum Thema Inklusion

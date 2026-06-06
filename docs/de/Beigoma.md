@@ -12,6 +12,8 @@ title: Beigoma
 description: Beigoma - Überblick
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Allgemeines
 

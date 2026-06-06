@@ -12,24 +12,26 @@ title: Kooperationsspiele
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Kooperationsspiele
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "Kooperation") -->
 <!-- SerializedQuery: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "Kooperation") -->
 
-| File                                                                             | group-min | group-max | Schwierigkeit    | Material | Spieldauer | category                                         |
-| -------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------- | ---------- | ------------------------------------------------ |
-| [Alle_gegen_einen](docs/Alle_gegen_einen.md)                                   | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Der heikle Wassertransport](docs/Der heikle Wassertransport.md)               | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Die Hürde](docs/Die Hürde.md)                                                 | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Die Quadratur des Kreises](docs/Die Quadratur des Kreises.md)                 | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Eiskönigin - Riese und Zwerge](docs/Eiskönigin - Riese und Zwerge.md)         | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Fliegender Teppich](docs/Fliegender Teppich.md)                               | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Neun Menschen – 8 Beine - 4 Hände](docs/Neun Menschen – 8 Beine - 4 Hände.md) | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Raumstation](docs/Raumstation.md)                                             | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Seeüberquerung](docs/Seeüberquerung.md)                                       | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
-| [Sortieren in der Gruppe](docs/Sortieren in der Gruppe.md)                     | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li><li>kreisspiel</li></ul> |
-| [Spinnennetz](docs/Spinnennetz.md)                                             | 6         | 14        | einfach - schwer | Seile    | 5 - 15     | <ul><li>Kooperation</li></ul>                    |
+| File                                                                                | group-min | group-max | Schwierigkeit    | Material | Spieldauer | category                                         |
+| ----------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------- | ---------- | ------------------------------------------------ |
+| [Alle_gegen_einen](docs/de/Alle_gegen_einen.md)                                   | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Der heikle Wassertransport](docs/de/Der heikle Wassertransport.md)               | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Die Hürde](docs/de/Die Hürde.md)                                                 | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Die Quadratur des Kreises](docs/de/Die Quadratur des Kreises.md)                 | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Eiskönigin - Riese und Zwerge](docs/de/Eiskönigin - Riese und Zwerge.md)         | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Fliegender Teppich](docs/de/Fliegender Teppich.md)                               | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Neun Menschen – 8 Beine - 4 Hände](docs/de/Neun Menschen – 8 Beine - 4 Hände.md) | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Raumstation](docs/de/Raumstation.md)                                             | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Seeüberquerung](docs/de/Seeüberquerung.md)                                       | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li></ul>                    |
+| [Sortieren in der Gruppe](docs/de/Sortieren in der Gruppe.md)                     | \-        | \-        | \-               | \-       | \-         | <ul><li>Kooperation</li><li>kreisspiel</li></ul> |
+| [Spinnennetz](docs/de/Spinnennetz.md)                                             | 6         | 14        | einfach - schwer | Seile    | 5 - 15     | <ul><li>Kooperation</li></ul>                    |
 
 <!-- SerializedQuery END -->

@@ -12,6 +12,8 @@ authors:
   - Toby Philpott
 type: Artikel
 source: Kaskade 001
+translation_status: original
+translation_source_lang: de
 ---
 ## **Lächeln überwindet Schwerkraft**
 **Brief von Toby Philpott, Europäischer Direktor der IJA**

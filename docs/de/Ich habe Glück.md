@@ -20,6 +20,8 @@ source: Lorenzo Cincinotti
 group-min: 6
 group-max: 28
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > "Ich habe Glück" ist ein dynamisches Fangspiel, das die Elemente von Fangen, Teamwork und dem "Stein, Schere, Papier"-Spiel kombiniert, um Bewegung, schnelle Entscheidungen und Interaktion zu fördern.

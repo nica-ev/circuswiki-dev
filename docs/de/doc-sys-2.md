@@ -9,6 +9,8 @@ title: Dokumentations-System
 authors:
   - Marc Bielert
 description:
+translation_status: original
+translation_source_lang: de
 ---
 [Manifest](doc-sys-manifest.md){ .md-button }
 [Obsidian Setup](Obsidian%20Setup.md){ .md-button }

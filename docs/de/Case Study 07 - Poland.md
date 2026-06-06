@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-07-poland
 created: 2025-08-30 20:42:55
-update: 2025-08-31 20:42:26
+update: 2026-06-06 21:48:55
 publish: false
 tags:
   - case-study
@@ -11,112 +11,117 @@ description:
 authors:
   - Paulina Chodnicka
 land: Poland
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 07 - Poland.md
+translation_source_hash: 9ad6e4ab40cc343b3116894e14d2d961c10a37ccc26f0549208c3c328b284639
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:03+00:00
 ---
-# **Hidden Therapy Through Play: Functional Juggling with Children with Autism and Their Caregivers**
+# **Versteckte Therapie durch Spiel: Funktionales Jonglieren mit Kindern mit Autismus und ihren Betreuungspersonen**
 
-*Based on the work of **Miłosz Goślicki*****, circus educator and circus artist** in the **Podbeskidzie** region of Poland,
-written by Paulina Chodnicka,, [Odskocznia Studio](Odskocznia%20Studio.md) - Warsaw, Poland
+*Basierend auf der Arbeit von **Miłosz Goślicki***, Zirkuspädagoge und Zirkuskünstler in der Region **Podbeskidzie** in Polen,
+geschrieben von Paulina Chodnicka, [Odskocznia Studio](Odskocznia%20Studio.md) - Warschau, Polen
 
-## **Target Group**  
- This program was designed for a **small group of children with autism** and their **caregivers**. Two groups participated in total - each composed of **four children and their respective caregivers** - creating a **one-to-one dynamic** that fostered **trust, connection**, and **shared learning**.
-
----
-
-## **Initial Context**  
- Miłosz Goślicki is a **professional circus artist** and **workshop leader** with years of experience in **movement-based education**. However, in terms of **Functional Juggling (FJ)**, he was just beginning his journey - having recently completed a **training with Craig Quat**.
-
-Circus pedagogy remains relatively **unfamiliar** in the **Podbeskidzie region** of Poland. Hoping to change that, Miłosz reached out to the **President of the National Autism Society** (Bielsko-Biała branch) and organized an **open session** for local therapists. The response was immediate and heartfelt - one participant remarked, *“It was the first time in a long while that I genuinely had fun.”*
-
----
-
-## **Project Goals**  
- The primary aims of the workshops were:
-
-* To offer **rehabilitative experiences** through **movement and coordination**
-* To create **joyful, meaningful interactions** between children and their caregivers
-* To integrate **Functional Juggling** into local **therapeutic practice** through **demonstration and collaboration**
+## **Zielgruppe**
+ Dieses Programm wurde für eine **kleine Gruppe von Kindern mit Autismus** und ihre **Betreuungspersonen** konzipiert. Insgesamt nahmen zwei Gruppen teil – jede bestehend aus **vier Kindern und ihren jeweiligen Betreuungspersonen** –, wodurch eine **Eins-zu-eins-Dynamik** entstand, die **Vertrauen, Verbindung** und **gemeinsames Lernen** förderte.
 
 ---
 
-## **Setting and Tools**  
- Workshops took place **indoors**, with two **Juggle Boards** set up on tables and **open space** for movement exploration.  
- **Props included**:
+## **Anfänglicher Kontext**
+ Miłosz Goślicki ist ein **professioneller Zirkuskünstler** und **Workshop-Leiter** mit jahrelanger Erfahrung in der **bewegungsbasierten Pädagogik**. Was das **Funktionale Jonglieren (FJ)** betrifft, stand er jedoch noch am Anfang seiner Reise – er hatte gerade erst eine **Schulung bei Craig Quat** abgeschlossen.
+
+Die Zirkuspädagogik ist in der **Region Podbeskidzie** in Polen noch relativ **unbekannt**. In der Hoffnung, dies zu ändern, wandte sich Miłosz an die **Vorsitzende der Nationalen Autismus-Gesellschaft** (Zweigstelle Bielsko-Biała) und organisierte eine **offene Sitzung** für lokale Therapeuten. Die Resonanz war unmittelbar und herzlich – eine Teilnehmerin bemerkte: *„Es war das erste Mal seit langem, dass ich wirklich Spaß hatte.“*
+
+---
+
+## **Projektziele**
+ Die Hauptziele der Workshops waren:
+
+* **Rehabilitative Erfahrungen** durch **Bewegung und Koordination** anzubieten
+* **Freudvolle, bedeutungsvolle Interaktionen** zwischen Kindern und ihren Betreuungspersonen zu schaffen
+* **Funktionales Jonglieren** durch **Demonstration und Zusammenarbeit** in die lokale **therapeutische Praxis** zu integrieren
+
+---
+
+## **Ort und Werkzeuge**
+ Die Workshops fanden **drinnen** statt, mit zwei auf Tischen aufgebauten **Juggle Boards** und **freiem Raum** für Bewegungserkundungen.
+**Materialien umfassten**:
 
 * **Juggle Boards**
-* **Rings, juggling balls, and bags**
-* **Balloons**
-* **Hula hoops**
-* **Spinning plates**
-* **Flower sticks**
+* **Ringe, Jonglierbälle und -säcke**
+* **Luftballons**
+* **Hula-Hoops**
+* **Schwungteller**
+* **Flower Sticks**
 
-The space was arranged for **flexibility** - participants could **move freely** or stay close to their caregiver as needed. This allowed each child to **find their own rhythm** and **level of engagement**.
-
----
-
-## **Workshop Process**  
- The program ran for **six months**, with **biweekly 1-hour sessions**. In retrospect, one hour proved a bit long - especially for children who arrived tired after a full day of school and therapy. Based on this, Miłosz now recommends **shorter 40-minute sessions** for children on the **autism spectrum**, to **avoid overstimulation** and **maintain focus**.
-
-In the first four months, sessions followed exercises learned in training with **Craig Quat** and **Jael Rodríguez** (Hula Hoop Integral). Activities included **juggle boards**, **rings**, and **collaborative tasks**. Once this foundation was in place, Miłosz introduced **customized games** and **themed variations**, such as **balloons** and playful improvisations based on the group’s energy and needs.
-
-A key element was the **active participation of caregivers**. Every session was designed as a **shared experience** - not only to support the children but also to **strengthen bonds** between parents and children through **play and co-regulation**.
+Der Raum wurde für **Flexibilität** gestaltet – die Teilnehmer konnten sich **frei bewegen** oder nach Bedarf in der Nähe ihrer Betreuungsperson bleiben. Dies ermöglichte es jedem Kind, **sein eigenes Tempo** und **seinen eigenen Grad der Beteiligung** zu finden.
 
 ---
 
-## **Organizational Dynamics**  
- Each group of **eight participants** (four children aged 7 to 14, plus four caregivers) was guided by **Miłosz as the sole facilitator**. While there were no additional assistants, the **deep involvement of parents** created a **co-supported learning environment**.
+## **Workshop-Ablauf**
+ Das Programm lief über **sechs Monate** mit **zweiwöchentlichen einstündigen Sitzungen**. Rückblickend erwies sich eine Stunde als etwas zu lang – besonders für Kinder, die nach einem vollen Schul- und Therapientag müde ankamen. Basierend darauf empfiehlt Miłosz nun **kürzere 40-minütige Sitzungen** für Kinder im **Autismus-Spektrum**, um **Überstimulation zu vermeiden** und den **Fokus aufrechtzuerhalten**.
 
-A beautiful and unexpected outcome was the **level of integration** that unfolded. Parents engaged with each other, with staff, and most importantly - with their children in **new and joyful ways**.
+In den ersten vier Monaten folgten die Sitzungen Übungen, die in der Ausbildung bei **Craig Quat** und **Jael Rodríguez** (Hula Hoop Integral) gelernt wurden. Zu den Aktivitäten gehörten **Jonglierbretter**, **Ringe** und **kollaborative Aufgaben**. Sobald diese Grundlage geschaffen war, führte Miłosz **individuell angepasste Spiele** und **thematische Variationen** ein, wie z. B. **Luftballons** und spielerische Improvisationen, die auf der Energie und den Bedürfnissen der Gruppe basierten.
 
-Even beyond the sessions, parents formed a **WhatsApp group**, remained in touch, and began attending **community events together**. Though modest in size, this network continues to **thrive organically**. The sense of **community-building** - so central to **contemporary circus culture** - took root naturally here.
-
----
-
-## **Unexpected Observations**  
- While the original plan was for **biweekly sessions**, occasional **longer pauses** between meetings actually proved helpful. Families used the breaks to **process and rest**, returning with **renewed energy**.
-
-Miłosz also received **inquiries from an inclusive kindergarten** and a **local library** interested in offering similar workshops. Most importantly, the experience gave him the **confidence to begin working with children under 7** - something he hadn’t considered before discovering **Functional Juggling**.
+Ein Schlüsselelement war die **aktive Beteiligung der Betreuungspersonen**. Jede Sitzung war als **gemeinsame Erfahrung** konzipiert – nicht nur zur Unterstützung der Kinder, sondern auch zur **Stärkung der Bindungen** zwischen Eltern und Kindern durch **Spiel und Co-Regulation**.
 
 ---
 
-## **Results and Reflections**  
- Parents shared **enthusiastic feedback**, noting visible improvements in:
+## **Organisatorische Dynamik**
+ Jede Gruppe von **acht Teilnehmern** (vier Kinder im Alter von 7 bis 14 Jahren plus vier Betreuungspersonen) wurde von **Miłosz als alleinigem Moderator** geleitet. Obwohl es keine zusätzlichen Assistenten gab, schuf die **tiefe Einbindung der Eltern** eine **gemeinsam unterstützte Lernumgebung**.
 
-* **Coordination** (especially use of the **non-dominant hand**)
-* **Physical engagement and motivation**
-* **Willingness to participate in movement-based play**
+Ein schönes und unerwartetes Ergebnis war das entstandene **Integrationsniveau**. Eltern engagierten sich miteinander, mit dem Personal und vor allem – mit ihren Kindern auf **neue und freudvolle Weise**.
 
-A conversation with the **President of the Autism Society** revealed a deeper insight: many children are **overburdened**. Their schedules are packed with **school, therapy, and appointments**, leaving little room for joy. The word “therapy” alone can feel heavy. What she valued most about **Functional Juggling** was that it felt like **“hidden therapy.”** The children didn’t feel like they were working - they were simply **“throwing things with the juggling guy.”** And yet, **real developmental outcomes** were happening.
-
-These included:
-* **Sensory integration**
-* **Social skill development**
-* **Physical coordination**
-* **Expressive movement and creative play**
-
-Miłosz believes the method also touches on **art therapy**, especially when **rhythm, drawing**, or **music** are added. As participants begin to **internalize the patterns**, **expression becomes intuitive**.
+Auch über die Sitzungen hinaus bildeten die Eltern eine **WhatsApp-Gruppe**, blieben in Kontakt und begannen, **gemeinsam an Gemeinschaftsveranstaltungen** teilzunehmen. Obwohl bescheiden in der Größe, gedeiht dieses Netzwerk weiterhin **organisch**. Der Sinn für **Gemeinschaftsbildung** – so zentral für die **zeitgenössische Zirkuskultur** – wurzelte hier auf natürliche Weise.
 
 ---
 
-## **Key Takeaways**
+## **Unerwartete Beobachtungen**
+ Obwohl der ursprüngliche Plan **zweiwöchentliche Sitzungen** vorsah, erwiesen sich gelegentliche **längere Pausen** zwischen den Treffen tatsächlich als hilfreich. Die Familien nutzten die Pausen, um zu **verarbeiten und sich auszuruhen**, und kehrten mit **neuer Energie** zurück.
 
-**Strong points**
-
-* **High adaptability** across age and cognitive needs
-
-* **Genuine caregiver–child bonding**
-
-* **Community engagement** beyond sessions
-
-* **Meaningful participation** without pressure
-
-**Lessons learned**
-
-* **Session length** must be tailored to avoid fatigue
-
-* **Scheduling and pacing** are critical for long-term inclusion
+Miłosz erhielt auch **Anfragen von einem inklusiven Kindergarten** und einer **örtlichen Bibliothek**, die ähnliche Workshops anbieten wollten. Am wichtigsten ist, dass ihm die Erfahrung das **Selbstvertrauen gab, mit Kindern unter 7 Jahren zu arbeiten** – etwas, das er vor der Entdeckung des **Funktionalen Jonglierens** nicht in Betracht gezogen hatte.
 
 ---
 
-## **Final Reflection**  
- After a year of applying the method, one truth stands out: **Functional Juggling is genuinely inclusive**. Its inherent **flexibility and responsiveness** allow for **deep personalization** - whether a participant is **highly active, non-verbal, easily overwhelmed**, or **slow to warm up**. With the right **rhythm and relationship**, everyone can find their own way to participate.
+## **Ergebnisse und Reflexionen**
+ Die Eltern teilten **begeistertes Feedback** und stellten sichtbare Verbesserungen fest in Bezug auf:
 
+* **Koordination** (insbesondere die Nutzung der **nicht-dominanten Hand**)
+* **Körperliche Beteiligung und Motivation**
+* **Bereitschaft zur Teilnahme an bewegungsbasiertem Spiel**
+
+Ein Gespräch mit der **Vorsitzenden der Autismus-Gesellschaft** enthüllte eine tiefere Einsicht: Viele Kinder sind **überlastet**. Ihre Zeitpläne sind voll mit **Schule, Therapie und Terminen**, was wenig Raum für Freude lässt. Allein das Wort „Therapie“ kann schwer wiegen. Was sie am **Funktionalen Jonglieren** am meisten schätzte, war, dass es sich wie **„versteckte Therapie“** anfühlte. Die Kinder hatten nicht das Gefühl, zu arbeiten – sie **„warfen einfach Dinge mit dem Jonglier-Typ“**. Und doch fanden **echte Entwicklungsergebnisse** statt.
+
+Dazu gehörten:
+* **Sensorische Integration**
+* **Entwicklung sozialer Fähigkeiten**
+* **Körperliche Koordination**
+* **Ausdrucksstarke Bewegung und kreatives Spiel**
+
+Miłosz glaubt, dass die Methode auch die **Kunsttherapie** berührt, besonders wenn **Rhythmus, Zeichnen** oder **Musik** hinzugefügt werden. Wenn die Teilnehmer beginnen, die **Muster zu verinnerlichen**, wird der **Ausdruck intuitiv**.
+
+---
+
+## **Wichtigste Erkenntnisse**
+
+**Stärken**
+
+* **Hohe Anpassungsfähigkeit** an Alter und kognitive Bedürfnisse
+
+* **Echte Bindung zwischen Betreuungsperson und Kind**
+
+* **Gemeinschaftliches Engagement** über die Sitzungen hinaus
+
+* **Sinnvolle Teilnahme** ohne Druck
+
+**Gelernte Lektionen**
+
+* **Die Dauer der Sitzungen** muss angepasst werden, um Ermüdung zu vermeiden
+
+* **Zeitplanung und Rhythmus** sind entscheidend für langfristige Inklusion
+
+---
+
+## **Abschließende Reflexion**
+ Nach einem Jahr der Anwendung der Methode steht eine Wahrheit im Vordergrund: **Funktionales Jonglieren ist wirklich inklusiv**. Seine inhärente **Flexibilität und Reaktionsfähigkeit** ermöglichen eine **tiefe Personalisierung** – sei es, dass ein Teilnehmer **sehr aktiv, nonverbal, leicht überfordert** oder **langsam auftauend** ist. Mit dem richtigen **Rhythmus und der richtigen Beziehung** kann jeder seinen eigenen Weg zur Teilnahme finden.

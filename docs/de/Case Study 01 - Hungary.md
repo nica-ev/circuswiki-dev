@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-01-hungary
 created: 2025-08-30 18:53:22
-update: 2025-08-31 20:32:34
+update: 2026-06-06 21:47:56
 publish: false
 tags:
   - case-study
@@ -12,71 +12,76 @@ authors:
   - Gallyas Veronika
 type: Artikel
 land: Hungary
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 01 - Hungary.md
+translation_source_hash: b7ae1b2bbc2fae2706eaa1c4e1d125d92eab0550863e2daeca026dd41cfe9274
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:29+00:00
 ---
-# **Supporting Wrist Fracture Rehabilitation with Functional Juggling Tools**
+# **Unterstützung der Rehabilitation von Handgelenksfrakturen mit funktionalen Jonglage-Werkzeugen**
 
-[Inspirál Circus Center](Inspirál%20Circus%20Center.md) - Budapest, Hungary**
-Written by Gallyas Veronika 
+[Inspirál Circus Center](Inspirál%20Circus%20Center.md) - Budapest, Ungarn**
+Geschrieben von Gallyas Veronika
 
-## **Introduction**  
- This case study explores the use of **Functional Juggling** to support the rehabilitation process of a **70-year-old woman** recovering from a **wrist fracture**. The work was carried out over a **three-month period** in Budapest, Hungary, as a collaboration between the patient and a juggling educator trained in adaptive circus arts. The aim was to use juggling-inspired tasks to increase mobility, reduce frustration, and create enjoyable, repetitive motion-based exercises that complemented physiotherapy goals.
+## **Einleitung**
+ Diese Fallstudie untersucht den Einsatz von **Funktionaler Jonglage** zur Unterstützung des Rehabilitationsprozesses einer **70-jährigen Frau** nach einer **Handgelenksfraktur**. Die Arbeit erstreckte sich über einen **dreimonatigen Zeitraum** in Budapest, Ungarn, und war eine Zusammenarbeit zwischen der Patientin und einem Jonglage-Pädagogen, der in adaptiven Zirkuskünsten ausgebildet war. Ziel war es, jonglage-inspirierte Aufgaben zu nutzen, um die Mobilität zu erhöhen, Frustrationen zu reduzieren und unterhaltsame, auf wiederholten Bewegungen basierende Übungen zu schaffen, die die physiotherapeutischen Ziele ergänzten.
 
 ---
 
-## **Background and Approach**  
- Wrist fractures, particularly of the **carpal bones**, are common in older adults due to falls. Recovery is often slow—**regaining fine motor control** can take **six months or more**. As a juggling educator with almost **30 years of experience** and formal circus training, I was intrigued by the challenge of adapting circus tools to support this kind of rehabilitation.
+## **Hintergrund und Ansatz**
+ Handgelenksfrakturen, insbesondere der **Karpalknochen**, sind bei älteren Erwachsenen aufgrund von Stürzen häufig. Die Genesung ist oft langsam – die **Wiedererlangung der Feinmotorik** kann **sechs Monate oder länger** dauern. Als Jonglage-Pädagoge mit fast **30 Jahren Erfahrung** und formaler Zirkusausbildung war ich fasziniert von der Herausforderung, Zirkuswerkzeuge zur Unterstützung dieser Art von Rehabilitation anzupassen.
 
-I began by reviewing the physiotherapist’s diagnosis and recommended exercises. My goal was to “dress” these tasks in **playful and engaging formats**—what I call “putting them in juggling clothes.” At the same time, I wanted to **introduce original movement sequences** drawn from my years of experience teaching Functional Juggling.
+Ich begann mit der Überprüfung der Diagnose und der empfohlenen Übungen des Physiotherapeuten. Mein Ziel war es, diese Aufgaben in **spielerische und ansprechende Formate zu kleiden** – was ich als „sie in Jonglage-Kleider stecken“ bezeichne. Gleichzeitig wollte ich **originelle Bewegungsabläufe** einführen, die aus meiner jahrelangen Erfahrung im Unterrichten von Funktionaler Jonglage stammen.
 
 ![hungary-2-4.jpg](../img/hungary-2-4.jpg)
 
 ---
 
-## **Methodology and Tools**  
- The work started while the client was **still wearing a cast**, using soft objects to encourage **gentle finger movements**. Later, we progressed to more complex tools and dynamic activities. I brought a **wide range of props** to each 1:1 session, selecting tools that could **stimulate wrist motion** without overloading it.
+## **Methodik und Werkzeuge**
+ Die Arbeit begann, als die Klientin **noch eine Schiene trug**, wobei weiche Objekte verwendet wurden, um **sanfte Fingerbewegungen** zu fördern. Später gingen wir zu komplexeren Werkzeugen und dynamischeren Aktivitäten über. Ich brachte zu jeder 1:1-Sitzung eine **breite Palette von Requisiten** mit und wählte Werkzeuge aus, die die **Handgelenksbewegung stimulieren** konnten, ohne sie zu überlasten.
 
-Key tools included:
+Zu den wichtigsten Werkzeugen gehörten:
 
-* **Soft balls**: rotating two balls in the palm stimulated **finger mobility**, both during and after the cast phase.
-* **Poi**: used for **multi-directional wrist movement** and micro-corrections in later stages of recovery.
-* **Juggle Board**: allowed for **open-state sequences** and adaptations like **rolling with palms facing upward** to stimulate wrist rotation.
-* **Floating stick**: ideal in the early phase due to limited mobility; it offered a **sense of success** and **gentle stimulation**.
+*   **Weiche Bälle**: Das Drehen von zwei Bällen in der Handfläche stimulierte die **Fingerbeweglichkeit**, sowohl während als auch nach der Gipsphase.
+*   **Poi**: Wurden in späteren Erholungsphasen für **mehrdimensionale Handgelenksbewegungen** und Mikrokosrekturen verwendet.
+*   **Jonglierbrett**: Ermöglichte **offene Sequenzen** und Anpassungen wie das **Rollen mit nach oben gerichteten Handflächen**, um die Handgelenksrotation zu stimulieren.
+*   **Schwebender Stock**: Ideal in der frühen Phase aufgrund der eingeschränkten Mobilität; er bot ein **Erfolgsgefühl** und eine **sanfte Stimulation**.
 
-All tools were left with the client between sessions to **encourage daily practice**.
+Alle Werkzeuge wurden zwischen den Sitzungen bei der Klientin gelassen, um **tägliches Üben zu fördern**.
 
 ![hungary-2-2.jpg](../img/hungary-2-2.jpg)
 
 ---
 
-## **Creative Strategies**  
- Inspired by **social circus methodologies**, I introduced a **mini-performance element**. Together we choreographed a piece titled **“Flea Circus”**, set to music, where two fingers portrayed elephants balancing on a ball. This playful framing **increased repetition**, sparked imagination, and made the practice more **emotionally rewarding**.
+## **Kreative Strategien**
+ Inspiriert von **Social-Circus-Methoden** führte ich ein **Mini-Performance-Element** ein. Gemeinsam choreografierten wir ein Stück mit dem Titel **„Flohzirkus“**, unterlegt mit Musik, bei dem zwei Finger Elefanten darstellten, die auf einem Ball balancierten. Dieser spielerische Rahmen **erhöhte die Wiederholung**, weckte die Fantasie und machte die Übung **emotional lohnender**.
 
-The sessions were hosted at the client’s home, though we recognized the value of the **Inspirál Circus Center’s group setting**, where community presence and varied stimuli can be highly motivating.
+Die Sitzungen fanden im Haus der Klientin statt, obwohl wir den Wert des **Gruppensettings des Inspirál Circus Centers** erkannten, wo die Präsenz der Gemeinschaft und vielfältige Reize sehr motivierend sein können.
 
 ---
 
-## **Key Observations**  
- Several factors contributed to the success of this process:
+## **Wichtige Beobachtungen**
+ Mehrere Faktoren trugen zum Erfolg dieses Prozesses bei:
 
-* The **therapeutic power of conversation**: being able to share frustrations and triumphs proved emotionally supportive.
-* **Bilateral engagement**: we worked with **both hands**, even though only one was injured. This created opportunities for comparison and **cross-lateral activation**.
-* **Video documentation** of sessions boosted motivation by visibly tracking progress.
-* The juggling tasks helped **identify and undo compensatory movement patterns**, such as initiating wrist motions from the shoulder instead of the forearm.
-* The **poi tool** initially caused frustration—its difficulty and occasional contact with the body challenged the client. We adapted by switching to a poi with **finger loops** for better control.
+*   Die **therapeutische Kraft des Gesprächs**: Die Möglichkeit, Frustrationen und Triumphe zu teilen, erwies sich als emotional unterstützend.
+*   **Bilaterales Engagement**: Wir arbeiteten mit **beiden Händen**, auch wenn nur eine verletzt war. Dies schuf Möglichkeiten für Vergleiche und **kreuzlaterale Aktivierung**.
+*   Die **Videoaufzeichnung** der Sitzungen steigerte die Motivation, indem sie den Fortschritt sichtbar machte.
+*   Die Jonglage-Aufgaben halfen, **kompensatorische Bewegungsmuster zu identifizieren und aufzulösen**, wie z. B. die Initiierung von Handgelenksbewegungen von der Schulter statt vom Unterarm aus.
+*   Das **Poi-Werkzeug** verursachte anfangs Frustration – seine Schwierigkeit und gelegentlicher Körperkontakt forderten die Klientin heraus. Wir passten uns an, indem wir zu einem Poi mit **Finger Schlaufen** für bessere Kontrolle wechselten.
 
 ![hungary-2-3.jpg](../img/hungary-2-3.jpg)
 
 ---
 
-## **Challenges and Reflections**  
- One major challenge was my **limited anatomical knowledge**—while I could design effective movement sequences, I lacked a full understanding of the **complex musculoskeletal architecture** of the wrist. This at times made me feel uncertain.
+## **Herausforderungen und Reflexionen**
+ Eine große Herausforderung war mein **begrenztes anatomisches Wissen** – obwohl ich effektive Bewegungsabläufe entwerfen konnte, fehlte mir ein vollständiges Verständnis der **komplexen muskuloskelettalen Architektur** des Handgelenks. Dies gab mir manchmal ein unsicheres Gefühl.
 
-For the client, the biggest challenge was **not performing the tasks well**. Yet the sense of joy and purpose she felt through **ball manipulation**—where success was tangible—offered a powerful **emotional counterbalance**.
+Für die Klientin war die größte Herausforderung, **die Aufgaben nicht gut auszuführen**. Doch das Gefühl der Freude und des Sinns, das sie durch die **Ballmanipulation** empfand – bei der Erfolg greifbar war –, bot einen starken **emotionalen Ausgleich**.
 
-An important element of our process was exploring the **personal significance of injury**. We discussed how the fracture might symbolically reflect **boundaries, pace, or life redirection**. This brought **meaningful depth** to our work beyond physical recovery.
+Ein wichtiger Bestandteil unseres Prozesses war die Erforschung der **persönlichen Bedeutung von Verletzungen**. Wir diskutierten, wie die Fraktur symbolisch **Grenzen, Tempo oder eine Neuausrichtung des Lebens** widerspiegeln könnte. Dies brachte **sinnvolle Tiefe** in unsere Arbeit, die über die körperliche Genesung hinausging.
 
 ---
 
-## **Conclusion**  
- This collaboration demonstrates how **Functional Juggling** can effectively support rehabilitation in a **flexible, adaptive, and emotionally resonant** way. It’s not a substitute for clinical care, but a **vital complement**—inviting joy, story, and play into the healing process. The client now continues her progress **independently** with her own poi and soft balls, having discovered new motivation and creative tools for self-care.
-
+## **Schlussfolgerung**
+ Diese Zusammenarbeit zeigt, wie **Funktionale Jonglage** die Rehabilitation auf eine **flexible, adaptive und emotional resonante** Weise effektiv unterstützen kann. Sie ist kein Ersatz für klinische Versorgung, sondern eine **lebenswichtige Ergänzung** – die Freude, Geschichten und Spiel in den Heilungsprozess einlädt. Die Klientin setzt ihren Fortschritt nun **selbstständig** mit ihren eigenen Poi und weichen Bällen fort, nachdem sie neue Motivation und kreative Werkzeuge zur Selbstfürsorge entdeckt hat.

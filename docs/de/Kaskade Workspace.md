@@ -11,6 +11,8 @@ title: Transkripte des Kaskade Magazines
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 >[!info]- Einleitung
 >Ich bin mit der Kaskade aufgewachsen. Bevor es Youtube gab, bevor wir im Internet alles finden konnten - war dieses Magazin eines der ersten regelmäßigen Informationen die ich zum Thema Jonglieren, Zirkus, Shows in die Finger bekam.
@@ -51,11 +53,11 @@ authors:
 
 <!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 <!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-- [Kaskade 001](docs/Kaskade 001.md)
-- [Kaskade 002](docs/Kaskade 002.md)
-- [Kaskade 003](docs/Kaskade 003.md)
-- [Kaskade 005](docs/Kaskade 005.md)
-- [Kaskade 004](docs/Kaskade 004.md)
+- [Kaskade 002](docs/de/Kaskade 002.md)
+- [Kaskade 001](docs/de/Kaskade 001.md)
+- [Kaskade 003](docs/de/Kaskade 003.md)
+- [Kaskade 004](docs/de/Kaskade 004.md)
+- [Kaskade 005](docs/de/Kaskade 005.md)
 
 <!-- SerializedQuery END -->
 
@@ -66,14 +68,14 @@ authors:
 <!-- QueryToSerialize: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
 <!-- SerializedQuery: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
 
-| File                                                                           | authors                                           | type     | sub-type | source      |
-| ------------------------------------------------------------------------------ | ------------------------------------------------- | -------- | -------- | ----------- |
-| [Die Säulen-Seite](docs/Die Säulen-Seite.md)                                 | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
-| [Eine neue Zeitschrift für Europa](docs/Eine neue Zeitschrift für Europa.md) | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Artikel  | \-       | Kaskade 001 |
-| [Lächeln überwindet Schwerkraft](docs/Lächeln überwindet Schwerkraft.md)     | <ul><li>Toby Philpott</li></ul>                   | Artikel  | \-       | Kaskade 001 |
-| [Schummeln!](docs/Schummeln!.md)                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
-| [Schwerkraft - na und!](docs/Schwerkraft - na und!.md)                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
-| [Zirkus gesucht!](docs/Zirkus gesucht!.md)                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
+| File                                                                              | authors                                           | type     | sub-type | source      |
+| --------------------------------------------------------------------------------- | ------------------------------------------------- | -------- | -------- | ----------- |
+| [Die Säulen-Seite](docs/de/Die Säulen-Seite.md)                                 | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [Eine neue Zeitschrift für Europa](docs/de/Eine neue Zeitschrift für Europa.md) | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Artikel  | \-       | Kaskade 001 |
+| [Lächeln überwindet Schwerkraft](docs/de/Lächeln überwindet Schwerkraft.md)     | <ul><li>Toby Philpott</li></ul>                   | Artikel  | \-       | Kaskade 001 |
+| [Schummeln!](docs/de/Schummeln!.md)                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [Schwerkraft - na und!](docs/de/Schwerkraft - na und!.md)                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
+| [Zirkus gesucht!](docs/de/Zirkus gesucht!.md)                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
 
 <!-- SerializedQuery END -->
 

@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-13-latin-america
 created: 2025-08-30 21:24:58
-update: 2025-08-31 21:06:24
+update: 2026-06-06 21:49:31
 publish: false
 tags:
   - case-study
@@ -12,65 +12,70 @@ authors:
   - Jael Rodriguez
 type: Artikel
 land: Argentina
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 13 - Latin America.md
+translation_source_hash: 7e5930fd44b4d932bed5d32cef5d2c977ae87f06e055ea6ae54a0c2afbebd11a
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:39+00:00
 ---
-# Weaving Routines in Confinement – An Online Hula Hoop Workshop (2021)
+# Routinen im Lockdown weben – Ein Online-Hula-Hoop-Workshop (2021)
 
-Written by Jael Rodriguez, [Hula Hoop Integral](Hula%20Hoop%20Integral.md) fundator. 
+Verfasst von Jael Rodriguez, Gründer*in von [Hula Hoop Integral](Hula%20Hoop%20Integral.md).
 
-## Participant Profile
- This experience took place during the global lockdown of 2021\. The workshop was delivered online and aimed at a group of ten self-identified women between the ages of 20 and 46\. Some were independent practitioners, while others belonged to educational or artistic institutions. The common thread was the shared need to reconnect with movement, play, and creation in a time marked by isolation.
+## Teilnehmer*innenprofil
+ Diese Erfahrung fand während des globalen Lockdowns im Jahr 2021 statt. Der Workshop wurde online durchgeführt und richtete sich an eine Gruppe von zehn selbstidentifizierten Frauen im Alter von 20 bis 46 Jahren. Einige waren unabhängige Praktikerinnen, während andere zu Bildungs- oder Kunsteinrichtungen gehörten. Der gemeinsame Nenner war das Bedürfnis, sich in einer Zeit der Isolation wieder mit Bewegung, Spiel und Kreativität zu verbinden.
 
-## Context and Intent
- The classes were facilitated by Jael Rodríguez within the framework of the **Hula Hoop Integral** and **Functional Juggling** methodologies. At the time, these practices were already being shared and explored in different territories, and their adaptability to digital contexts was part of the learning process.
+## Kontext und Absicht
+ Die Kurse wurden von Jael Rodríguez im Rahmen der Methodologien **Hula Hoop Integral** und **Funktionelles Jonglieren** geleitet. Zu dieser Zeit wurden diese Praktiken bereits in verschiedenen Gebieten geteilt und erforscht, und ihre Anpassungsfähigkeit an digitale Kontexte war Teil des Lernprozesses.
 
-The intention was not only to learn new skills but to approach technical language through **body awareness**, **accessibility**, and **experimentation**. The process invited each participant to explore composition from a space of autonomy and collective sensitivity - reconnecting with the body through play during lockdown.
+Die Absicht war nicht nur, neue Fähigkeiten zu erlernen, sondern auch, sich der technischen Sprache durch **Körperbewusstsein**, **Zugänglichkeit** und **Experimentieren** zu nähern. Der Prozess lud jede*n Teilnehmer*in ein, Komposition aus einem Raum der Autonomie und kollektiven Sensibilität zu erforschen – und sich durch Spielen während des Lockdowns wieder mit dem Körper zu verbinden.
 
-## Objectives
+## Ziele
 
-* To offer playful and pedagogical tools for composing movement with hula hoops
-* To share the conceptual and practical foundations of Functional Juggling adapted for the digital context
-* To build a shared time and space for movement, imagination, and creation from home
+* Spielerische und pädagogische Werkzeuge für die Bewegungskomposition mit Hula Hoops anbieten
+* Die konzeptionellen und praktischen Grundlagen des Funktionellen Jonglierens, angepasst an den digitalen Kontext, teilen
+* Eine gemeinsame Zeit und einen Raum für Bewegung, Vorstellungskraft und Kreation von zu Hause aus schaffen
 
-## Structure and Tools
- Sessions were held via videoconference. The diversity of domestic spaces and internet conditions required a flexible approach and great creativity. Participants used the materials they had on hand: **hula hoops, balls, scarves, rings, socks, or fruit**.
+## Struktur und Werkzeuge
+ Die Sitzungen fanden per Videokonferenz statt. Die Vielfalt der häuslichen Räume und Internetbedingungen erforderte einen flexiblen Ansatz und große Kreativität. Die Teilnehmer*innen nutzten die Materialien, die sie zur Hand hatten: **Hula Hoops, Bälle, Tücher, Ringe, Socken oder Obst**.
 
-The virtual space itself became part of the process, with **pauses, improvisations, and adaptations** that enriched the dynamic. There was no assistant in the sessions, but ongoing support was offered via **group chat and email**. The group was closely accompanied in their processes, encouraging **peer exchange and feedback**.
+Der virtuelle Raum selbst wurde Teil des Prozesses, mit **Pausen, Improvisationen und Anpassungen**, die die Dynamik bereicherten. Es gab keine Assistent*innen in den Sitzungen, aber fortlaufende Unterstützung wurde über **Gruppenchat und E-Mail** angeboten. Die Gruppe wurde eng in ihren Prozessen begleitet, was den **Austausch und das Feedback untereinander förderte**.
 
-Each session followed a consistent structure:
-* Warm-up and regulation using breath, rhythm, and body mapping
-* Sensory and technical exploration with hula hoops and/or household objects
-* Creative task or compositional challenge
-* Group sharing and reflection (when bandwidth and time allowed)
+Jede Sitzung folgte einer konsistenten Struktur:
+* Aufwärmen und Regulieren durch Atem, Rhythmus und Körper-Mapping
+* Sensorische und technische Erkundung mit Hula Hoops und/oder Haushaltsgegenständen
+* Kreative Aufgabe oder Kompositionsherausforderung
+* Gruppenaustausch und Reflexion (wenn Bandbreite und Zeit es erlaubten)
 
-## Pedagogical Adaptations
- Some of the **Functional Juggling** principles adapted to the online and hula hoop format included:
+## Pädagogische Anpassungen
+ Einige der **Funktionellen Jonglierens**-Prinzipien, die an das Online- und Hula-Hoop-Format angepasst wurden, umfassten:
 
-* The **Five Step Learning Model**, beginning with three elements simultaneously rather than adding one by one
-* The replacement of toss juggling with **contact-based variations**, such as rolling or gliding across the body or floor
-* The **use of the floor** as a key platform for developing pattern consistency
-* The **design of spatial sequencing maps**, allowing participants to interact with fixed structures similar to the Juggle Board using multiple hoops instead of balls
-* Awareness of **camera framing** as part of composition, encouraging spatial perception and orientation
+* Das **Fünf-Schritte-Lernmodell**, das mit drei Elementen gleichzeitig beginnt, anstatt sie einzeln hinzuzufügen
+* Der Ersatz des Wurfjonglierens durch **kontaktbasierte Variationen**, wie Rollen oder Gleiten über den Körper oder den Boden
+* Die **Nutzung des Bodens** als zentrale Plattform für die Entwicklung von Musterkonsistenz
+* Das **Entwerfen von räumlichen Sequenzkarten**, die es den Teilnehmer*innen ermöglichten, mit festen Strukturen zu interagieren, ähnlich dem Juggle Board, jedoch mit mehreren Ringen anstelle von Bällen
+* Die Berücksichtigung des **Kamera-Framings** als Teil der Komposition, was die räumliche Wahrnehmung und Orientierung förderte
 
-## Outcomes and Impact
- The initial goal of facilitating an enjoyable and expressive learning space was achieved. Beyond that, several participants who had never used more than one or two objects at once reported breakthroughs with multi-object patterns. Many managed to replicate elements of the methodology in their own teaching or artistic practices.
+## Ergebnisse und Wirkung
+ Das ursprüngliche Ziel, einen unterhaltsamen und ausdrucksstarken Lernraum zu schaffen, wurde erreicht. Darüber hinaus berichteten mehrere Teilnehmer*innen, die nie mehr als ein oder zwei Objekte gleichzeitig benutzt hatten, von Durchbrüchen bei Mehr-Objekt-Mustern. Viele konnten Elemente der Methodik in ihre eigenen Lehr- oder künstlerischen Praktiken integrieren.
 
-The creative capacity of the group turned **limitations into possibilities**. This revealed not only the flexibility of Functional Juggling but also the richness of hula hoop as a **vehicle for inclusion and bodily composition**.
+Die kreative Kapazität der Gruppe verwandelte **Einschränkungen in Möglichkeiten**. Dies zeigte nicht nur die Flexibilität des Funktionellen Jonglierens, sondern auch den Reichtum des Hula Hoops als **Vehikel für Inklusion und körperliche Komposition**.
 
-Participants developed:
-* Increased capacity to explore **multi-object compositions**
-* A sense of connection and **collective creativity**, even in a virtual format
-* Confidence to integrate new approaches into their own educational or performative work
+Die Teilnehmer*innen entwickelten:
+* Eine erhöhte Fähigkeit zur Erkundung von **Mehr-Objekt-Kompositionen**
+* Ein Gefühl der Verbundenheit und **kollektiven Kreativität**, auch in einem virtuellen Format
+* Zuversicht, neue Ansätze in ihre eigene pädagogische oder performative Arbeit zu integrieren
 
-## Challenges and Creative Deviations
- Unstable internet connections, limited physical space, and improvisation with non-traditional objects were common. But these deviations, far from being a problem, **strengthened collective trust and flexibility**—turning each obstacle into part of the path.
+## Herausforderungen und kreative Abweichungen
+ Instabile Internetverbindungen, begrenzter physischer Raum und Improvisation mit nicht-traditionellen Objekten waren üblich. Aber diese Abweichungen waren weit davon entfernt, ein Problem zu sein; sie **stärkten das kollektive Vertrauen und die Flexibilität** – und verwandelten jedes Hindernis in einen Teil des Weges.
 
-Sometimes a lack of materials led to improvisation. A piece of fruit or a pillow could replace a hoop. A toddler interrupting class became an opportunity for laughter and group bonding. These moments of **relational presence and spontaneity** helped deepen the process.
+Manchmal führte ein Mangel an Materialien zu Improvisation. Ein Stück Obst oder ein Kissen konnte einen Reifen ersetzen. Ein Kleinkind, das die Klasse unterbrach, wurde zu einer Gelegenheit für Lachen und Gruppenzusammenhalt. Diese Momente **relationaler Präsenz und Spontaneität** halfen, den Prozess zu vertiefen.
 
-## Final Reflection
- One of the most meaningful aspects of this experience was the **possibility of building shared time**, where the body - even at a distance - became a bridge of connection. The screen was not just a limitation; it was also a stage for **mutual listening and observation**.
+## Abschließende Reflexion
+ Einer der bedeutsamsten Aspekte dieser Erfahrung war die **Möglichkeit, gemeinsame Zeit zu gestalten**, in der der Körper – auch aus der Ferne – eine Brücke der Verbindung wurde. Der Bildschirm war nicht nur eine Einschränkung; er war auch eine Bühne für **gegenseitiges Zuhören und Beobachten**.
 
-*“I never thought I could juggle with more than two hoops. Now not only do I do it—I teach it to my students.”*  
- — Participant feedback
+*„Ich hätte nie gedacht, dass ich mit mehr als zwei Reifen jonglieren könnte. Jetzt tue ich es nicht nur – ich bringe es meinen Schüler*innen bei.“*
+— Feedback einer Teilnehmerin
 
-This case study affirms the capacity of inclusive circus pedagogy to adapt to new formats while maintaining its core intention: to create **sensitive, joyful, and meaningful learning environments**, even under constraint.
-
+Diese Fallstudie bestätigt die Fähigkeit der inklusiven Zirkuspädagogik, sich an neue Formate anzupassen und gleichzeitig ihre Kernabsicht beizubehalten: **sensible, freudvolle und bedeutungsvolle Lernumgebungen** zu schaffen, selbst unter Einschränkungen.

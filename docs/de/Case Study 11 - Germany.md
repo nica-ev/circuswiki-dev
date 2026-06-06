@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-11-germany
 created: 2025-08-29 19:33:58
-update: 2025-08-31 20:25:22
+update: 2026-06-06 21:49:20
 publish: false
 tags:
   - case-study
@@ -12,58 +12,63 @@ authors:
   - Marc Bielert
 type: Artikel
 land: Germany
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 11 - Germany.md
+translation_source_hash: d8b3578aecc1b616c4633c620911949563c986b552b755458af28bfcac68f511
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:52:29+00:00
 ---
-# **An Adaptive Circus Pedagogy Workshop for Children with Special Needs**
-[NICA-EV](NICA-EV.md) - Halle, Germany
-*Written by Marc Bielert*
-## **Project Overview and Target Group**  
- This case study documents a five-day circus pedagogy workshop for a group of 10 children, aged 7–10 years, from a school for students with intellectual and physical disabilities, held in autumn 2024 in Halle, Germany. The participant group presented a wide spectrum of needs, from significant behavioral challenges to cerebral palsy. This diversity required a highly individualized and flexible pedagogical framework.
+# **Ein adaptiver Zirkuspädagogik-Workshop für Kinder mit besonderen Bedürfnissen**
+[NICA-EV](NICA-EV.md) - Halle, Deutschland
+*Geschrieben von Marc Bielert*
+## **Projektübersicht und Zielgruppe**
+Diese Fallstudie dokumentiert einen fünftägigen zirkuspädagogischen Workshop für eine Gruppe von 10 Kindern im Alter von 7–10 Jahren aus einer Schule für Kinder mit geistigen und körperlichen Behinderungen, der im Herbst 2024 in Halle (Deutschland) stattfand. Die Teilnehmergruppe wies ein breites Spektrum an Bedürfnissen auf, von erheblichen Verhaltensauffälligkeiten bis hin zu Zerebralparese. Diese Vielfalt erforderte einen hochgradig individualisierten und flexiblen pädagogischen Rahmen.
 
-The project was staffed to ensure a high level of support, with three professional trainers (from our society NICA e.V.), one volunteer, and 5–6 school personnel (teachers, integration assistants), resulting in a support ratio of nearly 1:1 (roughly 1:3 in regards to our team).
+Das Projekt war personell so ausgestattet, dass ein hohes Maß an Unterstützung gewährleistet war: drei professionelle Trainer (von unserem Verein NICA e.V.), ein Freiwilliger und 5–6 Schulpersonal (Lehrkräfte, Integrationshelfer), was zu einem Betreuungsverhältnis von fast 1:1 führte (ungefähr 1:3 in Bezug auf unser Team).
 
-## **Workshop Framework and Team Composition**  
- The workshop was conducted in a small circus tent on the school grounds, providing a dedicated and protected environment. The daily three-hour sessions were based on circus pedagogy, adapted for an inclusive setting.
+## **Workshop-Rahmen und Teamzusammensetzung**
+Der Workshop fand in einem kleinen Zirkuszelt auf dem Schulgelände statt und bot eine dedizierte und geschützte Umgebung. Die täglichen dreistündigen Einheiten basierten auf der Zirkuspädagogik, angepasst für ein inklusives Setting.
 
-The training team's qualifications included extensive professional experience in inclusive circus work (ranging from 4 to 15 years), with academic backgrounds in Educational Sciences and Social Pedagogy. A key structural element was the division of the team: **two trainers led group activities while one conducted individualized 10-minute sessions with each child daily**.
+Die Qualifikationen des Schulungsteams umfassten umfangreiche Berufserfahrung in der inklusiven Zirkusarbeit (von 4 bis 15 Jahren) mit akademischen Hintergründen in Erziehungswissenschaften und Sozialpädagogik. Ein zentrales Strukturelement war die Aufteilung des Teams: **Zwei Trainer leiteten Gruppenaktivitäten, während einer täglich 10-minütige Einzelgespräche mit jedem Kind führte.**
 
-## **Project Objectives**  
- The project was designed to achieve the following objectives:
+## **Projektziele**
+Das Projekt wurde mit folgenden Zielen konzipiert:
 
-* **Needs-Oriented Experience:** Provide novel movement experiences focused on positive engagement and enjoyment, rather than performance metrics.
-* **Accessibility:** Ensure all activities were accessible to every child, regardless of their specific disability.
-* **Efficacy Assessment:** Evaluate the potential for observable progress within a short, intensive timeframe of individualized training in a one-on-one session.
-* **Systematic Documentation:** Implement a standardized documentation process for individual sessions to track progress and ensure continuity between trainers.
-* **Methodological Feasibility:** Demonstrate the viability of integrating resource-intensive, one-on-one training within a group workshop structure and within tight financial constraints.
+*   **Bedarfsorientierte Erfahrung:** Vermittlung neuartiger Bewegungserfahrungen, die auf positive Beteiligung und Freude abzielen, anstatt auf Leistungsmetriken.
+*   **Zugänglichkeit:** Sicherstellen, dass alle Aktivitäten für jedes Kind zugänglich sind, unabhängig von seiner spezifischen Behinderung.
+*   **Wirksamkeitsbewertung:** Bewertung des Potenzials für beobachtbare Fortschritte innerhalb eines kurzen, intensiven Zeitraums individuellen Trainings in Einzelsitzungen.
+*   **Systematische Dokumentation:** Implementierung eines standardisierten Dokumentationsprozesses für Einzelsitzungen, um Fortschritte zu verfolgen und die Kontinuität zwischen den Trainern zu gewährleisten.
+*   **Methodische Machbarkeit:** Nachweis der Machbarkeit, ressourcenintensive Einzelarbeit in eine Gruppenworkshop-Struktur und innerhalb knapper finanzieller Rahmenbedingungen zu integrieren.
 ![Case-Study-Helen-Keller-1.jpg](../img/Case-Study-Helen-Keller-1.jpg){ align=left }
 
-## **Methodologies and Pedagogical Adaptation**  
- The workshop utilized established inclusive methods such as **Functional Juggling, Spin Poi, and Hula Hoop Integral**, as well as ideas also present in the **IN.ZIRQUE method**. A central part of our work involved adapting activities based on participant responses.
+## **Methoden und pädagogische Anpassung**
+Der Workshop nutzte etablierte inklusive Methoden wie **Funktionelles Jonglieren, Spin Poi und Hula Hoop Integral** sowie Ideen, die auch in der **IN.ZIRQUE-Methode** vorkommen. Ein zentraler Teil unserer Arbeit bestand darin, Aktivitäten basierend auf den Reaktionen der Teilnehmer anzupassen.
 
-A clear example of this process was the introduction of a **“Tic-Tac-Toe” running game**. Our initial design, which required strategic thinking and multi-step rule-following, proved to be a pedagogical misjudgment, as it was too cognitively demanding for the group. This prompted an immediate methodological shift. We **deconstructed the game into its core competencies: color recognition and spatial organization**, and introduced simpler sorting and pattern-making activities using the same or similar materials.
+Ein klares Beispiel für diesen Prozess war die Einführung eines **„Tic-Tac-Toe“-Laufspiels**. Unser ursprüngliches Design, das strategisches Denken und das Befolgen mehrstufiger Regeln erforderte, erwies sich als pädagogisches Fehlurteil, da es kognitiv zu anspruchsvoll für die Gruppe war. Dies führte zu einer sofortigen methodischen Umstellung. Wir **dekonstruierten das Spiel in seine Kernkompetenzen: Farberkennung und räumliche Organisation** und führten einfachere Sortier- und Musterbildungsaktivitäten mit denselben oder ähnlichen Materialien ein.
 
-After building these foundational skills in a playful context, we reintroduced the original game, which the children were then able to engage with successfully. **This incident highlighted the necessity of assessing and building prerequisite skills before introducing complex tasks.**
+Nachdem diese grundlegenden Fähigkeiten in einem spielerischen Kontext aufgebaut waren, führten wir das ursprüngliche Spiel erneut ein, mit dem die Kinder dann erfolgreich umgehen konnten. **Dieser Vorfall unterstrich die Notwendigkeit, Voraussetzungen zu bewerten und aufzubauen, bevor komplexe Aufgaben eingeführt werden.**
 
-## **Daily Schedule**  
- Each day started with a **group welcome and warm-up games** followed by concurrent **group activities** (acrobatics, balancing, etc.) and **individualized 10-minute training sessions**, as well as **shared breaks** to eat, drink and socialize. Each day ended with **cool-down and massage games**, and a **daily feedback round** to guide the next day's planning.
+## **Tagesablauf**
+Jeder Tag begann mit einer **gemeinsamen Begrüßung und Aufwärmspielen**, gefolgt von gleichzeitigen **Gruppenaktivitäten** (Akrobatik, Balancieren etc.) und **individuellen 10-minütigen Trainingseinheiten** sowie **gemeinsamen Pausen** zum Essen, Trinken und sozialen Austausch. Jeder Tag endete mit **Abkühl- und Massage-Spielen** und einer **täglichen Feedbackrunde**, um die Planung des nächsten Tages zu leiten.
 
-## **Project Outcomes**  
- **Participant Progression:** Observable progress was noted across the group. A significant outcome was observed with a **non-verbal child with cerebral palsy** who had previously shown minimal reaction to external stimuli. Through consistent, one-on-one work with a rolling ball, the child began to participate in a **reciprocal back-and-forth interaction** by the end of the week. This demonstrated the potential of targeted, patient intervention.
+## **Projektergebnisse**
+**Fortschritte der Teilnehmer:** In der gesamten Gruppe wurden beobachtbare Fortschritte festgestellt. Ein bedeutendes Ergebnis wurde bei einem **nonverbalen Kind mit Zerebralparese** beobachtet, das zuvor nur minimale Reaktionen auf äußere Reize gezeigt hatte. Durch konsequente Einzelarbeit mit einem Ball begann das Kind am Ende der Woche, an einer **wechselseitigen Hin- und Her-Interaktion** teilzunehmen. Dies zeigte das Potenzial gezielter, geduldiger Intervention.
 
-It is also worth noting that the progress for different children could be dependent on different trainers (some kids only opened up to female trainers, others only to male ones). This highlights that **it’s very beneficial to have a diverse group of trainers**, both in gender and other aspects.
+Es ist auch erwähnenswert, dass die Fortschritte verschiedener Kinder von verschiedenen Trainern abhängen konnten (manche Kinder öffneten sich nur weiblichen Trainern, andere nur männlichen). Dies unterstreicht, dass **eine vielfältige Gruppe von Trainern**, sowohl in Bezug auf das Geschlecht als auch auf andere Aspekte, **sehr vorteilhaft ist**.
 
-The project was characterized by a **high degree of operational fluidity**, largely attributable to extensive **pre-project planning**, including preparatory meetings with the school to understand the specific needs and potential challenges of the participants.
+Das Projekt zeichnete sich durch ein **hohes Maß an operativer Flexibilität** aus, was weitgehend auf eine umfassende **Vorbereitung des Projekts** zurückzuführen ist, einschließlich vorbereitender Treffen mit der Schule, um die spezifischen Bedürfnisse und potenziellen Herausforderungen der Teilnehmer zu verstehen.
 
 ![Case Study Helen Keller - 2.jpg](../img/Case-Study-Helen-Keller-2.jpg){ align=left }
 
-## **Key Learnings and Success Factors**  
- The project's effectiveness can be attributed to several factors:
+## **Wichtige Erkenntnisse und Erfolgsfaktoren**
+Die Wirksamkeit des Projekts lässt sich auf mehrere Faktoren zurückführen:
 
-* **The Value of Real-Time Adaptation:** The “Tic-Tac-Toe” example underscores that success was not contingent on a flawless initial plan, but on the team's ability to recognize a failing approach and restructure it based on direct observation of the children's needs.
+*   **Der Wert der Echtzeit-Anpassung:** Das Beispiel „Tic-Tac-Toe“ unterstreicht, dass der Erfolg nicht von einem fehlerfreien Anfangsplan abhing, sondern von der Fähigkeit des Teams, einen fehlschlagenden Ansatz zu erkennen und ihn basierend auf direkter Beobachtung der Bedürfnisse der Kinder umzustrukturieren.
 
-* **Structured Individualization:** The systematic documentation of 10-minute individual sessions proved highly effective. It provided concrete data for progress evaluation and allowed different trainers to work with the same child without loss of continuity.
+*   **Strukturierte Individualisierung:** Die systematische Dokumentation der 10-minütigen Einzelsitzungen erwies sich als äußerst effektiv. Sie lieferte konkrete Daten zur Fortschrittsbewertung und ermöglichte es verschiedenen Trainern, ohne Verlust der Kontinuität mit demselben Kind zu arbeiten.
 
-## **Conclusion**  
- The **high staff-to-participant ratio** and the **open collaboration** between our trainers and the school's staff created a **supportive and responsive environment** for all participants.
+## **Schlussfolgerung**
+Das **hohe Betreuungsverhältnis** und die **offene Zusammenarbeit** zwischen unseren Trainern und dem Schulpersonal schufen eine **unterstützende und reaktionsfähige Umgebung** für alle Teilnehmer.
 
-The project also illustrates the value of a **highly structured yet flexible pedagogical approach** in working with children with diverse and complex needs. The combination of **proactive planning, systematic individualization**, and the **willingness to adapt methodologies** in response to direct participant feedback were critical to the project's positive outcomes. It demonstrates that even within a short timeframe, **targeted and needs-oriented interventions** can facilitate **meaningful engagement and observable progress**.
-
+Das Projekt verdeutlicht auch den Wert eines **hochgradig strukturierten, aber dennoch flexiblen pädagogischen Ansatzes** im Umgang mit Kindern mit vielfältigen und komplexen Bedürfnissen. Die Kombination aus **proaktiver Planung, systematischer Individualisierung** und der **Bereitschaft, Methoden anzupassen**, als Reaktion auf direktes Feedback der Teilnehmer, war entscheidend für die positiven Ergebnisse des Projekts. Es zeigt, dass selbst in einem kurzen Zeitraum **gezielte und bedarfsorientierte Interventionen** **sinnvolle Beteiligung und beobachtbare Fortschritte** ermöglichen können.

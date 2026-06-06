@@ -10,6 +10,8 @@ title: Wie wird Beigoma gespielt
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 ![](../img/4691855_1005.jpg)
 

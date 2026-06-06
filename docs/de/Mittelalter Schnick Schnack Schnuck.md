@@ -19,6 +19,8 @@ source: unbekannt
 group-min: 6
 group-max: 20
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 # Mittelalter Schnick Schnack Schnuck
 

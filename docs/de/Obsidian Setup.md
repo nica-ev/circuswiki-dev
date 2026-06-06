@@ -5,10 +5,13 @@ publish: true
 tags: 
 title: Obsidian Setup
 created: 2025-01-23 01:38:52
-update: 2025-03-11 02:05:46
+update: 2026-06-06 21:43:04
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
+
 Obsidian is extremely customizable, wich can be an issue for newcomers.
 We provide a base-setup that can be used as is, including plugins and themes aswell as their finetuned settings.
 This is a base-setup and can be further tweaked to anyones personal preference.

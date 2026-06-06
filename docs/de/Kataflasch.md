@@ -19,6 +19,8 @@ Material: keines
 Spieldauer: "5"
 group-min: 10
 group-max: 99
+translation_status: original
+translation_source_lang: de
 ---
 # Kataflasch
 

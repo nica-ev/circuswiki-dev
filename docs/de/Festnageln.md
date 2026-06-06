@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 5
 group-max: 25
 todo: text inklusion
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > Ein Fangespiel für jede Gruppengröße, das Schnelligkeit und Ausdauer fördert, indem die Spieler versuchen, sich gegenseitig "festzunageln".

@@ -10,6 +10,8 @@ title: Translating PDF Documents Using Large Language Models
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Tutorial: Translating PDF Documents Using Large Language Models
 

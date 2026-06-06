@@ -10,6 +10,8 @@ title: Grundlagen Wurfjonglage - Kaskade
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Grundlagen Wurfjonglage - Kaskade
 

@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-06-greece
 created: 2025-08-29 21:05:48
-update: 2025-08-30 20:19:16
+update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
@@ -12,45 +12,51 @@ authors:
   - Eva Parlani
 type: Artikel
 land: Greece
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 06 - Greece.md
+translation_source_hash: 1ac37738b97cff774864829b5fc2a5f29ea44bba0cd44d9bd3f1b0af0964ff7a
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:56+00:00
 ---
-# **Feeling Safe: A Key for Autism**
+# **Sicherheit spüren: Ein Schlüssel für Autismus**
 
-[Monokyklo](Monokyklo.md) - Thessaloniki, Greece
-*Written by Eva Parlani*
+[Monokyklo](Monokyklo.md) - Thessaloniki, Griechenland
+*Geschrieben von Eva Parlani*
 
-## **The Beginning**  
+## **Der Anfang**
 
 ![monokyklo_colours_and_patterns.jpg|200](../img/monokyklo_colours_and_patterns.jpg)
-The **Monokyklo team** introduced methods of *Functional Juggling* in Thessaloniki, with the primary goal of making **circus arts accessible to people with disabilities**. The team was composed of trainers with backgrounds in circus arts and specific training in Functional Juggling, gained through participation in international seminars and facilitator courses.
+Das **Team von Monokyklo** führte in Thessaloniki Methoden des *Funktionalen Jonglierens* ein, mit dem Hauptziel, **Zirkuskünste für Menschen mit Behinderungen zugänglich zu machen**. Das Team bestand aus Trainer*innen mit Hintergründen in Zirkuskünsten und spezifischer Ausbildung im Funktionalen Jonglieren, die sie durch die Teilnahme an internationalen Seminaren und Trainer*innen-Kursen erworben hatten.
 
-The project, titled **“A Rolling Ball”**, was designed as an **integrated intervention** at various **Disability Daycare Centers (DDCs)** in Thessaloniki. It aimed to offer a **creative, inclusive space for expression** through the language of juggling and movement.
+Das Projekt mit dem Titel **„Ein rollender Ball“** wurde als **integrierte Intervention** in verschiedenen **Tagesförderstätten für Menschen mit Behinderungen (DDC)** in Thessaloniki konzipiert. Es zielte darauf ab, einen **kreativen, inklusiven Raum für Ausdruck** durch die Sprache des Jonglierens und der Bewegung zu bieten.
 
-As a facilitator with experience in circus workshops and having attended trainings in **Thessaloniki, Budapest, and Milan**, I entered the project with a **deep desire to make circus arts accessible to all**—free of exclusion or discrimination. My focus as team leader was on **strengthening group dynamics** and creating a **safe, supportive environment** in which participants could explore an unfamiliar activity with **confidence and comfort**.
+Als Facilitatorin mit Erfahrung in Zirkus-Workshops und nach Schulungen in **Thessaloniki, Budapest und Mailand** trat ich mit dem **tiefen Wunsch in das Projekt ein, Zirkuskünste für alle zugänglich zu machen** – frei von Ausgrenzung oder Diskriminierung. Mein Fokus als Teamleiterin lag auf der **Stärkung der Gruppendynamik** und der Schaffung einer **sicheren, unterstützenden Umgebung**, in der die Teilnehmenden eine ihnen unbekannte Aktivität mit **Zuversicht und Wohlbefinden** erkunden konnten.
 
-A key component of the project was that we **visited participants in their own environments**, bringing all necessary materials with us. This approach, which allowed individuals to remain in **familiar and protected spaces**, proved essential in facilitating their **early engagement and comfort** with the activities. It became clear that **respect for each participant’s rhythm and individuality**, along with **active collaboration with on-site educators**, contributed significantly to the project’s success.
+Ein wesentlicher Bestandteil des Projekts war, dass wir **die Teilnehmenden in ihrer eigenen Umgebung besuchten** und alle notwendigen Materialien mitbrachten. Dieser Ansatz, der es den Einzelnen ermöglichte, in **vertrauten und geschützten Räumen** zu bleiben, erwies sich als wesentlich für ihr **frühes Engagement und Wohlbefinden** bei den Aktivitäten. Es wurde deutlich, dass **Respekt für den Rhythmus und die Individualität jedes Teilnehmenden** sowie die **aktive Zusammenarbeit mit den dortigen Pädagog*innen** maßgeblich zum Erfolg des Projekts beitrugen.
 
 ---
-## **The Case of Nikolas**  
+## **Der Fall Nikolas**
 
-Among the many stories that emerged, **Nikolas** stood out.  Nikolas, around ten years old, is **on the autism spectrum**. He experiences **limited speech and expressive abilities** and typically **moves through space only with the support** of a special education teacher. He was particularly sensitive to **loud sounds** and **sudden movements**, which made him cautious and hesitant during our initial sessions.
+Unter den vielen Geschichten, die sich entwickelten, stach **Nikolas** heraus. Nikolas, etwa zehn Jahre alt, ist **autistisch**. Er hat **eingeschränkte Sprach- und Ausdrucksfähigkeiten** und bewegt sich normalerweise **nur mit Unterstützung** einer Sonderpädagogin durch den Raum. Er war besonders empfindlich gegenüber **lauten Geräuschen** und **plötzlichen Bewegungen**, was ihn in unseren ersten Sitzungen vorsichtig und zögerlich machte.
 
-During our **first two visits**, Nikolas remained at a distance. He **did not approach the props**, and although we addressed him with openness and care, he **did not respond to verbal interaction**. His **physical and emotional distance** remained steady.
+Während unserer **ersten beiden Besuche** blieb Nikolas auf Distanz. Er **näherte sich den Requisiten nicht**, und obwohl wir ihn offen und fürsorglich ansprachen, **reagierte er nicht auf verbale Interaktion**. Seine **physische und emotionale Distanz** blieb konstant.
 
-But something shifted during the **third session**. For the first time, **Nikolas picked up the juggling balls**, made **eye contact**, and **accepted our presence**. From that moment forward, a connection began to form. He started **welcoming us with trust**, helping to set up the space, **trying new combinations**, and **returning to the props independently**.
+Doch in der **dritten Sitzung** änderte sich etwas. Zum ersten Mal **hob Nikolas die Jonglierbälle auf**, **suchte Blickkontakt** und **akzeptierte unsere Anwesenheit**. Von diesem Moment an begann sich eine Verbindung zu entwickeln. Er begann, **uns mit Vertrauen zu begrüßen**, half beim Aufbau des Raumes, **probierte neue Kombinationen aus** und **kehrte selbstständig zu den Requisiten zurück**.
 
-I believe we were able to offer Nikolas a **non-threatening environment**—a space where he could **experiment, create, try, and even fail** without fear of judgment. It was a **safe space for self-expression** and discovery, where his process could unfold at **his own pace**.
+Ich glaube, wir konnten Nikolas eine **nicht bedrohliche Umgebung** bieten – einen Raum, in dem er **experimentieren, kreieren, ausprobieren und sogar scheitern** konnte, ohne Angst vor Verurteilung. Es war ein **sicherer Raum für Selbstdarstellung** und Entdeckung, in dem sich sein Prozess **in seinem eigenen Tempo** entfalten konnte.
 
-From that point on, Nikolas **never missed a session**. He **remembered the combinations** we practiced, **tried new ones with enthusiasm**, and increasingly showed **independence** in his exploration. Over time, he **reduced reliance on his support teacher**, and in a powerful moment of connection, began to **share personal information** with us—an act that signified deep trust.
+Von da an **verpasste Nikolas keine einzige Sitzung** mehr. Er **erinnerte sich an die geübten Kombinationen**, **probierte begeistert neue aus** und zeigte zunehmend **Eigenständigkeit** bei seiner Erkundung. Mit der Zeit **reduzierte er seine Abhängigkeit von seiner unterstützenden Lehrkraft** und begann in einem kraftvollen Moment der Verbindung, uns **persönliche Informationen mitzuteilen** – eine Geste, die tiefes Vertrauen signalisierte.
 
-Through this process, we witnessed a clear **increase in Nikolas’s self-confidence**, **communication skills**, and **social openness**. His journey is just one example of the **transformative power of Functional Juggling**, both for **psycho-emotional growth** and **physical activation**.
+Durch diesen Prozess beobachteten wir eine deutliche **Steigerung von Nikolas' Selbstvertrauen**, seiner **Kommunikationsfähigkeiten** und seiner **sozialen Offenheit**. Seine Reise ist nur ein Beispiel für die **transformative Kraft des Funktionalen Jonglierens**, sowohl für das **psycho-emotionale Wachstum** als auch für die **körperliche Aktivierung**.
 
 ![monokyklo_feelingsafe_autism.jpg|400](../img/monokyklo_feelingsafe_autism.jpg){ align=left }
 
 ---
 
-## **Personal Reflection**  
-This experience has been **deeply transformative** for me—not just professionally, but personally. I was able to **apply a method I believe in**, and at the same time, witness how **circus can serve as a tool for inclusion, empowerment, and communication**.
+## **Persönliche Reflexion**
+Diese Erfahrung war für mich **zutiefst transformativ** – nicht nur beruflich, sondern auch persönlich. Ich konnte **eine Methode anwenden, an die ich glaube**, und gleichzeitig erleben, wie **Zirkus als Werkzeug für Inklusion, Ermächtigung und Kommunikation dienen kann**.
 
-Being in daily contact with participants—their **unique responses**, their **small or big victories**—reminded me of the **power in simplicity**: the simplicity of **movement**, of **play**, of **being present**.
+Der tägliche Kontakt mit den Teilnehmenden – ihre **einzigartigen Reaktionen**, ihre **kleinen oder großen Siege** – erinnerte mich an die **Kraft der Einfachheit**: die Einfachheit der **Bewegung**, des **Spiels**, des **Präsentseins**.
 
-This process **strengthened me as a trainer**, as a facilitator, and as a human being. It reaffirmed my belief that **art can be a bridge**—a tool for **access**, for **connection**, and for **solidarity**.
+Dieser Prozess **stärkte mich als Trainer*in**, als Facilitator*in und als Mensch. Er bekräftigte meinen Glauben daran, dass **Kunst eine Brücke sein kann** – ein Werkzeug für **Zugang**, für **Verbindung** und für **Solidarität**.

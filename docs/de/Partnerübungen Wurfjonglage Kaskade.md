@@ -10,6 +10,8 @@ title: Partnerübungen Wurfjonglage Kaskade
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Partnerübungen Wurfjonglage Kaskade
 

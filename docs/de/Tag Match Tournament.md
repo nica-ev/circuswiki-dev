@@ -11,6 +11,8 @@ title: Tag Match Tournament
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 Einführung in das Spiel "Tag Match Tournament
 Dieses Spiel ist genau das Richtige für eine Gruppe von Teilnehmern mit einem großen Erfahrungsunterschied. Indem Sie sich mit erfahrenen Spielern zusammentun, ist es für Anfänger weniger wahrscheinlich, besiegt zu werden. Vor allem, da Sie gemeinsam kämpfen, werden Sie viel glücklicher sein, wenn Sie gewinnen!

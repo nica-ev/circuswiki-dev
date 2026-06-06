@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-04-italy
 created: 2025-08-30 20:20:11
-update: 2025-08-31 20:37:42
+update: 2026-06-06 21:48:33
 publish: false
 tags:
   - case-study
@@ -12,112 +12,117 @@ authors:
   - Lapo Botteri
 type: Artikel
 land: Italy
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 04 - Italy.md
+translation_source_hash: 1ec7dfd6c668e0230c4b9c3b2c14785110b591aefab27e0a9decfe188e53d47d
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T19:51:48+00:00
 ---
-# **Rebuilding Grasp — Functional Juggling and Hand Rehabilitation in Florence, Italy**
+# **Rebuilding Grasp — Funktionelles Jonglieren und Handrehabilitation in Florenz, Italien**
 
 [SELF APS](SELF%20APS.md)
-**Disabled Day Centre – Trezzo sull'Adda, Italy**  
- **Written by** Lapo Botteri  
- **Delivered by** Circo Tascabile at the C.T.E. center in Cinque Vie, Florence
+**Tageszentrum für Menschen mit Behinderungen – Trezzo sull'Adda, Italien**
+**Verfasst von** Lapo Botteri
+**Durchgeführt von** Circo Tascabile im C.T.E.-Zentrum in Cinque Vie, Florenz
 
 ---
 
-## **Target**  
- This project focused on **adults with severe motor disabilities**, particularly individuals with **impaired hand gripping ability**. The participants—six residents of the C.T.E. center in Cinque Vie, Florence—were all **wheelchair users**, each presenting **complex physical challenges** but maintaining **medium-to-high cognitive functioning**. The initiative was developed in close collaboration with the facility’s physiotherapists, with the goal of **supporting rehabilitation efforts through playful, curiosity-driven activities** that promote **neuro-motor adaptation**.
+## **Zielgruppe**
+Dieses Projekt konzentrierte sich auf **Erwachsene mit schweren motorischen Behinderungen**, insbesondere auf Personen mit **eingeschränkter Greiffähigkeit der Hände**. Die Teilnehmer – sechs Bewohner des C.T.E.-Zentrums in Cinque Vie, Florenz – waren alle **Rollstuhlfahrer** und wiesen jeweils **komplexe körperliche Herausforderungen** auf, behielten aber eine **mittlere bis hohe kognitive Funktion** bei. Die Initiative wurde in enger Zusammenarbeit mit den Physiotherapeuten der Einrichtung entwickelt, mit dem Ziel, **Rehabilitationsbemühungen durch spielerische, neugiergetriebene Aktivitäten zu unterstützen**, die die **neuro-motorische Anpassung** fördern.
 
 ---
 
-## **Beginning Situation**  
- My name is **Lapo Botteri**, and I hold a degree in Physical Education with additional certification as a sports teacher. I first encountered **Functional Juggling** in 2016 through a workshop with **Craig Quat**. The experience **shifted my professional trajectory**. Within weeks, I approached a local therapy center and began integrating the methodology into my practice. I’ve remained with the same organization ever since, now working **13 hours per week** and developing **long-term, individualized programs**.
+## **Ausgangssituation**
+Mein Name ist **Lapo Botteri**, und ich habe einen Abschluss in Sportpädagogik mit zusätzlicher Zertifizierung als Sportlehrer. Ich kam 2016 durch einen Workshop mit **Craig Quat** zum ersten Mal mit **Funktionellem Jonglieren** in Berührung. Diese Erfahrung **veränderte meinen beruflichen Werdegang**. Innerhalb weniger Wochen sprach ich ein lokales Therapiezentrum an und begann, die Methodik in meine Praxis zu integrieren. Seitdem arbeite ich bei derselben Organisation, biete nun **13 Stunden pro Woche** an und entwickle **langfristige, individuelle Programme**.
 
-The C.T.E. center serves individuals with **complex mobility limitations**, many of whom face additional challenges such as **spasticity**, **limited range of motion**, or **coordination impairments**. While physiotherapists focus on biomechanical rehabilitation, my role—through Functional Juggling—has been to engage **neuromotor programming** at the intersection of **play, precision, and movement intelligence**.
+Das C.T.E.-Zentrum betreut Menschen mit **komplexen Mobilitätseinschränkungen**, von denen viele zusätzliche Herausforderungen wie **Spastik**, **eingeschränkte Bewegungsfreiheit** oder **Koordinationsstörungen** haben. Während sich die Physiotherapeuten auf die biomechanische Rehabilitation konzentrieren, bestand meine Rolle – durch Funktionelles Jonglieren – darin, die **neuromotorische Programmierung** an der Schnittstelle von **Spiel, Präzision und Bewegungskompetenz** zu fördern.
 
 ![italy-7.jpg](../img/italy-7.jpg)
 
 ---
 
-## **Goals**  
- Each participant had a **personalized set of goals**, defined in collaboration with the center’s staff. The primary objective was to **support upper limb rehabilitation** through **sensory-motor exploration**. Secondary aims included:
+## **Ziele**
+Jeder Teilnehmer hatte einen **persönlichen Satz von Zielen**, der in Zusammenarbeit mit dem Personal des Zentrums definiert wurde. Das Hauptziel war die **Unterstützung der Rehabilitation der oberen Extremitäten** durch **sensorisch-motorische Erkundung**. Sekundäre Ziele waren:
 
-* **Enhancing grip strength and manual dexterity**
-* **Encouraging ambidextrous coordination**
-* **Improving attention span and cognitive-emotional engagement**
+*   **Verbesserung der Griffkraft und manuellen Geschicklichkeit**
+*   **Förderung der beidhändigen Koordination**
+*   **Steigerung der Aufmerksamkeitsspanne und des kognitiv-emotionalen Engagements**
 
 ---
 
-## **Setting and Tools**  
- **Working Space**  
- Sessions were held in the center’s **small gym**, a quiet, adaptable space well suited for **sensory-focused activities**. Each participant engaged in a **15-minute one-on-one session**, once per week, from October to May.
+## **Rahmenbedingungen und Werkzeuge**
+**Arbeitsbereich**
+Die Sitzungen fanden im **kleinen Gymnastikraum** des Zentrums statt, einem ruhigen, anpassungsfähigen Raum, der sich gut für **sensorisch fokussierte Aktivitäten** eignete. Jeder Teilnehmer nahm einmal pro Woche von Oktober bis Mai an einer **15-minütigen Einzelstunde** teil.
 
-**Working Tools**  
- Materials were selected according to each participant’s abilities and goals. These included:
+**Arbeitsmaterialien**
+Die Materialien wurden entsprechend den Fähigkeiten und Zielen jedes Teilnehmers ausgewählt. Dazu gehörten:
 
-* **Juggle Board**
-* **Juggling rings**
-* **Stress balls**
-* **Finger puppets**
-* **Rain sticks**
-* **Animal squeakers**
-* **Flashcups**
-* **Household objects** (cutlery, brushes, bottles)
-* **Sensory props** tailored to specific grip types
+*   Juggle Board
+*   Jonglierringe
+*   Stressbälle
+*   Fingerpuppen
+*   Regenstäbe
+*   Tier-Quietschspielzeuge
+*   Flashcups
+*   Haushaltsgegenstände (Besteck, Bürsten, Flaschen)
+*   Sensorische Hilfsmittel, die auf spezifische Griffarten zugeschnitten waren
 
 ![italy-6.jpg](../img/italy-6.jpg)
 
 ---
 
-## **Process**  
- The program unfolded weekly across **eight months**. Each session followed a structured flow, with content **adapted to each individual’s physical and emotional needs**.
+## **Ablauf**
+Das Programm erstreckte sich über **acht Monate** wöchentlich. Jede Sitzung folgte einem strukturierten Ablauf, wobei der Inhalt **an die individuellen physischen und emotionalen Bedürfnisse angepasst** wurde.
 
-**Preparatory Phase**  
- We began with **verbal check-ins and tactile activation**. Questions like “How are you today?” were paired with **gentle hand and arm massages** to increase **body awareness** and reduce tension.
+**Vorbereitungsphase**
+Wir begannen mit **verbalen Check-ins und taktiler Aktivierung**. Fragen wie „Wie geht es Ihnen heute?“ wurden mit **sanften Hand- und Armmassagen** kombiniert, um das **Körperbewusstsein** zu erhöhen und Verspannungen zu lösen.
 
-**Analytical Phase**  
- We explored **fine motor skills** and **targeted movement patterns** such as finger isolation, wrist rotation, and bilateral integration. The goal was to **refine precision and self-awareness** in movement.
+**Analysephase**
+Wir erkundeten **feinmotorische Fähigkeiten** und **gezielte Bewegungsmuster** wie Fingerisolation, Handgelenksrotation und bilaterale Integration. Ziel war es, die **Präzision und Selbstwahrnehmung** der Bewegung zu verfeinern.
 
-**Global Phase**  
- Refined elements were combined into **integrated tasks**, such as **controlling ball movement on the Juggle Board** or **exchanging juggling rings rhythmically**. These tasks emphasized **functional flow, coordination**, and **movement confidence**.
+**Globale Phase**
+Verfeinerte Elemente wurden zu **integrierten Aufgaben** zusammengefügt, wie z. B. die **Kontrolle der Ballbewegung auf dem Juggle Board** oder das **rhythmische Austauschen von Jonglierringen**. Diese Aufgaben betonten den **funktionalen Fluss, die Koordination** und das **Bewusstseins für Bewegung**.
 
 ---
 
-## **Organization Process**  
- Two interdisciplinary teams provided essential input throughout the program:
+## **Organisatorischer Prozess**
+Zwei interdisziplinäre Teams lieferten während des gesamten Programms wichtige Impulse:
 
-**Educators**  
- They offered background on each user’s **daily behavior, emotional profile**, and **learning preferences**, helping to **adjust session pacing and tone**.
+**Pädagogen**
+Sie lieferten Hintergrundinformationen über das **tägliche Verhalten, das emotionale Profil** und die **Lernpräferenzen** jedes Teilnehmers und halfen so, **das Tempo und den Ton der Sitzungen anzupassen**.
 
-**Physiotherapists**  
- They ensured **technical safety**, advising on posture, muscular limitations, and safe movement ranges. Their guidance allowed for **creative exploration within a safe biomechanical frame**.
+**Physiotherapeuten**
+Sie stellten die **technische Sicherheit** sicher und berieten zu Haltung, muskulären Einschränkungen und sicheren Bewegungsumfängen. Ihre Anleitung ermöglichte **kreative Erkundungen innerhalb eines sicheren biomechanischen Rahmens**.
 
-While we encountered no major obstacles, we did observe **unexpectedly high levels of engagement and improvement**, surpassing initial expectations.
+Obwohl wir keine größeren Hindernisse feststellten, beobachteten wir **unerwartet hohe Beteiligungs- und Verbesserungsgrade**, die die anfänglichen Erwartungen übertrafen.
 
 ![italy-5.jpg](../img/italy-5.jpg)
 
 ---
 
-## **Output**  
-Though **no formal metrics** were used, feedback was collected from across the team:
+## **Ergebnisse**
+Obwohl **keine formellen Metriken** verwendet wurden, wurde Feedback vom gesamten Team gesammelt:
 
-**Physiotherapists**  
- Reported **no measurable biomechanical changes**, but recognized that the work **complemented their sessions meaningfully**.
+**Physiotherapeuten**
+Berichteten über **keine messbaren biomechanischen Veränderungen**, erkannten jedoch an, dass die Arbeit ihre Sitzungen **sinnvoll ergänzte**.
 
-**Educators**  
- Observed **notable improvements in attention, behavioral regulation**, and **hand coordination**. Participants began **using both hands more naturally** and showed progress in handling tools like **pens, cups, and utensils**.
+**Pädagogen**
+Beobachteten **bemerkenswerte Verbesserungen in Bezug auf Aufmerksamkeit, Verhaltensregulation** und **Handkoordination**. Die Teilnehmer begannen, **beide Hände natürlicher zu benutzen** und zeigten Fortschritte im Umgang mit Werkzeugen wie **Stiften, Tassen und Utensilien**.
 
-**Music Therapist**  
- Saw **enhanced control and intention** while participants used musical instruments, particularly when **striking mallets on xylophones**.
+**Musiktherapeutin**
+Sah eine **verbesserte Kontrolle und Intention** bei der Benutzung von Musikinstrumenten durch die Teilnehmer, insbesondere beim **Anschlagen von Schlägeln auf Xylophonen**.
 
-**Speech Therapist**  
- Noted **improved focus** and greater ease in operating **manual communication devices**.
+**Logopädin**
+Notierte eine **verbesserte Konzentration** und eine größere Leichtigkeit im Umgang mit **manuellen Kommunikationsgeräten**.
 
 ---
 
-## **Conclusions and Reflections**  
- Two central questions emerged:
+## **Schlussfolgerungen und Reflexionen**
+Zwei zentrale Fragen ergaben sich:
 
-**First**: Why did the **physiotherapists observe less change** than other team members? Their clinical lens is crucial, yet it may **overlook the subtle functional gains** made through embodied play.
+**Erstens**: Warum beobachteten die **Physiotherapeuten weniger Veränderungen** als andere Teammitglieder? Ihre klinische Perspektive ist entscheidend, aber sie übersieht möglicherweise die **subtilen funktionellen Gewinne**, die durch verkörpertes Spiel erzielt werden.
 
-**Second**: How can we better document this type of change? In future projects, we hope to implement **baseline assessments and post-session comparisons**, using tools like **video analysis or motion sensors**, to more clearly track outcomes.
+**Zweitens**: Wie können wir diese Art von Veränderungen besser dokumentieren? In zukünftigen Projekten hoffen wir, **Baseline-Bewertungen und Vergleiche nach den Sitzungen** zu implementieren, unter Verwendung von Werkzeugen wie **Videoanalyse oder Bewegungssensoren**, um die Ergebnisse klarer zu verfolgen.
 
-**Functional Juggling may not yield instant results.** But it **creates space for small miracles**—like holding a spoon, gripping a pencil, or striking a mallet with **renewed purpose and joy**.
-
+**Funktionelles Jonglieren mag keine sofortigen Ergebnisse liefern.** Aber es **schafft Raum für kleine Wunder** – wie das Halten eines Löffels, das Greifen eines Bleistifts oder das Anschlagen eines Schlägels mit **erneuertem Sinn und Freude**.

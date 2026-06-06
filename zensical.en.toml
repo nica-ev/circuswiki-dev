@@ -6,16 +6,22 @@ site_description = "A wiki dedicated to circus pedagogy, circus arts, education,
 copyright = "CC BY-SA 4.0"
 docs_dir = ".build/en"
 site_dir = "site/en"
-extra_javascript = ["javascripts/language-switcher.js"]
+extra_javascript = ["javascripts/language-switcher.js", "javascripts/translation-status.js"]
 
 nav = [
   { "Home" = "index.md" },
+  { "NICA e.V." = "Dokumentation Nica eV.md" },
+  { "Movement Games" = "Bewegungs-Spiele.md" },
+  { "List of All Games" = "Liste aller Spiele.md" },
+  { "Erasmus+ Project" = "Lets-talk-about-inclusive-circus-practice.md" },
+  { "Get Involved" = "mitmachen.md" },
 ]
 
 [project.extra]
 alternate = [
   { name = "Deutsch", link = "/circuswiki/", lang = "de" },
   { name = "English", link = "/circuswiki/en/", lang = "en" },
+  { name = "Polski", link = "/circuswiki/pl/", lang = "pl" },
 ]
 
 [project.theme]

@@ -11,6 +11,8 @@ title: Merkmale der Bewegungsspiele
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Merkmale der Bewegungsspiele
 ## Definition

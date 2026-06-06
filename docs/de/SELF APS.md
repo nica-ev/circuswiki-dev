@@ -14,6 +14,8 @@ authors:
 facebook: Self APS
 instagram: selfapsitalia
 land: Italy
+translation_status: original
+translation_source_lang: de
 ---
 # SELF APS
 is the Italian association that promotes Functional Juggling, making it inclusive, adaptive, and accessible to all. With specific activities based on play and interaction, it promotes psychophysical well-being, coordination, body awareness, and relationships, engaging people of all ages and abilities.  

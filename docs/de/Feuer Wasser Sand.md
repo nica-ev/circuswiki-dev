@@ -13,6 +13,8 @@ authors:
 category:
   - warm-up
   - bewegung
+translation_status: original
+translation_source_lang: de
 ---
 # Feuer Wasser Sand
 

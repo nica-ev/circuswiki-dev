@@ -6,7 +6,7 @@ site_description = "A wiki dedicated to circus pedagogy, circus arts, education,
 copyright = "CC BY-SA 4.0"
 docs_dir = ".build/de"
 site_dir = "site"
-extra_javascript = ["javascripts/language-switcher.js"]
+extra_javascript = ["javascripts/language-switcher.js", "javascripts/translation-status.js"]
 
 nav = [
   { "Home" = "index.md" },
@@ -21,6 +21,7 @@ nav = [
 alternate = [
   { name = "Deutsch", link = "/circuswiki/", lang = "de" },
   { name = "English", link = "/circuswiki/en/", lang = "en" },
+  { name = "Polski", link = "/circuswiki/pl/", lang = "pl" },
 ]
 
 [project.theme]

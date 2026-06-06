@@ -8,6 +8,8 @@ update: 2025-01-23 05:44:59
 authors:
   - Marc Bielert
 title: Digitale Infrastruktur
+translation_status: original
+translation_source_lang: de
 ---
 # Digitale Infrastruktur - Überblick
 

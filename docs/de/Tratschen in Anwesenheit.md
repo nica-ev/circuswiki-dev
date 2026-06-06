@@ -19,6 +19,8 @@ source:
   - unbekannt
 group-min: "3"
 group-max: "6"
+translation_status: original
+translation_source_lang: de
 ---
 # Tratschen in Anwesenheit
 

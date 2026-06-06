@@ -9,6 +9,8 @@ title: Workshop Thema Piraten
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Workshop Thema Piraten
 

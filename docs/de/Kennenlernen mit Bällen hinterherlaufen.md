@@ -20,6 +20,8 @@ source: unbekannt
 group-min: 5
 group-max: 25
 todo: Text überarbeiten, ähnlihche Notizen verlinken
+translation_status: original
+translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
 > "Kennenlernen mit Bällen, hinterherlaufen" ist eine dynamische Kennenlernübung, die Bewegung, Namenmerken und Augenkontakt kombiniert, um die Interaktion und das Gemeinschaftsgefühl zu fördern.

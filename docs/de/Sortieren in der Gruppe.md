@@ -13,6 +13,8 @@ authors:
 category:
   - Kooperation
   - kreisspiel
+translation_status: original
+translation_source_lang: de
 ---
 # Sortieren in der Gruppe
 

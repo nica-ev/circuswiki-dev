@@ -11,6 +11,8 @@ description: Transkript des Magazines "Kaskade 003" von 1984
 authors:
   - Marc Bielert
 type: Magazin
+translation_status: original
+translation_source_lang: de
 ---
 ## Jonglieren in China
 

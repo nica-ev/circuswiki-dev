@@ -19,6 +19,8 @@ Material: keines
 Spieldauer: 5 - 10
 group-min: 6
 group-max: 30
+translation_status: original
+translation_source_lang: de
 ---
 # Schildkröten umdrehen
 

@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 categories: 
   - development
+translation_status: original
+translation_source_lang: de
 ---
 # Taming Project Complexity - The Saga
 **Versioning the Dev Environment Without Polluting Your Main Repo**

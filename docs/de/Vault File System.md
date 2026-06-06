@@ -9,6 +9,8 @@ title: Vault File System
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 ```code
 /_attachments/        

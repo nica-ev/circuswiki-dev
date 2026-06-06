@@ -13,6 +13,8 @@ authors:
 category:
   - kreisspiel
   - cool-down
+translation_status: original
+translation_source_lang: de
 ---
 # Medusa
 

@@ -19,6 +19,8 @@ Material: Besenstiel
 Spieldauer: 5-10
 group-min: 8
 group-max: 20
+translation_status: original
+translation_source_lang: de
 ---
 # Ritter und Zwerge
 

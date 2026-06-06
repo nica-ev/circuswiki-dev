@@ -11,6 +11,8 @@ description: Transkript der Artikel der Kaskade 001 von 1984
 authors:
   - Marc Bielert
 type: Magazin
+translation_status: original
+translation_source_lang: de
 ---
 ## Eine neue Zeitschrift für Europas
 [Eine neue Zeitschrift für Europa](Eine%20neue%20Zeitschrift%20für%20Europa.md)

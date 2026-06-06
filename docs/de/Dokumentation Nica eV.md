@@ -10,6 +10,8 @@ title: Dokumentation Nica e.V.
 description: 
 authors:
   - Marc Bielert
+translation_status: original
+translation_source_lang: de
 ---
 # Dokumentation NICA e.V.
 

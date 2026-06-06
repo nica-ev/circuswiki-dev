@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 categories: 
   - development
+translation_status: original
+translation_source_lang: de
 ---
 # **Zettelkasten, Wiki, and Beyond**  
 **Why I started this project, the ideas behind it, and where it might lead.**

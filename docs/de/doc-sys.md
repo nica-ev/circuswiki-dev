@@ -8,6 +8,8 @@ update: 2025-01-24 03:19:38
 authors:
   - Marc Bielert
 title: Dokumentations-System
+translation_status: original
+translation_source_lang: de
 ---
 Wir nutzen MkDocs als System um unsere Prozesse, Vorgehensweisen und Abläufe zu dokumentieren und online zur Verfügung zu stellen.
 

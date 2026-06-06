@@ -12,6 +12,8 @@ authors:
   - Marc Bielert
 category:
   - kreisspiel
+translation_status: original
+translation_source_lang: de
 ---
 #  Verheiratet, Geschieden
 
