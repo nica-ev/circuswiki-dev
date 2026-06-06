@@ -1,0 +1,105 @@
+---
+lang: pl
+translation_id: obsidian-setup
+publish: true
+tags: 
+title: Obsidian Setup
+created: 2025-01-23 01:38:52
+update: 2026-06-06 21:43:04
+authors:
+  - Marc Bielert
+translation_status: machine-translated
+translation_source_lang: de
+translation_source: docs/de/Obsidian Setup.md
+translation_source_hash: 12599e90e70b1c7a59227815d654a7076285e589ef224bbe86222277b9b386e6
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T20:21:46+00:00
+---
+Obsidian jest niezwykle konfigurowalny, co może stanowić wyzwanie dla nowych użytkowników.
+Dostarczamy gotowy zestaw, który można od razu wykorzystać, zawierający wtyczki i motywy, a także ich dopracowane ustawienia.
+Jest to podstawowy zestaw, który można dalej dostosować do indywidualnych preferencji.
+Oferujemy gotowe rozwiązanie – które udokumentujemy i wyjaśnimy tutaj.
+
+## Używane terminy
+**Repozytorium (Vault)** – zbiór plików markdown i obrazów tworzących bazę wiedzy.
+
+## Wtyczki
+
+- Advanced Canvas
+- BRAT
+- Better Wordcount
+- Clear unused Images
+- Dataview
+- Dataview Serializer
+- Emoji Toolbar
+- Linter
+- Note Toolbar
+- Tag Wrangler
+- Templater
+- Beautitab
+- Omnisearch
+- Status Bar Organizer
+- Workspaces Plus
+- Sortable
+
+### Advanced Canvas
+Zapewnia dostęp do wielu nowych funkcji i opcji stylizacji dla Canvas.
+
+### BRAT
+Potrzebna do instalacji nieoficjalnych wtyczek / wtyczek niezarejestrowanych w ekosystemie Obsidiana, a mianowicie:
+- Dataview Serializer
+- Sortable
+
+### Better Word Count
+Głównie używana ze względu na możliwość wyświetlania liczby słów/znaków w zaznaczonym tekście.
+Widoczna na pasku stanu.
+
+### Beautitab
+Czysto kosmetyczna, zapewnia konfigurowalną stronę "pustej nowej karty".
+
+### Clear unused Images
+Jak sama nazwa wskazuje, pomaga w organizacji repozytorium poprzez identyfikację nieużywanych obrazów.
+
+❗Wykluczyłem podfolder ```/site/```, aby nie usuwać zawsze obrazów z zbudowanej strony internetowej (co nie jest problemem, a raczej irytacją).
+
+❗Zachowaj ostrożność podczas korzystania z polecenia czyszczenia załączników – spowoduje ono zawsze usunięcie ```mkdocs.yml``` oraz ```license.``` --> jeśli się to zdarzy, pliki znajdują się w folderze .trash i można je odzyskać. Ale łatwo je przeoczyć.
+
+### Dataview
+Umożliwia wykonywanie zapytań podobnych do SQL na repozytorium.
+
+### Dataview Serializer
+Konwertuje wyniki Dataview na markdown.
+Pomaga w ponownym wykorzystaniu wyników zapytań Dataview w rzeczywistych notatkach.
+
+### Emoji Toolbar
+Cóż, zapewnia łatwy dostęp do emotikonów.
+**Skrót ustawiony na: ALT-E**
+😍
+
+### Linter
+Czyści pliki markdown i dane frontmatter.
+Pomaga w utrzymaniu spójnej formy.
+
+### Note Toolbar
+Umożliwia tworzenie konfigurowalnych pasków narzędzi na górze notatki, które można zdefiniować na poziomie folderu/pliku.
+
+### Tag Wrangler
+Zapewnia dodatkowe opcje pracy z tagami.
+- Zmiana nazw tagów
+Pomaga w organizacji repozytorium.
+
+### Templater
+Pozwala na tworzenie niestandardowych szablonów, które można wstawiać ręcznie lub warunkowo (np. podczas tworzenia notatki).
+
+### Status Bar Organizer
+Pozwala na ukrywanie elementów na pasku stanu.
+
+### Sortable
+Umożliwia sortowanie tabel (zarówno markdown, jak i tabel Dataview) poprzez kliknięcie ich nagłówków.
+
+### Workspaces Plus
+Umożliwia łatwe szybkie przełączanie z paska stanu.
+
+## System plików repozytorium
+
+[System plików repozytorium](Vault%20File%20System.md){ .md-button }

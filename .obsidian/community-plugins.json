@@ -9,7 +9,6 @@
   "obsidian-emoji-toolbar",
   "note-toolbar",
   "omnisearch",
-  "beautitab",
   "statusbar-organizer",
   "workspaces-plus",
   "better-word-count",
@@ -18,5 +17,7 @@
   "obsidian-sortable",
   "recent-files-obsidian",
   "obsidian-vault-statistics-plugin",
-  "obsidian-siteswap"
+  "obsidian-siteswap",
+  "datacore",
+  "consistent-attachments-and-links"
 ]

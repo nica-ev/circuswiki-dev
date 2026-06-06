@@ -4,86 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d9d30bc2adbb4d62",
+        "id": "d39af3d55c4470e3",
         "type": "tabs",
         "children": [
           {
-            "id": "180400aef808a21a",
+            "id": "88cba2c339da1491",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_inbox/Presentation Wiki Project.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Presentation Wiki Project"
-            }
-          },
-          {
-            "id": "132897a8bad41180",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_inbox/CircusWiki - Technical Manual.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CircusWiki - Technical Manual"
-            }
-          },
-          {
-            "id": "5e3d77de6fb3b1a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "955262badc091cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Aufwärmspiele MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Aufwärmspiele MOC"
-            }
-          },
-          {
-            "id": "9e429d36a99a2ef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/doc-sys-2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "doc-sys-2"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dynamic  ",
+                "query": "technical ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,12 +80,11 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.5
   },
   "right": {
     "id": "6695d9278e344b32",
@@ -162,36 +95,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff2ff00355ab4cc5",
+            "id": "355acc6388e8621d",
             "type": "leaf",
             "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_inbox/Unbenannt 3.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Rückverweise für Unbenannt 3"
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "Dateieigenschaften"
             }
           },
           {
-            "id": "1d26c7fdc4eccc99",
+            "id": "ae24fe8dfe0bb79e",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "outline",
               "state": {
-                "file": "docs/Spiele zum Kennenlernen.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "docs/Lets talk about inclusive circus practice.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "links-going-out",
-              "title": "Ausgehende Links von Spiele zum Kennenlernen öffnen"
+              "icon": "lucide-list",
+              "title": "Gliederung von Lets talk about inclusive circus practice"
             }
           },
           {
@@ -210,18 +135,34 @@
             }
           },
           {
-            "id": "ae24fe8dfe0bb79e",
+            "id": "ff2ff00355ab4cc5",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "_inbox/CircusWiki - Technical Manual.md",
-                "followCursor": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
                 "showSearch": false,
-                "searchQuery": ""
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-list",
-              "title": "Gliederung von CircusWiki - Technical Manual"
+              "icon": "links-coming-in",
+              "title": "Rückverweise"
+            }
+          },
+          {
+            "id": "1d26c7fdc4eccc99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links"
             }
           },
           {
@@ -237,29 +178,18 @@
               "icon": "lucide-archive",
               "title": "Alle Eigenschaften"
             }
-          },
-          {
-            "id": "355acc6388e8621d",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {},
-              "icon": "lucide-info",
-              "title": "File properties"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 551.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Neue Base erstellen": false,
+      "graph:Graph-Ansicht öffnen": false,
       "switcher:Schnellauswahl öffnen": true,
-      "graph:Graphen-Ansicht öffnen": false,
       "canvas:Neuen Canvas erstellen": false,
       "command-palette:Befehlspalette öffnen": false,
       "workspaces:Workspace-Layouts verwalten": false,
@@ -269,54 +199,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5e3d77de6fb3b1a0",
+  "active": "88cba2c339da1491",
   "lastOpenFiles": [
-    "sync.ffs_lock",
-    "sync.ffs_db.a1d9.ffs_tmp",
-    "sync.ffs_db.9801.ffs_tmp",
-    "sync.ffs_db.857e.ffs_tmp",
-    "sync.ffs_db.9dd6.ffs_tmp",
-    "sync.ffs_db.f9e0.ffs_tmp",
-    "sync.ffs_db.679e.ffs_tmp",
-    "sync.ffs_db.d7ed.ffs_tmp",
-    "sync.ffs_db.f89c.ffs_tmp",
-    "sync.ffs_db.02ab.ffs_tmp",
-    "sync.ffs_db.ba1a.ffs_tmp",
-    "docs/Aufwärmspiele MOC.md",
-    "docs/index.md",
-    "docs/Taktik und Konzentrationsspiele.md",
-    "docs/Spiele zum Kennenlernen.md",
-    "docs/Spiele für Zwischendurch.md",
-    "docs/sitemap.md",
-    "docs/Schnelligkeit+Reaktionsspiele.md",
-    "docs/MOC Call & Response Spiele.md",
-    "docs/Liste aller Spiele.md",
-    "docs/Kreisspiele MOC.md",
-    "docs/Kooperationsspiele.md",
-    "docs/Klatschspiele MOC.md",
-    "docs/Kaskade Workspace.md",
-    "docs/Fangspiele.md",
-    "docs/Cooldown Spiele MOC.md",
-    "docs/Bewegungsspiele.md",
-    "docs/blog/posts/Games - The Data Side.md",
-    "docs/blog/posts/Taming Project Complexity.md",
-    "docs/blog/posts/Zettelkasten, Wiki, and Beyond.md",
-    "docs/Translating PDF Documents.md",
-    "_inbox/CircusWiki - Technical Manual.md",
-    "docs/img/Screenshot-Google-AiStudio-Translation.png",
-    "docs/img/Screenshot-Google-AiStudio-Transcription.png",
-    "docs/Kaskade 001.md",
-    "docs/img/nica-logo-simple-small-150x150.png",
-    "README.md",
-    "_inbox/Presentation Wiki Project.md",
-    "docs/Hallo ich bin - mit Bällen.md",
-    "docs/img/abhuva_Minimalist_illustration_of_an_open_doorway_leading_to_a__e24f29f5-9dfc-4b28-b25a-6c924b41290f.png",
-    "docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png",
-    "docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png",
-    "docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png",
-    "docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png",
-    "site/stylesheets/nica-background.jpg",
-    "site/assets/images/favicon.png",
+    "site/en/search.json",
+    "site/en/objects.inv",
+    "site/en/index.html",
+    "site/en/404.html",
+    "site/en/Ägyptisches Wurfspiel/index.html",
+    "site/en/Ägyptisches Wurfspiel",
+    "site/en/Zuzwinkern/index.html",
+    "site/en/Zuzwinkern",
+    "site/en/Zungenmörder/index.html",
+    "site/en/Zungenmörder",
+    "site/en/Zuckerwasserschießen/index.html",
+    "site/en/assets/images/favicon.png",
+    "site/en/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/en/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/en/img/poland-03.jpg",
+    "site/en/img/poland-02.jpg",
+    "site/en/img/poland-01.jpg",
+    "site/en/img/monokyklo_feelingsafe_autism.jpg",
+    "site/en/img/nica-logo-simple-small-150x150.png",
+    "site/en/img/nica-background.jpg",
+    "site/en/img/monokyklo_colours_and_patterns.jpg",
+    "docs/pl/Zuzwinkern.md",
+    "docs/pl/Zungenmörder.md",
+    "docs/pl/Zuckerwasserschießen.md",
+    "docs/pl/Zombieball.md",
+    "docs/pl/Zombie Hasche mit Namen.md",
+    "docs/pl/Zombie - Hasche.md",
+    "docs/pl/Zombie.md",
+    "docs/pl/Zirkusfangen.md",
+    "docs/pl/Zirkus gesucht!.md",
+    "docs/pl/Zip Zap.md",
+    "docs/pl/Zeithasche.md",
+    "docs/pl/Zeitbombe.md",
+    "docs/pl/Zah.md",
+    "docs/pl/Workshop Thema Piraten.md",
+    "docs/pl/Workflows Sprachmodelle.md",
+    "docs/pl/wordpress-pages.md",
+    "docs/pl/wordpress.md",
+    "docs/pl/Wie spielt man Beigoma.md",
+    "docs/pl/Whiskeymixer.md",
+    "docs/pl/Wenn ich König wär.md",
+    "docs/pl/Was tust Du da.md",
+    "docs/pl/Vorstellungsrunde - Werdegang - Symbolisch.md",
+    "docs/pl/Virus.md",
+    "docs/pl/Vierfarbenfangen.md",
+    "docs/pl/Verzeichniss Struktur Nextcloud.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

@@ -17,6 +17,7 @@
     <Filter>
         <Include>
             <Item>\docs\</Item>
+            <Item>\projects\</Item>
             <Item>readme.md</Item>
             <Item>mkdocs.yml</Item>
             <Item>requirements.txt</Item>

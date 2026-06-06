@@ -1,0 +1,55 @@
+---
+lang: pl
+translation_id: luftballon-hasche
+publish: true
+tags:
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-03-18 03:14:51
+title: Luftballon Hasche
+description: 
+authors:
+  - Marc Bielert
+category:
+  - fangen
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5 - 15
+source: unbekannt
+group-min: 6
+group-max: 25
+todo: text inklusion
+translation_status: machine-translated
+translation_source_lang: de
+translation_source: docs/de/Luftballon Hasche.md
+translation_source_hash: 3b41505ded74f92e197d6553a66ce6cc08ee773e44246257950e605798ea7058
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T20:21:04+00:00
+---
+# Balonowy łapacz
+
+> [!info] Krótki opis
+> „Balonowy łapacz” to dynamiczna gra w łapanie dla średnich grup, która łączy ruch i pracę zespołową, gdzie uczestnicy wcielają się w „balony” i nawzajem ratują się przed „pęknięciem”.
+
+**Wielkość grupy**: Średnia
+**Poziom trudności**: Średni
+**Materiały**: Brak
+**Czas trwania gry**: Ok. 5-15 minut
+
+## **Opis gry**:
+
+Gra w łapanie dla średnich grup.
+
+W zależności od wielkości grupy wybiera się jednego lub kilku łapaczy. Pozostali uczestnicy to „balony”.
+
+Gdy „balon” zostanie złapany/dotknięty, traci powietrze i powoli zapada się. Może zostać uratowany przez inne „balony”, które „napompują go” ponownie, zanim dotrze do ziemi. Odbywa się to poprzez wyraźny ruch pompowania lub dmuchanie. Proces ten powinien trwać kilka sekund. W tym czasie obie osoby są nietykalne i nie mogą zostać złapane.
+
+### **Dodatkowa zasada:**
+„Balon” może zostać „napompowany” maksymalnie 3 razy; po tym jest „zepsuty” i pozostaje na ziemi.
+Aby uczynić grę bardziej obrazową, można trzymać jedną rękę za plecami, udając zawór.
+
+Gra kończy się, gdy wszystkie „balony” „pękną”.
+
+## **Źródło**:
+
+Nieznane

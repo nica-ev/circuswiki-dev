@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Swaggeroo/obsidian-ai-image-analyzer",
     "alexandru-dinu/obsidian-sortable",
     "dsebastien/obsidian-dataview-serializer"
   ],

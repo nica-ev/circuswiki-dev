@@ -1,0 +1,128 @@
+---
+lang: pl
+translation_id: test
+created: 2025-01-19 04:14:36
+update: 2025-02-26 05:52:07
+translation_status: machine-translated
+translation_source_lang: de
+translation_source: docs/de/Test.md
+translation_source_hash: fadd60fc734390110758dd7830582055e4c673510ebd3be5fbf3d68911d0414c
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T20:24:25+00:00
+---
+# Siatki i karty
+
+<div class="grid" markdown>
+
+=== "Lista nieuporządkowana"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Lista uporządkowana"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+``` title="Karty zawartości"
+=== "Lista nieuporządkowana"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Lista uporządkowana"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+```
+
+</div>
+
+---
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Konfiguracja w 5 minut__
+
+    ---
+
+    Zainstaluj [mkdocs-material](#) za pomocą [pip](#) i zacznij działać w kilka minut
+
+    [:octicons-arrow-right-24: Rozpoczęcie pracy](#){  .md-button }
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __To tylko Markdown__
+
+    ---
+
+    Skup się na swojej treści i generuj responsywną, przeszukiwalną stronę statyczną
+
+    [:octicons-arrow-right-24: Dokumentacja](#){  .md-button }
+
+-   :material-format-font:{ .lg .middle } __Dopasowane do potrzeb__
+
+    ---
+
+    Zmień kolory, czcionki, język, ikony, logo i wiele więcej za pomocą kilku linii
+
+    [:octicons-arrow-right-24: Dostosowywanie](#){  .md-button }
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs jest licencjonowany na licencji MIT i dostępny na [GitHub]
+
+    [:octicons-arrow-right-24: Licencja](#){  .md-button }
+
+</div>
+
+# Adnotacje
+
+> [!INFO]- Tytuł
+> Adnotacja informacyjna z Obsidiana
+> inspirowana składnią z dokumentacji Microsoft
+
+> [!INFO] Tytuł
+> Adnotacja informacyjna z Obsidiana
+> inspirowana składnią z dokumentacji Microsoft
+
+# Bloki kodu
+
+```
+Und hier mal ein Codeblock
+mal sehen obs geht
+```
+
+# Przyciski
+
+[[Frontmatter]] { .md-button }
+
+# Ramki iframe
+
+## Przykład osadzonego wideo
+
+<iframe width="950" height="500" src="https://www.youtube.com/embed/zFPsr1L13Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Przykład osadzonej tablicy Padlet
+
+<iframe src="https://padlet.com/lilithdekow/nica-i7hu4ssvwhamrc5x" style="border: 0" width="600" height="600" frameborder="0" scrolling="no"\></iframe>
+
+# test pdf
+
+<!--- file: docs/howto/embedding_pdf.md --->
+{% with pdf_file = "_attachements/Functional%20Juggling%20-%20The%20Book%20-%20EN.pdf" %}
+
+{% set solid_filepdf = '<i class="fas fa-file-pdf"></i>' %}
+{% set empty_filepdf = '<i class="far fa-file-pdf"></i>' %}
+
+## Przykład: Osadzanie pliku PDF
+
+<object data="{{ pdf_file }}" type="application/pdf">
+    <embed src="{{ pdf_file }}" type="application/pdf" />
+</object>
+
+obsidian://open?vault=docs&file=_attachements%2FFunctional%20Juggling%20-%20The%20Book%20-%20EN.pdf

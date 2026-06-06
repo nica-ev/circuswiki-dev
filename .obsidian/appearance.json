@@ -2,10 +2,10 @@
   "baseFontSizeAction": true,
   "cssTheme": "Minimal",
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "obsidian-default-theme"
   ],
   "showRibbon": true,
-  "baseFontSize": 13
+  "baseFontSize": 17
 }
