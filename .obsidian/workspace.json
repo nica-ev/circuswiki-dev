@@ -26,13 +26,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/ARCHITECTURE_REVIEW.md",
+                "file": "tools/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ARCHITECTURE_REVIEW"
+              "title": "README"
             }
           },
           {
@@ -283,6 +283,8 @@
   },
   "active": "0db583b7dea74b14",
   "lastOpenFiles": [
+    "tools/ARCHITECTURE.md",
+    "tools/ARCHITECTURE_REVIEW.md",
     "tools/tests/__pycache__/test_navigation_workflow.cpython-313.pyc",
     "tools/tests/test_navigation_workflow.py",
     "tools/dev_console/static/dom.js",
@@ -294,7 +296,6 @@
     "tools/obsidian/__pycache__/__init__.cpython-313.pyc",
     "tools/obsidian/__pycache__/cli.cpython-313.pyc",
     "tools/obsidian/__pycache__",
-    "tools/dev_console/__pycache__/routes_obsidian.cpython-313.pyc",
     "docs/en/Medusa.md",
     "docs/en/Kissenrennen.md",
     "docs/en/Ich fahre Zug.md",
@@ -318,7 +319,6 @@
     "docs/pt/Zombieball.md",
     "docs/sk/Zombie Hasche mit Namen.md",
     "docs/cs/Zombie Hasche mit Namen.md",
-    "docs/pt/Zombie Hasche mit Namen.md",
     "site/sk/img/Screenshot-Google-AiStudio-Transcription.png",
     "site/sk/img/Screenshot-Google-AiStudio-Translation.png",
     "site/sk/img/poland-03.jpg",

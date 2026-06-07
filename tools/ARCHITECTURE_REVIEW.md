@@ -1,6 +1,6 @@
-﻿---
+---
 created: 2026-06-07 21:04:37
-update: 2026-06-07 23:30:00
+update: 2026-06-07 23:37:20
 ---
 
 # CircusWiki Tooling Architecture Review

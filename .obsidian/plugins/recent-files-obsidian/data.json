@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "tools/README.md"
+    },
+    {
+      "basename": "ARCHITECTURE",
+      "path": "tools/ARCHITECTURE.md"
+    },
+    {
       "basename": "ARCHITECTURE_REVIEW",
       "path": "tools/ARCHITECTURE_REVIEW.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Case Study 02 - Hungary",
       "path": "docs/de/Case Study 02 - Hungary.md"
-    },
-    {
-      "basename": "buchhaltung",
-      "path": "docs/de/buchhaltung.md"
-    },
-    {
-      "basename": "Bombenspiel",
-      "path": "docs/de/Bombenspiel.md"
     }
   ],
   "omittedPaths": [],
