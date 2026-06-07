@@ -1,24 +1,24 @@
 ---
 created: 2025-05-02 21:56:19
-update: 2026-06-07 15:22:56
+update: 2026-06-07 23:30:00
 ---
 
 # CircusWiki
 
 CircusWiki is a Markdown-based knowledge base for circus pedagogy, circus arts, movement games, education, and related topics.
 
-The repository is now treated as a clean rebuild:
+The repository is a clean rebuild:
 
 - content is authored as an Obsidian vault
 - public site generation uses Zensical
-- old MkDocs Material, Cursor, Task Master, and translation-tooling code has been removed
+- local tooling is maintained under `tools/`
 
 ## Structure
 
 ```text
 .
 |-- docs/          Published Markdown content and shared assets
-|   |-- de/        German source pages
+|   |-- de/        German pages and default public root
 |   |-- en/        English pages
 |   |-- hu/        Hungarian pages
 |   |-- it/        Italian pages
@@ -106,7 +106,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Preview the German/default site only:
+Preview the default/German site only:
 
 ```powershell
 python tools/stage_multilang.py
@@ -239,16 +239,16 @@ Open:
 http://127.0.0.1:8787
 ```
 
-The current prototype console can:
+The local console can:
 
-- list German source pages from `docs/de/`
-- inspect the matching English target path in `docs/en/`
+- list source pages for the selected source language
+- inspect the matching target path for the selected target language
 - report missing, outdated, or inconsistent translations
 - translate one selected Markdown file through an OpenAI-compatible API
 
 German is the current default site language, but not a permanent source-language
-rule. Future translation tooling should translate from each page's canonical
-original language as defined by metadata.
+rule. Translation tooling should translate from each page's canonical original
+language as defined by metadata whenever possible.
 
 During multilingual staging, missing language versions are generated as static
 fallback pages. For example, if a German page has no English translation yet,
@@ -285,10 +285,10 @@ $env:OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 The same workflow is available from the command line:
 
 ```powershell
-python tools/translation_cli.py health
-python tools/translation_cli.py inspect "docs/de/index.md"
-python tools/translation_cli.py translate "docs/de/index.md" --dry-run
-python tools/translation_cli.py translate "docs/de/index.md"
+python tools/translation_cli.py health --source-lang de --target-lang en
+python tools/translation_cli.py inspect "docs/de/index.md" --source-lang de --target-lang en
+python tools/translation_cli.py translate "docs/de/index.md" --source-lang de --target-lang en --dry-run
+python tools/translation_cli.py translate "docs/de/index.md" --source-lang de --target-lang en
 ```
 
 Translation writes only target files. It splits Markdown into frontmatter and body, sends only the body to the model, then updates these target frontmatter properties deterministically:
@@ -305,13 +305,27 @@ translation_updated: ...
 
 Unknown frontmatter fields are preserved instead of re-dumped.
 
+## Tooling Maintenance
+
+Tooling architecture and local API contracts are documented under `tools/`:
+
+- `tools/README.md`: commands and dev-console endpoint contracts
+- `tools/ARCHITECTURE.md`: current tooling boundaries and next refactor targets
+- `tools/ARCHITECTURE_REVIEW.md`: closed review status and remaining risks
+- `tools/AGENTS.md`: additional rules for tooling changes
+
+Use the registry sync dry-run after changing languages or site URL settings:
+
+```powershell
+python tools/sync_configs.py
+```
+
 ## Notes
 
 - Obsidian setup is part of the repository and should not be removed during site cleanup.
 - Site pages live in language folders below `docs/`.
 - Shared images live in `docs/img/`.
 - Generated staging and output belong in `.build/` and `site/`; both are ignored by Git.
-- The old MkDocs workflow was intentionally removed; this repo does not aim for backward compatibility.
 - API keys belong in local environment variables or `.env`, never in committed files.
 
 ## License

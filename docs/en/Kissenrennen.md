@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 02:20:36
+update: 2026-06-07 22:47:20
 title: Kissenrennen
 description: 
 authors:
@@ -19,6 +19,7 @@ translation_source_hash: 99f7e71be8af688ef75939810912fa75a85fc56f404c1e32bc03db7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:26:04+00:00
 ---
+
 # **Pillow Race**
 
 **Group Size**: 10+ players, preferably an even number

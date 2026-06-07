@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 05:36:43
+update: 2026-06-07 22:47:18
 title: Ich fahre Zug
 description: 
 authors:
@@ -26,6 +26,7 @@ translation_source_hash: a5ecc00b39bdb1b2c1d8aae4e0aec96cae534bb986b0de345d67296
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:23:26+00:00
 ---
+
 # I'm Riding the Train
 
 **Group Size**: 10 to 30 players

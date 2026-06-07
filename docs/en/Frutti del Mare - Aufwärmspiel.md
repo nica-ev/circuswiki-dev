@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:20:18
-update: 2025-03-17 01:37:20
+update: 2026-06-07 22:47:17
 title: "# Frutti del Mare"
 description: 
 authors:
@@ -19,6 +19,7 @@ translation_source_hash: 51998d46946cdcc69632ec057f528c2072a8f516b0e6b1df4f644ab
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:22:59+00:00
 ---
+
 # Frutti del Mare (Warm-up Game)
 
 A warm-up exercise for small to medium-sized groups, especially suitable for young children.

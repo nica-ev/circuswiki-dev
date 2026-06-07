@@ -22,6 +22,22 @@ def query_value(query: dict[str, list[str]], key: str, default: str = "") -> str
     return query.get(key, [default])[0] or default
 
 
+def required_query_value(handler, query: dict[str, list[str]], key: str) -> str | None:
+    value = query_value(query, key)
+    if not value:
+        handler.send_error_json(400, f"Missing {key}")
+        return None
+    return value
+
+
+def required_payload_value(handler, payload: dict[str, object], key: str) -> str | None:
+    value = str(payload.get(key) or "")
+    if not value:
+        handler.send_error_json(400, f"Missing {key}")
+        return None
+    return value
+
+
 def handle_get(handler, path: str, query_string: str) -> bool:
     query = parse_qs(query_string)
 
@@ -40,12 +56,16 @@ def handle_get(handler, path: str, query_string: str) -> bool:
         )
 
     if path == "/api/pages":
-        source_lang = query_value(query, "source_lang", default_language())
+        source_lang = required_query_value(handler, query, "source_lang")
+        if not source_lang:
+            return True
         return handler.send_json({"pages": list_sources(source_lang)})
 
     if path == "/api/health":
-        source_lang = query_value(query, "source_lang", default_language())
-        target_lang = query_value(query, "target_lang", common_fallback_language())
+        source_lang = required_query_value(handler, query, "source_lang")
+        target_lang = required_query_value(handler, query, "target_lang")
+        if not source_lang or not target_lang:
+            return True
         return handler.send_json(health_summary(source_lang, target_lang))
 
     if path == "/api/vault-health":
@@ -55,8 +75,10 @@ def handle_get(handler, path: str, query_string: str) -> bool:
         source_path = query_value(query, "path")
         if not source_path:
             return handler.send_error_json(400, "Missing path")
-        source_lang = query_value(query, "source_lang", default_language())
-        target_lang = query_value(query, "target_lang", common_fallback_language())
+        source_lang = required_query_value(handler, query, "source_lang")
+        target_lang = required_query_value(handler, query, "target_lang")
+        if not source_lang or not target_lang:
+            return True
         try:
             return handler.send_json(inspect_page(source_path, source_lang, target_lang).__dict__)
         except Exception as exc:
@@ -70,11 +92,15 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
         source_path = payload.get("path")
         if not source_path:
             return handler.send_error_json(400, "Missing path")
+        source_lang = required_payload_value(handler, payload, "source_lang")
+        target_lang = required_payload_value(handler, payload, "target_lang")
+        if not source_lang or not target_lang:
+            return True
         try:
             result = translate_page(
                 source_path=str(source_path),
-                source_lang=str(payload.get("source_lang") or default_language()),
-                target_lang=str(payload.get("target_lang") or common_fallback_language()),
+                source_lang=source_lang,
+                target_lang=target_lang,
                 model=payload.get("model") or None,
                 prompt=payload.get("prompt") or None,
                 dry_run=bool(payload.get("dry_run")),

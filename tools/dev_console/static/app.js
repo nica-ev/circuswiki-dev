@@ -1,3 +1,6 @@
+import { api } from "./api.js";
+import { $, escapeHtml } from "./dom.js";
+
 let state = {
   config: null,
   pages: [],
@@ -11,31 +14,6 @@ let state = {
   matrixWindow: { start: 0, end: 0 },
   matrixDrag: null,
 };
-
-const $ = (id) => document.getElementById(id);
-
-async function api(path, options = {}) {
-  const response = await fetch(path, {
-    headers: { "Content-Type": "application/json" },
-    ...options,
-  });
-
-  const text = await response.text();
-  let data;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch (error) {
-    const preview = text.slice(0, 120).replace(/\s+/g, " ");
-    throw new Error(
-      `Expected JSON from ${path}, got ${response.status} ${response.statusText}: ${preview}`
-    );
-  }
-
-  if (!response.ok) {
-    throw new Error(data?.error || response.statusText);
-  }
-  return data;
-}
 
 function log(value) {
   $("log").textContent =
@@ -303,7 +281,7 @@ function renderBatchLanguageOptions() {
   const targetSelect = $("batch-target");
   const sourceSelect = $("batch-source");
   const reasonSelect = $("batch-reason");
-  const currentTarget = targetSelect.value || "en";
+  const currentTarget = targetSelect.value || state.config?.default_target_lang || "all";
   const currentSource = sourceSelect.value || "all";
   const currentReason = reasonSelect.value || "all";
   const languages = state.vaultHealth?.languages || [];
@@ -340,16 +318,16 @@ function renderFileLanguageOptions(config) {
     .join("");
   $("file-source-lang").innerHTML = options;
   $("file-target-lang").innerHTML = options;
-  $("file-source-lang").value = config.default_source_lang || "de";
-  $("file-target-lang").value = config.default_target_lang || "en";
+  $("file-source-lang").value = config.default_source_lang || languages[0]?.code || "";
+  $("file-target-lang").value = config.default_target_lang || languages[0]?.code || "";
 }
 
 function fileSourceLang() {
-  return $("file-source-lang")?.value || state.config?.default_source_lang || "de";
+  return $("file-source-lang")?.value || state.config?.default_source_lang || "";
 }
 
 function fileTargetLang() {
-  return $("file-target-lang")?.value || state.config?.default_target_lang || "en";
+  return $("file-target-lang")?.value || state.config?.default_target_lang || "";
 }
 
 function renderBatchPlan() {
@@ -482,12 +460,17 @@ async function loadNavigationScan() {
 }
 
 async function initNavigationModel() {
+  const sourceLang = $("nav-source").value || state.config?.default_source_lang || "";
+  if (!sourceLang) {
+    navLog("Select a navigation source language.");
+    return;
+  }
   setBusy(true);
-  navLog("Creating canonical model from German nav...");
+  navLog(`Creating canonical model from ${sourceLang} nav...`);
   try {
     const result = await api("/api/navigation/init", {
       method: "POST",
-      body: JSON.stringify({ language: "de" }),
+      body: JSON.stringify({ language: sourceLang }),
     });
     $("nav-model").value = JSON.stringify(result.model, null, 2);
     state.navigationPreview = result.preview;
@@ -505,7 +488,7 @@ async function translateNavigationLabels() {
   if (!model) {
     return;
   }
-  const sourceLang = $("nav-source").value || "de";
+  const sourceLang = $("nav-source").value || state.config?.default_source_lang || "";
   if (!sourceLang) {
     navLog("Select a navigation source language.");
     return;
@@ -607,7 +590,7 @@ function renderNavigationLanguageOptions() {
     select.innerHTML = "";
     return;
   }
-  const current = select.value || "de";
+  const current = select.value || state.config?.default_source_lang || scan.languages[0] || "";
   select.innerHTML = scan.languages
     .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, scan.language_names[language]))}</option>`)
     .join("");
@@ -963,14 +946,6 @@ function setBusy(isBusy) {
   if (isBusy) {
     $("batch-run").disabled = true;
   }
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }
 
 function languageLabel(code, name) {

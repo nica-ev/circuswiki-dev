@@ -1,6 +1,6 @@
 ---
 created: 2026-06-06 19:25:00
-update: 2026-06-06 19:25:00
+update: 2026-06-07 23:30:00
 publish: false
 tags:
   - translation
@@ -38,6 +38,9 @@ Current default presentation:
 /circuswiki/el/
 /circuswiki/es/
 /circuswiki/uk/
+/circuswiki/pt/
+/circuswiki/cs/
+/circuswiki/sk/
 ```
 
 Current language folders:
@@ -52,10 +55,13 @@ docs/nl/example.md
 docs/el/example.md
 docs/es/example.md
 docs/uk/example.md
+docs/pt/example.md
+docs/cs/example.md
+docs/sk/example.md
 ```
 
-Polish (`pl`) was the first scaffolded third language. The current configured
-language set keeps tooling honest for broader multilingual expansion.
+The current configured language set is maintained in `tools/config/languages.json`.
+Use that registry as the source of truth for tooling and docs.
 
 The shared relative path and `translation_id` identify equivalent pages across languages. The folder determines the file's language for presentation, but metadata must identify the original source.
 
@@ -153,32 +159,27 @@ Do not model canonical source language as a tag.
 
 Tags are content classification. Source language is structural translation metadata and should be a dedicated frontmatter field.
 
-## Current Prototype Limitation
+## Current Translation Tooling
 
-The current translation console and CLI still assume:
+The translation console and CLI require explicit source and target languages for
+single-file operations. The UI may initialize selections from the registry, but
+backend translation operations should not silently assume a fixed language pair.
 
-```text
-source_lang = de
-target_lang = en
-```
-
-This is acceptable for the prototype because the project currently originates from a German default collection.
-
-This assumption must be treated as temporary. Future translation tooling should work from translation groups:
+Batch translation works from translation groups:
 
 ```text
 translation_id -> find canonical original -> translate original into selected target language
 ```
 
-not:
+not a fixed folder pair such as:
 
 ```text
 docs/de -> docs/en
 ```
 
-## Future Translation Workflow
+## Translation Workflow
 
-Desired long-term behavior:
+Expected behavior:
 
 1. Collect all language versions by `translation_id`.
 2. Identify the original page by `translation_status: original` and `translation_source_lang`.
@@ -200,10 +201,10 @@ Current implementation:
 - `site-assets/javascripts/language-switcher.js` loads `javascripts/translation-map.json` and rewrites language links to known real or fallback pages.
 - This keeps GitHub Pages fully static while avoiding raw 404s for known untranslated pages.
 
-Short term:
+Current public behavior:
 
 - German remains the default public root.
-- English is available under `/en/`.
+- Other configured languages are available under their language code, for example `/en/`, `/it/`, and `/pl/`.
 - Do not force automatic browser-language redirects.
 - Do not surprise the current German-based community by changing the root language.
 
@@ -229,10 +230,12 @@ This page is shown in German because no English translation exists yet.
 
 ## Implementation Implications
 
-Future code changes should avoid hard-coding German as source. The currently
-configured site languages are German (`de`), English (`en`), Polish (`pl`),
-Hungarian (`hu`), Italian (`it`), Dutch (`nl`), Greek (`el`), Spanish (`es`),
-and Ukrainian (`uk`). Use Dutch (`nl`) for the
+Code changes must avoid hard-coding German as source. The configured site
+languages live in `tools/config/languages.json`; read them through
+`tools/core/languages.py` instead of duplicating lists. The current configured
+languages are German (`de`), English (`en`), Polish (`pl`), Hungarian (`hu`),
+Italian (`it`), Dutch (`nl`), Greek (`el`), Spanish (`es`), Ukrainian (`uk`),
+Portuguese (`pt`), Czech (`cs`), and Slovak (`sk`). Use Dutch (`nl`) for the
 Circusatelier Woesh / West Flanders context; Flemish is a regional variety, but
 `nl` is the standard web language code.
 

@@ -90,7 +90,7 @@ def list_languages() -> list[str]:
     return configured + extra_docs_language_codes()
 
 
-def list_sources(source_lang: str = "de") -> list[str]:
+def list_sources(source_lang: str) -> list[str]:
     source_root = DOCS / source_lang
     return sorted(
         rel(path)
@@ -611,8 +611,8 @@ def translate_batch_item(
 
 def inspect_page(
     source_path: str | Path,
-    source_lang: str = "de",
-    target_lang: str = "en",
+    source_lang: str,
+    target_lang: str,
 ) -> PageStatus:
     source = (ROOT / source_path).resolve()
     target = language_path(source, source_lang, target_lang)
@@ -672,7 +672,7 @@ def inspect_page(
     )
 
 
-def health_summary(source_lang: str = "de", target_lang: str = "en") -> dict[str, object]:
+def health_summary(source_lang: str, target_lang: str) -> dict[str, object]:
     pages = [inspect_page(path, source_lang, target_lang) for path in list_sources(source_lang)]
     return {
         "source_lang": source_lang,
@@ -687,8 +687,8 @@ def health_summary(source_lang: str = "de", target_lang: str = "en") -> dict[str
 
 def translate_page(
     source_path: str | Path,
-    source_lang: str = "de",
-    target_lang: str = "en",
+    source_lang: str,
+    target_lang: str,
     model: str | None = None,
     prompt: str | None = None,
     dry_run: bool = False,

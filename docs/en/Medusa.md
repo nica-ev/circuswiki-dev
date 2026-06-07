@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 02:04:09
+update: 2026-06-07 22:47:21
 title: Medusa
 description: 
 authors:
@@ -20,6 +20,7 @@ translation_source_hash: 27418957df42fd275538816cdcb28cd9d892a02016fa93bf3552849
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:27:15+00:00
 ---
+
 # Medusa
 
 A circle game for small to medium-sized groups:
