@@ -20,15 +20,15 @@ translation_updated: 2026-06-06T20:15:20+00:00
 # Juggling Funkcjonalny
 
 ## Ogólne Koncepcje
-[[Juggling Funkcjonalny - Definicja]]
+[[Functional Juggling - Definition]]
 
 [Metoda 5 Kroków](5-Step%20Methode.md)
-[[Czas na Zadanie]]
+[[Time on Task]]
 [[Flow]]
 
 ## Badania
 
-- badanie Lapo dotyczące zwiększenia zdolności planowania sekwencji poprzez bierne uczestnictwo w sesjach juggleboard. Uwaga: może to być związane z [[Świadome Sny]] – świadome sny są wykorzystywane w sporcie do treningu podczas snu (sprawdź badania na ten temat), neurony aktywują się bez faktycznego ruchu – podczas sesji juggleboard bierne reagowanie również spowodowało wzrost zdolności.
+- badanie Lapo dotyczące zwiększenia zdolności planowania sekwencji poprzez bierne uczestnictwo w sesjach juggleboard. Uwaga: może to być związane z [[Luzides Träumen]] – świadome sny są wykorzystywane w sporcie do treningu podczas snu (sprawdź badania na ten temat), neurony aktywują się bez faktycznego ruchu – podczas sesji juggleboard bierne reagowanie również spowodowało wzrost zdolności.
 - wykorzystuje się planowanie ruchu tylko w mózgu, bez wykonywania ruchów
 - drugie wykonuje ruchy, ale pomija planowanie ruchu
 - więc chodzi tylko o aktywację neuronów? nieważne dlaczego?
@@ -37,18 +37,18 @@ translation_updated: 2026-06-06T20:15:20+00:00
 
 - [Juggleboard](Juggleboard.md)
 - [[Newton]]
-- [[20210110225513 Abakus|Abakus]]
+- [[20210110225513 Abacus|Abakus]]
 - [[20210110225600 Domino|Domino]]
 
 ## Zastosowanie
 
-[[Wczesna Edukacja w Pedagogice Cyrkowej]]
+[[Zirkuspädagogische Früherziehung]]
 
 ## Pomysły na Projekty
 
 [[Projekt/20210119152110 Projekt Erasums+]]
-[[Spotkanie Grupowe Jugglingu Funkcjonalnego]]
+[[Functional Juggling Gruppentreffen]]
 
 ## Cyrk Funkcjonalny
-[[Cyrk Funkcjonalny]]
-[[Teoria Cyrku Funkcjonalnego]]
+[[Functional Circus]]
+[[Functional Circus Theory]]

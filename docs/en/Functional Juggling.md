@@ -28,7 +28,7 @@ translation_updated: 2026-06-06T19:23:04+00:00
 
 ## Research
 
-- Study by Lapo on how passive participation in juggleboard sessions can increase sequence planning capacity. Note: this might be related to [[Lucid Dreaming]] – lucid dreams are used in sports to train while sleeping (check the research on that), where neurons fire without actual movement. During juggleboard sessions, passive reaction also triggered an increase in capacity.
+- Study by Lapo on how passive participation in juggleboard sessions can increase sequence planning capacity. Note: this might be related to [[Luzides Träumen]] – lucid dreams are used in sports to train while sleeping (check the research on that), where neurons fire without actual movement. During juggleboard sessions, passive reaction also triggered an increase in capacity.
 - One method uses movement planning solely in the brain without performing the movements.
 - The other method involves performing the movements but skips the movement planning.
 - So, is it just about neurons firing, regardless of the reason?
@@ -42,12 +42,12 @@ translation_updated: 2026-06-06T19:23:04+00:00
 
 ## Application
 
-[[Circus Pedagogy Early Education]]
+[[Zirkuspädagogische Früherziehung]]
 
 ## Project Ideas
 
-[[Project/20210119152110 Project Erasums+]]
-[[Functional Juggling Group Meeting]]
+[[Projekt/20210119152110 Projekt Erasums+]]
+[[Functional Juggling Gruppentreffen]]
 
 ## Functional Circus
 [[Functional Circus]]

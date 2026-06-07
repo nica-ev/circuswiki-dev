@@ -15,21 +15,31 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Taktik und Konzentrationsspiele.md
-translation_source_hash: ede3d3a842e3db2e06ee4bb9053a993aaddc9d2b7d1859b8b6e2223c0f73c5b6
+translation_source_hash: a4f3a3d25afaedb7b1341eff386bd5343e6635a6b4d57c28885878ef2fdcc59c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:18+00:00
+translation_updated: 2026-06-06T22:32:39+00:00
 ---
-## Taktyka i gry koncentracji
+## Taktyka i gry na koncentrację
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "Taktik") -->
 <!-- SerializedQuery: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "Taktik") -->
 
-| Plik                                                                      | min. osób | maks. osób | Poziom trudności | Materiał | Czas gry | Kategoria                                  |
-| ------------------------------------------------------------------------- | --------- | --------- | --------------- | -------- | -------- | ------------------------------------------ |
-| [As Dwa Trzy - łapanie kart](docs/de/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-              | \-       | \-       | <ul><li>Taktyka</li></ul>                   |
-| [Ludzkie Halma](docs/de/Menschenhalma.md)                               | \-        | \-        | \-              | \-       | \-       | <ul><li>Taktyka</li><li>wyciszenie</li></ul> |
-| [Ciągnięcie ludzi](docs/de/Menschenziehen.md)                             | \-        | \-        | \-              | \-       | \-       | <ul><li>Taktyka</li></ul>                   |
-| [Gra w mordercę](docs/de/Mörderspiel.md)                                   | \-        | \-        | \-              | \-       | \-       | <ul><li>Taktyka</li><li>wyciszenie</li></ul> |
-| [Szachy](docs/de/Schach.md)                                             | \-        | \-        | \-              | \-       | \-       | <ul><li>Taktyka</li><li>wyciszenie</li></ul> |
+| File                                                                      | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                                   |
+| ------------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------------------ |
+| [Ass Zwei Drei - Kartenfangen](docs/de/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Menschenhalma](docs/de/Menschenhalma.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Menschenziehen](docs/de/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Mörderspiel](docs/de/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Schach](docs/de/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Ass Zwei Drei - Kartenfangen](docs/en/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Menschenhalma](docs/en/Menschenhalma.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Menschenziehen](docs/en/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Mörderspiel](docs/en/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Schach](docs/en/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Ass Zwei Drei - Kartenfangen](docs/pl/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Menschenhalma](docs/pl/Menschenhalma.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Menschenziehen](docs/pl/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Mörderspiel](docs/pl/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Schach](docs/pl/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 
 <!-- SerializedQuery END -->

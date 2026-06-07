@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-01-hungary
 created: 2025-08-30 18:53:22
-update: 2026-06-06 21:47:56
+update: 2026-06-07 00:06:50
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: b7ae1b2bbc2fae2706eaa1c4e1d125d92eab0550863e2daeca026dd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:29+00:00
 ---
+
 # **Unterstützung der Rehabilitation von Handgelenksfrakturen mit funktionalen Jonglage-Werkzeugen**
 
 [Inspirál Circus Center](Inspirál%20Circus%20Center.md) - Budapest, Ungarn**

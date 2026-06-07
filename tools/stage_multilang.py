@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 BUILD = ROOT / ".build"
 SITE_ASSETS = ROOT / "site-assets"
-LANGUAGES = ("de", "en", "pl")
+LANGUAGES = ("de", "en", "pl", "hu", "it", "nl", "el", "es", "uk")
 DEFAULT_LANGUAGE = "de"
 COMMON_FALLBACK_LANGUAGE = "en"
 FALLBACK_STATUS = "missing-translation"
@@ -27,8 +27,44 @@ IMAGE_LINK_RE = re.compile(
 )
 DOC_LINK_RE = re.compile(
     r"(?P<prefix>\]\(|href=[\"'])"
-    r"docs/(?!img/)(?:(?:de|en|pl)/)?(?P<path>[^)\"']+?\.md(?P<anchor>#[^)\"']*)?)"
+    r"docs/(?!img/)(?:(?:de|en|pl|hu|it|nl|el|es|uk)/)?(?P<path>[^)\"']+?\.md(?P<anchor>#[^)\"']*)?)"
 )
+OBSIDIAN_CALLOUT_RE = re.compile(
+    r"^(?P<indent>[ \t]*)>\s*\[!(?P<type>[A-Za-z][\w-]*)\](?P<fold>[+-])?(?P<title>.*)$"
+)
+BLOCKQUOTE_LINE_RE = re.compile(r"^[ \t]*>\s?(?P<body>.*)$")
+FENCE_RE = re.compile(r"^[ \t]*(```|~~~)")
+CALLOUT_TYPE_ALIASES = {
+    "summary": "abstract",
+    "tldr": "abstract",
+    "hint": "tip",
+    "important": "tip",
+    "todo": "note",
+    "check": "success",
+    "done": "success",
+    "help": "question",
+    "faq": "question",
+    "caution": "warning",
+    "attention": "warning",
+    "fail": "failure",
+    "missing": "failure",
+    "error": "danger",
+    "cite": "quote",
+}
+CALLOUT_TYPES = {
+    "note",
+    "abstract",
+    "info",
+    "tip",
+    "success",
+    "question",
+    "warning",
+    "failure",
+    "danger",
+    "bug",
+    "example",
+    "quote",
+}
 
 
 def rel(path: Path) -> str:
@@ -70,11 +106,13 @@ def language_label(language: str) -> str:
     return {
         "de": "German",
         "en": "English",
-        "it": "Italian",
         "pl": "Polish",
-        "el": "Greek",
         "hu": "Hungarian",
+        "it": "Italian",
+        "nl": "Dutch",
+        "el": "Greek",
         "es": "Spanish",
+        "uk": "Ukrainian",
         "fr": "French",
     }.get(language, language)
 
@@ -82,6 +120,43 @@ def language_label(language: str) -> str:
 def frontmatter_value(value: str) -> str:
     escaped = value.replace("\\", "\\\\").replace('"', '\\"')
     return f'"{escaped}"'
+
+
+def admonition_title(value: str) -> str:
+    stripped = value.strip()
+    if not stripped:
+        return ""
+    escaped = stripped.replace("\\", "\\\\").replace('"', '\\"')
+    return f' "{escaped}"'
+
+
+def admonition_type(value: str) -> str:
+    normalized = value.lower()
+    normalized = CALLOUT_TYPE_ALIASES.get(normalized, normalized)
+    if normalized in CALLOUT_TYPES:
+        return normalized
+    return "note"
+
+
+def read_list(frontmatter: str, key: str) -> list[str]:
+    lines = frontmatter.splitlines()
+    values: list[str] = []
+
+    for index, line in enumerate(lines):
+        if line.strip() != f"{key}:":
+            continue
+
+        for item in lines[index + 1 :]:
+            if not item.startswith((" ", "\t")):
+                break
+
+            stripped = item.strip()
+            if stripped.startswith("- "):
+                values.append(stripped[2:].strip().strip("\"'"))
+
+        break
+
+    return values
 
 
 def read_page_metadata(path: Path, language: str) -> dict[str, str]:
@@ -99,6 +174,7 @@ def read_page_metadata(path: Path, language: str) -> dict[str, str]:
         "translation_model": read_scalar(document.frontmatter, "translation_model") or "",
         "translation_updated": read_scalar(document.frontmatter, "translation_updated") or "",
         "title": read_scalar(document.frontmatter, "title") or path.stem,
+        "authors": read_list(document.frontmatter, "authors"),
     }
     return metadata
 
@@ -277,21 +353,33 @@ def write_translation_map(groups: dict[str, dict[str, object]]) -> None:
                 fallback = False
                 model = page["translation_model"]
                 updated = page["translation_updated"]
+                path = page["path"]
+                source = page["translation_source"]
+                source_lang = page["translation_source_lang"]
+                authors = page["authors"]
             else:
                 relative_path = group["relative_path"]
                 status = FALLBACK_STATUS
                 fallback = True
                 model = ""
                 updated = ""
+                path = ""
+                source = ""
+                source_lang = source_language
+                authors = []
 
             url = page_url(language, relative_path)
             group_entry["languages"][language] = {
                 "url": url,
+                "path": path,
                 "relative_path": relative_path,
                 "status": status,
                 "fallback": fallback,
                 "model": model,
                 "updated": updated,
+                "authors": authors,
+                "source": source,
+                "source_lang": source_lang,
             }
             manifest["paths"][f"{language}:{relative_path}"] = translation_id
 
@@ -355,6 +443,69 @@ def normalize_internal_doc_links(language_root: Path) -> None:
             markdown_file.write_text(updated, encoding="utf-8", newline="")
 
 
+def convert_obsidian_callouts(text: str) -> str:
+    lines = text.splitlines(keepends=True)
+    output: list[str] = []
+    index = 0
+    in_fence = False
+
+    while index < len(lines):
+        line = lines[index]
+        line_text = line.rstrip("\r\n")
+
+        if FENCE_RE.match(line_text):
+            in_fence = not in_fence
+            output.append(line)
+            index += 1
+            continue
+
+        match = None if in_fence else OBSIDIAN_CALLOUT_RE.match(line_text)
+        if not match:
+            output.append(line)
+            index += 1
+            continue
+
+        callout_type = admonition_type(match.group("type"))
+        fold = match.group("fold") or ""
+        title = admonition_title(match.group("title"))
+        marker = "!!!"
+        if fold == "+":
+            marker = "???+"
+        elif fold == "-":
+            marker = "???"
+
+        indent = match.group("indent")
+        output.append(f"{indent}{marker} {callout_type}{title}\n")
+
+        content: list[str] = []
+        index += 1
+        while index < len(lines):
+            body_line = lines[index]
+            body_text = body_line.rstrip("\r\n")
+            body_match = BLOCKQUOTE_LINE_RE.match(body_text)
+            if not body_match:
+                break
+            content.append(body_match.group("body"))
+            index += 1
+
+        if content:
+            output.append("\n")
+            for body in content:
+                output.append(f"{indent}    {body}\n" if body else f"{indent}    \n")
+
+        continue
+
+    return "".join(output)
+
+
+def convert_obsidian_callouts_in_markdown(language_root: Path) -> None:
+    for markdown_file in language_root.rglob("*.md"):
+        text = markdown_file.read_text(encoding="utf-8")
+        updated = convert_obsidian_callouts(text)
+        if updated != text:
+            markdown_file.write_text(updated, encoding="utf-8", newline="")
+
+
 def main() -> None:
     if BUILD.exists():
         shutil.rmtree(BUILD)
@@ -371,6 +522,7 @@ def main() -> None:
         language_root = BUILD / language
         normalize_internal_doc_links(language_root)
         normalize_image_links(language_root)
+        convert_obsidian_callouts_in_markdown(language_root)
 
 
 if __name__ == "__main__":

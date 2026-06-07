@@ -2,7 +2,7 @@
 lang: de
 translation_id: jeder-fangt-jeden
 created: 2025-01-21 18:09:55
-update: 2025-03-17 02:14:46
+update: 2026-06-07 15:30:44
 publish: true
 tags:
   - spiele
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Jeder fängt Jeden
 
 **Gruppengröße**: Ab 10 Mitspieler 

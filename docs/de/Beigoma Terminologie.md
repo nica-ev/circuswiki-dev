@@ -5,7 +5,7 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2025-02-01 02:33:16
+update: 2026-06-07 00:02:54
 title: Einführung der Beigoma-Terminologie
 description: 
 authors:
@@ -13,6 +13,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 Beim Spielen mit Beigoma kommen und gehen verschiedene Fachbegriffe. Nur einfache Inhalte. Wenn Sie es wissen, wird es einfacher zu kommunizieren sein, also benutzen Sie es bitte!
 
 ## **Das Wickeln des Beigoma**

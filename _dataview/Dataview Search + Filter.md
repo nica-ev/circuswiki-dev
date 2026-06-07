@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 17:48:33
-update: 2025-01-23 22:05:53
+update: 2026-06-06 23:32:58
 ---
 
 - [Notizen ohne Verlinkung](Notizen%20ohne%20Verlinkung.md)

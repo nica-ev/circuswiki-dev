@@ -2,7 +2,7 @@
 lang: de
 translation_id: piraten-kapitan
 created: 2025-03-11 00:12:59
-update: 2025-03-17 02:29:19
+update: 2026-06-07 01:15:15
 publish: true
 tags:
   - spiele
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Piraten Kapitän
 
 Ein thematisches Spiel für kleine bis mittelgroße Gruppen.

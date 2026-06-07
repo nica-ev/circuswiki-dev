@@ -21,7 +21,7 @@ translation_updated: 2026-06-06T20:20:30+00:00
 ---
 ## **Uśmiech pokonuje grawitację**
 **List od Toby'ego Philpotta, Europejskiego Dyrektora IJA**
-[Kaskada 001](Kaskade%20001.md#Uśmiech%20pokonuje%20grawitację)
+[Kaskada 001](Kaskade%20001.md#Lächeln%20überwindet%20Schwerkraft)
 
 Od dwóch lat noszę tytuł „Europejskiego Dyrektora International Jugglers Association” (IJA). To tytuł, który spodobałby się W.C. Fieldsowi, ponieważ brzmi ważnie i tajemniczo (i prawie nic nie znaczy). Nikogo nie „dyrektoruję” i większość czasu spędzam w Anglii.
 

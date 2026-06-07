@@ -5,6 +5,10 @@ let state = {
   vaultHealth: null,
   activeTab: "file-test",
   batchPlan: null,
+  navigationScan: null,
+  navigationPreview: null,
+  matrixWindow: { start: 0, end: 0 },
+  matrixDrag: null,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -274,8 +278,9 @@ function renderBatchLanguageOptions() {
   const select = $("batch-target");
   const current = select.value || "en";
   const languages = state.vaultHealth?.languages || [];
+  const languageNames = state.vaultHealth?.language_names || {};
   select.innerHTML = languages
-    .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(language)}</option>`)
+    .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`)
     .join("");
   if (languages.includes(current)) {
     select.value = current;
@@ -291,7 +296,7 @@ function renderBatchPlan() {
   }
 
   $("batch-summary").innerHTML = `
-    <span class="pill">Target: <strong>${escapeHtml(plan.target_lang)}</strong></span>
+    <span class="pill">Target: <strong>${escapeHtml(languageLabel(plan.target_lang, plan.target_language))}</strong></span>
     <span class="pill">Planned: <strong>${plan.planned_count}</strong></span>
     <span class="pill">Candidates: <strong>${plan.total_candidates}</strong></span>
     <span class="pill">Chars: <strong>${plan.total_source_chars}</strong></span>
@@ -315,8 +320,8 @@ function renderBatchPlan() {
         <tr>
           <td>${index + 1}</td>
           <td>${escapeHtml(item.translation_id)}</td>
-          <td>${escapeHtml(item.source_lang)}</td>
-          <td>${escapeHtml(item.target_lang)}</td>
+          <td>${escapeHtml(languageLabel(item.source_lang, item.source_language))}</td>
+          <td>${escapeHtml(languageLabel(item.target_lang, item.target_language))}</td>
           <td>${item.source_chars}</td>
           <td>${escapeHtml(item.reason)}</td>
         </tr>
@@ -329,6 +334,233 @@ function renderBatchPlan() {
 function batchLog(value) {
   $("batch-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function navLog(value) {
+  $("nav-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+async function loadNavigationScan() {
+  setBusy(true);
+  navLog("Scanning navigation...");
+  try {
+    const scan = await api("/api/navigation/scan");
+    state.navigationScan = scan;
+    $("nav-model").value = JSON.stringify(scan.model, null, 2);
+    renderNavigationLanguageOptions();
+    renderNavigationScan();
+    navLog(scan);
+  } catch (error) {
+    navLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function initNavigationModel() {
+  setBusy(true);
+  navLog("Creating canonical model from German nav...");
+  try {
+    const result = await api("/api/navigation/init", {
+      method: "POST",
+      body: JSON.stringify({ language: "de" }),
+    });
+    $("nav-model").value = JSON.stringify(result.model, null, 2);
+    state.navigationPreview = result.preview;
+    renderNavigationPreview();
+    await loadNavigationScan();
+  } catch (error) {
+    navLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function translateNavigationLabels() {
+  const model = currentNavigationModel();
+  if (!model) {
+    return;
+  }
+  const sourceLang = $("nav-source").value || "de";
+  if (!sourceLang) {
+    navLog("Select a navigation source language.");
+    return;
+  }
+
+  setBusy(true);
+  navLog(`Translating navigation labels from ${sourceLang} to all other configured languages...`);
+  try {
+    const result = await api("/api/navigation/translate-all-labels", {
+      method: "POST",
+      body: JSON.stringify({
+        model,
+        source_lang: sourceLang,
+        llm_model: $("model").value.trim(),
+      }),
+    });
+    $("nav-model").value = JSON.stringify(result.model, null, 2);
+    state.navigationPreview = result.preview;
+    renderNavigationPreview();
+    navLog({
+      source: languageLabel(result.source_lang, result.source_language),
+      target_count: result.target_count,
+      results: result.results.map((item) => ({
+        target: languageLabel(item.target_lang, item.target_language),
+        translated_count: item.translated_count,
+        translations: item.translations,
+      })),
+    });
+  } catch (error) {
+    navLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function previewNavigationModel() {
+  const model = currentNavigationModel();
+  if (!model) {
+    return;
+  }
+
+  setBusy(true);
+  navLog("Rendering navigation preview...");
+  try {
+    const preview = await api("/api/navigation/preview", {
+      method: "POST",
+      body: JSON.stringify({ model }),
+    });
+    state.navigationPreview = preview;
+    renderNavigationPreview();
+    navLog(preview);
+  } catch (error) {
+    navLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function applyNavigationModel() {
+  const model = currentNavigationModel();
+  if (!model) {
+    return;
+  }
+
+  setBusy(true);
+  navLog("Previewing before apply...");
+  try {
+    state.navigationPreview = await api("/api/navigation/preview", {
+      method: "POST",
+      body: JSON.stringify({ model }),
+    });
+    renderNavigationPreview();
+    const result = await api("/api/navigation/apply", {
+      method: "POST",
+      body: JSON.stringify({ model }),
+    });
+    navLog(result);
+    await loadNavigationScan();
+  } catch (error) {
+    navLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function currentNavigationModel() {
+  try {
+    return JSON.parse($("nav-model").value);
+  } catch (error) {
+    navLog(`Invalid navigation JSON: ${error.message}`);
+    return null;
+  }
+}
+
+function renderNavigationLanguageOptions() {
+  const select = $("nav-source");
+  const scan = state.navigationScan;
+  if (!scan) {
+    select.innerHTML = "";
+    return;
+  }
+  const current = select.value || "de";
+  select.innerHTML = scan.languages
+    .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, scan.language_names[language]))}</option>`)
+    .join("");
+  if (scan.languages.includes(current)) {
+    select.value = current;
+  }
+}
+
+function renderNavigationScan() {
+  const scan = state.navigationScan;
+  if (!scan) {
+    $("nav-summary").innerHTML = "";
+    $("nav-diagnostics").innerHTML = "";
+    return;
+  }
+
+  $("nav-summary").innerHTML = `
+    <span class="pill">Model: <strong>${scan.model_exists ? "exists" : "missing"}</strong></span>
+    <span class="pill ${scan.has_multiple_navs ? "yellow" : "green"}">Nav variants: <strong>${scan.nav_variants.length}</strong></span>
+    <span class="pill">Languages: <strong>${scan.languages.length}</strong></span>
+    <span class="pill">Orphan candidates: <strong>${scan.orphan_candidate_count}</strong></span>
+    <span class="pill ${scan.model_missing_targets.length ? "yellow" : "green"}">Model missing targets: <strong>${scan.model_missing_targets.length}</strong></span>
+  `;
+
+  const configCards = Object.entries(scan.configs).map(([language, config]) => `
+    <article class="nav-card">
+      <strong>${escapeHtml(languageLabel(language, scan.language_names[language]))}</strong>
+      <span>${config.count} entries</span>
+      ${config.duplicate_pages.length ? `<p>Duplicate pages: ${escapeHtml(config.duplicate_pages.join(", "))}</p>` : ""}
+      ${config.missing_files.length ? `<p>Missing files: ${config.missing_files.length}</p>` : ""}
+    </article>
+  `).join("");
+
+  const variants = scan.nav_variants.map((variant, index) => `
+    <article class="nav-card">
+      <strong>Variant ${index + 1}</strong>
+      <p>${escapeHtml(variant.languages.join(", "))}</p>
+    </article>
+  `).join("");
+
+  const orphans = scan.orphan_candidates.slice(0, 20).map((item) =>
+    `<li>${escapeHtml(item.title)} <span class="muted-inline">${escapeHtml(item.page)}</span></li>`
+  ).join("");
+
+  $("nav-diagnostics").innerHTML = `
+    ${variants}
+    ${configCards}
+    <article class="nav-card">
+      <strong>Orphan candidates</strong>
+      <ul>${orphans || "<li>none</li>"}</ul>
+    </article>
+  `;
+}
+
+function renderNavigationPreview() {
+  const preview = state.navigationPreview;
+  if (!preview) {
+    $("nav-preview-output").innerHTML = "";
+    return;
+  }
+
+  const changed = Object.entries(preview.changed).map(([language, isChanged]) => `
+    <article class="nav-card">
+      <strong>${escapeHtml(language)}</strong>
+      <span class="${isChanged ? "pill yellow" : "pill green"}">${isChanged ? "will change" : "unchanged"}</span>
+      <pre class="inline-code">${escapeHtml((preview.rendered[language] || "").slice(0, 900))}</pre>
+    </article>
+  `).join("");
+
+  $("nav-preview-output").innerHTML = `
+    <article class="nav-card">
+      <strong>Preview</strong>
+      <p>${preview.changed_count} config files would change.</p>
+    </article>
+    ${changed}
+  `;
 }
 
 function repairCandidates() {
@@ -371,14 +603,27 @@ function renderVaultHealth() {
   const query = $("health-filter").value.toLowerCase();
   const statusFilter = $("health-status").value;
   const rows = health.rows.filter((row) => matchesHealthFilter(row, query, statusFilter));
+  const window = normalizedMatrixWindow(rows.length);
+  const visibleRows = rows.slice(window.start, window.end);
+  updateMatrixWindowControls(rows.length, window.start, window.end);
 
   const table = $("health-matrix");
+  const wrapWidth = $("health-matrix").parentElement.clientWidth || 900;
+  const matrixLayout = matrixLayoutSizes();
+  const plotWidth = Math.max(
+    matrixLayout.minPlotWidth,
+    wrapWidth - matrixLayout.labelWidth
+  );
+  const cellWidth = visibleRows.length
+    ? Math.max(2, Math.floor((plotWidth - visibleRows.length - 1) / visibleRows.length))
+    : 15;
+  table.style.setProperty("--matrix-cell-width", `${cellWidth}px`);
   table.innerHTML = "";
   const thead = document.createElement("thead");
   const header = document.createElement("tr");
   header.innerHTML = `
     <th class="sticky-col lang-col">lang</th>
-    ${rows.map((row, index) => `<th class="note-index" title="${escapeHtml(row.translation_id)}">${index + 1}</th>`).join("")}
+    ${visibleRows.map((row, index) => `<th class="note-index" title="${escapeHtml(row.translation_id)}">${window.start + index + 1}</th>`).join("")}
   `;
   thead.appendChild(header);
   table.appendChild(thead);
@@ -388,7 +633,7 @@ function renderVaultHealth() {
     const tr = document.createElement("tr");
     tr.innerHTML = `<th class="sticky-col lang-col">${escapeHtml(language)}</th>`;
 
-    rows.forEach((row) => {
+    visibleRows.forEach((row) => {
       const cell = row.cells[language];
       const td = document.createElement("td");
       const button = document.createElement("button");
@@ -414,6 +659,125 @@ function renderVaultHealth() {
   table.appendChild(tbody);
 }
 
+function normalizedMatrixWindow(rowCount) {
+  if (rowCount <= 0) {
+    state.matrixWindow = { start: 0, end: 0 };
+    return state.matrixWindow;
+  }
+
+  let start = Number.isInteger(state.matrixWindow.start) ? state.matrixWindow.start : 0;
+  let end = Number.isInteger(state.matrixWindow.end) && state.matrixWindow.end > 0
+    ? state.matrixWindow.end
+    : rowCount;
+
+  start = Math.max(0, Math.min(start, rowCount - 1));
+  end = Math.max(start + 1, Math.min(end, rowCount));
+  state.matrixWindow = { start, end };
+  return state.matrixWindow;
+}
+
+function updateMatrixWindowControls(rowCount, start, end) {
+  const startHandle = $("matrix-window-start");
+  const endHandle = $("matrix-window-end");
+  const selection = $("matrix-window-selection");
+  const label = $("matrix-window-label");
+
+  if (!rowCount) {
+    startHandle.style.setProperty("--handle-left", "0%");
+    endHandle.style.setProperty("--handle-left", "0%");
+    selection.style.setProperty("--range-left", "0%");
+    selection.style.setProperty("--range-width", "0%");
+    label.textContent = "0/0";
+    return;
+  }
+
+  const startPercent = (start / rowCount) * 100;
+  const endPercent = (end / rowCount) * 100;
+  startHandle.style.setProperty("--handle-left", `${startPercent}%`);
+  endHandle.style.setProperty("--handle-left", `${endPercent}%`);
+  selection.style.setProperty("--range-left", `${startPercent}%`);
+  selection.style.setProperty("--range-width", `${endPercent - startPercent}%`);
+  label.textContent = `${start + 1}-${end} / ${rowCount}`;
+}
+
+function setMatrixWindow(start, end) {
+  state.matrixWindow = { start, end };
+  renderVaultHealth();
+}
+
+function filteredVaultRows() {
+  const health = state.vaultHealth;
+  if (!health) {
+    return [];
+  }
+  const query = $("health-filter").value.toLowerCase();
+  const statusFilter = $("health-status").value;
+  return health.rows.filter((row) => matchesHealthFilter(row, query, statusFilter));
+}
+
+function matrixIndexFromPointer(event) {
+  const rows = filteredVaultRows();
+  const rowCount = rows.length;
+  if (!rowCount) {
+    return 0;
+  }
+
+  const rect = $("matrix-window-range").getBoundingClientRect();
+  const ratio = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
+  return Math.round(ratio * rowCount);
+}
+
+function startMatrixDrag(kind, event) {
+  const rows = filteredVaultRows();
+  if (!rows.length) {
+    return;
+  }
+
+  event.preventDefault();
+  const window = normalizedMatrixWindow(rows.length);
+  state.matrixDrag = {
+    kind,
+    pointerStart: matrixIndexFromPointer(event),
+    start: window.start,
+    end: window.end,
+    width: window.end - window.start,
+  };
+  $("matrix-window-start").classList.toggle("active", kind === "start");
+  $("matrix-window-end").classList.toggle("active", kind === "end");
+}
+
+function updateMatrixDrag(event) {
+  const drag = state.matrixDrag;
+  if (!drag) {
+    return;
+  }
+
+  const rowCount = filteredVaultRows().length;
+  if (!rowCount) {
+    return;
+  }
+
+  const pointer = matrixIndexFromPointer(event);
+  if (drag.kind === "start") {
+    setMatrixWindow(Math.max(0, Math.min(pointer, drag.end - 1)), drag.end);
+    return;
+  }
+  if (drag.kind === "end") {
+    setMatrixWindow(drag.start, Math.max(drag.start + 1, Math.min(pointer, rowCount)));
+    return;
+  }
+
+  const delta = pointer - drag.pointerStart;
+  const nextStart = Math.max(0, Math.min(drag.start + delta, rowCount - drag.width));
+  setMatrixWindow(nextStart, nextStart + drag.width);
+}
+
+function stopMatrixDrag() {
+  state.matrixDrag = null;
+  $("matrix-window-start").classList.remove("active");
+  $("matrix-window-end").classList.remove("active");
+}
+
 function matchesHealthFilter(row, query, statusFilter) {
   const cells = Object.values(row.cells);
   if (statusFilter !== "all" && !cells.some((cell) => cell.status === statusFilter)) {
@@ -432,6 +796,19 @@ function matchesHealthFilter(row, query, statusFilter) {
   return haystack.includes(query);
 }
 
+function matrixLayoutSizes() {
+  const styles = getComputedStyle(document.documentElement);
+  return {
+    labelWidth: cssPixelValue(styles.getPropertyValue("--matrix-label-width"), 82),
+    minPlotWidth: cssPixelValue(styles.getPropertyValue("--matrix-min-plot-width"), 1320),
+  };
+}
+
+function cssPixelValue(value, fallback) {
+  const parsed = Number.parseFloat(String(value).trim());
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
+
 function switchTab(tabName) {
   state.activeTab = tabName;
   document.querySelectorAll(".tab").forEach((button) => {
@@ -443,6 +820,9 @@ function switchTab(tabName) {
   if (tabName === "vault-health" && !state.vaultHealth) {
     loadVaultHealth().catch((error) => healthLog(error.message));
   }
+  if (tabName === "navigation" && !state.navigationScan) {
+    loadNavigationScan().catch((error) => navLog(error.message));
+  }
 }
 
 function setBusy(isBusy) {
@@ -452,6 +832,11 @@ function setBusy(isBusy) {
   $("refresh-health").disabled = isBusy;
   $("repair-health").disabled = isBusy;
   $("batch-plan").disabled = isBusy;
+  $("nav-scan").disabled = isBusy;
+  $("nav-init").disabled = isBusy;
+  $("nav-translate").disabled = isBusy;
+  $("nav-preview").disabled = isBusy;
+  $("nav-apply").disabled = isBusy;
   if (isBusy) {
     $("batch-run").disabled = true;
   }
@@ -463,6 +848,16 @@ function escapeHtml(value) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+}
+
+function languageLabel(code, name) {
+  if (!code) {
+    return "";
+  }
+  if (!name || name === code) {
+    return code;
+  }
+  return `${name} (${code})`;
 }
 
 document.querySelectorAll(".tab").forEach((button) => {
@@ -486,8 +881,39 @@ $("batch-plan").addEventListener("click", () => {
 $("batch-run").addEventListener("click", () => {
   runBatchTranslation().catch((error) => batchLog(error.message));
 });
-$("health-filter").addEventListener("input", renderVaultHealth);
-$("health-status").addEventListener("change", renderVaultHealth);
+$("nav-scan").addEventListener("click", () => {
+  loadNavigationScan().catch((error) => navLog(error.message));
+});
+$("nav-init").addEventListener("click", () => {
+  initNavigationModel().catch((error) => navLog(error.message));
+});
+$("nav-translate").addEventListener("click", () => {
+  translateNavigationLabels().catch((error) => navLog(error.message));
+});
+$("nav-preview").addEventListener("click", () => {
+  previewNavigationModel().catch((error) => navLog(error.message));
+});
+$("nav-apply").addEventListener("click", () => {
+  applyNavigationModel().catch((error) => navLog(error.message));
+});
+$("health-filter").addEventListener("input", () => {
+  state.matrixWindow = { start: 0, end: 0 };
+  renderVaultHealth();
+});
+$("health-status").addEventListener("change", () => {
+  state.matrixWindow = { start: 0, end: 0 };
+  renderVaultHealth();
+});
+$("matrix-window-start").addEventListener("pointerdown", (event) => startMatrixDrag("start", event));
+$("matrix-window-end").addEventListener("pointerdown", (event) => startMatrixDrag("end", event));
+$("matrix-window-selection").addEventListener("pointerdown", (event) => startMatrixDrag("range", event));
+document.addEventListener("pointermove", updateMatrixDrag);
+document.addEventListener("pointerup", stopMatrixDrag);
+window.addEventListener("resize", () => {
+  if (state.activeTab === "vault-health") {
+    renderVaultHealth();
+  }
+});
 $("dry-run").addEventListener("click", () => runTranslation(true));
 $("translate").addEventListener("click", () => runTranslation(false));
 

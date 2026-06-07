@@ -15,18 +15,22 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Klatschspiele MOC.md
-translation_source_hash: a847ed9608328861f27338bbb9f30c11a7306e28d789aa543eaa8bc2ed8d34e0
+translation_source_hash: 467eae8a50bdffe5cf8bb8767aa7082792d157eb37964f6747acd91930f34a36
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:20:01+00:00
+translation_updated: 2026-06-06T22:31:09+00:00
 ---
-# Gry z klaskaniem
+# Gry rytmiczne
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "klatschspiel") -->
 <!-- SerializedQuery: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "klatschspiel") -->
 
-| Plik                                                    | min. osób | maks. osób | Poziom trudności | Materiały | Czas trwania | Kategoria                       |
-| ------------------------------------------------------- | --------- | --------- | --------------- | --------- | ------------ | ------------------------------ |
-| [Ding Dang Dong](docs/de/Ding Dang Dong.md)           | -         | -         | -               | -         | -            | <ul><li>klatschspiel</li></ul> |
-| [Schoko Schoko La La](docs/de/Schoko Schoko La La.md) | 2         | 2         | łatwy           | brak     | 2-5          | <ul><li>klatschspiel</li></ul> |
+| File                                                    | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                       |
+| ------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------ |
+| [Ding Dang Dong](docs/de/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/de/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
+| [Ding Dang Dong](docs/en/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/en/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
+| [Ding Dang Dong](docs/pl/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/pl/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
 
 <!-- SerializedQuery END -->

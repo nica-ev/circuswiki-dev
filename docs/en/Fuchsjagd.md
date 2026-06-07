@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-18 02:40:53
+update: 2026-06-07 01:14:52
 title: Fuchsjagd
 description: 
 authors:
@@ -22,9 +22,9 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fuchsjagd.md
-translation_source_hash: c2a827637934c2e987a11c855fbda13f2f84b0d52c7d5496c4ee9fb0b37e0b3f
+translation_source_hash: 43bfa43e4a1262f575ec69a50b4b78a94dade66d8db20083b4a52613290a9b2b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:23:02+00:00
+translation_updated: 2026-06-07T13:28:01+00:00
 ---
 # Fox Hunt
 
@@ -38,9 +38,9 @@ translation_updated: 2026-06-06T19:23:02+00:00
 
 ## **Game Description**:
 
-Each participant tucks a cloth (as a "fox tail") into the back of their pants. Only the "fox" (the person who is "it") starts without a tail.
+Each participant tucks a cloth (as a "fox tail") into the back of their pants. Only the designated "fox" (the catcher) does not have a tail.
 
-The fox then tries to snatch a fox tail from another player. If successful, the player whose tail was snatched becomes the new fox.
+The fox then tries to snatch a fox tail from one of the other players. If successful, the player whose tail was snatched becomes the new fox.
 
 ## **Source**:
 

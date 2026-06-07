@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-25 23:10:38
+update: 2026-06-07 00:02:01
 title: Adler - Hase - Kohlkopf
 description: 
 authors:
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Adler - Hase - Kohlkopf
 
 **Gruppengröße** : ab 8 Mitspieler

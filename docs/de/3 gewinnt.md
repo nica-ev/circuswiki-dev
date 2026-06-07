@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2026-06-06 21:03:57
+update: 2026-06-07 00:01:34
 title: Drei gewinnt
 description: 
 authors:

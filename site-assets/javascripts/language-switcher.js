@@ -1,4 +1,5 @@
 var translationMapPromise = null;
+var LANGUAGE_CODES = ["de", "en", "pl", "hu", "it", "nl"];
 
 function currentScriptPath(scriptName) {
   var scripts = document.getElementsByTagName("script");
@@ -14,16 +15,16 @@ function currentScriptPath(scriptName) {
 function siteRootPath() {
   var scriptPath = currentScriptPath("language-switcher.js");
   var root = scriptPath.replace(/javascripts\/language-switcher\.js$/, "");
-  root = root.replace(/(?:en|pl)\/$/, "");
+  root = root.replace(new RegExp("(?:" + LANGUAGE_CODES.join("|") + ")\\/$"), "");
   if (!root.startsWith("/")) {
     root = "/" + root;
   }
   return root.endsWith("/") ? root : root + "/";
 }
 
-function currentLanguageAssetBase() {
+function currentLanguageRootPath() {
   var scriptPath = currentScriptPath("language-switcher.js");
-  return scriptPath.replace(/language-switcher\.js$/, "");
+  return scriptPath.replace(/javascripts\/language-switcher\.js$/, "");
 }
 
 function normalizedPath(value) {
@@ -72,38 +73,43 @@ function findCurrentGroup(map, path) {
 
 function rewriteLanguageLinks() {
   var base = siteRootPath();
-  var englishRoot = base + "en/";
-  var polishRoot = base + "pl/";
   var path = window.location.pathname;
   var context = "";
 
-  if (path.indexOf(polishRoot) === 0) {
-    context = path.slice(polishRoot.length);
-  } else if (path.indexOf(englishRoot) === 0) {
-    context = path.slice(englishRoot.length);
-  } else if (path.indexOf(base) === 0) {
+  for (var i = 0; i < LANGUAGE_CODES.length; i += 1) {
+    var language = LANGUAGE_CODES[i];
+    if (language === "de") {
+      continue;
+    }
+    var languageRoot = base + language + "/";
+    if (path.indexOf(languageRoot) === 0) {
+      context = path.slice(languageRoot.length);
+      break;
+    }
+  }
+
+  if (!context && path.indexOf(base) === 0) {
     context = path.slice(base.length);
-  } else {
+  }
+
+  if (!context && path.indexOf(base) !== 0) {
     context = path.replace(/^\/+/, "");
   }
 
-  if (context === "en" || context === "en/") {
+  if (LANGUAGE_CODES.some(function(language) {
+    return context === language || context === language + "/";
+  })) {
     context = "";
   }
 
-  document.querySelectorAll('a[hreflang="de"]').forEach(function(link) {
-    link.href = base + context;
+  LANGUAGE_CODES.forEach(function(language) {
+    var languageRoot = language === "de" ? base : base + language + "/";
+    document.querySelectorAll('a[hreflang="' + language + '"]').forEach(function(link) {
+      link.href = languageRoot + context;
+    });
   });
 
-  document.querySelectorAll('a[hreflang="en"]').forEach(function(link) {
-    link.href = englishRoot + context;
-  });
-
-  document.querySelectorAll('a[hreflang="pl"]').forEach(function(link) {
-    link.href = polishRoot + context;
-  });
-
-  loadTranslationMap(currentLanguageAssetBase()).then(function(map) {
+  loadTranslationMap(currentLanguageRootPath()).then(function(map) {
     var group = findCurrentGroup(map, path);
     if (!group || !group.languages) {
       return;

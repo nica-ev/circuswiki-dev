@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "updated": "2026-06-07T15:18:29+00:00",
+  "description": "Canonical CircusWiki navigation model. Edit items, then preview/apply from the dev console.",
+  "items": [
+    {
+      "id": "index",
+      "page": "index.md",
+      "labels": {
+        "de": "Home",
+        "en": "Home",
+        "pl": "Strona główna",
+        "hu": "Főoldal",
+        "it": "Home",
+        "nl": "Home",
+        "el": "Αρχική",
+        "es": "Inicio",
+        "uk": "Головна"
+      }
+    },
+    {
+      "id": "dokumentation-nica-ev",
+      "page": "Dokumentation Nica eV.md",
+      "labels": {
+        "de": "NICA e.V.",
+        "en": "NICA e.V.",
+        "pl": "NICA e.V.",
+        "hu": "NICA e.V.",
+        "it": "NICA e.V.",
+        "nl": "NICA e.V.",
+        "el": "NICA e.V.",
+        "es": "NICA e.V.",
+        "uk": "NICA e.V."
+      }
+    },
+    {
+      "id": "bewegungs-spiele",
+      "page": "Bewegungs-Spiele.md",
+      "labels": {
+        "de": "Bewegungs-Spiele",
+        "en": "Movement Games",
+        "pl": "Gry ruchowe",
+        "hu": "Mozgásjátékok",
+        "it": "Giochi di movimento",
+        "nl": "Bewegingsspellen",
+        "el": "Παιχνίδια Κίνησης",
+        "es": "Juegos de Movimiento",
+        "uk": "Ігри на рух"
+      }
+    },
+    {
+      "id": "liste-aller-spiele",
+      "page": "Liste aller Spiele.md",
+      "labels": {
+        "de": "Liste aller Spiele",
+        "en": "List of all Games",
+        "pl": "Lista wszystkich gier",
+        "hu": "Játékok listája",
+        "it": "Elenco di tutti i giochi",
+        "nl": "Lijst van alle spellen",
+        "el": "Λίστα όλων των Παιχνιδιών",
+        "es": "Lista de Todos los Juegos",
+        "uk": "Список усіх ігор"
+      }
+    },
+    {
+      "id": "lets-talk-about-inclusive-circus-practice",
+      "page": "Lets-talk-about-inclusive-circus-practice.md",
+      "labels": {
+        "de": "Erasmus+ Project",
+        "en": "Erasmus+ Project",
+        "pl": "Projekt Erasmus+",
+        "hu": "Erasmus+ Projekt",
+        "it": "Progetto Erasmus+",
+        "nl": "Erasmus+ Project",
+        "el": "Έργο Erasmus+",
+        "es": "Proyecto Erasmus+",
+        "uk": "Проєкт Erasmus+"
+      }
+    },
+    {
+      "id": "mitmachen",
+      "page": "mitmachen.md",
+      "labels": {
+        "de": "Mitmachen",
+        "en": "Get Involved",
+        "pl": "Dołącz",
+        "hu": "Csatlakozz",
+        "it": "Partecipa",
+        "nl": "Meedoen",
+        "el": "Συμμετοχή",
+        "es": "Participar",
+        "uk": "Долучайтеся"
+      }
+    }
+  ],
+  "source": "label translation from de to 8 languages (google/gemini-2.5-flash-lite)"
+}

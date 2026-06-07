@@ -2,7 +2,7 @@
 lang: de
 translation_id: beschutze-deinen-freund
 created: 2025-03-17 00:59:34
-update: 2025-03-17 02:21:48
+update: 2026-06-07 00:03:04
 publish: true
 tags:
   - spiele
@@ -16,6 +16,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Beschütze deinen Freund
 
 **Gruppengröße**: Ab 8 Mitspieler 

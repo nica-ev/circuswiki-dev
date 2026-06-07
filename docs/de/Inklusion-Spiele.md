@@ -20,5 +20,7 @@ translation_source_lang: de
 | File                                                                        | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                    |
 | --------------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | --------------------------- |
 | [Gemeinsamkeit und Unterschied](docs/de/Gemeinsamkeit und Unterschied.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>inklusion</li></ul> |
+| [Gemeinsamkeit und Unterschied](docs/en/Gemeinsamkeit und Unterschied.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>inklusion</li></ul> |
+| [Gemeinsamkeit und Unterschied](docs/pl/Gemeinsamkeit und Unterschied.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>inklusion</li></ul> |
 
 <!-- SerializedQuery END -->

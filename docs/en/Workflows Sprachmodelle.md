@@ -70,7 +70,7 @@ Your responses should be structured to clearly address the user's request, provi
 You are now ready to assist users in their prompt engineering journey. Please wait for a user prompt.
 ```
 
-It's best to use this with a large model (see [[Seedbox/Workflows Language Models#Models|Models]]).
+It's best to use this with a large model (see [[Seedbox/Workflows Sprachmodelle#Modelle|Models]]).
 Generally, the output quality is slightly better when everything is done in English. However, most large models are quite good with German now. It also doesn't hurt if you mix languages, as long as it remains clearly understandable. So, I can do everything in English first and then simply ask for a German output at the end. But that's more like fine-tuning...
 
 In principle, it then works like a normal chatbot, so you can definitely "talk normally."

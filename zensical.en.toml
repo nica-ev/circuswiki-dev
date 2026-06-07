@@ -6,13 +6,14 @@ site_description = "A wiki dedicated to circus pedagogy, circus arts, education,
 copyright = "CC BY-SA 4.0"
 docs_dir = ".build/en"
 site_dir = "site/en"
-extra_javascript = ["javascripts/language-switcher.js", "javascripts/translation-status.js"]
+extra_css = ["stylesheets/circuswiki.css"]
+extra_javascript = ["javascripts/site-theme.js", "javascripts/language-switcher.js", "javascripts/translation-status.js"]
 
 nav = [
   { "Home" = "index.md" },
   { "NICA e.V." = "Dokumentation Nica eV.md" },
   { "Movement Games" = "Bewegungs-Spiele.md" },
-  { "List of All Games" = "Liste aller Spiele.md" },
+  { "List of all Games" = "Liste aller Spiele.md" },
   { "Erasmus+ Project" = "Lets-talk-about-inclusive-circus-practice.md" },
   { "Get Involved" = "mitmachen.md" },
 ]
@@ -22,12 +23,19 @@ alternate = [
   { name = "Deutsch", link = "/circuswiki/", lang = "de" },
   { name = "English", link = "/circuswiki/en/", lang = "en" },
   { name = "Polski", link = "/circuswiki/pl/", lang = "pl" },
+  { name = "Magyar", link = "/circuswiki/hu/", lang = "hu" },
+  { name = "Italiano", link = "/circuswiki/it/", lang = "it" },
+  { name = "Nederlands", link = "/circuswiki/nl/", lang = "nl" },
+  { name = "Greek", link = "/circuswiki/el/", lang = "el" },
+  { name = "Spanish", link = "/circuswiki/es/", lang = "es" },
+  { name = "Ukrainian", link = "/circuswiki/uk/", lang = "uk" },
 ]
 
 [project.theme]
 variant = "modern"
 language = "en"
 features = [
+  "content.tooltips",
   "navigation.instant",
   "navigation.top",
   "navigation.tracking",
@@ -43,6 +51,11 @@ features = [
 [project.markdown_extensions.attr_list]
 
 [project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.zensical.extensions.preview]
+configurations = [
+  { targets.include = ["*", "**/*"], targets.exclude = ["_*", "__*", "_*/*", "__*/*"] },
+]
 
 [project.markdown_extensions.tables]
 

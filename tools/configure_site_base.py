@@ -10,6 +10,12 @@ CONFIGS = {
     "de": ROOT / "zensical.toml",
     "en": ROOT / "zensical.en.toml",
     "pl": ROOT / "zensical.pl.toml",
+    "hu": ROOT / "zensical.hu.toml",
+    "it": ROOT / "zensical.it.toml",
+    "nl": ROOT / "zensical.nl.toml",
+    "el": ROOT / "zensical.el.toml",
+    "es": ROOT / "zensical.es.toml",
+    "uk": ROOT / "zensical.uk.toml",
 }
 DEFAULT_BASE_URL = "https://nica-ev.github.io/circuswiki/"
 

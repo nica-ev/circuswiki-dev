@@ -29,4 +29,4 @@ Grupa wspólnie odpowiada „TAK!!!!” i zaczyna wykonywać proponowaną czynno
 
 ## Powiązane strony
 
-[Gdybym był królem](Gdybym%20był%20królem.md)
+[Gdybym był królem](Wenn%20ich%20König%20wär.md)

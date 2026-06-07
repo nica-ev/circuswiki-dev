@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2025-05-22 00:58:29
+update: 2026-06-07 00:03:22
 title: Bewegungsspiele
 description: 
 authors:
@@ -15,6 +15,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Bewegungsspiele
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "bewegung") -->
@@ -23,7 +24,6 @@ translation_source_lang: de
 | File                                                                      | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                                                  |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | --------------------------------------------------------- |
 | [3 gewinnt](docs/de/3 gewinnt.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
-| [3 gewinnt - Kopie](docs/de/3 gewinnt - Kopie.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
 | [Adler Hase Kohlkopf](docs/de/Adler Hase Kohlkopf.md)                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
 | [Feuer Wasser Sand](docs/de/Feuer Wasser Sand.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>warm-up</li><li>bewegung</li></ul>                |
 | [Figurenfangen](docs/de/Figurenfangen.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
@@ -43,5 +43,45 @@ translation_source_lang: de
 | [Vierfarbenfangen](docs/de/Vierfarbenfangen.md)                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
 | [Zeitbombe](docs/de/Zeitbombe.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
 | [Zombieball](docs/de/Zombieball.md)                                     | 5         | 30        | mittel        | Bälle    | 10         | <ul><li>bewegung</li></ul>                                |
+| [3 gewinnt](docs/en/3 gewinnt.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Adler Hase Kohlkopf](docs/en/Adler Hase Kohlkopf.md)                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Figurenfangen](docs/en/Figurenfangen.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Feuer Wasser Sand](docs/en/Feuer Wasser Sand.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>warm-up</li><li>bewegung</li></ul>                |
+| [Füßenageln](docs/en/Füßenageln.md)                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Haifisch](docs/en/Haifisch.md)                                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Jeder fängt Jeden](docs/en/Jeder fängt Jeden.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Katz und Maus](docs/en/Katz und Maus.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Klammern haschen](docs/en/Klammern haschen.md)                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Krankenhaus](docs/en/Krankenhaus.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Mensch ärgere dich nicht](docs/en/Mensch ärgere dich nicht.md)         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Möhre Hase Fuchs](docs/en/Möhre Hase Fuchs.md)                         | 15        | 99        | einfach       | keines   | 10         | <ul><li>fangen</li><li>warm-up</li><li>bewegung</li></ul> |
+| [Paar haschen & Kettenhaschen](docs/en/Paar haschen & Kettenhaschen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Pitbull](docs/en/Pitbull.md)                                           | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Schafe reißen](docs/en/Schafe reißen.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Schwesterchen hilf](docs/en/Schwesterchen hilf.md)                     | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [T-Shirt in der Hose](docs/en/T-Shirt in der Hose.md)                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Vierfarbenfangen](docs/en/Vierfarbenfangen.md)                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Zeitbombe](docs/en/Zeitbombe.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Zombieball](docs/en/Zombieball.md)                                     | 5         | 30        | mittel        | Bälle    | 10         | <ul><li>bewegung</li></ul>                                |
+| [3 gewinnt](docs/pl/3 gewinnt.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Adler Hase Kohlkopf](docs/pl/Adler Hase Kohlkopf.md)                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Feuer Wasser Sand](docs/pl/Feuer Wasser Sand.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>warm-up</li><li>bewegung</li></ul>                |
+| [Figurenfangen](docs/pl/Figurenfangen.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Füßenageln](docs/pl/Füßenageln.md)                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Haifisch](docs/pl/Haifisch.md)                                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Jeder fängt Jeden](docs/pl/Jeder fängt Jeden.md)                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Katz und Maus](docs/pl/Katz und Maus.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Klammern haschen](docs/pl/Klammern haschen.md)                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Krankenhaus](docs/pl/Krankenhaus.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Mensch ärgere dich nicht](docs/pl/Mensch ärgere dich nicht.md)         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Möhre Hase Fuchs](docs/pl/Möhre Hase Fuchs.md)                         | 15        | 99        | einfach       | keines   | 10         | <ul><li>fangen</li><li>warm-up</li><li>bewegung</li></ul> |
+| [Paar haschen & Kettenhaschen](docs/pl/Paar haschen & Kettenhaschen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Pitbull](docs/pl/Pitbull.md)                                           | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Schafe reißen](docs/pl/Schafe reißen.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Schwesterchen hilf](docs/pl/Schwesterchen hilf.md)                     | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [T-Shirt in der Hose](docs/pl/T-Shirt in der Hose.md)                   | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Vierfarbenfangen](docs/pl/Vierfarbenfangen.md)                         | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Zeitbombe](docs/pl/Zeitbombe.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>bewegung</li></ul>                                |
+| [Zombieball](docs/pl/Zombieball.md)                                     | 5         | 30        | mittel        | Bälle    | 10         | <ul><li>bewegung</li></ul>                                |
 
 <!-- SerializedQuery END -->

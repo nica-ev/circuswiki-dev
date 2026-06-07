@@ -1,0 +1,7 @@
+views:
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("dynamic")

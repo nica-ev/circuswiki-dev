@@ -25,7 +25,7 @@ Piłki [Podstawy](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
 Chusty [Podstawy](Tuchjonglage%20-%20Grundlagen.md)
 
-[[Maczugi]]
+[[Keulen]]
 
 Pierścienie
 

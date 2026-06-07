@@ -6,7 +6,7 @@ tags:
   - spiele
   - moc
 created: 2025-01-24 03:50:50
-update: 2025-08-29 23:22:12
+update: 2026-06-07 00:03:06
 title: Bewegungsspiele
 description: 
 authors:
@@ -14,6 +14,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Spiele
 
 [Liste aller Spiele](Liste%20aller%20Spiele.md){ .md-button }

@@ -1,5 +1,8 @@
 {
   "debugEnabled": false,
+  "defaultToolbar": null,
+  "editorMenuAsToolbar": false,
+  "editorMenuToolbar": null,
   "emptyViewToolbar": null,
   "export": {
     "includeIcons": true,
@@ -19,10 +22,16 @@
   ],
   "icon": "circle-ellipsis",
   "keepPropsState": false,
+  "lockCallouts": false,
+  "obsidianUiVisibility": {},
   "onboarding": {
-    "new-toolbar-mapping": true
+    "new-toolbar-mapping": true,
+    "startup-help-view": true,
+    "startup-help-welcome": true
   },
   "ribbonAction": "toolbar",
+  "ribbonToolbar": null,
+  "rules": [],
   "scriptingEnabled": false,
   "showEditInFabMenu": false,
   "showLaunchpad": false,
@@ -37,6 +46,9 @@
   },
   "showToolbarInFileMenu": false,
   "showToolbarInOther": "",
+  "showWhatsNew": true,
+  "textToolbar": null,
+  "textToolbarOnKeyboard": true,
   "toolbarProp": "notetoolbar",
   "toolbars": [
     {
@@ -61,28 +73,22 @@
           "tooltip": "Move to another folder",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -100,28 +106,22 @@
           "tooltip": "Save the note",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -139,28 +139,22 @@
           "tooltip": "Opens a new note",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -178,28 +172,22 @@
           "tooltip": "Deletes the note",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -217,28 +205,22 @@
           "tooltip": "Search",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -287,28 +269,22 @@
           "tooltip": "Move to another folder",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -326,28 +302,22 @@
           "tooltip": "Save the note",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -365,28 +335,22 @@
           "tooltip": "Opens a new note",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -404,28 +368,22 @@
           "tooltip": "Search",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "inGallery": false
@@ -453,6 +411,7 @@
       "updated": "2025-01-23T01:43:49.723Z"
     }
   ],
-  "version": 20250313.1,
+  "version": 20260428.1,
+  "webviewerToolbar": null,
   "whatsnew_version": 1.16
 }

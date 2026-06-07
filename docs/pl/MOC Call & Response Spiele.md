@@ -15,9 +15,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/MOC Call & Response Spiele.md
-translation_source_hash: 14e8876460cdf914131b1994886400a99e36efc904346e63110bcca11c605970
+translation_source_hash: d4d605175c1c2d1fa315d612fb307ca727ffe40dfbce9b80c512a45b4731d457
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:21:23+00:00
+translation_updated: 2026-06-06T22:32:09+00:00
 ---
 # Wywołanie i odpowiedź
 

@@ -166,7 +166,9 @@ python tools/stage_multilang.py
 zensical serve
 ```
 
-This serves only `zensical.toml`; do not use it to verify `/circuswiki/en/`.
+This serves only `zensical.toml` and does not run multilingual post-build steps.
+Do not use it to verify `/circuswiki/en/`, fallback pages, or hover previews.
+Hover previews depend on the augmented generated sitemap.
 
 Preview compiled multilingual site with the deployed `/circuswiki/` URL prefix:
 
@@ -174,7 +176,7 @@ Preview compiled multilingual site with the deployed `/circuswiki/` URL prefix:
 powershell -ExecutionPolicy Bypass -File tools/serve_multilang.ps1
 ```
 
-Use the multilingual preview command when testing language switching, translated pages, or final GitHub Pages URL shape. It builds all language configs first and serves the generated `site/` directory.
+Use the multilingual preview command when testing language switching, translated pages, fallback pages, hover previews, or final GitHub Pages URL shape. It builds all language configs first, augments the generated sitemaps, and serves the generated `site/` directory.
 
 Useful variants:
 
@@ -190,6 +192,9 @@ Expected local URLs:
 http://127.0.0.1:8000/circuswiki/
 http://127.0.0.1:8000/circuswiki/en/
 http://127.0.0.1:8000/circuswiki/pl/
+http://127.0.0.1:8000/circuswiki/hu/
+http://127.0.0.1:8000/circuswiki/it/
+http://127.0.0.1:8000/circuswiki/nl/
 ```
 
 Build all language sites:

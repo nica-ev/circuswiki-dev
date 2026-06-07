@@ -2,7 +2,7 @@
 lang: de
 translation_id: ballewirrwarr
 created: 2025-03-11 00:20:04
-update: 2025-03-17 05:42:24
+update: 2026-06-07 00:02:54
 publish: true
 tags:
   - spiele
@@ -22,6 +22,7 @@ group-max: "15"
 translation_status: original
 translation_source_lang: de
 ---
+
 # Bällewirrwarr
 
 **Gruppengröße**: 5 bis 15 Mitspieler 

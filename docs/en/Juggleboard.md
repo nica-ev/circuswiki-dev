@@ -19,4 +19,4 @@ translation_updated: 2026-06-06T19:23:35+00:00
 ---
 #todo Fill with content
 
-**see also** [[Juggleboard Error Correction]]
+**see also** [[Juggleboard Fehlerkorrektur]]

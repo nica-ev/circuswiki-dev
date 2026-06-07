@@ -10,6 +10,8 @@
   --yellow: #d6a935;
   --red: #dc5b52;
   --code: #0b0e0c;
+  --matrix-label-width: 82px;
+  --matrix-min-plot-width: 1320px;
 }
 
 * {
@@ -320,12 +322,93 @@ label {
   accent-color: var(--accent);
 }
 
+.matrix-controls {
+  display: grid;
+  gap: 7px;
+  margin: 8px 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  background: var(--code);
+}
+
+.matrix-control-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.matrix-control-labels strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.matrix-range {
+  position: relative;
+  height: 24px;
+  touch-action: none;
+}
+
+.matrix-range-track,
+.matrix-range-selection {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+  height: 4px;
+  border-radius: 999px;
+  background: #263129;
+}
+
+.matrix-range-selection {
+  right: auto;
+  left: var(--range-left, 0%);
+  width: var(--range-width, 100%);
+  background: var(--accent);
+  cursor: grab;
+}
+
+.matrix-range-selection:active {
+  cursor: grabbing;
+}
+
+.matrix-range-handle {
+  position: absolute;
+  top: 4px;
+  left: var(--handle-left, 0%);
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  padding: 0;
+  background: var(--panel-2);
+  cursor: ew-resize;
+}
+
+.matrix-range-handle:hover,
+.matrix-range-handle.active {
+  border-color: #ffd487;
+  background: var(--accent);
+}
+
 .matrix-wrap {
+  width: 100%;
+  min-width: 0;
   max-height: 68vh;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--code);
+}
+
+.matrix-wrap .matrix {
+  width: max(100%, calc(var(--matrix-label-width) + var(--matrix-min-plot-width)));
 }
 
 .batch-list-wrap {
@@ -358,10 +441,69 @@ label {
   color: var(--muted);
 }
 
+.nav-workspace {
+  display: grid;
+  grid-template-columns: minmax(420px, 0.9fr) minmax(460px, 1.1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.nav-model-editor {
+  min-height: 56vh;
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  white-space: pre;
+}
+
+.nav-diagnostics {
+  display: grid;
+  gap: 6px;
+  max-height: 30vh;
+  margin: 8px 0 12px;
+  overflow: auto;
+}
+
+.nav-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  background: var(--code);
+}
+
+.nav-card strong {
+  color: var(--accent);
+}
+
+.nav-card ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+.nav-card li {
+  margin: 2px 0;
+}
+
+.muted-inline {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.inline-code {
+  max-height: 160px;
+  margin: 6px 0 0;
+  overflow: auto;
+  color: #d8e8d9;
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.7rem;
+  white-space: pre;
+}
+
 .matrix {
   width: auto;
   min-width: 0;
   border-collapse: collapse;
+  table-layout: fixed;
   font-family: "Cascadia Mono", "Courier New", monospace;
   font-size: 0.68rem;
 }
@@ -369,7 +511,7 @@ label {
 .matrix th,
 .matrix td {
   border: 1px solid #1a221c;
-  padding: 1px;
+  padding: 0;
   text-align: center;
   white-space: nowrap;
 }
@@ -387,6 +529,7 @@ label {
   left: 0;
   z-index: 2;
   background: #192019;
+  box-shadow: 1px 0 0 #263129;
 }
 
 .matrix thead .sticky-col {
@@ -394,13 +537,20 @@ label {
 }
 
 .lang-col {
-  min-width: 38px;
+  width: var(--matrix-label-width);
+  min-width: var(--matrix-label-width);
+  max-width: var(--matrix-label-width);
+  padding: 0 8px !important;
+  text-align: left !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: var(--muted);
 }
 
 .note-index {
-  min-width: 15px;
-  max-width: 15px;
+  width: var(--matrix-cell-width, 15px);
+  min-width: var(--matrix-cell-width, 15px);
+  max-width: var(--matrix-cell-width, 15px);
   overflow: hidden;
   color: #5e6b61 !important;
   font-size: 0.52rem;
@@ -409,7 +559,8 @@ label {
 
 .status-cell {
   display: block;
-  width: 14px;
+  width: calc(var(--matrix-cell-width, 15px) - 1px);
+  min-width: 2px;
   height: 14px;
   padding: 0;
   border-radius: 2px;
@@ -447,7 +598,8 @@ label {
   }
 
   .metrics,
-  .workspace {
+  .workspace,
+  .nav-workspace {
     grid-template-columns: 1fr;
   }
 }

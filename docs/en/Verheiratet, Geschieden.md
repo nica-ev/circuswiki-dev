@@ -27,4 +27,4 @@ Everyone stands in a circle. One person stands in the middle. This person tries 
 
 If someone is tagged, they must go to the middle, and the previous middle person can join the circle.
 
-The title also reminds of a specific rhyme: [[Jump Rope Rhymes]]
+The title also reminds of a specific rhyme: [[Seilspringen Reime]]

@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 05:40:21
+update: 2026-06-07 00:02:07
 title: Alaska Baseball
 description: 
 authors:
@@ -22,6 +22,7 @@ group-max: "100"
 translation_status: original
 translation_source_lang: de
 ---
+
 # Alaska Baseball
 
 **Gruppengröße**: 30 bis 100 Mitspieler 

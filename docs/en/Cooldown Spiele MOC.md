@@ -15,9 +15,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 59b5c3cf9ddbf81c236b7ee06b4a370aca4b32d1ad39ece71282d8db2ec36ed0
+translation_source_hash: e22ba2c255703c246a75743322ea202b5c10cab0da7349ec2d9f51ca2e3e675a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:20:58+00:00
+translation_updated: 2026-06-06T22:24:16+00:00
 ---
 # Cooldown Games MOC
 

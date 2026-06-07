@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 02:04:52
+update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
 description: 
 authors:
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Bibbel Di Babbel Di Buh
 
 Ein Kreisspiel für kleine bis mittlere Gruppen.

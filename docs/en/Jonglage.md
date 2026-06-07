@@ -21,11 +21,11 @@ translation_updated: 2026-06-06T19:23:35+00:00
 
 Classic (Western) Objects in Throwing Juggling
 
-Balls [Basics](Basics%20Throwing%20Juggling%20-%20Cascade.md)
+Balls [Basics](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
-Scarves [Basics](Scarf%20Juggling%20-%20Basics.md)
+Scarves [Basics](Tuchjonglage%20-%20Grundlagen.md)
 
-[[Clubs]]
+[[Keulen]]
 
 Rings
 

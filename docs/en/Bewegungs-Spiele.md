@@ -6,7 +6,7 @@ tags:
   - spiele
   - moc
 created: 2025-01-24 03:50:50
-update: 2025-08-29 23:22:12
+update: 2026-06-07 00:03:06
 title: Bewegungsspiele
 description: 
 authors:
@@ -14,9 +14,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungs-Spiele.md
-translation_source_hash: fdd82386334f28f458f3f2acf22ee3c9fad67c253a065a3a01236b5801d32800
+translation_source_hash: 014211a7927f53bc5f3fffc9d6ddb376b8098e41a3a8faa20c6f622fca5aea8c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:19:26+00:00
+translation_updated: 2026-06-06T22:23:56+00:00
 ---
 # Games
 

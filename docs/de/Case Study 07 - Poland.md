@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-07-poland
 created: 2025-08-30 20:42:55
-update: 2026-06-06 21:48:55
+update: 2026-06-07 00:08:14
 publish: false
 tags:
   - case-study
@@ -18,6 +18,7 @@ translation_source_hash: 9ad6e4ab40cc343b3116894e14d2d961c10a37ccc26f0549208c3c3
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:03+00:00
 ---
+
 # **Versteckte Therapie durch Spiel: Funktionales Jonglieren mit Kindern mit Autismus und ihren Betreuungspersonen**
 
 *Basierend auf der Arbeit von **Miłosz Goślicki***, Zirkuspädagoge und Zirkuskünstler in der Region **Podbeskidzie** in Polen,

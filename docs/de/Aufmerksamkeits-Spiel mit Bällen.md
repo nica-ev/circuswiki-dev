@@ -2,7 +2,7 @@
 lang: de
 translation_id: aufmerksamkeits-spiel-mit-ballen
 created: 2025-03-17 00:09:44
-update: 2025-03-17 02:41:57
+update: 2026-06-07 00:02:16
 publish: true
 tags:
   - spiele
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Aufmerksamkeits-Spiel mit Bällen
 
 Spiel für kleine und mittlere Gruppen.

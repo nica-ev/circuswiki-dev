@@ -2,7 +2,7 @@
 lang: de
 translation_id: beigoma
 created: 2025-01-25 02:09:19
-update: 2025-02-06 21:40:14
+update: 2026-06-07 00:02:54
 publish: true
 tags:
   - beigoma
@@ -15,6 +15,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Allgemeines
 
 [Beigoma Terminologie](Beigoma%20Terminologie.md)

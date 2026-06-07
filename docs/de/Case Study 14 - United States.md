@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-14-united-states
 created: 2025-08-30 21:35:00
-update: 2026-06-06 21:49:38
+update: 2026-06-07 00:08:37
 publish: false
 tags:
   - case-study
@@ -18,6 +18,7 @@ translation_source_hash: 443f002e7947cf39f860a4c596a7e62a780f63d6f19fa04f58e2516
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:43+00:00
 ---
+
 # **Funktionelles Jonglieren zur Förderung der Schreibwerkzeugkompetenz bei einem Kind mit ADHS**
 
 [Quat Props](Quat%20Props.md) - Vereinigte Staaten

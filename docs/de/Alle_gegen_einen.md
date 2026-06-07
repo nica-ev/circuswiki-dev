@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:56:24
+update: 2026-06-07 00:02:08
 title: Alle gegen einen
 description: 
 authors:
@@ -15,6 +15,7 @@ category:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Alle gegen einen
 
 Ein Kooperationsspiel mit starken strategischen Elementen welches mit mittleren Gruppen am besten zu spielen ist. Kein reines Koop-Spiel da, wie der Name schon sagt - die ganze Gruppe gegen einen einzelnen spielt.

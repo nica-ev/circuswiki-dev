@@ -24,5 +24,9 @@ translation_source_lang: de
 | ------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------ |
 | [Ding Dang Dong](docs/de/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
 | [Schoko Schoko La La](docs/de/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
+| [Ding Dang Dong](docs/en/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/en/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
+| [Ding Dang Dong](docs/pl/Ding Dang Dong.md)           | \-        | \-        | \-            | \-       | \-         | <ul><li>klatschspiel</li></ul> |
+| [Schoko Schoko La La](docs/pl/Schoko Schoko La La.md) | 2         | 2         | einfach       | keines   | 2-5        | <ul><li>klatschspiel</li></ul> |
 
 <!-- SerializedQuery END -->

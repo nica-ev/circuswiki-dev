@@ -15,30 +15,58 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 59b5c3cf9ddbf81c236b7ee06b4a370aca4b32d1ad39ece71282d8db2ec36ed0
+translation_source_hash: e22ba2c255703c246a75743322ea202b5c10cab0da7349ec2d9f51ca2e3e675a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:10:44+00:00
+translation_updated: 2026-06-06T22:30:43+00:00
 ---
 # Gry wyciszające MOC
 
 <!-- QueryToSerialize: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "cool-down") -->
 <!-- SerializedQuery: Table group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM #spiele AND "docs" WHERE contains(category, "cool-down") -->
 
-| Plik                                                                                          | min. gr. | maks. gr. | Trudność | Materiał | Czas gry | Kategoria                                      |
-| --------------------------------------------------------------------------------------------- | -------- | --------- | -------- | -------- | -------- | ---------------------------------------------- |
-| [Bewerbung im Zirkus](docs/de/Bewerbung im Zirkus.md)                                       | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li><li>gra w kręgu</li></ul> |
-| [Bücherbalance](docs/de/Bücherbalance.md)                                                   | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li></ul>                    |
-| [Hände spüren](docs/de/Hände spüren.md)                                                     | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li></ul>                    |
-| [Kartoffel Kartoffel](docs/de/Kartoffel Kartoffel.md)                                       | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li></ul>                    |
-| [Klatsch mit Augenkontakt](docs/de/Klatsch mit Augenkontakt.md)                             | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li><li>gra w kręgu</li></ul> |
-| [Massagespiel - Bauer und Kartoffelfeld](docs/de/Massagespiel - Bauer und Kartoffelfeld.md) | \-       | \-        | \-       | \-       | \-       | <ul><li>gra w kręgu</li><li>wyciszające</li></ul> |
-| [Medusa](docs/de/Medusa.md)                                                                 | \-       | \-        | \-       | \-       | \-       | <ul><li>gra w kręgu</li><li>wyciszające</li></ul> |
-| [Menschenhalma](docs/de/Menschenhalma.md)                                                   | \-       | \-        | \-       | \-       | \-       | <ul><li>taktyka</li><li>wyciszające</li></ul>     |
-| [Mörderspiel](docs/de/Mörderspiel.md)                                                       | \-       | \-        | \-       | \-       | \-       | <ul><li>taktyka</li><li>wyciszające</li></ul>     |
-| [Nadelöhr](docs/de/Nadelöhr.md)                                                             | \-       | \-        | \-       | \-       | \-       | <ul><li>gra w kręgu</li><li>wyciszające</li></ul> |
-| [Roboter](docs/de/Roboter.md)                                                               | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li></ul>                    |
-| [Schach](docs/de/Schach.md)                                                                 | \-       | \-        | \-       | \-       | \-       | <ul><li>taktyka</li><li>wyciszające</li></ul>     |
-| [Zip Zap](docs/de/Zip Zap.md)                                                               | \-       | \-        | \-       | \-       | \-       | <ul><li>wyciszające</li></ul>                    |
-| [Zungenmörder](docs/de/Zungenmörder.md)                                                     | 10       | 30        | średnia   | brak     | 5 - 10   | <ul><li>wyciszające</li><li>gra w kręgu</li></ul> |
+| File                                                                                          | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                                       |
+| --------------------------------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ---------------------------------------------- |
+| [Bewerbung im Zirkus](docs/de/Bewerbung im Zirkus.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Bücherbalance](docs/de/Bücherbalance.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Hände spüren](docs/de/Hände spüren.md)                                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Kartoffel Kartoffel](docs/de/Kartoffel Kartoffel.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Klatsch mit Augenkontakt](docs/de/Klatsch mit Augenkontakt.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Massagespiel - Bauer und Kartoffelfeld](docs/de/Massagespiel - Bauer und Kartoffelfeld.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Medusa](docs/de/Medusa.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Menschenhalma](docs/de/Menschenhalma.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Mörderspiel](docs/de/Mörderspiel.md)                                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Nadelöhr](docs/de/Nadelöhr.md)                                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Schach](docs/de/Schach.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Roboter](docs/de/Roboter.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Zip Zap](docs/de/Zip Zap.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Zungenmörder](docs/de/Zungenmörder.md)                                                     | 10        | 30        | mittel        | keines   | 5 - 10     | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Bewerbung im Zirkus](docs/en/Bewerbung im Zirkus.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Bücherbalance](docs/en/Bücherbalance.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Hände spüren](docs/en/Hände spüren.md)                                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Kartoffel Kartoffel](docs/en/Kartoffel Kartoffel.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Klatsch mit Augenkontakt](docs/en/Klatsch mit Augenkontakt.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Massagespiel - Bauer und Kartoffelfeld](docs/en/Massagespiel - Bauer und Kartoffelfeld.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Medusa](docs/en/Medusa.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Menschenhalma](docs/en/Menschenhalma.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Mörderspiel](docs/en/Mörderspiel.md)                                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Nadelöhr](docs/en/Nadelöhr.md)                                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Roboter](docs/en/Roboter.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Schach](docs/en/Schach.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Zip Zap](docs/en/Zip Zap.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Zungenmörder](docs/en/Zungenmörder.md)                                                     | 10        | 30        | mittel        | keines   | 5 - 10     | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Bewerbung im Zirkus](docs/pl/Bewerbung im Zirkus.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Bücherbalance](docs/pl/Bücherbalance.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Hände spüren](docs/pl/Hände spüren.md)                                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Kartoffel Kartoffel](docs/pl/Kartoffel Kartoffel.md)                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Klatsch mit Augenkontakt](docs/pl/Klatsch mit Augenkontakt.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [Massagespiel - Bauer und Kartoffelfeld](docs/pl/Massagespiel - Bauer und Kartoffelfeld.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Medusa](docs/pl/Medusa.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Menschenhalma](docs/pl/Menschenhalma.md)                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Mörderspiel](docs/pl/Mörderspiel.md)                                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Nadelöhr](docs/pl/Nadelöhr.md)                                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
+| [Roboter](docs/pl/Roboter.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Schach](docs/pl/Schach.md)                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [Zip Zap](docs/pl/Zip Zap.md)                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
+| [Zungenmörder](docs/pl/Zungenmörder.md)                                                     | 10        | 30        | mittel        | keines   | 5 - 10     | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
 
 <!-- SerializedQuery END -->

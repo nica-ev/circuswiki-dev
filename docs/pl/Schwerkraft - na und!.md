@@ -21,7 +21,7 @@ translation_updated: 2026-06-06T20:23:00+00:00
 ---
 ## Autonomiczna Grupa Żonglerska Wiesbaden i 7. Europejski Tydzień Żonglerki
 **Grawitacja – i co z tego!**
-[Grawitacja – i co z tego!](Grawitacja%20–%20i%20co%20z%20tego!.md)
+[Grawitacja – i co z tego!](Schwerkraft%20-%20na%20und!.md)
 
 Autonomiczna grupa żonglerska SCHWERKRAFT NA UND! z Wiesbaden, a właściwie z regionu Ren-Min, istnieje dopiero od stosunkowo niedawna.
 Jeszcze w sierpniu 1982 roku w Wiesbaden było niewielu żonglerów, którzy ledwo coś o sobie wiedzieli. Przypadkiem spotkało się trzech założycieli: Paul, Uli i Christoph. Następnie żonglowali w parkach Wiesbaden i kilka tygodni później postanowili pojechać na 5. Europejskie Spotkanie Żonglerów do Kopenhagi.

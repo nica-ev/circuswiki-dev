@@ -19,4 +19,4 @@ translation_updated: 2026-06-06T20:16:02+00:00
 ---
 # do zrobienia wypełnić treścią
 
-**zobacz też** [[Juggleboard Korekta błędów]]
+**zobacz też** [[Juggleboard Fehlerkorrektur]]

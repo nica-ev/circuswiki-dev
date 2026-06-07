@@ -25,6 +25,6 @@ Często w bardzo krótkim czasie można osiągnąć sukcesy, aż do poziomu żon
 
 Początkującym bardzo pomaga również używanie chusteczek w różnych kolorach, co pozwala lepiej zorientować się w sytuacji.
 
-[[Podstawy dżonglerki chusteczkami]]
-[[Rzucanie i łapanie jednej chusteczki]]
-[[Dżonglerka chusteczkami – rzucanie i łapanie 2 chusteczek]]
+[[Tücherjonglage Grundlagen]]
+[[Werfen und Fangen von einem Tuch]]
+[[Tuchjonglage - 2 Tücher Werfen und Fangen]]

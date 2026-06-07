@@ -24,5 +24,9 @@ translation_source_lang: de
 | ------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------- |
 | [Die Geschichte der Banane](docs/de/Die Geschichte der Banane.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
 | [Löwenjagd](docs/de/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Die Geschichte der Banane](docs/en/Die Geschichte der Banane.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Löwenjagd](docs/en/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Die Geschichte der Banane](docs/pl/Die Geschichte der Banane.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Löwenjagd](docs/pl/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
 
 <!-- SerializedQuery END -->

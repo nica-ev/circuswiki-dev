@@ -34,4 +34,4 @@ The person on the floor must then guess how many hands are on their body.
 Depending on the time available and how the participants feel, several rounds can be played. Then, switch roles.
 
 **See also:**
-[Robot](Robot.md) - this game also involves nonverbal interaction and sensing.
+[Robot](Roboter.md) - this game also involves nonverbal interaction and sensing.

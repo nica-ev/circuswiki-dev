@@ -27,4 +27,4 @@ Wszyscy uczestnicy stają w kręgu. Jedna osoba staje na środku. Ta osoba prób
 
 Jeśli ktoś zostanie dotknięty, musi on/ona wejść na środek, a dotychczasowa osoba ze środka może dołączyć do kręgu.
 
-Tytuł nawiązuje również do pewnej rymowanki: [[Rymowanki do skakania na skakance]]
+Tytuł nawiązuje również do pewnej rymowanki: [[Seilspringen Reime]]

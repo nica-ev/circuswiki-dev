@@ -8,42 +8,46 @@ tags:
 title: About the projects
 description:
 authors:
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Disclaimer.md
+translation_source_hash: 480c2f13500bbbcb7d6994ae471b03f06e43d231b77d6256ee077f91e68cb905
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-07T13:27:42+00:00
 ---
-![EN_FundedbytheEU_RGB_POS.png](../img/EN_FundedbytheEU_RGB_POS.png)
-## About the projects
+![DE_FundedbytheEU_RGB_POS.png](../img/DE_FundedbytheEU_RGB_POS.png)
+## Über die Projekte
 
-European projects—especially those supported by the Erasmus+ programme—have given us tremendous opportunities to share, learn, and grow together. Thanks to this ongoing support, we’ve been able to discover new methodologies, build cross-border collaborations, and bring dreams into reality.
-The circus sector is evolving dynamically. Through personal meetings, regular online exchanges, and deep collaboration, we’ve all grown—not only as professionals, but also as human beings. These shared experiences have a lasting impact on our daily practice, our values, and our vision for what circus can be.
-This current project, “Creative Inclusion of Special Need Groups - Much More Than Circus”, spanned one year and brought together five core organisations from across Europe. Together, we delivered:
-- Three international in-person events: a convention, a conference and a training
-- A series of online symposiums
-- And this present Book of Case Studies
+Europäische Projekte – insbesondere solche, die durch das Erasmus+ Programm gefördert werden – haben uns immense Möglichkeiten eröffnet, uns auszutauschen, voneinander zu lernen und gemeinsam zu wachsen. Dank dieser fortlaufenden Unterstützung konnten wir neue Methoden entdecken, grenzüberschreitende Kooperationen aufbauen und Träume verwirklichen.
+Der Zirkussektor entwickelt sich dynamisch weiter. Durch persönliche Treffen, regelmäßige Online-Austausche und intensive Zusammenarbeit sind wir alle gewachsen – nicht nur als Fachleute, sondern auch als Menschen. Diese gemeinsamen Erfahrungen haben einen bleibenden Einfluss auf unsere tägliche Praxis, unsere Werte und unsere Vision davon, was Zirkus sein kann.
+Das aktuelle Projekt „Creative Inclusion of Special Need Groups - Much More Than Circus“ erstreckte sich über ein Jahr und brachte fünf Kernorganisationen aus ganz Europa zusammen. Gemeinsam haben wir Folgendes auf die Beine gestellt:
+- Drei internationale Präsenzveranstaltungen: eine Tagung, eine Konferenz und eine Schulung
+- Eine Reihe von Online-Symposien
+- Und dieses vorliegende Fallstudienbuch
 
- We also invited guest organisations to contribute, offering a broader and more diverse picture of inclusive circus practices. With this, we aim to contribute to something much greater: the growing work of the Functional Juggling Network, and the future of a truly inclusive international circus community.
- We hope the seeds planted here will grow into many beautiful collaborations to come.
+Wir haben auch Gastorganisationen eingeladen, sich zu beteiligen und so ein breiteres und vielfältigeres Bild inklusiver Zirkuspraktiken zu zeichnen. Damit wollen wir zu etwas Größerem beitragen: der wachsenden Arbeit des Functional Juggling Network und der Zukunft einer wirklich inklusiven internationalen Zirkusgemeinschaft.
+Wir hoffen, dass die hier gesäten Samen zu vielen schönen zukünftigen Kooperationen heranwachsen werden.
 
-🎥 Watch the symposium [here: ](https://www.youtube.com/playlist?list=PL6v447yuJWYhkqxr3rKsJAsb9HBPmPxP_)
+🎥 Das Symposium ansehen [hier: ](https://www.youtube.com/playlist?list=PL6v447yuJWYhkqxr3rKsJAsb9HBPmPxP_)
 
-**Participating Organisations**:
-Hungarian Juggling Association - Inspiral Circus Center (Hungary)
-Monokyklo  (Greece) 
-Odskocznia Studio (Poland) 
-Circusatelier Woesh (Belgium) 
-SELF A.P.S. (Italy)
+**Beteiligte Organisationen**:
+Hungarian Juggling Association - Inspiral Circus Center (Ungarn)
+Monokyklo (Griechenland)
+Odskocznia Studio (Polen)
+Circusatelier Woesh (Belgien)
+SELF A.P.S. (Italien)
 
-Within this book "Let´s talk about the inclusive circus practice" the project partners invited guest contributors in order to give a wider perspective to the field.
+Innerhalb dieses Buches „Let´s talk about the inclusive circus practice“ luden die Projektpartner Gastbeitragende ein, um eine breitere Perspektive auf das Feld zu ermöglichen.
 
-**Guest Contributors:** 
-- Quat Props, United States
-- NICA E.V, Germany
-- Hula Hoop Integral, Argentina
+**Gastbeitragende:**
+- Quat Props, Vereinigte Staaten
+- NICA E.V, Deutschland
+- Hula Hoop Integral, Argentinien
 
-**Design and Layout** (printable book): Jael Rodríguez 
-**Text Editing**: Craig Quat
-**First edition**: August 2025
-© 2025. Intellectual property rights belong to each respective author and organisation.
+**Gestaltung und Layout** (druckbares Buch): Jael Rodríguez
+**Textredaktion**: Craig Quat
+**Erste Auflage**: August 2025
+© 2025. Die Rechte am geistigen Eigentum liegen bei jedem Autor und jeder Organisation.
 
-*Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the Tempus Public Foundation (TPF). Neither the European Union nor the granting authority can be held responsible for them.
-Project number : 2024-1-HU01-KA210-VET-000251194*
+*Mitfinanziert durch die Europäische Union. Die geäußerten Ansichten und Meinungen sind jedoch die des/der Autor(en) allein und spiegeln nicht notwendigerweise die der Europäischen Union oder der Tempus Public Foundation (TPF) wider. Weder die Europäische Union noch die Fördermittelgeber können dafür verantwortlich gemacht werden.
+Projektnummer: 2024-1-HU01-KA210-VET-000251194*
