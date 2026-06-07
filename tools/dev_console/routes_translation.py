@@ -96,7 +96,22 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
         try:
             target_lang = str(payload.get("target_lang") or "")
             max_files = int(payload.get("max_files") or 0)
-            return handler.send_json(batch_translation_plan(target_lang, max_files))
+            raw_max_source_chars = payload.get("max_source_chars")
+            max_source_chars = (
+                int(raw_max_source_chars)
+                if raw_max_source_chars not in (None, "", 0, "0")
+                else None
+            )
+            return handler.send_json(
+                batch_translation_plan(
+                    target_lang=target_lang,
+                    max_files=max_files,
+                    source_lang=str(payload.get("source_lang") or "all"),
+                    reason=str(payload.get("reason") or "all"),
+                    max_source_chars=max_source_chars,
+                    path_filter=str(payload.get("path_filter") or ""),
+                )
+            )
         except Exception as exc:
             return handler.send_error_json(500, str(exc))
 

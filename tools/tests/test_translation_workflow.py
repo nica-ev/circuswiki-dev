@@ -24,6 +24,27 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertIn("target_langs", plan)
         self.assertIn("de", plan["target_langs"])
 
+    def test_batch_plan_reason_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, reason="missing_file")
+        self.assertTrue(
+            all(item["reason"] == "missing_file" for item in plan["candidates"]),
+            plan["candidates"],
+        )
+        self.assertEqual(plan["filters"]["reason"], "missing_file")
+
+    def test_batch_plan_source_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, source_lang="de")
+        self.assertTrue(
+            all(item["source_lang"] == "de" for item in plan["candidates"]),
+            plan["candidates"],
+        )
+        self.assertEqual(plan["filters"]["source_lang"], "de")
+
+    def test_batch_plan_max_source_chars_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, max_source_chars=1)
+        self.assertEqual(plan["total_candidates"], 0)
+        self.assertEqual(plan["filters"]["max_source_chars"], 1)
+
     def test_source_language_uses_original_status(self) -> None:
         pages = {
             "en": [self.page("en", "machine-translated")],

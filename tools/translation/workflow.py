@@ -390,9 +390,15 @@ def deterministic_repair_remaining_issues(
 def batch_translation_plan(
     target_lang: str,
     max_files: int,
+    source_lang: str = "all",
+    reason: str = "all",
+    max_source_chars: int | None = None,
+    path_filter: str = "",
 ) -> dict[str, object]:
     if max_files < 1:
         raise ValueError("max_files must be at least 1")
+    if max_source_chars is not None and max_source_chars < 1:
+        raise ValueError("max_source_chars must be at least 1")
 
     languages, groups = discover_vault_pages()
     target_langs = list(languages) if target_lang == "all" else [target_lang]
@@ -401,27 +407,60 @@ def batch_translation_plan(
         raise ValueError(f"Unknown target language: {', '.join(unknown)}")
     if not target_langs:
         raise ValueError(f"Unknown target language: {target_lang}")
+    if source_lang != "all" and source_lang not in languages:
+        raise ValueError(f"Unknown source language: {source_lang}")
+    if reason not in batch_translation_candidate_reasons():
+        raise ValueError(f"Unknown candidate reason: {reason}")
 
     candidates: list[dict[str, object]] = []
     skipped: list[dict[str, str]] = []
+    normalized_path_filter = path_filter.strip().lower()
 
     for translation_id in sorted(groups):
         pages_by_language = groups[translation_id]
-        source_lang = find_group_source_language(pages_by_language)
+        group_source_lang = find_group_source_language(pages_by_language)
+        if source_lang != "all" and group_source_lang != source_lang:
+            skipped.append(
+                {
+                    "translation_id": translation_id,
+                    "source_lang": group_source_lang,
+                    "reason": "source_lang_filter",
+                }
+            )
+            continue
 
-        source_pages = pages_by_language.get(source_lang) or []
+        source_pages = pages_by_language.get(group_source_lang) or []
         if not source_pages:
             skipped.append({"translation_id": translation_id, "reason": "missing_source"})
             continue
 
         source_page = primary_page(source_pages)
+        if max_source_chars is not None and len(source_page.body) > max_source_chars:
+            skipped.append(
+                {
+                    "translation_id": translation_id,
+                    "source_lang": group_source_lang,
+                    "reason": "max_source_chars_filter",
+                }
+            )
+            continue
+        if normalized_path_filter and not batch_path_filter_matches(source_page, normalized_path_filter):
+            skipped.append(
+                {
+                    "translation_id": translation_id,
+                    "source_lang": group_source_lang,
+                    "reason": "path_filter",
+                }
+            )
+            continue
+
         excluded_reason = batch_translation_exclusion_reason(source_page)
         if excluded_reason:
             skipped.append({"translation_id": translation_id, "reason": excluded_reason})
             continue
 
         for candidate_target_lang in target_langs:
-            if source_lang == candidate_target_lang:
+            if group_source_lang == candidate_target_lang:
                 skipped.append(
                     {
                         "translation_id": translation_id,
@@ -433,8 +472,8 @@ def batch_translation_plan(
 
             target_pages = pages_by_language.get(candidate_target_lang) or []
             target_page = primary_page(target_pages) if target_pages else None
-            reason = translation_candidate_reason(source_page, target_page, source_lang)
-            if not reason:
+            candidate_reason = translation_candidate_reason(source_page, target_page, group_source_lang)
+            if not candidate_reason:
                 skipped.append(
                     {
                         "translation_id": translation_id,
@@ -443,19 +482,28 @@ def batch_translation_plan(
                     }
                 )
                 continue
+            if reason != "all" and candidate_reason != reason:
+                skipped.append(
+                    {
+                        "translation_id": translation_id,
+                        "target_lang": candidate_target_lang,
+                        "reason": "candidate_reason_filter",
+                    }
+                )
+                continue
 
             candidates.append(
                 {
                     "translation_id": translation_id,
                     "title": source_page.title,
-                    "source_lang": source_lang,
-                    "source_language": language_name(source_lang),
+                    "source_lang": group_source_lang,
+                    "source_language": language_name(group_source_lang),
                     "target_lang": candidate_target_lang,
                     "target_language": language_name(candidate_target_lang),
                     "source_path": source_page.rel_path,
-                    "target_path": rel(language_path(source_page.path, source_lang, candidate_target_lang)),
+                    "target_path": rel(language_path(source_page.path, group_source_lang, candidate_target_lang)),
                     "source_chars": len(source_page.body),
-                    "reason": reason,
+                    "reason": candidate_reason,
                 }
             )
 
@@ -475,6 +523,13 @@ def batch_translation_plan(
         "target_counts": target_counts,
         "source_counts": source_counts,
         "source_policy": "canonical_source_per_translation_group",
+        "filters": {
+            "source_lang": source_lang,
+            "reason": reason,
+            "max_source_chars": max_source_chars,
+            "path_filter": path_filter,
+        },
+        "available_reasons": batch_translation_candidate_reasons(),
         "max_files": max_files,
         "total_candidates": len(candidates),
         "planned_count": len(limited),
@@ -482,6 +537,29 @@ def batch_translation_plan(
         "candidates": limited,
         "skipped_count": len(skipped),
     }
+
+
+def batch_translation_candidate_reasons() -> list[str]:
+    return [
+        "all",
+        "missing_file",
+        "fallback_page",
+        "source_hash_mismatch",
+        "missing_source_hash",
+        "translation_source_lang_mismatch",
+    ]
+
+
+def batch_path_filter_matches(source_page: VaultPage, path_filter: str) -> bool:
+    haystack = " ".join(
+        [
+            source_page.rel_path,
+            source_page.relative_path,
+            source_page.translation_id,
+            source_page.title,
+        ]
+    ).lower()
+    return path_filter in haystack
 
 
 def batch_translation_exclusion_reason(source_page: VaultPage) -> str | None:
