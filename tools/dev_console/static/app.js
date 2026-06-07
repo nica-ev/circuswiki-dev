@@ -9,10 +9,22 @@ let state = {
   vaultHealth: null,
   activeTab: "file-test",
   batchPlan: null,
+  originalGraph: null,
+  originalGraphChart: null,
+  originalGraphResizeObserver: null,
+  originalGraphOptions: {
+    showLabels: true,
+    excludeSitemap: true,
+    repulsion: 260,
+    gravity: 0.06,
+    edgeLength: 190,
+    zoom: 1,
+  },
   navigationScan: null,
   navigationPreview: null,
   matrixWindow: { start: 0, end: 0 },
   matrixDrag: null,
+  graphDrag: null,
 };
 
 function log(value) {
@@ -440,6 +452,282 @@ function formatBatchFilters(filters) {
 function navLog(value) {
   $("nav-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function graphLog(value) {
+  $("graph-details").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function graphDiagnosticsLog(value) {
+  $("graph-diagnostics").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function readGraphControls() {
+  state.originalGraphOptions.showLabels = $("graph-labels").checked;
+  state.originalGraphOptions.excludeSitemap = $("graph-exclude-sitemap").checked;
+  state.originalGraphOptions.repulsion = Number($("graph-repulsion").value);
+  state.originalGraphOptions.gravity = Number($("graph-gravity").value);
+  state.originalGraphOptions.edgeLength = Number($("graph-edge-length").value);
+  updateGraphControlLabels();
+}
+
+function updateGraphControlLabels() {
+  $("graph-repulsion-value").textContent = String(state.originalGraphOptions.repulsion);
+  $("graph-gravity-value").textContent = state.originalGraphOptions.gravity.toFixed(2);
+  $("graph-edge-length-value").textContent = String(state.originalGraphOptions.edgeLength);
+}
+
+async function loadOriginalGraph() {
+  setBusy(true);
+  graphLog("Loading original graph...");
+  try {
+    readGraphControls();
+    const excludeSitemap = state.originalGraphOptions.excludeSitemap ? "true" : "false";
+    const graph = await api(`/api/original-graph?exclude_sitemap=${excludeSitemap}`);
+    state.originalGraph = graph;
+    renderOriginalGraphSummary();
+    renderOriginalGraph();
+    graphDiagnosticsLog(graph.diagnostics?.slice(0, 80) || []);
+  } catch (error) {
+    graphLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderOriginalGraphSummary() {
+  const graph = state.originalGraph;
+  if (!graph) {
+    $("graph-summary").innerHTML = "";
+    return;
+  }
+  const counts = formatLanguageCounts(graph.summary?.language_counts || {}, languageNamesFromConfig());
+  $("graph-summary").innerHTML = `
+    <span class="pill">Originals: <strong>${graph.summary?.node_count || 0}</strong></span>
+    <span class="pill">Edges: <strong>${graph.summary?.edge_count || 0}</strong></span>
+    <span class="pill ${graph.summary?.diagnostic_count ? "yellow" : "green"}">Diagnostics: <strong>${graph.summary?.diagnostic_count || 0}</strong></span>
+    <span class="pill">Excluded: <strong>${escapeHtml((graph.summary?.excluded_relative_paths || []).join(", ") || "none")}</strong></span>
+    <span class="pill">Languages: <strong>${escapeHtml(counts || "none")}</strong></span>
+  `;
+}
+
+function renderOriginalGraph() {
+  const graph = state.originalGraph;
+  if (!graph) {
+    return;
+  }
+  if (!window.echarts) {
+    graphLog("ECharts failed to load. Check the CDN connection or vendor ECharts locally.");
+    return;
+  }
+
+  const element = $("original-graph-chart");
+  if (!state.originalGraphChart) {
+    state.originalGraphChart = window.echarts.init(element, null, { renderer: "canvas" });
+    state.originalGraphChart.on("click", (params) => {
+      graphLog(params.data || params);
+    });
+    element.addEventListener("wheel", graphWheel, { passive: false });
+    element.addEventListener("pointerdown", startGraphDrag);
+    element.addEventListener("pointermove", updateGraphDrag);
+    element.addEventListener("pointerup", stopGraphDrag);
+    element.addEventListener("pointercancel", stopGraphDrag);
+    element.addEventListener("lostpointercapture", stopGraphDrag);
+    state.originalGraphResizeObserver = new ResizeObserver(() => resizeOriginalGraphChart());
+    state.originalGraphResizeObserver.observe(element);
+  }
+  resizeOriginalGraphChart();
+  readGraphControls();
+  const options = state.originalGraphOptions;
+
+  const categories = (graph.categories || []).map((category) => ({
+    name: category.name,
+    itemStyle: { color: graphLanguageColor(category.name) },
+  }));
+  const data = (graph.nodes || []).map((node) => ({
+    ...node,
+    itemStyle: { color: graphLanguageColor(node.lang) },
+    label: { show: options.showLabels && node.value > 1 },
+    tooltip: {
+      formatter: [
+        `<strong>${escapeHtml(node.title)}</strong>`,
+        `${escapeHtml(node.language)} (${escapeHtml(node.lang)})`,
+        `${escapeHtml(node.path)}`,
+        `in: ${node.in_degree} | out: ${node.out_degree}`,
+      ].join("<br>"),
+    },
+  }));
+  const links = (graph.edges || []).map((edge) => ({
+    ...edge,
+    lineStyle: { width: Math.min(5, 1 + Number(edge.value || 1)), opacity: 0.48 },
+    tooltip: {
+      formatter: [
+        `${escapeHtml(edge.source)} -> ${escapeHtml(edge.target)}`,
+        `links: ${edge.value}`,
+        ...(edge.links || []).slice(0, 4).map((link) => escapeHtml(link.resolved_path || link.target)),
+      ].join("<br>"),
+    },
+  }));
+
+  state.originalGraphChart.setOption({
+    backgroundColor: "transparent",
+    tooltip: { trigger: "item", confine: true },
+    legend: [{
+      data: categories.map((category) => category.name),
+      textStyle: { color: "#9aa89d" },
+      top: 8,
+      left: 8,
+    }],
+    series: [{
+      type: "graph",
+      layout: "force",
+      roam: true,
+      draggable: true,
+      zoom: options.zoom,
+      data,
+      links,
+      categories,
+      edgeSymbol: ["none", "arrow"],
+      edgeSymbolSize: 7,
+      label: {
+        color: "#edf4eb",
+        formatter: (params) => params.data.title || params.data.name,
+        position: "right",
+      },
+      emphasis: {
+        focus: "adjacency",
+        lineStyle: { opacity: 0.95 },
+      },
+      force: {
+        repulsion: options.repulsion,
+        gravity: options.gravity,
+        edgeLength: [Math.max(30, Math.round(options.edgeLength * 0.45)), options.edgeLength],
+      },
+      lineStyle: {
+        color: "source",
+        curveness: 0.08,
+      },
+    }],
+  }, true);
+  resizeOriginalGraphChart();
+  setTimeout(resizeOriginalGraphChart, 0);
+}
+
+function resizeOriginalGraphChart() {
+  if (!state.originalGraphChart) {
+    return;
+  }
+  const element = $("original-graph-chart");
+  const rect = element.getBoundingClientRect();
+  state.originalGraphChart.resize({
+    width: Math.max(1, Math.floor(rect.width)),
+    height: Math.max(1, Math.floor(rect.height)),
+  });
+}
+
+function fitOriginalGraph() {
+  if (state.originalGraphChart) {
+    state.originalGraphOptions.zoom = 1;
+    state.originalGraphChart.dispatchAction({ type: "restore" });
+    renderOriginalGraph();
+  }
+}
+
+function zoomOriginalGraph(factor) {
+  state.originalGraphOptions.zoom = Math.max(
+    0.15,
+    Math.min(5, state.originalGraphOptions.zoom * factor)
+  );
+  renderOriginalGraph();
+}
+
+function updateOriginalGraphForces() {
+  readGraphControls();
+  renderOriginalGraph();
+}
+
+function graphWheel(event) {
+  if (!state.originalGraphChart) {
+    return;
+  }
+  event.preventDefault();
+  const zoom = event.deltaY < 0 ? 1.12 : 0.89;
+  state.originalGraphOptions.zoom = Math.max(
+    0.15,
+    Math.min(5, state.originalGraphOptions.zoom * zoom)
+  );
+  state.originalGraphChart.dispatchAction({
+    type: "graphRoam",
+    seriesIndex: 0,
+    zoom,
+    originX: event.offsetX,
+    originY: event.offsetY,
+  });
+}
+
+function startGraphDrag(event) {
+  if (!state.originalGraphChart || event.button !== 0) {
+    return;
+  }
+  event.preventDefault();
+  $("original-graph-chart").setPointerCapture(event.pointerId);
+  state.graphDrag = {
+    pointerId: event.pointerId,
+    x: event.clientX,
+    y: event.clientY,
+  };
+}
+
+function updateGraphDrag(event) {
+  const drag = state.graphDrag;
+  if (!drag || drag.pointerId !== event.pointerId || !state.originalGraphChart) {
+    return;
+  }
+  event.preventDefault();
+  const dx = event.clientX - drag.x;
+  const dy = event.clientY - drag.y;
+  drag.x = event.clientX;
+  drag.y = event.clientY;
+  state.originalGraphChart.dispatchAction({
+    type: "graphRoam",
+    seriesIndex: 0,
+    dx,
+    dy,
+  });
+}
+
+function stopGraphDrag(event) {
+  if (!state.graphDrag) {
+    return;
+  }
+  if (event?.pointerId && event.pointerId !== state.graphDrag.pointerId) {
+    return;
+  }
+  state.graphDrag = null;
+}
+
+function graphLanguageColor(language) {
+  const palette = {
+    de: "#e0a64b",
+    en: "#5fb3d9",
+    pl: "#d95f76",
+    hu: "#8fd95f",
+    it: "#5fd997",
+    nl: "#d98e5f",
+    el: "#9b7bda",
+    es: "#d9c95f",
+    uk: "#5f7ed9",
+    pt: "#59c2b0",
+    cs: "#c878d8",
+    sk: "#88a85c",
+  };
+  return palette[language] || "#9aa89d";
+}
+
+function languageNamesFromConfig() {
+  return Object.fromEntries((state.config?.languages || []).map((language) => [language.code, language.name]));
 }
 
 async function loadNavigationScan() {
@@ -929,6 +1217,13 @@ function switchTab(tabName) {
   if (tabName === "navigation" && !state.navigationScan) {
     loadNavigationScan().catch((error) => navLog(error.message));
   }
+  if (tabName === "original-graph") {
+    if (!state.originalGraph) {
+      loadOriginalGraph().catch((error) => graphLog(error.message));
+    } else {
+      setTimeout(resizeOriginalGraphChart, 0);
+    }
+  }
 }
 
 function setBusy(isBusy) {
@@ -938,6 +1233,10 @@ function setBusy(isBusy) {
   $("refresh-health").disabled = isBusy;
   $("repair-health").disabled = isBusy;
   $("batch-plan").disabled = isBusy;
+  $("graph-refresh").disabled = isBusy;
+  $("graph-fit").disabled = isBusy;
+  $("graph-zoom-in").disabled = isBusy;
+  $("graph-zoom-out").disabled = isBusy;
   $("nav-scan").disabled = isBusy;
   $("nav-init").disabled = isBusy;
   $("nav-translate").disabled = isBusy;
@@ -994,6 +1293,19 @@ $("batch-plan").addEventListener("click", () => {
 $("batch-run").addEventListener("click", () => {
   runBatchTranslation().catch((error) => batchLog(error.message));
 });
+$("graph-refresh").addEventListener("click", () => {
+  loadOriginalGraph().catch((error) => graphLog(error.message));
+});
+$("graph-fit").addEventListener("click", fitOriginalGraph);
+$("graph-zoom-in").addEventListener("click", () => zoomOriginalGraph(1.25));
+$("graph-zoom-out").addEventListener("click", () => zoomOriginalGraph(0.8));
+$("graph-labels").addEventListener("change", updateOriginalGraphForces);
+$("graph-exclude-sitemap").addEventListener("change", () => {
+  loadOriginalGraph().catch((error) => graphLog(error.message));
+});
+$("graph-repulsion").addEventListener("input", updateOriginalGraphForces);
+$("graph-gravity").addEventListener("input", updateOriginalGraphForces);
+$("graph-edge-length").addEventListener("input", updateOriginalGraphForces);
 $("nav-scan").addEventListener("click", () => {
   loadNavigationScan().catch((error) => navLog(error.message));
 });
@@ -1026,6 +1338,9 @@ window.addEventListener("resize", () => {
   if (state.activeTab === "vault-health") {
     renderVaultHealth();
   }
+  if (state.activeTab === "original-graph") {
+    resizeOriginalGraphChart();
+  }
 });
 $("dry-run").addEventListener("click", () => runTranslation(true));
 $("translate").addEventListener("click", () => runTranslation(false));
@@ -1033,6 +1348,7 @@ $("translate").addEventListener("click", () => runTranslation(false));
 loadConfig()
   .then(loadHealth)
   .then(loadVaultHealth)
+  .then(updateGraphControlLabels)
   .catch((error) => {
     log(error.message);
     healthLog(error.message);

@@ -269,6 +269,13 @@ they duplicate links to real pages and can be disproportionately expensive.
 Running the plan then processes only those planned files and shows progress file
 by file.
 
+The Original Graph tab visualizes explicit Markdown links and Obsidian wikilinks
+between canonical original pages. Links may resolve through translated files,
+but edges are normalized back to each target page's canonical original
+translation group. `sitemap.md` is excluded by default because it links to many
+pages and pollutes the graph. The tab includes controls for label visibility,
+zoom, repulsion, gravity, and edge length.
+
 API credentials are read from local environment variables and are not stored in the repo:
 
 ```powershell

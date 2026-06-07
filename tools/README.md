@@ -80,6 +80,7 @@ Current endpoint contracts:
 - `POST /api/repair-metadata`: deterministic metadata repair for one file. JSON body requires `path`.
 - `POST /api/batch-plan`: plans batch candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, optional `max_source_chars`, and optional `path_filter`.
 - `POST /api/batch-translate-file`: translates one planned batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`/`prompt`.
+- `GET /api/original-graph?exclude_sitemap=true|false`: returns canonical original nodes and explicit content-link edges normalized through translation groups for the Original Graph tab. `sitemap.md` is excluded by default.
 - `GET /api/navigation/scan`: inspects Zensical navigation and canonical navigation model state.
 - `POST /api/navigation/init`: creates the canonical navigation model from an explicit source language. JSON body requires `language`.
 - `POST /api/navigation/preview`: renders the supplied model without writing files. JSON body requires `model`.
@@ -96,3 +97,35 @@ The server should remain thin. Translation, navigation, build, and Obsidian beha
 
 The dev console serves `index.html` with mtime-based query strings for `styles.css`
 and `app.js`, so normal refreshes should pick up local UI changes.
+
+## Original Graph
+
+The Original Graph tab is an experiment for understanding the semantic structure
+of the multilingual vault.
+
+Graph construction rules:
+
+- nodes are canonical original translation groups, keyed by `translation_id`
+- translated files are not shown as nodes
+- explicit Markdown links and Obsidian wikilinks are parsed from original pages
+- a link may resolve to a translated file, but the edge is normalized to that target file's canonical original group
+- image links, embeds, external URLs, and links inside fenced code blocks are ignored
+- `sitemap.md` is excluded by default because it links to many pages and distorts the structure
+
+Graph controls:
+
+- `Exclude sitemap.md`: reloads graph data with or without `sitemap.md`
+- `Show labels`: toggles visible node titles
+- `Zoom +` / `Zoom -` / `Fit`: deterministic viewport controls when mouse-wheel zoom is awkward
+- `Repulsion`: increases spacing between nodes
+- `Gravity`: controls how strongly the layout pulls toward the center
+- `Edge Length`: increases spacing between connected nodes
+
+The visualization uses Apache ECharts loaded from jsDelivr:
+
+```html
+https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js
+```
+
+If the dev console needs to work offline, vendor `echarts.min.js` into
+`tools/dev_console/static/` and update `index.html`.
