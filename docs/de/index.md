@@ -2,7 +2,7 @@
 lang: de
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-07 14:30:22
+update: 2026-06-07 19:07:04
 publish: true
 tags:
   - moc
@@ -15,13 +15,17 @@ translation_status: original
 translation_source_lang: de
 ---
 
-# Willkommen
+## Willkommen
 **Ein Wiki für Zirkus, Bewegung, Pädagogik, Sport und Kultur**
 
 [Dokumentation Nica eV](Dokumentation%20Nica%20eV.md) | [Bewegungs-Spiele](Bewegungs-Spiele.md) | [mitmachen](mitmachen.md) | [Beigoma](Beigoma.md) | [Kaskade Workspace](Kaskade%20Workspace.md) | [Jonglage](Jonglage.md)
 
-# Erasmus+ 
+## Erasmus+ 
 [Introduction and more...](Lets-talk-about-inclusive-circus-practice.md)
+
+## Workshops
+
+[Hula hoop Workshop - Wiktoria Wittenberg](Warsztat%20Hula%20hoop.md)
 ## Kürzliche Änderungen
 [Release Notes](release%20notes.md)
 
@@ -29,17 +33,17 @@ translation_source_lang: de
 <!-- QueryToSerialize: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 <!-- SerializedQuery: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 
-| File                                  | authors | tags                                          | created             |
-| ------------------------------------- | ------- | --------------------------------------------- | ------------------- |
-| [Disclaimer](docs/nl/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Disclaimer](docs/it/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Disclaimer](docs/hu/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Disclaimer](docs/pl/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Disclaimer](docs/en/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Disclaimer](docs/de/Disclaimer.md) | \-      | \-                                            | 2025-09-09 18:00:05 |
-| [Quat Props](docs/nl/Quat Props.md) | \-      | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:08:01 |
-| [Quat Props](docs/it/Quat Props.md) | \-      | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:08:01 |
-| [Quat Props](docs/hu/Quat Props.md) | \-      | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:08:01 |
-| [Quat Props](docs/pl/Quat Props.md) | \-      | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:08:01 |
+| File                                                                              | authors                              | tags                                                                      | created             |
+| --------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------- | ------------------- |
+| [Misz masz](docs/pl/Misz masz.md)                                               | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>zonglerka</li><li>kooperacja</li></ul>                | 2026-06-07 18:55:00 |
+| [Cow jumps over the moon](docs/pl/Cow jumps over the moon.md)                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>functional-juggling</li><li>cwiczenie</li><li>zonglerka</li></ul> | 2026-06-07 18:55:00 |
+| [Wyscig pilek z hula hoop](docs/pl/Wyscig pilek z hula hoop.md)                 | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>rozgrzewka</li><li>hula-hoop</li></ul>                | 2026-06-07 18:55:00 |
+| [Budowanie maszyn](docs/pl/Budowanie maszyn.md)                                 | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>cwiczenie</li><li>improwizacja</li><li>kooperacja</li></ul>       | 2026-06-07 18:55:00 |
+| [Obrazki](docs/pl/Obrazki.md)                                                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>improwizacja</li><li>teatr</li></ul>                  | 2026-06-07 18:55:00 |
+| [Zonglowanie w parach z hula hoop](docs/pl/Zonglowanie w parach z hula hoop.md) | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>cwiczenie</li><li>hula-hoop</li><li>zonglerka</li></ul>           | 2026-06-07 18:55:00 |
+| [Warsztat Hula hoop](docs/pl/Warsztat Hula hoop.md)                             | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>warsztat</li><li>hula-hoop</li><li>pedagogika-cyrku</li></ul>     | 2026-06-07 18:55:00 |
+| [Kolka trzy](docs/pl/Kolka trzy.md)                                             | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>hula-hoop</li><li>kooperacja</li></ul>                | 2026-06-07 18:55:00 |
+| [Zonglowanie w 5 krokach](docs/pl/Zonglowanie w 5 krokach.md)                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>functional-juggling</li><li>zonglerka</li><li>metodyka</li></ul>  | 2026-06-07 18:55:00 |
+| [Zonglowanie w parach z hula hoop](docs/de/Zonglowanie w parach z hula hoop.md) | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>cwiczenie</li><li>hula-hoop</li><li>zonglerka</li></ul>           | 2026-06-07 18:55:00 |
 
 <!-- SerializedQuery END -->

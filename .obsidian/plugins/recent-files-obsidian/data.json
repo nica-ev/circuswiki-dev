@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "docs/de/index.md"
+    },
+    {
+      "basename": "5-Step Methode",
+      "path": "docs/pl/5-Step Methode.md"
+    },
+    {
+      "basename": "Warsztat Hula hoop",
+      "path": "docs/pl/Warsztat Hula hoop.md"
+    },
+    {
+      "basename": "Warsztat Hula hoop",
+      "path": "docs/de/Warsztat Hula hoop.md"
+    },
+    {
+      "basename": "Unbenannt",
+      "path": "_inbox/Unbenannt.base"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Unbenannt 1",
       "path": "_inbox/Unbenannt 1.base"
     },
@@ -23,14 +47,6 @@
     {
       "basename": "Case Study 01 - Hungary",
       "path": "docs/de/Case Study 01 - Hungary.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/de/index.md"
     },
     {
       "basename": "Aufwärmspiele MOC",
@@ -183,22 +199,6 @@
     {
       "basename": "Beigoma",
       "path": "docs/de/Beigoma.md"
-    },
-    {
-      "basename": "Bällewirrwarr",
-      "path": "docs/de/Bällewirrwarr.md"
-    },
-    {
-      "basename": "Ball werfen im Stern",
-      "path": "docs/de/Ball werfen im Stern.md"
-    },
-    {
-      "basename": "Avatar",
-      "path": "docs/de/Avatar.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/de/Aufwärmspiele MOC.md"
     }
   ],
   "omittedPaths": [],
