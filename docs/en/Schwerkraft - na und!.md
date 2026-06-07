@@ -21,7 +21,7 @@ translation_updated: 2026-06-06T19:28:22+00:00
 ---
 ## SCHWERKRAFT NA UND! Autonomous Juggling Group and the 7th European Juggling Convention
 **Gravity - So What!**
-[Gravity - So What!](Gravity%20-%20So%20What!.md)
+[Gravity - So What!](Schwerkraft%20-%20na%20und!.md)
 
 The autonomous juggling group SCHWERKRAFT NA UND! (Gravity - So What!) from Wiesbaden, or more accurately, the Rhine-Main region, has only existed for a relatively short time.
 As late as August 1982, there were only a few jugglers in Wiesbaden who knew little about each other. By chance, the three founding members, Paul, Uli, and Christoph, came together, juggled in Wiesbaden's parks, and decided a few weeks later to travel to the 5th European Juggling Convention in Copenhagen.

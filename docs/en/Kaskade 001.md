@@ -19,7 +19,7 @@ translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:23:55+00:00
 ---
 ## A New Magazine for Europe
-[A New Magazine for Europe](A%20New%20Magazine%20for%20Europe.md)
+[A New Magazine for Europe](Eine%20neue%20Zeitschrift%20für%20Europa.md)
 
 We're completely crazy! Not only are we co-organizing the 7th European Juggling Week for the past year, but we're also taking on the task of launching a European juggling magazine in Frankfurt.
 
@@ -59,7 +59,7 @@ We hope you like our idea and look forward to your suggestions and criticism, an
 
 ## Circus Wanted!
 **A Report from Two Clowns Who No Longer Wanted to Live in the GDR**
-[Circus Wanted!](Circus%20Wanted!.md)
+[Circus Wanted!](Zirkus%20gesucht!.md)
 ### By Streuselschnecke...
 
 How did the whole circus thing start? Well, that's almost an endless story....
@@ -123,7 +123,7 @@ So, see you soon, or maybe not.
 
 ## A Smile Defies Gravity
 **Letter from Toby Philpott, European Director of the IJA**
-[A Smile Defies Gravity](A%20Smile%20Defies%20Gravity.md)
+[A Smile Defies Gravity](Lächeln%20überwindet%20Schwerkraft.md)
 
 For two years now, I've held the title "European Director of the International Jugglers Association" (IJA). It's a title W.C. Fields would have loved, as it sounds so important and mysterious (and means almost nothing). I don't "direct" anyone and spend most of my time in England.
 
@@ -156,7 +156,7 @@ In the meantime, I hope to see you during our few days together. And don't forge
 
 ## Autonomous Juggling Group Wiesbaden and the 7th European Juggling Week
 **Gravity - So What!**
-[Gravity - So What!](Gravity%20-%20So%20What!.md)
+[Gravity - So What!](Schwerkraft%20-%20na%20und!.md)
 
 The autonomous juggling group SCHWERKRAFT NA UND! (Gravity - So What!) from Wiesbaden, or rather the Rhine-Main region, has only existed for a relatively short time.
 As late as August 1982, there were only a few jugglers in Wiesbaden who hardly knew each other. By chance, the three original members, Paul, Uli, and Christoph, came together, juggled in Wiesbaden's parks, and decided a few weeks later to travel to the 5th European Juggling Meeting in Copenhagen.
@@ -202,7 +202,7 @@ Christoph Schmitt
 
 ## KASKADE Workshop
 ### The Pillar Page
-[The Pillar Page](The%20Pillar%20Page.md)
+[The Pillar Page](Die%20Säulen-Seite.md)
 
 ![Kaskade00106](../img/Kaskade-001-06.png){ align=left }
 Dr. P. Luftiko (see picture)
@@ -259,7 +259,7 @@ Try to catch the right double ball with your left hand and simultaneously the le
 Instead of simply throwing the double balls vertically upwards, throw them over your shoulders from behind, the right hand over the right shoulder and the left over the left. If you haven't warmed up properly, you'll dislocate your shoulders. If the double balls cross above your head against your will, then you seem to have the same problem as me!
 
 ### Cheating!
-[Cheating!](Cheating.md)
+[Cheating!](Schummeln!.md)
 
 If you have phosphorescent balls that glow in the dark, you can give the audience the impression that you are doing the pillar form. Suddenly, one of the double balls (the one you're holding) unbelievably stops in mid-air and refuses to come down. (You're simply holding it up, but the audience doesn't see that!) The rogue ball, which has seemingly defied the laws of gravity, can now perform amazing acrobatic tricks before rejoining the pattern. For example:
 

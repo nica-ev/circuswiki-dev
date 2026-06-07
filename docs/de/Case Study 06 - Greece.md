@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-06-greece
 created: 2025-08-29 21:05:48
-update: 2026-06-06 21:48:48
+update: 2026-06-07 00:08:13
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: 1ac37738b97cff774864829b5fc2a5f29ea44bba0cd44d9bd3f1b0a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:56+00:00
 ---
+
 # **Sicherheit spüren: Ein Schlüssel für Autismus**
 
 [Monokyklo](Monokyklo.md) - Thessaloniki, Griechenland

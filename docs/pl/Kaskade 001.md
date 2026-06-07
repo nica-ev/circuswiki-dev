@@ -19,7 +19,7 @@ translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:16:32+00:00
 ---
 ## Nowa gazeta dla Europy
-[Nowa gazeta dla Europy](Nowa%20gazeta%20dla%20Europy.md)
+[Nowa gazeta dla Europy](Eine%20neue%20Zeitschrift%20für%20Europa.md)
 
 Jesteśmy kompletnie szaleni! Nie dość, że od roku współorganizujemy 7. Europejski Tydzień Żonglerki, to jeszcze chcemy się podjąć wydawania w Frankfurcie europejskiego czasopisma żonglerskiego.
 
@@ -59,7 +59,7 @@ Mamy nadzieję, że nasza idea Wam się spodoba i czekamy na Wasze sugestie i kr
 
 ## Szukamy cyrku!
 **Relacja dwojga klaunów, którzy nie chcieli już żyć w NRD**
-[Szukamy cyrku!](Szukamy%20cyrku!.md)
+[Szukamy cyrku!](Zirkus%20gesucht!.md)
 ### Od Streuselschnecke...
 
 Jak to wszystko się zaczęło? Cóż, to prawie nieskończona historia...
@@ -123,7 +123,7 @@ Więc do zobaczenia wkrótce lub nie
 
 ## Uśmiech pokonuje grawitację
 **List od Toby'ego Philpotta, Europejskiego Dyrektora IJA**
-[Uśmiech pokonuje grawitację](Uśmiech%20pokonuje%20grawitację.md)
+[Uśmiech pokonuje grawitację](Lächeln%20überwindet%20Schwerkraft.md)
 
 Od dwóch lat noszę tytuł „Europejskiego Dyrektora International Jugglers Association” (IJA). To tytuł, który spodobałby się W.C. Fieldsowi, ponieważ brzmi tak ważnie i tajemniczo (i prawie nic nie znaczy). Nikogo nie „dyryguję” i większość czasu spędzam w Anglii.
 
@@ -156,7 +156,7 @@ W międzyczasie mam nadzieję, że spotkamy się podczas naszych kilku wspólnyc
 
 ## Autonomiczna Grupa Żonglerska Wiesbaden i 7. Europejski Tydzień Żonglerki
 **Grawitacja – i co z tego!**
-[Grawitacja – i co z tego!](Grawitacja%20-%20i%20co%20z%20tego!.md)
+[Grawitacja – i co z tego!](Schwerkraft%20-%20na%20und!.md)
 
 Autonomiczna grupa żonglerska SCHWERKRAFT NA UND! z Wiesbaden, a właściwie z regionu Ren-Min, istnieje dopiero od stosunkowo niedawna.
 Jeszcze w sierpniu 1982 roku w Wiesbaden było niewielu żonglerów, którzy ledwo coś o sobie wiedzieli. Przypadkiem trzej pierwsi członkowie, Paul, Uli i Christoph, spotkali się, żonglowali w wiesbadenskich parkach i postanowili kilka tygodni później pojechać na 5. Europejskie Spotkanie Żonglerów do Kopenhagi.
@@ -202,7 +202,7 @@ Christoph Schmitt
 
 ## Warsztaty KASKADE
 ### Strona o Kolumnach
-[Strona o Kolumnach](Strona%20o%20Kolumnach.md)
+[Strona o Kolumnach](Die%20Säulen-Seite.md)
 
 ![Kaskade00106](../img/Kaskade-001-06.png){ align=left }
 Dr P. Luftiko (patrz zdjęcie)
@@ -259,7 +259,7 @@ Spróbuj złapać prawą podwójną piłkę lewą ręką i jednocześnie lewą p
 Zamiast po prostu rzucać podwójne piłki pionowo w górę, rzucaj je z tyłu nad ramionami, prawą ręką nad prawe ramię, a lewą nad lewe. Jeśli się nie rozgrzejesz odpowiednio, skręcisz sobie ramiona. Jeśli podwójne piłki skrzyżują się nad Twoją głową wbrew Twojej woli, to najwyraźniej masz ten sam problem co ja!
 
 ### Oszukiwanie!
-[Oszukiwanie!](Oszukiwanie!.md)
+[Oszukiwanie!](Schummeln!.md)
 
 Jeśli masz fosforyzujące piłki, które świecą w ciemności, możesz sprawić wrażenie, że wykonujesz formę kolumn. Nagle jedna z podwójnych piłek (ta, którą trzymasz) niewiarygodnie zatrzymuje się w powietrzu i odmawia opadnięcia. (Po prostu ją trzymasz, ale widz tego nie widzi!) Zbuntowana piłka, która pozornie pokonała prawa grawitacji, może teraz wykonywać zadziwiające akrobacje, zanim powróci na swoje miejsce w schemacie. Na przykład:
 

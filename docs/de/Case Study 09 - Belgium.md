@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-09-belgium
 created: 2025-08-30 23:54:25
-update: 2026-06-06 21:49:08
+update: 2026-06-07 00:08:55
 publish: false
 tags:
   - case-study
@@ -18,6 +18,7 @@ translation_source_hash: 1d3989ac9df661d846b4bdadb7b5152cbf79084ff0dfbbfa7ac3085
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:16+00:00
 ---
+
 # **Fallstudie: Gemeinsam gestalten – Inklusive Zirkusrequisiten durch sektorübergreifende Zusammenarbeit (Belgien)**
 
 Verfasst von Elga Pollet, Direktorin von [Circusatelier Woesh](Circusatelier%20Woesh.md)

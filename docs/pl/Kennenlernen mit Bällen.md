@@ -44,7 +44,7 @@ Jedna osoba trzyma piłkę. Nawiązuje kontakt wzrokowy z inną osobą w grupie,
 Ważne: Rzucaj dopiero po nawiązaniu kontaktu wzrokowego, podaniu imienia i upewnieniu się, że druga osoba wie, że to do niej jest rzut.
 
 Rzut powinien być wykonany łukiem, ręka rzucająca wykonuje ruch od tyłu-dołu do przodu (zobacz też: ruch żonglerski z piłkami).
-[Podstawy żonglerki rzutami – Kaskada](Podstawy%20żonglerki%20rzutami%20–%20Kaskada.md)
+[Podstawy żonglerki rzutami – Kaskada](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
 Wskazówka: Dobry rzut ułatwia złapanie.
 
@@ -53,5 +53,5 @@ Nieznane
 
 ## **Zobacz też:**
 
-[Poznawanie się z piłkami w biegu](Poznawanie%20się%20z%20piłkami%20w%20biegu.md)
-[Gra na uwagę z piłkami](Gra%20na%20uwagę%20z%20piłkami.md)
+[Poznawanie się z piłkami w biegu](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
+[Gra na uwagę z piłkami](Aufmerksamkeits-Spiel%20mit%20Bällen.md)

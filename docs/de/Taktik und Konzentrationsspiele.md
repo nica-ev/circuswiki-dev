@@ -27,5 +27,15 @@ translation_source_lang: de
 | [Menschenziehen](docs/de/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
 | [Mörderspiel](docs/de/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 | [Schach](docs/de/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Ass Zwei Drei - Kartenfangen](docs/en/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Menschenhalma](docs/en/Menschenhalma.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Menschenziehen](docs/en/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Mörderspiel](docs/en/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Schach](docs/en/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Ass Zwei Drei - Kartenfangen](docs/pl/Ass Zwei Drei - Kartenfangen.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Menschenhalma](docs/pl/Menschenhalma.md)                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Menschenziehen](docs/pl/Menschenziehen.md)                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [Mörderspiel](docs/pl/Mörderspiel.md)                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
+| [Schach](docs/pl/Schach.md)                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 
 <!-- SerializedQuery END -->

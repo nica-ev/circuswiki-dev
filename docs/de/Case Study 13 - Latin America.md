@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-13-latin-america
 created: 2025-08-30 21:24:58
-update: 2026-06-06 21:49:31
+update: 2026-06-07 00:08:19
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: 7e5930fd44b4d932bed5d32cef5d2c977ae87f06e055ea6ae54a0c2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:39+00:00
 ---
+
 # Routinen im Lockdown weben – Ein Online-Hula-Hoop-Workshop (2021)
 
 Verfasst von Jael Rodriguez, Gründer*in von [Hula Hoop Integral](Hula%20Hoop%20Integral.md).

@@ -5,23 +5,23 @@ publish: true
 tags: 
 title: Obsidian Setup
 created: 2025-01-23 01:38:52
-update: 2025-03-11 02:05:46
+update: 2026-06-06 21:43:04
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Obsidian Setup.md
-translation_source_hash: bd30270abdfc27045080229792d0b5955c0cf91140aac9ca4859d4819bd61b16
+translation_source_hash: 12599e90e70b1c7a59227815d654a7076285e589ef224bbe86222277b9b386e6
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:35+00:00
+translation_updated: 2026-06-06T22:26:00+00:00
 ---
-Obsidian is extremely customizable, which can be a challenge for newcomers.
-We provide a base setup that can be used as is, including plugins, themes, and their finely tuned settings.
-This is a foundational setup and can be further adjusted to anyone's personal preferences.
-We're offering a ready-to-use solution that we will document and explain here.
+Obsidian is highly customizable, which can be a challenge for newcomers.
+We provide a base setup that can be used as is, including plugins and themes, along with their finely tuned settings.
+This is a foundational setup and can be further adjusted to suit anyone's personal preferences.
+We're offering a functional solution that we will document and explain here.
 
 ## Terms Used
-**Vault** - a collection of markdown files and images that form the knowledge base.
+**Vault** - A collection of Markdown files and images that form the knowledge base.
 
 ## Plugins
 
@@ -43,7 +43,7 @@ We're offering a ready-to-use solution that we will document and explain here.
 - Sortable
 
 ### Advanced Canvas
-Provides access to many new functionalities and styling options for Canvas.
+Provides access to numerous new functionalities and styling options for Canvas.
 
 ### BRAT
 Required for installing unofficial plugins or plugins not registered in Obsidian's ecosystem, specifically:
@@ -51,24 +51,24 @@ Required for installing unofficial plugins or plugins not registered in Obsidian
 - Sortable
 
 ### Better Word Count
-Primarily used for its ability to display the word/character count of highlighted text.
+Primarily used for its ability to display the word and character count of highlighted text.
 This is visible in the status bar.
 
 ### Beautitab
-Purely cosmetic, it provides a customizable "empty new tab" page.
+Purely cosmetic, it offers a customizable "empty new tab" page.
 
 ### Clear Unused Images
-As the name suggests, this helps organize the vault by identifying unused images.
+As the name suggests, this plugin helps organize the vault by identifying unused images.
 
-❗I've excluded the subfolder ```/site/``` so it doesn't delete images from the built website (which isn't a problem, more of an annoyance).
+❗I've excluded the subfolder ```/site/``` so it doesn't delete images from the built website (which isn't a critical issue, more of an annoyance).
 
-❗Be careful when using the clear attachments command, as this will always delete ```mkdocs.yml``` and the ```license.``` If this happens, the files are in the .trash folder and can be recovered, but it's easy to overlook.
+❗Be cautious when using the "Clear Attachments" command, as this will always delete ```mkdocs.yml``` and the ```license.md``` file. If this happens, the files are in the `.trash` folder and can be recovered, but it's easy to overlook.
 
 ### Dataview
-Enables SQL-like queries on the vault.
+Enables SQL-like queries on your vault.
 
 ### Dataview Serializer
-Converts Dataview results into markdown.
+Converts Dataview results into Markdown.
 This helps in reusing the results of Dataview queries within your actual notes.
 
 ### Emoji Toolbar
@@ -77,7 +77,7 @@ Provides easy access to emojis.
 😍
 
 ### Linter
-Cleans up markdown files and frontmatter data.
+Cleans up Markdown files and frontmatter data.
 Helps maintain a consistent format.
 
 ### Note Toolbar
@@ -85,16 +85,16 @@ Enables customizable toolbars at the top of a note, which can be defined at the 
 
 ### Tag Wrangler
 Offers additional options for working with tags, such as renaming tags.
-This aids in organizing the vault.
+This aids in organizing your vault.
 
 ### Templater
-Allows for customizable templates that can be inserted manually or based on conditions (like when creating a note).
+Allows for customizable templates that can be inserted manually or based on conditions (like when creating a new note).
 
 ### Status Bar Organizer
 Allows you to hide items from the status bar.
 
 ### Sortable
-Enables sorting of tables (both markdown and Dataview tables) by clicking on their headers.
+Enables sorting of tables (both Markdown and Dataview tables) by clicking on their headers.
 
 ### Workspaces Plus
 Allows for easy quick-switching of workspaces from the status bar.

@@ -1,0 +1,194 @@
+:root {
+  --cw-ink: #1e2621;
+  --cw-muted: #647067;
+  --cw-paper: #fffaf0;
+  --cw-paper-soft: #f8f0df;
+  --cw-line: #e4d6bd;
+  --cw-green: #2f6f5e;
+  --cw-red: #b94632;
+  --cw-gold: #d99b36;
+  --cw-blue: #2f6c8f;
+}
+
+body {
+  background-color: var(--cw-paper);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(217, 155, 54, 0.14) 0 8rem, transparent 18rem),
+    radial-gradient(circle at 50% 50%, rgba(47, 111, 94, 0.11) 0 7rem, transparent 16rem),
+    radial-gradient(circle at 50% 50%, rgba(185, 70, 50, 0.055) 0 3.2rem, transparent 10rem),
+    repeating-linear-gradient(135deg, rgba(255, 253, 248, 0.54) 0 0.08rem, transparent 0.08rem 13rem),
+    repeating-linear-gradient(180deg, #fffdf8 0 0.2rem, var(--cw-paper) 13rem, #f4ead8 26rem, var(--cw-paper) 39rem, #fffdf8 52rem);
+  background-position:
+    0 0,
+    18rem 14rem,
+    8rem 24rem,
+    0 0,
+    0 0;
+  background-size:
+    52rem 52rem,
+    52rem 52rem,
+    52rem 52rem,
+    52rem 52rem,
+    52rem 52rem;
+  color: var(--cw-ink);
+}
+
+.md-header {
+  background: rgba(30, 38, 33, 0.94);
+  color: #fffaf0;
+  backdrop-filter: blur(12px);
+}
+
+.md-main__inner {
+  align-items: flex-start;
+}
+
+.md-content__inner {
+  padding-bottom: 3rem;
+}
+
+.md-typeset a {
+  color: var(--cw-blue);
+}
+
+.md-typeset a:hover {
+  color: var(--cw-red);
+}
+
+.md-typeset table:not([class]) {
+  background: rgba(255, 255, 255, 0.64);
+  border: 1px solid var(--cw-line);
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(47, 111, 94, 0.08);
+  color: var(--cw-ink);
+}
+
+.md-content__inner > h1:first-of-type {
+  margin-bottom: 0.9rem;
+  color: var(--cw-ink);
+  font-size: clamp(1.15rem, 2.8vw, 1.55rem);
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+}
+
+body.circuswiki-hero .md-content__inner {
+  max-width: 58rem;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type {
+  position: relative;
+  margin: 0 0 0.7rem;
+  padding: clamp(2.1rem, 6vw, 4.6rem) clamp(1.25rem, 4vw, 3.2rem) 0;
+  border: 1px solid var(--cw-line);
+  border-bottom: 0;
+  border-radius: 1.35rem 1.35rem 0 0;
+  background:
+    radial-gradient(circle at 12% 24%, rgba(185, 70, 50, 0.22) 0 0.22rem, transparent 0.24rem),
+    radial-gradient(circle at 78% 18%, rgba(47, 111, 94, 0.25) 0 0.18rem, transparent 0.2rem),
+    radial-gradient(circle at 90% 72%, rgba(217, 155, 54, 0.28) 0 0.28rem, transparent 0.3rem),
+    linear-gradient(135deg, #fff8e8 0%, #f3dec1 48%, #e9f0e5 100%);
+  color: var(--cw-ink);
+  font-size: clamp(1.15rem, 3.2vw, 2.05rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type::after {
+  content: "";
+  position: absolute;
+  right: clamp(1rem, 4vw, 3rem);
+  bottom: -1.15rem;
+  width: clamp(4rem, 16vw, 8rem);
+  aspect-ratio: 1;
+  border: 0.42rem solid rgba(185, 70, 50, 0.84);
+  border-left-color: rgba(47, 111, 94, 0.76);
+  border-bottom-color: rgba(217, 155, 54, 0.86);
+  border-radius: 50%;
+  transform: rotate(-14deg);
+  opacity: 0.75;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type .headerlink {
+  display: none;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type + p {
+  margin: -0.7rem 0 0;
+  padding: 0.4rem clamp(1.25rem, 4vw, 3.2rem) 1rem;
+  border-right: 1px solid var(--cw-line);
+  border-left: 1px solid var(--cw-line);
+  background: linear-gradient(135deg, #fff8e8 0%, #f3dec1 48%, #e9f0e5 100%);
+  color: var(--cw-muted);
+  font-size: clamp(1rem, 2vw, 1.28rem);
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type + p strong {
+  font-weight: 600;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type + p + p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 2rem;
+  padding: 0 clamp(1.25rem, 4vw, 3.2rem) clamp(1.4rem, 4vw, 2.4rem);
+  border: 1px solid var(--cw-line);
+  border-top: 0;
+  border-radius: 0 0 1.35rem 1.35rem;
+  background: linear-gradient(135deg, #fff8e8 0%, #f3dec1 48%, #e9f0e5 100%);
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type + p + p a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15rem;
+  padding: 0.34rem 0.72rem;
+  border: 1px solid rgba(47, 111, 94, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.66);
+  color: var(--cw-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body.circuswiki-hero .md-content__inner > h1:first-of-type + p + p a:hover {
+  border-color: rgba(185, 70, 50, 0.48);
+  background: #fffaf0;
+  color: var(--cw-red);
+}
+
+body.circuswiki-hero .md-content__inner > h1:nth-of-type(2) {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.2rem 0.75rem;
+  border-left: 0.32rem solid var(--cw-green);
+  border-radius: 0.35rem;
+  background: rgba(47, 111, 94, 0.08);
+  font-size: 1.45rem;
+}
+
+body.circuswiki-hero .md-content__inner > h2 {
+  margin-top: 2rem;
+  color: var(--cw-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 44rem) {
+  body.circuswiki-hero .md-content__inner > h1:first-of-type::after {
+    opacity: 0.32;
+  }
+
+  body.circuswiki-hero .md-content__inner > h1:first-of-type + p + p {
+    gap: 0.42rem;
+  }
+
+  body.circuswiki-hero .md-content__inner > h1:first-of-type + p + p a {
+    width: 100%;
+  }
+}

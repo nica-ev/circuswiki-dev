@@ -27,4 +27,4 @@ Wybiera się mordercę
 
 ## Powiązane strony
 
-[Dziurka od klucza](Dziurka_od_klucza.md)
+[Dziurka od klucza](Nadelöhr.md)

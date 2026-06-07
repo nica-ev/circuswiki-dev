@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-03-italy
 created: 2025-08-30 20:14:34
-update: 2026-06-06 21:48:25
+update: 2026-06-07 00:08:09
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: cc535b6a3f89ac46b4e89e447fbcd33f66710fcb5d805d77a97399e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:43+00:00
 ---
+
 # **Mehr als nur Bewegung: Eine Langzeitreise mit Functional Juggling**
 
 [SELF APS](SELF%20APS.md)

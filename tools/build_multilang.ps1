@@ -15,6 +15,13 @@ try {
     zensical build
     zensical build -f zensical.en.toml
     zensical build -f zensical.pl.toml
+    zensical build -f zensical.hu.toml
+    zensical build -f zensical.it.toml
+    zensical build -f zensical.nl.toml
+    zensical build -f zensical.el.toml
+    zensical build -f zensical.es.toml
+    zensical build -f zensical.uk.toml
+    python tools/augment_sitemaps.py
 }
 finally {
     Pop-Location

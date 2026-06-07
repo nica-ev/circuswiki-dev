@@ -30,4 +30,4 @@ A simple game to practice basic balancing skills.
 Each person takes a balloon and tries to balance it on different body parts for as long as possible.
 For example, on their nose, head, outstretched fingers, fist, etc.
 
-See also: [[Balancing Peacock Feathers]]
+See also: [[Pfauenfedern balancieren]]

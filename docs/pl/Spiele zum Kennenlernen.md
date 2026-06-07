@@ -15,13 +15,13 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 580f2c9581d1d14a557f4930330bea575d2db751f5fd8eabd492a36a022ab840
+translation_source_hash: af8f5d71e31b29ab39d47e4c467aac32fb26912d9ea5f4c70b8cae0a1065fa80
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:02+00:00
+translation_updated: 2026-06-06T22:32:36+00:00
 ---
-# Gry i zabawy integracyjne / zapoznawcze
+# Gry i zabawy na poznanie / przedstawienie się
 
-Gry i zabawy służące wzajemnemu poznawaniu się w grupie, często zawierają element podawania imion.
+Gry i zabawy służące wzajemnemu poznaniu się w grupie, często zawierają podawanie imion.
 
 [index](index.md)
 
@@ -49,11 +49,11 @@ Gry i zabawy służące wzajemnemu poznawaniu się w grupie, często zawierają 
 | [Zuckerwasserschießen](docs/de/Zuckerwasserschießen.md)                                             | 6         | 20        | etwas schwerer   | keines         | 7          | <ul><li>kennenlernen</li></ul>                    |
 | [Bällewirrwarr](docs/en/Bällewirrwarr.md)                                                           | 5         | 15        | einfach - schwer | Bälle          | 10         | <ul><li>kennenlernen</li></ul>                    |
 | [Gute Seiten](docs/en/Gute Seiten.md)                                                               | 6         | 30        | einfach          | Zettel, Stifte | 10 -  30   | <ul><li>kennenlernen</li></ul>                    |
-| [Hallo ich bin](docs/en/Hallo ich bin.md)                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Hallo ich bin - mit Bällen](docs/en/Hallo ich bin - mit Bällen.md)                                 | 3         | 30        | einfach          | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Hallo ich bin](docs/en/Hallo ich bin.md)                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Ich fahre Zug](docs/en/Ich fahre Zug.md)                                                           | 10        | 30        | mittel           | Stühle         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
-| [Kennenlernen mit Bällen](docs/en/Kennenlernen mit Bällen.md)                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Kennenlernen mit Bällen hinterherlaufen](docs/en/Kennenlernen mit Bällen hinterherlaufen.md)       | 5         | 25        | einfach - mittel | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Kennenlernen mit Bällen](docs/en/Kennenlernen mit Bällen.md)                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Namenkampf](docs/en/Namenkampf.md)                                                                 | 10        | 30        | einfach          | großes Tuch    | 10 -  15   | <ul><li>sonstiges</li><li>kennenlernen</li></ul>  |
 | [Niemand ist gern allein](docs/en/Niemand ist gern allein.md)                                       | 8         | 99        | einfach          | keines         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
 | [Ohrfeigen und Küsse](docs/en/Ohrfeigen und Küsse.md)                                               | 5         | 30        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>theater</li></ul>    |
@@ -66,15 +66,20 @@ Gry i zabawy służące wzajemnemu poznawaniu się w grupie, często zawierają 
 | [Zuckerwasserschießen](docs/en/Zuckerwasserschießen.md)                                             | 6         | 20        | etwas schwerer   | keines         | 7          | <ul><li>kennenlernen</li></ul>                    |
 | [Bällewirrwarr](docs/pl/Bällewirrwarr.md)                                                           | 5         | 15        | einfach - schwer | Bälle          | 10         | <ul><li>kennenlernen</li></ul>                    |
 | [Gute Seiten](docs/pl/Gute Seiten.md)                                                               | 6         | 30        | einfach          | Zettel, Stifte | 10 -  30   | <ul><li>kennenlernen</li></ul>                    |
-| [Hallo ich bin](docs/pl/Hallo ich bin.md)                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Hallo ich bin - mit Bällen](docs/pl/Hallo ich bin - mit Bällen.md)                                 | 3         | 30        | einfach          | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Hallo ich bin](docs/pl/Hallo ich bin.md)                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Ich fahre Zug](docs/pl/Ich fahre Zug.md)                                                           | 10        | 30        | mittel           | Stühle         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
-| [Kennenlernen mit Bällen](docs/pl/Kennenlernen mit Bällen.md)                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Kennenlernen mit Bällen hinterherlaufen](docs/pl/Kennenlernen mit Bällen hinterherlaufen.md)       | 5         | 25        | einfach - mittel | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Kennenlernen mit Bällen](docs/pl/Kennenlernen mit Bällen.md)                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [Namenkampf](docs/pl/Namenkampf.md)                                                                 | 10        | 30        | einfach          | großes Tuch    | 10 -  15   | <ul><li>sonstiges</li><li>kennenlernen</li></ul>  |
 | [Niemand ist gern allein](docs/pl/Niemand ist gern allein.md)                                       | 8         | 99        | einfach          | keines         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
 | [Ohrfeigen und Küsse](docs/pl/Ohrfeigen und Küsse.md)                                               | 5         | 30        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>theater</li></ul>    |
 | [Robert die rennende Robbe](docs/pl/Robert die rennende Robbe.md)                                   | 4         | 12        | einfach          | keines         | 3 - 10     | <ul><li>kennenlernen</li></ul>                    |
 | [Sich gegenseitig vorstellen](docs/pl/Sich gegenseitig vorstellen.md)                               | 5         | 15        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Suchkind](docs/pl/Suchkind.md)                                                                     | 5         | 20        | mittel           | keines         | 20 -  30   | <ul><li>kennenlernen</li></ul>                    |
+| [Tratschen in Anwesenheit](docs/pl/Tratschen in Anwesenheit.md)                                     | 3         | 6         | einfach          | keines         | \-         | <ul><li>kennenlernen</li></ul>                    |
+| [Vorstellungsrunde - Werdegang - Symbolisch](docs/pl/Vorstellungsrunde - Werdegang - Symbolisch.md) | 2         | 10        | mittel           | verschiedenes  | 30-45      | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [Zombie](docs/pl/Zombie.md)                                                                         | 6         | 18        | mittel           | keines         | 5-10       | <ul><li>kennenlernen</li></ul>                    |
+| [Zuckerwasserschießen](docs/pl/Zuckerwasserschießen.md)                                             | 6         | 20        | etwas schwerer   | keines         | 7          | <ul><li>kennenlernen</li></ul>                    |
 
 <!-- SerializedQuery END -->

@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-15-united-states
 created: 2025-08-30 23:50:47
-update: 2026-06-06 21:49:43
+update: 2026-06-07 00:08:41
 publish: false
 tags:
   - case-study
@@ -18,6 +18,7 @@ translation_source_hash: a055f401dfb12665e9a8b425aa4bb81ca920907e7498971d9afd197
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:47+00:00
 ---
+
 # **Funktionelles Jonglieren als Werkzeug für motorische Entwicklung und soziale Integration im Rahmen einer Berufsausbildung**
 
 [Quat Props](Quat%20Props.md) - Vereinigte Staaten

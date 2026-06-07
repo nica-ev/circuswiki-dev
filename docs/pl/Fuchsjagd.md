@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-18 02:40:53
+update: 2026-06-07 01:14:52
 title: Fuchsjagd
 description: 
 authors:
@@ -22,25 +22,25 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fuchsjagd.md
-translation_source_hash: c2a827637934c2e987a11c855fbda13f2f84b0d52c7d5496c4ee9fb0b37e0b3f
+translation_source_hash: 43bfa43e4a1262f575ec69a50b4b78a94dade66d8db20083b4a52613290a9b2b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:15:18+00:00
+translation_updated: 2026-06-07T13:28:18+00:00
 ---
 # Polowanie na lisa
 
 > [!info] Krótki opis
-> Prosta i dynamiczna gra w łapanie dla małych i średnich grup, której celem jest zdobycie "lisiego ogona" przeciwnika i uniknięcie schwytania.
+> Prosta i dynamiczna gra w łapanie dla małych i średnich grup, której celem jest zdobycie "kitsy" (chusty) innych graczy i uniknięcie schwytania.
 
 **Wielkość grupy**: Mała do średniej
 **Poziom trudności**: Łatwy
-**Materiały**: Jedna chustka (jako "lisiego ogona") dla każdego uczestnika
+**Materiały**: Jedna chusta (jako "kitsa") dla każdego uczestnika
 **Czas trwania gry**: Około 10-15 minut
 
 ## **Opis gry**:
 
-Każdy uczestnik wkłada chustkę (jako "lisiego ogona") z tyłu za pasek spodni. Tylko łapiący (lis) nie ma "lisiego ogona".
+Każdy uczestnik chowa chustę (jako "kitsę") z tyłu za pasem spodni. Tylko osoba goniąca (lis) nie ma kitsy.
 
-Łapiący (lis) próbuje teraz wyrwać komuś "lisiego ogona". Jeśli mu się to uda, osoba, której wyrwano "lisiego ogona", staje się nowym łapiącym (lisem).
+Lis próbuje teraz wyrwać komuś kitsę. Jeśli mu się to uda, osoba, której wyrwano kitsę, staje się nowym lisem.
 
 ## **Źródło**:
 

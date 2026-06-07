@@ -30,4 +30,4 @@ Prosta gra do ćwiczenia podstawowych umiejętności balansowania.
 Każdy uczestnik bierze balon i próbuje utrzymać go jak najdłużej na różnych częściach ciała.
 Na przykład: na nosie, na głowie, na wyciągniętych palcach, na pięści itp.
 
-Zobacz też: [[Balansowanie piórami pawia]]
+Zobacz też: [[Pfauenfedern balancieren]]

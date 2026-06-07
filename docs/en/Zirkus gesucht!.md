@@ -21,7 +21,7 @@ translation_updated: 2026-06-06T19:30:24+00:00
 ---
 ## Circus Wanted!
 **A Report from Two Clowns Who Were Tired of Living in the GDR**
-[Circus Wanted!](Circus%20Wanted!.md)
+[Circus Wanted!](Zirkus%20gesucht!.md)
 ### By Streuselschnecke...
 
 How did the whole circus start? Well, that's almost an endless story....

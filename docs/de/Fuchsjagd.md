@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-18 02:40:53
+update: 2026-06-07 01:14:52
 title: Fuchsjagd
 description: 
 authors:
@@ -22,6 +22,7 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
+
 # Fuchsjagd
 
 > [!info] Kurzbeschreibung

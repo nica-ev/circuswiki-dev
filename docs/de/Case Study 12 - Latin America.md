@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-12-latin-america
 created: 2025-08-30 21:19:33
-update: 2026-06-06 21:49:25
+update: 2026-06-07 00:08:18
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: 6df2bcd4b9641d8eafdbbedbb7184e981c33dd016072ff4f28ff36c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:34+00:00
 ---
+
 # Wo Bewegung uns findet – Inklusiver Zirkus im therapeutischen Gruppenkontext
 
 Verfasst von Jael Rodriguez, Gründerin von [Hula Hoop Integral](Hula%20Hoop%20Integral.md).

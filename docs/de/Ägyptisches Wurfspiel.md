@@ -2,7 +2,7 @@
 lang: de
 translation_id: agyptisches-wurfspiel
 created: 2025-03-17 00:14:12
-update: 2025-03-18 01:11:42
+update: 2026-06-07 00:02:02
 publish: true
 tags:
   - spiele
@@ -22,6 +22,7 @@ todo: fertig
 translation_status: original
 translation_source_lang: de
 ---
+
 > [!info] Kurzbeschreibung
 > Dieses Wurfspiel für kleine Gruppen, dessen Ursprung vermutlich in Ägypten liegt, fordert Konzentration und Reaktionsfähigkeit. Ziel ist es, den Ball zur richtigen Person zu werfen, während die Gegnergruppe versucht, Fehler zu vermeiden.
 

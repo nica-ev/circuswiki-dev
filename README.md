@@ -1,6 +1,6 @@
 ---
 created: 2025-05-02 21:56:19
-update: 2026-06-06 20:05:53
+update: 2026-06-07 15:22:56
 ---
 
 # CircusWiki
@@ -20,6 +20,12 @@ The repository is now treated as a clean rebuild:
 |-- docs/          Published Markdown content and shared assets
 |   |-- de/        German source pages
 |   |-- en/        English pages
+|   |-- hu/        Hungarian pages
+|   |-- it/        Italian pages
+|   |-- nl/        Dutch pages
+|   |-- el/        Greek pages
+|   |-- es/        Spanish pages
+|   |-- uk/        Ukrainian pages
 |   `-- img/       Shared media assets
 |-- site-assets/   Shared generated-site assets copied into each language build
 |-- tools/         Local build/staging scripts
@@ -31,7 +37,13 @@ The repository is now treated as a clean rebuild:
 |-- _system/       Vault maintenance notes
 |-- zensical.toml     Zensical German/default site configuration
 |-- zensical.en.toml  Zensical English site configuration
-`-- zensical.pl.toml  Zensical Polish site configuration
+|-- zensical.pl.toml  Zensical Polish site configuration
+|-- zensical.hu.toml  Zensical Hungarian site configuration
+|-- zensical.it.toml  Zensical Italian site configuration
+|-- zensical.nl.toml  Zensical Dutch site configuration
+|-- zensical.el.toml  Zensical Greek site configuration
+|-- zensical.es.toml  Zensical Spanish site configuration
+`-- zensical.uk.toml  Zensical Ukrainian site configuration
 ```
 
 Language folders use matching relative paths so translations can preserve page context:
@@ -39,20 +51,36 @@ Language folders use matching relative paths so translations can preserve page c
 ```text
 docs/de/spiele/example.md
 docs/en/spiele/example.md
+docs/pl/spiele/example.md
+docs/hu/spiele/example.md
+docs/it/spiele/example.md
+docs/nl/spiele/example.md
+docs/el/spiele/example.md
+docs/es/spiele/example.md
+docs/uk/spiele/example.md
 ```
 
-Public URLs do not expose German as a language layer. German is the default root, English is below `/en/`:
+Public URLs do not expose German as a language layer. German is the default root, other languages use their language code:
 
 ```text
 /circuswiki/spiele/example/
 /circuswiki/en/spiele/example/
 /circuswiki/pl/spiele/example/
+/circuswiki/hu/spiele/example/
+/circuswiki/it/spiele/example/
+/circuswiki/nl/spiele/example/
+/circuswiki/el/spiele/example/
+/circuswiki/es/spiele/example/
+/circuswiki/uk/spiele/example/
 ```
 
-Polish (`pl`) is scaffolded as a third language so multilingual tooling is not
-accidentally designed around exactly two languages.
+Configured languages are German (`de`), English (`en`), Polish (`pl`),
+Hungarian (`hu`), Italian (`it`), Dutch (`nl`), Greek (`el`), Spanish (`es`),
+and Ukrainian (`uk`). Dutch is used for the Circusatelier Woesh / West Flanders
+context; Flemish is a regional variety, but `nl` is the correct standard site
+language code.
 
-The build creates an ignored `.build/` staging directory so Zensical can see each language as its own root while source content stays organized in `docs/de/` and `docs/en/`. Shared generated-site assets from `site-assets/` are copied into each staged language root.
+The build creates an ignored `.build/` staging directory so Zensical can see each language as its own root while source content stays organized in `docs/<lang>/`. Shared generated-site assets from `site-assets/` are copied into each staged language root.
 
 The language selector is configured with root links, then adjusted in the browser to preserve the current path across languages.
 
@@ -73,8 +101,10 @@ python tools/stage_multilang.py
 zensical serve
 ```
 
-This is useful for quick checks, but it serves only `zensical.toml`. The English
-site from `zensical.en.toml` is not available through this command.
+This is useful for quick checks, but it serves only `zensical.toml` and does not
+run the multilingual post-build steps. Do not use plain `zensical serve` to test
+language switching, fallback pages, or hover previews; hover previews depend on
+the augmented generated sitemap.
 
 Preview the compiled multilingual site:
 
@@ -88,9 +118,10 @@ Open:
 http://127.0.0.1:8000/circuswiki/
 ```
 
-Use this command when checking the language switcher, English pages, or the
-same URL shape used on GitHub Pages. It builds all language configs first, then serves
-the generated `site/` directory with `/circuswiki/` mapped locally.
+Use this command when checking the language switcher, translated pages, fallback
+pages, hover previews, or the same URL shape used on GitHub Pages. It builds all
+language configs first, augments the generated sitemaps, then serves the generated
+`site/` directory with `/circuswiki/` mapped locally.
 
 Available options:
 
@@ -111,6 +142,12 @@ Expected local URLs:
 http://127.0.0.1:8000/circuswiki/
 http://127.0.0.1:8000/circuswiki/en/
 http://127.0.0.1:8000/circuswiki/pl/
+http://127.0.0.1:8000/circuswiki/hu/
+http://127.0.0.1:8000/circuswiki/it/
+http://127.0.0.1:8000/circuswiki/nl/
+http://127.0.0.1:8000/circuswiki/el/
+http://127.0.0.1:8000/circuswiki/es/
+http://127.0.0.1:8000/circuswiki/uk/
 ```
 
 Build all language sites:
@@ -138,6 +175,12 @@ If these variables are not set, the build defaults to the main public URL shape:
 /circuswiki/
 /circuswiki/en/
 /circuswiki/pl/
+/circuswiki/hu/
+/circuswiki/it/
+/circuswiki/nl/
+/circuswiki/el/
+/circuswiki/es/
+/circuswiki/uk/
 ```
 
 For this dev repository, the Pages workflow uses:
@@ -146,6 +189,12 @@ For this dev repository, the Pages workflow uses:
 https://nica-ev.github.io/circuswiki-dev/
 https://nica-ev.github.io/circuswiki-dev/en/
 https://nica-ev.github.io/circuswiki-dev/pl/
+https://nica-ev.github.io/circuswiki-dev/hu/
+https://nica-ev.github.io/circuswiki-dev/it/
+https://nica-ev.github.io/circuswiki-dev/nl/
+https://nica-ev.github.io/circuswiki-dev/el/
+https://nica-ev.github.io/circuswiki-dev/es/
+https://nica-ev.github.io/circuswiki-dev/uk/
 ```
 
 GitHub Pages must be enabled for the repository with "GitHub Actions" as the
@@ -193,8 +242,11 @@ and missing timestamps visible until translation or review happens.
 
 The Batch Translate tab uses a required plan-first workflow. Planning does not
 call the translation API; it only selects candidate files, applies `max_files`,
-counts source characters, and shows the candidate list. Running the plan then
-processes only those planned files and shows progress file by file.
+counts source characters, and shows the candidate list. Generated aggregate
+pages such as `sitemap.md` are excluded from batch translation plans because
+they duplicate links to real pages and can be disproportionately expensive.
+Running the plan then processes only those planned files and shows progress file
+by file.
 
 API credentials are read from local environment variables and are not stored in the repo:
 

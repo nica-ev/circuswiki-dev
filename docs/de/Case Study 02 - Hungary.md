@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-02-hungary
 created: 2025-08-30 19:07:41
-update: 2026-06-06 21:48:14
+update: 2026-06-07 00:08:08
 publish: false
 tags:
   - case-study
@@ -21,6 +21,7 @@ translation_source_hash: 752e31b06de9f7996ecc9a45055576a185e16c5778af42f6de8708c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:35+00:00
 ---
+
 # **Das Jonglierbrett im Kindergarten**
 
 **Kindergarten Almáskert – Bezirk III, Budapest, Ungarn**

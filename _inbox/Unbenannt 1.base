@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - file.hasTag("spiele")
+        - file.folder == "docs/de"
+        - category.contains("warm-up")

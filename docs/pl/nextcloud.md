@@ -21,4 +21,4 @@ Jak zarządzamy kopiami zapasowymi --> zapytać Trebora. #todo
 # Serwer
 Z jakiej usługi korzystamy do hostowania danych? #todo
 
-[Struktura katalogów Nextcloud](Struktura%20katalogów%20Nextcloud.md)
+[Struktura katalogów Nextcloud](Verzeichniss%20Struktur%20Nextcloud.md)

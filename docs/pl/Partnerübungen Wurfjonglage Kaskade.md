@@ -31,4 +31,4 @@ Drugie ćwiczenie, podobna zasada, jedna osoba ma oba przedmioty, rozpoczyna si�
 Trzecie ćwiczenie,
 3 przedmioty, żonglerka kaskadą. Ważne jest zwrócenie uwagi na rytm, wysokość i płaszczyznę rzutu.
 
-[Ćwiczenie partnerskie żonglerki rzutami – Podania](Ćwiczenie%20partnerskie%20żonglerki%20rzutami%20–%20Podania.md)
+[Ćwiczenie partnerskie żonglerki rzutami – Podania](Partnerübung%20Wurfjonglage%20Passing.md)

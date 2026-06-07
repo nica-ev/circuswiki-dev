@@ -33,4 +33,4 @@ Celem jest przemienienie wszystkich w wampiry.
 
 zobacz też:
 
-[Ziemniak Ziemniak](Ziemniak%20Ziemniak.md)
+[Ziemniak Ziemniak](Kartoffel%20Kartoffel.md)

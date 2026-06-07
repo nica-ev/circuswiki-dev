@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-08-poland
 created: 2025-08-30 20:51:10
-update: 2026-06-06 21:49:02
+update: 2026-06-07 00:08:15
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: c960d134175552c55a135927b6aaa8bcff04afee156862667fddef4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:09+00:00
 ---
+
 # **Kein Alter als Grenze – Funktionelles Jonglieren mit Senioren während des Lockdowns**
 
 [Odskocznia Studio](Odskocznia%20Studio.md) – Warschau, Polen

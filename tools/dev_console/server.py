@@ -25,6 +25,15 @@ from translation.workflow import (  # noqa: E402
     translate_page,
     vault_health_matrix,
 )
+from navigation.workflow import (  # noqa: E402
+    apply_nav_model,
+    model_from_current_nav,
+    nav_scan,
+    navigation_preview,
+    save_nav_model,
+    translate_all_nav_labels,
+    translate_nav_labels,
+)
 
 
 class DevConsoleHandler(SimpleHTTPRequestHandler):
@@ -53,6 +62,12 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
 
         if parsed.path == "/api/vault-health":
             return self.send_json(vault_health_matrix())
+
+        if parsed.path == "/api/navigation/scan":
+            try:
+                return self.send_json(nav_scan())
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
 
         if parsed.path == "/api/page":
             query = parse_qs(parsed.query)
@@ -127,6 +142,84 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
                     target_lang=str(payload.get("target_lang") or ""),
                     model=payload.get("model") or None,
                     prompt=payload.get("prompt") or None,
+                )
+                return self.send_json(result)
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
+
+        if parsed.path == "/api/navigation/init":
+            payload = self.read_json()
+            if payload is None:
+                return self.send_error_json(400, "Invalid JSON")
+
+            try:
+                language = str(payload.get("language") or "de")
+                model = save_nav_model(model_from_current_nav(language))
+                return self.send_json({"model": model, "preview": navigation_preview(model)})
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
+
+        if parsed.path == "/api/navigation/preview":
+            payload = self.read_json()
+            if payload is None:
+                return self.send_error_json(400, "Invalid JSON")
+
+            try:
+                model = payload.get("model")
+                if not isinstance(model, dict):
+                    return self.send_error_json(400, "Missing model object")
+                return self.send_json(navigation_preview(model))
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
+
+        if parsed.path == "/api/navigation/apply":
+            payload = self.read_json()
+            if payload is None:
+                return self.send_error_json(400, "Invalid JSON")
+
+            try:
+                model = payload.get("model")
+                if not isinstance(model, dict):
+                    return self.send_error_json(400, "Missing model object")
+                return self.send_json(apply_nav_model(model, save_model=True))
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
+
+        if parsed.path == "/api/navigation/translate-labels":
+            payload = self.read_json()
+            if payload is None:
+                return self.send_error_json(400, "Invalid JSON")
+
+            try:
+                model = payload.get("model")
+                if not isinstance(model, dict):
+                    return self.send_error_json(400, "Missing model object")
+                target_lang = str(payload.get("target_lang") or "")
+                llm_model = payload.get("llm_model") or None
+                result = translate_nav_labels(
+                    target_lang=target_lang,
+                    model=model,
+                    model_name=str(llm_model) if llm_model else None,
+                )
+                return self.send_json(result)
+            except Exception as exc:
+                return self.send_error_json(500, str(exc))
+
+        if parsed.path == "/api/navigation/translate-all-labels":
+            payload = self.read_json()
+            if payload is None:
+                return self.send_error_json(400, "Invalid JSON")
+
+            try:
+                model = payload.get("model")
+                if not isinstance(model, dict):
+                    return self.send_error_json(400, "Missing model object")
+                source_lang = str(payload.get("source_lang") or "de")
+                llm_model = payload.get("llm_model") or None
+                result = translate_all_nav_labels(
+                    model=model,
+                    source_lang=source_lang,
+                    model_name=str(llm_model) if llm_model else None,
                 )
                 return self.send_json(result)
             except Exception as exc:

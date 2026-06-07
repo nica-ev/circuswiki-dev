@@ -17,6 +17,7 @@
           <button class="tab active" type="button" data-tab="file-test">Individual File Test</button>
           <button class="tab" type="button" data-tab="vault-health">Vault Health</button>
           <button class="tab" type="button" data-tab="batch-translate">Batch Translate</button>
+          <button class="tab" type="button" data-tab="navigation">Navigation</button>
         </nav>
       </header>
 
@@ -105,6 +106,18 @@
             <progress id="repair-progress" value="0" max="0"></progress>
             <span id="repair-status">Repair idle.</span>
           </div>
+          <div class="matrix-controls" aria-label="Matrix horizontal zoom">
+            <div class="matrix-control-labels">
+              <span>Horizontal window</span>
+              <strong id="matrix-window-label">-</strong>
+            </div>
+            <div class="matrix-range" id="matrix-window-range">
+              <div class="matrix-range-track"></div>
+              <div class="matrix-range-selection" id="matrix-window-selection"></div>
+              <button class="matrix-range-handle" id="matrix-window-start" type="button" aria-label="Matrix window start"></button>
+              <button class="matrix-range-handle" id="matrix-window-end" type="button" aria-label="Matrix window end"></button>
+            </div>
+          </div>
           <div class="matrix-wrap">
             <table class="matrix" id="health-matrix"></table>
           </div>
@@ -137,6 +150,41 @@
             <table class="batch-list" id="batch-list"></table>
           </div>
           <pre id="batch-log" class="log health-details">Batch output.</pre>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-navigation">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Navigation</h2>
+              <p class="hint">Canonical nav model, drift detection, LLM proposal, preview, and apply.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="nav-source" title="Navigation label source language"></select>
+              <button id="nav-scan" type="button">Scan</button>
+              <button id="nav-init" type="button">Init From German Nav</button>
+              <button id="nav-translate" type="button">Translate All Labels</button>
+              <button id="nav-preview" type="button">Preview</button>
+              <button id="nav-apply" type="button" class="primary">Apply</button>
+            </div>
+          </div>
+
+          <div id="nav-summary" class="health-summary"></div>
+          <div class="nav-workspace">
+            <section>
+              <h2>Canonical Model</h2>
+              <p class="hint">JSON model. Apply writes this model and regenerates nav blocks in all Zensical configs.</p>
+              <textarea id="nav-model" class="nav-model-editor" spellcheck="false"></textarea>
+            </section>
+            <section>
+              <h2>Diagnostics</h2>
+              <div id="nav-diagnostics" class="nav-diagnostics"></div>
+              <h2>Preview</h2>
+              <div id="nav-preview-output" class="nav-diagnostics"></div>
+            </section>
+          </div>
+          <pre id="nav-log" class="log health-details">Navigation output.</pre>
         </section>
       </section>
     </main>

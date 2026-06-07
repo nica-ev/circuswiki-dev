@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-10-germany
 created: 2025-08-29 19:27:16
-update: 2026-06-06 21:49:14
+update: 2026-06-07 00:08:16
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: 33e0c90409adbc227592d99087134d67586fff800f0f24581d1ac61
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:22+00:00
 ---
+
 # **Bewegung und Spiel in der frühkindlichen Bildung**
 
 [NICA e.V.](NICA-EV.md), Halle

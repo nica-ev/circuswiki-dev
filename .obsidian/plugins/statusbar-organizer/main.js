@@ -334,8 +334,10 @@ function cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, eve
   if (!barStatus[row.id].visible)
     fauxEntry.addClass("statusbar-organizer-row-hidden");
   settingsContainer.appendChild(fauxEntry);
-  fauxEntry.style.left = realEntry.getBoundingClientRect().left + "px";
-  fauxEntry.style.top = realEntry.getBoundingClientRect().top + "px";
+  const containerX = settingsContainer.getBoundingClientRect().left;
+  const containerY = settingsContainer.getBoundingClientRect().top;
+  fauxEntry.style.left = realEntry.getBoundingClientRect().left - containerX + "px";
+  fauxEntry.style.top = realEntry.getBoundingClientRect().top - containerY + "px";
   fauxEntry.style.width = realEntry.offsetWidth + "px";
   for (const child of Array.from(realEntry.children)) {
     const fauxSpan = document.createElement("span");
@@ -349,8 +351,8 @@ function cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, eve
   return {
     stationaryRow: realEntry,
     movableRow: fauxEntry,
-    offsetX,
-    offsetY,
+    offsetX: offsetX + containerX,
+    offsetY: offsetY + containerY,
     index
   };
 }

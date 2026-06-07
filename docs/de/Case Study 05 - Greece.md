@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-05-greece
 created: 2025-08-29 21:14:58
-update: 2026-06-06 21:48:39
+update: 2026-06-07 00:08:13
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: c4c9c2d381bb2f791e3df06b7d847677666878c95ebca3aca81c1fc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:52+00:00
 ---
+
 # **Farben und Muster zur Förderung freundlicher Interaktionen**
 
 [Monokyklo](Monokyklo.md) - Thessaloniki, Griechenland

@@ -1,38 +1,51 @@
 function translationStatusLabel(status) {
   return {
-    "original": "Original page",
-    "machine-translated": "Machine translation",
-    "needs-review": "Translation needs review",
-    "missing-translation": "Translation missing",
+    "original": "original",
+    "machine-translated": "machine translated",
+    "needs-review": "needs review",
+    "missing-translation": "translation missing",
   }[status] || "Translation status";
 }
 
-function translationStatusMessage(group, language, entry) {
-  var sourceLang = group.source_lang || "";
-  var sourceLabel = sourceLang ? sourceLang.toUpperCase() : "source";
-  var currentLabel = language ? language.toUpperCase() : "current language";
+function translationStatusDetails(group, language, entry) {
+  var sourceLang = entry.source_lang || group.source_lang || "";
+  var sourceEntry = group.languages && sourceLang ? group.languages[sourceLang] : null;
+  var sourcePath = entry.source || (sourceEntry && sourceEntry.path) || "";
+  var authors = entry.authors && entry.authors.length ? entry.authors.join(", ") : "";
+  var lines = [
+    "Status: " + translationStatusLabel(entry.status),
+    "Language: " + (language || entry.source_lang || "unknown"),
+  ];
 
-  if (entry.status === "original") {
-    return "This is the original " + currentLabel + " version of this page.";
+  if (entry.path) {
+    lines.push("File: " + entry.path);
   }
 
-  if (entry.status === "machine-translated") {
-    var message = "This page was machine-translated from " + sourceLabel + ".";
-    if (entry.model) {
-      message += " Model: " + entry.model + ".";
-    }
-    return message;
+  if (authors) {
+    lines.push("Author: " + authors);
   }
 
-  if (entry.status === "needs-review") {
-    return "This translation exists, but its metadata or source alignment still needs review.";
+  if (sourceLang) {
+    lines.push("Source language: " + sourceLang);
   }
 
-  if (entry.status === "missing-translation" || entry.fallback) {
-    return "A dedicated " + currentLabel + " translation does not exist yet. This page is a fallback placeholder.";
+  if (sourcePath) {
+    lines.push("Source file: " + sourcePath);
   }
 
-  return "Translation metadata is incomplete for this page.";
+  if (entry.model) {
+    lines.push("Model: " + entry.model);
+  }
+
+  if (entry.updated) {
+    lines.push("Updated: " + entry.updated);
+  }
+
+  if (entry.fallback) {
+    lines.push("This is a fallback page; a dedicated translation is missing.");
+  }
+
+  return lines.join("\n");
 }
 
 function findCurrentTranslationEntry(map, path) {
@@ -69,43 +82,44 @@ function injectTranslationStatusStyles() {
   style.id = "translation-status-styles";
   style.textContent = [
     ".translation-status {",
-    "  display: grid;",
-    "  grid-template-columns: auto 1fr;",
-    "  gap: 0.55rem 0.75rem;",
+    "  display: flex;",
     "  align-items: center;",
-    "  margin: 0 0 1.25rem;",
-    "  padding: 0.7rem 0.85rem;",
-    "  border: 1px solid var(--md-default-fg-color--lightest);",
-    "  border-left: 0.22rem solid var(--md-accent-fg-color);",
-    "  border-radius: 0.45rem;",
-    "  background: var(--md-default-bg-color);",
-    "  color: var(--md-default-fg-color);",
-    "  font-size: 0.68rem;",
-    "  line-height: 1.35;",
+    "  margin: 0 0 0.45rem;",
+    "  padding: 0;",
+    "  font-size: 0.58rem;",
+    "  line-height: 1;",
     "}",
     ".translation-status__badge {",
     "  display: inline-flex;",
     "  align-items: center;",
     "  width: max-content;",
-    "  padding: 0.14rem 0.45rem;",
+    "  padding: 0.18rem 0.55rem;",
+    "  border: 1px solid rgba(47, 111, 94, 0.42);",
     "  border-radius: 999px;",
-    "  background: var(--md-accent-fg-color--transparent);",
-    "  color: var(--md-accent-fg-color);",
+    "  background: rgba(47, 111, 94, 0.1);",
+    "  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.48), 0 0.08rem 0.28rem rgba(30, 38, 33, 0.08);",
+    "  color: var(--cw-green, #2f6f5e);",
     "  font-weight: 700;",
-    "  letter-spacing: 0.02em;",
+    "  letter-spacing: 0.06em;",
     "  text-transform: uppercase;",
+    "  cursor: help;",
     "}",
-    ".translation-status__message {",
-    "  margin: 0;",
+    ".translation-status--original .translation-status__badge {",
+    "  border-color: rgba(47, 111, 94, 0.34);",
+    "  color: var(--cw-green, #2f6f5e);",
     "}",
-    ".translation-status--original { border-left-color: #2e7d32; }",
-    ".translation-status--machine-translated { border-left-color: #f57c00; }",
-    ".translation-status--needs-review,",
-    ".translation-status--missing-translation { border-left-color: #c62828; }",
-    "@media (max-width: 44rem) {",
-    "  .translation-status { grid-template-columns: 1fr; }",
+    ".translation-status--machine-translated .translation-status__badge {",
+    "  border-color: rgba(217, 155, 54, 0.62);",
+    "  background: rgba(217, 155, 54, 0.16);",
+    "  color: #8a5d12;",
     "}",
-  ].join("\\n");
+    ".translation-status--needs-review .translation-status__badge,",
+    ".translation-status--missing-translation .translation-status__badge {",
+    "  border-color: rgba(185, 70, 50, 0.58);",
+    "  background: rgba(185, 70, 50, 0.12);",
+    "  color: var(--cw-red, #b94632);",
+    "}",
+  ].join("\n");
   document.head.appendChild(style);
 }
 
@@ -115,7 +129,7 @@ function renderTranslationStatus() {
     return;
   }
 
-  loadTranslationMap(currentLanguageAssetBase()).then(function(map) {
+  loadTranslationMap(currentLanguageRootPath()).then(function(map) {
     var current = findCurrentTranslationEntry(map, window.location.pathname);
     if (!current) {
       return;
@@ -136,17 +150,10 @@ function renderTranslationStatus() {
     var badge = document.createElement("span");
     badge.className = "translation-status__badge";
     badge.textContent = translationStatusLabel(status);
-
-    var message = document.createElement("p");
-    message.className = "translation-status__message";
-    message.textContent = translationStatusMessage(
-      current.group,
-      current.language,
-      current.entry
-    );
+    badge.title = translationStatusDetails(current.group, current.language, current.entry);
+    badge.setAttribute("aria-label", badge.title);
 
     banner.appendChild(badge);
-    banner.appendChild(message);
     content.insertBefore(banner, content.firstChild);
   });
 }

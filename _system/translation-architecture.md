@@ -32,6 +32,12 @@ Current default presentation:
 /circuswiki/
 /circuswiki/en/
 /circuswiki/pl/
+/circuswiki/hu/
+/circuswiki/it/
+/circuswiki/nl/
+/circuswiki/el/
+/circuswiki/es/
+/circuswiki/uk/
 ```
 
 Current language folders:
@@ -40,17 +46,22 @@ Current language folders:
 docs/de/example.md
 docs/en/example.md
 docs/pl/example.md
+docs/hu/example.md
 docs/it/example.md
+docs/nl/example.md
+docs/el/example.md
+docs/es/example.md
+docs/uk/example.md
 ```
 
-Polish (`pl`) is the first scaffolded third language. Its immediate purpose is
-to keep tooling honest for 3+ languages before broader multilingual expansion.
+Polish (`pl`) was the first scaffolded third language. The current configured
+language set keeps tooling honest for broader multilingual expansion.
 
 The shared relative path and `translation_id` identify equivalent pages across languages. The folder determines the file's language for presentation, but metadata must identify the original source.
 
 ## Source Language Rule
 
-CircusWiki has an international community. New original content may be authored in German, English, Italian, Polish, Greek, Hungarian, Spanish, or other languages.
+CircusWiki has an international community. New original content may be authored in German, English, Italian, Polish, Greek, Hungarian, Spanish, Ukrainian, or other languages.
 
 Automatic translation should always translate from the canonical original source into the requested target language whenever possible.
 
@@ -218,7 +229,12 @@ This page is shown in German because no English translation exists yet.
 
 ## Implementation Implications
 
-Future code changes should avoid hard-coding German as source.
+Future code changes should avoid hard-coding German as source. The currently
+configured site languages are German (`de`), English (`en`), Polish (`pl`),
+Hungarian (`hu`), Italian (`it`), Dutch (`nl`), Greek (`el`), Spanish (`es`),
+and Ukrainian (`uk`). Use Dutch (`nl`) for the
+Circusatelier Woesh / West Flanders context; Flemish is a regional variety, but
+`nl` is the standard web language code.
 
 When extending translation tooling:
 
@@ -259,6 +275,7 @@ Planning must not call the translation API. It should only:
 - select candidate files
 - apply `max_files`
 - count source characters
+- exclude generated aggregate/index utility pages such as `sitemap.md`
 - show source language, target language, source path, target path, and reason
 
 Running a batch should process only the planned files and update progress after

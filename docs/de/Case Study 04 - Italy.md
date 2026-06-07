@@ -2,7 +2,7 @@
 lang: de
 translation_id: case-study-04-italy
 created: 2025-08-30 20:20:11
-update: 2026-06-06 21:48:33
+update: 2026-06-07 00:08:10
 publish: false
 tags:
   - case-study
@@ -19,6 +19,7 @@ translation_source_hash: 1ec7dfd6c668e0230c4b9c3b2c14785110b591aefab27e0a9decfe1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:48+00:00
 ---
+
 # **Rebuilding Grasp — Funktionelles Jonglieren und Handrehabilitation in Florenz, Italien**
 
 [SELF APS](SELF%20APS.md)

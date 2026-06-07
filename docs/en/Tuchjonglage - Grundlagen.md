@@ -25,6 +25,6 @@ Often, success can be achieved very quickly, even progressing to juggling with 3
 
 For beginners, it is also very helpful to use different colored scarves to get a better overview of what is happening.
 
-[[Scarf Juggling Fundamentals]]
-[[Throwing and Catching One Scarf]]
-[[Scarf Juggling - Throwing and Catching 2 Scarves]]
+[[Tücherjonglage Grundlagen]]
+[[Werfen und Fangen von einem Tuch]]
+[[Tuchjonglage - 2 Tücher Werfen und Fangen]]

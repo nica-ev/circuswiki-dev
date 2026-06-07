@@ -15,9 +15,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/MOC Call & Response Spiele.md
-translation_source_hash: 14e8876460cdf914131b1994886400a99e36efc904346e63110bcca11c605970
+translation_source_hash: d4d605175c1c2d1fa315d612fb307ca727ffe40dfbce9b80c512a45b4731d457
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:23+00:00
+translation_updated: 2026-06-06T22:25:58+00:00
 ---
 # Call and Response
 
@@ -30,5 +30,7 @@ translation_updated: 2026-06-06T19:27:23+00:00
 | [Löwenjagd](docs/de/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
 | [Die Geschichte der Banane](docs/en/Die Geschichte der Banane.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
 | [Löwenjagd](docs/en/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Die Geschichte der Banane](docs/pl/Die Geschichte der Banane.md) | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
+| [Löwenjagd](docs/pl/Löwenjagd.md)                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>call-response</li></ul> |
 
 <!-- SerializedQuery END -->

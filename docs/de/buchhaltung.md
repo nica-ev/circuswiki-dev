@@ -5,13 +5,14 @@ publish: true
 tags:
   - moc
 created: 2025-01-19 16:47:55
-update: 2025-01-23 05:44:55
+update: 2026-06-07 00:06:48
 title: Buchhaltung Übersicht
 authors:
   - Marc Bielert
 translation_status: original
 translation_source_lang: de
 ---
+
 # Buchhaltung Übersicht
 
 Unsere Buchhaltung basiert auf dem sogenannten "Plaintext Accounting". 

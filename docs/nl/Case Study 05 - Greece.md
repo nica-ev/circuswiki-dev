@@ -1,0 +1,83 @@
+---
+lang: nl
+translation_id: case-study-05-greece
+created: 2025-08-29 21:14:58
+update: 2026-06-06 21:48:39
+publish: false
+tags:
+  - case-study
+title: Colours and Patterns to Unlock Friendly Interactions
+description:
+authors:
+  - Monokyklo team
+type: Artikel
+land: Greece
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Case Study 05 - Greece.md
+translation_source_hash: c4c9c2d381bb2f791e3df06b7d847677666878c95ebca3aca81c1fca68392a24
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-06T23:13:07+00:00
+---
+# **Kleuren en Patronen om Vriendelijke Interacties te Ontsluiten**
+
+[Monokyklo](Monokyklo.md) - Thessaloniki, Griekenland
+**Geschreven door** het Monokyklo-team
+
+---
+
+## **Structuur en Setting**
+
+Elke sessie begon met een **korte introductie van de spellen** aan zowel trainers als deelnemers, gevolgd door **vrije exploratie**. Deelnemers werden aangemoedigd om **initiatief te nemen**, waardoor we konden observeren welke **patronen, kleuren of bewegingen hun interesse van nature trokken**. Begeleiders boden **zachte, niet-intrusieve ondersteuning**, gericht op aanmoediging en autonomie.
+
+De sessies vonden binnen plaats in **aangewezen recreatieruimtes** van elk DDC. Materialen werden op tafels tentoongesteld en omvatten:
+
+* Het **Juggle Board**
+* **Hula hoops**, **jongleerschotels**, **sjaals** en **jongleerballen**
+
+Het programma liep gedurende enkele maanden, met **bijna dagelijkse bezoeken aan vijf verschillende centra**, wat een kans bood voor **longitudinale observatie en diverse deelname**.
+
+![GEROPOULOU_GREECE.jpg](../img/GEROPOULOU_GREECE.jpg)
+
+---
+
+## **Sessieverloop en Spelontwerp**
+
+Elke sessie van 90 minuten volgde een consistente structuur:
+
+* Openings **kringspel** waarbij iedereen namen en persoonlijke updates deelde
+* Een **hoofdsessie** met wisselende activiteitstations of spellen in kleine groepen
+* Een **pauze van 10-20 minuten**, afhankelijk van de energie van de groep
+* Afsluitende **groepsreflectie**, waarbij hoogtepunten en feedback werden gedeeld
+
+De activiteiten wisselden af tussen **Functionele Jongleer-spellen** en andere circusgerelateerde ervaringen. Sommige sessies gebruikten een **klokindeling**, waardoor deelnemers zelfstandig tussen activiteiten konden bewegen. Het gestructureerde maar speelse ontwerp maakte **aanpassing aan individuele interesses en behoeften** mogelijk.
+
+![GEROPOULOU_GREECE2.jpg](../img/GEROPOULOU_GREECE2.jpg)
+
+---
+
+## **Observaties en Resultaten**
+
+De centrale focus – **het bevorderen van sociale openheid en peer-interactie** – werd duidelijk bereikt. We observeerden:
+
+* **Sterkere interpersoonlijke banden**, vooral bij voorheen teruggetrokken individuen
+* Een merkbaar verschil in **spelvoorkeuren** op basis van leeftijd en type handicap
+* Twee deelnemers met hyperactiviteit vertoonden **impulsiviteit**, hoewel deze **niet-verstorend** bleef
+* Deelnemers werden **aangetrokken door felle kleuren en gestructureerde patronen**, en hoewel het creëren van nieuwe reeksen uitdagend was, hielden de meesten vol en **slaagden ze met begeleiding**
+
+**Bekende begeleiders speelden een cruciale rol**. Wanneer deelnemers werden ondersteund door iemand die ze vertrouwden, **namen focus, betrokkenheid en vreugde allemaal toe**. Hulpmiddelen die **kleur- en nummercodering** bevatten, bleken bijzonder effectief. In alle vijf DDC's vertoonden deelnemers:
+
+* **Grotere gedragsregulatie**
+* **Consistentere deelname**
+* **Verhoogde openheid om nieuwe dingen te proberen**
+* **Verhoogde sociale betrokkenheid** met zowel leeftijdsgenoten als trainers
+
+![GEROPOULOU_GREECE3.jpg](../img/GEROPOULOU_GREECE3.jpg)
+
+---
+
+## **Conclusie**
+
+Dit initiatief toonde aan hoe Functioneel Jongleren een **krachtig hulpmiddel kan zijn voor inclusie en verbinding**. Met **frequentere en gestructureerdere sessies** geloven we dat het mogelijk zou zijn om nog **grotere vooruitgang te boeken op het gebied van motorische vaardigheden, cognitieve betrokkenheid en sociaal gedrag**.
+
+De consistente betrokkenheid van **DDC-personeel was een belangrijke succesfactor**. Hun aanwezigheid hielp bij het creëren van een **veilige en vertrouwde sfeer** waarin deelnemers zich veilig voelden om te verkennen, risico's te nemen en nieuwe relaties aan te gaan. Het programma verrijkte niet alleen de dagelijkse ervaring van de deelnemers, maar **empowerde ook zorgverleners en opvoeders** om op een praktische, vreugdevolle manier deel te nemen aan inclusieve pedagogiek.

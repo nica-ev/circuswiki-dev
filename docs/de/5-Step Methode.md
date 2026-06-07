@@ -2,7 +2,7 @@
 lang: de
 translation_id: 5-step-methode
 created: 2025-01-21 18:09:55
-update: 2025-02-25 00:15:58
+update: 2026-06-07 00:02:00
 publish: true
 tags:
   - functional-juggling
@@ -13,6 +13,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 # 5-Step Methode
 
 Funktionaler Ansatz ![200](../img/5-Step.png#side_right)
