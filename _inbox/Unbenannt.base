@@ -4,4 +4,9 @@ views:
     filters:
       and:
         - lang == "de"
-        - file.hasTag("dynamic")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
