@@ -1,0 +1,18 @@
+﻿{
+  "default_language": "de",
+  "common_fallback_language": "en",
+  "languages": [
+    { "code": "de", "name": "German", "nativeName": "Deutsch", "root": true, "zensical": "zensical.toml" },
+    { "code": "en", "name": "English", "nativeName": "English", "zensical": "zensical.en.toml" },
+    { "code": "pl", "name": "Polish", "nativeName": "Polski", "zensical": "zensical.pl.toml" },
+    { "code": "hu", "name": "Hungarian", "nativeName": "Magyar", "zensical": "zensical.hu.toml" },
+    { "code": "it", "name": "Italian", "nativeName": "Italiano", "zensical": "zensical.it.toml" },
+    { "code": "nl", "name": "Dutch", "nativeName": "Nederlands", "zensical": "zensical.nl.toml" },
+    { "code": "el", "name": "Greek", "nativeName": "Ελληνικά", "zensical": "zensical.el.toml" },
+    { "code": "es", "name": "Spanish", "nativeName": "Español", "zensical": "zensical.es.toml" },
+    { "code": "uk", "name": "Ukrainian", "nativeName": "Українська", "zensical": "zensical.uk.toml" },
+    { "code": "pt", "name": "Portuguese", "nativeName": "Português", "zensical": "zensical.pt.toml" },
+    { "code": "cs", "name": "Czech", "nativeName": "Česky", "zensical": "zensical.cs.toml" },
+    { "code": "sk", "name": "Slovak", "nativeName": "Slovenčina", "zensical": "zensical.sk.toml" }
+  ]
+}

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "ARCHITECTURE_REVIEW",
+      "path": "tools/ARCHITECTURE_REVIEW.md"
+    },
+    {
       "basename": "index",
       "path": "docs/de/index.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "Unbenannt",
       "path": "_inbox/Unbenannt.base"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Unbenannt 1",
@@ -195,10 +199,6 @@
     {
       "basename": "Beigoma Terminologie",
       "path": "docs/de/Beigoma Terminologie.md"
-    },
-    {
-      "basename": "Beigoma",
-      "path": "docs/de/Beigoma.md"
     }
   ],
   "omittedPaths": [],

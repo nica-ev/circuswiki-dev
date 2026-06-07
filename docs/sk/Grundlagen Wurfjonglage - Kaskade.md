@@ -1,0 +1,44 @@
+---
+lang: sk
+translation_id: grundlagen-wurfjonglage-kaskade
+created: 2025-01-21 18:09:55
+update: 2025-02-26 05:55:08
+publish: true
+tags:
+  - tutorial
+title: Grundlagen Wurfjonglage - Kaskade
+description: 
+authors:
+  - Marc Bielert
+translation_status: machine-translated
+translation_source_lang: de
+translation_source: docs/de/Grundlagen Wurfjonglage - Kaskade.md
+translation_source_hash: d6c196a0cd8d70e8b5bd158ced4b28576eb21c7664ba69539c5b94cf3383e020
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-07T18:46:36+00:00
+---
+# Základy hodenej žonglérskej kaskády
+
+(Tradičná) metóda učenia sa žonglovania s 3 objektmi. Moderné prístupy, ako napríklad [5-kroková metóda](5-Step%20Methode.md) od [[Person/Craig Quat]], ju dopĺňajú a rozširujú.
+
+Tento základný vzor, ako aj didaktický prístup k jeho učeniu, je do značnej miery nezávislý od použitého náčinia. Nezáleží na tom, či ide o šatky, lopty, kužele alebo iné rekvizity – postupnosť zostáva rovnaká.
+
+Najprv si pred sebou vizualizujeme rám okna.
+Ten naznačuje rovinu hodu, t. j. rovinu, v ktorej sa objekty pohybujú. Okrem toho nám pomáha vizualizovať si body, do ktorých hádžeme. V úrovni hlavy (mierne nad hlavou), mierne vpravo a vľavo od hlavy, sa nachádzajú tieto dva body.
+
+Začnite s jedným objektom v rytme: 1 a 2 – jedna je hod a let, 2 je chytanie. Objekt opisuje akúsi ležatú osmu v rovine hodu, pričom prechádza z pravej do ľavej ruky a späť.
+
+![200](../img/gif_5f4f41efe7145c2a4799923e.gif)
+Dva objekty. Začnite s jedným objektom v každej ruke. Hádže sa po rovnakých dráhach, dôležitý je tu rytmus. Hod, hod, chytanie, chytanie. (1 a 2 a 3 a 4) – Hody sa uskutočňujú postupne, s časovým posunom.
+
+Dva objekty, rôzne farby. Vždy začnite s jednou farbou – tým sa rovnomerne trénuje pravá aj ľavá strana. (Prvá sekvencia P, Ľ – druhá sekvencia Ľ, P)
+
+![200](../img/gif_271d546d38e2837f79d7edc8.gif)
+Dva objekty, začiatok s dvoma objektmi v jednej ruke. V závislosti od rekvizity existujú rôzne spôsoby držania objektov.
+Základným cvičením je tu jednotlivé púšťanie objektov z jednej ruky a chytanie dvoch objektov v druhej ruke. Aj to sa deje opäť s časovým posunom.
+
+Tri objekty. Dva v jednej ruke, jeden v druhej. Ruka s dvoma objektmi začína hádzať. V zásade ide len o kombináciu predchádzajúcich cvičení s dvoma objektmi.
+
+![200](../img/gif_9bc04a14f7668c4350a221c4.gif)
+
+Tento základný princíp sa využíva aj pri nasledujúcom [partnerskom cvičení](Partnerübungen%20Wurfjonglage%20Kaskade.md).

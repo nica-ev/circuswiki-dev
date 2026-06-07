@@ -2,9 +2,12 @@ $ErrorActionPreference = "Stop"
 
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
 $Site = Join-Path $Root "site"
+$LanguageRegistry = Join-Path $Root "tools\config\languages.json"
 
 Push-Location $Root
 try {
+    $Languages = (Get-Content -LiteralPath $LanguageRegistry -Raw | ConvertFrom-Json).languages
+
     python tools/configure_site_base.py
     python tools/stage_multilang.py
 
@@ -12,15 +15,15 @@ try {
         Remove-Item -LiteralPath $Site -Recurse -Force
     }
 
-    zensical build
-    zensical build -f zensical.en.toml
-    zensical build -f zensical.pl.toml
-    zensical build -f zensical.hu.toml
-    zensical build -f zensical.it.toml
-    zensical build -f zensical.nl.toml
-    zensical build -f zensical.el.toml
-    zensical build -f zensical.es.toml
-    zensical build -f zensical.uk.toml
+    foreach ($Language in $Languages) {
+        if ($Language.root) {
+            zensical build
+        }
+        else {
+            zensical build -f $Language.zensical
+        }
+    }
+
     python tools/augment_sitemaps.py
 }
 finally {

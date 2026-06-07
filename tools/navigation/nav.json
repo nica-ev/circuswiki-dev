@@ -15,7 +15,10 @@
         "nl": "Home",
         "el": "Αρχική",
         "es": "Inicio",
-        "uk": "Головна"
+        "uk": "Головна",
+        "pt": "Início",
+        "cs": "Domů",
+        "sk": "Domov"
       }
     },
     {
@@ -30,7 +33,10 @@
         "nl": "NICA e.V.",
         "el": "NICA e.V.",
         "es": "NICA e.V.",
-        "uk": "NICA e.V."
+        "uk": "NICA e.V.",
+        "pt": "NICA e.V.",
+        "cs": "NICA e.V.",
+        "sk": "NICA e.V."
       }
     },
     {
@@ -45,7 +51,10 @@
         "nl": "Bewegingsspellen",
         "el": "Παιχνίδια Κίνησης",
         "es": "Juegos de Movimiento",
-        "uk": "Ігри на рух"
+        "uk": "Ігри на рух",
+        "pt": "Jogos de Movimento",
+        "cs": "Pohybové hry",
+        "sk": "Pohybové hry"
       }
     },
     {
@@ -60,7 +69,10 @@
         "nl": "Lijst van alle spellen",
         "el": "Λίστα όλων των Παιχνιδιών",
         "es": "Lista de Todos los Juegos",
-        "uk": "Список усіх ігор"
+        "uk": "Список усіх ігор",
+        "pt": "Lista de Todos os Jogos",
+        "cs": "Seznam všech her",
+        "sk": "Zoznam všetkých hier"
       }
     },
     {
@@ -75,7 +87,10 @@
         "nl": "Erasmus+ Project",
         "el": "Έργο Erasmus+",
         "es": "Proyecto Erasmus+",
-        "uk": "Проєкт Erasmus+"
+        "uk": "Проєкт Erasmus+",
+        "pt": "Projeto Erasmus+",
+        "cs": "Projekt Erasmus+",
+        "sk": "Projekt Erasmus+"
       }
     },
     {
@@ -90,9 +105,12 @@
         "nl": "Meedoen",
         "el": "Συμμετοχή",
         "es": "Participar",
-        "uk": "Долучайтеся"
+        "uk": "Долучайтеся",
+        "pt": "Participar",
+        "cs": "Zapojte se",
+        "sk": "Zapojte sa"
       }
     }
   ],
-  "source": "label translation from de to 8 languages (google/gemini-2.5-flash-lite)"
+  "source": "label translation from de to 11 languages (manual seed for pt/cs/sk)"
 }

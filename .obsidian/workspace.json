@@ -26,13 +26,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/de/index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           },
           {
@@ -143,8 +143,19 @@
               "icon": "lucide-bookmark",
               "title": "Lesezeichen"
             }
+          },
+          {
+            "id": "cbb4aefc97bad879",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,10 +175,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/de/index.md"
+                "file": "tools/ARCHITECTURE_REVIEW.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von index"
+              "title": "Dateieigenschaften von ARCHITECTURE_REVIEW"
             }
           },
           {
@@ -176,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/de/index.md",
+                "file": "tools/ARCHITECTURE_REVIEW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von index"
+              "title": "Gliederung von ARCHITECTURE_REVIEW"
             }
           },
           {
@@ -206,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/de/index.md",
+                "file": "tools/ARCHITECTURE_REVIEW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +227,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf index"
+              "title": "Rückverweise auf ARCHITECTURE_REVIEW"
             }
           },
           {
@@ -225,12 +236,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/de/index.md",
+                "file": "tools/ARCHITECTURE_REVIEW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von index öffnen"
+              "title": "Ausgehende Links von ARCHITECTURE_REVIEW öffnen"
             }
           },
           {
@@ -266,57 +277,58 @@
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "0db583b7dea74b14",
   "lastOpenFiles": [
-    "site/es/Eiskönigin - Riese und Zwerge/index.html",
-    "site/es/Eiskönigin - Riese und Zwerge",
-    "site/es/Warsztat Hula hoop/index.html",
-    "site/es/Warsztat Hula hoop",
-    "site/es/Monokyklo/index.html",
-    "site/es/Monokyklo",
-    "site/es/wordpress/index.html",
-    "site/es/wordpress",
-    "site/es/sitemap/index.html",
-    "site/es/sitemap",
-    "site/es/Paar haschen & Kettenhaschen/index.html",
-    "site/es/assets/images/favicon.png",
-    "site/uk/assets/images/favicon.png",
-    "site/uk/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/uk/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/uk/img/poland-03.jpg",
-    "site/uk/img/poland-02.jpg",
-    "site/uk/img/poland-01.jpg",
-    "site/uk/img/nica-logo-simple-small-150x150.png",
-    "site/uk/img/nica-background.jpg",
-    "site/uk/img/monokyklo_feelingsafe_autism.jpg",
-    "docs/uk/Zonglowanie w parach z hula hoop.md",
-    "docs/uk/Zonglowanie w 5 krokach.md",
-    "docs/uk/Wyscig pilek z hula hoop.md",
-    "docs/uk/Warsztat Hula hoop.md",
-    "docs/uk/Obrazki.md",
-    "docs/uk/Misz masz.md",
-    "docs/uk/Kolka trzy.md",
-    "docs/uk/Cow jumps over the moon.md",
-    "docs/uk/Budowanie maszyn.md",
-    "docs/es/Zonglowanie w parach z hula hoop.md",
-    "docs/es/Zonglowanie w 5 krokach.md",
-    "docs/es/Wyscig pilek z hula hoop.md",
-    "docs/es/Warsztat Hula hoop.md",
-    "docs/es/Obrazki.md",
-    "docs/es/Misz masz.md",
-    "docs/es/Kolka trzy.md",
-    "docs/es/Cow jumps over the moon.md",
-    "docs/es/Budowanie maszyn.md",
-    "docs/el/Zonglowanie w parach z hula hoop.md",
-    "docs/el/Zonglowanie w 5 krokach.md",
-    "docs/el/Wyscig pilek z hula hoop.md",
-    "docs/el/Warsztat Hula hoop.md",
-    "docs/el/Obrazki.md",
-    "docs/el/Misz masz.md",
-    "docs/el/Kolka trzy.md",
+    "docs/cs/Zuzwinkern.md",
+    "docs/sk/Zungenmörder.md",
+    "docs/cs/Zungenmörder.md",
+    "docs/sk/Zuckerwasserschießen.md",
+    "docs/cs/Zuckerwasserschießen.md",
+    "docs/sk/Zonglowanie w parach z hula hoop.md",
+    "docs/sk/Zonglowanie w 5 krokach.md",
+    "docs/cs/Zonglowanie w 5 krokach.md",
+    "docs/sk/Zombieball.md",
+    "docs/cs/Zombieball.md",
+    "docs/pt/Zombieball.md",
+    "tools/__pycache__/__init__.cpython-313.pyc",
+    "tools/__init__.py",
+    "docs/sk/Zombie Hasche mit Namen.md",
+    "docs/cs/Zombie Hasche mit Namen.md",
+    "docs/pt/Zombie Hasche mit Namen.md",
+    "docs/sk/Zombie - Hasche.md",
+    "docs/cs/Zombie - Hasche.md",
+    "docs/pt/Zombie - Hasche.md",
+    "docs/sk/Zombie.md",
+    "docs/cs/Zombie.md",
+    "docs/pt/Zombie.md",
+    "docs/sk/Zirkusfangen.md",
+    "docs/cs/Zirkusfangen.md",
+    "docs/pt/Zirkusfangen.md",
+    "docs/sk/Zirkus gesucht!.md",
+    "docs/cs/Zirkus gesucht!.md",
+    "docs/pt/Zirkus gesucht!.md",
+    "tools/core/__pycache__/__init__.cpython-313.pyc",
+    "tools/core/__pycache__/languages.cpython-313.pyc",
+    "tools/core/__pycache__",
+    "tools/core/__init__.py",
+    "tools/core/languages.py",
+    "tools/core",
+    "tools/config/languages.json",
+    "tools/config",
+    "site/sk/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/sk/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/sk/img/poland-03.jpg",
+    "site/sk/img/poland-02.jpg",
+    "site/sk/img/poland-01.jpg",
+    "site/sk/img/nica-logo-simple-small-150x150.png",
+    "site/sk/img/nica-background.jpg",
+    "site/sk/img/monokyklo_feelingsafe_autism.jpg",
+    "site/sk/img/monokyklo_colours_and_patterns.jpg",
+    "site/sk/img/Kaskade-002-05.png",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

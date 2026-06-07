@@ -11,11 +11,11 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from core.languages import default_language, language_name as registry_language_name, zensical_configs
 from translation.markdown import split_markdown
 from translation.metadata import read_scalar
 from translation.workflow import (
     DEFAULT_BASE_URL,
-    LANGUAGE_NAMES,
     default_model,
     list_languages,
     load_local_env,
@@ -24,18 +24,8 @@ from translation.workflow import (
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
 MODEL_PATH = ROOT / "tools" / "navigation" / "nav.json"
-DEFAULT_LANGUAGE = "de"
-CONFIGS = {
-    "de": ROOT / "zensical.toml",
-    "en": ROOT / "zensical.en.toml",
-    "pl": ROOT / "zensical.pl.toml",
-    "hu": ROOT / "zensical.hu.toml",
-    "it": ROOT / "zensical.it.toml",
-    "nl": ROOT / "zensical.nl.toml",
-    "el": ROOT / "zensical.el.toml",
-    "es": ROOT / "zensical.es.toml",
-    "uk": ROOT / "zensical.uk.toml",
-}
+DEFAULT_LANGUAGE = default_language()
+CONFIGS = zensical_configs()
 NAV_BLOCK_RE = re.compile(r"(?ms)^nav\s*=\s*\[.*?^\]")
 ID_RE = re.compile(r"[^a-z0-9]+")
 
@@ -54,7 +44,7 @@ def rel(path: Path) -> str:
 
 
 def language_name(language: str) -> str:
-    return LANGUAGE_NAMES.get(language, language)
+    return registry_language_name(language)
 
 
 def read_config_nav(language: str) -> list[dict[str, Any]]:

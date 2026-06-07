@@ -26,9 +26,12 @@ alternate = [
   { name = "Magyar", link = "/circuswiki/hu/", lang = "hu" },
   { name = "Italiano", link = "/circuswiki/it/", lang = "it" },
   { name = "Nederlands", link = "/circuswiki/nl/", lang = "nl" },
-  { name = "Greek", link = "/circuswiki/el/", lang = "el" },
-  { name = "Spanish", link = "/circuswiki/es/", lang = "es" },
-  { name = "Ukrainian", link = "/circuswiki/uk/", lang = "uk" },
+  { name = "Ελληνικά", link = "/circuswiki/el/", lang = "el" },
+  { name = "Español", link = "/circuswiki/es/", lang = "es" },
+  { name = "Українська", link = "/circuswiki/uk/", lang = "uk" },
+  { name = "Português", link = "/circuswiki/pt/", lang = "pt" },
+  { name = "Česky", link = "/circuswiki/cs/", lang = "cs" },
+  { name = "Slovenčina", link = "/circuswiki/sk/", lang = "sk" },
 ]
 
 [project.theme]

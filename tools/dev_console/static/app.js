@@ -1,4 +1,5 @@
 let state = {
+  config: null,
   pages: [],
   selected: null,
   details: null,
@@ -48,17 +49,28 @@ function healthLog(value) {
 
 async function loadConfig() {
   const config = await api("/api/config");
+  state.config = config;
   $("model").value = config.default_model;
   $("prompt").value = config.default_prompt;
+  renderFileLanguageOptions(config);
 }
 
 async function loadHealth() {
-  const health = await api("/api/health");
+  const sourceLang = fileSourceLang();
+  const targetLang = fileTargetLang();
+  const health = await api(`/api/health?source_lang=${encodeURIComponent(sourceLang)}&target_lang=${encodeURIComponent(targetLang)}`);
   $("metric-total").textContent = health.total;
   $("metric-translated").textContent = health.translated;
   $("metric-needs").textContent = health.needs_translation;
   $("metric-issues").textContent = health.with_issues;
   state.pages = health.pages;
+  renderPages();
+}
+
+async function loadPages() {
+  const sourceLang = fileSourceLang();
+  const result = await api(`/api/pages?source_lang=${encodeURIComponent(sourceLang)}`);
+  state.pages = result.pages.map((source) => ({ source }));
   renderPages();
 }
 
@@ -84,7 +96,7 @@ function renderPages() {
     if (state.selected === page.source) {
       button.classList.add("active");
     }
-    button.textContent = page.source.replace("docs/de/", "");
+    button.textContent = page.source.replace(`docs/${fileSourceLang()}/`, "");
     button.title = page.source;
     button.addEventListener("click", () => selectPage(page.source));
     $("pages").appendChild(button);
@@ -94,7 +106,9 @@ function renderPages() {
 async function selectPage(path) {
   state.selected = path;
   renderPages();
-  state.details = await api(`/api/page?path=${encodeURIComponent(path)}`);
+  state.details = await api(
+    `/api/page?path=${encodeURIComponent(path)}&source_lang=${encodeURIComponent(fileSourceLang())}&target_lang=${encodeURIComponent(fileTargetLang())}`
+  );
   renderDetails();
 }
 
@@ -133,6 +147,8 @@ async function runTranslation(dryRun) {
       method: "POST",
       body: JSON.stringify({
         path: state.selected,
+        source_lang: fileSourceLang(),
+        target_lang: fileTargetLang(),
         model: $("model").value.trim(),
         prompt: $("prompt").value.trim(),
         dry_run: dryRun,
@@ -279,12 +295,33 @@ function renderBatchLanguageOptions() {
   const current = select.value || "en";
   const languages = state.vaultHealth?.languages || [];
   const languageNames = state.vaultHealth?.language_names || {};
-  select.innerHTML = languages
-    .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`)
-    .join("");
-  if (languages.includes(current)) {
+  const options = [
+    '<option value="all">All target languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`),
+  ];
+  select.innerHTML = options.join("");
+  if (current === "all" || languages.includes(current)) {
     select.value = current;
   }
+}
+
+function renderFileLanguageOptions(config) {
+  const languages = config.languages || [];
+  const options = languages
+    .map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`)
+    .join("");
+  $("file-source-lang").innerHTML = options;
+  $("file-target-lang").innerHTML = options;
+  $("file-source-lang").value = config.default_source_lang || "de";
+  $("file-target-lang").value = config.default_target_lang || "en";
+}
+
+function fileSourceLang() {
+  return $("file-source-lang")?.value || state.config?.default_source_lang || "de";
+}
+
+function fileTargetLang() {
+  return $("file-target-lang")?.value || state.config?.default_target_lang || "en";
 }
 
 function renderBatchPlan() {
@@ -301,6 +338,9 @@ function renderBatchPlan() {
     <span class="pill">Candidates: <strong>${plan.total_candidates}</strong></span>
     <span class="pill">Chars: <strong>${plan.total_source_chars}</strong></span>
     <span class="pill">Limit: <strong>${plan.max_files}</strong></span>
+    <span class="pill">Source policy: <strong>${escapeHtml(formatSourcePolicy(plan.source_policy))}</strong></span>
+    ${plan.source_counts ? `<span class="pill">By source: <strong>${escapeHtml(formatLanguageCounts(plan.source_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
+    ${plan.target_counts ? `<span class="pill">By language: <strong>${escapeHtml(formatTargetCounts(plan.target_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
   `;
 
   const table = $("batch-list");
@@ -334,6 +374,23 @@ function renderBatchPlan() {
 function batchLog(value) {
   $("batch-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function formatTargetCounts(counts, languageNames) {
+  return formatLanguageCounts(counts, languageNames);
+}
+
+function formatLanguageCounts(counts, languageNames) {
+  return Object.entries(counts)
+    .map(([language, count]) => `${languageLabel(language, languageNames[language])}: ${count}`)
+    .join(", ");
+}
+
+function formatSourcePolicy(policy) {
+  if (policy === "canonical_source_per_translation_group") {
+    return "Canonical source per group";
+  }
+  return policy || "default";
 }
 
 function navLog(value) {
@@ -854,6 +911,9 @@ function languageLabel(code, name) {
   if (!code) {
     return "";
   }
+  if (code === "all") {
+    return name || "All target languages";
+  }
   if (!name || name === code) {
     return code;
   }
@@ -868,6 +928,18 @@ $("filter").addEventListener("input", renderPages);
 $("refresh").addEventListener("click", () => {
   loadHealth().catch((error) => log(error.message));
   loadVaultHealth().catch((error) => healthLog(error.message));
+});
+$("file-source-lang").addEventListener("change", () => {
+  state.selected = null;
+  state.details = null;
+  renderDetails();
+  loadHealth().catch((error) => log(error.message));
+});
+$("file-target-lang").addEventListener("change", () => {
+  if (state.selected) {
+    selectPage(state.selected).catch((error) => log(error.message));
+  }
+  loadHealth().catch((error) => log(error.message));
 });
 $("refresh-health").addEventListener("click", () => {
   loadVaultHealth().catch((error) => healthLog(error.message));

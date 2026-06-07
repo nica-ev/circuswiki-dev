@@ -10,6 +10,13 @@ from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
+from core.languages import (
+    common_fallback_language,
+    default_language,
+    extra_docs_language_codes,
+    language_codes,
+    language_name as registry_language_name,
+)
 from .markdown import join_markdown, split_markdown
 from .metadata import ensure_scalars, missing_scalars, read_scalar, set_scalar
 
@@ -18,22 +25,14 @@ ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
 DEFAULT_MODEL = "google/gemini-2.0-flash-001"
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
-LANGUAGES = ("de", "en", "pl", "hu", "it", "nl", "el", "es", "uk")
+LANGUAGES = language_codes()
+DEFAULT_LANGUAGE = default_language()
+COMMON_FALLBACK_LANGUAGE = common_fallback_language()
 DEFAULT_CONTEXT_DESCRIPTION = (
     "CircusWiki pages about circus pedagogy, movement games, inclusive practice, "
     "organizational documentation, and related educational material."
 )
-LANGUAGE_NAMES = {
-    "de": "German",
-    "en": "English",
-    "pl": "Polish",
-    "hu": "Hungarian",
-    "it": "Italian",
-    "nl": "Dutch",
-    "el": "Greek",
-    "es": "Spanish",
-    "uk": "Ukrainian",
-}
+LANGUAGE_NAMES = {language: registry_language_name(language) for language in LANGUAGES}
 BATCH_TRANSLATION_EXCLUDED_RELATIVE_PATHS = {
     "sitemap.md",
 }
@@ -43,7 +42,7 @@ LOCAL_LINK_RE = re.compile(r"^(?![a-z][a-z0-9+.-]*:|#|/|mailto:)(?P<path>[^#?]+?
 
 
 def language_name(language: str) -> str:
-    return LANGUAGE_NAMES.get(language, language)
+    return registry_language_name(language)
 
 
 @dataclass(frozen=True)
@@ -88,12 +87,7 @@ def language_path(path: str | Path, source_lang: str, target_lang: str) -> Path:
 
 def list_languages() -> list[str]:
     configured = [language for language in LANGUAGES if (DOCS / language).exists()]
-    extra = sorted(
-        path.name
-        for path in DOCS.iterdir()
-        if path.is_dir() and path.name != "img" and path.name not in configured
-    )
-    return configured + extra
+    return configured + extra_docs_language_codes()
 
 
 def list_sources(source_lang: str = "de") -> list[str]:
@@ -177,10 +171,10 @@ def find_group_source_language(pages_by_language: dict[str, list[VaultPage]]) ->
                 if len(parts) > 2 and parts[1] in pages_by_language:
                     return parts[1]
 
-    if "de" in pages_by_language:
-        return "de"
-    if "en" in pages_by_language:
-        return "en"
+    if DEFAULT_LANGUAGE in pages_by_language:
+        return DEFAULT_LANGUAGE
+    if COMMON_FALLBACK_LANGUAGE in pages_by_language:
+        return COMMON_FALLBACK_LANGUAGE
     return next(iter(pages_by_language))
 
 
@@ -401,7 +395,11 @@ def batch_translation_plan(
         raise ValueError("max_files must be at least 1")
 
     languages, groups = discover_vault_pages()
-    if target_lang not in languages:
+    target_langs = list(languages) if target_lang == "all" else [target_lang]
+    unknown = [language for language in target_langs if language not in languages]
+    if unknown:
+        raise ValueError(f"Unknown target language: {', '.join(unknown)}")
+    if not target_langs:
         raise ValueError(f"Unknown target language: {target_lang}")
 
     candidates: list[dict[str, object]] = []
@@ -410,9 +408,6 @@ def batch_translation_plan(
     for translation_id in sorted(groups):
         pages_by_language = groups[translation_id]
         source_lang = find_group_source_language(pages_by_language)
-        if source_lang == target_lang:
-            skipped.append({"translation_id": translation_id, "reason": "target_is_source"})
-            continue
 
         source_pages = pages_by_language.get(source_lang) or []
         if not source_pages:
@@ -425,32 +420,61 @@ def batch_translation_plan(
             skipped.append({"translation_id": translation_id, "reason": excluded_reason})
             continue
 
-        target_pages = pages_by_language.get(target_lang) or []
-        target_page = primary_page(target_pages) if target_pages else None
-        reason = translation_candidate_reason(source_page, target_page, source_lang)
-        if not reason:
-            skipped.append({"translation_id": translation_id, "reason": "not_translation_candidate"})
-            continue
+        for candidate_target_lang in target_langs:
+            if source_lang == candidate_target_lang:
+                skipped.append(
+                    {
+                        "translation_id": translation_id,
+                        "target_lang": candidate_target_lang,
+                        "reason": "target_is_source",
+                    }
+                )
+                continue
 
-        candidates.append(
-            {
-                "translation_id": translation_id,
-                "title": source_page.title,
-                "source_lang": source_lang,
-                "source_language": language_name(source_lang),
-                "target_lang": target_lang,
-                "target_language": language_name(target_lang),
-                "source_path": source_page.rel_path,
-                "target_path": rel(language_path(source_page.path, source_lang, target_lang)),
-                "source_chars": len(source_page.body),
-                "reason": reason,
-            }
-        )
+            target_pages = pages_by_language.get(candidate_target_lang) or []
+            target_page = primary_page(target_pages) if target_pages else None
+            reason = translation_candidate_reason(source_page, target_page, source_lang)
+            if not reason:
+                skipped.append(
+                    {
+                        "translation_id": translation_id,
+                        "target_lang": candidate_target_lang,
+                        "reason": "not_translation_candidate",
+                    }
+                )
+                continue
+
+            candidates.append(
+                {
+                    "translation_id": translation_id,
+                    "title": source_page.title,
+                    "source_lang": source_lang,
+                    "source_language": language_name(source_lang),
+                    "target_lang": candidate_target_lang,
+                    "target_language": language_name(candidate_target_lang),
+                    "source_path": source_page.rel_path,
+                    "target_path": rel(language_path(source_page.path, source_lang, candidate_target_lang)),
+                    "source_chars": len(source_page.body),
+                    "reason": reason,
+                }
+            )
 
     limited = candidates[:max_files]
+    target_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
+    for item in candidates:
+        target_language = str(item["target_lang"])
+        source_language = str(item["source_lang"])
+        target_counts[target_language] = target_counts.get(target_language, 0) + 1
+        source_counts[source_language] = source_counts.get(source_language, 0) + 1
+
     return {
         "target_lang": target_lang,
-        "target_language": language_name(target_lang),
+        "target_language": "All target languages" if target_lang == "all" else language_name(target_lang),
+        "target_langs": target_langs,
+        "target_counts": target_counts,
+        "source_counts": source_counts,
+        "source_policy": "canonical_source_per_translation_group",
         "max_files": max_files,
         "total_candidates": len(candidates),
         "planned_count": len(limited),
@@ -819,8 +843,8 @@ Your response MUST contain ONLY the final, translated {target_language} text. Do
 
 def render_prompt(prompt: str | None, source_lang: str, target_lang: str) -> str:
     template = prompt or default_prompt_template()
-    source_language = LANGUAGE_NAMES.get(source_lang, source_lang)
-    target_language = LANGUAGE_NAMES.get(target_lang, target_lang)
+    source_language = language_name(source_lang)
+    target_language = language_name(target_lang)
     replacements = {
         "{source_lang}": source_lang,
         "{target_lang}": target_lang,

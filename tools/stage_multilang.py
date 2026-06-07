@@ -7,6 +7,13 @@ import os
 from pathlib import Path
 from urllib.parse import quote
 
+from core.languages import (
+    common_fallback_language,
+    default_language,
+    language_codes,
+    language_codes_re,
+    language_name,
+)
 from translation.markdown import split_markdown
 from translation.metadata import read_scalar
 
@@ -15,9 +22,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 BUILD = ROOT / ".build"
 SITE_ASSETS = ROOT / "site-assets"
-LANGUAGES = ("de", "en", "pl", "hu", "it", "nl", "el", "es", "uk")
-DEFAULT_LANGUAGE = "de"
-COMMON_FALLBACK_LANGUAGE = "en"
+LANGUAGES = language_codes()
+DEFAULT_LANGUAGE = default_language()
+COMMON_FALLBACK_LANGUAGE = common_fallback_language()
 FALLBACK_STATUS = "missing-translation"
 
 
@@ -27,7 +34,7 @@ IMAGE_LINK_RE = re.compile(
 )
 DOC_LINK_RE = re.compile(
     r"(?P<prefix>\]\(|href=[\"'])"
-    r"docs/(?!img/)(?:(?:de|en|pl|hu|it|nl|el|es|uk)/)?(?P<path>[^)\"']+?\.md(?P<anchor>#[^)\"']*)?)"
+    rf"docs/(?!img/)(?:(?:{language_codes_re()})/)?(?P<path>[^)\"']+?\.md(?P<anchor>#[^)\"']*)?)"
 )
 OBSIDIAN_CALLOUT_RE = re.compile(
     r"^(?P<indent>[ \t]*)>\s*\[!(?P<type>[A-Za-z][\w-]*)\](?P<fold>[+-])?(?P<title>.*)$"
@@ -103,18 +110,7 @@ def page_url(language: str, relative_path: str) -> str:
 
 
 def language_label(language: str) -> str:
-    return {
-        "de": "German",
-        "en": "English",
-        "pl": "Polish",
-        "hu": "Hungarian",
-        "it": "Italian",
-        "nl": "Dutch",
-        "el": "Greek",
-        "es": "Spanish",
-        "uk": "Ukrainian",
-        "fr": "French",
-    }.get(language, language)
+    return language_name(language)
 
 
 def frontmatter_value(value: str) -> str:

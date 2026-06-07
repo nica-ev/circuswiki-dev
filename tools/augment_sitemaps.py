@@ -5,11 +5,12 @@ from pathlib import Path
 from urllib.parse import quote
 from xml.etree import ElementTree
 
+from core.languages import default_language, language_codes, site_url
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
-LANGUAGES = ("de", "en", "pl", "hu", "it", "nl", "el", "es", "uk")
-DEFAULT_LANGUAGE = "de"
+LANGUAGES = language_codes()
+DEFAULT_LANGUAGE = default_language()
 DEFAULT_BASE_URL = "https://nica-ev.github.io/circuswiki/"
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
@@ -22,9 +23,7 @@ def normalize_base_url(value: str) -> str:
 
 
 def language_base_url(base_url: str, language: str) -> str:
-    if language == DEFAULT_LANGUAGE:
-        return base_url
-    return f"{base_url}{language}/"
+    return site_url(language, base_url)
 
 
 def site_root(language: str) -> Path:
