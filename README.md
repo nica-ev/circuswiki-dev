@@ -26,6 +26,9 @@ The repository is now treated as a clean rebuild:
 |   |-- el/        Greek pages
 |   |-- es/        Spanish pages
 |   |-- uk/        Ukrainian pages
+|   |-- pt/        Portuguese pages
+|   |-- cs/        Czech pages
+|   |-- sk/        Slovak pages
 |   `-- img/       Shared media assets
 |-- site-assets/   Shared generated-site assets copied into each language build
 |-- tools/         Local build/staging scripts
@@ -43,7 +46,10 @@ The repository is now treated as a clean rebuild:
 |-- zensical.nl.toml  Zensical Dutch site configuration
 |-- zensical.el.toml  Zensical Greek site configuration
 |-- zensical.es.toml  Zensical Spanish site configuration
-`-- zensical.uk.toml  Zensical Ukrainian site configuration
+|-- zensical.uk.toml  Zensical Ukrainian site configuration
+|-- zensical.pt.toml  Zensical Portuguese site configuration
+|-- zensical.cs.toml  Zensical Czech site configuration
+`-- zensical.sk.toml  Zensical Slovak site configuration
 ```
 
 Language folders use matching relative paths so translations can preserve page context:
@@ -58,6 +64,9 @@ docs/nl/spiele/example.md
 docs/el/spiele/example.md
 docs/es/spiele/example.md
 docs/uk/spiele/example.md
+docs/pt/spiele/example.md
+docs/cs/spiele/example.md
+docs/sk/spiele/example.md
 ```
 
 Public URLs do not expose German as a language layer. German is the default root, other languages use their language code:
@@ -72,13 +81,16 @@ Public URLs do not expose German as a language layer. German is the default root
 /circuswiki/el/spiele/example/
 /circuswiki/es/spiele/example/
 /circuswiki/uk/spiele/example/
+/circuswiki/pt/spiele/example/
+/circuswiki/cs/spiele/example/
+/circuswiki/sk/spiele/example/
 ```
 
 Configured languages are German (`de`), English (`en`), Polish (`pl`),
 Hungarian (`hu`), Italian (`it`), Dutch (`nl`), Greek (`el`), Spanish (`es`),
-and Ukrainian (`uk`). Dutch is used for the Circusatelier Woesh / West Flanders
+Ukrainian (`uk`), Portuguese (`pt`), Czech (`cs`), and Slovak (`sk`). Dutch is used for the Circusatelier Woesh / West Flanders
 context; Flemish is a regional variety, but `nl` is the correct standard site
-language code.
+language code. Czech uses `cs` and Slovak uses `sk`; Czechoslovakia was the former country, while Czech and Slovak are separate languages today. Portuguese uses the general `pt` code unless a regional variant such as Brazilian Portuguese is needed later.
 
 The build creates an ignored `.build/` staging directory so Zensical can see each language as its own root while source content stays organized in `docs/<lang>/`. Shared generated-site assets from `site-assets/` are copied into each staged language root.
 
@@ -148,6 +160,9 @@ http://127.0.0.1:8000/circuswiki/nl/
 http://127.0.0.1:8000/circuswiki/el/
 http://127.0.0.1:8000/circuswiki/es/
 http://127.0.0.1:8000/circuswiki/uk/
+http://127.0.0.1:8000/circuswiki/pt/
+http://127.0.0.1:8000/circuswiki/cs/
+http://127.0.0.1:8000/circuswiki/sk/
 ```
 
 Build all language sites:
@@ -181,6 +196,9 @@ If these variables are not set, the build defaults to the main public URL shape:
 /circuswiki/el/
 /circuswiki/es/
 /circuswiki/uk/
+/circuswiki/pt/
+/circuswiki/cs/
+/circuswiki/sk/
 ```
 
 For this dev repository, the Pages workflow uses:
@@ -195,6 +213,9 @@ https://nica-ev.github.io/circuswiki-dev/nl/
 https://nica-ev.github.io/circuswiki-dev/el/
 https://nica-ev.github.io/circuswiki-dev/es/
 https://nica-ev.github.io/circuswiki-dev/uk/
+https://nica-ev.github.io/circuswiki-dev/pt/
+https://nica-ev.github.io/circuswiki-dev/cs/
+https://nica-ev.github.io/circuswiki-dev/sk/
 ```
 
 GitHub Pages must be enabled for the repository with "GitHub Actions" as the

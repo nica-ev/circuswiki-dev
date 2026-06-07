@@ -1,22 +1,21 @@
 from __future__ import annotations
 
+import json
 import os
 import re
 from pathlib import Path
 
+from core.languages import (
+    default_language,
+    native_language_name,
+    site_subpath,
+    site_url,
+    zensical_configs,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIGS = {
-    "de": ROOT / "zensical.toml",
-    "en": ROOT / "zensical.en.toml",
-    "pl": ROOT / "zensical.pl.toml",
-    "hu": ROOT / "zensical.hu.toml",
-    "it": ROOT / "zensical.it.toml",
-    "nl": ROOT / "zensical.nl.toml",
-    "el": ROOT / "zensical.el.toml",
-    "es": ROOT / "zensical.es.toml",
-    "uk": ROOT / "zensical.uk.toml",
-}
+CONFIGS = zensical_configs()
+DEFAULT_LANGUAGE = default_language()
 DEFAULT_BASE_URL = "https://nica-ev.github.io/circuswiki/"
 
 
@@ -37,15 +36,11 @@ def normalize_base_url(value: str) -> str:
 
 
 def language_path(base_path: str, language: str) -> str:
-    if language == "de":
-        return base_path
-    return f"{base_path}{language}/"
+    return site_subpath(language, base_path)
 
 
 def language_url(base_url: str, language: str) -> str:
-    if language == "de":
-        return base_url
-    return f"{base_url}{language}/"
+    return site_url(language, base_url)
 
 
 def replace_project_site_url(text: str, site_url: str) -> str:
@@ -57,13 +52,15 @@ def replace_project_site_url(text: str, site_url: str) -> str:
     )
 
 
-def replace_alternate_link(text: str, language: str, link: str) -> str:
+def replace_alternate(text: str, language: str, name: str, link: str) -> str:
     pattern = re.compile(
-        r'(\{\s*name\s*=\s*"[^"]+"\s*,\s*link\s*=\s*")[^"]*("\s*,\s*lang\s*=\s*"'
+        r'(\{\s*name\s*=\s*)"[^"]+"(\s*,\s*link\s*=\s*)"[^"]+"(\s*,\s*lang\s*=\s*"'
         + re.escape(language)
         + r'"\s*\})'
     )
-    return pattern.sub(rf"\1{link}\2", text, count=1)
+    name_value = json.dumps(name, ensure_ascii=False)
+    link_value = json.dumps(link, ensure_ascii=False)
+    return pattern.sub(rf"\1{name_value}\2{link_value}\3", text, count=1)
 
 
 def configure_file(path: Path, language: str, base_path: str, base_url: str) -> None:
@@ -71,9 +68,10 @@ def configure_file(path: Path, language: str, base_path: str, base_url: str) -> 
     text = replace_project_site_url(text, language_url(base_url, language))
 
     for alternate_language in CONFIGS:
-        text = replace_alternate_link(
+        text = replace_alternate(
             text,
             alternate_language,
+            native_language_name(alternate_language),
             language_path(base_path, alternate_language),
         )
 

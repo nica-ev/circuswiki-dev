@@ -61,6 +61,16 @@
 
             <div class="form-grid">
               <label>
+                Source Language
+                <select id="file-source-lang"></select>
+              </label>
+
+              <label>
+                Target Language
+                <select id="file-target-lang"></select>
+              </label>
+
+              <label>
                 Model
                 <input id="model" type="text">
               </label>
@@ -131,6 +141,7 @@
             <div>
               <h2>Batch Translate</h2>
               <p class="hint">Plan first. Planning does not call the API. Running processes only the planned files.</p>
+              <p class="hint">Source policy: each translation group uses its detected canonical source language; target can be one language or all configured target languages.</p>
             </div>
             <div class="toolbar-actions">
               <select id="batch-target"></select>

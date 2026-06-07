@@ -1,0 +1,64 @@
+---
+lang: cs
+translation_id: zombie-hasche
+publish: true
+tags:
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-03-25 23:06:35
+title: Zombie - Hasche
+description: 
+authors:
+  - Marc Bielert
+category:
+  - fangen
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10 -  15
+source: unbekannt
+group-min: 10
+group-max: 98
+todo: text inklusion
+translation_status: machine-translated
+translation_source_lang: de
+translation_source: docs/de/Zombie - Hasche.md
+translation_source_hash: c08c40dad9449a850a39c29b7964f15b38855af399dbb6da76696792ced2e928
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-07T19:34:15+00:00
+---
+# Zombie – Honzo
+
+> [!info] Stručný popis
+> „Zombie – Honzo“ je hra na honěnou pro středně velké až velmi velké skupiny, kde se chycení hráči mění v zombie, což vytváří dynamickou a napínavou honičku.
+
+**Velikost skupiny**: Střední až extrémně velká
+**Obtížnost**: Lehká
+**Materiál**: Žádný
+**Doba trvání hry**: Cca 10–15 minut
+
+## **Popis hry**:
+
+V závislosti na velikosti skupiny se vybere 1–5 honičů (zombie).
+
+Zombie natáhnou ruce a pomalu a ztuhle se pohybují po hrací ploše.
+❗ **Důležité: Zombie nesmí běžet!**
+
+Když zombie chytí jiného hráče, tato osoba se také promění v zombie.
+
+Hrací plocha by měla být jasně vymezená a odpovídat velikosti skupiny.
+
+Hra končí, když se všichni hráči promění v zombie.
+
+Hra začíná pomalu, protože zombie jsou zpočátku v menšině a mohou se pohybovat jen pomalu. Jakmile se však první hráči promění v zombie, hra získá rychlou vlastní dynamiku.
+
+Tato hra je vhodná i pro velmi velké skupiny (až 100 dětí).
+
+## **Zdroj**:
+
+Neznámý
+
+## **Související odkazy**
+
+[Tučňáci a zabijáčtí plameňáci](Pinguine%20und%20Killer-Flamingos.md)
+[Popcorn](Popcorn.md)
+[Zombie – Honzo se jmény](Zombie%20Hasche%20mit%20Namen.md)

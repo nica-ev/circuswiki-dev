@@ -1,5 +1,5 @@
 var translationMapPromise = null;
-var LANGUAGE_CODES = ["de", "en", "pl", "hu", "it", "nl"];
+var FALLBACK_LANGUAGE_CODES = ["de", "en"];
 
 function currentScriptPath(scriptName) {
   var scripts = document.getElementsByTagName("script");
@@ -12,10 +12,17 @@ function currentScriptPath(scriptName) {
   return window.location.pathname;
 }
 
-function siteRootPath() {
+function languageCodes(map) {
+  if (map && Array.isArray(map.languages) && map.languages.length) {
+    return map.languages;
+  }
+  return FALLBACK_LANGUAGE_CODES;
+}
+
+function siteRootPath(codes) {
   var scriptPath = currentScriptPath("language-switcher.js");
   var root = scriptPath.replace(/javascripts\/language-switcher\.js$/, "");
-  root = root.replace(new RegExp("(?:" + LANGUAGE_CODES.join("|") + ")\\/$"), "");
+  root = root.replace(new RegExp("(?:" + codes.join("|") + ")\\/$"), "");
   if (!root.startsWith("/")) {
     root = "/" + root;
   }
@@ -72,44 +79,47 @@ function findCurrentGroup(map, path) {
 }
 
 function rewriteLanguageLinks() {
-  var base = siteRootPath();
   var path = window.location.pathname;
   var context = "";
 
-  for (var i = 0; i < LANGUAGE_CODES.length; i += 1) {
-    var language = LANGUAGE_CODES[i];
-    if (language === "de") {
-      continue;
-    }
-    var languageRoot = base + language + "/";
-    if (path.indexOf(languageRoot) === 0) {
-      context = path.slice(languageRoot.length);
-      break;
-    }
-  }
-
-  if (!context && path.indexOf(base) === 0) {
-    context = path.slice(base.length);
-  }
-
-  if (!context && path.indexOf(base) !== 0) {
-    context = path.replace(/^\/+/, "");
-  }
-
-  if (LANGUAGE_CODES.some(function(language) {
-    return context === language || context === language + "/";
-  })) {
-    context = "";
-  }
-
-  LANGUAGE_CODES.forEach(function(language) {
-    var languageRoot = language === "de" ? base : base + language + "/";
-    document.querySelectorAll('a[hreflang="' + language + '"]').forEach(function(link) {
-      link.href = languageRoot + context;
-    });
-  });
-
   loadTranslationMap(currentLanguageRootPath()).then(function(map) {
+    var codes = languageCodes(map);
+    var defaultLanguage = (map && map.default_language) || "de";
+    var base = siteRootPath(codes);
+
+    for (var i = 0; i < codes.length; i += 1) {
+      var language = codes[i];
+      if (language === defaultLanguage) {
+        continue;
+      }
+      var languageRoot = base + language + "/";
+      if (path.indexOf(languageRoot) === 0) {
+        context = path.slice(languageRoot.length);
+        break;
+      }
+    }
+
+    if (!context && path.indexOf(base) === 0) {
+      context = path.slice(base.length);
+    }
+
+    if (!context && path.indexOf(base) !== 0) {
+      context = path.replace(/^\/+/, "");
+    }
+
+    if (codes.some(function(language) {
+      return context === language || context === language + "/";
+    })) {
+      context = "";
+    }
+
+    codes.forEach(function(language) {
+      var languageRoot = language === defaultLanguage ? base : base + language + "/";
+      document.querySelectorAll('a[hreflang="' + language + '"]').forEach(function(link) {
+        link.href = languageRoot + context;
+      });
+    });
+
     var group = findCurrentGroup(map, path);
     if (!group || !group.languages) {
       return;
