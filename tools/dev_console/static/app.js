@@ -1,3 +1,6 @@
+import { api } from "./api.js";
+import { $, escapeHtml } from "./dom.js";
+
 let state = {
   config: null,
   pages: [],
@@ -11,31 +14,6 @@ let state = {
   matrixWindow: { start: 0, end: 0 },
   matrixDrag: null,
 };
-
-const $ = (id) => document.getElementById(id);
-
-async function api(path, options = {}) {
-  const response = await fetch(path, {
-    headers: { "Content-Type": "application/json" },
-    ...options,
-  });
-
-  const text = await response.text();
-  let data;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch (error) {
-    const preview = text.slice(0, 120).replace(/\s+/g, " ");
-    throw new Error(
-      `Expected JSON from ${path}, got ${response.status} ${response.statusText}: ${preview}`
-    );
-  }
-
-  if (!response.ok) {
-    throw new Error(data?.error || response.statusText);
-  }
-  return data;
-}
 
 function log(value) {
   $("log").textContent =
@@ -208,12 +186,17 @@ async function runMetadataRepair() {
 async function createBatchPlan() {
   const targetLang = $("batch-target").value;
   const maxFiles = Number($("batch-max-files").value);
+  const maxSourceChars = Number($("batch-max-chars").value);
   if (!targetLang) {
     batchLog("Select a target language.");
     return;
   }
   if (!Number.isInteger(maxFiles) || maxFiles < 1) {
     batchLog("max_files must be at least 1.");
+    return;
+  }
+  if ($("batch-max-chars").value && (!Number.isInteger(maxSourceChars) || maxSourceChars < 1)) {
+    batchLog("max_source_chars must be empty or at least 1.");
     return;
   }
 
@@ -225,6 +208,10 @@ async function createBatchPlan() {
       method: "POST",
       body: JSON.stringify({
         target_lang: targetLang,
+        source_lang: $("batch-source").value,
+        reason: $("batch-reason").value,
+        max_source_chars: $("batch-max-chars").value ? maxSourceChars : null,
+        path_filter: $("batch-path-filter").value.trim(),
         max_files: maxFiles,
       }),
     });
@@ -291,17 +278,36 @@ async function runBatchTranslation() {
 }
 
 function renderBatchLanguageOptions() {
-  const select = $("batch-target");
-  const current = select.value || "en";
+  const targetSelect = $("batch-target");
+  const sourceSelect = $("batch-source");
+  const reasonSelect = $("batch-reason");
+  const currentTarget = targetSelect.value || state.config?.default_target_lang || "all";
+  const currentSource = sourceSelect.value || "all";
+  const currentReason = reasonSelect.value || "all";
   const languages = state.vaultHealth?.languages || [];
   const languageNames = state.vaultHealth?.language_names || {};
-  const options = [
+  const targetOptions = [
     '<option value="all">All target languages</option>',
     ...languages.map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`),
   ];
-  select.innerHTML = options.join("");
-  if (current === "all" || languages.includes(current)) {
-    select.value = current;
+  const sourceOptions = [
+    '<option value="all">All source languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`),
+  ];
+  const reasonOptions = batchReasonOptions().map(
+    (reason) => `<option value="${escapeHtml(reason)}">${escapeHtml(batchReasonLabel(reason))}</option>`
+  );
+  targetSelect.innerHTML = targetOptions.join("");
+  sourceSelect.innerHTML = sourceOptions.join("");
+  reasonSelect.innerHTML = reasonOptions.join("");
+  if (currentTarget === "all" || languages.includes(currentTarget)) {
+    targetSelect.value = currentTarget;
+  }
+  if (currentSource === "all" || languages.includes(currentSource)) {
+    sourceSelect.value = currentSource;
+  }
+  if (batchReasonOptions().includes(currentReason)) {
+    reasonSelect.value = currentReason;
   }
 }
 
@@ -312,16 +318,16 @@ function renderFileLanguageOptions(config) {
     .join("");
   $("file-source-lang").innerHTML = options;
   $("file-target-lang").innerHTML = options;
-  $("file-source-lang").value = config.default_source_lang || "de";
-  $("file-target-lang").value = config.default_target_lang || "en";
+  $("file-source-lang").value = config.default_source_lang || languages[0]?.code || "";
+  $("file-target-lang").value = config.default_target_lang || languages[0]?.code || "";
 }
 
 function fileSourceLang() {
-  return $("file-source-lang")?.value || state.config?.default_source_lang || "de";
+  return $("file-source-lang")?.value || state.config?.default_source_lang || "";
 }
 
 function fileTargetLang() {
-  return $("file-target-lang")?.value || state.config?.default_target_lang || "en";
+  return $("file-target-lang")?.value || state.config?.default_target_lang || "";
 }
 
 function renderBatchPlan() {
@@ -339,6 +345,7 @@ function renderBatchPlan() {
     <span class="pill">Chars: <strong>${plan.total_source_chars}</strong></span>
     <span class="pill">Limit: <strong>${plan.max_files}</strong></span>
     <span class="pill">Source policy: <strong>${escapeHtml(formatSourcePolicy(plan.source_policy))}</strong></span>
+    <span class="pill">Filters: <strong>${escapeHtml(formatBatchFilters(plan.filters || {}))}</strong></span>
     ${plan.source_counts ? `<span class="pill">By source: <strong>${escapeHtml(formatLanguageCounts(plan.source_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
     ${plan.target_counts ? `<span class="pill">By language: <strong>${escapeHtml(formatTargetCounts(plan.target_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
   `;
@@ -393,6 +400,43 @@ function formatSourcePolicy(policy) {
   return policy || "default";
 }
 
+function batchReasonOptions() {
+  return [
+    "all",
+    "missing_file",
+    "fallback_page",
+    "source_hash_mismatch",
+    "missing_source_hash",
+    "translation_source_lang_mismatch",
+  ];
+}
+
+function batchReasonLabel(reason) {
+  return {
+    all: "All reasons",
+    missing_file: "Missing file",
+    fallback_page: "Fallback page",
+    source_hash_mismatch: "Source hash mismatch",
+    missing_source_hash: "Missing source hash",
+    translation_source_lang_mismatch: "Source language mismatch",
+  }[reason] || reason;
+}
+
+function formatBatchFilters(filters) {
+  const names = state.vaultHealth?.language_names || {};
+  const parts = [
+    `source=${languageLabel(filters.source_lang || "all", filters.source_lang === "all" ? "All source languages" : names[filters.source_lang])}`,
+    `reason=${batchReasonLabel(filters.reason || "all")}`,
+  ];
+  if (filters.max_source_chars) {
+    parts.push(`max chars=${filters.max_source_chars}`);
+  }
+  if (filters.path_filter) {
+    parts.push(`text="${filters.path_filter}"`);
+  }
+  return parts.join(", ");
+}
+
 function navLog(value) {
   $("nav-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
@@ -416,12 +460,17 @@ async function loadNavigationScan() {
 }
 
 async function initNavigationModel() {
+  const sourceLang = $("nav-source").value || state.config?.default_source_lang || "";
+  if (!sourceLang) {
+    navLog("Select a navigation source language.");
+    return;
+  }
   setBusy(true);
-  navLog("Creating canonical model from German nav...");
+  navLog(`Creating canonical model from ${sourceLang} nav...`);
   try {
     const result = await api("/api/navigation/init", {
       method: "POST",
-      body: JSON.stringify({ language: "de" }),
+      body: JSON.stringify({ language: sourceLang }),
     });
     $("nav-model").value = JSON.stringify(result.model, null, 2);
     state.navigationPreview = result.preview;
@@ -439,7 +488,7 @@ async function translateNavigationLabels() {
   if (!model) {
     return;
   }
-  const sourceLang = $("nav-source").value || "de";
+  const sourceLang = $("nav-source").value || state.config?.default_source_lang || "";
   if (!sourceLang) {
     navLog("Select a navigation source language.");
     return;
@@ -541,7 +590,7 @@ function renderNavigationLanguageOptions() {
     select.innerHTML = "";
     return;
   }
-  const current = select.value || "de";
+  const current = select.value || state.config?.default_source_lang || scan.languages[0] || "";
   select.innerHTML = scan.languages
     .map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, scan.language_names[language]))}</option>`)
     .join("");
@@ -897,14 +946,6 @@ function setBusy(isBusy) {
   if (isBusy) {
     $("batch-run").disabled = true;
   }
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }
 
 function languageLabel(code, name) {

@@ -13,6 +13,8 @@ from translation.workflow import (  # noqa: E402
     VaultPage,
     batch_translation_plan,
     find_group_source_language,
+    restore_markdown_link_targets,
+    restore_wikilink_targets,
 )
 
 
@@ -23,6 +25,27 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertGreaterEqual(plan["planned_count"], 0)
         self.assertIn("target_langs", plan)
         self.assertIn("de", plan["target_langs"])
+
+    def test_batch_plan_reason_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, reason="missing_file")
+        self.assertTrue(
+            all(item["reason"] == "missing_file" for item in plan["candidates"]),
+            plan["candidates"],
+        )
+        self.assertEqual(plan["filters"]["reason"], "missing_file")
+
+    def test_batch_plan_source_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, source_lang="de")
+        self.assertTrue(
+            all(item["source_lang"] == "de" for item in plan["candidates"]),
+            plan["candidates"],
+        )
+        self.assertEqual(plan["filters"]["source_lang"], "de")
+
+    def test_batch_plan_max_source_chars_filter(self) -> None:
+        plan = batch_translation_plan("all", 5, max_source_chars=1)
+        self.assertEqual(plan["total_candidates"], 0)
+        self.assertEqual(plan["filters"]["max_source_chars"], 1)
 
     def test_source_language_uses_original_status(self) -> None:
         pages = {
@@ -40,6 +63,20 @@ class TranslationWorkflowTests(unittest.TestCase):
         result = split_markdown(output)
         self.assertEqual(read_scalar(result.frontmatter, "custom_field"), "keep me")
         self.assertEqual(read_scalar(result.frontmatter, "lang"), "en")
+
+    def test_markdown_link_targets_are_restored_without_touching_external_links(self) -> None:
+        source = "See [Spiel](spiele/original.md#regeln) and [Site](https://example.org).\n"
+        translated = "See [Game](games/translated.md#rules) and [Site](https://example.org).\n"
+        result = restore_markdown_link_targets(source, translated)
+        self.assertIn("[Game](spiele/original.md#regeln)", result)
+        self.assertIn("[Site](https://example.org)", result)
+
+    def test_wikilink_targets_are_restored_but_aliases_stay_translated(self) -> None:
+        source = "Siehe [[Spiele/Fangen|Fangen]] und ![[img/original.png]].\n"
+        translated = "See [[Games/Tag|Tag]] and ![[img/translated.png]].\n"
+        result = restore_wikilink_targets(source, translated)
+        self.assertIn("[[Spiele/Fangen|Tag]]", result)
+        self.assertIn("![[img/original.png]]", result)
 
     def page(self, language: str, status: str) -> VaultPage:
         return VaultPage(

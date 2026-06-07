@@ -64,6 +64,21 @@ class StagingWorkflowTests(unittest.TestCase):
             stage_multilang.normalize_internal_doc_links(root)
             self.assertEqual(page.read_text(encoding="utf-8"), "[Target](folder/target.md#section)\n")
 
+    def test_obsidian_callouts_convert_to_admonitions_outside_code_fences(self) -> None:
+        source = (
+            "> [!tip]- Hinweise\n"
+            "> Erste Zeile\n"
+            "> Zweite Zeile\n"
+            "\n"
+            "```\n"
+            "> [!warning] not a callout\n"
+            "```\n"
+        )
+        result = stage_multilang.convert_obsidian_callouts(source)
+        self.assertIn('??? tip "Hinweise"', result)
+        self.assertIn("    Erste Zeile", result)
+        self.assertIn("> [!warning] not a callout", result)
+
 
 if __name__ == "__main__":
     unittest.main()

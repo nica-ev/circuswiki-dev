@@ -2,11 +2,59 @@
   "recentFiles": [
     {
       "basename": "README",
-      "path": "README.md"
+      "path": "tools/README.md"
+    },
+    {
+      "basename": "ARCHITECTURE",
+      "path": "tools/ARCHITECTURE.md"
     },
     {
       "basename": "ARCHITECTURE_REVIEW",
       "path": "tools/ARCHITECTURE_REVIEW.md"
+    },
+    {
+      "basename": "Paar haschen & Kettenhaschen",
+      "path": "docs/en/Paar haschen & Kettenhaschen.md"
+    },
+    {
+      "basename": "Medusa",
+      "path": "docs/en/Medusa.md"
+    },
+    {
+      "basename": "Kissenrennen",
+      "path": "docs/en/Kissenrennen.md"
+    },
+    {
+      "basename": "Ich fahre Zug",
+      "path": "docs/en/Ich fahre Zug.md"
+    },
+    {
+      "basename": "Frutti del Mare - Aufwärmspiel",
+      "path": "docs/en/Frutti del Mare - Aufwärmspiel.md"
+    },
+    {
+      "basename": "Drunter und Drüber",
+      "path": "docs/de/Drunter und Drüber.md"
+    },
+    {
+      "basename": "Case Study 14 - United States",
+      "path": "docs/de/Case Study 14 - United States.md"
+    },
+    {
+      "basename": "Case Study 03 - Italy",
+      "path": "docs/de/Case Study 03 - Italy.md"
+    },
+    {
+      "basename": "Beigoma Terminologie",
+      "path": "docs/de/Beigoma Terminologie.md"
+    },
+    {
+      "basename": "Ball werfen im Stern",
+      "path": "docs/de/Ball werfen im Stern.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "index",
@@ -129,10 +177,6 @@
       "path": "docs/de/Case Study 15 - United States.md"
     },
     {
-      "basename": "Case Study 14 - United States",
-      "path": "docs/de/Case Study 14 - United States.md"
-    },
-    {
       "basename": "Case Study 13 - Latin America",
       "path": "docs/de/Case Study 13 - Latin America.md"
     },
@@ -153,52 +197,8 @@
       "path": "docs/de/Case Study 05 - Greece.md"
     },
     {
-      "basename": "Case Study 03 - Italy",
-      "path": "docs/de/Case Study 03 - Italy.md"
-    },
-    {
       "basename": "Case Study 02 - Hungary",
       "path": "docs/de/Case Study 02 - Hungary.md"
-    },
-    {
-      "basename": "buchhaltung",
-      "path": "docs/de/buchhaltung.md"
-    },
-    {
-      "basename": "Bombenspiel",
-      "path": "docs/de/Bombenspiel.md"
-    },
-    {
-      "basename": "Beschütze deinen Freund",
-      "path": "docs/de/Beschütze deinen Freund.md"
-    },
-    {
-      "basename": "Bewegungs-Spiele",
-      "path": "docs/de/Bewegungs-Spiele.md"
-    },
-    {
-      "basename": "Bewegungsspiele",
-      "path": "docs/de/Bewegungsspiele.md"
-    },
-    {
-      "basename": "Bewerbung im Zirkus",
-      "path": "docs/de/Bewerbung im Zirkus.md"
-    },
-    {
-      "basename": "Bille Bille Bob",
-      "path": "docs/de/Bille Bille Bob.md"
-    },
-    {
-      "basename": "Bibbel Di Babbel Di Buh",
-      "path": "docs/de/Bibbel Di Babbel Di Buh.md"
-    },
-    {
-      "basename": "Beigoma-Spiel-Speed",
-      "path": "docs/de/Beigoma-Spiel-Speed.md"
-    },
-    {
-      "basename": "Beigoma Terminologie",
-      "path": "docs/de/Beigoma Terminologie.md"
     }
   ],
   "omittedPaths": [],

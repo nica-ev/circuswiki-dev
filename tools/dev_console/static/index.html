@@ -144,7 +144,11 @@
               <p class="hint">Source policy: each translation group uses its detected canonical source language; target can be one language or all configured target languages.</p>
             </div>
             <div class="toolbar-actions">
+              <select id="batch-source" title="Source language filter"></select>
               <select id="batch-target"></select>
+              <select id="batch-reason" title="Candidate reason filter"></select>
+              <input id="batch-path-filter" type="search" placeholder="Path/title filter" title="Filter by path, title, or translation ID">
+              <input id="batch-max-chars" type="number" min="1" placeholder="Max chars" title="Maximum source characters per file">
               <input id="batch-max-files" type="number" min="1" max="100" value="5" title="Maximum files to process">
               <button id="batch-plan" type="button">Plan</button>
               <button id="batch-run" type="button" class="primary" disabled>Run Planned</button>
@@ -174,7 +178,7 @@
             <div class="toolbar-actions">
               <select id="nav-source" title="Navigation label source language"></select>
               <button id="nav-scan" type="button">Scan</button>
-              <button id="nav-init" type="button">Init From German Nav</button>
+              <button id="nav-init" type="button">Init From Selected Nav</button>
               <button id="nav-translate" type="button">Translate All Labels</button>
               <button id="nav-preview" type="button">Preview</button>
               <button id="nav-apply" type="button" class="primary">Apply</button>
@@ -200,6 +204,6 @@
       </section>
     </main>
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

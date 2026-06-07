@@ -1,0 +1,1 @@
+﻿"""Optional Obsidian integration adapters."""

@@ -193,7 +193,7 @@ def slug(value: str) -> str:
     return value or "nav-item"
 
 
-def model_from_current_nav(language: str = DEFAULT_LANGUAGE) -> dict[str, Any]:
+def model_from_current_nav(language: str) -> dict[str, Any]:
     nav = read_config_nav(language)
     pages = discover_pages()
     model = default_empty_model()
@@ -482,10 +482,12 @@ def set_model_label(items: list[dict[str, Any]], item_id: str, language: str, la
 
 def translate_nav_labels(
     target_lang: str,
+    source_lang: str,
     model: dict[str, Any] | None = None,
-    source_lang: str = DEFAULT_LANGUAGE,
     model_name: str | None = None,
 ) -> dict[str, Any]:
+    if not source_lang:
+        raise ValueError("Missing source language")
     if target_lang == source_lang:
         raise ValueError("Target language must differ from source language")
     if target_lang not in configured_languages():
@@ -535,11 +537,13 @@ def translate_nav_labels(
 
 
 def translate_all_nav_labels(
+    source_lang: str,
     model: dict[str, Any] | None = None,
-    source_lang: str = DEFAULT_LANGUAGE,
     target_langs: list[str] | None = None,
     model_name: str | None = None,
 ) -> dict[str, Any]:
+    if not source_lang:
+        raise ValueError("Missing source language")
     languages = configured_languages()
     if source_lang not in languages:
         raise ValueError(f"Unknown source language: {source_lang}")

@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 02:16:04
+update: 2026-06-07 23:00:46
 title: Paar haschen & Kettenhaschen
 description: 
 authors:
@@ -19,6 +19,7 @@ translation_source_hash: 990c760bead744f3e494f2d82157760e578f0703fac2d4dfa4e176b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:27:39+00:00
 ---
+
 # Partner Tag & Chain Tag
 
 **Group Size**: 15+ players

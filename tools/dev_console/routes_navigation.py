@@ -1,6 +1,5 @@
 ﻿from __future__ import annotations
 
-from core.languages import default_language
 from navigation.workflow import (
     apply_nav_model,
     model_from_current_nav,
@@ -24,7 +23,9 @@ def handle_get(handler, path: str, _query_string: str) -> bool:
 def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
     if path == "/api/navigation/init":
         try:
-            language = str(payload.get("language") or default_language())
+            language = str(payload.get("language") or "")
+            if not language:
+                return handler.send_error_json(400, "Missing language")
             model = save_nav_model(model_from_current_nav(language))
             return handler.send_json({"model": model, "preview": navigation_preview(model)})
         except Exception as exc:
@@ -54,10 +55,16 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
             return handler.send_error_json(400, "Missing model object")
         try:
             target_lang = str(payload.get("target_lang") or "")
+            source_lang = str(payload.get("source_lang") or "")
+            if not source_lang:
+                return handler.send_error_json(400, "Missing source_lang")
+            if not target_lang:
+                return handler.send_error_json(400, "Missing target_lang")
             llm_model = payload.get("llm_model") or None
             result = translate_nav_labels(
                 target_lang=target_lang,
                 model=model,
+                source_lang=source_lang,
                 model_name=str(llm_model) if llm_model else None,
             )
             return handler.send_json(result)
@@ -69,7 +76,9 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
         if not isinstance(model, dict):
             return handler.send_error_json(400, "Missing model object")
         try:
-            source_lang = str(payload.get("source_lang") or default_language())
+            source_lang = str(payload.get("source_lang") or "")
+            if not source_lang:
+                return handler.send_error_json(400, "Missing source_lang")
             llm_model = payload.get("llm_model") or None
             result = translate_all_nav_labels(
                 model=model,
