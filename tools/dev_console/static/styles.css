@@ -258,6 +258,18 @@ label {
   overflow-wrap: anywhere;
 }
 
+.path-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.mini-button {
+  padding: 0.16rem 0.42rem;
+  font-size: 0.72rem;
+}
+
 .issue,
 .pill {
   display: inline-block;
@@ -446,6 +458,72 @@ label {
   grid-template-columns: minmax(420px, 0.9fr) minmax(460px, 1.1fr);
   gap: 10px;
   align-items: start;
+}
+
+.dynamic-workspace {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.55fr) minmax(520px, 1.45fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.dynamic-pages {
+  max-height: 62vh;
+}
+
+.cleanup-workspace {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.75fr) minmax(520px, 1.25fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.cleanup-list {
+  display: grid;
+  gap: 6px;
+  max-height: 62vh;
+  margin-top: 8px;
+  overflow: auto;
+}
+
+.cleanup-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px;
+  align-items: start;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 4px;
+  background: var(--panel-2);
+}
+
+.cleanup-item.active {
+  border-color: var(--accent);
+}
+
+.cleanup-item input {
+  width: auto;
+  margin-top: 0.55rem;
+}
+
+.cleanup-item-main {
+  width: 100%;
+  border-color: transparent;
+  text-align: left;
+  color: var(--ink);
+  background: transparent;
+}
+
+.cleanup-item-main strong {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.cleanup-item-main span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .graph-workspace {
@@ -680,6 +758,8 @@ label {
   .metrics,
   .workspace,
   .nav-workspace,
+  .dynamic-workspace,
+  .cleanup-workspace,
   .graph-workspace {
     grid-template-columns: 1fr;
   }

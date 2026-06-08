@@ -1,0 +1,84 @@
+from __future__ import annotations
+
+import sys
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools"))
+
+from translation.link_repair import repair_link_targets  # noqa: E402
+
+
+class LinkRepairTests(unittest.TestCase):
+    def test_repairs_markdown_link_targets_inside_tables(self) -> None:
+        source = "| Spiel |\n| --- |\n| [Ägyptisches Wurfspiel](<./%C3%84gyptisches%20Wurfspiel.md>) |\n"
+        translated = "| Game |\n| --- |\n| [Egyptian Throwing Game](<./Egyptian%20Throwing%20Game.md>) |\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertTrue(result.changed)
+        self.assertEqual(result.repair_count, 1)
+        self.assertIn("[Egyptian Throwing Game](<./%C3%84gyptisches%20Wurfspiel.md>)", result.body)
+
+    def test_repairs_markdown_link_targets_inside_callouts(self) -> None:
+        source = "> [!tip]\n> Siehe [Fangen](spiele/Fangen.md#regeln).\n"
+        translated = "> [!tip]\n> See [Tag](games/Tag.md#rules).\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertIn("[Tag](spiele/Fangen.md#regeln)", result.body)
+
+    def test_repairs_loose_obsidian_markdown_link_targets_with_spaces(self) -> None:
+        source = "[Nadelöhr](Nadelöhr.md)\n"
+        translated = "[Needle's Eye](Needle's Eye.md)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertTrue(result.changed)
+        self.assertEqual(result.repair_count, 1)
+        self.assertIn("[Needle's Eye](Nadelöhr.md)", result.body)
+        self.assertEqual([item.kind for item in result.diagnostics], ["target_repaired"])
+
+    def test_repairs_markdown_link_targets_without_dropping_titles(self) -> None:
+        source = '[Nadelöhr](Nadelöhr.md "Quelle")\n'
+        translated = '[Needle](Needle.md "Translated title")\n'
+
+        result = repair_link_targets(source, translated)
+
+        self.assertIn('[Needle](Nadelöhr.md "Translated title")', result.body)
+
+    def test_repairs_wikilink_targets_but_keeps_translated_aliases(self) -> None:
+        source = "Siehe [[Spiele/Fangen|Fangen]] und ![[img/original.png]].\n"
+        translated = "See [[Games/Tag|Tag]] and ![[img/translated.png]].\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertIn("[[Spiele/Fangen|Tag]]", result.body)
+        self.assertIn("![[img/original.png]]", result.body)
+
+    def test_does_not_repair_links_inside_fenced_code_blocks(self) -> None:
+        source = "```md\n[Spiel](original.md)\n```\n[Spiel](real.md)\n"
+        translated = "```md\n[Game](translated.md)\n```\n[Game](wrong.md)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertIn("[Game](translated.md)", result.body)
+        self.assertIn("[Game](real.md)", result.body)
+        self.assertNotIn("[Game](original.md)", result.body)
+        self.assertNotIn("[Game](wrong.md)", result.body)
+
+    def test_reports_count_mismatch_without_positional_repair(self) -> None:
+        source = "[A](a.md) and [B](b.md)\n"
+        translated = "[A](wrong-a.md)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertFalse(result.changed)
+        self.assertEqual(result.repair_count, 0)
+        self.assertIn("[A](wrong-a.md)", result.body)
+        self.assertEqual(result.diagnostics[0].kind, "link_count_mismatch")
+
+
+if __name__ == "__main__":
+    unittest.main()

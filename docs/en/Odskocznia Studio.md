@@ -14,12 +14,8 @@ authors:
 website:
 instagram: odskoczniastudio
 land: Poland
-translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Odskocznia Studio.md
-translation_source_hash: 76ca6e236dedd4386d148d141406b95e3c4ea023b78d6d36cbd18cb5b473f620
-translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:36+00:00
+translation_status: original
+translation_source_lang: en
 ---
 # **Odskocznia Studio**
 
@@ -30,3 +26,4 @@ These engaging sessions are designed for children, adults, schools, businesses, 
 # Contact
 Although the website is currently available only in Polish, more information can be found at:  
  👉 https://www.instagram.com/odskoczniastudio/
+

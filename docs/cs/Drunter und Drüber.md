@@ -2,7 +2,7 @@
 lang: cs
 translation_id: drunter-und-druber
 created: 2025-03-17 00:11:12
-update: 2025-03-17 02:05:52
+update: 2026-06-07 22:47:15
 publish: true
 tags:
   - spiele
@@ -15,11 +15,11 @@ category:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 32bdac7a819f98194eae8faa826bace149bb60defb185b8662b11f06506eda1f
+translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:39:50+00:00
+translation_updated: 2026-06-08T16:35:18+00:00
 ---
-# Všude kolem
+# Drunter und Drüber
 
 Jednoduchá hra s předměty pro malé až středně velké skupiny.
 
@@ -27,11 +27,11 @@ Všichni stojí v řadě.
 Předměty se podávají zepředu dozadu přes hlavu.
 Poslední v řadě podává předměty zezadu dopředu mezi nohama toho před sebou.
 
-Buď se to celé hraje jako nekonečná hra, nebo se předměty odkládají stranou, jakmile dokončí celé kolo.
+Buď se to udělá jako nekonečná hra, nebo se předměty odloží stranou, když dokončí celé kolo.
 
 ---
 sloučit s duplicitní poznámkou:
 
 Jednoduchá hra s předměty pro malé až středně velké skupiny.
 
-Všichni stojí v řadě. Předměty se podávají zepředu dozadu přes hlavu. Poslední v řadě podává předměty zezadu dopředu mezi nohama toho před sebou. Předměty se buď mohou odkládat stranou, jakmile dokončí celé kolo, nebo se hra jako nekonečná hra spustí znovu.
+Všichni stojí v řadě. Předměty se podávají zepředu dozadu přes hlavu. Poslední v řadě podává předměty zezadu dopředu mezi nohama toho před sebou. Předměty se buď mohou odložit stranou, když projdou celé kolo, nebo se hra nekonečně opakuje od začátku.

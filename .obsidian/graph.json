@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "[\"lang\":pl]",
+  "search": "path:docs/cs -file:\"Liste aller Spiele.md\" ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -15,24 +15,10 @@
       }
     },
     {
-      "query": "[\"lang\":de]",
+      "query": "[\"translation_status\":\"machine-translated\"]",
       "color": {
         "a": 1,
-        "rgb": 65344
-      }
-    },
-    {
-      "query": "[\"lang\":en]",
-      "color": {
-        "a": 1,
-        "rgb": 43775
-      }
-    },
-    {
-      "query": "[\"lang\":pl]",
-      "color": {
-        "a": 1,
-        "rgb": 14041855
+        "rgb": 7208356
       }
     }
   ],
@@ -46,6 +32,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3508307034083998,
-  "close": true
+  "scale": 0.13348390117116696,
+  "close": false
 }

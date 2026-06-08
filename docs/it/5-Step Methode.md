@@ -2,7 +2,7 @@
 lang: it
 translation_id: 5-step-methode
 created: 2025-01-21 18:09:55
-update: 2026-06-07 00:02:00
+update: 2026-06-08 23:55:29
 publish: true
 tags:
   - functional-juggling
@@ -17,6 +17,7 @@ translation_source_hash: 8f5d2cceed571c28038a8e1610c1aeee6b3cd3aa40669536a5b51e6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:57:16+00:00
 ---
+
 # Metodo a 5 Passi
 
 Approccio funzionale ![200](../img/5-Step.png#side_right)

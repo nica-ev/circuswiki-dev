@@ -2,7 +2,7 @@
 lang: pt
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-07 21:07:04
+update: 2026-06-08 21:01:39
 publish: true
 tags:
   - moc
@@ -14,9 +14,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: b9492b5ccc5f959a66c428eadffa937982ab1caf4c33d8fd7598e9dcfec7849e
+translation_source_hash: a43e0b5d7f8b0b2a47459875d3d21a024588b411b606a78e032a2e464ec1dba5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:33:09+00:00
+translation_updated: 2026-06-08T22:03:17+00:00
 ---
 ## Bem-vindo
 **Um Wiki para Circo, Movimento, Pedagogia, Esporte e Cultura**
@@ -24,7 +24,7 @@ translation_updated: 2026-06-07T19:33:09+00:00
 [Documentação Nica eV](Dokumentation%20Nica%20eV.md) | [Jogos de Movimento](Bewegungs-Spiele.md) | [Participe](mitmachen.md) | [Beigoma](Beigoma.md) | [Kaskade Workspace](Kaskade%20Workspace.md) | [Malabarismo](Jonglage.md)
 
 ## Erasmus+
-[Introdução e mais...](Lets-talk-about-inclusive-circus-practice.md)
+[Vamos falar sobre prática circense inclusiva](Lets-talk-about-inclusive-circus-practice.md)
 
 ## Workshops
 
@@ -33,20 +33,28 @@ translation_updated: 2026-06-07T19:33:09+00:00
 [Notas de Lançamento](release%20notes.md)
 
 **Lista das páginas adicionadas recentemente**
-<!-- QueryToSerialize: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
-<!-- SerializedQuery: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 
-| File                                                                              | authors                              | tags                                                                      | created             |
-| --------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------- | ------------------- |
-| [Zonglowanie w parach z hula hoop](docs/uk/Zonglowanie w parach z hula hoop.md) | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>cwiczenie</li><li>hula-hoop</li><li>zonglerka</li></ul>           | 2026-06-07 18:55:00 |
-| [Zonglowanie w 5 krokach](docs/uk/Zonglowanie w 5 krokach.md)                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>functional-juggling</li><li>zonglerka</li><li>metodyka</li></ul>  | 2026-06-07 18:55:00 |
-| [Warsztat Hula hoop](docs/uk/Warsztat Hula hoop.md)                             | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>warsztat</li><li>hula-hoop</li><li>pedagogika-cyrku</li></ul>     | 2026-06-07 18:55:00 |
-| [Wyscig pilek z hula hoop](docs/uk/Wyscig pilek z hula hoop.md)                 | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>rozgrzewka</li><li>hula-hoop</li></ul>                | 2026-06-07 18:55:00 |
-| [Obrazki](docs/uk/Obrazki.md)                                                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>improwizacja</li><li>teatr</li></ul>                  | 2026-06-07 18:55:00 |
-| [Misz masz](docs/uk/Misz masz.md)                                               | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>zonglerka</li><li>kooperacja</li></ul>                | 2026-06-07 18:55:00 |
-| [Kolka trzy](docs/uk/Kolka trzy.md)                                             | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>hula-hoop</li><li>kooperacja</li></ul>                | 2026-06-07 18:55:00 |
-| [Cow jumps over the moon](docs/uk/Cow jumps over the moon.md)                   | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>functional-juggling</li><li>cwiczenie</li><li>zonglerka</li></ul> | 2026-06-07 18:55:00 |
-| [Budowanie maszyn](docs/uk/Budowanie maszyn.md)                                 | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>cwiczenie</li><li>improwizacja</li><li>kooperacja</li></ul>       | 2026-06-07 18:55:00 |
-| [Wyscig pilek z hula hoop](docs/pt/Wyscig pilek z hula hoop.md)                 | <ul><li>Wiktoria Witenberg</li></ul> | <ul><li>gry</li><li>rozgrzewka</li><li>hula-hoop</li></ul>                | 2026-06-07 18:55:00 |
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: index
+format: table
+columns: file, authors, update
+-->
+<!-- dynamic:content -->
+<!-- Gerado por tools/dynamic_pages.py; edite a configuração do bloco dinâmico, não esta tabela. -->
 
-<!-- SerializedQuery END -->
+| arquivo                                                                     | autores      | atualização         |
+| --------------------------------------------------------------------------- | ------------ | ------------------- |
+| [Jogos de Perseguição](<Fangspiele.md>)                                     | Marc Bielert | 2026-06-08T23:37:00 |
+| [Jogos de Tática e Concentração](<Taktik%20und%20Konzentrationsspiele.md>) | Marc Bielert | 2026-06-08T22:39:45 |
+| [vem-comigo-corre-para-longe](<komm-mit-lauf-weg.md>)                       | Marc Bielert | 2026-06-08T22:39:10 |
+| [Jogos para Quebrar o Gelo](<Spiele%20zum%20Kennenlernen.md>)               | Marc Bielert | 2026-06-08T22:03:41 |
+| [Jogos para o Intervalo](<Spiele%20f%C3%BCr%20Zwischendurch.md>)            | Marc Bielert | 2026-06-08T22:02:11 |
+| [Velocidade + Jogos de Reação](<Schnelligkeit%2BReaktionsspiele.md>)        | Marc Bielert | 2026-06-08T21:46:31 |
+| [Jogos de Chamada e Resposta MOC](<MOC%20Call%20%26%20Response%20Spiele.md>) | Marc Bielert | 2026-06-08T21:44:31 |
+| [Lista de Todos os Jogos](<Liste%20aller%20Spiele.md>)                      | Marc Bielert | 2026-06-08T21:39:20 |
+| [Jogos em Círculo MOC](<Kreisspiele%20MOC.md>)                               | Marc Bielert | 2026-06-08T21:22:36 |
+| [Jogos de Cooperação](<Kooperationsspiele.md>)                             | Marc Bielert | 2026-06-08T21:19:57 |
+
+<!-- dynamic:end -->

@@ -2,7 +2,7 @@
 lang: sk
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2025-05-03 23:22:16
+update: 2026-06-08 21:15:16
 publish: draft
 tags:
   - moc
@@ -14,24 +14,24 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: a7bb0dd4700febf2eceb0bf6831cf1c6ab4a4da17f8bad159eaa666c8eceebd3
+translation_source_hash: c2289aa391226ddb8dfeb18ffcac8ca483bf8820e901b23e3cd1d2133fb8809c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:59:11+00:00
+translation_updated: 2026-06-08T20:12:48+00:00
 ---
 >[!info]- Úvod
->Vyrastal som s časopisom Kaskade. Predtým, než existoval YouTube, predtým, než sme na internete našli čokoľvek – tento časopis bol jedným z prvých pravidelných zdrojov informácií, ktoré som dostal do rúk o žonglovaní, cirkuse a predstaveniach.
->Keď časopis v roku 2013 skončil, bol to pre mňa koniec jednej éry.
->Niekoľko rokov boli časopisy dostupné na stiahnutie ako PDF, ale približne od roku 2017 je stránka offline.
->Často som si spomínal na malé workshopy, návody alebo články, ktoré ma vtedy inšpirovali. Keď som si o niekoľko rokov neskôr chcel niečo znova prečítať – už nebola žiadna možnosť.
+>Vyrastal som s časopisom Kaskade. Predtým, než existoval YouTube, predtým, než sme na internete našli všetko – tento časopis bol jedným z prvých pravidelných zdrojov informácií o žonglovaní, cirkuse a predstaveniach, ku ktorým som sa dostal.
+>Keď časopis v roku 2013 ukončil svoju činnosť, cítil som to ako koniec jednej éry – aspoň pre mňa.
+>Niekoľko rokov boli časopisy dostupné na stiahnutie ako PDF, ale približne od roku 2017 bola stránka offline.
+>Často som si spomínal na malé workshopy, návody alebo články, ktoré ma vtedy inšpirovali. Keď som si o niekoľko rokov neskôr chcel niečo znovu prečítať – už to nebolo možné.
 >
->S pomocou Wayback Machine (The Internet Archive) som našiel zálohu z roku 2017 s kompletnými stiahnutiami (čo nie je vždy samozrejmé, najmä keď išlo o približne 3 GB PDF súborov) – kompletnú s nemeckým, anglickým a francúzskym vydaním.
+>S pomocou Wayback Machine (The Internet Archive) som našiel zálohu z roku 2017 s kompletnými stiahnutými súbormi (čo nie je vždy samozrejmé, najmä preto, že išlo o približne 3 GB PDF) – kompletné s nemeckým, anglickým a francúzskym vydaním.
 >
->Pri prezeraní som si uvedomil, že hoci sa v časopisoch skrývalo množstvo skvelých článkov a návodov, v dnešnej dobe by si už asi málokto pozrel 112 časopisov, ktoré sú len prekopiírované. No, pokiaľ nemá nostalgický záujem =P
+>Pri prezeraní som si uvedomil, že hoci sa v časopisoch skrývalo množstvo skvelých článkov a návodov, v dnešnej dobe by už asi málokto listoval 112 časopismi, ktoré sú len prekopiírované. No, pokiaľ nemá nostalgický záujem =P
 >
 >Keďže je škoda prísť o tieto vedomosti, chcel som sa pokúsiť pomocou súčasnej techniky všetko zdigitalizovať tak, aby to bolo zmysluplne využiteľné aj dnes.
 
 >[!info]- Ako boli časopisy prepísané
->Najprv som zo všetkých PDF odstránil strany, ktoré neobsahovali relevantné texty.
+>Najprv som zo všetkých strán PDF odstránil tie, ktoré neobsahovali relevantné texty.
 >
 >Na samotné prepisovanie (alebo OCR) som použil multimodálny jazykový model od spoločnosti Google.
 >Používam ```Gemini 2.0 Pro Experimental 02-05``` s promptom
@@ -51,66 +51,56 @@ translation_updated: 2026-06-07T18:59:11+00:00
 >Výsledok sa potom ešte manuálne skontroluje a opraví.
 >
 >>[!Danger]+ Dôležité:
->>Zameranie bolo na extrakciu článkov, workshopov, rozhovorov atď.
->>Príspevky ako napr. drobné inzercie som zamietol.
->>Extrakcia a čistenie textov prebiehalo pomocou LLM, preto existuje vždy možnosť, že texty neboli transkribované 1:1 alebo sa obsah mierne líši od originálu. Snažil som sa minimalizovať chybovosť tým, že som náhodne porovnával textové úseky.
+>>Zameranie bolo na extrahovanie článkov, workshopov, rozhovorov atď.
+>>Príspevky ako napr. malé oznámenia atď. som zamietol.
+>>Extrahovanie a čistenie textov prebiehalo pomocou LLM, preto vždy existuje možnosť, že texty neboli prepísané 1:1 alebo sa obsah mierne líši od originálu. Snažil som sa udržať chybovosť čo najnižšiu tým, že som náhodne porovnával textové úseky.
 
-<!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-<!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-- [Kaskade 001](docs/de/Kaskade 001.md)
-- [Kaskade 002](docs/de/Kaskade 002.md)
-- [Kaskade 003](docs/de/Kaskade 003.md)
-- [Kaskade 004](docs/de/Kaskade 004.md)
-- [Kaskade 005](docs/de/Kaskade 005.md)
-- [Kaskade 001](docs/en/Kaskade 001.md)
-- [Kaskade 002](docs/en/Kaskade 002.md)
-- [Kaskade 003](docs/en/Kaskade 003.md)
-- [Kaskade 004](docs/en/Kaskade 004.md)
-- [Kaskade 005](docs/en/Kaskade 005.md)
-- [Kaskade 001](docs/pl/Kaskade 001.md)
-- [Kaskade 002](docs/pl/Kaskade 002.md)
-- [Kaskade 003](docs/pl/Kaskade 003.md)
-- [Kaskade 004](docs/pl/Kaskade 004.md)
-- [Kaskade 005](docs/pl/Kaskade 005.md)
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: Kaskade Magazin
+format: list
+-->
+<!-- dynamic:content -->
+<!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-<!-- SerializedQuery END -->
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
----
+<!-- dynamic:end -->
 
 # Články
 
-<!-- QueryToSerialize: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
-<!-- SerializedQuery: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: Kaskade Artikel
+format: table
+columns: file, authors, type, sub-type, source
+-->
+<!-- dynamic:content -->
+<!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| Súbor                                                                         | autori                                | typ      | podtyp | zdroj      |
-| ----------------------------------------------------------------------------- | ------------------------------------- | -------- | ------ | ----------- |
-| [Die Säulen-Seite](docs/de/Die Säulen-Seite.md)                               | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Eine neue Zeitschrift für Europa](docs/de/Eine neue Zeitschrift für Europa.md) | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Článok   | -      | Kaskade 001 |
-| [Lächeln überwindet Schwerkraft](docs/de/Lächeln überwindet Schwerkraft.md)  | <ul><li>Toby Philpott</li></ul>      | Článok   | -      | Kaskade 001 |
-| [Schummeln!](docs/de/Schummeln!.md)                                          | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Schwerkraft - na und!](docs/de/Schwerkraft - na und!.md)                    | <ul><li>Christoph Schmitt</li></ul>  | Článok   | -      | Kaskade 001 |
-| [Zirkus gesucht!](docs/de/Zirkus gesucht!.md)                                | <ul><li>Kattrin & Uli</li></ul>      | Článok   | -      | Kaskade 001 |
-| [Die Säulen-Seite](docs/en/Die Säulen-Seite.md)                               | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Eine neue Zeitschrift für Europa](docs/en/Eine neue Zeitschrift für Europa.md) | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Článok   | -      | Kaskade 001 |
-| [Lächeln überwindet Schwerkraft](docs/en/Lächeln überwindet Schwerkraft.md)  | <ul><li>Toby Philpott</li></ul>      | Článok   | -      | Kaskade 001 |
-| [Schummeln!](docs/en/Schummeln!.md)                                          | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Schwerkraft - na und!](docs/en/Schwerkraft - na und!.md)                    | <ul><li>Christoph Schmitt</li></ul>  | Článok   | -      | Kaskade 001 |
-| [Zirkus gesucht!](docs/en/Zirkus gesucht!.md)                                | <ul><li>Kattrin & Uli</li></ul>      | Článok   | -      | Kaskade 001 |
-| [Die Säulen-Seite](docs/pl/Die Säulen-Seite.md)                               | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Eine neue Zeitschrift für Europa](docs/pl/Eine neue Zeitschrift für Europa.md) | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Článok   | -      | Kaskade 001 |
-| [Lächeln überwindet Schwerkraft](docs/pl/Lächeln überwindet Schwerkraft.md)  | <ul><li>Toby Philpott</li></ul>      | Článok   | -      | Kaskade 001 |
-| [Schummeln!](docs/pl/Schummeln!.md)                                          | <ul><li>Dr. P. Luftiko</li></ul>     | Návod    | Lopty  | Kaskade 001 |
-| [Schwerkraft - na und!](docs/pl/Schwerkraft - na und!.md)                    | <ul><li>Christoph Schmitt</li></ul>  | Článok   | -      | Kaskade 001 |
-| [Zirkus gesucht!](docs/pl/Zirkus gesucht!.md)                                | <ul><li>Kattrin & Uli</li></ul>      | Článok   | -      | Kaskade 001 |
+| súbor                                                                                  | autori               | typ      | podtyp | zdroj       |
+| -------------------------------------------------------------------------------------- | -------------------- | -------- | ------ | ----------- |
+| [Stĺpcová stránka](<Die%20S%C3%A4ulen-Seite.md>)                                        | Dr. P. Luftiko       | Návod    | Lopty  | Kaskade 001 |
+| [Nový časopis pre Európu](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)          | Gabi Keaton, Paul Keaton | Článok   | -      | Kaskade 001 |
+| [Úsmev prekonáva gravitáciu](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)       | Toby Philpott        | Článok   | -      | Kaskade 001 |
+| [Podvádzať!](<Schummeln%21.md>)                                                         | Dr. P. Luftiko       | Návod    | Lopty  | Kaskade 001 |
+| [Gravitácia – a čo!](<Schwerkraft%20-%20na%20und%21.md>)                               | Christoph Schmitt    | Článok   | -      | Kaskade 001 |
+| [Hľadá sa cirkus!](<Zirkus%20gesucht%21.md>)                                           | Kattrin & Uli        | Článok   | -      | Kaskade 001 |
 
-<!-- SerializedQuery END -->
+<!-- dynamic:end -->
 
 ---
 
->[!info]- Nesprávne pomenované / zlúčené vydania (002 - 004)
+>[!info]- Nesprávne pomenované / zhrnuté vydania (002 - 004)
 >
 >Kaskade 002:
->V pôvodnom nemeckom PDF sú vydania 2 a 3 spojené.
+>V pôvodnom nemeckom PDF sú vydania 2+3 spojené.
 >
 >Kaskade 003:
 >V pôvodnom nemeckom PDF sa tu nachádza vydanie 004.
@@ -122,4 +112,4 @@ translation_updated: 2026-06-07T18:59:11+00:00
 >Oprava:
 >PDF Kaskade 002 (originál) som rozdelil na 002 a 003.
 >Kaskade 003 (originál) som premenoval na Kaskade 004.
->A Kaskade 004 (originál) som zmazal.
+>A Kaskade 004 (originál) som vymazal.

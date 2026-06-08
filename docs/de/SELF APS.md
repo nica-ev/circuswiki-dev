@@ -14,13 +14,17 @@ authors:
 facebook: Self APS
 instagram: selfapsitalia
 land: Italy
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/SELF APS.md
+translation_source_hash: 56fa9240216183f8ba2539349ac5e9a7b4b5af99fb95b85f61b86001b12bad2c
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-08T16:36:49+00:00
 ---
 # SELF APS
-is the Italian association that promotes Functional Juggling, making it inclusive, adaptive, and accessible to all. With specific activities based on play and interaction, it promotes psychophysical well-being, coordination, body awareness, and relationships, engaging people of all ages and abilities.  
-An innovative approach derived from the research of Craig Quat, founder of the method, which combines fun and inclusion in every educational, pedagogical, social, and rehabilitation context.
+ist der italienische Verein, der sich für das Funktionale Jonglieren einsetzt und es inklusiv, adaptiv und für alle zugänglich macht. Mit spezifischen, auf Spiel und Interaktion basierenden Aktivitäten fördert er das psychophysische Wohlbefinden, die Koordination, das Körperbewusstsein und die Beziehungen und bezieht Menschen jeden Alters und jeder Fähigkeit ein.
+Ein innovativer Ansatz, der aus der Forschung von Craig Quat, dem Begründer der Methode, hervorgeht und Spaß und Inklusion in jedem Bildungs-, pädagogischen, sozialen und rehabilitativen Kontext vereint.
 
-# Contact
-facebook: Self APS  
-inst:  selfapsitalia
+# Kontakt
+facebook: Self APS
+inst: selfapsitalia

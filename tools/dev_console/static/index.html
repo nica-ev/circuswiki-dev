@@ -19,6 +19,9 @@
           <button class="tab" type="button" data-tab="batch-translate">Batch Translate</button>
           <button class="tab" type="button" data-tab="original-graph">Original Graph</button>
           <button class="tab" type="button" data-tab="navigation">Navigation</button>
+          <button class="tab" type="button" data-tab="dynamic">Dynamic Pages</button>
+          <button class="tab" type="button" data-tab="link-repair">Link Repair</button>
+          <button class="tab" type="button" data-tab="cleanup">Cleanup</button>
         </nav>
       </header>
 
@@ -254,6 +257,102 @@
             </section>
           </div>
           <pre id="nav-log" class="log health-details">Navigation output.</pre>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-dynamic">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Dynamic Pages</h2>
+              <p class="hint">Refresh marker-gated dynamic blocks through Obsidian Bases. Existing Dataview blocks are ignored.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="dynamic-language" title="Language filter">
+                <option value="">All languages</option>
+              </select>
+              <button id="dynamic-scan" type="button">Scan</button>
+              <button id="dynamic-check" type="button">Check</button>
+              <button id="dynamic-preview" type="button">Preview Selected</button>
+              <button id="dynamic-refresh-selected" type="button" class="primary">Refresh Selected</button>
+              <button id="dynamic-refresh-all" type="button">Refresh All</button>
+            </div>
+          </div>
+
+          <div id="dynamic-summary" class="health-summary"></div>
+          <section class="dynamic-workspace">
+            <aside>
+              <input id="dynamic-filter" type="search" placeholder="Filter dynamic pages">
+              <div id="dynamic-pages" class="pages dynamic-pages"></div>
+            </aside>
+            <section>
+              <h2>Selected Dynamic Page</h2>
+              <dl id="dynamic-details" class="details compact"></dl>
+              <pre id="dynamic-log" class="log health-details">Dynamic page output.</pre>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-cleanup">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Cleanup</h2>
+              <p class="hint">Find machine-translated files whose declared source no longer exists. Deletion is limited to safe, metadata-backed orphan translations.</p>
+            </div>
+            <div class="toolbar-actions">
+              <button id="cleanup-scan" type="button">Scan Orphans</button>
+              <button id="cleanup-delete-selected" type="button" class="primary">Delete Selected</button>
+              <button id="cleanup-delete-all" type="button">Delete All Deletable</button>
+            </div>
+          </div>
+
+          <div id="cleanup-summary" class="health-summary"></div>
+          <section class="cleanup-workspace">
+            <aside>
+              <input id="cleanup-filter" type="search" placeholder="Filter orphan files">
+              <div id="cleanup-list" class="cleanup-list"></div>
+            </aside>
+            <section>
+              <h2>Selection</h2>
+              <dl id="cleanup-details" class="details compact"></dl>
+              <pre id="cleanup-log" class="log health-details">Cleanup output.</pre>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-link-repair">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Link Repair</h2>
+              <p class="hint">Compare translated files with their original source and restore local Markdown/wikilink targets without changing translated labels.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="link-repair-language" title="Language filter">
+                <option value="">All languages</option>
+              </select>
+              <button id="link-repair-scan" type="button">Scan</button>
+              <button id="link-repair-preview" type="button">Preview Selected</button>
+              <button id="link-repair-selected" type="button" class="primary">Repair Selected</button>
+              <button id="link-repair-all" type="button">Repair All Safe</button>
+            </div>
+          </div>
+
+          <div id="link-repair-summary" class="health-summary"></div>
+          <section class="cleanup-workspace">
+            <aside>
+              <input id="link-repair-filter" type="search" placeholder="Filter link repair items">
+              <div id="link-repair-list" class="cleanup-list"></div>
+            </aside>
+            <section>
+              <h2>Selection</h2>
+              <dl id="link-repair-details" class="details compact"></dl>
+              <pre id="link-repair-log" class="log health-details">Link repair output.</pre>
+            </section>
+          </section>
         </section>
       </section>
     </main>

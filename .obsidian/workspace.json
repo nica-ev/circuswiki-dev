@@ -4,84 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d71918c19cc47677",
+        "id": "3e3620bc35bef661",
         "type": "tabs",
         "children": [
           {
-            "id": "e2ce72097ebc2921",
+            "id": "750b12d455ecefe4",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "_inbox/Unbenannt.base",
-                "viewName": "Tabelle"
-              },
-              "icon": "lucide-table",
-              "title": "Unbenannt"
-            }
-          },
-          {
-            "id": "0db583b7dea74b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "a9909ec26c9a342f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/pl/5-Step Methode.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "5-Step Methode"
-            }
-          },
-          {
-            "id": "062a2666b6a26b23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/uk/5 Drachen und Zwerge.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "5 Drachen und Zwerge"
-            }
-          },
-          {
-            "id": "bbaeca94f10b767c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,11 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tools/ARCHITECTURE_REVIEW.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von ARCHITECTURE_REVIEW"
+              "title": "Dateieigenschaften"
             }
           },
           {
@@ -217,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/ARCHITECTURE_REVIEW.md",
+                "file": "docs/nl/Aufwärmspiele MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf ARCHITECTURE_REVIEW"
+              "title": "Rückverweise auf Aufwärmspiele MOC"
             }
           },
           {
@@ -236,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/ARCHITECTURE_REVIEW.md",
+                "file": "docs/de/Taktik und Konzentrationsspiele.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von ARCHITECTURE_REVIEW öffnen"
+              "title": "Ausgehende Links von Taktik und Konzentrationsspiele öffnen"
             }
           },
           {
@@ -258,13 +192,11 @@
               "title": "Alle Eigenschaften"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 551.5,
-    "collapsed": true
+    "width": 551.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,54 +213,54 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "0db583b7dea74b14",
+  "active": "750b12d455ecefe4",
   "lastOpenFiles": [
-    "tools/dev_console/static/api.js",
-    "tools/translation/__pycache__/original_graph.cpython-313.pyc",
-    "tools/tests/__pycache__/test_original_graph.cpython-313.pyc",
-    "tools/dev_console/__pycache__/routes_graph.cpython-313.pyc",
-    "tools/tests/test_original_graph.py",
-    "tools/dev_console/routes_graph.py",
-    "tools/translation/original_graph.py",
-    "tools/ARCHITECTURE.md",
-    "tools/ARCHITECTURE_REVIEW.md",
-    "tools/tests/__pycache__/test_navigation_workflow.cpython-313.pyc",
-    "tools/tests/test_navigation_workflow.py",
-    "tools/dev_console/static/dom.js",
-    "docs/en/Paar haschen & Kettenhaschen.md",
-    "tools/tests/__pycache__/test_sync_configs.cpython-313.pyc",
-    "docs/en/Medusa.md",
-    "docs/en/Kissenrennen.md",
-    "docs/en/Ich fahre Zug.md",
-    "docs/en/Frutti del Mare - Aufwärmspiel.md",
-    "docs/de/Drunter und Drüber.md",
-    "docs/de/Case Study 14 - United States.md",
-    "docs/de/Case Study 03 - Italy.md",
-    "docs/de/Beigoma Terminologie.md",
-    "docs/de/Ball werfen im Stern.md",
-    "README.md",
-    "docs/cs/Zuzwinkern.md",
-    "docs/sk/Zungenmörder.md",
-    "docs/cs/Zungenmörder.md",
-    "docs/sk/Zuckerwasserschießen.md",
-    "docs/cs/Zuckerwasserschießen.md",
-    "docs/sk/Zonglowanie w parach z hula hoop.md",
-    "docs/sk/Zonglowanie w 5 krokach.md",
-    "docs/cs/Zonglowanie w 5 krokach.md",
-    "docs/sk/Zombieball.md",
-    "docs/cs/Zombieball.md",
-    "docs/pt/Zombieball.md",
-    "docs/sk/Zombie Hasche mit Namen.md",
-    "site/sk/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/sk/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/sk/img/poland-03.jpg",
-    "site/sk/img/poland-02.jpg",
-    "site/sk/img/poland-01.jpg",
-    "site/sk/img/nica-logo-simple-small-150x150.png",
-    "site/sk/img/nica-background.jpg",
-    "site/sk/img/monokyklo_feelingsafe_autism.jpg",
-    "site/sk/img/monokyklo_colours_and_patterns.jpg",
-    "site/sk/img/Kaskade-002-05.png",
+    "docs/it/5-Step Methode.md",
+    "docs/de/5-Step Methode.md",
+    "docs/de/Spiele zum Kennenlernen.md",
+    "docs/pl/Spiele zum Kennenlernen.md",
+    "docs/de/Kartoffel Kartoffel.md",
+    "docs/en/Kartoffel Kartoffel.md",
+    "docs/de/Fangspiele.md",
+    "docs/cs/Fangspiele.md",
+    "docs/pl/Aufwärmspiele MOC.md",
+    "docs/nl/Schlangen Hasche.md",
+    "docs/cs/Schlangen Hasche.md",
+    "docs/nl/Aufwärmspiele MOC.md",
+    "docs/de/Case Study 15 - United States.md",
+    "docs/de/Taktik und Konzentrationsspiele.md",
+    "tools/tests/__pycache__/test_translation_cleanup.cpython-313.pyc",
+    "tools/dev_console/__pycache__/routes_cleanup.cpython-313.pyc",
+    "tools/translation/__pycache__/cleanup.cpython-313.pyc",
+    "tools/tests/test_translation_cleanup.py",
+    "tools/dev_console/routes_cleanup.py",
+    "tools/translation/cleanup.py",
+    "docs/sk/komm-mit-lauf-weg.md",
+    "docs/cs/komm-mit-lauf-weg.md",
+    "docs/pt/komm-mit-lauf-weg.md",
+    "docs/uk/komm-mit-lauf-weg.md",
+    "docs/es/komm-mit-lauf-weg.md",
+    "docs/el/komm-mit-lauf-weg.md",
+    "docs/nl/komm-mit-lauf-weg.md",
+    "docs/it/komm-mit-lauf-weg.md",
+    "docs/hu/komm-mit-lauf-weg.md",
+    "docs/pl/komm-mit-lauf-weg.md",
+    "docs/en/komm-mit-lauf-weg.md",
+    "docs/de/komm-mit-lauf-weg.md",
+    "_bases/Spiele-Base.base",
+    "_bases",
+    "Neuer Ordner",
+    "_inbox/Unbenannt.base",
+    "site/uk/assets/images/favicon.png",
+    "site/sk/assets/images/favicon.png",
+    "site/pt/assets/images/favicon.png",
+    "site/pl/assets/images/favicon.png",
+    "site/nl/assets/images/favicon.png",
+    "site/it/assets/images/favicon.png",
+    "site/hu/assets/images/favicon.png",
+    "site/es/assets/images/favicon.png",
+    "site/en/assets/images/favicon.png",
+    "site/el/assets/images/favicon.png",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

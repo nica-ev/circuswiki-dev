@@ -16,14 +16,14 @@ instagram: "@quatprops"
 youtube: "@quatprops"
 website: www.quatprops.net
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Quat Props.md
+translation_source_lang: en
+translation_source: docs/en/Quat Props.md
 translation_source_hash: a34f5f36d0d5d511ed3110c3e3be0190533d51a6527824729eea1286e841ad18
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:08:22+00:00
+translation_updated: 2026-06-08T16:36:46+00:00
 ---
 # Quat Props
-Společnost Quat Props, založená Craigem Quatem, je mezinárodní iniciativou zaměřenou na podporu dostupnosti a inkluze prostřednictvím žonglování. Vývojem inovativních nástrojů, jako je Juggle Board, projekt přetváří žonglování z pouhé performance na médium pro vzdělávání, terapii a sociální zapojení. Jeho pedagogický rámec klade důraz na funkční hru, adaptabilitu a emoční učení, což umožňuje různým komunitám využívat žonglování jako cestu k regulaci, spolupráci a kreativnímu vyjádření.
+Společnost Quat Props, založená Craigem Quatem, je mezinárodní iniciativou zaměřenou na podporu dostupnosti a inkluze prostřednictvím žonglování. Vývojem inovativních nástrojů, jako je Juggle Board, projekt přetváří žonglování z pouhé performance na prostředek pro vzdělávání, terapii a sociální zapojení. Jeho pedagogický rámec klade důraz na funkční hru, přizpůsobivost a emoční učení, což umožňuje různým komunitám využívat žonglování jako cestu k regulaci, spolupráci a kreativnímu vyjádření.
 
 # Kontakt
 

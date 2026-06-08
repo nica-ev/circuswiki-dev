@@ -75,6 +75,51 @@ class OriginalGraphTests(unittest.TestCase):
             [("markdown", "target.md"), ("wikilink", "Target Page")],
         )
 
+    def test_extract_explicit_links_handles_table_angle_targets(self) -> None:
+        body = (
+            "| file |\n"
+            "| --- |\n"
+            "| [Alaska Baseball](<Alaska%20Baseball.md>) |\n"
+            "| [Ägyptisches Wurfspiel](<./%C3%84gyptisches%20Wurfspiel.md>) |\n"
+            "| [Raw Space](<Raw Space.md>) |\n"
+        )
+        links = extract_explicit_links(body)
+
+        self.assertEqual(
+            [link["target"] for link in links],
+            [
+                "Alaska%20Baseball.md",
+                "./%C3%84gyptisches%20Wurfspiel.md",
+                "Raw Space.md",
+            ],
+        )
+
+    def test_graph_resolves_markdown_links_inside_tables(self) -> None:
+        groups = {
+            "index": {
+                "de": [
+                    self.page(
+                        "de",
+                        "index.md",
+                        "Index",
+                        "index",
+                        "original",
+                        "| file |\n| --- |\n| [Target](<Target%20Page.md>) |\n",
+                    )
+                ]
+            },
+            "target": {
+                "de": [self.page("de", "Target Page.md", "Target", "target", "original", "")]
+            },
+        }
+        graph = build_original_graph(["de"], groups)
+
+        self.assertEqual(
+            [(edge["source"], edge["target"]) for edge in graph["edges"]],
+            [("index", "target")],
+        )
+        self.assertEqual(graph["edges"][0]["links"][0]["resolved_path"], "docs/de/Target Page.md")
+
     def test_graph_can_exclude_sitemap_nodes_and_edges(self) -> None:
         groups = {
             "a": {

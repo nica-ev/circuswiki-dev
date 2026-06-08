@@ -8,7 +8,6 @@ from core.languages import language_name
 from translation.workflow import (
     DOCS,
     ROOT,
-    MARKDOWN_LINK_RE,
     WIKILINK_RE,
     VaultPage,
     discover_vault_pages,
@@ -20,6 +19,9 @@ from translation.workflow import (
 
 
 FENCE_RE = re.compile(r"^\s*(```|~~~)")
+MARKDOWN_LINK_RE = re.compile(
+    r"(!?\[[^\]]*\]\()(?P<target><[^>]+>|[^)\s]+(?:\s+\"[^\"]*\")?)(\))"
+)
 DEFAULT_EXCLUDED_RELATIVE_PATHS = {"sitemap.md"}
 
 
@@ -239,6 +241,8 @@ def without_fenced_code(body: str) -> str:
 
 def clean_markdown_target(target: str) -> str:
     target = target.strip()
+    if target.startswith("<") and target.endswith(">"):
+        return target[1:-1].strip()
     if " " in target:
         path, maybe_title = target.split(" ", 1)
         if maybe_title.strip().startswith('"'):
