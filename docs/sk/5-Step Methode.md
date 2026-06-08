@@ -75,29 +75,29 @@ základná myšlienka, používanie pomoci, rozkladanie vecí ešte viac - plat�
 
 #### Metafory, atď...
 
-**Čo by zakričala [5-kroková metóda](5-kroková metóda.md), keby mohla**
+**Čo by zakričala [5-kroková metóda](5-Step%20Methode.md), keby mohla**
  som inkluzívna
  
-**[5-kroková metóda](5-kroková metóda.md) je približne ako...**
+**[5-kroková metóda](5-Step%20Methode.md) je približne ako...**
 učenie sa s postrannými kolieskami, plaveckými pomôckami
 
-**[5-kroková metóda](5-kroková metóda.md) mi pripomína...**
+**[5-kroková metóda](5-Step%20Methode.md) mi pripomína...**
 [[Atomisieren von Bewegungen]] od IN.ZIRQUE
 ale namiesto
 
 #### Názor a skúsenosť
 
-**Zažil som [5-krokovú metódu](5-krokovú metódu.md) ako...**
+**Zažil som [5-krokovú metódu](5-Step%20Methode.md) ako...**
 
-**[5-kroková metóda](5-kroková metóda.md) je dobrá, pretože...**
+**[5-kroková metóda](5-Step%20Methode.md) je dobrá, pretože...**
 
-**[5-kroková metóda](5-kroková metóda.md) je zlá, pretože...**
+**[5-kroková metóda](5-Step%20Methode.md) je zlá, pretože...**
 
-**[5-kroková metóda](5-kroková metóda.md) je dôležitá, pretože...**
+**[5-kroková metóda](5-Step%20Methode.md) je dôležitá, pretože...**
 robí žonglovanie prístupnejším, zameriava sa na aspekt ešte väčšieho rozkladania vecí a aplikovania pomocných mechanizmov
 je tiež dôležitá, pretože: neznižuje sa len počet objektov, naopak - na začiatku sa začína s 3, ale prispôsobujú sa iné aspekty, ktoré spôsobujú ťažkosti.
 
-**Otázka, ktorú mám k [5-krokovej metóde](5-krokovej metóde.md) / o nej...**
+**Otázka, ktorú mám k [5-krokovej metóde](5-Step%20Methode.md) / o nej...**
 dá sa to zovšeobecniť tak, aby to platilo nielen pre "učenie sa kaskády", ale aj pre iné veci
 
 #### Organizačné
@@ -107,7 +107,7 @@ keďže som názoru, že funkčné žonglovanie by sa nemalo vzťahovať len na 
 "(#)Žáner/Funkčné žonglovanie"
 
 **Na aké MOC by sa to malo odkazovať**
-už je prepojené na [Funkčné žonglovanie](5-Step%20Methode.md)
+už je prepojené na [Funkčné žonglovanie](Functional%20Juggling.md)
 
 **Pri ďalšej práci na tejto poznámke by som mal myslieť na**
 vzťah k atomizácii pohybov od in.zirque

@@ -15,11 +15,11 @@ facebook: Self APS
 instagram: selfapsitalia
 land: Italy
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/SELF APS.md
+translation_source_lang: en
+translation_source: docs/en/SELF APS.md
 translation_source_hash: 56fa9240216183f8ba2539349ac5e9a7b4b5af99fb95b85f61b86001b12bad2c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:10:27+00:00
+translation_updated: 2026-06-08T16:36:56+00:00
 ---
 # SELF APS
 es la asociación italiana que promueve el Malabarismo Funcional, haciéndolo inclusivo, adaptativo y accesible para todos. Con actividades específicas basadas en el juego y la interacción, promueve el bienestar psicofísico, la coordinación, la conciencia corporal y las relaciones, involucrando a personas de todas las edades y capacidades.

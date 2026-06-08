@@ -56,48 +56,48 @@ Theorie van Functioneel Jongleren
 
 **[5-Stappen Methode](5-Step%20Methode.md) bestaat uit de volgende delen...**
 
-**[5-Stappen Methode](5-Stappen Methode.md) heeft overeenkomsten met ... door ...**
+**[5-Stappen Methode](5-Step%20Methode.md) heeft overeenkomsten met ... door ...**
 [[Atomisieren von Bewegungen]] van IN.ZIRQUE
 het probeert bewegingsleren te analyseren, te vereenvoudigen en toegankelijker te maken
 
-**[5-Stappen Methode](5-Stappen Methode.md) verschilt van ... door ...**
+**[5-Stappen Methode](5-Step%20Methode.md) verschilt van ... door ...**
 in tegenstelling tot [[Atomisieren von Bewegungen]] worden bewegingen niet steeds verder afgebroken / uit elkaar gehaald, in plaats daarvan worden concepten aangepast.
 
-**[5-Stappen Methode](5-Stappen Methode.md) kan ... veroorzaken:**
+**[5-Stappen Methode](5-Step%20Methode.md) kan ... veroorzaken:**
 een toegang tot jongleren vinden, voor personen die het met de klassieke benaderingen niet is gelukt
 
-**[5-Stappen Methode](5-Stappen Methode.md) resulteert uit...**
+**[5-Stappen Methode](5-Step%20Methode.md) resulteert uit...**
 men kan het zien als een resultaat van de overweging hoe jongleren inclusiever gemaakt kan worden.
 Het is ook een resultaat van het consequent volgen van het construeren van [[methodische reihen]].
 
-**Op welke andere gebieden is [5-Stappen Methode](5-Stappen Methode.md) van toepassing?**
+**Op welke andere gebieden is [5-Stappen Methode](5-Step%20Methode.md) van toepassing?**
 het basisidee, hulp gebruiken, dingen nog verder afbreken - is van toepassing op alle leergebieden
 
 #### Metaforen, etc...
 
-**Wat zou [5-Stappen Methode](5-Stappen Methode.md) roepen als het kon?**
+**Wat zou [5-Stappen Methode](5-Step%20Methode.md) roepen als het kon?**
  ik ben inclusief
  
-**[5-Stappen Methode](5-Stappen Methode.md) is ongeveer als...**
+**[5-Stappen Methode](5-Step%20Methode.md) is ongeveer als...**
 het leren met zijwieltjes, zwembandjes
 
-**[5-Stappen Methode](5-Stappen Methode.md) doet me denken aan...**
+**[5-Stappen Methode](5-Step%20Methode.md) doet me denken aan...**
 [[Atomisieren von Bewegungen]] van IN.ZIRQUE
 maar in plaats van
 
 #### Mening en ervaring
 
-**Ik heb [5-Stappen Methode](5-Stappen Methode.md) ervaren als...**
+**Ik heb [5-Stappen Methode](5-Step%20Methode.md) ervaren als...**
 
-**[5-Stappen Methode](5-Stappen Methode.md) is goed omdat...**
+**[5-Stappen Methode](5-Step%20Methode.md) is goed omdat...**
 
-**[5-Stappen Methode](5-Stappen Methode.md) is slecht omdat...**
+**[5-Stappen Methode](5-Step%20Methode.md) is slecht omdat...**
 
-**[5-Stappen Methode](5-Stappen Methode.md) is belangrijk omdat...**
+**[5-Stappen Methode](5-Step%20Methode.md) is belangrijk omdat...**
 het jongleren toegankelijker maakt, het focust op het aspect van dingen nog verder afbreken en helpende mechanismen toepassen
 het is ook belangrijk omdat: de objecten niet zomaar verminderd worden, integendeel - in het begin start je met 3, maar andere aspecten die moeilijkheden veroorzaken worden aangepast.
 
-**Een vraag die ik aan/over [5-Stappen Methode](5-Stappen Methode.md) heb...**
+**Een vraag die ik aan/over [5-Stappen Methode](5-Step%20Methode.md) heb...**
 kan men het zo generaliseren dat het niet alleen geldt voor "het leren van de cascade", maar ook voor andere dingen?
 
 #### Organisatorisch
@@ -107,7 +107,7 @@ aangezien ik van mening ben dat functioneel jongleren niet alleen op jongleren g
 "(#)Genre/Functional Juggling"
 
 **Welke MOC moet hiernaar linken?**
-het is al gelinkt aan [Functioneel Jongleren](5-Step%20Methode.md)
+het is al gelinkt aan [Functioneel Jongleren](Functional%20Juggling.md)
 
 **Als ik verder werk aan deze notitie, moet ik aan het volgende denken:**
 relatie met atomische bewegingen van in.zirque

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STATIC = Path(__file__).resolve().parent / "static"
 sys.path.insert(0, str(ROOT / "tools"))
 
-from dev_console import routes_navigation, routes_obsidian, routes_translation  # noqa: E402
+from dev_console import routes_cleanup, routes_dynamic, routes_graph, routes_link_repair, routes_navigation, routes_obsidian, routes_translation  # noqa: E402
 
 
 class DevConsoleHandler(SimpleHTTPRequestHandler):
@@ -25,7 +25,15 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
         if parsed.path in {"/", "/index.html"}:
             return self.send_index()
 
-        for routes in (routes_translation, routes_navigation, routes_obsidian):
+        for routes in (
+            routes_translation,
+            routes_navigation,
+            routes_graph,
+            routes_obsidian,
+            routes_dynamic,
+            routes_cleanup,
+            routes_link_repair,
+        ):
             if routes.handle_get(self, parsed.path, parsed.query):
                 return
 
@@ -38,7 +46,15 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
         if payload is None:
             return self.send_error_json(400, "Invalid JSON")
 
-        for routes in (routes_translation, routes_navigation, routes_obsidian):
+        for routes in (
+            routes_translation,
+            routes_navigation,
+            routes_graph,
+            routes_obsidian,
+            routes_dynamic,
+            routes_cleanup,
+            routes_link_repair,
+        ):
             if routes.handle_post(self, parsed.path, payload):
                 return
 

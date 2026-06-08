@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-18 03:03:39
+update: 2026-06-08 22:39:10
 title: Komm mit, lauf weg
 description: 
 authors:
@@ -24,6 +24,7 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
+
 > [!info] Kurzbeschreibung
 > Ein dynamisches Laufspiel für größere Gruppen, das Reaktionsschnelligkeit, Orientierung und Teamgeist fördert, indem es die Teilnehmer zu schnellen Richtungswechseln und gemeinsamer Bewegung auffordert.
 

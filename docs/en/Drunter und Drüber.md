@@ -2,7 +2,7 @@
 lang: en
 translation_id: drunter-und-druber
 created: 2025-03-17 00:11:12
-update: 2025-03-17 02:05:52
+update: 2026-06-07 22:47:15
 publish: true
 tags:
   - spiele
@@ -15,9 +15,9 @@ category:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 32bdac7a819f98194eae8faa826bace149bb60defb185b8662b11f06506eda1f
+translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:22:29+00:00
+translation_updated: 2026-06-08T16:34:58+00:00
 ---
 # Over and Under
 

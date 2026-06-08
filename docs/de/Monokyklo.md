@@ -15,23 +15,26 @@ facebook: "@monokyklo"
 instagram: "@monokyklo"
 youtube: "@circusdanceyoga2472"
 website: circustogether.eu
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Monokyklo.md
+translation_source_hash: 712d0a44765d7c171df771eabcb6dcfb1bc46b9473321e54652afe0a1b8e96ec
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-08T16:35:37+00:00
 ---
 # Monokyklo
 
-Monokyklo is a youth and social circus school based in Thessaloniki, Greece, established in 2017. Our main aim is to share the arts of circus, dance, and theatre with children and youth as a means of artistic expression, pedagogical approach, and physical and mental development.
+Monokyklo ist eine Jugend- und Sozialzirkusschule mit Sitz in Thessaloniki, Griechenland, die 2017 gegründet wurde. Unser Hauptziel ist es, die Künste Zirkus, Tanz und Theater mit Kindern und Jugendlichen als Mittel des künstlerischen Ausdrucks, der pädagogischen Herangehensweise sowie der körperlichen und geistigen Entwicklung zu vermitteln.
 
-We believe that the circus teaches essential life skills. For this reason, our team is often present in different communities and among socially disadvantaged groups, where we teach circus and co-create performances.
+Wir glauben, dass der Zirkus wesentliche Lebenskompetenzen vermittelt. Aus diesem Grund ist unser Team oft in verschiedenen Gemeinschaften und bei sozial benachteiligten Gruppen präsent, wo wir Zirkus unterrichten und gemeinsam Aufführungen gestalten.
 
-Our team includes artists, pedagogues, youth workers, psychologists, circus trainers, and animators, all with many years of field experience in diverse social contexts.
+Unser Team besteht aus Künstlern, Pädagogen, Jugendbetreuern, Psychologen, Zirkustrainern und Animateuren, die alle über langjährige praktische Erfahrung in unterschiedlichen sozialen Kontexten verfügen.
 
-In our dedicated circus space, we offer regular classes in circus, dance, and yoga throughout the year, open to all ages.
+In unserem eigenen Zirkusraum bieten wir das ganze Jahr über regelmäßig Kurse in Zirkus, Tanz und Yoga an, die für alle Altersgruppen offen sind.
 
-## Contact
+## Kontakt
 
-facebook: @monokyklo 
-instagram: @monokyklo 
+facebook: @monokyklo
+instagram: @monokyklo
 youtube: @circusdanceyoga2472
 website: circustogether.eu
-

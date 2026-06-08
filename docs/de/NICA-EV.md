@@ -14,22 +14,26 @@ authors:
 website: www.nica.network
 email: info@nica.network
 land: Germany
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/NICA-EV.md
+translation_source_hash: 63ee5a1f08f686bf25a760de64b82f707fa727abd643c28151965fe3ab25f693
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-08T16:35:59+00:00
 ---
-# NICA e.V. - Network for inclusive circus arts
+# NICA e.V. – Netzwerk für inklusive Zirkuspädagogik
 
-NICA e.V. sees itself as a network that disseminates and develops inclusive circus educational methods.
+NICA e.V. versteht sich als Netzwerk, das inklusive zirkuspädagogische Methoden verbreitet und weiterentwickelt.
 
-Our work is based on project work, research, development and knowledge transfer. 
+Unsere Arbeit basiert auf Projektarbeit, Forschung, Entwicklung und Wissenstransfer.
 
-We strengthen regional, statewide, European and international networks for inclusive circus education and carry out projects with different target groups.
+Wir stärken regionale, landesweite, europäische und internationale Netzwerke für inklusive Zirkuspädagogik und führen Projekte mit unterschiedlichen Zielgruppen durch.
 
-In collaboration with universities, we evaluate inclusive circus educational methods. We bring together different methods and develop them further. With further training, workshops and integration of the methods into the learning environment, we promote the transfer of knowledge. 
+In Zusammenarbeit mit Hochschulen evaluieren wir inklusive zirkuspädagogische Methoden. Wir bringen verschiedene Methoden zusammen und entwickeln sie weiter. Durch Weiterbildungen, Workshops und die Integration der Methoden in die Lernumgebung fördern wir den Wissenstransfer.
 
-We operate both regionally and internationally.
+Wir agieren sowohl regional als auch international.
 
-# Contact links
+# Kontaktlinks
 
 [www.nica.network](http://www.nica.network)
 [info@nica.network](mailto:info@nica.network)

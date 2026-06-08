@@ -1,0 +1,157 @@
+from __future__ import annotations
+
+import sys
+import tempfile
+import textwrap
+import unittest
+from pathlib import Path
+from unittest.mock import patch
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools"))
+
+from translation import link_repair_workflow as workflow  # noqa: E402
+
+
+def note(frontmatter: str, body: str) -> str:
+    return f"---\n{textwrap.dedent(frontmatter).strip()}\n---\n{body}"
+
+
+class LinkRepairWorkflowTests(unittest.TestCase):
+    def run_with_vault(self, callback) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            docs = root / "docs"
+            docs.mkdir()
+
+            def local_rel(path: Path) -> str:
+                return Path(path).resolve().relative_to(root).as_posix()
+
+            with (
+                patch.object(workflow, "ROOT", root),
+                patch.object(workflow, "DOCS", docs),
+                patch.object(workflow, "rel", local_rel),
+            ):
+                callback(root, docs)
+
+    def test_scan_finds_safe_translated_link_target_repair(self) -> None:
+        def scenario(_root: Path, docs: Path) -> None:
+            source = docs / "de" / "Spiel.md"
+            target = docs / "en" / "Spiel.md"
+            source.parent.mkdir()
+            target.parent.mkdir()
+            source.write_text(
+                note(
+                    """
+                    lang: de
+                    translation_id: spiel
+                    translation_status: original
+                    """,
+                    "| Link |\n| --- |\n| [Ziel](<Ziel%20Datei.md>) |\n",
+                ),
+                encoding="utf-8",
+            )
+            target.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: spiel
+                    translation_status: machine-translated
+                    translation_source: docs/de/Spiel.md
+                    """,
+                    "| Link |\n| --- |\n| [Target](<Target%20File.md>) |\n",
+                ),
+                encoding="utf-8",
+            )
+
+            result = workflow.scan_link_repairs("en")
+
+            self.assertEqual(result["total"], 1)
+            self.assertEqual(result["safe_count"], 1)
+            self.assertEqual(result["items"][0]["path"], "docs/en/Spiel.md")
+
+        self.run_with_vault(scenario)
+
+    def test_repair_link_files_writes_only_body_targets(self) -> None:
+        def scenario(_root: Path, docs: Path) -> None:
+            source = docs / "de" / "Spiel.md"
+            target = docs / "en" / "Spiel.md"
+            source.parent.mkdir()
+            target.parent.mkdir()
+            source.write_text(
+                note(
+                    """
+                    lang: de
+                    translation_id: spiel
+                    translation_status: original
+                    """,
+                    "> Siehe [Ziel](Ziel.md)\n",
+                ),
+                encoding="utf-8",
+            )
+            target.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: spiel
+                    translation_status: machine-translated
+                    translation_source: docs/de/Spiel.md
+                    custom: keep
+                    """,
+                    "> See [Target](Target.md)\n",
+                ),
+                encoding="utf-8",
+            )
+
+            result = workflow.repair_link_files(["docs/en/Spiel.md"])
+            text = target.read_text(encoding="utf-8")
+
+            self.assertEqual(result["repaired_count"], 1)
+            self.assertIn("custom: keep", text)
+            self.assertIn("> See [Target](Ziel.md)", text)
+
+        self.run_with_vault(scenario)
+
+    def test_count_mismatch_is_reported_but_not_repaired(self) -> None:
+        def scenario(_root: Path, docs: Path) -> None:
+            source = docs / "de" / "Spiel.md"
+            target = docs / "en" / "Spiel.md"
+            source.parent.mkdir()
+            target.parent.mkdir()
+            source.write_text(
+                note(
+                    """
+                    lang: de
+                    translation_id: spiel
+                    translation_status: original
+                    """,
+                    "[A](A.md) [B](B.md)\n",
+                ),
+                encoding="utf-8",
+            )
+            target.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: spiel
+                    translation_status: machine-translated
+                    translation_source: docs/de/Spiel.md
+                    """,
+                    "[A](Wrong.md)\n",
+                ),
+                encoding="utf-8",
+            )
+
+            scan = workflow.scan_link_repairs("en")
+            result = workflow.repair_link_files(["docs/en/Spiel.md"])
+
+            self.assertEqual(scan["total"], 1)
+            self.assertEqual(scan["safe_count"], 0)
+            self.assertEqual(result["repaired_count"], 0)
+            self.assertIn("[A](Wrong.md)", target.read_text(encoding="utf-8"))
+
+        self.run_with_vault(scenario)
+
+
+if __name__ == "__main__":
+    unittest.main()

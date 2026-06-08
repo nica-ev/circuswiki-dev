@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:39:47
+update: 2026-06-08 23:41:01
 title: Schlangen Hasche
 description: 
 authors:
@@ -27,6 +27,7 @@ translation_source_hash: 3dd0ae4c8ee96f8f34cf3e46f7acb467618ff6624a06a24f623f120
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:23:35+00:00
 ---
+
 # Slangen Haken
 
 **Groepsgrootte**: vanaf 6 spelers

@@ -15,13 +15,13 @@ website: www.nica.network
 email: info@nica.network
 land: Germany
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/NICA-EV.md
+translation_source_lang: en
+translation_source: docs/en/NICA-EV.md
 translation_source_hash: 63ee5a1f08f686bf25a760de64b82f707fa727abd643c28151965fe3ab25f693
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:50:17+00:00
+translation_updated: 2026-06-08T16:36:06+00:00
 ---
-# NICA e.V. - Δίκτυο για τις Συμπεριληπτικές Τέχνες του Τσίρκου
+# NICA e.V. - Δίκτυο για τις συμπεριληπτικές τέχνες του τσίρκου
 
 Το NICA e.V. αντιλαμβάνεται τον εαυτό του ως ένα δίκτυο που διαδίδει και αναπτύσσει συμπεριληπτικές μεθόδους εκπαίδευσης στο τσίρκο.
 
@@ -33,7 +33,7 @@ translation_updated: 2026-06-07T13:50:17+00:00
 
 Δραστηριοποιούμαστε τόσο σε περιφερειακό όσο και σε διεθνές επίπεδο.
 
-# Σύνδεσμοι Επικοινωνίας
+# Σύνδεσμοι επικοινωνίας
 
 [www.nica.network](http://www.nica.network)
 [info@nica.network](mailto:info@nica.network)

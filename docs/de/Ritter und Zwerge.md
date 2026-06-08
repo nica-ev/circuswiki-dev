@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:47:46
+update: 2026-06-08 18:39:31
 title: Ritter und Zwerge
 description: 
 authors:
@@ -22,6 +22,7 @@ group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
+
 # Ritter und Zwerge
 
 **Gruppengröße**: 8 bis 20 Mitspieler

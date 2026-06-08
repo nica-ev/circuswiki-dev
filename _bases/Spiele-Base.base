@@ -1,0 +1,277 @@
+views:
+  - type: table
+    name: Aufwärmspiele MOC
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("warm-up")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Bewegungsspiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("bewegung")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Cooldown Spiele MOC
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("cool-down")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Fangspiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("fangen")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: index
+    filters:
+      and:
+        - lang == "de"
+    groupBy:
+      property: update
+      direction: DESC
+    order:
+      - file.name
+      - authors
+      - tags
+      - update
+    sort:
+      - property: update
+        direction: DESC
+    limit: 10
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: list
+    name: Kaskade Magazin
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("kaskade")
+        - type.contains("magazin")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Kaskade Artikel
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("kaskade")
+        - '!type.containsAny("magazin")'
+    order:
+      - file.name
+      - authors
+      - type
+      - sub-type
+      - source
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Klatschspiele MOC
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("klatschspiel")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Kooperationsspiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("Kooperation")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      file.name: 292
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Kreisspiele MOC
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("kreisspiel")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Liste aller Spiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - '!file.hasTag("beigoma")'
+        - '!file.hasTag("moc")'
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Call and Response
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("call-response")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Schnelligkeit+Reaktionsspiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("action")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Spiele für Zwischendurch
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("sonstiges")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Spiele zum Kennenlernen
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("kennenlernen")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
+    name: Taktik und Konzentrationsspiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("Taktik")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121

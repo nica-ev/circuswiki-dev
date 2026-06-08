@@ -19,6 +19,7 @@ from core.languages import (
 )
 from .markdown import join_markdown, split_markdown
 from .metadata import ensure_scalars, missing_scalars, read_scalar, set_scalar
+from . import link_repair
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -707,7 +708,8 @@ def translate_page(
         model=model,
         prompt=prompt,
     )
-    translated_body = restore_internal_link_targets(source_doc.body, translated_body)
+    link_result = link_repair.repair_link_targets(source_doc.body, translated_body)
+    translated_body = link_result.body
 
     target_frontmatter = source_doc.frontmatter
     target_frontmatter = ensure_scalars(
@@ -736,77 +738,33 @@ def translate_page(
         "dry_run": dry_run,
         "source_hash": current_hash,
         "translated_chars": len(translated_body),
+        "link_repairs": link_result.repair_count,
+        "link_diagnostics": [item.__dict__ for item in link_result.diagnostics],
     }
 
 
 def restore_internal_link_targets(source_body: str, translated_body: str) -> str:
-    translated_body = restore_markdown_link_targets(source_body, translated_body)
-    translated_body = restore_wikilink_targets(source_body, translated_body)
-    return translated_body
+    return link_repair.restore_internal_link_targets(source_body, translated_body)
 
 
 def restore_markdown_link_targets(source_body: str, translated_body: str) -> str:
-    source_targets = [
-        match.group("target")
-        for match in MARKDOWN_LINK_RE.finditer(source_body)
-        if is_local_markdown_target(match.group("target"))
-    ]
-    if not source_targets:
-        return translated_body
-
-    index = 0
-
-    def replace(match: re.Match[str]) -> str:
-        nonlocal index
-        current = match.group("target")
-        if not is_local_markdown_target(current):
-            return match.group(0)
-        if index >= len(source_targets):
-            return match.group(0)
-        target = source_targets[index]
-        index += 1
-        return f"{match.group(1)}{target}{match.group(3)}"
-
-    return MARKDOWN_LINK_RE.sub(replace, translated_body)
+    return link_repair.restore_markdown_link_targets(source_body, translated_body)
 
 
 def restore_wikilink_targets(source_body: str, translated_body: str) -> str:
-    source_targets = [
-        wikilink_target(match.group("body"))
-        for match in WIKILINK_RE.finditer(source_body)
-        if wikilink_target(match.group("body"))
-    ]
-    if not source_targets:
-        return translated_body
-
-    index = 0
-
-    def replace(match: re.Match[str]) -> str:
-        nonlocal index
-        if index >= len(source_targets):
-            return match.group(0)
-        source_target = source_targets[index]
-        index += 1
-        body = match.group("body")
-        alias = wikilink_alias(body)
-        return f"{match.group(1)}{source_target}{alias}{match.group(3)}"
-
-    return WIKILINK_RE.sub(replace, translated_body)
+    return link_repair.restore_wikilink_targets(source_body, translated_body)
 
 
 def is_local_markdown_target(target: str) -> bool:
-    return bool(LOCAL_LINK_RE.match(target.split(None, 1)[0]))
+    return link_repair.is_local_markdown_target(target)
 
 
 def wikilink_target(body: str) -> str:
-    target = body.split("|", 1)[0].strip()
-    return target
+    return link_repair.wikilink_target(body)
 
 
 def wikilink_alias(body: str) -> str:
-    if "|" not in body:
-        return ""
-    return "|" + body.split("|", 1)[1]
+    return link_repair.wikilink_alias(body)
 
 
 def call_translation_model(

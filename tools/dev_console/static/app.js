@@ -9,10 +9,30 @@ let state = {
   vaultHealth: null,
   activeTab: "file-test",
   batchPlan: null,
+  originalGraph: null,
+  originalGraphChart: null,
+  originalGraphResizeObserver: null,
+  originalGraphOptions: {
+    showLabels: true,
+    excludeSitemap: true,
+    repulsion: 260,
+    gravity: 0.06,
+    edgeLength: 190,
+    zoom: 1,
+  },
   navigationScan: null,
   navigationPreview: null,
+  dynamicScan: null,
+  dynamicSelected: null,
+  linkRepairScan: null,
+  linkRepairSelected: null,
+  linkRepairChecked: new Set(),
+  cleanupScan: null,
+  cleanupSelected: null,
+  cleanupChecked: new Set(),
   matrixWindow: { start: 0, end: 0 },
   matrixDrag: null,
+  graphDrag: null,
 };
 
 function log(value) {
@@ -31,6 +51,8 @@ async function loadConfig() {
   $("model").value = config.default_model;
   $("prompt").value = config.default_prompt;
   renderFileLanguageOptions(config);
+  renderDynamicLanguageOptions(config);
+  renderLinkRepairLanguageOptions(config);
 }
 
 async function loadHealth() {
@@ -102,8 +124,8 @@ function renderDetails() {
     : '<span class="ok">none</span>';
 
   $("details").innerHTML = `
-    <dt>Source</dt><dd>${escapeHtml(page.source)}</dd>
-    <dt>Target</dt><dd>${escapeHtml(page.target)}</dd>
+    <dt>Source</dt><dd>${pathWithObsidianButton(page.source)}</dd>
+    <dt>Target</dt><dd>${pathWithObsidianButton(page.target)}</dd>
     <dt>ID</dt><dd>${escapeHtml(page.translation_id)}</dd>
     <dt>Hash</dt><dd>${escapeHtml(page.source_hash.slice(0, 12))}</dd>
     <dt>Target Exists</dt><dd>${page.target_exists ? "yes" : "no"}</dd>
@@ -322,6 +344,30 @@ function renderFileLanguageOptions(config) {
   $("file-target-lang").value = config.default_target_lang || languages[0]?.code || "";
 }
 
+function renderDynamicLanguageOptions(config) {
+  const select = $("dynamic-language");
+  if (!select) {
+    return;
+  }
+  const languages = config.languages || [];
+  select.innerHTML = [
+    '<option value="">All languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`),
+  ].join("");
+}
+
+function renderLinkRepairLanguageOptions(config) {
+  const select = $("link-repair-language");
+  if (!select) {
+    return;
+  }
+  const languages = config.languages || [];
+  select.innerHTML = [
+    '<option value="">All languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`),
+  ].join("");
+}
+
 function fileSourceLang() {
   return $("file-source-lang")?.value || state.config?.default_source_lang || "";
 }
@@ -437,9 +483,820 @@ function formatBatchFilters(filters) {
   return parts.join(", ");
 }
 
+function pathWithObsidianButton(path) {
+  if (!path) {
+    return "-";
+  }
+  const escaped = escapeHtml(path);
+  return `
+    <span class="path-action">
+      <span>${escaped}</span>
+      <button class="mini-button obsidian-open" type="button" data-obsidian-path="${escaped}">Open in Obsidian</button>
+    </span>
+  `;
+}
+
+async function openInObsidian(path) {
+  if (!path) {
+    activeLog("No path selected.");
+    return;
+  }
+  activeLog(`Opening in Obsidian: ${path}`);
+  try {
+    const result = await api("/api/obsidian/open", {
+      method: "POST",
+      body: JSON.stringify({ path, newtab: true }),
+    });
+    activeLog(result);
+  } catch (error) {
+    activeLog(error.message);
+  }
+}
+
+function activeLog(value) {
+  const loggers = {
+    "file-test": log,
+    "vault-health": healthLog,
+    "batch-translate": batchLog,
+    "original-graph": graphLog,
+    navigation: navLog,
+    dynamic: dynamicLog,
+    cleanup: cleanupLog,
+    "link-repair": linkRepairLog,
+  };
+  (loggers[state.activeTab] || log)(value);
+}
+
 function navLog(value) {
   $("nav-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function dynamicLog(value) {
+  $("dynamic-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function cleanupLog(value) {
+  $("cleanup-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function linkRepairLog(value) {
+  $("link-repair-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function graphLog(value) {
+  $("graph-details").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function graphDiagnosticsLog(value) {
+  $("graph-diagnostics").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function readGraphControls() {
+  state.originalGraphOptions.showLabels = $("graph-labels").checked;
+  state.originalGraphOptions.excludeSitemap = $("graph-exclude-sitemap").checked;
+  state.originalGraphOptions.repulsion = Number($("graph-repulsion").value);
+  state.originalGraphOptions.gravity = Number($("graph-gravity").value);
+  state.originalGraphOptions.edgeLength = Number($("graph-edge-length").value);
+  updateGraphControlLabels();
+}
+
+function updateGraphControlLabels() {
+  $("graph-repulsion-value").textContent = String(state.originalGraphOptions.repulsion);
+  $("graph-gravity-value").textContent = state.originalGraphOptions.gravity.toFixed(2);
+  $("graph-edge-length-value").textContent = String(state.originalGraphOptions.edgeLength);
+}
+
+async function loadOriginalGraph() {
+  setBusy(true);
+  graphLog("Loading original graph...");
+  try {
+    readGraphControls();
+    const excludeSitemap = state.originalGraphOptions.excludeSitemap ? "true" : "false";
+    const graph = await api(`/api/original-graph?exclude_sitemap=${excludeSitemap}`);
+    state.originalGraph = graph;
+    renderOriginalGraphSummary();
+    renderOriginalGraph();
+    graphDiagnosticsLog(graph.diagnostics?.slice(0, 80) || []);
+  } catch (error) {
+    graphLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderOriginalGraphSummary() {
+  const graph = state.originalGraph;
+  if (!graph) {
+    $("graph-summary").innerHTML = "";
+    return;
+  }
+  const counts = formatLanguageCounts(graph.summary?.language_counts || {}, languageNamesFromConfig());
+  $("graph-summary").innerHTML = `
+    <span class="pill">Originals: <strong>${graph.summary?.node_count || 0}</strong></span>
+    <span class="pill">Edges: <strong>${graph.summary?.edge_count || 0}</strong></span>
+    <span class="pill ${graph.summary?.diagnostic_count ? "yellow" : "green"}">Diagnostics: <strong>${graph.summary?.diagnostic_count || 0}</strong></span>
+    <span class="pill">Excluded: <strong>${escapeHtml((graph.summary?.excluded_relative_paths || []).join(", ") || "none")}</strong></span>
+    <span class="pill">Languages: <strong>${escapeHtml(counts || "none")}</strong></span>
+  `;
+}
+
+function renderOriginalGraph() {
+  const graph = state.originalGraph;
+  if (!graph) {
+    return;
+  }
+  if (!window.echarts) {
+    graphLog("ECharts failed to load. Check the CDN connection or vendor ECharts locally.");
+    return;
+  }
+
+  const element = $("original-graph-chart");
+  if (!state.originalGraphChart) {
+    state.originalGraphChart = window.echarts.init(element, null, { renderer: "canvas" });
+    state.originalGraphChart.on("click", (params) => {
+      graphLog(params.data || params);
+    });
+    element.addEventListener("wheel", graphWheel, { passive: false });
+    element.addEventListener("pointerdown", startGraphDrag);
+    element.addEventListener("pointermove", updateGraphDrag);
+    element.addEventListener("pointerup", stopGraphDrag);
+    element.addEventListener("pointercancel", stopGraphDrag);
+    element.addEventListener("lostpointercapture", stopGraphDrag);
+    state.originalGraphResizeObserver = new ResizeObserver(() => resizeOriginalGraphChart());
+    state.originalGraphResizeObserver.observe(element);
+  }
+  resizeOriginalGraphChart();
+  readGraphControls();
+  const options = state.originalGraphOptions;
+
+  const categories = (graph.categories || []).map((category) => ({
+    name: category.name,
+    itemStyle: { color: graphLanguageColor(category.name) },
+  }));
+  const data = (graph.nodes || []).map((node) => ({
+    ...node,
+    itemStyle: { color: graphLanguageColor(node.lang) },
+    label: { show: options.showLabels && node.value > 1 },
+    tooltip: {
+      formatter: [
+        `<strong>${escapeHtml(node.title)}</strong>`,
+        `${escapeHtml(node.language)} (${escapeHtml(node.lang)})`,
+        `${escapeHtml(node.path)}`,
+        `in: ${node.in_degree} | out: ${node.out_degree}`,
+      ].join("<br>"),
+    },
+  }));
+  const links = (graph.edges || []).map((edge) => ({
+    ...edge,
+    lineStyle: { width: Math.min(5, 1 + Number(edge.value || 1)), opacity: 0.48 },
+    tooltip: {
+      formatter: [
+        `${escapeHtml(edge.source)} -> ${escapeHtml(edge.target)}`,
+        `links: ${edge.value}`,
+        ...(edge.links || []).slice(0, 4).map((link) => escapeHtml(link.resolved_path || link.target)),
+      ].join("<br>"),
+    },
+  }));
+
+  state.originalGraphChart.setOption({
+    backgroundColor: "transparent",
+    tooltip: { trigger: "item", confine: true },
+    legend: [{
+      data: categories.map((category) => category.name),
+      textStyle: { color: "#9aa89d" },
+      top: 8,
+      left: 8,
+    }],
+    series: [{
+      type: "graph",
+      layout: "force",
+      roam: true,
+      draggable: true,
+      zoom: options.zoom,
+      data,
+      links,
+      categories,
+      edgeSymbol: ["none", "arrow"],
+      edgeSymbolSize: 7,
+      label: {
+        color: "#edf4eb",
+        formatter: (params) => params.data.title || params.data.name,
+        position: "right",
+      },
+      emphasis: {
+        focus: "adjacency",
+        lineStyle: { opacity: 0.95 },
+      },
+      force: {
+        repulsion: options.repulsion,
+        gravity: options.gravity,
+        edgeLength: [Math.max(30, Math.round(options.edgeLength * 0.45)), options.edgeLength],
+      },
+      lineStyle: {
+        color: "source",
+        curveness: 0.08,
+      },
+    }],
+  }, true);
+  resizeOriginalGraphChart();
+  setTimeout(resizeOriginalGraphChart, 0);
+}
+
+function resizeOriginalGraphChart() {
+  if (!state.originalGraphChart) {
+    return;
+  }
+  const element = $("original-graph-chart");
+  const rect = element.getBoundingClientRect();
+  state.originalGraphChart.resize({
+    width: Math.max(1, Math.floor(rect.width)),
+    height: Math.max(1, Math.floor(rect.height)),
+  });
+}
+
+function fitOriginalGraph() {
+  if (state.originalGraphChart) {
+    state.originalGraphOptions.zoom = 1;
+    state.originalGraphChart.dispatchAction({ type: "restore" });
+    renderOriginalGraph();
+  }
+}
+
+function zoomOriginalGraph(factor) {
+  state.originalGraphOptions.zoom = Math.max(
+    0.15,
+    Math.min(5, state.originalGraphOptions.zoom * factor)
+  );
+  renderOriginalGraph();
+}
+
+function updateOriginalGraphForces() {
+  readGraphControls();
+  renderOriginalGraph();
+}
+
+function graphWheel(event) {
+  if (!state.originalGraphChart) {
+    return;
+  }
+  event.preventDefault();
+  const zoom = event.deltaY < 0 ? 1.12 : 0.89;
+  state.originalGraphOptions.zoom = Math.max(
+    0.15,
+    Math.min(5, state.originalGraphOptions.zoom * zoom)
+  );
+  state.originalGraphChart.dispatchAction({
+    type: "graphRoam",
+    seriesIndex: 0,
+    zoom,
+    originX: event.offsetX,
+    originY: event.offsetY,
+  });
+}
+
+function startGraphDrag(event) {
+  if (!state.originalGraphChart || event.button !== 0) {
+    return;
+  }
+  event.preventDefault();
+  $("original-graph-chart").setPointerCapture(event.pointerId);
+  state.graphDrag = {
+    pointerId: event.pointerId,
+    x: event.clientX,
+    y: event.clientY,
+  };
+}
+
+function updateGraphDrag(event) {
+  const drag = state.graphDrag;
+  if (!drag || drag.pointerId !== event.pointerId || !state.originalGraphChart) {
+    return;
+  }
+  event.preventDefault();
+  const dx = event.clientX - drag.x;
+  const dy = event.clientY - drag.y;
+  drag.x = event.clientX;
+  drag.y = event.clientY;
+  state.originalGraphChart.dispatchAction({
+    type: "graphRoam",
+    seriesIndex: 0,
+    dx,
+    dy,
+  });
+}
+
+function stopGraphDrag(event) {
+  if (!state.graphDrag) {
+    return;
+  }
+  if (event?.pointerId && event.pointerId !== state.graphDrag.pointerId) {
+    return;
+  }
+  state.graphDrag = null;
+}
+
+function graphLanguageColor(language) {
+  const palette = {
+    de: "#e0a64b",
+    en: "#5fb3d9",
+    pl: "#d95f76",
+    hu: "#8fd95f",
+    it: "#5fd997",
+    nl: "#d98e5f",
+    el: "#9b7bda",
+    es: "#d9c95f",
+    uk: "#5f7ed9",
+    pt: "#59c2b0",
+    cs: "#c878d8",
+    sk: "#88a85c",
+  };
+  return palette[language] || "#9aa89d";
+}
+
+function languageNamesFromConfig() {
+  return Object.fromEntries((state.config?.languages || []).map((language) => [language.code, language.name]));
+}
+
+async function loadDynamicScan() {
+  setBusy(true);
+  dynamicLog("Scanning dynamic pages...");
+  try {
+    const language = $("dynamic-language").value || "";
+    const query = language ? `?language=${encodeURIComponent(language)}` : "";
+    const scan = await api(`/api/dynamic/scan${query}`);
+    state.dynamicScan = scan;
+    if (state.dynamicSelected && !scan.pages.some((page) => page.path === state.dynamicSelected)) {
+      state.dynamicSelected = null;
+    }
+    renderDynamicScan();
+    dynamicLog(scan);
+  } catch (error) {
+    dynamicLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function checkDynamicPages() {
+  setBusy(true);
+  dynamicLog("Checking dynamic pages...");
+  try {
+    const language = $("dynamic-language").value || "";
+    const path = state.dynamicSelected || "";
+    const params = new URLSearchParams();
+    if (language) {
+      params.set("language", language);
+    }
+    if (path) {
+      params.set("path", path);
+    }
+    const result = await api(`/api/dynamic/check?${params.toString()}`);
+    dynamicLog(result);
+  } catch (error) {
+    dynamicLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function previewDynamicSelected() {
+  await runDynamicRefresh(true, state.dynamicSelected || "");
+}
+
+async function refreshDynamicSelected() {
+  await runDynamicRefresh(false, state.dynamicSelected || "");
+  await loadDynamicScan();
+}
+
+async function refreshAllDynamicPages() {
+  await runDynamicRefresh(false, "");
+  await loadDynamicScan();
+}
+
+async function runDynamicRefresh(dryRun, path) {
+  if (path === "" && dryRun) {
+    dynamicLog("Select a dynamic page first.");
+    return;
+  }
+  setBusy(true);
+  dynamicLog(dryRun ? "Previewing dynamic refresh..." : "Refreshing dynamic pages...");
+  try {
+    const result = await api(dryRun ? "/api/dynamic/preview" : "/api/dynamic/refresh", {
+      method: "POST",
+      body: JSON.stringify({
+        path,
+        language: path ? "" : $("dynamic-language").value,
+      }),
+    });
+    dynamicLog(result);
+  } catch (error) {
+    dynamicLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderDynamicScan() {
+  const scan = state.dynamicScan;
+  if (!scan) {
+    $("dynamic-summary").innerHTML = "";
+    $("dynamic-pages").innerHTML = "";
+    $("dynamic-details").innerHTML = "";
+    return;
+  }
+
+  const issueCount = scan.pages.filter((page) => page.issues.length).length;
+  const validCount = scan.pages.filter((page) => page.valid_block_count > 0).length;
+  $("dynamic-summary").innerHTML = `
+    <span class="pill">Pages: <strong>${scan.total}</strong></span>
+    <span class="pill green">Refreshable: <strong>${validCount}</strong></span>
+    <span class="pill ${issueCount ? "yellow" : "green"}">Issues: <strong>${issueCount}</strong></span>
+    <span class="pill ${scan.obsidian?.available ? "green" : "red"}">Obsidian CLI: <strong>${scan.obsidian?.available ? "available" : "missing"}</strong></span>
+  `;
+
+  const filter = $("dynamic-filter").value.toLowerCase();
+  const pages = scan.pages.filter((page) =>
+    `${page.path} ${page.title} ${page.language}`.toLowerCase().includes(filter)
+  );
+  $("dynamic-pages").innerHTML = "";
+  pages.forEach((page) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "page";
+    if (state.dynamicSelected === page.path) {
+      button.classList.add("active");
+    }
+    button.textContent = `${page.language || "?"} | ${page.title}`;
+    button.title = page.path;
+    button.addEventListener("click", () => {
+      state.dynamicSelected = page.path;
+      renderDynamicScan();
+      dynamicLog(page);
+    });
+    $("dynamic-pages").appendChild(button);
+  });
+  renderDynamicDetails();
+}
+
+function renderDynamicDetails() {
+  const page = state.dynamicScan?.pages.find((item) => item.path === state.dynamicSelected);
+  if (!page) {
+    $("dynamic-details").innerHTML = "";
+    return;
+  }
+  const issues = page.issues.length
+    ? page.issues.map((issue) => `<span class="issue">${escapeHtml(issue)}</span>`).join("")
+    : '<span class="ok">none</span>';
+  $("dynamic-details").innerHTML = `
+    <dt>Path</dt><dd>${pathWithObsidianButton(page.path)}</dd>
+    <dt>Language</dt><dd>${escapeHtml(page.language || "-")}</dd>
+    <dt>Title</dt><dd>${escapeHtml(page.title)}</dd>
+    <dt>Blocks</dt><dd>${page.valid_block_count}/${page.block_count} valid</dd>
+    <dt>Tags</dt><dd>${escapeHtml(page.tags.join(", ") || "-")}</dd>
+    <dt>Issues</dt><dd>${issues}</dd>
+  `;
+}
+
+async function loadLinkRepairScan() {
+  setBusy(true);
+  linkRepairLog("Scanning translated link targets...");
+  try {
+    const language = $("link-repair-language").value || "";
+    const query = language ? `?language=${encodeURIComponent(language)}` : "";
+    const scan = await api(`/api/link-repair/scan${query}`);
+    state.linkRepairScan = scan;
+    const currentPaths = new Set(scan.items.map((item) => item.path));
+    state.linkRepairChecked = new Set([...state.linkRepairChecked].filter((path) => currentPaths.has(path)));
+    if (state.linkRepairSelected && !currentPaths.has(state.linkRepairSelected)) {
+      state.linkRepairSelected = null;
+    }
+    renderLinkRepairScan();
+    linkRepairLog(scan);
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function previewLinkRepairSelected() {
+  if (!state.linkRepairSelected) {
+    linkRepairLog("Select a link repair item first.");
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Previewing link repair...");
+  try {
+    const result = await api(`/api/link-repair/preview?path=${encodeURIComponent(state.linkRepairSelected)}`);
+    linkRepairLog({
+      ...result,
+      current_body: result.current_body.slice(0, 4000),
+      repaired_body: result.repaired_body.slice(0, 4000),
+      truncated: result.current_body.length > 4000 || result.repaired_body.length > 4000,
+    });
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function repairSelectedLinkItems() {
+  const paths = [...state.linkRepairChecked];
+  if (!paths.length) {
+    linkRepairLog("Select at least one safe repair item first.");
+    return;
+  }
+  if (!window.confirm(`Repair link targets in ${paths.length} translated file(s)?`)) {
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Repairing selected link targets...");
+  try {
+    const result = await api("/api/link-repair/repair", {
+      method: "POST",
+      body: JSON.stringify({ paths }),
+    });
+    state.linkRepairChecked.clear();
+    linkRepairLog(result);
+    await loadLinkRepairScan();
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function repairAllSafeLinkItems() {
+  const count = state.linkRepairScan?.safe_count || 0;
+  if (!count) {
+    linkRepairLog("No safe link repairs found.");
+    return;
+  }
+  if (!window.confirm(`Repair all ${count} safe translated file(s)?`)) {
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Repairing all safe link targets...");
+  try {
+    const result = await api("/api/link-repair/repair-all", {
+      method: "POST",
+      body: JSON.stringify({ language: $("link-repair-language").value || "" }),
+    });
+    state.linkRepairChecked.clear();
+    linkRepairLog(result);
+    await loadLinkRepairScan();
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderLinkRepairScan() {
+  const scan = state.linkRepairScan;
+  if (!scan) {
+    $("link-repair-summary").innerHTML = "";
+    $("link-repair-list").innerHTML = "";
+    $("link-repair-details").innerHTML = "";
+    return;
+  }
+
+  $("link-repair-summary").innerHTML = `
+    <span class="pill">Items: <strong>${scan.total}</strong></span>
+    <span class="pill ${scan.safe_count ? "yellow" : "green"}">Safe files: <strong>${scan.safe_count}</strong></span>
+    <span class="pill">Target repairs: <strong>${scan.repair_count}</strong></span>
+  `;
+
+  const filter = $("link-repair-filter").value.toLowerCase();
+  const items = scan.items.filter((item) =>
+    `${item.path} ${item.source} ${item.reasons.join(" ")} ${item.translation_id}`.toLowerCase().includes(filter)
+  );
+  $("link-repair-list").innerHTML = "";
+  items.forEach((item) => {
+    const row = document.createElement("div");
+    row.className = "cleanup-item";
+    if (state.linkRepairSelected === item.path) {
+      row.classList.add("active");
+    }
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.disabled = !item.safe_repair;
+    checkbox.checked = state.linkRepairChecked.has(item.path);
+    checkbox.title = item.safe_repair ? "Select for repair" : "Not safely repairable";
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        state.linkRepairChecked.add(item.path);
+      } else {
+        state.linkRepairChecked.delete(item.path);
+      }
+      renderLinkRepairDetails();
+    });
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "cleanup-item-main";
+    button.innerHTML = `
+      <strong>${escapeHtml(item.path)}</strong>
+      <span>${escapeHtml(item.reasons.join(", ") || "target_repaired")} | repairs: ${item.repair_count} | ${escapeHtml(item.translation_id || "-")}</span>
+    `;
+    button.addEventListener("click", () => {
+      state.linkRepairSelected = item.path;
+      renderLinkRepairScan();
+      linkRepairLog(item);
+    });
+
+    row.appendChild(checkbox);
+    row.appendChild(button);
+    $("link-repair-list").appendChild(row);
+  });
+  renderLinkRepairDetails();
+}
+
+function renderLinkRepairDetails() {
+  const selected = state.linkRepairScan?.items.find((item) => item.path === state.linkRepairSelected);
+  if (!selected) {
+    $("link-repair-details").innerHTML = `
+      <dt>Checked</dt><dd>${state.linkRepairChecked.size}</dd>
+    `;
+    return;
+  }
+  $("link-repair-details").innerHTML = `
+    <dt>Path</dt><dd>${pathWithObsidianButton(selected.path)}</dd>
+    <dt>Status</dt><dd>${escapeHtml(selected.status || "-")}</dd>
+    <dt>ID</dt><dd>${escapeHtml(selected.translation_id || "-")}</dd>
+    <dt>Source</dt><dd>${pathWithObsidianButton(selected.source)}</dd>
+    <dt>Repairs</dt><dd>${selected.repair_count}</dd>
+    <dt>Diagnostics</dt><dd>${selected.diagnostic_count}</dd>
+    <dt>Safe</dt><dd><span class="pill ${selected.safe_repair ? "yellow" : "red"}">${selected.safe_repair ? "yes" : "no"}</span></dd>
+    <dt>Reasons</dt><dd>${escapeHtml(selected.reasons.join(", ") || "-")}</dd>
+    <dt>Checked</dt><dd>${state.linkRepairChecked.size}</dd>
+  `;
+}
+
+async function loadCleanupScan() {
+  setBusy(true);
+  cleanupLog("Scanning orphan translations...");
+  try {
+    const scan = await api("/api/cleanup/orphans");
+    state.cleanupScan = scan;
+    const currentPaths = new Set(scan.items.map((item) => item.path));
+    state.cleanupChecked = new Set([...state.cleanupChecked].filter((path) => currentPaths.has(path)));
+    if (state.cleanupSelected && !currentPaths.has(state.cleanupSelected)) {
+      state.cleanupSelected = null;
+    }
+    renderCleanupScan();
+    cleanupLog(scan);
+  } catch (error) {
+    cleanupLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function deleteSelectedCleanupItems() {
+  const paths = [...state.cleanupChecked];
+  if (!paths.length) {
+    cleanupLog("Select at least one deletable orphan first.");
+    return;
+  }
+  if (!window.confirm(`Delete ${paths.length} orphan translation file(s)? This cannot be undone by the tool.`)) {
+    return;
+  }
+  setBusy(true);
+  cleanupLog("Deleting selected orphan translations...");
+  try {
+    const result = await api("/api/cleanup/delete-orphans", {
+      method: "POST",
+      body: JSON.stringify({ paths }),
+    });
+    state.cleanupChecked.clear();
+    cleanupLog(result);
+    await loadCleanupScan();
+    await loadVaultHealth();
+  } catch (error) {
+    cleanupLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function deleteAllCleanupItems() {
+  const count = state.cleanupScan?.deletable_count || 0;
+  if (!count) {
+    cleanupLog("No deletable orphan translations found.");
+    return;
+  }
+  if (!window.confirm(`Delete all ${count} deletable orphan translation file(s)? This cannot be undone by the tool.`)) {
+    return;
+  }
+  setBusy(true);
+  cleanupLog("Deleting all deletable orphan translations...");
+  try {
+    const result = await api("/api/cleanup/delete-all-orphans", {
+      method: "POST",
+      body: JSON.stringify({}),
+    });
+    state.cleanupChecked.clear();
+    cleanupLog(result);
+    await loadCleanupScan();
+    await loadVaultHealth();
+  } catch (error) {
+    cleanupLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderCleanupScan() {
+  const scan = state.cleanupScan;
+  if (!scan) {
+    $("cleanup-summary").innerHTML = "";
+    $("cleanup-list").innerHTML = "";
+    $("cleanup-details").innerHTML = "";
+    return;
+  }
+
+  const counts = Object.entries(scan.counts || {})
+    .map(([reason, count]) => `${reason}: ${count}`)
+    .join(", ");
+  $("cleanup-summary").innerHTML = `
+    <span class="pill">Items: <strong>${scan.total}</strong></span>
+    <span class="pill ${scan.deletable_count ? "yellow" : "green"}">Deletable: <strong>${scan.deletable_count}</strong></span>
+    <span class="pill">Reasons: <strong>${escapeHtml(counts || "none")}</strong></span>
+  `;
+
+  const filter = $("cleanup-filter").value.toLowerCase();
+  const items = scan.items.filter((item) =>
+    `${item.path} ${item.source} ${item.reason} ${item.translation_id}`.toLowerCase().includes(filter)
+  );
+  $("cleanup-list").innerHTML = "";
+  items.forEach((item) => {
+    const row = document.createElement("div");
+    row.className = "cleanup-item";
+    if (state.cleanupSelected === item.path) {
+      row.classList.add("active");
+    }
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.disabled = !item.deletable;
+    checkbox.checked = state.cleanupChecked.has(item.path);
+    checkbox.title = item.deletable ? "Select for deletion" : "Not safely deletable";
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        state.cleanupChecked.add(item.path);
+      } else {
+        state.cleanupChecked.delete(item.path);
+      }
+      renderCleanupDetails();
+    });
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "cleanup-item-main";
+    button.innerHTML = `
+      <strong>${escapeHtml(item.path)}</strong>
+      <span>${escapeHtml(item.reason)} | ${escapeHtml(item.status || "-")} | ${escapeHtml(item.translation_id || "-")}</span>
+    `;
+    button.addEventListener("click", () => {
+      state.cleanupSelected = item.path;
+      renderCleanupScan();
+      cleanupLog(item);
+    });
+
+    row.appendChild(checkbox);
+    row.appendChild(button);
+    $("cleanup-list").appendChild(row);
+  });
+  renderCleanupDetails();
+}
+
+function renderCleanupDetails() {
+  const selected = state.cleanupScan?.items.find((item) => item.path === state.cleanupSelected);
+  if (!selected) {
+    $("cleanup-details").innerHTML = `
+      <dt>Checked</dt><dd>${state.cleanupChecked.size}</dd>
+    `;
+    return;
+  }
+  $("cleanup-details").innerHTML = `
+    <dt>Path</dt><dd>${pathWithObsidianButton(selected.path)}</dd>
+    <dt>Status</dt><dd>${escapeHtml(selected.status || "-")}</dd>
+    <dt>ID</dt><dd>${escapeHtml(selected.translation_id || "-")}</dd>
+    <dt>Source</dt><dd>${pathWithObsidianButton(selected.source)}</dd>
+    <dt>Reason</dt><dd>${escapeHtml(selected.reason)}</dd>
+    <dt>Deletable</dt><dd><span class="pill ${selected.deletable ? "yellow" : "red"}">${selected.deletable ? "yes" : "no"}</span></dd>
+    <dt>Detail</dt><dd>${escapeHtml(selected.detail)}</dd>
+    <dt>Checked</dt><dd>${state.cleanupChecked.size}</dd>
+  `;
 }
 
 async function loadNavigationScan() {
@@ -929,6 +1786,22 @@ function switchTab(tabName) {
   if (tabName === "navigation" && !state.navigationScan) {
     loadNavigationScan().catch((error) => navLog(error.message));
   }
+  if (tabName === "original-graph") {
+    if (!state.originalGraph) {
+      loadOriginalGraph().catch((error) => graphLog(error.message));
+    } else {
+      setTimeout(resizeOriginalGraphChart, 0);
+    }
+  }
+  if (tabName === "dynamic" && !state.dynamicScan) {
+    loadDynamicScan().catch((error) => dynamicLog(error.message));
+  }
+  if (tabName === "link-repair" && !state.linkRepairScan) {
+    loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
+  }
+  if (tabName === "cleanup" && !state.cleanupScan) {
+    loadCleanupScan().catch((error) => cleanupLog(error.message));
+  }
 }
 
 function setBusy(isBusy) {
@@ -938,11 +1811,27 @@ function setBusy(isBusy) {
   $("refresh-health").disabled = isBusy;
   $("repair-health").disabled = isBusy;
   $("batch-plan").disabled = isBusy;
+  $("graph-refresh").disabled = isBusy;
+  $("graph-fit").disabled = isBusy;
+  $("graph-zoom-in").disabled = isBusy;
+  $("graph-zoom-out").disabled = isBusy;
   $("nav-scan").disabled = isBusy;
   $("nav-init").disabled = isBusy;
   $("nav-translate").disabled = isBusy;
   $("nav-preview").disabled = isBusy;
   $("nav-apply").disabled = isBusy;
+  $("dynamic-scan").disabled = isBusy;
+  $("dynamic-check").disabled = isBusy;
+  $("dynamic-preview").disabled = isBusy;
+  $("dynamic-refresh-selected").disabled = isBusy;
+  $("dynamic-refresh-all").disabled = isBusy;
+  $("link-repair-scan").disabled = isBusy;
+  $("link-repair-preview").disabled = isBusy;
+  $("link-repair-selected").disabled = isBusy;
+  $("link-repair-all").disabled = isBusy;
+  $("cleanup-scan").disabled = isBusy;
+  $("cleanup-delete-selected").disabled = isBusy;
+  $("cleanup-delete-all").disabled = isBusy;
   if (isBusy) {
     $("batch-run").disabled = true;
   }
@@ -963,6 +1852,14 @@ function languageLabel(code, name) {
 
 document.querySelectorAll(".tab").forEach((button) => {
   button.addEventListener("click", () => switchTab(button.dataset.tab));
+});
+
+document.addEventListener("click", (event) => {
+  const button = event.target.closest(".obsidian-open");
+  if (!button) {
+    return;
+  }
+  openInObsidian(button.dataset.obsidianPath || "").catch((error) => activeLog(error.message));
 });
 
 $("filter").addEventListener("input", renderPages);
@@ -994,6 +1891,19 @@ $("batch-plan").addEventListener("click", () => {
 $("batch-run").addEventListener("click", () => {
   runBatchTranslation().catch((error) => batchLog(error.message));
 });
+$("graph-refresh").addEventListener("click", () => {
+  loadOriginalGraph().catch((error) => graphLog(error.message));
+});
+$("graph-fit").addEventListener("click", fitOriginalGraph);
+$("graph-zoom-in").addEventListener("click", () => zoomOriginalGraph(1.25));
+$("graph-zoom-out").addEventListener("click", () => zoomOriginalGraph(0.8));
+$("graph-labels").addEventListener("change", updateOriginalGraphForces);
+$("graph-exclude-sitemap").addEventListener("change", () => {
+  loadOriginalGraph().catch((error) => graphLog(error.message));
+});
+$("graph-repulsion").addEventListener("input", updateOriginalGraphForces);
+$("graph-gravity").addEventListener("input", updateOriginalGraphForces);
+$("graph-edge-length").addEventListener("input", updateOriginalGraphForces);
 $("nav-scan").addEventListener("click", () => {
   loadNavigationScan().catch((error) => navLog(error.message));
 });
@@ -1009,6 +1919,54 @@ $("nav-preview").addEventListener("click", () => {
 $("nav-apply").addEventListener("click", () => {
   applyNavigationModel().catch((error) => navLog(error.message));
 });
+$("dynamic-scan").addEventListener("click", () => {
+  loadDynamicScan().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-check").addEventListener("click", () => {
+  checkDynamicPages().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-preview").addEventListener("click", () => {
+  previewDynamicSelected().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-refresh-selected").addEventListener("click", () => {
+  refreshDynamicSelected().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-refresh-all").addEventListener("click", () => {
+  refreshAllDynamicPages().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-language").addEventListener("change", () => {
+  state.dynamicSelected = null;
+  loadDynamicScan().catch((error) => dynamicLog(error.message));
+});
+$("dynamic-filter").addEventListener("input", renderDynamicScan);
+$("link-repair-scan").addEventListener("click", () => {
+  loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
+});
+$("link-repair-preview").addEventListener("click", () => {
+  previewLinkRepairSelected().catch((error) => linkRepairLog(error.message));
+});
+$("link-repair-selected").addEventListener("click", () => {
+  repairSelectedLinkItems().catch((error) => linkRepairLog(error.message));
+});
+$("link-repair-all").addEventListener("click", () => {
+  repairAllSafeLinkItems().catch((error) => linkRepairLog(error.message));
+});
+$("link-repair-language").addEventListener("change", () => {
+  state.linkRepairSelected = null;
+  state.linkRepairChecked.clear();
+  loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
+});
+$("link-repair-filter").addEventListener("input", renderLinkRepairScan);
+$("cleanup-scan").addEventListener("click", () => {
+  loadCleanupScan().catch((error) => cleanupLog(error.message));
+});
+$("cleanup-delete-selected").addEventListener("click", () => {
+  deleteSelectedCleanupItems().catch((error) => cleanupLog(error.message));
+});
+$("cleanup-delete-all").addEventListener("click", () => {
+  deleteAllCleanupItems().catch((error) => cleanupLog(error.message));
+});
+$("cleanup-filter").addEventListener("input", renderCleanupScan);
 $("health-filter").addEventListener("input", () => {
   state.matrixWindow = { start: 0, end: 0 };
   renderVaultHealth();
@@ -1026,6 +1984,9 @@ window.addEventListener("resize", () => {
   if (state.activeTab === "vault-health") {
     renderVaultHealth();
   }
+  if (state.activeTab === "original-graph") {
+    resizeOriginalGraphChart();
+  }
 });
 $("dry-run").addEventListener("click", () => runTranslation(true));
 $("translate").addEventListener("click", () => runTranslation(false));
@@ -1033,6 +1994,7 @@ $("translate").addEventListener("click", () => runTranslation(false));
 loadConfig()
   .then(loadHealth)
   .then(loadVaultHealth)
+  .then(updateGraphControlLabels)
   .catch((error) => {
     log(error.message);
     healthLog(error.message);

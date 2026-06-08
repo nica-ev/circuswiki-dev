@@ -2,7 +2,7 @@
 lang: hu
 translation_id: drunter-und-druber
 created: 2025-03-17 00:11:12
-update: 2025-03-17 02:05:52
+update: 2026-06-07 22:47:15
 publish: true
 tags:
   - spiele
@@ -15,23 +15,23 @@ category:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 32bdac7a819f98194eae8faa826bace149bb60defb185b8662b11f06506eda1f
+translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:38:39+00:00
+translation_updated: 2026-06-08T16:35:07+00:00
 ---
 # Felborítva és Átforgatva
 
-Egyszerű játék tárgyakkal, kis- és közepes csoportoknak.
+Egyszerű tárgyakkal játszható játék kis- és közepes létszámú csoportoknak.
 
 Mindenki felsorakozik.
-Tárgyakat adunk át elölről hátrafelé a fejünk felett.
-A sorban utolsó a tárgyakat hátulról előre, az előtte álló lábai között adja tovább.
+Tárgyakat adnak tovább elölről hátrafelé a fej fölött.
+A sor végén álló személy hátulról előre, az előtte álló lábai között adja tovább a tárgyakat.
 
-Vagy csinálhatjuk végtelenített játékként, vagy félretesszük a tárgyakat, ha már teljes kört megtettek.
+Vagy az egészet végtelenített játékként lehet játszani, vagy a tárgyakat félretesszük, miután egy teljes kört megtettek.
 
 ---
-Összevonva az azonos jegyzettel:
+egyesítve az ismétlődő jegyzettel:
 
-Egyszerű játék tárgyakkal, kis- és közepes csoportoknak.
+Egyszerű tárgyakkal játszható játék kis- és közepes létszámú csoportoknak.
 
-Mindenki felsorakozik. Tárgyakat adunk át elölről hátrafelé a fejünk felett. A sorban utolsó a tárgyakat hátulról előre, az előtte álló lábai között adja tovább. A tárgyakat vagy félretesszük, ha már teljes kört megtettek, vagy végtelenített játékként indítjuk elölről.
+Mindenki felsorakozik. Tárgyakat adnak tovább elölről hátrafelé a fej fölött. A sor végén álló személy hátulról előre, az előtte álló lábai között adja tovább a tárgyakat. A tárgyakat vagy félre lehet tenni, miután egy teljes kört megtettek, vagy végtelenített játékként lehet elölről kezdeni.

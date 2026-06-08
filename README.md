@@ -1,6 +1,6 @@
 ---
 created: 2025-05-02 21:56:19
-update: 2026-06-07 23:30:00
+update: 2026-06-08 20:35:58
 ---
 
 # CircusWiki
@@ -268,6 +268,13 @@ pages such as `sitemap.md` are excluded from batch translation plans because
 they duplicate links to real pages and can be disproportionately expensive.
 Running the plan then processes only those planned files and shows progress file
 by file.
+
+The Original Graph tab visualizes explicit Markdown links and Obsidian wikilinks
+between canonical original pages. Links may resolve through translated files,
+but edges are normalized back to each target page's canonical original
+translation group. `sitemap.md` is excluded by default because it links to many
+pages and pollutes the graph. The tab includes controls for label visibility,
+zoom, repulsion, gravity, and edge length.
 
 API credentials are read from local environment variables and are not stored in the repo:
 

@@ -15,14 +15,14 @@ facebook: Self APS
 instagram: selfapsitalia
 land: Italy
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/SELF APS.md
+translation_source_lang: en
+translation_source: docs/en/SELF APS.md
 translation_source_hash: 56fa9240216183f8ba2539349ac5e9a7b4b5af99fb95b85f61b86001b12bad2c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:10:38+00:00
+translation_updated: 2026-06-08T16:37:02+00:00
 ---
 # SELF APS
-je talianske združenie, ktoré presadzuje funkčné žonglovanie a robí ho inkluzívnym, adaptívnym a dostupným pre všetkých. Prostredníctvom špecifických aktivít založených na hre a interakcii podporuje psychofyzickú pohodu, koordináciu, telesné uvedomenie a vzťahy, čím zapája ľudí všetkých vekových kategórií a schopností.
+je talianske združenie, ktoré presadzuje funkčné žonglovanie a robí ho inkluzívnym, adaptívnym a dostupným pre všetkých. Prostredníctvom špecifických aktivít založených na hre a interakcii podporuje psychofyzickú pohodu, koordináciu, vedomie vlastného tela a vzťahy, zapája ľudí všetkých vekových kategórií a schopností.
 Ide o inovatívny prístup vychádzajúci z výskumu Craiga Quata, zakladateľa tejto metódy, ktorý spája zábavu a inklúziu v každom vzdelávacom, pedagogickom, sociálnom a rehabilitačnom kontexte.
 
 # Kontakt

@@ -15,11 +15,11 @@ website: www.nica.network
 email: info@nica.network
 land: Germany
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/NICA-EV.md
+translation_source_lang: en
+translation_source: docs/en/NICA-EV.md
 translation_source_hash: 63ee5a1f08f686bf25a760de64b82f707fa727abd643c28151965fe3ab25f693
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:07:32+00:00
+translation_updated: 2026-06-08T16:36:03+00:00
 ---
 # NICA e.V. - Rete per le arti circensi inclusive
 
@@ -29,7 +29,7 @@ Il nostro lavoro si basa su attività progettuali, ricerca, sviluppo e trasferim
 
 Rafforziamo reti regionali, statali, europee e internazionali per la pedagogia circense inclusiva e realizziamo progetti con diversi gruppi target.
 
-In collaborazione con le università, valutiamo i metodi pedagogici circensi inclusivi. Raccogliamo metodi diversi e li sviluppiamo ulteriormente. Attraverso formazione continua, workshop e l'integrazione dei metodi nell'ambiente di apprendimento, promuoviamo il trasferimento di conoscenze.
+In collaborazione con le università, valutiamo metodi pedagogici circensi inclusivi. Raccogliamo metodi diversi e li sviluppiamo ulteriormente. Attraverso formazione continua, workshop e l'integrazione dei metodi nell'ambiente di apprendimento, promuoviamo il trasferimento di conoscenze.
 
 Operiamo sia a livello regionale che internazionale.
 

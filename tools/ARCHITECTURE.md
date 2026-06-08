@@ -1,6 +1,6 @@
 ---
 created: 2026-06-07 21:33:20
-update: 2026-06-07 23:38:09
+update: 2026-06-08 00:00:00
 ---
 
 # Tools Architecture
@@ -18,7 +18,7 @@ The tooling layer is a small, explicit platform around the Markdown vault. It ke
 : Shared helpers for language metadata, paths, Zensical config references, and registry validation.
 
 `tools/translation/`
-: Markdown/frontmatter-safe translation workflow, metadata inspection, vault health, batch planning, and API calls.
+: Markdown/frontmatter-safe translation workflow, metadata inspection, vault health, batch planning, original-link graph construction, and API calls.
 
 `tools/navigation/`
 : Canonical navigation model, Zensical nav rendering, and navigation-label translation.
@@ -41,10 +41,11 @@ Implemented architecture decisions:
 - Zensical configs remain checked-in TOML files and can be validated/synchronized with `tools/sync_configs.py`.
 - Translation CLI and dev-console file translation require explicit source and target languages.
 - Batch translation uses canonical source detection per translation group and a plan-first workflow.
+- Original Graph visualizes explicit content links between canonical original pages, even when the resolved link passes through a translated file. It exposes graph layout controls and excludes `sitemap.md` by default.
 - Dev-console backend routes are split by domain: translation, navigation, and Obsidian status.
 - Dev-console browser helpers are split into small ES modules while keeping vanilla JS and no build step.
 - Optional Obsidian CLI integration is isolated behind `tools/obsidian/` and `/api/obsidian/*`.
-- Focused unit tests cover registry behavior, staging transformations, translation helpers, navigation rendering, config sync, and Obsidian status behavior.
+- Focused unit tests cover registry behavior, staging transformations, translation helpers, original graph normalization, navigation rendering, config sync, and Obsidian status behavior.
 
 ## Constraints
 

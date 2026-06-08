@@ -73,6 +73,21 @@ function findCurrentTranslationEntry(map, path) {
   return null;
 }
 
+function closeTranslationStatusPopups(except) {
+  document.querySelectorAll(".translation-status__badge[aria-expanded='true']").forEach(function(button) {
+    if (button === except) {
+      return;
+    }
+
+    button.setAttribute("aria-expanded", "false");
+    var popupId = button.getAttribute("aria-controls");
+    var popup = popupId ? document.getElementById(popupId) : null;
+    if (popup) {
+      popup.hidden = true;
+    }
+  });
+}
+
 function injectTranslationStatusStyles() {
   if (document.getElementById("translation-status-styles")) {
     return;
@@ -84,6 +99,7 @@ function injectTranslationStatusStyles() {
     ".translation-status {",
     "  display: flex;",
     "  align-items: center;",
+    "  position: relative;",
     "  margin: 0 0 0.45rem;",
     "  padding: 0;",
     "  font-size: 0.58rem;",
@@ -99,10 +115,17 @@ function injectTranslationStatusStyles() {
     "  background: rgba(47, 111, 94, 0.1);",
     "  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.48), 0 0.08rem 0.28rem rgba(30, 38, 33, 0.08);",
     "  color: var(--cw-green, #2f6f5e);",
+    "  font: inherit;",
     "  font-weight: 700;",
     "  letter-spacing: 0.06em;",
     "  text-transform: uppercase;",
-    "  cursor: help;",
+    "  cursor: pointer;",
+    "}",
+    ".translation-status__badge:hover,",
+    ".translation-status__badge:focus-visible {",
+    "  filter: brightness(0.98);",
+    "  outline: none;",
+    "  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.58), 0 0.1rem 0.34rem rgba(30, 38, 33, 0.12);",
     "}",
     ".translation-status--original .translation-status__badge {",
     "  border-color: rgba(47, 111, 94, 0.34);",
@@ -118,6 +141,25 @@ function injectTranslationStatusStyles() {
     "  border-color: rgba(185, 70, 50, 0.58);",
     "  background: rgba(185, 70, 50, 0.12);",
     "  color: var(--cw-red, #b94632);",
+    "}",
+    ".translation-status__popup {",
+    "  position: absolute;",
+    "  z-index: 10;",
+    "  top: calc(100% + 0.38rem);",
+    "  left: 0;",
+    "  width: min(26rem, calc(100vw - 2rem));",
+    "  padding: 0.72rem 0.82rem;",
+    "  border: 1px solid rgba(47, 111, 94, 0.24);",
+    "  border-radius: 0.7rem;",
+    "  background: rgba(255, 255, 248, 0.98);",
+    "  box-shadow: 0 0.45rem 1.25rem rgba(30, 38, 33, 0.18);",
+    "  color: var(--md-default-fg-color, #1f2924);",
+    "  font-size: 0.68rem;",
+    "  line-height: 1.45;",
+    "  white-space: pre-wrap;",
+    "}",
+    ".translation-status__popup[hidden] {",
+    "  display: none;",
     "}",
   ].join("\n");
   document.head.appendChild(style);
@@ -147,16 +189,50 @@ function renderTranslationStatus() {
     banner.className = "translation-status translation-status--" + status;
     banner.setAttribute("aria-label", "Translation status");
 
-    var badge = document.createElement("span");
+    var details = translationStatusDetails(current.group, current.language, current.entry);
+    var popupId = "translation-status-popup";
+
+    var badge = document.createElement("button");
+    badge.type = "button";
     badge.className = "translation-status__badge";
     badge.textContent = translationStatusLabel(status);
-    badge.title = translationStatusDetails(current.group, current.language, current.entry);
-    badge.setAttribute("aria-label", badge.title);
+    badge.title = details;
+    badge.setAttribute("aria-label", "Show translation metadata");
+    badge.setAttribute("aria-expanded", "false");
+    badge.setAttribute("aria-controls", popupId);
+
+    var popup = document.createElement("div");
+    popup.id = popupId;
+    popup.className = "translation-status__popup";
+    popup.setAttribute("role", "dialog");
+    popup.setAttribute("aria-label", "Translation metadata");
+    popup.hidden = true;
+    popup.textContent = details;
+
+    badge.addEventListener("click", function(event) {
+      event.stopPropagation();
+      var isOpen = badge.getAttribute("aria-expanded") === "true";
+      closeTranslationStatusPopups(isOpen ? null : badge);
+      badge.setAttribute("aria-expanded", isOpen ? "false" : "true");
+      popup.hidden = isOpen;
+    });
+
+    badge.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeTranslationStatusPopups();
+        badge.focus();
+      }
+    });
 
     banner.appendChild(badge);
+    banner.appendChild(popup);
     content.insertBefore(banner, content.firstChild);
   });
 }
+
+document.addEventListener("click", function() {
+  closeTranslationStatusPopups();
+});
 
 if (typeof document$ !== "undefined") {
   document$.subscribe(renderTranslationStatus);
