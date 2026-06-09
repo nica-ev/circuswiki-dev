@@ -13,32 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/de/index.md",
+                "file": "_system/translation-architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "translation-architecture"
             }
           },
           {
-            "id": "f48d8f7934078f19",
+            "id": "d84832f40d44eef8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/img/belgium-1.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "belgium-1"
+            }
+          },
+          {
+            "id": "c21c7c7654ab681c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_dataview/dataview serializer.md",
+                "file": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dataview serializer"
+              "title": "Grundlagen Wurfjonglage - Kaskade"
+            }
+          },
+          {
+            "id": "abf8d6de3d482d99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Grundlagen Wurfjonglage - Kaskade"
+            }
+          },
+          {
+            "id": "8b4d04c2122c24bf",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_bases/Spiele-Base.base",
+                "viewName": "Aufwärmspiele MOC"
+              },
+              "icon": "lucide-table",
+              "title": "Spiele-Base"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,11 +152,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 605.504997253418
   },
   "right": {
     "id": "6695d9278e344b32",
@@ -132,10 +172,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_dataview/dataview serializer.md"
+                "file": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von dataview serializer"
+              "title": "Dateieigenschaften von Grundlagen Wurfjonglage - Kaskade"
             }
           },
           {
@@ -219,7 +259,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 551.5
+    "width": 551.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,8 +277,41 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "f48d8f7934078f19",
+  "active": "c21c7c7654ab681c",
   "lastOpenFiles": [
+    "site/1-2-3/index.html",
+    "site/1-2-3",
+    "site/es/Ägyptisches Wurfspiel",
+    "site/es/Zuzwinkern",
+    "site/es/Zungenmörder",
+    "site/es/Zuckerwasserschießen",
+    "site/es/Zonglowanie w parach z hula hoop",
+    "site/es/Zonglowanie w 5 krokach",
+    "site/es/Zombieball",
+    "site/es/Zombie Hasche mit Namen",
+    "site/es/Zombie - Hasche",
+    "site/el/assets/images/favicon.png",
+    "site/el/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/el/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/el/img/poland-03.jpg",
+    "site/el/img/poland-02.jpg",
+    "site/el/img/poland-01.jpg",
+    "site/el/img/nica-logo-simple-small-150x150.png",
+    "site/el/img/nica-background.jpg",
+    "site/el/img/monokyklo_feelingsafe_autism.jpg",
+    "site/el/img/monokyklo_colours_and_patterns.jpg",
+    "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/de/blog/posts/Games - The Data Side.md",
+    "docs/de/blog/index.md",
+    "docs/de/Aufwärmspiele MOC.md",
+    "_system/translation-architecture.md",
+    "_system/liste spiele dateien.md",
+    "_dataview/dataview serializer.md",
+    "__project/tasks.md",
+    "__project/pdd.md",
+    "_system/spiele-content-schema.md",
+    "docs/de/index.md",
     "docs/sk/Verheiratet-Geschieden.md",
     "docs/cs/Verheiratet-Geschieden.md",
     "docs/pt/Verheiratet-Geschieden.md",
@@ -251,39 +325,6 @@
     "docs/en/Verheiratet-Geschieden.md",
     "docs/sk/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
     "docs/cs/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/pt/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/uk/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/es/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/el/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/nl/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/it/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/hu/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/pl/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/en/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/pl/komm-mit-lauf-weg.md",
-    "docs/de/index.md",
-    "docs/de/Bewegungs-Spiele.md",
-    "docs/de/1-2-3.md",
-    "_bases/Spiele-Base.base",
-    "site/blog/posts/Taming Project Complexity/index.html",
-    "site/blog/posts/Zettelkasten, Wiki, and Beyond/index.html",
-    "site/blog/posts/Games - The Data Side/index.html",
-    "site/blog/posts/Taming Project Complexity",
-    "site/blog/posts/Zettelkasten, Wiki, and Beyond",
-    "site/blog/posts/Games - The Data Side",
-    "site/Ägyptisches Wurfspiel/index.html",
-    "site/Zuzwinkern/index.html",
-    "site/Zungenmörder/index.html",
-    "site/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/img/poland-03.jpg",
-    "site/img/poland-02.jpg",
-    "site/img/poland-01.jpg",
-    "site/img/nica-logo-simple-small-150x150.png",
-    "site/img/nica-background.jpg",
-    "site/img/monokyklo_feelingsafe_autism.jpg",
-    "site/img/monokyklo_colours_and_patterns.jpg",
-    "site/img/Kaskade-002-05.png",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

@@ -2,7 +2,7 @@
 lang: de
 translation_id: grundlagen-wurfjonglage-kaskade
 created: 2025-01-21 18:09:55
-update: 2025-02-26 05:55:08
+update: 2026-06-09 17:23:13
 publish: true
 tags:
   - tutorial
@@ -13,6 +13,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Grundlagen Wurfjonglage - Kaskade
 
 Eine (traditionelle) Methode zum Jonglierenlernen mit 3 Objekten. Modernere Ansätze wie die  [5-Step Methode](5-Step%20Methode.md) von [[Person/Craig Quat]] ergänzen und erweitern diese.
