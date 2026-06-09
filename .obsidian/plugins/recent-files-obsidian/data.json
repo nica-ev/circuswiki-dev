@@ -1,8 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "dataview serializer",
-      "path": "_dataview/dataview serializer.md"
+      "basename": "Grundlagen Wurfjonglage - Kaskade",
+      "path": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
+    },
+    {
+      "basename": "Grundlagen Wurfjonglage - Kaskade",
+      "path": "docs/de/Grundlagen Wurfjonglage - Kaskade.md"
+    },
+    {
+      "basename": "belgium-1",
+      "path": "docs/img/belgium-1.jpg"
+    },
+    {
+      "basename": "abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166",
+      "path": "docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png"
+    },
+    {
+      "basename": "abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010",
+      "path": "docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png"
+    },
+    {
+      "basename": "abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6",
+      "path": "docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png"
+    },
+    {
+      "basename": "abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158",
+      "path": "docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png"
+    },
+    {
+      "basename": "4691855_1005",
+      "path": "docs/img/4691855_1005.jpg"
+    },
+    {
+      "basename": "poland-01",
+      "path": "docs/img/poland-01.jpg"
+    },
+    {
+      "basename": "Games - The Data Side",
+      "path": "docs/de/blog/posts/Games - The Data Side.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/de/blog/index.md"
+    },
+    {
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/de/Aufwärmspiele MOC.md"
+    },
+    {
+      "basename": "Spiele-Base",
+      "path": "_bases/Spiele-Base.base"
+    },
+    {
+      "basename": "translation-architecture",
+      "path": "_system/translation-architecture.md"
+    },
+    {
+      "basename": "spiele-content-schema",
+      "path": "_system/spiele-content-schema.md"
     },
     {
       "basename": "index",
@@ -15,10 +71,6 @@
     {
       "basename": "1-2-3",
       "path": "docs/de/1-2-3.md"
-    },
-    {
-      "basename": "Spiele-Base",
-      "path": "_bases/Spiele-Base.base"
     },
     {
       "basename": "Liste aller Spiele",
@@ -71,10 +123,6 @@
     {
       "basename": "Klatschspiele MOC",
       "path": "docs/de/Klatschspiele MOC.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/de/Aufwärmspiele MOC.md"
     },
     {
       "basename": "Tratschen in Anwesenheit",
@@ -151,54 +199,6 @@
     {
       "basename": "Schlangen Hasche",
       "path": "docs/nl/Schlangen Hasche.md"
-    },
-    {
-      "basename": "Schlangen Hasche",
-      "path": "docs/cs/Schlangen Hasche.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/nl/Aufwärmspiele MOC.md"
-    },
-    {
-      "basename": "Case Study 15 - United States",
-      "path": "docs/de/Case Study 15 - United States.md"
-    },
-    {
-      "basename": "komm-mit-lauf-weg",
-      "path": "docs/de/komm-mit-lauf-weg.md"
-    },
-    {
-      "basename": "Kaskade Workspace",
-      "path": "docs/de/Kaskade Workspace.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "5 Drachen und Zwerge",
-      "path": "docs/uk/5 Drachen und Zwerge.md"
-    },
-    {
-      "basename": "Unbenannt",
-      "path": "_inbox/Unbenannt.base"
-    },
-    {
-      "basename": "Ritter und Zwerge",
-      "path": "docs/de/Ritter und Zwerge.md"
-    },
-    {
-      "basename": "5-Step Methode",
-      "path": "docs/pl/5-Step Methode.md"
-    },
-    {
-      "basename": "README",
-      "path": "tools/README.md"
-    },
-    {
-      "basename": "Unbenannt 5",
-      "path": "_inbox/Unbenannt 5.md"
     }
   ],
   "omittedPaths": [],

@@ -2,7 +2,7 @@
 lang: de
 translation_id: blog/posts/games-the-data-side
 created: 2025-01-21 18:09:55
-update: 2025-05-03 22:54:41
+update: 2026-06-09 17:06:42
 date: 2025-03-18T02:14:00
 publish: true
 tags: 
@@ -15,6 +15,7 @@ categories:
 translation_status: original
 translation_source_lang: de
 ---
+
 # **Games - The Data Side**  
 **How game descriptions were standardized and made more dynamic using metadata and Obsidian plugins.**
 

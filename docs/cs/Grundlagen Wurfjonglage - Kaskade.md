@@ -2,7 +2,7 @@
 lang: cs
 translation_id: grundlagen-wurfjonglage-kaskade
 created: 2025-01-21 18:09:55
-update: 2025-02-26 05:55:08
+update: 2026-06-09 17:22:58
 publish: true
 tags:
   - tutorial
@@ -17,6 +17,7 @@ translation_source_hash: d6c196a0cd8d70e8b5bd158ced4b28576eb21c7664ba69539c5b94c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:46:32+00:00
 ---
+
 # Základy házené žonglování - Kaskáda
 
 (Tradiční) metoda učení se žonglování se 3 objekty. Modernější přístupy, jako je [5kroková metoda](5-Step%20Methode.md) od [[Person/Craig Quat]], ji doplňují a rozšiřují.

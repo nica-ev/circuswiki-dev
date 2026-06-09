@@ -2,7 +2,7 @@
 lang: de
 translation_id: blog/index
 created: 2025-01-21 18:09:55
-update: 2025-03-11 00:25:49
+update: 2026-06-09 17:05:00
 publish: true
 tags: 
 title: Blog
