@@ -43,6 +43,194 @@ body {
   align-items: flex-start;
 }
 
+:root {
+  --cw-panel-toggle-top: 5.15rem;
+}
+
+.cw-panel-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border: 1px solid rgba(47, 111, 94, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 250, 240, 0.86);
+  color: var(--cw-muted);
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.cw-panel-toggle:hover,
+.cw-panel-toggle:focus-visible {
+  border-color: rgba(185, 70, 50, 0.42);
+  background: #fffaf0;
+  color: var(--cw-red);
+}
+
+.cw-panel-toggle:focus-visible {
+  outline: 0.12rem solid rgba(47, 108, 143, 0.58);
+  outline-offset: 0.12rem;
+}
+
+.cw-panel-toggle svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+.cw-panel-toggle--panel {
+  position: sticky;
+  top: 0.75rem;
+  z-index: 2;
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0 0 1rem;
+  box-shadow: 0 0.35rem 1rem rgba(30, 38, 33, 0.08);
+}
+
+[dir="ltr"] .cw-panel-toggle--right.cw-panel-toggle--panel {
+  margin-left: auto;
+}
+
+[dir="rtl"] .cw-panel-toggle--left.cw-panel-toggle--panel {
+  margin-left: auto;
+}
+
+.cw-panel-toggle--edge {
+  display: none;
+  position: fixed;
+  top: var(--cw-panel-toggle-top);
+  z-index: 4;
+  box-shadow: 0 0.45rem 1.2rem rgba(30, 38, 33, 0.16);
+}
+
+[dir="ltr"] .cw-panel-toggle--left.cw-panel-toggle--edge {
+  left: 0.55rem;
+}
+
+[dir="ltr"] .cw-panel-toggle--right.cw-panel-toggle--edge {
+  right: 0.55rem;
+}
+
+[dir="rtl"] .cw-panel-toggle--left.cw-panel-toggle--edge {
+  right: 0.55rem;
+}
+
+[dir="rtl"] .cw-panel-toggle--right.cw-panel-toggle--edge {
+  left: 0.55rem;
+}
+
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary .md-sidebar__inner {
+    padding-top: 0.1rem;
+  }
+
+  .md-sidebar--secondary {
+    width: 10.8rem;
+  }
+
+  [dir="ltr"] .md-sidebar--secondary .md-sidebar__scrollwrap {
+    width: calc(100% + 1rem);
+    margin-right: -1rem;
+    padding-right: 1rem;
+  }
+
+  [dir="rtl"] .md-sidebar--secondary .md-sidebar__scrollwrap {
+    width: calc(100% + 1rem);
+    margin-left: -1rem;
+    padding-left: 1rem;
+  }
+
+  body.cw-nav-right-collapsed .md-main__inner.md-grid {
+    max-width: min(96rem, calc(100vw - 2rem));
+  }
+
+  body.cw-nav-right-collapsed .md-sidebar--secondary {
+    display: none;
+  }
+
+  body.cw-nav-right-collapsed .md-content {
+    min-width: 0;
+    max-width: none;
+    flex: 1 1 auto;
+  }
+
+  body.cw-nav-right-collapsed .md-content__inner {
+    max-width: 72rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body.cw-nav-right-collapsed .cw-panel-toggle--right.cw-panel-toggle--edge {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-main__inner.md-grid {
+    max-width: min(96rem, calc(100vw - 2rem));
+  }
+
+  .md-content {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  .md-content__inner {
+    max-width: 50rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .md-sidebar--primary .md-sidebar__inner {
+    padding-top: 0.1rem;
+  }
+
+  .md-sidebar--primary {
+    width: 10.8rem;
+  }
+
+  body.cw-nav-left-collapsed .md-main__inner.md-grid {
+    max-width: min(96rem, calc(100vw - 2rem));
+  }
+
+  body.cw-nav-left-collapsed .md-sidebar--primary {
+    display: none;
+  }
+
+  body.cw-nav-left-collapsed .md-content {
+    min-width: 0;
+    max-width: none;
+    flex: 1 1 auto;
+  }
+
+  body.cw-nav-left-collapsed .md-content__inner {
+    max-width: 72rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body.cw-nav-left-collapsed .cw-panel-toggle--left.cw-panel-toggle--edge {
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 59.984375em) {
+  .cw-panel-toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 76.234375em) {
+  .cw-panel-toggle--left {
+    display: none;
+  }
+}
+
 .md-content__inner {
   padding-bottom: 3rem;
 }
@@ -57,10 +245,68 @@ body {
 
 .md-typeset table:not([class]),
 .md-typeset table[data-cw-plain-table="true"] {
+  display: block;
+  width: max-content;
+  min-width: min(100%, 34rem);
+  max-width: 100%;
   background: rgba(255, 255, 255, 0.64);
   border: 1px solid var(--cw-line);
   border-radius: 0.7rem;
   overflow: hidden;
+  overflow-x: auto;
+  scrollbar-color: rgba(47, 111, 94, 0.48) rgba(255, 250, 240, 0.72);
+  scrollbar-width: thin;
+  table-layout: auto;
+}
+
+.md-typeset table:not([class])::-webkit-scrollbar,
+.md-typeset table[data-cw-plain-table="true"]::-webkit-scrollbar {
+  height: 0.55rem;
+}
+
+.md-typeset table:not([class])::-webkit-scrollbar-thumb,
+.md-typeset table[data-cw-plain-table="true"]::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(47, 111, 94, 0.42);
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td,
+.md-typeset table[data-cw-plain-table="true"] th,
+.md-typeset table[data-cw-plain-table="true"] td {
+  max-width: 22rem;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) th:nth-child(1),
+.md-typeset table:not([class]) td:nth-child(1),
+.md-typeset table[data-cw-plain-table="true"] th:nth-child(1),
+.md-typeset table[data-cw-plain-table="true"] td:nth-child(1) {
+  min-width: 9rem;
+  white-space: nowrap;
+}
+
+.md-typeset table:not([class]) th:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(2),
+.md-typeset table:not([class]) th:nth-child(3),
+.md-typeset table:not([class]) td:nth-child(3),
+.md-typeset table:not([class]) th:nth-child(6),
+.md-typeset table:not([class]) td:nth-child(6),
+.md-typeset table[data-cw-plain-table="true"] th:nth-child(2),
+.md-typeset table[data-cw-plain-table="true"] td:nth-child(2),
+.md-typeset table[data-cw-plain-table="true"] th:nth-child(3),
+.md-typeset table[data-cw-plain-table="true"] td:nth-child(3),
+.md-typeset table[data-cw-plain-table="true"] th:nth-child(6),
+.md-typeset table[data-cw-plain-table="true"] td:nth-child(6) {
+  white-space: nowrap;
+}
+
+.md-typeset table:not([class]) th:nth-child(5),
+.md-typeset table:not([class]) td:nth-child(5),
+.md-typeset table[data-cw-plain-table="true"] th:nth-child(5),
+.md-typeset table[data-cw-plain-table="true"] td:nth-child(5) {
+  min-width: 9rem;
+  white-space: normal;
 }
 
 .md-typeset table:not([class]) th,
