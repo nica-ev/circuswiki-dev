@@ -7,21 +7,37 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:49:11
 title: Roboter
-description: 
+description: Ein Vertrauensspiel in Paaren, bei dem eine Person mit geschlossenen Augen vorsichtig durch den Raum geführt wird.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 2
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Roboter
+> [!info] Kurzbeschreibung
+> Ein Vertrauensspiel in Paaren, bei dem eine Person mit geschlossenen Augen vorsichtig durch den Raum geführt wird.
 
-Roboter
-Vertrauensspiel für jede Gruppengröße:
+**Gruppengröße**: 2-30 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
+
+Vertrauensspiel für jede Gruppengröße.
 
 Es finden sich je 2 Personen zusammen.
 Eine Person ist der Roboter, der durch den Raum geführt werden muss. Dabei schließt sie die Augen und lässt sich von ihrem Hintermann/-frau führen. Diese legt ihre Hände auf die Schultern ihres Roboters und versucht ihn vorsichtig, ohne mit anderen Paaren zusammenzustoßen, durch den Raum zu leiten.
 Treffen sich zwei Paare, so können die Roboter mit einem anderen Roboterführer getauscht werden.
 Anschließend werden die Rollen getauscht.
 
+## **Quelle**:
+
+Unbekannt

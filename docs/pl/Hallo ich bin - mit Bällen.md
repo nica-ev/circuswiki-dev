@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Hallo, ich bin - mit Bällen
-description: 
+description: Eine Kennenlernübung im Kreis, bei der Namen mit individuellen Ballbewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,17 +23,17 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin - mit Bällen.md
-translation_source_hash: 792187e09ae8b8d3435deda9c6597dcac4b4b7114527cf4383f48991e735dcc4
+translation_source_hash: d351dc062d6db08454b0cca37c5d1bc80959ca11a2364dc3c89a3bb1a6599dba
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:15:44+00:00
+translation_updated: 2026-06-09T01:42:54+00:00
 ---
 > [!info] Krótki opis
-> „Cześć, jestem – z piłkami” to zabawa integracyjna w kręgu, która łączy imiona z umiejętnościami motorycznymi i wspiera dynamikę grupy.
+> Ćwiczenie zapoznawcze w kręgu, podczas którego imiona są łączone z indywidualnymi ruchami z piłką.
 
-**Liczba uczestników**: Dowolna
+**Liczba uczestników**: 3-30 osób
 **Poziom trudności**: Łatwy
 **Materiały**: Jedna piłka dla każdego uczestnika (tej samej wielkości)
-**Czas trwania**: Ok. 10-15 minut
+**Czas trwania gry**: Około 10-15 minut
 
 ## **Opis gry**:
 
@@ -41,13 +41,13 @@ Wszyscy uczestnicy stają w kręgu. Każdy ma piłkę (małą lub dużą, ale ws
 
 Po kolei każda osoba wchodzi na środek kręgu, wykonuje ruch lub sztuczkę ze swoją piłką i wita pozostałych uczestników swoim imieniem:
 
-„Cześć, jestem Marek” -> (Przykład: rzucenie piłki pod nogą i złapanie jej drugą ręką).
+„Cześć, jestem [imię]” -> (Przykład: Rzucenie piłki pod nogą i złapanie jej drugą ręką).
 
-Następnie osoba ta wraca na swoje miejsce w kręgu.
+Następnie ta osoba wraca na swoje miejsce w kręgu.
 
-Teraz wszyscy pozostali uczestnicy robią krok do przodu, naśladują ruch z piłką i witają tę osobę po imieniu:
+Teraz wszyscy pozostali uczestnicy robią krok do przodu, powtarzają ruch z piłką i witają tę osobę, wymieniając jej imię:
 
-„Cześć, Marku” – (powtórzenie sztuczki).
+„Cześć, [imię]” – (powtórzenie sztuczki).
 
 ## **Źródło**:
 

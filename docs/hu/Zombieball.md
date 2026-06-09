@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:03:08
 title: Zombieball
-description: 
+description: Ein Abwurfspiel, bei dem getroffene Personen zurückkehren können, sobald die Person abgeworfen wird, die sie getroffen hat.
 authors:
   - Marc Bielert
 category:
@@ -22,12 +22,12 @@ todo: Text überarbeiten
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombieball.md
-translation_source_hash: 979aeae00a807a39b1fd21d17501ddedd713c17f4234575ea17c51e9910dd812
+translation_source_hash: a3bfe9f918871b1f4656bc201e6a960d132980912dcb2ab80f678c66271404d9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:55:59+00:00
+translation_updated: 2026-06-09T02:39:09+00:00
 ---
->[!info] Rövid leírás
->A "Zombilabda" egy kidobós játék, ahol a játékosok egymást dobálják egy labdával. A kidobott játékosok visszatérhetnek a játékba, ha azt a játékost, aki őket kidobta, magát dobják ki.
+> [!info] Rövid leírás
+> Egy dobójáték, ahol az eltalált játékosok visszatérhetnek, amint azt a játékos, aki eltalálta őket, maga is kiesik.
 
 **Csoportméret**: 5+ játékos
 **Nehézség**: közepes
@@ -36,9 +36,9 @@ translation_updated: 2026-06-06T22:55:59+00:00
 
 ## **Játék leírása**:
 
-Ezt a játékot néhányan "megtartós" játéknak is nevezik. Minden játékos szétszóródik a játéktéren, és a játékvezető bedob egy labdát a tömegbe. Az a játékos, akinél a labda van, megpróbálhatja eltalálni vele valaki mást. Ehhez legfeljebb három lépést tehet; ha többet lép, a labdát el kell engednie. Ha legfeljebb három lépést tesz, és eltalál valakit a labdával, az illető egyelőre kiesik. Azonban a kiesett játékosnak mindenképpen meg kell jegyeznie, ki dobta ki. Leül a játéktér szélére, és most már kiabálhatja annak a játékosnak, akinél éppen a labda van, hogy kit dobjon ki. Ha azt a játékost dobják ki, aki téged kidobott, akkor visszatérhetsz a játéktérre. A játékvezető felgyorsíthatja a játékot, ha több labdát is rendelkezésre bocsát.
+Ezt a játékot néha "emlékeztető labdának" is nevezik. Minden játékos szétszóródik a játéktéren, a játékvezető pedig bedob egy labdát a tömegbe. Az a játékos, aki megszerzi a labdát, megpróbálhatja eltalálni vele egy másik játékost. Ehhez legfeljebb három lépést tehet; ha többet lép, le kell tennie a labdát. Ha legfeljebb három lépést tesz, és eltalál valakit a labdával, az illető kiesik a játékból. Azonban a kiesett játékosnak mindenképpen meg kell jegyeznie, hogy ki dobta ki. A játéktér szélére ül, és most már kiabálhatja a labdával rendelkező játékosnak, hogy kit célozzon meg. Ha azt a játékost találják el, aki téged dobott ki, akkor visszatérhetsz a játékba. A játékvezető felgyorsíthatja a játékot, ha több labdát tesz be.
 
-Annak érdekében, hogy a játéknak vége legyen, egy bizonyos játékidő után az összes éppen várakozó játékost vissza lehet hozni a játéktérre, és innentől kezdve, aki eltalálódik, az végleg kiesik. Így egyetlen játékos marad, és ő nyeri meg a játékot.
+A játék befejezéséhez, egy bizonyos játékidő után, minden jelenleg várakozó játékost vissza lehet hozni a pályára, és innentől kezdve, aki eltalálódik, az végleg kiesik. Így egy játékos marad bent, és megnyeri a játékot.
 
 ## **Forrás**:
 

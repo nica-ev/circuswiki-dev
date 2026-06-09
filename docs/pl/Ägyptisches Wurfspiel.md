@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ägyptisches Wurfspiel
-description: 
+description: Ein Wurfspiel für kleine Teams, bei dem auf die nicht klatschende Person geworfen werden muss.
 authors:
   - Marc Bielert
 category:
@@ -22,36 +22,36 @@ todo: fertig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ägyptisches Wurfspiel.md
-translation_source_hash: d628c3f5775e180305802433b12903429d2e6d5960d8678356aa281f9996c68c
+translation_source_hash: 330dc15d2b177ebd85455417a7bdc18477ed7a3349594bf0f785b88018f95d87
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:29:44+00:00
+translation_updated: 2026-06-09T01:20:12+00:00
 ---
 > [!info] Krótki opis
-> Ta gra w rzucanie dla małych grup, której początki prawdopodobnie sięgają Egiptu, wymaga koncentracji i szybkości reakcji. Celem jest rzucenie piłki do właściwej osoby, podczas gdy grupa przeciwna stara się unikać błędów.
+> Gra rzutna dla małych zespołów, w której należy rzucać do osoby, która nie klaszcze.
 
-**Liczba graczy**: 4 graczy (2 zespoły po 2 osoby) lub 8, 12, 16 itd.
+**Liczba graczy**: 4 osoby (2 zespoły po 2 osoby) lub 8, 12, 16 itd.
 **Poziom trudności**: Średni
 **Materiały**: 1 piłka
-**Czas gry**: Zmienny (zależny od ustalonej liczby punktów)
+**Czas gry**: 5-10 minut
 
 ## **Opis gry**:
 
 Podstawowa struktura gry prawdopodobnie pochodzi z Egiptu. Dwie grupy, każda składająca się z dwóch osób, stają naprzeciwko siebie.
 
-Jedna osoba z grupy (Grupa 1) ma piłkę. Jedna osoba z przeciwnej grupy (Grupa 2) musi teraz klasnąć. Ważne jest, aby osoby w obrębie grupy nie konsultowały się ani nie komunikowały w znaczący sposób.
+Jedna osoba z grupy (Grupa 1) ma piłkę. Jedna osoba z przeciwległej grupy (Grupa 2) musi teraz klasnąć. Ważne jest, aby osoby w obrębie grupy nie konsultowały się ani nie komunikowały w znaczący sposób.
 
-Osoba z piłką z Grupy 1 musi teraz rzucić ją do osoby z Grupy 2, która *nie* klaskała.
+Osoba z piłką z Grupy 1 musi teraz rzucić ją do osoby z Grupy 2, która *nie* klasnęła.
 
-Grupa zdobywa punkt, gdy:
+Grupa otrzymuje punkt, gdy:
 
 *   druga grupa nie złapie piłki
 *   druga grupa zareaguje zbyt wolno
-*   druga grupa rzuci piłkę nieprawidłowo (tj. do osoby, która klaskała)
+*   druga grupa rzuci piłkę nieprawidłowo (tj. do osoby, która klasnęła)
 
-Grupa, która jako pierwsza osiągnie wcześniej ustaloną liczbę punktów, wygrywa grę.
+Grupa, która pierwsza osiągnie wcześniej ustaloną liczbę punktów, wygrywa grę.
 
 Gra prawdopodobnie może być również rozgrywana przez większą liczbę osób, ale generalnie nadaje się dla bardzo małych grup.
 
 ## **Źródło**:
 
-Nieznane (prawdopodobne pochodzenie z Egiptu)
+Nieznane (pochodzenie prawdopodobnie z Egiptu)

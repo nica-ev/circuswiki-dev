@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:25:39
 title: Speed Dating
-description: 
+description: Ein Kennenlernformat mit Innen- und Außenkreis, bei dem kurze Gespräche rotierend wiederholt und später erinnert werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Zettel, Stifte
+Spieldauer: 10-20
+source: unbekannt
+group-min: 6
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-#  Speed Dating
+> [!info] Kurzbeschreibung
+> Ein Kennenlernformat mit Innen- und Außenkreis, bei dem kurze Gespräche rotierend wiederholt und später erinnert werden.
+
+**Gruppengröße**: 6-40 Personen
+**Schwierigkeit**: einfach
+**Material**: Zettel, Stifte
+**Spieldauer**: 10-20 Minuten
+
+## **Spielbeschreibung**:
 
 - 2 kreise gleichgross von der Personenzahl
 - 1 außenkreis, 1 innenkreis
@@ -31,3 +45,6 @@ Sobald man einmal komplett rum ist:
 
 Danach werden Zettel mit den Namen der Teilnehmer und Stifte rausgelegt und man schreibt alles woran man sich noch erinnert auf die jeweiligen Zettel.
 
+## **Quelle**:
+
+Unbekannt

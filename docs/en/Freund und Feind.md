@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:10:57
 title: Freund und Feind
-description: 
+description: Ein Bewegungsspiel, bei dem alle gleichzeitig versuchen, ihrem Freund nah zu sein und ihrem Feind auszuweichen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Freund und Feind.md
-translation_source_hash: 928a684fdead5e25d1f06d91d3810aac1144d79bfbabd7d0cde214e7d5079e2f
+translation_source_hash: b04c99967615a531f10da548809a55ac8d96923678c9d61d0735c08b08a94b83
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:22:56+00:00
+translation_updated: 2026-06-09T01:39:05+00:00
 ---
-# Friend and Foe
+> [!info] Short Description
+> A movement game where everyone simultaneously tries to get close to their friend and avoid their enemy.
 
 **Group Size**: 5 to 20 players
 **Difficulty**: Simple
 **Materials**: None
 **Playtime**: 2 to 5 minutes
 
-**Game Description**:
-Each player secretly chooses one friend and one foe from among the other players and remembers who they are. The selection should be done so that no one else notices. The game begins, and everyone tries to run to their friend while simultaneously fleeing from their foe. It's important that you are not allowed to hold onto your friend. This can lead to amusing dynamics where players must constantly move. However, it's also possible that everyone can reach their friend without fear of their foe. The game doesn't have a real objective; it's simply about playing through the different dynamics, playing several rounds, and observing how the relationships change.
+## **Game Description**:
 
-**Source**:
+Each player secretly chooses one of the other players to be their "friend" and another to be their "enemy." The game begins, and everyone tries to run towards their friend while simultaneously fleeing from their enemy. It's important that you cannot hold onto your friend. This can lead to amusing dynamics where players are constantly on the move. Alternatively, it's also possible that everyone can reach their friend without fear of their enemy. The game doesn't have a specific goal; it's about exploring the different dynamics, playing multiple rounds, and observing how the relationships change.
+
+## **Source**:
+
 Tasifan Spielebuch

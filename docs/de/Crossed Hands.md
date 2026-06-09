@@ -7,17 +7,33 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:06:48
 title: Crossed Hands
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem gekreuzte Hände in Reihenfolge klatschen und Richtungswechsel auslösen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
-# Crossed Hands
+> [!info] Kurzbeschreibung
+> Ein Reaktionsspiel im Kreis, bei dem gekreuzte Hände in Reihenfolge klatschen und Richtungswechsel auslösen.
+
+**Gruppengröße**: 5-20 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Reaktionsspiel im Kreis für kleine bis mittlere Gruppengrößen.
+
+## **Hinweise**:
 
 Vorbereitung:
 Alle Teilnehmer sitzen in einem Kreis, beide Hände vor sich auf dem Boden.
@@ -29,3 +45,7 @@ Wird schnell hintereinander doppelt geklatscht kehrt sich die Richtung um. Dies 
 Bewegt man seine Hand an der falschen Stelle, oder zögert man zulange, ist die jeweilige Hand aus dem Spiel ausgeschieden.
 
 Gewonnen haben am Ende immer die letzten zwei Teilnehmer.
+
+## **Quelle**:
+
+Unbekannt

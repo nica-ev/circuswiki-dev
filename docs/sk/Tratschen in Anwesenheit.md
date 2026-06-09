@@ -5,16 +5,16 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:38:59
+update: 2026-06-09 02:34:55
 title: Tratschen in Anwesenheit
-description: 
+description: Ein Kennenlernspiel für kleine Gruppen, bei dem über eine anwesende Person Vermutungen gesammelt und anschließend aufgelöst werden.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
 Schwierigkeit: einfach
 Material: keines
-Spieldauer: 
+Spieldauer: 10-15
 source:
   - unbekannt
 group-min: "3"
@@ -22,22 +22,34 @@ group-max: "6"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tratschen in Anwesenheit.md
-translation_source_hash: b9f4927f36c4709d07d3a0577da69af70ea33a617e6350342931189097ea172a
+translation_source_hash: b99d93773d9a0a1a7d2c17d30d25146acb8e99d6b4407221d916f009b6a26e51
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:13:53+00:00
+translation_updated: 2026-06-09T02:32:39+00:00
 ---
-# Klebety v prítomnosti
+> [!info] Stručný popis
+> Zoznamovacia hra pre malé skupiny, pri ktorej sa zbierajú a následne objasňujú dohady o prítomnej osobe.
 
-Zoznamovacia hra pre malé skupiny (ideálne 3-6 osôb)
+**Veľkosť skupiny**: 3-6 osôb
+**Náročnosť**: jednoduchá
+**Materiál**: žiadny
+**Dĺžka hry**: 10-15 minút
 
-Vyberie sa jedna osoba, o ktorej sa nahlas klebetí alebo sa o nej robia dohady. Osoba počas toho len potichu sedí, všetko počúva, ale nič nekomentuje ani nič neopravuje.
+## **Popis hry**:
+
+Zoznamovacia hra pre malé skupiny (ideálne 3-6 osôb).
+
+Vyberie sa jedna osoba, o ktorej sa nahlas klebetí alebo sa o nej robia dohady. Osoba medzitým len potichu sedí, všetko počúva, ale nič nekomentuje ani nič neopravuje.
 
 Témy ako rodinný stav, pôvod, záujmy, hudobný vkus atď.
 
-Po chvíli osoba všetko odhalí, prípadne opraví nesprávne dohady.
+Po chvíli osoba všetko objasní, prípadne opraví nesprávne dohady.
 
-Potom je na rade ďalší, kým sa všetci zo skupiny raz nevystriedajú.
+Potom je na rade ďalší, kým sa všetci v skupine nevystriedajú.
 
-## Prepojenia
+## **Zdroj**:
 
-[Predstavenie sa navzájom](Sich%20gegenseitig%20vorstellen.md)
+Neznámy
+
+## **Prepojenia**
+
+[Predstaviť sa navzájom](Sich%20gegenseitig%20vorstellen.md)

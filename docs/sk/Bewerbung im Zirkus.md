@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:00+00:00
+translation_updated: 2026-06-09T01:26:21+00:00
 ---
-# Prihláška do cirkusu
+> [!info] Stručný popis
+> Kruhová hra, v ktorej sa uchádzač musí pomocou nenápadných zmien pohybu identifikovať tajného cirkusového riaditeľa.
 
-Hra pre stredne veľké až veľké skupiny:
+**Veľkosť skupiny**: od 8 osôb
+**Obtiažnosť**: ľahká
+**Materiál**: žiadny
+**Dĺžka hry**: 5-10 minút
+
+## **Popis hry**:
+
+Hra pre stredne veľké až veľké skupiny.
 
 Všetci hráči sedia v kruhu. Určí sa jeden uchádzač, ktorý musí opustiť miestnosť.
 
-Potom sa vyberie riaditeľ cirkusu.
+Potom sa vyberie cirkusový riaditeľ.
 
-Uchádzač je opäť privolaný do miestnosti a má tri pokusy na to, aby identifikoval riaditeľa cirkusu.
+Uchádzač je privolaný späť do miestnosti a má tri pokusy na identifikáciu cirkusového riaditeľa.
 
-Riaditeľ cirkusu neustále predvádza pohyby, ktoré musia všetci ostatní opakovať. Musí sa snažiť predvádzať ich čo najnenápadnejšie, aby uchádzač videl od všetkých osôb súčasne rovnaký pohyb.
+Cirkusový riaditeľ neustále predvádza pohyby, ktoré musia všetci ostatní opakovať. Musí sa snažiť predvádzať ich čo najnenápadnejšie, aby uchádzač videl od všetkých osôb súčasne rovnaký pohyb.
 
 Ak uchádzač uhádne riaditeľa, vyhral hru.
 Ak sa mu to nepodarí, vyhrala skupina.
+
+## **Zdroj**:
+
+Neznámy

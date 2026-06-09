@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,10 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Namenkampf
-
 > [!info] Kurzbeschreibung
-> "Namenkampf" ist ein schnelles und unterhaltsames Namensspiel für jede Gruppengröße, bei dem es darum geht, den Namen des Gegenübers schneller zu nennen, um ihn ins eigene Team zu holen.
+> Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 
-**Gruppengröße**: Beliebig (in zwei gleich große Teams aufgeteilt)
+**Gruppengröße**: 10-30 Personen
 **Schwierigkeit**: Leicht
 **Material**: Ein Tuch (oder eine andere Sichtbarriere)
 **Spieldauer**: Ca. 10-15 Minuten

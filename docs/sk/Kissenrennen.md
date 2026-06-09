@@ -7,34 +7,41 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:20:36
 title: Kissenrennen
-description: 
+description: Ein schnelles Teamspiel im Kreis, bei dem zwei Kissen innerhalb der Teams weitergegeben werden und einander einholen sollen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: Kissen
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kissenrennen.md
-translation_source_hash: 99f7e71be8af688ef75939810912fa75a85fc56f404c1e32bc03db7577dae750
+translation_source_hash: de266aef01ff51ce3aa8153bbe279df92ccf992c296d13b47d7df3f085952b74
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:59:44+00:00
+translation_updated: 2026-06-09T01:48:52+00:00
 ---
-# **Závod s vankúšmi**
+> [!info] Stručný popis
+> Rýchla tímová hra v kruhu, pri ktorej si tímy navzájom podávajú dve vankúše s cieľom predbehnúť súpera.
 
-**Veľkosť skupiny**: Od 10 hráčov, ideálne párny počet
-**Obtiažnosť**: stredná
+**Veľkosť skupiny**: Od 10 účastníkov, ideálne párny počet
+**Náročnosť**: stredná
 **Materiál**: žiadny
 **Dĺžka hry**: cca 3 minúty
 
 ## **Popis hry**:
 
-Na prípravu hry sa všetci účastníci rozdelia do dvoch rovnakých skupín. Tímy sedia alebo stoja striedavo v kruhu. Dvom hráčom sediacim oproti sebe sa dajú vankúše. Vedúci hry určí spoločný smer, ktorým sa vankúš bude posúvať. Každý vankúš sa posúva iba v rámci jedného tímu. Vankúš sa preto musí posunúť vždy cez priameho suseda na ďalšiu osobu vo vlastnom tíme. Cieľom hry je dobehnúť vankúš súpera. Jeden tím však nesmie druhému tímu prekážať a vankúše sa môžu iba posúvať, nie hádzať.
+Na prípravu hry sa všetci účastníci rozdelia do dvoch rovnakých skupín. Tímy stoja alebo sedia striedavo v kruhu. Každý tím dostane dva vankúše, ktoré si začnú podávať. Vedúci hry určí spoločný smer, ktorým sa vankúše budú posúvať. Každý vankúš sa podáva iba v rámci jedného tímu. Vankúš sa teda musí posunúť vždy priamemu susedovi vo vlastnom tíme. Cieľom hry je predbehnúť vankúš súpera. Tímy sa pritom nesmú navzájom fyzicky obmedzovať a vankúše sa môžu iba podávať, nie hádzať.
 
 ## **Rozšírenie**:
 
-Vedúci hry zavedie signál „Zmena smeru“. Na tento signál musí vankúš zmeniť smer posúvania. Okrem toho je možné zaviesť aj povel „Otočka“, pri ktorom hráč, ktorý práve drží vankúš, musí vankúš raz obtočiť okolo svojho tela.
+Vedúci hry môže zaviesť signál „Zmena smeru“. Po tomto signáli musia vankúše zmeniť smer podávania. Okrem toho je možné zaviesť povel „Otočka“, pri ktorom hráč, ktorý práve drží vankúš, musí vankúš raz obtočiť okolo svojho tela.
 
-Namiesto vankúšov sa dajú použiť aj iné predmety, ktoré sa dajú dobre posúvať.
+Namiesto vankúšov sa dajú použiť aj iné predmety, ktoré sa dajú ľahko podávať.
 
 ## **Zdroj**:
 

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:47:57+00:00
+translation_updated: 2026-06-09T02:08:30+00:00
 ---
-# Névcsata
-
 > [!info] Rövid leírás
-> A "Névcsata" egy gyors és szórakoztató névadó játék, bármilyen csoportmérettel, ahol a cél, hogy gyorsabban mondd ki ellenfeled nevét, hogy őt a saját csapatodba szerezd meg.
+> Névhívó párbaj látáskorlátozással, ahol két csapat megpróbálja gyorsabban kitalálni a másik nevét.
 
-**Csoportméret**: Tetszőleges (két egyenlő méretű csapatra osztva)
+**Csoportméret**: 10-30 fő
 **Nehézség**: Könnyű
-**Eszközök**: Egy kendő (vagy más takarás)
+**Szükséges anyagok**: Egy kendő (vagy más látáskorlátozó eszköz)
 **Játékidő**: Kb. 10-15 perc
 
 ## **Játék leírása**:
 
-Két egyenlő létszámú csapatot kell alkotni. A csapatok közé egy kendőt (vagy más takarást) kell tartani, hogy ne lássák egymást.
+Két, egyenlő létszámú csapatot kell létrehozni. A csapatok közé egy kendőt (vagy más látáskorlátozó eszközt) kell kifeszíteni, hogy ne lássák egymást.
 
-Minden csapatból egy-egy személy álljon a kendő mögé. A játékvezető megszámolja: "1-2-3", majd elengedi a kendőt.
+Ezután mindkét csapatból egy-egy személy álljon a kendő mögé. A játékvezető elszámol "1-2-3"-ig, majd leengedi a kendőt.
 
-Az így egymással szemben álló személyeknek a lehető leggyorsabban ki kell mondaniuk a másik nevét. A "névcsata" győztese a vesztest a saját csapatába veheti.
+Az így szemben álló személyeknek a lehető leggyorsabban ki kell mondaniuk a másik nevét. A "névduell" győztese a vesztest a saját csapatához csatolhatja.
 
-A játék akkor ér véget, ha mindenki egy csapatban van.
+A játék akkor ér véget, ha az összes játékos az egyik oldalon áll.
 
 ## **Forrás**:
 

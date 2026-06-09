@@ -7,32 +7,39 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:19
 title: Stehbock-Laufbock
-description: 
+description: Ein Anschleich- und Reaktionsspiel, bei dem Personen nur laufen dürfen, solange der Überwacher nicht hinschaut.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Stehbock-Laufbock.md
-translation_source_hash: 203fed5e165741046ed08b75e855c5b0a9b30c3ea97863de426a8735fc3af9e1
+translation_source_hash: 8d03e9702ac07748c4edfdcd4106f97ff666574e3b784f571ea27faace924180
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:18+00:00
+translation_updated: 2026-06-09T02:28:33+00:00
 ---
-# **Statue Tag**
+> [!info] Brief Description
+> A sneaking and reaction game where participants may only move while the "watcher" is not looking.
 
-**Group Size**: 6+ players
+**Group Size**: 6+ participants
 **Difficulty**: Easy
 **Materials**: None
-**Play Time**: Approx. 3 minutes
+**Game Duration**: Approx. 3 minutes
 
 ## **Game Description**:
 
-One person stands on one side, and everyone else stands on the other. Whenever the single person turns around and isn't looking, the others can move closer. The person counting says "1, 2, 3, Freeze!" and then turns around. Everyone else must freeze by this point, because anyone caught moving can be named by the person who turned around. That player must return to the starting line. Whoever touches the person who turned around first wins and gets to be the new "watcher."
+One person stands on one side, and everyone else stands on the other. Whenever the single person turns around and isn't looking, the others can move closer. The person counting says "1, 2, 3, STOP!" and then turns around. Everyone else must freeze by this point, because anyone still moving when the watcher turns around can be named by the watcher. That person must return to the starting line. Whoever touches the watcher first wins and gets to be the new "watcher."
 
 ## **Variation**:
 
-The first part of the game proceeds as described above. However, instead of trying to tag the watcher, the goal is to reach an object placed directly in front of the watcher. The game then becomes a team effort, as the objective is to get this object behind your own starting line. The object can also be thrown back and forth between players. Once the object is taken, the watcher can choose a player each time they turn around and check if that player has the object. If the watcher catches someone with the object, the object must be returned to its starting position, and the caught player must go back to the starting line. Anyone caught moving while the watcher is looking can still be sent back to the start.
+The first part of the game proceeds as described above. However, the goal isn't to tag the watcher, but to retrieve an object placed directly in front of them. The game then becomes a team effort, as the objective is to bring this object behind your own starting line. The object can also be thrown back and forth between players. However, from the moment the object disappears, the watcher can choose a player each time they turn around and check if that person has the object. If the watcher catches someone with the object, the object must be returned to its starting position, and the caught player must go back to the starting line. Anyone moving while the watcher is looking can still be sent back.
 
 ## **Source**:
 

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-25 01:38:42
 update: 2025-03-25 20:34:19
 title: Möhre Hase Fuchs
-description: 
+description: Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
 authors:
   - Marc Bielert
 category:
@@ -24,32 +24,30 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Möhre Hase Fuchs.md
-translation_source_hash: 5d7454d4fcd6939f9929f343d63fe25eefa0b60aee60bb74a3088274415628dd
+translation_source_hash: 460c20f1d59f674b64f76620853e0007c48942688dd6ae6e01926c3841bde78d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:25+00:00
+translation_updated: 2026-06-09T02:07:12+00:00
 ---
-# Carrot Rabbit Fox
+> [!info] Brief Description
+> A dynamic catching game for larger groups, where "rabbits" bring "carrots" to their team and "foxes" try to stop them.
 
-> [!info]+ Short Description
-> A high-energy tag game for larger groups where "rabbits" try to bring "carrots" into their team, while "foxes" prevent this by tagging.
-
-**Group Size**: 15+ participants
+**Group Size**: 15+ players
 **Difficulty**: Quite easy
 **Materials**: None
-**Game Duration**: 8 to 12 minutes
+**Playtime**: 8 to 12 minutes
 
 ## **Game Description**:
 
-To start, one to three players are designated as "foxes." The remaining players divide into two groups: "rabbits" and "carrots." The "carrots" sit with their legs extended behind a line. The "rabbits" start behind an opposite line.
+To start, one to three players are designated as "foxes." The remaining players divide into two groups: "rabbits" and "carrots." The "carrots" sit with their legs outstretched behind a line. The "rabbits" start behind an opposite line.
 
-The goal of the game is for the "rabbits" to bring the "carrots" into their team. This can be done in two ways:
+The goal of the game is for the "rabbits" to bring the "carrots" over to their team. This can be done in two ways:
 
-1.  **Pulling:** "Rabbits" pull the "carrots" by their legs across the "rabbits'" line. Once a "carrot" is pulled across the line, they become a "rabbit."
-2.  **Wheelbarrow:** "Rabbits" transport the "carrots" in an upside-down wheelbarrow across the playing field to the opposite side. If a "carrot" reaches the other side this way, they become a "rabbit."
+1.  **Pulling:** "Rabbits" pull the "carrots" by their legs across the "rabbits'" line. As soon as a "carrot" is pulled across the line, they become a "rabbit."
+2.  **Wheelbarrow:** "Rabbits" transport the "carrots" in a wheelbarrow position across the playing field to the opposite side. If a "carrot" reaches the other side this way, they become a "rabbit."
 
-The "foxes" try to tag the "rabbits." If a "rabbit" is tagged (even while pulling or transporting a "carrot"), they turn into a "carrot" and must sit behind the "carrots'" line.
+The "foxes" try to catch the "rabbits." If a "rabbit" is caught (even while pulling or transporting a "carrot"), they transform into a "carrot" and must sit behind the "carrots'" line.
 
-The "rabbits" are safe behind their own line and behind the "carrots'" line. They cannot be tagged by the "foxes" there.
+The "rabbits" are safe behind their own line and behind the "carrots'" line. They cannot be caught by the "foxes" in these areas.
 
 The game ends when:
 

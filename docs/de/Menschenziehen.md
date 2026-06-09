@@ -7,23 +7,32 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:24:27
 title: Menschenziehen
-description: 
+description: Ein taktisches Teamspiel, bei dem Menschenketten gegnerische Personen in die eigene Spielfeldhälfte ziehen.
 authors:
   - Marc Bielert
 category:
   - Taktik
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-9
+source: Tasifan Spielebuch
+group-min: 12
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# Menschenziehen
+> [!info] Kurzbeschreibung
+> Ein taktisches Teamspiel, bei dem Menschenketten gegnerische Personen in die eigene Spielfeldhälfte ziehen.
 
 **Gruppengröße**: Ab 12 Mitspieler, möglichst eine gerade Anzahl
 **Schwierigkeit**: mittel, eher für Ältere
 **Material**: keins
 **Spieldauer**: 5 bis 9 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Es werden zwei Teams gebildet. Eine Grenze teilt das Spielfeld in zwei Hale ten. Jedes Team darf sich frei in seiner Hälfte bewegen. Wenn man gegnerische Hälfte will, muss man als Kette mit mindestens zwei Personen aus der eigenen Hälfte verbunden bleiben. Auf die Art und Weise kann man versuchen, Spieler des gegnerischen Teams in seine Hälfte zu ziehen und diese somit für das eigene Team zu gewinnen. Solange eine Person allerdings noch in Form einer Menschenkette mit der eigenen Hälfte verbunden ist, gehört sie noch nicht zum anderen Team. Ziel ist es, alle Spieler auf eine Seite zu bekommen.
 
-**Quelle**:
+## **Quelle**:
+
 Tasifan Spielebuch

@@ -7,35 +7,53 @@ publish: true
 tags:
   - spiele
 title: Piraten Kapitän
-description: 
+description: Ein thematisches Kommandospiel auf einem Piratenschiff, bei dem Piraten reagieren und vor Haien fliehen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte
+Spieldauer: 5-15
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Kapitän.md
-translation_source_hash: 31da3ce6327cd599f74f762b567b208703a7fe1325bb106bb10aa3146321538c
+translation_source_hash: 145d0499229845f3528c7708ee23d9887e2d8eff6fed6fb02383a9010ffaf7f7
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:28:29+00:00
+translation_updated: 2026-06-09T02:11:02+00:00
 ---
-# Kapitan Piratów
+> [!info] Krótki opis
+> Tematyczna gra dowodzenia na statku pirackim, w której piraci reagują i uciekają przed rekinami.
+
+**Liczba osób**: 5-25
+**Poziom trudności**: łatwy
+**Materiały**: mata
+**Czas trwania**: 5-15 minut
+
+## **Opis gry**:
 
 Tematyczna gra dla małych i średnich grup.
-Osoba prowadząca grę jest kapitanem piratów.
-Na dużej macie (np. materacu gimnastycznym) znajduje się piracki statek, na którym są wszyscy piraci.
+Osoba prowadząca grę wciela się w rolę kapitana piratów.
+Na dużej macie (np. miękkiej macie gimnastycznej) znajduje się statek piracki, na którym przebywają wszyscy piraci.
 
-Kapitan może teraz wydawać różne komendy. Na przykład:
-Wszyscy na lewą burtę!
-Wszyscy na prawą burtę!
-Czyścić deski!
-Wszyscy do wioseł!
+Kapitan może wydawać różne komendy. Na przykład:
+Wszyscy na lewą burtę
+Wszyscy na prawą burtę
+Czyścić deski
+Wszyscy do wioseł
 
-Wszyscy za burtę! – na tę komendę wszyscy piraci skaczą ze statku i pływają dookoła.
-Zanim gra się rozpocznie, wyznacza się 2-3 rekiny. Na komendę „Nadchodzą rekiny” te podpływają i próbują pożerać piratów (którzy następnie sami zamieniają się w rekiny).
+Wszyscy za burtę – na to polecenie wszyscy piraci skaczą ze statku i pływają dookoła.
+Zanim gra się rozpocznie, wyznacza się 2-3 rekiny. Na polecenie „Nadchodzą rekiny” te zwierzęta podpływają i próbują pożerać piratów (którzy następnie sami zamieniają się w rekiny).
 Piraci starają się jak najszybciej wrócić na statek.
 
-## Powiązane strony
+## **Źródło**:
 
-[Temat warsztatów: Piraci](Workshop%20Thema%20Piraten.md)
-[Gra powitalna: Piraci](Piraten%20Begrüßungsspiel.md)
+Nieznane
+
+## **Linki wewnętrzne**
+
+[Temat warsztatów Piraci](Workshop%20Thema%20Piraten.md)
+[Gra powitalna Piraci](Piraten%20Begrüßungsspiel.md)

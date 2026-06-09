@@ -7,33 +7,47 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:25:55
 title: Gleich und gleich
-description: 
+description: Ein Kennenlern- und Bewegungsspiel, bei dem Personen nach Gemeinsamkeiten passende Partner finden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: optional Musik
+Spieldauer: 5-15
+source: Portmann2009
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gleich und gleich.md
-translation_source_hash: cbc066a130453047db687047c5c9bd289e6fd16f19da99481a1ef199e2bf53ed
+translation_source_hash: 6a3e78e3e7351a0d77c37d2c37752c481c17066834c687e252ecbba525f24922
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:03:21+00:00
+translation_updated: 2026-06-09T01:40:44+00:00
 ---
-# Iguales y semejantes
+> [!info] Breve descripción
+> Un juego de movimiento y conocimiento mutuo en el que las personas encuentran parejas basándose en similitudes.
 
-Los niños se mueven libremente por el espacio. Al oír la indicación de un/a líder de grupo, buscan sucesivamente al menos a otro niño que:
+**Tamaño del grupo**: 6-30 personas
+**Dificultad**: fácil
+**Material**: música opcional
+**Duración del juego**: 5-15 minutos
+
+## **Descripción del juego**:
+
+Los niños se mueven libremente por el espacio. Cuando la persona que dirige el grupo da una indicación, buscan a al menos otro niño que:
 
 - tenga el mismo color de pelo
 - tenga el mismo color de ojos
 - practique el mismo deporte
 - cumpla años en el mismo mes
-- tenga un nombre de pila que empiece por la misma letra que el suyo
+- tenga un nombre que empiece por la misma letra que el suyo
 - etc.
 
-Las instrucciones deben adaptarse a la edad y composición del grupo, de modo que las personas correspondientes puedan ser encontradas realmente. El juego puede acompañarse de música. Mientras suene la música, los miembros del grupo que se hayan encontrado caminan juntos y hablan entre sí. Cada vez que la música se detiene, se da una nueva instrucción y se forman nuevas parejas que luego caminan juntas un rato.
+Las instrucciones deben adaptarse a la edad y composición del grupo, de modo que las personas correspondientes puedan encontrarse realmente. El juego puede acompañarse de música. Mientras suene la música, los miembros del grupo que se han encontrado caminan juntos y hablan entre sí. Cada vez que la música se detiene, se da una nueva instrucción y se forman nuevas parejas que luego caminan juntas un rato.
 
-**Variación**
+## **Variantes**:
 
-## Bibliografía
+## **Fuente**:
 
 @Portmann2009

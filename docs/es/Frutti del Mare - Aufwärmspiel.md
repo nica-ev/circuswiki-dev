@@ -5,40 +5,58 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:20:18
-update: 2025-03-17 01:37:20
-title: "# Frutti del Mare"
-description: 
+update: 2026-06-09 02:10:40
+title: Frutti del Mare
+description: Eine ruhige Aufwärmübung, bei der Kinder Meeresfiguren mit einfachen Bodenbewegungen nachspielen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Frutti del Mare - Aufwärmspiel.md
-translation_source_hash: 51998d46946cdcc69632ec057f528c2072a8f516b0e6b1df4f644ab37fbaf0d8
+translation_source_hash: d9e69ea26bfaa38a1fa4206c56a5efca7b0ac9efbe72ff82f93ef52b3efec337
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:03:10+00:00
+translation_updated: 2026-06-09T01:39:34+00:00
 ---
-# Frutti del Mare (Juego de calentamiento)
+> [!info] Breve descripción
+> Un ejercicio de calentamiento tranquilo en el que los niños imitan figuras marinas con movimientos sencillos en el suelo.
 
-Ejercicio de calentamiento para grupos pequeños a medianos, especialmente adecuado para niños pequeños.
+**Tamaño del grupo**: 3-20 personas
+**Dificultad**: fácil
+**Material**: ninguno
+**Duración del juego**: 5-10 minutos
+
+## **Descripción del juego**:
+
+Ejercicio de calentamiento para grupos pequeños o medianos, especialmente adecuado para niños pequeños.
 
 **La estrella de mar**
-Comenzamos tumbados boca arriba, con brazos y piernas extendidos del cuerpo en forma de estrella.
+Comenzamos tumbados boca arriba, con los brazos y las piernas extendidos en forma de estrella, alejados del cuerpo.
 
 **La concha**
-Nos giramos de lado y recogemos brazos y piernas para hacernos lo más pequeños posible.
+Nos giramos de lado y recogemos los brazos y las piernas de forma que nos hagamos lo más pequeños posible.
 
 **El caballito de mar**
-La concha despierta lentamente y se estira recta, todavía tumbada de lado, convirtiéndose así en un caballito de mar.
+La concha despierta lentamente y se estira, todavía tumbada de lado, convirtiéndose así en un caballito de mar.
 
 **La foca**
-Caemos de bruces, levantamos la cabeza, apoyando los brazos.
+Caemos de bruces, estiramos la cabeza hacia arriba, apoyando los brazos.
 Movemos la cola (o el trasero).
 
-La foca mira a la derecha, luego a la izquierda, luego mira al cielo. Extiende una mano hacia las estrellas (el cuerpo ya gira un poco) y luego cae de espaldas y vuelve a convertirse en una estrella de mar.
+La foca mira a la derecha, luego a la izquierda, luego mira al cielo. Intenta alcanzar las estrellas con una mano (el cuerpo ya gira un poco) y luego cae de espaldas y vuelve a convertirse en una estrella de mar.
 El círculo comienza de nuevo.
 
-## Referencias cruzadas
+## **Fuente**:
+
+Desconocida
+
+## **Referencias cruzadas**
 
 [Saludo al sol para niños](Sonnengruß%20Kinder.md)

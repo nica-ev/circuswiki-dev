@@ -7,22 +7,43 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:06
 title: Reifen durchgeben im Kreis
-description: 
+description: Ein Kreisspiel, bei dem ein oder mehrere Reifen durch die verbundene Gruppe wandern, ohne die Hände zu lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Reifen
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Reifen durchgeben im Kreis.md
-translation_source_hash: bdd55fc96b2ceba3a800c2027a4b19cf772acaca73731e8f155e7cec1f853c21
+translation_source_hash: 87dcfb5c414f172aa8a3dcc8bcd87b66f89bd3f70db711e9783402a87e141473
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:07:55+00:00
+translation_updated: 2026-06-09T02:12:28+00:00
 ---
+> [!info] Breve descrizione
+> Un gioco di gruppo in cerchio in cui uno o più cerchi si spostano attraverso il gruppo unito, senza sciogliere le mani.
+
+**Dimensioni del gruppo**: 5-30 persone
+**Difficoltà**: facile
+**Materiale**: cerchi
+**Durata del gioco**: 5-10 minuti
+
+## **Descrizione del gioco**:
+
 Tutti i bambini stanno in cerchio tenendosi per mano.
-Uno o più hula hoop vengono fatti passare attorno al gruppo. Per fare ciò, un bambino afferra un hula hoop e poi prende la mano del suo vicino, in modo che il cerchio "resti appeso al cerchio".
+Uno o più cerchi (hula hoop) vengono infilati. Per fare ciò, un bambino afferra il cerchio e poi riprende la mano del vicino, in modo che il cerchio "sia appeso al cerchio".
 
-Il cerchio viene quindi passato di bambino in bambino, senza che venga interrotta la catena di mani. Durante questo passaggio, ogni bambino deve anche attraversare il cerchio.
+Il cerchio viene quindi passato di bambino in bambino nel cerchio, senza che le mani si lascino, e ogni bambino deve anche passarci attraverso.
 
-**Variante**
-Si possono usare anche 2 o più cerchi che creano una sorta di "inseguimento". L'obiettivo è che un cerchio raggiunga o superi l'altro.
+## **Varianti**:
+
+Si possono usare anche 2 o più cerchi che creano un "inseguimento". L'obiettivo è quindi che un cerchio raggiunga o superi l'altro.
+
+## **Fonte**:
+
+Sconosciuta

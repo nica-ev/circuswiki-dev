@@ -7,28 +7,35 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:14:36
 title: Zeitbombe
-description: 
+description: Ein Fangspiel, bei dem gefangene Personen als tickende Zeitbomben entschärft werden müssen, bevor sie ausscheiden.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Markierung für Fänger
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zeitbombe.md
-translation_source_hash: d51ee599f6e4865cd7299438e10652bad280328f8f617448b864e0e3aced57ad
+translation_source_hash: ce38bd06d730dffdef6b9ec0b243e2539bea9c9ad39663068fb2e044311107d3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:55:35+00:00
+translation_updated: 2026-06-09T02:37:42+00:00
 ---
-# Időbombák
+> [!info] Rövid leírás
+> Egy fogójáték, amelyben a lefogott játékosokat időzített bombákként kell hatástalanítani, mielőtt kiesnének.
 
 **Csoportméret**: 8 főtől
 **Nehézség**: egyszerű
 **Anyag**: nincs
 **Játékidő**: 5-10 perc
 
-## **Játékleírás**:
+## **Játék leírása**:
 
-A csoport méretétől függően jelöljünk ki néhány fogót, akiket egy kendővel, meccsel vagy kötéllel látunk el. Ha egy fogó megérinti a játékost, az „időbombává” válik: kitámasztja a karjait oldalra, hangosan visszaszámol tíztől nulláig, miközben lassan a feje fölé emeli a karjait. Amikor nullára ér, egyet tapsol a feje fölött, mert a karjai időközben összeértek. Ekkor a bomba „felrobbant”, és a játékos kiesik. Ennek elkerülése érdekében egy szabad játékos felemelheti a „ketyegő” bombát, ezzel hatástalanítva azt. A bomba ismét szabad! A játék gyorsítása érdekében az időbombák visszaszámlálási ideje lehet rövidebb is, például csak 5 másodperc.
+A csoportmérettől függően jelöljünk ki néhány fogót, akiket egy kendővel, meccslabdával vagy kötéllel is meg lehet jelölni. Ha egy fogó megérint egy játékost, az időzített bombává válik: karjait a test mellé nyújtja, hangosan visszaszámol tíztől nulláig, miközben lassan a feje fölé emeli a karjait. Amikor nullára ér, a fej fölött összecsapja a tenyerét, mivel a karjai időközben összeértek. Ekkor a bomba felrobbant, és a játékos kiesett. Ennek elkerülése érdekében egy szabadon lévő játékos felemelheti a "ketyegő" bombát, és ezzel hatástalaníthatja azt. A bomba ismét szabad! A játék gyorsítása érdekében az időzített bombák például csak 5 másodpercig ketyeghetnek.
 
 ## **Forrás**:
 

@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ägyptisches Wurfspiel
-description: 
+description: Ein Wurfspiel für kleine Teams, bei dem auf die nicht klatschende Person geworfen werden muss.
 authors:
   - Marc Bielert
 category:
@@ -24,12 +24,12 @@ translation_source_lang: de
 ---
 
 > [!info] Kurzbeschreibung
-> Dieses Wurfspiel für kleine Gruppen, dessen Ursprung vermutlich in Ägypten liegt, fordert Konzentration und Reaktionsfähigkeit. Ziel ist es, den Ball zur richtigen Person zu werfen, während die Gegnergruppe versucht, Fehler zu vermeiden.
+> Ein Wurfspiel für kleine Teams, bei dem auf die nicht klatschende Person geworfen werden muss.
 
 **Gruppengröße**: 4 Spieler (2 Teams à 2 Personen) oder 8,12,16 etc.
 **Schwierigkeit**: Mittel
 **Material**: 1 Ball
-**Spieldauer**: Variabel (abhängig von der Z ielpunktzahl)
+**Spieldauer**: 5-10 Minuten
 
 ## **Spielbeschreibung**:
 

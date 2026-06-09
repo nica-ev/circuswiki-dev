@@ -7,24 +7,42 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:30
 title: Schnick Schnack Schnuck
-description: 
+description: Ein Kennenlernspiel, bei dem Verlierende zu Fans werden und am Ende eine große Namensschlange entsteht.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnick_Schnack_Schnuck.md
-translation_source_hash: 49e988e2e0ee9cdb4306d92f858a3508b462592d88add3f7d6ee0b698c01b578
+translation_source_hash: 1be6f4c825a45c59fb7664a188cecda848caa276e1f4eed958721cb2b013867e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:22:44+00:00
+translation_updated: 2026-06-09T02:16:00+00:00
 ---
-# Schnik, Snak, Snuk
+> [!info] Krótki opis
+> Gra zapoznawcza, w której przegrani stają się fanami, a na końcu powstaje jeden wielki łańcuch imion.
 
-Gra integracyjna dla małych i bardzo dużych grup.
+**Liczba osób**: od 4
+**Poziom trudności**: łatwy
+**Materiały**: żadne
+**Czas trwania gry**: 5-10 minut
 
-Podstawą gry jest Schnik, Snak, Snuk (kamień, nożyce, papier) – istnieją tylko te trzy stany. Kamień pokonuje nożyce, nożyce pokonują papier, papier pokonuje kamień.
+## **Opis gry**:
 
-Wszyscy biegają po sali. Kiedy dwie osoby się spotkają, grają w Schnik, Snak, Snuk. Osoba, która przegra, wiesza się na ramionach zwycięzcy i zaczyna skandować jego imię. Ten mały „wąż” nadal biega po sali, aż spotka kolejną osobę i znowu gra.
+Gra zapoznawcza dla małych i bardzo dużych grup.
 
-Na koniec gry pozostaje tylko jeden wąż, na którego czele biegnie zwycięzca, a wszyscy inni wykrzykują jego imię.
+Podstawą gry jest papier, kamień, nożyce – istnieją tylko te trzy stany. Kamień pokonuje nożyce, nożyce pokonują papier, papier pokonuje kamień.
+
+Wszyscy poruszają się po sali. Gdy dwie osoby się spotkają, grają w papier, kamień, nożyce. Osoba, która przegra, wiesza się na ramionach zwycięzcy i zaczyna skandować jego imię. Ten mały „łańcuch” nadal porusza się po sali, aż spotka kolejną osobę i znowu zagra.
+
+Na koniec gry pozostaje tylko jeden, wielki łańcuch, na którego czele biegnie zwycięzca, a wszyscy inni wykrzykują jego imię.
+
+## **Źródło**:
+
+Nieznane

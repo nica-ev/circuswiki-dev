@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:01
 title: Vierfarbenfangen
-description: 
+description: Ein komplexes Farb-Fangspiel, bei dem vier Teams im Kreisprinzip fangen, fliehen und ihre Reihenfolge merken müssen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: optional farbige Trikots
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 20
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# Vierfarbenfangen
+> [!info] Kurzbeschreibung
+> Ein komplexes Farb-Fangspiel, bei dem vier Teams im Kreisprinzip fangen, fliehen und ihre Reihenfolge merken müssen.
 
 **Gruppengröße**: Ab 20 Mitspieler
 **Schwierigkeit**: mittel

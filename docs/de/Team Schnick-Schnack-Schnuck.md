@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:28
 title: Team Schnick-Schnack-Schnuck
-description: 
+description: Ein Team-Reaktionsspiel, bei dem Gruppen Figuren wählen und nach dem Aufdecken fangen oder fliehen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 14
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# **Team Schnick-Schnack-Schnuck**
+> [!info] Kurzbeschreibung
+> Ein Team-Reaktionsspiel, bei dem Gruppen Figuren wählen und nach dem Aufdecken fangen oder fliehen.
 
 **Gruppengröße**: Ab 14 Mitspieler
 **Schwierigkeit**: simpel

@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schildkröten umdrehen.md
-translation_source_hash: d1cb5e236a90cb1bce8e1c21fd352833ecdb7f3f95bcc5b4c69d397c5a6ac3ac
+translation_source_hash: 44e187024a0f9cb37069a6a44988c4bd66bf77e74bc9a148a84fc451b23aa406
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:23:35+00:00
+translation_updated: 2026-06-09T02:14:45+00:00
 ---
-# Schildpadden omdraaien
+> [!info] Korte beschrijving
+> Een fysiek bewegingsspel waarbij schildpadden op hun buik proberen te voorkomen dat ze worden omgedraaid.
 
-**Groepsgrootte**: 6 tot 30 spelers
+**Groepsgrootte**: 6 tot 30 deelnemers
 **Moeilijkheidsgraad**: gemiddeld
 **Materiaal**: geen
-**Speeltijd**: 5 tot 10 minuten
+**Speelduur**: 5 tot 10 minuten
 
-**Spelbeschrijving**:
-Afhankelijk van de kracht en grootte van de spelers worden één of twee 'schildpaddenomdraaiers' aangewezen. Alle andere spelers gaan op hun buik liggen en zijn de schildpadden. Ze mogen zich ook voortbewegen, maar alleen liggend! De schildpaddenomdraaier(s) proberen de schildpadden op hun rug te draaien. Zodra de rug van een schildpad de grond raakt, wordt deze ook een schildpaddenomdraaier. De schildpadden willen dit natuurlijk niet en proberen zich daarom aan elkaar vast te houden of een andere tactiek te bedenken om zo min mogelijk omgedraaid te worden. Het spel is afgelopen als er geen schildpadden meer zijn.
+## **Spelbeschrijving**:
 
-**Bron**:
+Afhankelijk van de kracht en grootte van de spelers worden één of twee 'schildpaddraaiers' aangewezen. Alle andere spelers gaan op hun buik liggen en zijn de schildpadden. Ze mogen zich ook voortbewegen, maar alleen liggend! De schildpaddraaiers proberen de schildpadden op hun rug te draaien. Zodra de rug van een schildpad de grond raakt, wordt deze ook een schildpaddraaier. De schildpadden willen dit natuurlijk niet en proberen zich daarom aan elkaar vast te houden of een andere tactiek te bedenken om zo min mogelijk te worden omgedraaid. Het spel is afgelopen als er geen schildpadden meer over zijn.
+
+## **Bron**:
+
 Tasifan Spielebuch

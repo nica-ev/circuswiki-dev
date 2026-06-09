@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ohrfeigen und Küsse
-description: 
+description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,19 +23,17 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ohrfeigen und Küsse.md
-translation_source_hash: b1c8f3c5bbf89aeef005153dee1a6486195450ab72c1ef74e7afc9a8197d011d
+translation_source_hash: 52349702f8b552b2a01f27dab281148d7e7f3048cb48badfc077eebf72ccb21b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:37+00:00
+translation_updated: 2026-06-09T02:09:21+00:00
 ---
-# Slaps and Kisses
+> [!info] Brief Description
+> A sensitive interaction game where greetings, friendly gestures, and implied aggressive gestures are consciously enacted.
 
-> [!info] Short Description
-> "Slaps and Kisses" is an unusual interaction game that playfully combines friendliness and aggression.
-
-**Group Size**: Any
-**Difficulty**: Medium (requires sensitivity and communication)
+**Group Size**: 5-30 people
+**Difficulty**: Medium (requires sensitivity and coordination)
 **Materials**: None
-**Game Duration**: Approx. 10-15 minutes
+**Playtime**: Approx. 10-15 minutes
 
 ## **Game Description**:
 
@@ -43,12 +41,12 @@ All participants walk freely around the room.
 
 When two participants meet, they briefly shake hands and greet each other by name ("Hello Marc").
 
-Next, a friendly interaction follows: They hug, "kiss" (implied, without actual contact), or do something else friendly.
+Next, a friendly interaction follows: they hug, "kiss" (implied, without actual contact), or do something else friendly.
 
-Third, an implied aggressive interaction follows: One participant "gives" a slap (only implied!), hits (implied!), kicks (implied!), or does something else aggressive (implied!).
+Third, an implied aggressive interaction follows: one participant "delivers" a slap (only implied!), punch (implied!), kick (implied!), or does something else aggressive (implied!).
 
 **Important**:
-The aggressive part is only acted out! The movements are performed slowly, giving the partner time to react. Only one partner is aggressive per encounter; there is no back-and-forth exchange.
+The aggressive part is only acted out! The movements are performed slowly so the partner has time to react. Only one partner is aggressive per encounter; there is no back-and-forth exchange.
 
 ## **Source**:
 

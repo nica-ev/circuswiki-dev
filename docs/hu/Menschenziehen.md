@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:24:27
 title: Menschenziehen
-description: 
+description: Ein taktisches Teamspiel, bei dem Menschenketten gegnerische Personen in die eigene Spielfeldhälfte ziehen.
 authors:
   - Marc Bielert
 category:
   - Taktik
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-9
+source: Tasifan Spielebuch
+group-min: 12
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Menschenziehen.md
-translation_source_hash: 88a4d8c7eb3afd1cb9d9943d8d8c6fc7ee8391f17f668b3e548b062b54d4da33
+translation_source_hash: 15abff88a18f16b0eddfcb3c9e7cd6b49d4895f18f43a4030ecad0383b9d1b6f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:47:38+00:00
+translation_updated: 2026-06-09T02:06:43+00:00
 ---
-# Emberhúzás
+> [!info] Rövid leírás
+> Taktikai csapatjáték, amelyben emberláncok húzzák az ellenfél játékosait a saját játékrészükre.
 
-**Csoportméret**: 12 főtől, lehetőleg páros számban
+**Csoportméret**: 12 főtől, lehetőleg páros számú játékos
 **Nehézség**: közepes, inkább idősebbeknek
 **Anyag**: nincs
-**Játékidő**: 5-9 perc
+**Játékidő**: 5–9 perc
 
-**Játékszabály**:
-Két csapatot kell létrehozni. Egy határvonal két félre osztja a játéktárat. Minden csapat szabadon mozoghat a saját felén. Ha át akar menni az ellenfél területére, legalább két emberrel láncot kell alkotnia a saját feléről, és így kell összeköttetésben maradnia. Ily módon meg lehet próbálni az ellenfél játékosait a saját felére húzni, és így megszerezni őket a saját csapatnak. Mindaddig, amíg egy játékos az emberlánc formájában még össze van kötve a saját felével, nem tartozik a másik csapathoz. A cél az, hogy minden játékost az egyik oldalra tereljünk.
+## **Játék leírása**:
 
-**Forrás**:
+Két csapatot kell alkotni. Egy határvonal osztja ketté a játéktér feleket. Minden csapat szabadon mozoghat a saját felében. Ha valaki az ellenfél területére szeretne menni, legalább két főből álló láncként kell összekapcsolódnia a saját felével. Így próbálhatják meg az ellenfél játékosait a saját területükre húzni, és ezáltal megszerezni őket a saját csapatuknak. Mindaddig, amíg egy játékos emberlánc formájában még a saját feléhez kapcsolódik, nem tartozik a másik csapathoz. A cél az, hogy minden játékost egy oldalra tereljünk.
+
+## **Forrás**:
+
 Tasifan Spielebuch

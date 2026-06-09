@@ -7,31 +7,46 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
+translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T16:35:13+00:00
+translation_updated: 2026-06-09T01:35:24+00:00
 ---
-# Дріб і Перевертень
+> [!info] Короткий опис
+> Проста гра на передачу предметів, де їх по черзі передають через голову та крізь ноги.
+
+**Кількість учасників**: 5-20 осіб
+**Складність**: легка
+**Матеріали**: предмети
+**Тривалість гри**: 5-10 хвилин
+
+## **Опис гри**:
 
 Проста гра з предметами для малих та середніх груп.
 
 Усі стають у шеренгу.
 Предмети передаються з переду назад через голову.
-Останній у шерензі передає предмети ззаду наперед через ноги того, хто стоїть попереду.
+Останній у шерензі передає предмети ззаду наперед крізь ноги того, хто стоїть попереду.
 
-Можна або грати в це як у нескінченну гру, або відкладати предмети, коли вони пройшли повне коло.
+Можна зробити це як нескінченну гру, або ж предмети відкладати вбік, коли вони пройдуть повне коло.
 
----
-Об'єднати з дублікатом нотатки:
+## **Примітки**:
 
-Проста гра з предметами для малих та середніх груп.
+Перевірити можливість об'єднання з подвійним записом.
 
-Усі стають у шеренгу. Предмети передаються з переду назад через голову. Останній у шерензі передає предмети ззаду наперед через ноги того, хто стоїть попереду. Предмети можна або відкладати, коли вони пройшли повне коло, або починати гру знову як нескінченну.
+## **Джерело**:
+
+Невідоме

@@ -7,47 +7,57 @@ tags:
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
 title: Schüttelspiel
-description: 
+description: Ein Sprech- und Bewegungsspiel, bei dem Gruppen sich gegenseitig zum gemeinsamen Schütteln auffordern.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schüttelspiel.md
-translation_source_hash: 5e729532db50c8a9c7073d63416811899e4f84d08842448a27fb5a567a799cc0
+translation_source_hash: d47523faad35891bbd400b4116996910fe05c6d1cc00204e28fd3c4d0addc461
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:10:16+00:00
+translation_updated: 2026-06-09T02:19:56+00:00
 ---
-# Juego de agitar
+> [!info] Breve descripción
+> Un juego de palabras y movimiento en el que los grupos se invitan mutuamente a "agitarse" juntos.
 
-**Tamaño del grupo**: Varios grupos (tamaño de grupo indistinto)
+**Tamaño del grupo**: a partir de 4 personas
 **Dificultad**: muy fácil
 **Material**: ninguno
 **Duración del juego**: 5 a 10 minutos
 
-**Descripción del juego**:
-El juego de agitar es un coro hablado con movimientos correspondientes siguiendo el siguiente patrón:
+## **Descripción del juego**:
 
-Grupo A: Hola Grupo B (nombre del otro grupo/del taller/o similar), ¿quieren jugar con nosotros al juego de agitar?
+El juego de la agitación es un coro hablado con movimientos correspondientes siguiendo el siguiente patrón:
 
-Grupo B: ¡Oh síiiii!
+Grupo A: Hola Grupo B (nombre del otro grupo/taller/etc.), ¿queréis jugar con nosotros al juego de la agitación?
 
-A + Todos: ¡Son geniales!
+Grupo B: ¡Sííííí!
 
-Todos: Y a la derecha, agitar, agitar, agi, agitar, agitar. (Mientras se agita todo hacia la derecha)
+A + Todos: ¡Sois geniales!
 
-Y a la izquierda, agitar, agitar, agi, agitar, agitar. (Mientras se agita todo hacia la izquierda)
+Todos: Y a la derecha, agita, agita, ¡a-gi-ta, agita, agita! (Mientras se agita todo hacia la derecha)
 
-Y arriba, agitar, agitar, agi, agitar, agitar. (Mientras se agita todo hacia arriba)
+Y a la izquierda, agita, agita, ¡a-gi-ta, agita, agita! (Mientras se agita todo hacia la izquierda)
 
-Y todo, agitar, agitar, agi, agitar, agitar. (Mientras se agita todo)
+Y arriba, agita, agita, ¡a-gi-ta, agita, agita! (Mientras se agita todo hacia arriba)
 
-Grupo B: Hola Grupo C (nombre de otro grupo/taller/o similar), ¿quieren jugar con nosotros al juego de agitar?
+Y todo, agita, agita, ¡a-gi-ta, agita, agita! (Mientras se agita todo)
 
-Grupo C: ¡Oh síiiii!
+Grupo B: Hola Grupo C (nombre de otro grupo/taller/etc.), ¿queréis jugar con nosotros al juego de la agitación?
 
-Y así sucesivamente hasta que cada grupo haya tenido su turno. El ritmo también se puede aumentar progresivamente durante el transcurso del juego.
+Grupo C: ¡Sííííí!
 
-**Fuente**:
+Y así sucesivamente hasta que cada grupo haya tenido su turno. El ritmo también se puede aumentar progresivamente a medida que avanza el juego.
+
+## **Fuente**:
+
 Tasifan Spielebuch

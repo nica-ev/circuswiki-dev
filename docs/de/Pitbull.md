@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:41
 title: Pitbull
-description: 
+description: Ein kraftvolles Teamspiel, bei dem zwei Mannschaften Linien wechseln und gehobene Personen ins eigene Team übernehmen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 7
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# Pitbull
+> [!info] Kurzbeschreibung
+> Ein kraftvolles Teamspiel, bei dem zwei Mannschaften Linien wechseln und gehobene Personen ins eigene Team übernehmen.
 
 **Gruppengröße**: Ab 10 Mitspieler, besser mehr
 **Schwierigkeit**: mittel

@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:09
 title: Ass Zwei Drei - Kartenfangen
-description: 
+description: Ein taktisches Teamspiel mit Spielkarten, bei dem Kartenwerte, Kommunikation und gezielte Duelle über gewonnene Karten entscheiden.
 authors:
   - Marc Bielert
 category:
   - Taktik
+Schwierigkeit: mittel
+Material: Kartenspiel
+Spieldauer: 10-15
+source: Tasifan Spielebuch
+group-min: 20
+group-max: 60
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ass Zwei Drei - Kartenfangen.md
-translation_source_hash: 3332ad0ff47b17d3c44c441dedd3c63e3a56535bcfcf37384ac09e8fcb2b0d2e
+translation_source_hash: 6e4673731aef4eb08b4a951ade44f7842fb13b8f45ac5d1fd09f159107c76cac
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:23:39+00:00
+translation_updated: 2026-06-09T01:21:21+00:00
 ---
-# Ace Two Three - Card Catch
+> [!info] Short Description
+> A tactical team game using playing cards, where card values, communication, and targeted duels determine which cards are won.
 
-**Group Size**: 20+ players, more is better
+**Group Size**: 20+ people
 **Difficulty**: Medium
-**Materials**: A full deck of cards, possibly even two
-**Game Duration**: 10 to 15 minutes
+**Materials**: One full deck of cards, possibly two
+**Duration**: 10 to 15 minutes
 
-**Game Description**:
-Depending on the group size, players are divided into two, three, or four equally sized teams. Each team receives a stack of cards in their assigned suit. This means the playing cards from two to Ace, either in Diamonds, Spades, Clubs, or Hearts. Additionally, each team chooses a captain and finds a base. The team captain holds the card stack and can give a card to their team members; they can only look at the top card. Players who have a card can set off to find and tag players from other teams. The tagged player must show their card. The goal is to determine whose card is higher. The ranking is 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, with the special rule that the 2 beats the Ace. If your card is higher than the tagged player's card, you get their card. If yours is lower, you must give it to them. If a player has already won one or more cards and subsequently loses (play is always only with the card received from the captain), they must give all their cards to the winner. If you have won cards, you can hand them over to the captain at the base; they are safe there and cannot be stolen. This game requires a lot of communication so teams can coordinate who has which card and, for example, strategically use the 2s against opposing Aces. If the game is to last longer, teams can also be given a double or triple set of cards.
+## **Game Description**:
 
-**Source**:
+Players are divided into two, three, or four equal teams based on group size. Each team receives a deck of cards in their assigned suit (e.g., diamonds, spades, clubs, or hearts), ranging from 2 to Ace. Additionally, each team selects a captain and a "base camp." The team captain holds the deck of cards and can give a card to a player on their team; they can only look at the top card. Players who have received a card can then go out and find players from other teams to tag. The tagged player must reveal their card. The goal is to determine whose card is higher. The card ranking is 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace, with the special rule that the 2 beats the Ace. If a player's card is higher than the tagged player's card, they win the tagged player's card. If their card is lower, they must give it to the other player. If a player has already won one or more cards and subsequently loses a duel (only the card received from the captain is used in each duel), they must give all their cards to the winner. Players who have won cards can deposit them at their team's base camp with the captain, where they are safe and cannot be stolen. This game requires a lot of communication so teams can strategize about who has which card and, for example, strategically use their 2s against opposing Aces. If the game is intended to last longer, teams can also be given a double or triple set of cards.
+
+## **Source**:
+
 Tasifan Spielebuch

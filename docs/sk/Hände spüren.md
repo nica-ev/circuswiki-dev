@@ -7,31 +7,50 @@ publish: true
 tags:
   - spiele
 title: Hände spüren
-description: 
+description: Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände spüren.md
-translation_source_hash: b94d42ed97fb3042379245041ebad05bc37c5739d7816cb096102188ba4cc7c1
+translation_source_hash: 7e39cd5769c6a015008e15e3fdad24a8fb606cef67af9b4fe99ef6f15bfdc75b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:47:18+00:00
+translation_updated: 2026-06-09T01:43:52+00:00
 ---
-# Cítiť ruky
+> [!info] Stručný popis
+> Pokojná vnímavostná hra, pri ktorej ležiaca osoba so zatvorenými očami hádá počet položených rúk.
 
-Relaxačná hra pre akúkoľvek veľkosť skupiny:
+**Veľkosť skupiny**: 4 – 25 osôb
+**Obtiažnosť**: ľahká
+**Materiál**: žiadny
+**Dĺžka hry**: 5 – 10 minút
 
-Vytvoria sa skupiny po 4-5 osôb.
+## **Popis hry**:
+
+Relaxačná hra pre akúkoľvek veľkosť skupiny.
+
+Vytvoria sa skupiny po 4 – 5 osôb.
 
 Jedna osoba si ľahne na brucho a zatvorí oči.
 
-Ostatní sa dorozumejú neverbálne, koľko rúk chcú súčasne položiť na telo ležiaceho.
+Ostatní sa dorozumejú neverbálne, koľko rúk chcú súčasne položiť na telo ležiacej osoby.
 
 Osoba ležiaca na zemi musí teraz uhádnuť, koľko rúk sa na jej tele nachádza.
 
-V závislosti od času a pocitov účastníkov sa môže odohrať viacero kôl. Potom sa úlohy vymenia.
+V závislosti od času a pocitov účastníkov sa môže odohrať viacero kôl. Potom sa vystriedajú.
 
-**Pozri tiež:**
-[Robot](Roboter.md) - aj tu sa koná neverbálne a ide o vnímanie pocitov.
+## **Zdroj**:
+
+Neznámy
+
+## **Prepojenia**
+
+[Robot](Roboter.md) – aj tu sa koná neverbálne a ide o vnímanie.

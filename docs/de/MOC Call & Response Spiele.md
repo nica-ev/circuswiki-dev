@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:51
-update: 2026-06-08 21:44:31
+update: 2026-06-09 02:16:29
 title: Call & Response - Spiele
 description: 
 authors:
@@ -29,7 +29,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                              | group-min | group-max | Schwierigkeit | Material | Spieldauer |
 | ----------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- |
-| [Die Geschichte der Banane](<Die%20Geschichte%20der%20Banane.md>) | -         | -         | -             | -        | -          |
-| [Löwenjagd](<L%C3%B6wenjagd.md>)                                  | -         | -         | -             | -        | -          |
+| [Die Geschichte der Banane](<Die%20Geschichte%20der%20Banane.md>) | 4         | 99        | einfach       | keines   | 5-10       |
+| [Löwenjagd](<L%C3%B6wenjagd.md>)                                  | 4         | 99        | einfach       | keines   | 5-10       |
 
 <!-- dynamic:end -->

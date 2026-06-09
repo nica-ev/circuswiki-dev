@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ich habe Glück
-description: 
+description: Ein Fangspiel mit Zweierteams, bei dem ein Stein-Schere-Papier-Moment entscheidet, wer weiter fängt.
 authors:
   - Marc Bielert
 category:
@@ -24,12 +24,12 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> "Ich habe Glück" ist ein dynamisches Fangspiel, das die Elemente von Fangen, Teamwork und dem "Stein, Schere, Papier"-Spiel kombiniert, um Bewegung, schnelle Entscheidungen und Interaktion zu fördern.
+> Ein Fangspiel mit Zweierteams, bei dem ein Stein-Schere-Papier-Moment entscheidet, wer weiter fängt.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 6-28 Personen
 **Schwierigkeit**: Leicht
 **Material**: Keins
-**Spieldauer**: Beliebig
+**Spieldauer**: 5-10 Minuten
 
 ## **Spielbeschreibung**:
 

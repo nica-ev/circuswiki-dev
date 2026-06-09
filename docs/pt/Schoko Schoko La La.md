@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:40:45
 title: Schoko Schoko La La
-description: 
+description: Ein kurzes Klatschspiel für zwei Personen, bei dem Handflächen, Handrücken und Fäuste rhythmisch wechseln.
 authors:
   - Marc Bielert
 category:
@@ -22,21 +22,34 @@ group-max: "2"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schoko Schoko La La.md
-translation_source_hash: a8983634767269846a3e2a207dc810a6b7ca5dc54c6e971b802c4748ee4027e6
+translation_source_hash: e2cdbc488cc55e0d442f01f2fc28335f805494a25635f362def5143631bd9c0f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:09:42+00:00
+translation_updated: 2026-06-09T02:16:24+00:00
 ---
-# Chocolate Chocolate Lá Lá
+> [!info] Breve Descrição
+> Um jogo rápido de bater palmas para duas pessoas, onde palmas, costas das mãos e punhos se alternam ritmicamente.
 
-Um jogo de palmas para 2 pessoas.
+**Tamanho do Grupo**: 2 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do Jogo**: 2-5 minutos
 
-Texto:
-Chocolate Chocolate Lá Lá
-Chocolate Chocolate De De
-Chocolate Lá
-Chocolate De
-Chocolate Lá De
+## **Descrição do Jogo**:
 
-Ao dizer "Chocolate", bate-se as palmas das mãos.
-Ao dizer "Lá", bate-se as costas das mãos.
-Ao dizer "De", bate-se os punhos fechados.
+Um jogo de bater palmas para 2 pessoas.
+
+### Texto
+
+Schoko Schoko La La
+Schoko Schoko De De
+Schoko La
+Schoko De
+Schoko La De
+
+Com "Schoko", as mãos batem uma na outra com as palmas.
+Com "La", elas batem com as costas das mãos.
+Com "De", os punhos batem um no outro.
+
+## **Fonte**:
+
+Desconhecida

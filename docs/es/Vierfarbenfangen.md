@@ -7,29 +7,36 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:01
 title: Vierfarbenfangen
-description: 
+description: Ein komplexes Farb-Fangspiel, bei dem vier Teams im Kreisprinzip fangen, fliehen und ihre Reihenfolge merken müssen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: optional farbige Trikots
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 20
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vierfarbenfangen.md
-translation_source_hash: fcaaa7b3adc77494719184d88dc044e8f145a10bf0da134d0ed2c8888827db99
+translation_source_hash: cc96e216f73415213b3c3bceee0f70926a4842d3b06c1860c23b9097d730cb55
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:11:37+00:00
+translation_updated: 2026-06-09T02:33:50+00:00
 ---
-# Atrapa-cuatro-colores
+> [!info] Breve descripción
+> Un complejo juego de persecución por colores en el que cuatro equipos deben atrapar, huir y recordar su orden según un principio de círculo.
 
 **Tamaño del grupo**: A partir de 20 participantes
-**Dificultad**: Media
-**Material**: Opcionalmente, petos de colores
-**Duración del juego**: Aprox. 10 minutos
+**Dificultad**: media
+**Material**: posiblemente petos de colores
+**Duración del juego**: aprox. 10 minutos
 
 ## **Descripción del juego**:
 
-Los participantes se dividen en 4 equipos, lo más equilibrados posible, según el color de su ropa. Estos equipos se colocan sentados en fila, uno detrás de otro, en una esquina del campo de juego (de modo que el último se sienta en la esquina y todos los demás delante, sentados en el campo). Ahora, el primer jugador de cada fila se levanta e intenta atrapar a alguien que lleve el color del grupo siguiente en el sentido de las agujas del reloj. De este modo, cada uno tiene que atrapar a alguien y huir de otra persona. Si alguien es atrapado, es decir, tocado, se vuelve a sentar en el lugar donde fue tocado y el siguiente de su color se levanta. Este también intenta atrapar al color que le sigue en el sentido de las agujas del reloj. Esto continúa hasta que todos los jugadores estén sentados y distribuidos por la sala. Por eso es importante que los equipos recuerden el orden de las filas, porque el juego continúa incluso entonces. Es decir, si el último de la fila tiene que sentarse porque ha sido atrapado, le toca el turno al primero. Por lo tanto, hay que recordar tanto el orden del propio grupo como a quién hay que atrapar y de quién hay que huir.
+Los participantes se dividen en 4 equipos, lo más equitativos posible, según el color de su ropa. Estos equipos se sientan uno detrás de otro en una fila en la esquina del campo de juego (de modo que el último se sienta en la esquina y todos los que están delante se sienten en el campo). Ahora, el primer miembro de cada fila se levanta e intenta atrapar a la persona que lleva el color del siguiente grupo en el sentido de las agujas del reloj. De este modo, cada uno tiene que atrapar a alguien y huir de alguien. Si alguien es atrapado, es decir, tocado, se sienta de nuevo en el lugar donde fue tocado y el siguiente de su color se levanta. Este también intenta atrapar el color que está más cerca de él en el sentido de las agujas del reloj. Esto continúa hasta que todos los jugadores estén sentados y distribuidos por la sala. Por eso es importante que los equipos recuerden el orden de las filas, porque el juego continúa incluso entonces. Es decir, si el último de la fila tiene que sentarse porque ha sido tocado, le toca el turno al primero. Por lo tanto, hay que recordar no solo el orden del propio grupo, sino también a quién hay que atrapar y de quién hay que huir.
 
 ## **Fuente**:
 
-Libro de juegos Tasifan
+Tasifan Spielebuch

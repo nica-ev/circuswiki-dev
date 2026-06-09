@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:15:56
 title: Katz und Maus
-description: 
+description: Ein anspruchsvolles Kreisspiel, bei dem Katze und Maus durch wechselnde Kreispositionen jagen und fliehen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: schwer
+Material: keines
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Katz und Maus
+> [!info] Kurzbeschreibung
+> Ein anspruchsvolles Kreisspiel, bei dem Katze und Maus durch wechselnde Kreispositionen jagen und fliehen.
 
 **Gruppengröße**: Ab 10 Mitspieler (am besten gerade Anzahl)
 **Schwierigkeit**: anspruchsvoll

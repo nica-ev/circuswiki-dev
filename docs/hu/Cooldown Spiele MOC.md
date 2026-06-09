@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 20:50:45
+update: 2026-06-09 01:41:05
 title: Cooldown Spiele
 description: 
 authors:
@@ -15,9 +15,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: d66cca4e897d84f594ca06276fd14b7e3d24822a832827373c7b78faba7a846e
+translation_source_hash: 6dd4e1da674b4118b17220dd318fee9e76aa5b49ed024b7758f2164fcff4ee11
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:07:41+00:00
+translation_updated: 2026-06-09T01:28:50+00:00
 ---
 # Nyugtató játékok MOC
 <!-- dynamic:start
@@ -32,19 +32,19 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                          | group-min | group-max | Nehézség | Anyag | Játékidő |
 | --------------------------------------------------------------------------------------------- | --------- | --------- | -------- | ----- | -------- |
-| [Bewerbung im Zirkus](<Bewerbung%20im%20Zirkus.md>)                                           | -         | -         | -        | -     | -        |
-| [Bücherbalance](<B%C3%BCcherbalance.md>)                                                      | -         | -         | -        | -     | -        |
-| [Hände spüren](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | -         | -         | -        | -     | -        |
-| [Kartoffel Kartoffel](<Kartoffel%20Kartoffel.md>)                                             | -         | -         | -        | -     | -        |
-| [Klatsch mit Augenkontakt](<Klatsch%20mit%20Augenkontakt.md>)                                 | -         | -         | -        | -     | -        |
-| [Massagespiel - Bauer und Kartoffelfeld](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | -         | -         | -        | -     | -        |
-| [Medusa](<Medusa.md>)                                                                         | -         | -         | -        | -     | -        |
-| [Menschenhalma](<Menschenhalma.md>)                                                           | -         | -         | -        | -     | -        |
-| [Mörderspiel](<M%C3%B6rderspiel.md>)                                                          | -         | -         | -        | -     | -        |
-| [Nadelöhr](<Nadel%C3%B6hr.md>)                                                                | -         | -         | -        | -     | -        |
-| [Roboter](<Roboter.md>)                                                                       | -         | -         | -        | -     | -        |
-| [Schach](<Schach.md>)                                                                         | -         | -         | -        | -     | -        |
-| [Zip Zap](<Zip%20Zap.md>)                                                                     | -         | -         | -        | -     | -        |
-| [Zungenmörder](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | közepes  | egyik sem | 5 - 10   |
+| [Bewerbung im Zirkus](<Bewerbung%20im%20Zirkus.md>)                                           | 8         | 99        | könnyű    | nincs  | 5-10     |
+| [Bücherbalance](<B%C3%BCcherbalance.md>)                                                      | 3         | 20        | könnyű    | Könyvek | 5-10     |
+| [Hände spüren](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | könnyű    | nincs  | 5-10     |
+| [Kartoffel Kartoffel](<Kartoffel%20Kartoffel.md>)                                             | 5         | 20        | könnyű    | nincs  | 5-10     |
+| [Klatsch mit Augenkontakt](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5         | 99        | könnyű    | nincs  | 5-10     |
+| [Massagespiel - Bauer und Kartoffelfeld](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4         | 20        | könnyű    | nincs  | 5-10     |
+| [Medusa](<Medusa.md>)                                                                         | 5         | 25        | könnyű    | nincs  | 5-10     |
+| [Menschenhalma](<Menschenhalma.md>)                                                           | 8         | 20        | könnyű    | nincs  | 4        |
+| [Mörderspiel](<M%C3%B6rderspiel.md>)                                                          | 8         | 30        | közepes   | nincs  | 6        |
+| [Nadelöhr](<Nadel%C3%B6hr.md>)                                                                | 5         | 30        | könnyű    | nincs  | 5-10     |
+| [Roboter](<Roboter.md>)                                                                       | 2         | 30        | könnyű    | nincs  | 5-10     |
+| [Schach](<Schach.md>)                                                                         | 6         | 20        | közepes   | nincs  | 5-10     |
+| [Zip Zap](<Zip%20Zap.md>)                                                                     | 5         | 99        | könnyű    | nincs  | 5-10     |
+| [Zungenmörder](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | közepes   | nincs  | 5 - 10   |
 
 <!-- dynamic:end -->

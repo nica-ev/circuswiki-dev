@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen
-description: 
+description: Eine einfache Kennenlernübung im Kreis, bei der Namen, Augenkontakt und sauberes Werfen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,12 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen.md
-translation_source_hash: 5bca38356ed6a8371bbe59cfed4d8ad2f1d0845286e40d1316789dae66bbee63
+translation_source_hash: f661873986655b6189e8d4802a7cc386080c983f8f9561407f0f018f7b3aa9ff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:20:08+00:00
+translation_updated: 2026-06-09T01:47:56+00:00
 ---
-# Kennismaken met ballen
-
 > [!info] Korte beschrijving
-> "Kennenlernen met Bällen" is een eenvoudige kennismakingsactiviteit die de nadruk legt op oogcontact, namen onthouden en een correcte werptechniek.
+> Een eenvoudige kennismakingsoefening in een kring, waarbij namen, oogcontact en zuiver gooien gecombineerd worden.
 
 **Groepsgrootte**: Vanaf 4 deelnemers
 **Moeilijkheidsgraad**: Eenvoudig
@@ -38,20 +36,20 @@ translation_updated: 2026-06-06T23:20:08+00:00
 **Speelduur**: 2-10 minuten (afhankelijk van het aantal deelnemers)
 
 ## **Spelbeschrijving**:
-Iedereen staat in een cirkel.
+Iedereen staat in een kring.
 Eén persoon heeft een bal in de hand. Deze persoon zoekt oogcontact met een andere persoon in de groep, noemt diens naam en gooit de bal naar die persoon toe.
 
-Belangrijk: Pas gooien als er oogcontact is gemaakt, de naam is genoemd en het dus duidelijk is voor de andere persoon dat er naar hem/haar gegooid wordt.
+Belangrijk: Gooi pas als er oogcontact is gemaakt, de naam is genoemd en het dus duidelijk is voor de andere persoon dat de bal naar hem of haar wordt gegooid.
 
-Het gooien moet in een boog gebeuren, de werpende hand zwaait van achteren-beneden naar voren (zie ook jongleerbeweging met ballen).
+Het gooien moet in een boog gebeuren, waarbij de werparm van achteren-onder naar voren zwaait (zie ook jongleerbeweging met ballen).
 [Grundlagen Wurfjonglage - Kaskade](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
-Tip: Een goede worp maakt het vangen gemakkelijker.
+Tip: Een goede worp maakt het vangen makkelijker.
 
 ## **Bron**:
 Onbekend
 
-## **Zie ook:**
+## **Verwijzingen**
 
-[Kennenlernen met ballen achtervolgen](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
+[Kennismaken door achter ballen aan te rennen](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
 [Aandachtsspel met ballen](Aufmerksamkeits-Spiel%20mit%20Bällen.md)

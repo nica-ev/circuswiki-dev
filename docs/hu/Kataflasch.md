@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:48:21
 title: Kataflasch
-description: 
+description: Ein rhythmisches Kreisspiel, bei dem die Gruppe mit Sprache, Schritten und Bewegungen immer enger zusammenarbeitet.
 authors:
   - Marc Bielert
 category:
@@ -22,21 +22,26 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kataflasch.md
-translation_source_hash: f5b5d493c6421da537173d2517b5112178eda2e7a537d0b4e645b1e07a874332
+translation_source_hash: cb8d169acdb032758ca768f25757a8c3f4cdc5068a8f9c61776dbdb7acfacaa9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:45:18+00:00
+translation_updated: 2026-06-09T01:47:00+00:00
 ---
-# Kataflasch
+> [!info] Rövid leírás
+> Ritmikus körjáték, amelyben a csoport beszéd, lépések és mozdulatok révén egyre szorosabb együttműködésre késztet.
 
-**Csoportméret**: 10+ játékos
+**Csoportméret**: 10+ fő
 **Nehézség**: könnyű
 **Anyag**: nincs
 **Játékidő**: kb. 5 perc
 
-**Játékleírás**:
-A Kataflasch egy ritmusjáték körben. Minden játékos körben áll, és megfogja az előtte álló vállát. A játék most egyszerre kezdődik. Mindenki együtt kimondja: „Kataflasch”, és a „flasch” szótagra mindenki bal lábát egy lépéssel előre teszi. Újra mindenki együtt mondja: „Kataflasch”, de ezúttal a jobb lábbal lép előre. Ezután következik a „Kataflaschflasch-flasch”, és hozzá a bal-jobb-bal lépéssorozat. Ezután mindenki együtt mondja: „Anageta-tung-tungi-tungi”, és minden „tungi” szótagra a csípőjét mozgatja. Először balra, majd jobbra, majd újra balra. Majd ezt mondják: „Anageta-flauti-flauti-flauti”, és minden „flauti” szótagra a csípőjét előre, majd hátra, majd újra előre mozgatja. Végül az egész elölről kezdődik, a „Kataflasch” szóval és bal lábbal előre lépve. Néhány kör után mindenki már nem az előtte álló vállát fogja, hanem eggyel tovább, tehát a következő játékosét. Ehhez mindenkinek egy kicsit be kell csúsznia a körbe, mert a kör szűkebb, így kisebb is lesz. További körök után újra lehet egy játékossal arrébb menni a kezekkel, és annak a vállát megfogni. Ha még egy-két kört játszottak, kipróbálhatják a következőt: Mindenki egyszerre leül a mögötte álló combjára, anélkül, hogy elengedné az előtte lévő két játékos vállát. Ha minden jól megy, így mindenki viszonylag kényelmesen tud ülni!
+## **Játék leírása**:
 
-**Variáció**: Különböző hangulatokat próbálnak ki – mindenki szomorúan, mindenki gyorsan, mindenki lassan, mindenki túlpörögve stb.
+A Kataflasch egy ritmikus körjáték. Minden játékos körben áll, és megfogja az előtte álló vállát. A játék most egyszerre kezdődik. Mindenki együtt kimondja: „Kataflasch”, és a „flasch” szóra mindenki bal lábát egy lépéssel előre teszi. Újra mindenki együtt mondja: „Kataflasch”, de ezúttal a jobb lábát teszi egy lépéssel előre. Ezután következik a „Kataflaschflasch-flasch”, és hozzá a bal-jobb-bal lépéssorozat. Ezt követően mindenki együtt mondja: „Anageta-tung-tungi-tungi”, és minden „tungi” szóra a csípőjét mozgatja. Először balra, majd jobbra, majd újra balra. Ezután következik az „Anageta-flauti-flauti-flauti”, és minden „flauti” szóra a csípőjét előre, majd hátra, majd újra előre mozgatja. Végül az egész elölről kezdődik, a „Kataflasch” és a bal lábbal tett lépéssel. Néhány kör után mindenki már nem az előtte álló vállát fogja meg, hanem eggyel tovább, azaz a következő játékosét. Ehhez mindenkinek egy kicsit be kell csúsznia a körbe, mivel a kör szűkebb, és így kisebb is lesz. További körök után újra egy kézzel egy személlyel tovább lehet menni, és annak a vállát megfogni. Ha még egy-két kört játszottak, a következőket lehet kipróbálni: Mindenki egyszerre leül az őt követő játékos combjára, anélkül, hogy elengedné az előtte lévő előtti játékos vállát. Ha minden jól megy, így mindenki viszonylag kényelmesen ülhet!
 
-**Forrás**:
+## **Változatok**:
+
+Különböző hangulatokat próbálunk ki – mindenki szomorúan, mindenki gyorsan, mindenki lassan, mindenki túl lelkesen stb.
+
+## **Forrás**:
+
 Tasifan Spielebuch

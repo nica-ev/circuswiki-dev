@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen
-description: 
+description: Eine einfache Kennenlernübung im Kreis, bei der Namen, Augenkontakt und sauberes Werfen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,35 +23,33 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen.md
-translation_source_hash: 5bca38356ed6a8371bbe59cfed4d8ad2f1d0845286e40d1316789dae66bbee63
+translation_source_hash: f661873986655b6189e8d4802a7cc386080c983f8f9561407f0f018f7b3aa9ff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:05:19+00:00
+translation_updated: 2026-06-09T01:47:55+00:00
 ---
-# Conoscersi con le palle
-
 > [!info] Breve descrizione
-> "Conoscersi con le palle" è un semplice esercizio di conoscenza reciproca che pone l'accento sul contatto visivo, sulla memorizzazione dei nomi e su una tecnica di lancio corretta.
+> Un semplice esercizio di conoscenza reciproca in cerchio, che combina nomi, contatto visivo e un lancio pulito.
 
 **Dimensioni del gruppo**: Da 4 partecipanti in su
 **Difficoltà**: Facile
-**Materiale**: Una o più palle (sacchetti di fagioli, palline morbide o simili)
+**Materiale**: Uno o più palloni (sacchetti di fagioli, palline morbide o simili)
 **Durata del gioco**: 2-10 minuti (a seconda del numero di partecipanti)
 
 ## **Descrizione del gioco**:
-Tutti si mettono in cerchio.
-Una persona ha una palla in mano. Cerca il contatto visivo con un'altra persona nel gruppo, dice il suo nome e le lancia la palla.
+Tutti i partecipanti si dispongono in cerchio.
+Una persona ha un pallone in mano. Cerca il contatto visivo con un'altra persona nel gruppo, ne pronuncia il nome e le lancia il pallone.
 
-Importante: Lanciare solo dopo aver stabilito il contatto visivo, aver detto il nome e quindi aver reso chiaro all'altra persona che la palla è diretta verso di lei.
+Importante: Lanciare il pallone solo dopo aver stabilito il contatto visivo, aver pronunciato il nome e aver quindi reso chiaro all'altra persona che il lancio è diretto a lei.
 
-Il lancio deve avvenire con un arco, la mano che lancia si muove da dietro-in basso verso l'avanti (vedi anche movimento di giocoleria con le palle).
-[Fondamenti di giocoleria con lancio - Cascata](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
+Il lancio deve avvenire con un arco, la mano che lancia si muove da dietro-in basso verso l'avanti (vedi anche movimento di giocoleria con palloni).
+[Fondamenti di giocoleria con palloni - Cascata](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
-Nota: Un buon lancio rende più facile la presa.
+Nota: Un buon lancio rende la presa più facile.
 
 ## **Fonte**:
 Sconosciuta
 
-## **Vedi anche:**
+## **Riferimenti incrociati**
 
-[Conoscersi con le palle rincorrendosi](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
-[Gioco di attenzione con le palle](Aufmerksamkeits-Spiel%20mit%20Bällen.md)
+[Conoscersi correndo dietro ai palloni](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
+[Gioco di attenzione con i palloni](Aufmerksamkeits-Spiel%20mit%20Bällen.md)

@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
 title: Slalom in Reihe
-description: 
+description: Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
-# Slalom in Reihe
+> [!info] Kurzbeschreibung
+> Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
+
+**Gruppengröße**: 3-25 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Aufwärmspiel für kleine bis mittlere Gruppen. Viel Raum für Variationen.
 
@@ -24,20 +38,31 @@ Es werden kleine Gruppen von 3 - 5 Personen gebildet. Personen einer Gruppe steh
 Die Gruppen sollten genug Platz nebeneinander haben, so daß sie sich nicht behindern.
 Nachfolgend werden verschiedene Abläufe beschrieben.
 
-Slalom :
+## **Varianten**:
+
+### Slalom
+
 Die letzte Person in der Reihe fängt an im Slalom um die Personen vor ihr herumzulaufen, bis sie an der Spitze der Reihe angelangt ist. Dort bleibt sie stehen.
 Die "vorletzte" Person fängt an im Slalom hinterherzulaufen, sobald sie zur letzten Person in der Reihe geworden ist.
 
-Hoch / Tief :
+### Hoch / Tief
+
 Die Personen in der Reihe stehen immer abwechselnd aufrecht mit gegrätschten Beinen und zusammengehockt, so klein wie möglich. Der letzte in der Reihe fängt wieder an - durch gegrätschte Beine wird hindurchgekrochen, über eine zusammengekauerte Person wird ein Bocksprung gemacht.
 
-Hundetunnel :
+### Hundetunnel
+
 Jede Person in der Gruppe steht in der Yoga-Haltung "Der Hund" - Füße und Hände sind auf dem Boden, Beine sind durchgestreckt, der Po ist in die Höhe gereckt so das der Körper mit dem Boden ein Dreieck bildet.
 Jede Person ist so gedreht, das sich ein Tunnel bildet (alle sind nach rechts gedreht und begeben sich in die Position).
 Der letzte in der Reihe krabbelt durch diesen Tunnel hindurch, auf der anderen Seite angekommen begibt er sich wieder in die Hundeposition.
 
-Liegestütz :
+### Liegestütz
+
 Jede Person in der Gruppe dreht sich nach rechts und begibt sich in die Liegestütz-Position, die Arme können gestreckt bleiben. Der letzte in der Reihe steigt über die anderen hinüber, auf der anderen Seite angekommen begibt er sich wieder in die Liegestütz-Position.
+
+## **Hinweise**:
 
 --> Man kann viele andere Variationen erfinden, wichtig ist das die Abläufe simpel gehalten werden und nicht zu viele Personen in einer Gruppe sind.
 
+## **Quelle**:
+
+Unbekannt

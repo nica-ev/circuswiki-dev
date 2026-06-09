@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:03:08
 title: Zombieball
-description: 
+description: Ein Abwurfspiel, bei dem getroffene Personen zurückkehren können, sobald die Person abgeworfen wird, die sie getroffen hat.
 authors:
   - Marc Bielert
 category:
@@ -22,8 +22,8 @@ todo: Text überarbeiten
 translation_status: original
 translation_source_lang: de
 ---
->[!info] Kurzbeschreibung 
->"Zombieball" ist ein Abwurfspiel, bei dem Spieler sich gegenseitig mit einem Ball abwerfen. Abgeworfene Spieler können wieder ins Spiel zurückkehren, indem der Spieler, der sie abgeworfen hat, selbst abgeworfen wird.
+> [!info] Kurzbeschreibung
+> Ein Abwurfspiel, bei dem getroffene Personen zurückkehren können, sobald die Person abgeworfen wird, die sie getroffen hat.
 
 **Gruppengröße**: Ab 5 Mitspieler
 **Schwierigkeit**: mittel

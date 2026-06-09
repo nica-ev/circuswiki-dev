@@ -7,23 +7,43 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:03:53
 title: Energie Klatschkreis
-description: 
+description: Ein schnelles Kreisspiel, bei dem ein Klatschimpuls möglichst flüssig von Person zu Person weitergegeben wird.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 5
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Energie Klatschkreis.md
-translation_source_hash: dd096f961765cdeaf981185ad5412d98a4fab3f92f1ce84e8ead4053cdc626ae
+translation_source_hash: 3c69d5b0f828cbd5d469491e2f9a7de3ce68f17dd522a1dea8f68855465b7a35
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:38:50+00:00
+translation_updated: 2026-06-09T01:36:15+00:00
 ---
-# Energia Csattkör
+> [!info] Rövid leírás
+> Egy gyors körjáték, amelyben egy tapsimpulzust a lehető legfolyamatosabban kell személyről személyre továbbítani.
+
+**Csoportméret**: 5 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 2-5 perc
+
+## **Játék leírása**:
 
 Körjáték kisebb és nagyobb csoportok számára.
 
-Mindenki álljon körben, és egy csattot adjanak tovább a szomszédnak.
-A cél, hogy ezt a csattot felvegyék, megforduljanak, és továbbadják – a lehető leggyorsabban.
+Mindenki álljon körben, és a tapsot adják tovább a szomszédnak.
+A cél az, hogy ezt a tapsot felvegyék, megforduljanak, és továbbadják – a lehető leggyorsabban.
 
-[Csatt szemkontaktussal](Klatsch%20mit%20Augenkontakt.md)
+## **Forrás**:
+
+Ismeretlen
+
+## **Hivatkozások**
+
+[Taps szemkontaktussal](Klatsch%20mit%20Augenkontakt.md)

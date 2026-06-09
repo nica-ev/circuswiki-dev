@@ -5,40 +5,59 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:44:14
+update: 2026-06-09 01:24:02
 title: Ding Dang Dong
-description: 
+description: Ein Klatschspiel für zwei Personen mit rhythmischem Text und einfachen Bewegungen zu Ding, Dang und Dong.
 authors:
   - Marc Bielert
 category:
   - klatschspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 2
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ding Dang Dong.md
-translation_source_hash: d69cb9e70abeb49c310c911f081a5437bcb6993ce258c8f9ff29fa3887f489cb
+translation_source_hash: 1a90ded22af79816b409c4a73c4fb02aa5e5d8ab6b4a9e19aeced92dff121b65
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:11:18+00:00
+translation_updated: 2026-06-09T01:34:25+00:00
 ---
-# Ding Dang Dong
+> [!info] Krótki opis
+> Gra w klaskanie dla dwóch osób z rytmicznym tekstem i prostymi ruchami.
+
+**Liczba graczy**: 2 osoby
+**Poziom trudności**: łatwy
+**Materiały**: żadne
+**Czas trwania**: 2-5 minut
+
+## **Opis gry**:
 
 Gra w klaskanie dla 2 osób.
 
-Tekst:
+### Tekst
+
 „O, baloniku, karmelku.
 Wszystkie małpy i żyrafy robią
 Ding Dang Dong
 Wszystkie świnie bez nóg,
-Wszystkie kozy bez lotu
-robią Bee”
+Wszystkie kozy bez lotów
+robią meee”
 
-Poniżej tekst z ruchami:
+### Ruchy
 
-„O *(ręce złożone przed ustami w kształt trąbki, jakby do wołania)*
+„O *(ręce złożone przed ustami jak do wołania)*
 baloniku, karmelku, wszystkie małpy i żyrafy robią
-*(Ręce są rytmicznie klaszczące, naprzemiennie samodzielnie lub z dłońmi partnera)*
+*(ręce klaskają rytmicznie naprzemiennie, samemu lub z partnerem)*
 Ding *(ręka dotyka głowy)*
 Dang *(ręka dotyka biodra)*
 Dong *(ręka dotyka stopy)*
-Wszystkie świnie bez nóg, wszystkie kozy bez lotu
-*(Ręce są rytmicznie klaszczące, naprzemiennie samodzielnie lub z dłońmi partnera)*
-robią Bee *(ręce przy uszach, dłonie otwarte skierowane do partnera, kciuki dotykają skroni)*”
+Wszystkie świnie bez nóg, wszystkie kozy bez lotów
+*(ręce klaskają rytmicznie naprzemiennie, samemu lub z partnerem)*
+robią meee *(ręce przy uszach, dłonie otwarte w kierunku partnera, kciuki dotykają skroni)*
+
+## **Źródło**:
+
+Nieznane

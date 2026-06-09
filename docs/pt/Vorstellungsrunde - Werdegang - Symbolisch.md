@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 02:01:47
 title: Vorstellungsrunde - Werdegang - Symbolisch
-description: 
+description: Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,27 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vorstellungsrunde - Werdegang - Symbolisch.md
-translation_source_hash: f9ce72a19472a651e18a45ffb908adc8141f7b3d2b7e6bea5e0615e3b981c5e4
+translation_source_hash: 5fac14ef4bc249a22a8cc484d0c6d716c37bba82715d1708bdc7dd36ed1e052a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:14:28+00:00
+translation_updated: 2026-06-09T02:36:12+00:00
 ---
 > [!info] Breve Descrição
-> Um jogo criativo de apresentação para pequenos grupos, no qual os participantes representam simbolicamente o seu percurso pessoal ou outros temas com objetos, oferecendo assim uma visão profunda das suas experiências.
+> Uma apresentação simbólica em grupo, onde caminhos pessoais são apresentados e dispostos com objetos como uma linha do tempo.
 
-**Tamanho do Grupo**: Pequeno
+**Tamanho do grupo**: 2-10 pessoas
 **Dificuldade**: Média
-**Material**: Uma caixa grande com brinquedos, animais pequenos, blocos de construção, Lego e objetos semelhantes.
-**Duração do Jogo**: Aproximadamente 30-45 minutos
+**Material**: Uma caixa grande com brinquedos, pequenos animais, blocos de construção, Lego e itens semelhantes
+**Duração do jogo**: Aproximadamente 30-45 minutos
 
 ## **Descrição do Jogo**:
 
-Jogo de apresentação para pequenos grupos.
+Jogo de apresentação para grupos pequenos.
 
-Uma caixa grande com brinquedos, animais pequenos, blocos de construção, Lego e objetos semelhantes é colocada no centro do círculo.
+Uma caixa grande com brinquedos, pequenos animais, blocos de construção, Lego e itens semelhantes é colocada no centro do círculo.
 
 Cada participante tem agora 5-10 minutos para dispor o seu percurso pessoal (os temas podem variar).
 
-O objetivo é construir uma linha / sequência de objetos que represente o percurso pessoal sobre um determinado tema, do passado para o futuro, numa espécie de linha do tempo.
+O objetivo é construir uma linha/sequência de objetos que represente o percurso pessoal sobre um determinado tema, do passado para o futuro, numa espécie de linha do tempo.
 
 Depois, cada um apresenta a sua linha do tempo e podem ser colocadas perguntas.
 

@@ -7,19 +7,33 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:13
 title: Was tust Du da?
-description: 
+description: Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Was tust Du da.md
-translation_source_hash: c5e20af0897aaa0cc0477e21f3bee34498f9c7b7d06b8f0565a0cbababcad58c
+translation_source_hash: a1e6cd66c46069b1c5317dfe1beb87a8d5d1e578c583dd2fdbb085ed725ac51c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:14:53+00:00
+translation_updated: 2026-06-09T02:36:36+00:00
 ---
-# Čo tam robíš?
+> [!info] Stručný popis
+> Divadelná hra, pri ktorej sa predvádzané činnosti odovzdávajú pomocou zámerne nevhodných odpovedí.
+
+**Veľkosť skupiny**: 4 – 20 osôb
+**Náročnosť**: stredná
+**Materiál**: žiadny
+**Dĺžka hry**: 10 – 15 minút
+
+## **Popis hry**:
 
 Divadelná hra pre malé až stredne veľké skupiny.
 
@@ -27,7 +41,7 @@ Na javisku sú vždy 2 osoby, zvyšok sa pozerá.
 
 Osoba A začne pantomimicky predvádzať ľubovoľnú činnosť (napr. jesť zmrzlinu, čítať knihu, umývať si zuby, hrať futbal atď.).
 
-Osoba B chvíľu pozoruje, potom sa priblíži a spýta sa: „Čo tam vlastne robíš? / Čo tam robíš?“
+Osoba B chvíľu sleduje, potom sa priblíži a spýta sa: „Čo tam vlastne robíš? / Čo to robíš?“
 
 Osoba A odpovie úplne inou činnosťou.
 
@@ -35,9 +49,9 @@ Príklad: Osoba A číta knihu, B sa spýta: „Čo tam robíš?“ A odpovie: �
 
 Osoba B: „Ach, jasné – všetko v poriadku“ a začne predvádzať túto činnosť.
 
-Teraz A chvíľu pozoruje a potom sa spýta: „Čo tam vlastne robíš?“ a B opäť odpovie inou činnosťou: „Práve robím rannú gymnastiku.“
+Teraz A chvíľu sleduje a potom sa spýta: „Čo tam vlastne robíš?“ a B opäť odpovie inou činnosťou: „Práve robím rannú gymnastiku.“
 
-Pravidlá:
+## **Pokyny**:
 
 Preferujte stred javiska.
 
@@ -45,6 +59,10 @@ Telo je otočené k publiku.
 
 Hovorte nahlas a zreteľne.
 
-Dajte druhému aspoň 10 sekúnd na predvedenie činnosti, než sa ho spýtate, čo robí.
+Dajte druhému človeku aspoň 10 sekúnd na predvedenie činnosti, než sa ho spýtate, čo robí.
 
-Umožnite 3-4 výmeny a potom hru ukončite. Na javisko môžu prísť 2 nové osoby.
+Nechajte prebehnúť 3 – 4 výmeny a potom hru ukončite. Na javisko môžu prísť 2 nové osoby.
+
+## **Zdroj**:
+
+Neznámy

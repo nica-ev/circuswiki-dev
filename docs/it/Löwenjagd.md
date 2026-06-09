@@ -7,25 +7,47 @@ publish: true
 tags:
   - spiele
 title: Löwenjagd
-description: 
+description: Ein Call-and-Response-Spiel für Gruppen, dessen genauer Text noch ergänzt werden muss.
 authors:
   - Marc Bielert
 category:
   - call-response
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Löwenjagd.md
-translation_source_hash: 86322a33e561f0d9b453d4019fce442d49296cffbed525c945f5898ef5d3342c
+translation_source_hash: ae48eb999da23b44c2a576fd0ac2dbd6409bff69ee53c385bce249a00d855874
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:29:17+00:00
+translation_updated: 2026-06-09T02:04:35+00:00
 ---
-# Caccia al leone
+> [!info] Breve descrizione
+> Un gioco di chiamata e risposta per gruppi, il cui testo esatto deve ancora essere completato.
 
-Gioco di chiamata e risposta per piccoli e grandi gruppi.
+**Dimensioni del gruppo**: da 4 persone in su
+**Difficoltà**: facile
+**Materiale**: nessuno
+**Durata del gioco**: 5-10 minuti
+
+## **Descrizione del gioco**:
+
+Gioco di chiamata e risposta per gruppi piccoli o grandi.
 
 Testo:
-"Ora andiamo a caccia di leoni"
+"Andiamo a caccia di leoni"
 
---> Chiedere a Juri o Kathrin il testo esatto
+## **Note**:
 
-vedi anche [La storia della banana](Die%20Geschichte%20der%20Banane.md)
+Chiedere a Juri o Kathrin il testo esatto.
+
+## **Fonte**:
+
+Sconosciuta
+
+## **Riferimenti incrociati**
+
+[La storia della banana](Die%20Geschichte%20der%20Banane.md)

@@ -7,33 +7,42 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:37
 title: Kommando
-description: 
+description: Ein Reaktionsspiel mit Platzwechseln, bei dem Personen auf passende Kommandos schnell neue Plätze suchen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: Matten oder Sitzplatzmarkierungen
+Spieldauer: 4-7
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kommando.md
-translation_source_hash: d4a80fcce7dab7c6125879dd6e0fad3f6a32134e511907d7d1068ccf5c3ee8fd
+translation_source_hash: 12499e7ccff550bf5a46ede3b613d0748555365dac4c1454509fbe2ef58d4c86
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:07:20+00:00
+translation_updated: 2026-06-09T01:50:58+00:00
 ---
-# Comando
+> [!info] Breve descripción
+> Un juego de reacción con cambios de lugar, en el que las personas buscan rápidamente nuevos sitios al oír las consignas adecuadas.
 
 **Tamaño del grupo**: 6 a 25 participantes
 **Dificultad**: fácil
 **Material**: colchonetas u otras marcas de asientos
 **Duración del juego**: 4 a 7 minutos
 
-**Descripción del juego**:
-Todos los jugadores, excepto uno, se sientan en una colchoneta o en un lugar claramente marcado. Los lugares están dispuestos en círculo y en el centro se encuentra el jugador que no tiene asiento. Este jugador da una orden específica, por ejemplo, dice: "Comando: quien haya estado alguna vez en el Mar Báltico" o "Comando: quien lleve calcetines verdes" o lo que se le ocurra en ese momento. Todos los jugadores a los que se aplique el comando deben levantarse de un salto y buscar rápidamente un nuevo asiento. El jugador del centro puede intentar hacerse con uno de los asientos que queden libres. Si lo consigue, el que se quede sin asiento deberá dar una nueva orden. Además, existen las siguientes tres órdenes que se pueden decir en cualquier momento si se está en el centro:
+## **Descripción del juego**:
 
-- Comando izquierda: Todos deben cambiarse al asiento de su izquierda.
-- Comando derecha: Todos deben cambiarse al asiento de su derecha.
-- Comando alrededor: Todos deben dar una vuelta alrededor de su propio asiento y volver a sentarse.
+Todos los jugadores, excepto uno, están sentados en una colchoneta o en un sitio claramente marcado. Los sitios están dispuestos en círculo y en el centro se encuentra el jugador que no tiene sitio. Este jugador da una consigna específica, por ejemplo: "Consigna: quien haya estado alguna vez en el mar Báltico" o "Consigna: quien lleve calcetines verdes" o lo que se le ocurra en ese momento. Todos los jugadores a los que se aplique la consigna deben levantarse rápidamente y buscar un nuevo sitio. El jugador del centro puede intentar hacerse con uno de los sitios que queden libres. Si lo consigue, el que se quede sin sitio deberá dar una nueva consigna. Además, existen las siguientes tres consignas que se pueden decir en cualquier momento si se está en el centro:
 
-Estas órdenes solo sirven para dar más movimiento al juego, no para que el jugador del centro pueda buscar un asiento.
+- Consigna izquierda: todos deben cambiarse al sitio de su izquierda.
+- Consigna derecha: todos deben cambiarse al sitio de su derecha.
+- Consigna alrededor: todos deben dar una vuelta alrededor de su propio sitio y volver a sentarse.
 
-**Fuente**:
+Estas consignas sirven únicamente para dar más dinamismo al juego, no para que el jugador del centro pueda buscarse un sitio.
+
+## **Fuente**:
+
 Tasifan Spielebuch

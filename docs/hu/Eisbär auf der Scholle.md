@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
 title: Eisbär auf der Scholle
-description: 
+description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 authors:
   - Marc Bielert
 category:
@@ -22,26 +22,24 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eisbär auf der Scholle.md
-translation_source_hash: 77871035b928d57d11ac0a8c52f91fa152f871c6be73b90b69e3e1694cbe8d3c
+translation_source_hash: 40b1f156692a45237de5c0f050a876ce1875d709e7982c01fc413932302b2b10
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:38:48+00:00
+translation_updated: 2026-06-09T01:35:34+00:00
 ---
-# Jégtánc a jégtáblán
-
 > [!info] Rövid leírás
-> Egy kooperatív és kompetitív mozgásjáték, amelyben a játékosok közösen próbálnak egy szőnyeget (a "jégtáblát") áttolni a játéktéren, miközben egy "jegesmedve" próbálja ezt megakadályozni.
+> Egy mozgásjáték, amelyben a csoport egy szőnyeget tol előre, mint egy jégtáblát, miközben egy jegesmedve próbálja megállítani őket.
 
-**Csoportméret**: 10+ játékos
+**Csoportméret**: 10+ fő
 **Nehézség**: Közepes
 **Anyag**: Egy vastag szőnyeg
 **Játékidő**: 5-10 perc
 
 ## **Játék leírása**:
-A játékvezető vagy egy játékos ráül a vastag szőnyegre, és ő a jegesmedve a saját jégtábláján. A jégtábla a startvonalnál van, a játéktér másik végén, távolabb pedig a célvonal található.
+A játékvezető vagy egy játékos leül a vastag szőnyegre, és ő lesz a jegesmedve a saját jégtábláján. A jégtábla a startvonalnál áll, és a játéktér másik végén, távolabb, található a célvonal.
 
-A játékosok megpróbálják a jégtáblát a startvonaltól a célvonalig áttolni. A jegesmedvének ez egyáltalán nem tetszik, mert ő csak békére vágyik. Ezért megpróbálja megérinteni (leütni) a toló játékosokat. Akiket leüt, azoknak vissza kell futniuk a startvonalig, és esetleg még egy kis büntetést is végre kell hajtaniuk (például öt guggolásból ugrás vagy hasonló). Csak ezután térhetnek vissza a jégtáblához, és próbálhatják tovább tolni azt a cél felé.
+A játékosok megpróbálják a jégtáblát a startvonaltól a célvonalig tolni. Azonban a jegesmedvének ez egyáltalán nem tetszik, mert ő csak békére vágyik. Ezért megpróbálja megérinteni (megcsippenteni) a toló játékosokat. Akiket megérint, azoknak vissza kell futniuk a startvonalig, és opcionálisan még egy kis büntetést is végre kell hajtaniuk (például öt guggolásból felugrás vagy hasonló). Csak ezután térhetnek vissza a jégtáblához, és próbálhatják tovább tolni azt a cél felé.
 
-Ha a jégtábla eléri a célt, a jegesmedve megadja magát, és elhagyja a jégtábláját. Elég játékos esetén a játékot két csoport is játszhatja egymás ellen, mint jégtábla-verseny.
+Ha a jégtábla eléri a célt, a jegesmedve megadja magát, és elhagyja a jégtábláját. Elég játékos esetén a játékot két csoport is játszhatja egymás ellen, mint jégtáblaverseny.
 
 ## **Forrás**:
 Tasifan Spielebuch

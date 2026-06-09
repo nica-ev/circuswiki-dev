@@ -1,16 +1,132 @@
 {
   "recentFiles": [
     {
+      "basename": "dataview serializer",
+      "path": "_dataview/dataview serializer.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/de/index.md"
+    },
+    {
+      "basename": "Bewegungs-Spiele",
+      "path": "docs/de/Bewegungs-Spiele.md"
+    },
+    {
+      "basename": "1-2-3",
+      "path": "docs/de/1-2-3.md"
+    },
+    {
+      "basename": "Spiele-Base",
+      "path": "_bases/Spiele-Base.base"
+    },
+    {
+      "basename": "Liste aller Spiele",
+      "path": "docs/de/Liste aller Spiele.md"
+    },
+    {
+      "basename": "Spiele für Zwischendurch",
+      "path": "docs/de/Spiele für Zwischendurch.md"
+    },
+    {
+      "basename": "Fangspiele",
+      "path": "docs/de/Fangspiele.md"
+    },
+    {
+      "basename": "Spiele zum Kennenlernen",
+      "path": "docs/de/Spiele zum Kennenlernen.md"
+    },
+    {
+      "basename": "Inklusion-Spiele",
+      "path": "docs/de/Inklusion-Spiele.md"
+    },
+    {
+      "basename": "MOC Call & Response Spiele",
+      "path": "docs/de/MOC Call & Response Spiele.md"
+    },
+    {
+      "basename": "Taktik und Konzentrationsspiele",
+      "path": "docs/de/Taktik und Konzentrationsspiele.md"
+    },
+    {
+      "basename": "Schnelligkeit+Reaktionsspiele",
+      "path": "docs/de/Schnelligkeit+Reaktionsspiele.md"
+    },
+    {
+      "basename": "Bewegungsspiele",
+      "path": "docs/de/Bewegungsspiele.md"
+    },
+    {
+      "basename": "Kreisspiele MOC",
+      "path": "docs/de/Kreisspiele MOC.md"
+    },
+    {
+      "basename": "Kooperationsspiele",
+      "path": "docs/de/Kooperationsspiele.md"
+    },
+    {
+      "basename": "Cooldown Spiele MOC",
+      "path": "docs/de/Cooldown Spiele MOC.md"
+    },
+    {
+      "basename": "Klatschspiele MOC",
+      "path": "docs/de/Klatschspiele MOC.md"
+    },
+    {
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/de/Aufwärmspiele MOC.md"
+    },
+    {
+      "basename": "Tratschen in Anwesenheit",
+      "path": "docs/de/Tratschen in Anwesenheit.md"
+    },
+    {
+      "basename": "Gemeinsamkeit und Unterschied",
+      "path": "docs/de/Gemeinsamkeit und Unterschied.md"
+    },
+    {
+      "basename": "Verheiratet-Geschieden",
+      "path": "docs/de/Verheiratet-Geschieden.md"
+    },
+    {
+      "basename": "Frutti del Mare - Aufwärmspiel",
+      "path": "docs/de/Frutti del Mare - Aufwärmspiel.md"
+    },
+    {
+      "basename": "Stierkampf - Tatonga",
+      "path": "docs/de/Stierkampf - Tatonga.md"
+    },
+    {
+      "basename": "Zah",
+      "path": "docs/de/Zah.md"
+    },
+    {
+      "basename": "Peng-Peng-Knall-Wir-fliegen-in-das-All",
+      "path": "docs/de/Peng-Peng-Knall-Wir-fliegen-in-das-All.md"
+    },
+    {
+      "basename": "Ding Dang Dong",
+      "path": "docs/de/Ding Dang Dong.md"
+    },
+    {
+      "basename": "5 Drachen und Zwerge",
+      "path": "docs/de/5 Drachen und Zwerge.md"
+    },
+    {
+      "basename": "Goldener Hirsch",
+      "path": "docs/de/Goldener Hirsch.md"
+    },
+    {
+      "basename": "Der Hund im großen Haus",
+      "path": "docs/de/Der Hund im großen Haus.md"
+    },
+    {
       "basename": "5-Step Methode",
       "path": "docs/it/5-Step Methode.md"
     },
     {
       "basename": "5-Step Methode",
       "path": "docs/de/5-Step Methode.md"
-    },
-    {
-      "basename": "Spiele zum Kennenlernen",
-      "path": "docs/de/Spiele zum Kennenlernen.md"
     },
     {
       "basename": "Spiele zum Kennenlernen",
@@ -23,10 +139,6 @@
     {
       "basename": "Kartoffel Kartoffel",
       "path": "docs/en/Kartoffel Kartoffel.md"
-    },
-    {
-      "basename": "Fangspiele",
-      "path": "docs/de/Fangspiele.md"
     },
     {
       "basename": "Fangspiele",
@@ -53,72 +165,12 @@
       "path": "docs/de/Case Study 15 - United States.md"
     },
     {
-      "basename": "Taktik und Konzentrationsspiele",
-      "path": "docs/de/Taktik und Konzentrationsspiele.md"
-    },
-    {
       "basename": "komm-mit-lauf-weg",
       "path": "docs/de/komm-mit-lauf-weg.md"
     },
     {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/de/Aufwärmspiele MOC.md"
-    },
-    {
-      "basename": "Spiele-Base",
-      "path": "_bases/Spiele-Base.base"
-    },
-    {
-      "basename": "Spiele für Zwischendurch",
-      "path": "docs/de/Spiele für Zwischendurch.md"
-    },
-    {
-      "basename": "Schnelligkeit+Reaktionsspiele",
-      "path": "docs/de/Schnelligkeit+Reaktionsspiele.md"
-    },
-    {
-      "basename": "MOC Call & Response Spiele",
-      "path": "docs/de/MOC Call & Response Spiele.md"
-    },
-    {
-      "basename": "Liste aller Spiele",
-      "path": "docs/de/Liste aller Spiele.md"
-    },
-    {
-      "basename": "5 Drachen und Zwerge",
-      "path": "docs/de/5 Drachen und Zwerge.md"
-    },
-    {
-      "basename": "Kreisspiele MOC",
-      "path": "docs/de/Kreisspiele MOC.md"
-    },
-    {
-      "basename": "Kooperationsspiele",
-      "path": "docs/de/Kooperationsspiele.md"
-    },
-    {
-      "basename": "Klatschspiele MOC",
-      "path": "docs/de/Klatschspiele MOC.md"
-    },
-    {
       "basename": "Kaskade Workspace",
       "path": "docs/de/Kaskade Workspace.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/de/index.md"
-    },
-    {
-      "basename": "Cooldown Spiele MOC",
-      "path": "docs/de/Cooldown Spiele MOC.md"
-    },
-    {
-      "basename": "Bewegungsspiele",
-      "path": "docs/de/Bewegungsspiele.md"
-    },
-    {
-      "basename": "Bewegungs-Spiele",
-      "path": "docs/de/Bewegungs-Spiele.md"
     },
     {
       "basename": "README",
@@ -147,58 +199,6 @@
     {
       "basename": "Unbenannt 5",
       "path": "_inbox/Unbenannt 5.md"
-    },
-    {
-      "basename": "ARCHITECTURE",
-      "path": "tools/ARCHITECTURE.md"
-    },
-    {
-      "basename": "ARCHITECTURE_REVIEW",
-      "path": "tools/ARCHITECTURE_REVIEW.md"
-    },
-    {
-      "basename": "Paar haschen & Kettenhaschen",
-      "path": "docs/en/Paar haschen & Kettenhaschen.md"
-    },
-    {
-      "basename": "Medusa",
-      "path": "docs/en/Medusa.md"
-    },
-    {
-      "basename": "Kissenrennen",
-      "path": "docs/en/Kissenrennen.md"
-    },
-    {
-      "basename": "Ich fahre Zug",
-      "path": "docs/en/Ich fahre Zug.md"
-    },
-    {
-      "basename": "Frutti del Mare - Aufwärmspiel",
-      "path": "docs/en/Frutti del Mare - Aufwärmspiel.md"
-    },
-    {
-      "basename": "Drunter und Drüber",
-      "path": "docs/de/Drunter und Drüber.md"
-    },
-    {
-      "basename": "Case Study 14 - United States",
-      "path": "docs/de/Case Study 14 - United States.md"
-    },
-    {
-      "basename": "Case Study 03 - Italy",
-      "path": "docs/de/Case Study 03 - Italy.md"
-    },
-    {
-      "basename": "Beigoma Terminologie",
-      "path": "docs/de/Beigoma Terminologie.md"
-    },
-    {
-      "basename": "Ball werfen im Stern",
-      "path": "docs/de/Ball werfen im Stern.md"
-    },
-    {
-      "basename": "Warsztat Hula hoop",
-      "path": "docs/pl/Warsztat Hula hoop.md"
     }
   ],
   "omittedPaths": [],

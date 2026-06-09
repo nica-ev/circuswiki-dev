@@ -7,30 +7,41 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:23:35
 title: Menschenhalma
-description: 
+description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen mit Sprüngen gegnerische Figuren schlagen oder die Grundlinie erreichen.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Menschenhalma.md
-translation_source_hash: 6e1051eb6834bd79f7c6851e2c7e6afdf312404839a05d7cf179f557a46c454d
+translation_source_hash: 7738fc3c54e9797e7abfd1a474cdc13588b7078f25c1d6cc6a9e440250129242
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:05:36+00:00
+translation_updated: 2026-06-09T02:06:36+00:00
 ---
-# Lidské pexeso
+> [!info] Stručný popis
+> Tichá taktická hra pro dva týmy, ve které hráči skákáním vyřazují soupeřovy figurky nebo dosahují základní linie.
 
 **Obtížnost**: snadná
-**Počet hráčů**: 8 až 20 účastníků, ideálně sudý počet
+**Velikost skupiny**: 8 až 20 hráčů, ideálně sudý počet
 **Materiál**: žádný
 **Délka hry**: cca 4 minuty
 
-**Popis hry**:
-Dva stejně velké týmy stojí proti sobě na dvou liniích. Nejdůležitější pravidlo zní: během hry se nesmí mluvit! Jeden hráč z týmu, který má začít, vyskočí s nohama u sebe dopředu nebo do strany, nikdy ne dozadu. Nyní je na řadě druhý tým a i zde vyskočí hráč podle stejného principu. Cílem této hry je "srazit" všechny ostatní hráče, tedy skočit tak, abyste se mohli dotknout jiného hráče. Alternativně může hráč přeskočit zadní linii soupeře, čímž jeho tým hru vyhrává. Pokud se hráči při skoku stane chyba (neskočí na obě nohy, skočí dozadu, spadne apod.), je ze hry venku. Pokud v jednom kole vyskočí dva hráči stejného týmu, je ze hry venku ten, kdo skočil jako druhý. Pokud hráč při pokusu o "sražení" někoho spadne nebo se musí zapřít, je venku pouze on, i když se dotkl soupeře. Pokud někdo spadne ze strachu, že bude "sražen", nebo udělá krok, je ze hry venku. A v neposlední řadě: kdo promluví nebo vydá zvuk, je také ze hry venku.
+## **Popis hry**:
 
-**Zdroj**:
+Dva stejně velké týmy stojí proti sobě na dvou liniích. Nejdůležitější pravidlo je: během hry se nesmí mluvit! Jeden hráč z týmu, který má začít, vyskočí s nohama u sebe dopředu nebo do strany, nikdy ne dozadu. Nyní je na řadě druhý tým a i zde vyskočí hráč podle stejného principu. Cílem hry je vyřadit všechny ostatní hráče, tedy skákat tak, abyste se mohli dotknout jiného hráče. Alternativně může hráč přeskočit na základní linii soupeře, čímž jeho tým hru vyhrává. Pokud hráč při skoku udělá chybu (neskočí na obě nohy, skočí dozadu, spadne apod.), je vyřazen. Pokud dva hráči stejného týmu vyskočí v jednom tahu, je vyřazen ten, kdo skočil druhý. Pokud hráč při pokusu o dotek spadne nebo se musí zapřít, je vyřazen pouze on, i když byl druhý hráč dotčen. Pokud někdo spadne ze strachu, že bude dotčen, nebo udělá krok, je vyřazen. A v neposlední řadě: kdo mluví nebo vydává zvuky, je také vyřazen.
+
+## **Zdroj**:
+
 Tasifan Spielebuch
 
-**Viz také**: [Šachy](Schach.md)
+## **Související odkazy**
+
+[Šachy](Schach.md)

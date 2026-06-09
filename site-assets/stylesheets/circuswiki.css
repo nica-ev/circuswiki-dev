@@ -55,16 +55,56 @@ body {
   color: var(--cw-red);
 }
 
-.md-typeset table:not([class]) {
+.md-typeset table:not([class]),
+.md-typeset table[data-cw-plain-table="true"] {
   background: rgba(255, 255, 255, 0.64);
   border: 1px solid var(--cw-line);
   border-radius: 0.7rem;
   overflow: hidden;
 }
 
-.md-typeset table:not([class]) th {
+.md-typeset table:not([class]) th,
+.md-typeset table[data-cw-plain-table="true"] th {
   background: rgba(47, 111, 94, 0.08);
   color: var(--cw-ink);
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header {
+  position: relative;
+  padding-right: 1.7rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header::after {
+  content: "↕";
+  position: absolute;
+  right: 0.6rem;
+  color: var(--cw-muted);
+  font-size: 0.78em;
+  opacity: 0.42;
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header[aria-sort="ascending"]::after {
+  content: "↑";
+  color: var(--cw-green);
+  opacity: 0.95;
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header[aria-sort="descending"]::after {
+  content: "↓";
+  color: var(--cw-green);
+  opacity: 0.95;
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header:hover,
+.md-typeset table.cw-sortable-table th.cw-sortable-header:focus-visible {
+  background: rgba(47, 111, 94, 0.14);
+}
+
+.md-typeset table.cw-sortable-table th.cw-sortable-header:focus-visible {
+  outline: 0.12rem solid rgba(47, 108, 143, 0.58);
+  outline-offset: -0.12rem;
 }
 
 .md-content__inner > h1:first-of-type {

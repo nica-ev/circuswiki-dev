@@ -5,40 +5,59 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:44:14
+update: 2026-06-09 01:24:02
 title: Ding Dang Dong
-description: 
+description: Ein Klatschspiel für zwei Personen mit rhythmischem Text und einfachen Bewegungen zu Ding, Dang und Dong.
 authors:
   - Marc Bielert
 category:
   - klatschspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 2
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ding Dang Dong.md
-translation_source_hash: d69cb9e70abeb49c310c911f081a5437bcb6993ce258c8f9ff29fa3887f489cb
+translation_source_hash: 1a90ded22af79816b409c4a73c4fb02aa5e5d8ab6b4a9e19aeced92dff121b65
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:54+00:00
+translation_updated: 2026-06-09T01:34:56+00:00
 ---
-# Ding Dang Dong
+> [!info] Stručný opis
+> Tlieskacia hra pre dvoch ľudí s rytmickým textom a jednoduchými pohybmi.
+
+**Veľkosť skupiny**: 2 osoby
+**Náročnosť**: jednoduchá
+**Materiál**: žiadny
+**Dĺžka hry**: 2-5 minút
+
+## **Opis hry**:
 
 Tlieskacia hra pre 2 osoby.
 
-Text:
+### Text
+
 „Ó, balón, karamelová cukrík.
 Všetky opice a žirafy robia
 Ding Dang Dong
-Všetky svine bez nôh
+Všetky prasce bez nôh
 Všetky kozy bez múch
-robia Bú“
+robia Bééé“
 
-Nasleduje text s pohybmi:
+### Pohyby
 
-„Ó *(ruky pred ústami ako pri volaní)*
+„Ó *(rukami vytvoriť pred ústami lievik, akoby ste volali)*
 balón, karamelová cukrík, všetky opice a žirafy robia
-*(ruky sa rytmicky striedavo tlieskajú o vlastné stehná alebo o ruky partnera)*
+*(rukami sa striedavo tlieska do rytmu o vlastné dlane alebo o dlane partnera)*
 Ding *(ruka sa dotkne hlavy)*
 Dang *(ruka sa dotkne boku)*
 Dong *(ruka sa dotkne chodidla)*
-Všetky svine bez nôh, všetky kozy bez múch
-*(ruky sa rytmicky striedavo tlieskajú o vlastné stehná alebo o ruky partnera)*
-robia Bú *(ruky pri ušiach, dlane otvorené k partnerovi, palce sa dotýkajú spánkov)*“
+Všetky prasce bez nôh, všetky kozy bez múch
+*(rukami sa striedavo tlieska do rytmu o vlastné dlane alebo o dlane partnera)*
+robia Bééé *(rukami pri ušiach, dlane otvorené k partnerovi, palce sa dotýkajú spánkov)*
+
+## **Zdroj**:
+
+Neznámy

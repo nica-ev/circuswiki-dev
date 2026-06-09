@@ -7,21 +7,38 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:30:44
 title: Killerfunkwagen
-description: 
+description: Ein Spiel-Stub zu Killerfunkwagen, dessen Inhalt noch ergänzt oder gelöscht werden muss.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 2
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Killerfunkwagen.md
-translation_source_hash: 1f78e15d41dd16d39a543499831fe59a0ec745f915073e53766424e7d5118e2a
+translation_source_hash: 3a7c33d5fbbc3751be09cdb6b3715b37b920abcb9eef479a918a43a5026bf8b6
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:27:32+00:00
+translation_updated: 2026-06-09T01:48:29+00:00
 ---
-# Вбивчий фургон
+> [!info] Короткий опис
+> Заготовка гри "Вбивчий радіомобіль", яку потрібно доповнити або видалити.
 
-Вбивчий фургон
-схожий на Аватар
+**Кількість учасників**: 2-30 осіб
+**Складність**: легка
+**Матеріали**: не потрібні
+**Тривалість гри**: 5-10 хвилин
 
-#todo заповнити вмістом або видалити
+## **Опис гри**:
+
+"Вбивчий радіомобіль", схоже на "Аватар".
+
+#todo доповнити змістом або видалити
+
+## **Джерело**:
+
+Невідоме

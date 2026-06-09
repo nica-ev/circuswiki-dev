@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schildkröten umdrehen.md
-translation_source_hash: d1cb5e236a90cb1bce8e1c21fd352833ecdb7f3f95bcc5b4c69d397c5a6ac3ac
+translation_source_hash: 44e187024a0f9cb37069a6a44988c4bd66bf77e74bc9a148a84fc451b23aa406
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:08:07+00:00
+translation_updated: 2026-06-09T02:14:44+00:00
 ---
-# Girare le tartarughe
+> [!info] Breve descrizione
+> Un gioco di movimento fisico in cui le tartarughe, sdraiate a pancia in giù, cercano di non essere capovolte.
 
-**Dimensioni del gruppo**: da 6 a 30 partecipanti
+**Numero di partecipanti**: da 6 a 30 giocatori
 **Difficoltà**: media
 **Materiale**: nessuno
 **Durata del gioco**: 5-10 minuti
 
-**Descrizione del gioco**:
-A seconda della forza e della taglia dei giocatori, vengono scelti uno o due "giratortarughe". Tutti gli altri giocatori si sdraiano a pancia in giù e sono le tartarughe. Possono muoversi, ma solo sdraiati! Il/i giratortarughe cerca/cercano di girare le tartarughe sulla schiena, perché non appena la schiena di una tartaruga tocca il suolo, anche questa diventa un giratortarughe. Le tartarughe, ovviamente, non vogliono questo e cercano quindi di tenersi strette l'una all'altra o di sviluppare un'altra tattica per evitare il più possibile di essere girate. Il gioco finisce quando non ci sono più tartarughe.
+## **Descrizione del gioco**:
 
-**Fonte**:
+A seconda della forza e delle dimensioni dei giocatori, vengono designati uno o due "capovolgitori di tartarughe". Tutti gli altri giocatori si sdraiano a pancia in giù e sono le tartarughe. Possono anche muoversi, ma solo da sdraiati! Il capovolgitore (o i capovolgitori) di tartarughe cerca di capovolgere le tartarughe sulla schiena, perché non appena la schiena di una tartaruga tocca il suolo, anch'essa diventa un capovolgitore di tartarughe. Le tartarughe, ovviamente, non vogliono questo e cercano quindi di tenersi strette l'una all'altra o di sviluppare un'altra tattica per evitare il più possibile di essere capovolte. Il gioco finisce quando non ci sono più tartarughe.
+
+## **Fonte**:
+
 Tasifan Spielebuch

@@ -7,29 +7,45 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:06:23
 title: Die Bombe
-description: 
+description: Ein Kreisspiel mit Ball, bei dem eine Bombe nach einem geheimen Countdown explodiert und Hindernisse im Kreis entstehen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Ball
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Bombe.md
-translation_source_hash: b86bc38bf592689180617ccd57d2a9d3d92df771b8d93f18a0a65ff5ea8a7318
+translation_source_hash: de8ee41b27fcbe06de5f3e1c698ccc3379629f1e00dee96b34543414c5f29551
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:12+00:00
+translation_updated: 2026-06-09T01:32:34+00:00
 ---
-# Bomba
+> [!info] Stručný popis
+> Kruhová hra s loptou, pri ktorej po tajnom odpočte "vybuchne" bomba a v kruhu vzniknú prekážky.
 
-Kruhová hra:
+**Veľkosť skupiny**: 6 – 30 osôb
+**Náročnosť**: jednoduchá
+**Materiál**: lopta
+**Dĺžka hry**: 5 – 10 minút
+
+## **Popis hry**:
 
 Všetci stoja v kruhu, jeden účastník sedí v strede.
 Účastník v strede potichu počíta od 1 do 10, potom nahlas zakričí „Bomba“.
 
-Medzitým sa lopta čo najrýchlejšie podáva v kruhu (dôležité: nehádzať, ale podávať).
-Ten, kto má loptu, keď zaznie „Bomba“, „exploduje“ a v tej chvíli si sadne s vystretými nohami.
+Medzitým si účastníci v kruhu čo najrýchlejšie podávajú loptu (dôležité: nehádzať, ale podávať).
+Ten, kto drží loptu, keď sa zakričí „Bomba“, „vybuchne“ a na mieste si sadne s vystretými nohami.
 
 Osoba napravo/naľavo od neho potom musí preskočiť cez jeho nohy, aby mohla loptu ďalej podať.
 
-Účastník v strede vždy začne počítať odznova od 1, kým v kruhu nezostane len jeden účastník.
+Osoba v strede začína znova počítať od 1, kým v kruhu nezostane len jeden účastník.
 Ten je víťaz.
+
+## **Zdroj**:
+
+Neznámy

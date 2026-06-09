@@ -7,28 +7,35 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:41
 title: Pitbull
-description: 
+description: Ein kraftvolles Teamspiel, bei dem zwei Mannschaften Linien wechseln und gehobene Personen ins eigene Team übernehmen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 7
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pitbull.md
-translation_source_hash: 52f587217dba5d1613d2725f082a24febccf8a26ea130ca933d6c36dccd46a89
+translation_source_hash: 1acde77ba7449b115a99887947f90d50de43c0765b27cec8bf01b0cac674a4cc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:08:05+00:00
+translation_updated: 2026-06-09T02:11:36+00:00
 ---
-# Pitbull
+> [!info] Breve Descrição
+> Um jogo de equipa dinâmico em que duas equipas trocam de lado e "recrutam" jogadores levantados para a sua própria equipa.
 
-**Tamanho do grupo**: A partir de 10 participantes, idealmente mais
+**Tamanho do Grupo**: A partir de 10 participantes, idealmente mais
 **Dificuldade**: Média
 **Material**: Nenhum
-**Duração do jogo**: Aproximadamente 7 minutos
+**Duração do Jogo**: Aproximadamente 7 minutos
 
-## **Descrição do jogo**:
+## **Descrição do Jogo**:
 
-Formam-se duas equipas de tamanho e força semelhantes. São também marcadas duas linhas em lados opostos. Cada equipa posiciona-se numa das linhas. Ao sinal, o jogo começa e as equipas correm uma em direção à outra. Os jogadores só podem correr para a frente, nunca para trás. O objetivo é atravessar a linha da equipa adversária, levantando o maior número possível de jogadores da equipa oponente. Quem não tocar mais no chão muda de equipa. Se alguém for levantado, dirige-se imediatamente para a linha em direção à qual a sua nova equipa se está a deslocar. Assim, só poderá voltar a jogar na próxima ronda. Quando todos os jogadores tiverem chegado ao lado oposto, começa a próxima ronda.
+Formam-se duas equipas de tamanho e força semelhantes. São também marcadas duas linhas opostas. Cada equipa posiciona-se numa linha. Ao sinal, o jogo começa e as equipas correm uma contra a outra. Os jogadores só podem correr para a frente, nunca para trás. O objetivo é atravessar a linha adversária, "levantando" o maior número possível de jogadores da equipa rival. Quem não tocar mais no chão muda de equipa. Se alguém for levantado, junta-se imediatamente à linha para onde a sua nova equipa se dirige. Assim, só poderá voltar a jogar na ronda seguinte. Quando todos os jogadores tiverem chegado ao lado oposto, começa a próxima ronda.
 
 O jogo termina assim que todos os jogadores estiverem na mesma equipa.
 

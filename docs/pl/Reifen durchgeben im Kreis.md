@@ -7,22 +7,43 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:06
 title: Reifen durchgeben im Kreis
-description: 
+description: Ein Kreisspiel, bei dem ein oder mehrere Reifen durch die verbundene Gruppe wandern, ohne die Hände zu lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Reifen
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Reifen durchgeben im Kreis.md
-translation_source_hash: bdd55fc96b2ceba3a800c2027a4b19cf772acaca73731e8f155e7cec1f853c21
+translation_source_hash: 87dcfb5c414f172aa8a3dcc8bcd87b66f89bd3f70db711e9783402a87e141473
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:22:20+00:00
+translation_updated: 2026-06-09T02:12:25+00:00
 ---
-Wszystkie dzieci stoją w kręgu i trzymają się za ręce.
-Jeden lub więcej obręczy (HulaHoop) jest zakładanych. Jedno dziecko chwyta przez obręcz, a następnie ponownie łapie swojego sąsiada, tak aby obręcz "wisziała w kręgu".
+> [!info] Krótki opis
+> Gra w kręgu, w której jeden lub więcej obręczy przemieszcza się przez połączoną grupę bez puszczania rąk.
+
+**Wielkość grupy**: 5-30 osób
+**Poziom trudności**: łatwy
+**Materiały**: obręcze
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
+
+Wszystkie dzieci stają w kręgu i trzymają się za ręce.
+Jedna lub więcej obręczy (hula-hop) jest zakładanych. Aby to zrobić, dziecko chwyta obręcz i ponownie łapie swojego sąsiada, tak aby obręcz „wisiał w kręgu”.
 
 Obręcz jest następnie przekazywana z dziecka na dziecko w kręgu, bez przerywania połączenia rąk. Każde dziecko musi również przejść przez obręcz.
 
-**Wariant**
-Można użyć dwóch lub więcej obręczy, które tworzą "pościg". Celem jest wtedy, aby jedna obręcz dogoniła lub wyprzedziła drugą.
+## **Warianty**:
+
+Można również użyć dwóch lub więcej obręczy, które tworzą „pościg”. Celem jest wtedy, aby jedna obręcz dogoniła lub wyprzedziła drugą.
+
+## **Źródło**:
+
+Nieznane

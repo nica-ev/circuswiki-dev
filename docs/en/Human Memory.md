@@ -7,24 +7,42 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:27:22
 title: Human Memory
-description: 
+description: Ein lebendiges Memory-Spiel, bei dem Personenpaare passende Bewegungen und Geräusche bilden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 8
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Human Memory.md
-translation_source_hash: 3bc4993da19245beb04f5879335c96378144aaa396b6cfa656b2ce77a4c1eaa5
+translation_source_hash: a6e3ae060bfaaf662921f9524678242728503f454a1fd872ade1b56a13278f0a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:23:25+00:00
+translation_updated: 2026-06-09T01:43:53+00:00
 ---
-# Human Memory
+> [!info] Brief Description
+> A lively memory game where pairs of people create matching movements and sounds.
 
-A game for medium to large groups:
+**Group Size**: 8-40 people
+**Difficulty**: Easy
+**Materials**: None
+**Duration**: 10-15 minutes
+
+## **Game Description**:
+
+A game for medium to large groups.
 
 Two people leave the room.
-The remaining participants pair up and collaboratively devise a movement and a sound.
-The two players outside then return to the room and take turns revealing the "living memory cards" by calling out the names of two people at a time. These two individuals stand up and perform their movement and sound.
-If the pair matches, they leave the playing area, and another pair can be revealed.
-The player who collects the most pairs wins.
+The others pair up and together think of a movement and a sound.
+The two players who left the room return and then take turns revealing the "living memory cards" by calling out the names of two people at a time. These two people stand up and present their movements and sounds.
+If they form a matching pair, they leave the playing area, and another pair can be revealed.
+The player with the most pairs wins.
+
+## **Source**:
+
+Unknown

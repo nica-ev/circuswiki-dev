@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:20:36
 title: Kissenrennen
-description: 
+description: Ein schnelles Teamspiel im Kreis, bei dem zwei Kissen innerhalb der Teams weitergegeben werden und einander einholen sollen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: Kissen
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# **Kissenrennen**
+> [!info] Kurzbeschreibung
+> Ein schnelles Teamspiel im Kreis, bei dem zwei Kissen innerhalb der Teams weitergegeben werden und einander einholen sollen.
 
 **Gruppengröße**: Ab 10 Mitspieler, möglichst eine gerade Anzahl
 **Schwierigkeit**: mittel

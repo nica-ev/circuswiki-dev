@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schildkröten umdrehen.md
-translation_source_hash: d1cb5e236a90cb1bce8e1c21fd352833ecdb7f3f95bcc5b4c69d397c5a6ac3ac
+translation_source_hash: 44e187024a0f9cb37069a6a44988c4bd66bf77e74bc9a148a84fc451b23aa406
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:09:13+00:00
+translation_updated: 2026-06-09T02:14:56+00:00
 ---
-# Obracanie korytnačiek
+> [!info] Stručný popis
+> Fyzická pohybová hra, pri ktorej sa „želvy“ ležiace na bruchu snažia neprevrátiť.
 
 **Veľkosť skupiny**: 6 až 30 hráčov
-**Obtiažnosť**: stredná
+**Náročnosť**: stredná
 **Materiál**: žiadny
 **Dĺžka hry**: 5 až 10 minút
 
-**Popis hry**:
-Podľa sily a veľkosti hráčov sa určia jeden alebo dvaja „obraciači korytnačiek“. Všetci ostatní hráči si ľahnú na brucho a sú korytnačkami. Môžu sa pohybovať, ale iba v ľahu! Obracíači korytnačiek sa snažia korytnačky otočiť na chrbát, pretože akonáhle sa chrbát korytnačky dotkne zeme, stáva sa tiež obracíačom korytnačiek. Korytnačky to samozrejme nechcú a preto sa snažia držať spolu alebo vyvinúť inú taktiku, aby neboli čo najviac otočené. Hra sa skončí, keď už nezostanú žiadne korytnačky.
+## **Popis hry**:
 
-**Zdroj**:
+V závislosti od sily a veľkosti hráčov sa určí jeden alebo dvaja „prevraciači želv“. Všetci ostatní hráči si ľahnú na brucho a sú „želvy“. Môžu sa pohybovať, ale iba ležiace! „Prevraciači želv“ sa snažia prevrátiť „želvy“ na chrbát, pretože akonáhle sa chrbát „želvy“ dotkne zeme, stáva sa tiež „prevracačom želv“. „Želvy“ to samozrejme nechcú a preto sa snažia držať navzájom alebo vyvinúť inú taktiku, aby ich čo najviac neprevrátili. Hra končí, keď už nezostanú žiadne „želvy“.
+
+## **Zdroj**:
+
 Tasifan Spielebuch

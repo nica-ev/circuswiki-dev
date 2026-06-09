@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schildkröten umdrehen.md
-translation_source_hash: d1cb5e236a90cb1bce8e1c21fd352833ecdb7f3f95bcc5b4c69d397c5a6ac3ac
+translation_source_hash: 44e187024a0f9cb37069a6a44988c4bd66bf77e74bc9a148a84fc451b23aa406
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:22:36+00:00
+translation_updated: 2026-06-09T02:14:41+00:00
 ---
-# Odwracanie Żółwi
+> [!info] Krótki opis
+> Fizyczna gra ruchowa, w której żółwie leżące na brzuchu próbują nie dać się przewrócić na plecy.
 
 **Liczba graczy**: od 6 do 30
 **Poziom trudności**: średni
 **Materiały**: żadne
-**Czas gry**: 5 do 10 minut
+**Czas trwania**: 5 do 10 minut
 
-**Opis gry**:
-W zależności od siły i wielkości graczy wyznacza się jednego lub dwóch „odwracaczy żółwi”. Wszyscy pozostali gracze kładą się na brzuchu i są „żółwiami”. Mogą się poruszać, ale tylko leżąc! „Odwracacze żółwi” próbują przewrócić „żółwie” na plecy, ponieważ gdy tylko plecy „żółwia” dotkną podłogi, staje się on również „odwracaczem żółwi”. „Żółwie” oczywiście nie chcą do tego dopuścić i dlatego próbują się nawzajem trzymać lub opracować inną taktykę, aby jak najdłużej nie zostać przewróconym. Gra kończy się, gdy nie ma już żadnych „żółwi”.
+## **Opis gry**:
 
-**Źródło**:
+W zależności od siły i wielkości graczy wyznacza się jednego lub dwóch „przewracaczy” żółwi. Wszyscy pozostali gracze kładą się na brzuchu i są żółwiami. Mogą się poruszać, ale tylko leżąc! Przewracacz(ze) żółwi próbuje przewrócić żółwie na plecy. Gdy tylko plecy żółwia dotkną podłoża, staje się on również przewracaczem. Żółwie oczywiście nie chcą do tego dopuścić i dlatego próbują się nawzajem trzymać lub opracować inną taktykę, aby jak najdłużej nie dać się przewrócić. Gra kończy się, gdy nie ma już żadnych żółwi.
+
+## **Źródło**:
+
 Tasifan Spielebuch

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:06:38+00:00
+translation_updated: 2026-06-09T02:08:41+00:00
 ---
-# Boj o mená
-
 > [!info] Stručný popis
-> "Boj o mená" je rýchla a zábavná hra s menami pre akúkoľvek veľkosť skupiny, v ktorej ide o to, pomenovať súpera skôr, aby ste ho získali do vlastného tímu.
+> Súboj v menách so zakrytým výhľadom, kde sa dva tímy snažia rýchlejšie pomenovať súpera.
 
-**Veľkosť skupiny**: ľubovoľná (rozdelená do dvoch rovnako veľkých tímov)
-**Obtiažnosť**: ľahká
-**Materiál**: Látka (alebo iná bariéra, ktorá bráni vo výhľade)
-**Dĺžka hry**: približne 10-15 minút
+**Veľkosť skupiny**: 10 – 30 osôb
+**Náročnosť**: Nízka
+**Materiál**: Látka (alebo iná clona)
+**Dĺžka hry**: Približne 10 – 15 minút
 
 ## **Popis hry**:
 
-Vytvoria sa dva rovnako veľké tímy. Medzi tímami sa drží látka (alebo iná bariéra, ktorá bráni vo výhľade), takže sa hráči navzájom nevidia.
+Vytvoria sa dve rovnako veľké družstvá. Medzi družstvami sa napne látka (alebo iná clona), aby sa navzájom nevideli.
 
-Z každého tímu sa teraz postaví jedna osoba za látku. Vedúci hry odpočíta "1-2-3" a pustí látku.
+Z každého družstva sa teraz postaví jedna osoba za látku. Vedúci hry odpočíta „1 – 2 – 3“ a pustí látku.
 
-Osoby, ktoré sa teraz ocitnú oproti sebe, musia čo najrýchlejšie povedať meno druhej osoby. Víťaz "súboja o mená" si môže porazeného hráča prijať do svojho tímu.
+Osoby, ktoré sa teraz ocitnú oproti sebe, musia čo najrýchlejšie povedať meno druhej osoby. Víťaz „súboja v menách“ si môže porazeného prijať do svojho družstva.
 
-Hra je vyhraná, keď sa všetky osoby ocitnú na jednej strane látky.
+Hra je vyhraná, keď sa všetky osoby nachádzajú na jednej strane látky.
 
 ## **Zdroj**:
 

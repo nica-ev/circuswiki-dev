@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ohrfeigen und Küsse
-description: 
+description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,19 +23,17 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ohrfeigen und Küsse.md
-translation_source_hash: b1c8f3c5bbf89aeef005153dee1a6486195450ab72c1ef74e7afc9a8197d011d
+translation_source_hash: 52349702f8b552b2a01f27dab281148d7e7f3048cb48badfc077eebf72ccb21b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:07:21+00:00
+translation_updated: 2026-06-09T02:09:36+00:00
 ---
-# Hlavy a polibky
-
 > [!info] Stručný popis
-> "Hlavy a polibky" je neobvyklá interaktivní hra, která hravou formou kombinuje laskavost a agresi.
+> Citlivá interaktivní hra, při které se vědomě hraje s pozdravem, přátelskými gesty a naznačenými konfliktními gesty.
 
-**Velikost skupiny**: Libovolná
+**Velikost skupiny**: 5–30 osob
 **Obtížnost**: Střední (vyžaduje citlivost a domluvu)
 **Materiál**: Žádný
-**Délka hry**: Cca 10–15 minut
+**Délka hry**: Přibližně 10–15 minut
 
 ## **Popis hry**:
 
@@ -43,12 +41,12 @@ Všichni účastníci se volně pohybují po místnosti.
 
 Když se dva účastníci setkají, krátce si podají ruce a pozdraví se jménem („Ahoj Marku“).
 
-Jako druhé následuje laskavá interakce: obejmou se, „políbí se“ (naznačeno, bez skutečného dotyku) nebo udělají něco jiného laskavého.
+Dále následuje přátelská interakce: obejmou se, „políbí se“ (naznačeno, bez skutečného dotyku) nebo udělají něco jiného přátelského.
 
-Jako třetí následuje naznačená agresivní interakce: jeden účastník „udělí“ facku (pouze naznačenou!), plácne (naznačeno!), kopne (naznačeno!) nebo udělá cokoli jiného agresivního (naznačeno!).
+Třetí částí je naznačená agresivní interakce: jeden z účastníků „rozdá“ facku (pouze naznačeno!), udeří (naznačeno!), kopne (naznačeno!) nebo udělá cokoli jiného agresivního (naznačeno!).
 
 **Důležité**:
-Agresivní část se pouze hraje! Pohyby se provádějí pomalu, aby měl partner čas zareagovat. Při každém setkání je agresivní vždy jen jeden partner; nedochází k žádné výměně úderů.
+Agresivní část se pouze hraje! Pohyby se provádějí pomalu, aby měl partner čas reagovat. Při každém setkání je agresivní vždy jen jeden z partnerů; nedochází k žádné výměně úderů.
 
 ## **Zdroj**:
 

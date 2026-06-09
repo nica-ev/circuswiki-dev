@@ -7,7 +7,7 @@ tags:
 created: 2025-01-25 01:38:42
 update: 2025-03-25 20:34:19
 title: Möhre Hase Fuchs
-description: 
+description: Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
 authors:
   - Marc Bielert
 category:
@@ -24,10 +24,8 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Möhre Hase Fuchs
-
-> [!info]+ Kurzbeschreibung 
-> Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem "Hasen" versuchen, "Möhren" in ihr Team zu holen, während "Füchse" dies durch Fangen verhindern.
+> [!info] Kurzbeschreibung
+> Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
 
 **Gruppengröße**: Ab 15 Mitspieler 
 **Schwierigkeit**: Recht einfach 

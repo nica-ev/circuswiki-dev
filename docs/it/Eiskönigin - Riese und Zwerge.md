@@ -7,23 +7,43 @@ publish: true
 tags:
   - spiele
 title: Eiskönigin - Riese und Zwerge
-description: 
+description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: kleiner Gegenstand
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2c51d15b075ef7fc16d553458f6630cee62eb8546a55f85c1069fbf518a61220
+translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:00:52+00:00
+translation_updated: 2026-06-09T01:35:58+00:00
 ---
-Una persona sta con la schiena rivolta verso gli altri, dietro di lei si trova un piccolo oggetto (ad esempio una palla).
+> [!info] Breve descrizione
+> Un gioco di avvicinamento furtivo e cooperazione in cui un gruppo ruba e riporta segretamente un oggetto.
 
-Ogni volta che si gira, gli altri devono immobilizzarsi. Chi si muove deve fare 2 passi indietro (o tornare all'inizio).
+**Numero di partecipanti**: 5-25 persone
+**Difficoltà**: facile
+**Materiale**: un piccolo oggetto
+**Durata del gioco**: 5-10 minuti
+
+## **Descrizione del gioco**:
+
+Una persona sta di spalle rispetto agli altri, con un piccolo oggetto (ad esempio, una palla) posizionato dietro di lei.
+
+Ogni volta che questa persona si gira, gli altri devono immobilizzarsi. Chi si muove deve fare 2 passi indietro (o tornare all'inizio).
 
 L'obiettivo è rubare la palla e portarla alla linea di partenza.
-Appena la palla viene presa, la Regina di Ghiaccio può dare UN solo indizio su chi ha la palla in quel momento.
+Appena la palla viene presa, la "Regina di Ghiaccio" può fare UNA sola ipotesi su chi abbia la palla in quel momento.
 
 Se indovina correttamente, ha vinto.
+
+## **Fonte**:
+
+Sconosciuta

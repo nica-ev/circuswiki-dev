@@ -7,16 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:19
 title: Ball werfen im Stern
-description: 
+description: Ein Ballspiel im Kreis, bei dem ein festes Wurfmuster entsteht und mit mehreren Bällen trainiert werden kann.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Bälle
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 15
 translation_status: original
 translation_source_lang: de
 ---
 
-# Ball werfen im Stern
+> [!info] Kurzbeschreibung
+> Ein Ballspiel im Kreis, bei dem ein festes Wurfmuster entsteht und mit mehreren Bällen trainiert werden kann.
+
+**Gruppengröße**: 5-15 Personen
+**Schwierigkeit**: einfach
+**Material**: Bälle
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Kreisspiel für kleine Gruppen mit Bällen.
 
@@ -31,3 +45,7 @@ Jede Person hat somit genau eine Person von der sie Bälle zugeworfen bekommt, u
 Das Muster wird ein paar mal mit einem Ball durchlaufen, dann kann die Anzahl der im Umlauf befindlichen Bälle immer weiter erhöht werden.
 
 Koordination und Teamarbeit werden hier trainiert, außerdem ist es eine gute Vorübung für Wurfjonglage und Partnerarbeit.
+
+## **Quelle**:
+
+Unbekannt

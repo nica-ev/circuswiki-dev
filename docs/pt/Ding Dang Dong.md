@@ -5,40 +5,59 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:44:14
+update: 2026-06-09 01:24:02
 title: Ding Dang Dong
-description: 
+description: Ein Klatschspiel für zwei Personen mit rhythmischem Text und einfachen Bewegungen zu Ding, Dang und Dong.
 authors:
   - Marc Bielert
 category:
   - klatschspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 2
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ding Dang Dong.md
-translation_source_hash: d69cb9e70abeb49c310c911f081a5437bcb6993ce258c8f9ff29fa3887f489cb
+translation_source_hash: 1a90ded22af79816b409c4a73c4fb02aa5e5d8ab6b4a9e19aeced92dff121b65
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:51+00:00
+translation_updated: 2026-06-09T01:34:53+00:00
 ---
-# Ding Dang Dong
+> [!info] Breve Descrição
+> Um jogo de palmas para duas pessoas com texto rítmico e movimentos simples.
+
+**Tamanho do grupo**: 2 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do jogo**: 2-5 minutos
+
+## **Descrição do Jogo**:
 
 Um jogo de palmas para 2 pessoas.
 
-Texto:
+### Texto
+
 "Oh, balão, bala de caramelo.
 Todos os macacos e girafas fazem
 Ding Dang Dong
-Todos os porcos sem pernas,
+Todos os porcos sem pernas
 Todas as cabras sem voar
-fazem Mééé"
+fazem mééé"
 
-A seguir, o texto com os movimentos:
+### Movimentos
 
-"Oh *(Mãos em concha à frente da boca, como se estivesse a gritar)*
+"Oh *(mãos em forma de funil à frente da boca, como se estivesse a gritar)*
 Balão, bala de caramelo, todos os macacos e girafas fazem
-*(Bater palmas alternadamente, sozinho ou com o parceiro, ao ritmo)*
-Ding *(Tocar com a mão na cabeça)*
-Dang *(Tocar com a mão na anca)*
-Dong *(Tocar com a mão no pé)*
+*(as mãos batem alternadamente no ritmo, umas nas outras ou nas do parceiro)*
+Ding *(mão toca na cabeça)*
+Dang *(mão toca na anca)*
+Dong *(mão toca no pé)*
 Todos os porcos sem pernas, todas as cabras sem voar
-*(Bater palmas alternadamente, sozinho ou com o parceiro, ao ritmo)*
-fazem Mééé *(Mãos ao lado das orelhas, palmas abertas viradas para o parceiro, polegares a tocar nas têmporas)*"
+*(as mãos batem alternadamente no ritmo, umas nas outras ou nas do parceiro)*
+fazem mééé *(mãos ao lado das orelhas, palmas abertas viradas para o parceiro, polegares a tocar nas têmporas)*
+
+## **Fonte**:
+
+Desconhecida

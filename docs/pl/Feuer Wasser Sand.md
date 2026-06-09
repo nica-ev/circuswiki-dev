@@ -7,29 +7,36 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:11
 title: Feuer Wasser Sand
-description: 
+description: Ein Kommandospiel, bei dem die Gruppe schnell auf angesagte Begriffe reagiert und passende Bewegungen oder Positionen findet.
 authors:
   - Marc Bielert
 category:
   - warm-up
   - bewegung
+Schwierigkeit: einfach
+Material: Erhöhungen, optional Trommel
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Feuer Wasser Sand.md
-translation_source_hash: f3e03e98f9418ca5e7284472e78274cecadfaa2d64c8e9cc296cfee99c8d5d4a
+translation_source_hash: 33edae0db1b053be2a240f3331b6bf961d2e23be9c3d6d0af06c222eab062aca
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:12:06+00:00
+translation_updated: 2026-06-09T01:37:35+00:00
 ---
-# Ogień Woda Piasek
+> [!info] Krótki opis
+> Gra komendowa, w której grupa szybko reaguje na wywoływane hasła, znajdując odpowiednie ruchy lub pozycje.
 
 **Liczba graczy**: od 4 osób
 **Poziom trudności**: łatwy
-**Materiały**: przestrzeń do gry z podwyższeniami (np. ławki), opcjonalnie
+**Materiały**: podwyższenia (np. ławki), opcjonalnie bębenek
 **Czas gry**: 5-15 minut
 
 ## **Opis gry**:
 
-Wszyscy gracze swobodnie poruszają się po pomieszczeniu. Jeśli dostępny jest bęben, prowadzący może wyznaczyć rytm, do którego gracze poruszają się po sali – raz szybciej, raz wolniej. Następnie prowadzący może wydawać różne komendy, które gracze muszą wykonać.
+Wszyscy gracze swobodnie poruszają się po sali. Jeśli dostępny jest bębenek, prowadzący może nadać rytm, według którego gracze biegają po sali – raz szybciej, raz wolniej. Następnie prowadzący może wywoływać różne komendy, które gracze muszą wykonać.
 
 **Komendy**:
 
@@ -37,7 +44,7 @@ Wszyscy gracze swobodnie poruszają się po pomieszczeniu. Jeśli dostępny jest
 
 **Woda**: Wszyscy gracze muszą jak najszybciej stanąć na czymś podwyższonym, tak aby nie dotykać podłogi.
 
-**Piasek**: Gdy padnie ta komenda, wszyscy jak najszybciej kładą się na brzuchu na podłodze, aby nie zapaść się w piasek.
+**Piasek**: Po wywołaniu tej komendy wszyscy jak najszybciej kładą się na brzuchu na podłodze, aby nie zapaść się w piasek.
 
 **Lód**: Wszyscy zamierają w miejscu.
 
@@ -45,19 +52,19 @@ Wszyscy gracze swobodnie poruszają się po pomieszczeniu. Jeśli dostępny jest
 
 **Guma do żucia**: Ta komenda sprawia, że wszyscy gracze muszą przykleić się do ściany.
 
-**Pogawędka przy kawie**: Gracze siadają po turecku na podłodze i klaszczą trzy razy w dłonie.
+**Plotki**: Gracze siadają po turecku na podłodze i klaszczą trzy razy w dłonie.
 
 **Cola**: Jak w przypadku coli w kubku, każdy staje prosto i wyciąga jedną rękę do góry – to jest słomka.
 
-**Żuk**: Wszyscy kładą się na plecach, wyciągają ręce i nogi do góry i przez kilka sekund na próżno próbują się przewrócić.
+**Żuk**: Wszyscy kładą się na plecach, wyciągają ręce i nogi do góry i przez kilka sekund daremnie próbują się przewrócić.
 
-**Frytki**: W tej komendzie trzeba położyć się obok siebie w trójkę. (Jeśli liczba graczy nie dzieli się przez trzy, czwórki frytek też są w porządku).
+**Frytki**: Przy tej komendzie należy położyć się obok siebie w trójkę. (Jeśli liczba graczy nie dzieli się przez trzy, dopuszczalne są czwórki frytek).
 
-**Sztorm**: Wszyscy muszą się gdzieś czegoś chwycić, aby nie zostać zdmuchnięci.
+**Sztorm**: Wszyscy muszą się czegoś chwycić, aby ich nie zdmuchnęło.
 
-Jeśli chodzi o terminy, można być bardzo kreatywnym i wymyślić mnóstwo dodatkowych komend do zabawy. Bardzo dobrze można też grać w tę grę z eliminacją, gdzie odpada zawsze najwolniejszy gracz lub ten, który zachował się nieprawidłowo.
+Jeśli chodzi o hasła, można być bardzo kreatywnym i wymyślić mnóstwo dodatkowych komend do zabawy. Bardzo dobrze można też grać w tej grze z eliminacją, gdzie odpada zawsze najwolniejszy gracz lub ten, który zachowuje się nieprawidłowo.
 
-## **Wariant gry**
+## **Warianty**:
 
 „Ratuj się, kto może” – tak nazywa się ten wariant gry. Zasada jest ta sama, tylko prowadzący może być jeszcze bardziej kreatywny. Ponieważ za każdym razem, gdy powie „Ratuj się, kto ... może”, gracze muszą wykonać tę komendę. Np.: „Ratuj się, kto potrafi skakać na jednej nodze”. To, co doda w pustym miejscu, zależy całkowicie od niego. Czy będzie to skakanie na jednej nodze, dłubanie w nosie, czy kręcenie się w kółko – wszystko, co przyjdzie prowadzącemu do głowy, jest możliwe.
 

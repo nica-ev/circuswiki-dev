@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zungenmörder
-description: 
+description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 authors:
   - Marc Bielert
 category:
@@ -23,19 +23,17 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zungenmörder.md
-translation_source_hash: 83273580fce27ef134c04149f1e233e13a06b667303df809b0d4bf62278a253c
+translation_source_hash: 9214e7f4aa5f97ec20764de198a3ddc664353461aba1ae07ebdf79e74a373e97
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:26:08+00:00
+translation_updated: 2026-06-09T02:39:56+00:00
 ---
-# Tongenmoordenaar
-
 > [!info] Korte beschrijving
-> "Tongenmoordenaar" is een spannend rollenspel voor middelgrote tot grote groepen, waarbij een moordenaar "slachtoffers" selecteert door zijn tong uit te steken, terwijl een detective probeert hem te ontmaskeren.
+> Een kringspel waarbij een moordenaar heimelijk moordt door middel van tongen uitsteken en een detective hem moet ontmaskeren.
 
-**Groepsgrootte**: Middelgroot tot groot
+**Groepsgrootte**: 10-30 personen
 **Moeilijkheidsgraad**: Gemiddeld
 **Materiaal**: Geen
-**Speeltijd**: Ongeveer 10-15 minuten
+**Speeltijd**: 5-10 minuten
 
 ## **Spelbeschrijving**:
 
@@ -43,9 +41,9 @@ Alle spelers zitten in een kring en sluiten hun ogen.
 
 De spelleider loopt ondertussen rond de kring en tikt één persoon *één keer* op de rug (dit is de moordenaar) en een andere persoon *twee keer* (dit is de detective).
 
-Daarna openen alle spelers hun ogen weer, en de detective gaat in het midden van de kring zitten.
+Daarna openen iedereen weer de ogen, en de detective gaat in het midden van de kring zitten.
 
-Nu kijken alle spelers elkaar aan. Als de moordenaar iemand aankijkt, steekt hij onopvallend zijn tong uit naar die persoon.
+Nu kijken iedereen elkaar in de ogen. Als de moordenaar iemand aankijkt, steekt hij onopvallend zijn tong uit naar die persoon.
 
 De betreffende persoon moet nu theatraal sterven.
 

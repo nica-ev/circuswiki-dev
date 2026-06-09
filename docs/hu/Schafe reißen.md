@@ -7,34 +7,40 @@ tags:
 created: 2025-01-25 01:47:08
 update: 2025-03-17 02:15:09
 title: Schafe reißen
-description: 
+description: Ein Lauf- und Fangspiel, bei dem Wölfe Schafe über ihre Ziellinie ziehen oder tragen und sie dadurch verwandeln.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3-5
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schafe reißen.md
-translation_source_hash: 1fdf82eeb7467d7e00af167779ba4eb0768507cd0ac9f9414453dbe22d93eb1c
+translation_source_hash: e8b634cd2689ba2ae0216559257d8dab90eee3cacb33aad9a22889b6325c1be2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:48:52+00:00
+translation_updated: 2026-06-09T02:14:06+00:00
 ---
->[!info]
->A "Bárányok terelése" egy olyan játék, amelyben a bárányoknak biztonságosan át kell jutniuk a farkasok oldalára, miközben a farkasok próbálják elkapni a bárányokat, és szintén átjutni a másik oldalra. Ha egy bárányt egy farkas áthúz a célvonalon, maga is farkassá válik. A játék akkor ér véget, amikor minden bárány farkassá változott.
+> [!info] Rövid leírás
+> Egy futó- és fogójáték, amelyben a farkasok a célvonalukon át húzzák vagy viszik a juhokat, így átváltoztatva őket.
 
 **Csoportméret**: 10+ fő
-**Nehézség**: meglehetősen egyszerű
-**Anyag**: nincs
+**Nehézség**: Elég egyszerű
+**Anyag**: Nincs
 **Játékidő**: 3-5 perc
 
-# **Játékszabály**:
+## **Játékleírás**:
 
-Kijelölünk egy kisebb számú farkasfalkát, amely arányos a csoport méretével. Ez a farkasfalka a játéktér egyik oldalára áll, mindenki más pedig bárányként a másik oldalra. Ezt követően a farkasok veszélyes farkasüvöltést hallatnak, amire a bárányok hangosan „Meee!”-vel válaszolnak – ezzel kezdődik a kör. A bárányok megpróbálnak átjutni a farkasok oldalára; amint átértek a vonalon, biztonságban vannak. A farkasok azonban, akik csak előre és oldalra mozoghatnak, szintén megpróbálnak átjutni az ellenkező oldalra, miközben elkapják a bárányokat. „Elkapni” ebben a játékban azt jelenti, hogy a bárányt a farkasok céloldalára húzzák vagy viszik. Ha egy bárányt áthúznak a vonalon, amelyet a farkasoknak el kell érniük, maga is farkassá válik. A játék akkor ér véget, amikor minden bárány farkassá változott.
+Meghatározunk egy kis, a csoportmérethez igazított farkasfalkát. Ez a játéktér egyik oldalára áll, mindenki más pedig (juhként) a másik oldalra. A farkasok most egy veszélyes farkasüvöltést hallatnak, erre a juhok hangosan mekegnek – ezzel kezdődik a kör. A juhok megpróbálnak átjutni a farkasok oldalára, amint átérnek a vonalon, biztonságban vannak. A farkasok azonban, akik csak előre és oldalra mozoghatnak, szintén megpróbálnak átjutni az ellenkező oldalra, és közben elkapni a juhokat. Ebben a játékban az „elkapni” azt jelenti, hogy a juhokat a farkasok céloldalára húzzák vagy viszik. Ha egy juhot átvonszolnak azon a vonalon, amit a farkasoknak el kell érniük, az maga is farkassá válik. A játék akkor ér véget, amikor minden juh farkassá változott.
 
-# Lásd még
+## **Hivatkozások**
 
 [Cápa](Haifisch.md)
 
-# **Forrás**:
+## **Forrás**:
 
 Tasifan Spielebuch

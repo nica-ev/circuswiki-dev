@@ -7,42 +7,60 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:39:12
 title: Kommando Pimperle
-description: 
+description: Ein Reaktionsspiel, bei dem Kommandos nur ausgeführt werden dürfen, wenn sie mit dem Signalwort angesagt werden.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kommando Pimperle.md
-translation_source_hash: 563862eea8b6b3b2a2aff0b801f5f0a0240df03c1c39dc818fa897b716dde24a
+translation_source_hash: 2cc0a5286d53cdc6c7285afcfa158b8944ba30634bb22a0abb21b71f28563abd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:00:27+00:00
+translation_updated: 2026-06-09T01:51:33+00:00
 ---
-# Kommando Pimperle
+> [!info] Stručný popis
+> Reakční hra, při které se povely smějí provádět pouze tehdy, když jsou uvedeny signálním slovem.
 
-Hra pro libovolný počet hráčů:
+**Počet hráčů**: od 3 osob
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Doba trvání hry**: 5-10 minut
 
-Všichni se seřadí do kruhu.
+## **Popis hry**:
+
+Všichni se sejdou v kruhu.
 Ruce se natáhnou doprostřed a ukazováčky bubnují na zem.
-Vůdce hry může nyní dávat různé pokyny:
-- Ploše (prsty se položí na zem)
-- Na záda (prsty se položí na zem dlaněmi nahoru)
+Vedoucí hry může nyní dávat různé povely:
+- Plochá (prsty se položí na zem)
+- Zada (prsty se položí na zem obráceně)
 - Most (ruce vytvoří na zemi most)
-- Pěst (pěsti se položí na zem)
-- Vzhůru (prsty směřují do vzduchu)
-Tyto pokyny se však smí provést pouze tehdy, když vůdce hry před každým pokynem vysloví slovo „Kommando“ (např. „Kommando Pěst“).
-Pokud slovo „Kommando“ nevysloví a řekne pouze samotný pokyn (např. „Pěst“), musí se nadále bubnovat prsty na zem. Vůdce hry však může pokyn vždy provést, aby zmátl ostatní hráče.
+- Kámen (pěsti se položí na zem)
+- Tyč (prsty směřují do vzduchu)
+Tyto povely se však nyní smějí provádět pouze tehdy, když vedoucí hry před každým povelem vysloví slovo "Povely" (např. "Povely Pěsti").
+Pokud ho nevysloví, ale pouze samotný povel (např. "Pěsti"), musí se dál bubnovat prsty na zem. Vedoucí hry však může povel provést vždy, aby zmátl ostatní hráče.
 Kdo udělá chybu, musí jedno kolo oběhnout kruh.
 
-Varianta: Hru lze hrát i ve stoje.
-Místo bubnování se na místě běhá. Pokyny se nyní provádějí tělem.
-- Ploše (lehnout si na břicho)
-- Na záda (lehnout si na záda)
-- Most (postavit ruce a nohy na zem, zvednout zadek do vzduchu)
-- Pěst (kleknout si na zem a udělat se co nejmenší)
-- Vzhůru (natáhnout ruce nahoru, nohy k sobě)
-Po každém provedení pokynu se pokračuje v běhu na místě.
+## **Varianty**:
 
-Pokyny lze také přizpůsobit věkové skupině.
-Pro malé děti lze například použít zvířecí pohyby (žába, had, slon…).
+Hru lze hrát i vestoje.
+Místo bubnování se na místě běhá. Povely se nyní provádějí tělem.
+- Plochá (lehnout si na břicho)
+- Zada (lehnout si na záda)
+- Most (postavit ruce a nohy na zem, zvednout zadek do vzduchu)
+- Kámen (kleknout si na zem a udělat se co nejmenší)
+- Tyč (natáhnout ruce nahoru, nohy k sobě)
+Po každém provedení povelu se pokračuje v běhu na místě.
+
+Povely lze také přizpůsobit věkové skupině.
+Pro malé děti lze například použít pohyby zvířat (žába, had, slon…).
+
+## **Zdroj**:
+
+Neznámý

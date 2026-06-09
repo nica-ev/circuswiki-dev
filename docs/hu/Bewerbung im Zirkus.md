@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:34:10+00:00
+translation_updated: 2026-06-09T01:26:11+00:00
 ---
-# Jelentkezés a cirkuszba
+> [!info] Rövid leírás
+> Egy körjáték, amelyben egy jelentkezőnek a mozdulatok finom változtatásai alapján kell megtalálnia a titkos cirkuszigazgatót.
 
-Játék közepes és nagy csoportoknak:
+**Csoportméret**: 8 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-Minden játékos körben ül. Kiválasztunk egy jelentkezőt, akinek el kell hagynia a termet.
+## **Játékleírás**:
 
-Ezután kiválasztunk egy cirkuszigazgatót.
+Közepes vagy nagyobb csoportok számára.
 
-A jelentkezőt visszahívjuk a terembe, és három próbálkozási lehetőséget kap a cirkuszigazgató kitalálására.
+Minden játékos körben ül. Kiválasztunk egy jelentkezőt, aki elhagyja a termet.
 
-A cirkuszigazgató folyamatosan mutat mozdulatokat, amelyeket mindenkinek utánoznia kell. Ügyelnie kell arra, hogy a mozdulatokat a lehető legfeltűnőtlenebbül mutassa be, így a jelentkező mindenkitől egyszerre ugyanazt a mozdulatot látja.
+Ezután kiválasztjuk a cirkuszigazgatót.
 
-Ha a jelentkező kitalálja, ki a direktor, megnyerte a játékot.
+A jelentkezőt visszahívjuk a terembe, és három próbálkozása van a cirkuszigazgató megtalálására.
+
+A cirkuszigazgató folyamatosan mutat mozdulatokat, amelyeket mindenkinek utánoznia kell. Igyekeznie kell ezeket a lehető legfeltűnőtlenebbül bemutatni, hogy a jelentkező mindenkitől egyszerre ugyanazt a mozdulatot lásson.
+
+Ha a jelentkező kitalálja az igazgatót, megnyerte a játékot.
 Ha nem sikerül neki, a csoport nyert.
+
+## **Forrás**:
+
+Ismeretlen

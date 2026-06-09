@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:16
 title: Schwesterchen hilf
-description: 
+description: Ein Paar-Fangspiel, bei dem der Läufer sich an ein Paar anhängt und dadurch neue Rollen entstehen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# **Schwesterchen hilf**
+> [!info] Kurzbeschreibung
+> Ein Paar-Fangspiel, bei dem der Läufer sich an ein Paar anhängt und dadurch neue Rollen entstehen.
 
 **Gruppengröße**: Ab 8 Mitspieler, möglichst eine gerade Anzahl
 **Schwierigkeit**: simpel

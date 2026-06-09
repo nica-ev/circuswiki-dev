@@ -7,23 +7,32 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: 
+description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 3-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Whiskeymixer
+> [!info] Kurzbeschreibung
+> Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 
 **Gruppengröße**: Ab 5 Mitspieler
 **Schwierigkeit**: mittel (was die Sprache betrifft)
 **Material**: keins
 **Spieldauer**: 3 bis 10 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Alle stehen im Kreis und einer beginnt zu seinem rechten Nachbarn das Wort „Whiskeymixer“ zu sagen. Anschließend sagt dann dieser Spieler zu seinem rechten Nachbar wieder Whiskeymixer und immer so weiter. Muss jemand aus dem Kreis irgendwann während des Spiels lachen oder verspricht sich, muss er einmal um den gesamten Kreis laufen und sich wieder an seine Ausgangsposition stellen. Wäre der Spieler in dem Moment dran, würde er einfach übersprungen werden. Nun kann man mit dem Wort „Messwechsel“ die Richtung wechseln. Wenn das Ganze links herum geht, muss man zu seinem linken Nachbarn „Wachsmaskenmacher“ anstatt „Whiykeymixer“ sagen.
 
-**Quelle**:
+## **Quelle**:
+
 Tasifan Spielebuch

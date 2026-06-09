@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwänzchen-Hasche.md
-translation_source_hash: 134bf5d8cc91335e0e6f7dcda2d88ed4ab10d6087ef8eec6fd486c64c69f050f
+translation_source_hash: de1d8e40c5fade00d950d22fd75c50371657745f5b45a9f11534b44175b7ffda
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:10:01+00:00
+translation_updated: 2026-06-09T02:24:15+00:00
 ---
-# Ocasové honičky
-
 > [!info] Stručný popis
-> Pohybově náročná honička pro malé až střední skupiny, ideální na rozcvičení, jejímž cílem je krást ostatním "ocasy" a zároveň si jich co nejvíce nasbírat.
+> Hra na chytanou s šátky, při které se všichni snaží ukrást ostatním ocásky a sbírat je.
 
-**Velikost skupiny**: Malá až střední
+**Velikost skupiny**: 5–30 osob
 **Obtížnost**: Lehká
 **Materiál**: Šátky (jeden na osobu)
-**Délka hry**: Cca 10–15 minut
+**Délka hry**: Přibližně 10–15 minut
 
 ## **Popis hry**:
 
-Honička pro malé až střední skupiny, která je vhodná na rozcvičení.
+Hra na chytanou pro malé až středně velké skupiny, která je vhodná k rozcvičení.
 
 Potřebné rekvizity: šátky
 
-Každý si zastrčí jeden šátek za pas do kalhot na zádech tak, aby mu "ocásek" visel ven a dal se snadno vytáhnout.
+Každý si zastrčí jeden šátek za pas do kalhot na zádech tak, aby mu visel "ocásek", který lze snadno vytáhnout.
 
-Cílem je nyní krást ostatním ocásky a nasbírat si co nejvíce ocásků.
-Jakmile někdo ukradne ocásek, zastrčí si ho také za pas do kalhot na zádech tak, aby velká část visela ven a dala se dobře uchopit.
+Cílem je nyní ukrást ostatním ocásky a nasbírat jich co nejvíce.
+Jakmile někdo ukradne ocásek, zastrčí si ho také za pas do kalhot na zádech tak, aby visel velký kus a dal se dobře uchopit.
 
 ## **Zdroj**:
 

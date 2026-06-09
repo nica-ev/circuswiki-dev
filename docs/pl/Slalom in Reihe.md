@@ -7,40 +7,66 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
 title: Slalom in Reihe
-description: 
+description: Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Slalom in Reihe.md
-translation_source_hash: 778c67f01158aabf9a806f91bc1cdfc1d6720f732f783e27877e1a66ac356c62
+translation_source_hash: a2f5e670c4637b1f2308771017ec9c090e03cc6aac8dadc91807756a38c67e45
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:23:43+00:00
+translation_updated: 2026-06-09T02:25:13+00:00
 ---
-# Slalom w szeregu
+> [!info] Krótki opis
+> Rozgrzewka w małych grupach, podczas której uczestnicy kolejno przechodzą, czołgają się lub wspinają przez szereg.
 
-Gra rozgrzewkowa dla małych i średnich grup. Dużo miejsca na wariacje.
+**Liczba uczestników**: 3-25 osób
+**Poziom trudności**: łatwy
+**Materiały**: brak
+**Czas trwania**: 5-10 minut
 
-Tworzone są małe grupy 3-5 osobowe. Osoby w grupie stoją jedna za drugą w szeregu. Pomiędzy poszczególnymi osobami powinno być zawsze wystarczająco dużo miejsca, aby można było swobodnie między nimi przejść.
+## **Opis gry**:
 
-Grupy powinny mieć wystarczająco dużo miejsca obok siebie, aby się nie przeszkadzać.
-Poniżej opisano różne warianty.
+Gra rozgrzewkowa dla małych i średnich grup. Daje wiele możliwości modyfikacji.
 
-Slalom:
-Ostatnia osoba w szeregu zaczyna biec slalomem wokół osób przed nią, aż dotrze na czoło szeregu. Tam się zatrzymuje.
-"Przedostatnia" osoba zaczyna biec za nią slalomem, gdy tylko stanie się ostatnią osobą w szeregu.
+Tworzone są małe grupy 3-5 osobowe. Uczestnicy w grupie stają w szeregu, jeden za drugim. Między poszczególnymi osobami powinien być wystarczająco dużo miejsca, aby można było swobodnie przejść.
 
-Wysoko / Nisko:
-Osoby w szeregu stoją naprzemiennie wyprostowane z rozstawionymi nogami i skulone, jak najmniejsze. Ostatnia osoba w szeregu zaczyna ponownie – przez rozstawione nogi się przeciska, nad skuloną osobą wykonuje się przeskok.
+Grupy powinny mieć wystarczająco dużo przestrzeni obok siebie, aby się wzajemnie nie utrudniać.
+Poniżej opisano różne warianty przebiegu gry.
 
-Tunel dla psów:
-Każda osoba w grupie przyjmuje pozycję jogiczną "Pies" – stopy i dłonie na podłodze, nogi wyprostowane, pośladki zadarte tak, aby ciało tworzyło z podłogą trójkąt.
-Każda osoba jest obrócona tak, aby utworzył się tunel (wszyscy są obróceni w prawo i przyjmują pozycję).
-Ostatnia osoba w szeregu czołga się przez ten tunel, po dotarciu na drugą stronę wraca do pozycji "Psa".
+## **Warianty**:
 
-Pompki:
-Każda osoba w grupie obraca się w prawo i przyjmuje pozycję do pompek, ramiona mogą pozostać wyprostowane. Ostatnia osoba w szeregu przechodzi nad pozostałymi, po dotarciu na drugą stronę wraca do pozycji do pompek.
+### Slalom
 
---> Można wymyślić wiele innych wariantów, ważne jest, aby przebieg gry był prosty, a w grupie nie było zbyt wielu osób.
+Ostatnia osoba w szeregu zaczyna biec slalomem między osobami stojącymi przed nią, aż dotrze na czoło szeregu. Tam pozostaje.
+Przedostatnia osoba zaczyna biec slalomem, gdy tylko stanie się ostatnią osobą w szeregu.
+
+### Wysoko / Nisko
+
+Osoby w szeregu stoją naprzemiennie wyprostowane z rozstawionymi nogami i skulone, jak najmniejsze. Ostatnia osoba w szeregu zaczyna ponownie – przez rozstawione nogi się przechodzi, nad skuloną osobą wykonuje się przeskok.
+
+### Tunel dla psa
+
+Każda osoba w grupie przyjmuje pozycję z jogi „Pies” – stopy i dłonie są na podłodze, nogi wyprostowane, pośladki uniesione tak, aby ciało tworzyło trójkąt z podłogą.
+Każda osoba jest obrócona w taki sposób, aby utworzyć tunel (wszyscy są obróceni w prawo i przyjmują pozycję).
+Ostatnia osoba w szeregu czołga się przez ten tunel, po dotarciu na drugą stronę wraca do pozycji „Psa”.
+
+### Pompka
+
+Każda osoba w grupie obraca się w prawo i przyjmuje pozycję do pompki, ramiona mogą być wyprostowane. Ostatnia osoba w szeregu przechodzi nad pozostałymi, po dotarciu na drugą stronę wraca do pozycji do pompki.
+
+## **Wskazówki**:
+
+--> Można wymyślić wiele innych wariantów, ważne jest, aby przebieg gry był prosty, a grupy nie były zbyt liczne.
+
+## **Źródło**:
+
+Nieznane

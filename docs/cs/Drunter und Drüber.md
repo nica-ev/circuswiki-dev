@@ -7,31 +7,46 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
+translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T16:35:18+00:00
+translation_updated: 2026-06-09T01:35:26+00:00
 ---
-# Drunter und Drüber
+> [!info] Stručný popis
+> Jednoduchá přehazovací hra, při které se předměty střídavě podávají přes hlavu a mezi nohama.
+
+**Velikost skupiny**: 5–20 osob
+**Obtížnost**: snadná
+**Materiál**: předměty
+**Délka hry**: 5–10 minut
+
+## **Popis hry**:
 
 Jednoduchá hra s předměty pro malé až středně velké skupiny.
 
 Všichni stojí v řadě.
 Předměty se podávají zepředu dozadu přes hlavu.
-Poslední v řadě podává předměty zezadu dopředu mezi nohama toho před sebou.
+Poslední v řadě podává předměty zepředu dozadu mezi nohama osoby před sebou.
 
-Buď se to udělá jako nekonečná hra, nebo se předměty odloží stranou, když dokončí celé kolo.
+Buď se to udělá jako nekonečná hra, nebo se předměty odloží stranou, jakmile dokončí celé kolo.
 
----
-sloučit s duplicitní poznámkou:
+## **Poznámky**:
 
-Jednoduchá hra s předměty pro malé až středně velké skupiny.
+Zvážit možné sloučení s dvojitou poznámkou.
 
-Všichni stojí v řadě. Předměty se podávají zepředu dozadu přes hlavu. Poslední v řadě podává předměty zezadu dopředu mezi nohama toho před sebou. Předměty se buď mohou odložit stranou, když projdou celé kolo, nebo se hra nekonečně opakuje od začátku.
+## **Zdroj**:
+
+Neznámý

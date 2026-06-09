@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,14 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:27:30+00:00
+translation_updated: 2026-06-09T01:48:17+00:00
 ---
 > [!info] Короткий опис
-> «Знайомство з м'ячами, біг за ними» — це динамічна вправа для знайомства, яка поєднує рух, запам'ятовування імен та зоровий контакт для сприяння взаємодії та почуття спільноти.
+> Динамічна вправа для знайомства в колі, під час якої учасники біжать за кинутим м'ячем і міняються місцями.
 
-**Розмір групи**: Будь-який
+**Розмір групи**: 5-25 осіб
 **Складність**: Легка до середньої (залежно від кількості м'ячів)
 **Матеріал**: Один або кілька м'ячів
 **Тривалість гри**: Приблизно 10-15 хвилин
@@ -43,7 +43,7 @@ translation_updated: 2026-06-07T14:27:30+00:00
 
 Потім вона біжить за м'ячем і стає **за** людиною, яка спіймала м'яч.
 
-Складність можна збільшити, додавши більше м'ячів у гру.
+Можна підвищити складність, збільшивши кількість м'ячів у грі.
 
 ## **Джерело**:
 

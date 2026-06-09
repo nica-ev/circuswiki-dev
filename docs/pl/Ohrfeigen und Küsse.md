@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ohrfeigen und Küsse
-description: 
+description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,32 +23,30 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ohrfeigen und Küsse.md
-translation_source_hash: b1c8f3c5bbf89aeef005153dee1a6486195450ab72c1ef74e7afc9a8197d011d
+translation_source_hash: 52349702f8b552b2a01f27dab281148d7e7f3048cb48badfc077eebf72ccb21b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:21:49+00:00
+translation_updated: 2026-06-09T02:09:22+00:00
 ---
-# Policzkki i pocałunki
-
 > [!info] Krótki opis
-> „Policzki i pocałunki” to nietypowa gra interakcyjna, która w zabawny sposób łączy życzliwość i agresję.
+> Wrażliwa gra interakcyjna, w której świadomie odgrywane są powitania, przyjazne gesty i zasygnalizowane gesty konfliktowe.
 
-**Liczba uczestników**: Dowolna
-**Poziom trudności**: Średni (wymaga wrażliwości i uzgodnienia)
+**Liczba uczestników**: 5-30 osób
+**Poziom trudności**: Średni (wymaga wrażliwości i komunikacji)
 **Materiały**: Brak
-**Czas trwania**: Około 10-15 minut
+**Czas trwania gry**: Około 10-15 minut
 
 ## **Opis gry**:
 
 Wszyscy uczestnicy swobodnie poruszają się po sali.
 
-Gdy dwie osoby się spotkają, krótko podają sobie ręce i witają się imieniem („Cześć, Marku”).
+Gdy dwie osoby się spotkają, krótko się witają, podając sobie ręce i mówiąc swoje imiona („Cześć, Marku”).
 
-Następnie następuje przyjazna interakcja: przytulają się, „całują” się (gestem, bez faktycznego kontaktu) lub wykonują inną przyjazną czynność.
+Następnie następuje przyjazna interakcja: przytulają się, „całują” się (gest symboliczny, bez faktycznego kontaktu) lub wykonują inny przyjazny gest.
 
-Trzecim etapem jest zaaranżowana agresywna interakcja: jedna osoba „wymierza” policzek (tylko gestem!), uderza (gestem!), kopie (gestem!) lub wykonuje inną agresywną czynność (gestem!).
+Jako trzeci etap następuje zasygnalizowana interakcja agresywna: jedna osoba „wymierza” policzek (tylko gest!), uderza (gest!), kopie (gest!) lub wykonuje inny agresywny gest (gest!).
 
 **Ważne**:
-Część agresywna jest tylko udawana! Ruchy wykonuje się powoli, aby partner miał czas na reakcję. Podczas jednego spotkania agresywna jest zawsze tylko jedna osoba; nie dochodzi do wymiany ciosów.
+Część agresywna jest tylko odgrywana! Ruchy wykonywane są powoli, aby partner miał czas na reakcję. W każdym spotkaniu agresywna jest tylko jedna osoba; nie dochodzi do wymiany ciosów.
 
 ## **Źródło**:
 

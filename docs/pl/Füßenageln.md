@@ -7,31 +7,41 @@ tags:
 created: 2025-01-25 01:57:09
 update: 2026-06-07 01:14:58
 title: Füßenageln
-description: 
+description: Ein Bewegungsspiel, bei dem alle versuchen, die Füße anderer Personen festzunageln und selbst beweglich zu bleiben.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Füßenageln.md
-translation_source_hash: a851c1888efc3fdc9e5ab26d97093e5b8f4e5e95debba05584324b194c96f7df
+translation_source_hash: 5f6f2334066fbb0a9cf90f04b4c89b3ea2f3fb58daac5252408a87e3217061ae
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:28:17+00:00
+translation_updated: 2026-06-09T01:39:47+00:00
 ---
-# Przybijanie stóp
+> [!info] Krótki opis
+> Gra ruchowa, w której wszyscy próbują "przybić" stopy innych osób, jednocześnie pozostając w ruchu.
 
-Liczba graczy: od 5 osób
-Poziom trudności: łatwy
-Materiały: żadne
-Czas gry: 5-10 minut
+**Liczba graczy**: od 5 osób
+**Poziom trudności**: łatwy
+**Materiały**: brak
+**Czas trwania**: 5-10 minut
 
-Każdy gracz próbuje dotknąć stopami stóp pozostałych graczy. Obowiązuje zasada: każdy na każdego.
+## **Opis gry**:
 
-Jeśli graczowi uda się dotknąć stopy innego gracza, stopa ta zostaje "przyбиta" do podłogi. Oznacza to, że nie można jej już ruszyć z miejsca. Drugą, wolną stopą można jednak próbować uciekać. Ponadto w każdej chwili można dotykać innych stóp.
+Każdy gracz stara się dotknąć dłońmi stóp innych graczy. Obowiązuje zasada: każdy na każdego.
+
+Jeśli graczowi uda się dotknąć stopy innej osoby, stopa ta zostaje "przybita" do podłogi. Oznacza to, że nie można jej już poruszyć z miejsca. Drugą, wolną stopą można jednak próbować uciekać. Ponadto, w każdej chwili można dotykać innych stóp.
 Podstawowy warunek tej gry: wszyscy wolni gracze muszą pozostać w ruchu!
 
 Gra kończy się, gdy nikt lub tylko jedna osoba ma dwie wolne stopy.
 
-Źródło:
+## **Źródło**:
+
 Tasifan Spielebuch

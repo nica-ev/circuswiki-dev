@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ohrfeigen und Küsse
-description: 
+description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,32 +23,30 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ohrfeigen und Küsse.md
-translation_source_hash: b1c8f3c5bbf89aeef005153dee1a6486195450ab72c1ef74e7afc9a8197d011d
+translation_source_hash: 52349702f8b552b2a01f27dab281148d7e7f3048cb48badfc077eebf72ccb21b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:07:23+00:00
+translation_updated: 2026-06-09T02:09:38+00:00
 ---
-# Pleskance a bozky
-
 > [!info] Stručný popis
-> „Pleskance a bozky“ je neobvyklá interaktívna hra, ktorá hravou formou kombinuje priateľskosť a agresivitu.
+> Citlivá interaktívna hra, pri ktorej sa vedome hráme s pozdravom, priateľskými gestami a naznačenými konfliktnými gestami.
 
-**Veľkosť skupiny**: ľubovoľná
-**Náročnosť**: stredná (vyžaduje citlivosť a dohodu)
-**Materiál**: žiadny
-**Dĺžka hry**: cca 10 – 15 minút
+**Veľkosť skupiny**: 5 – 30 osôb
+**Náročnosť**: Stredná (vyžaduje citlivosť a dohodu)
+**Materiál**: Žiadny
+**Dĺžka hry**: Približne 10 – 15 minút
 
 ## **Popis hry**:
 
 Všetci účastníci sa voľne pohybujú po miestnosti.
 
-Keď sa dvaja účastníci stretnú, krátko si podajú ruky a pozdravia sa menom („Ahoj, Miško“).
+Keď sa dvaja účastníci stretnú, krátko si podajú ruky a pozdravia sa menom („Ahoj, Marek“).
 
-Druhá fáza je priateľská interakcia: objímu sa, „pobozkajú“ sa (naznačene, bez skutočného dotyku) alebo urobia niečo iné priateľské.
+Druhou fázou je priateľská interakcia: objímu sa, „pobožkajú“ sa (naznačené, bez skutočného dotyku) alebo urobia niečo iné priateľské.
 
-Tretia fáza je naznačená agresívna interakcia: jeden účastník „udrie“ (len naznačene!), udrie päsťou (naznačene!), kopne (naznačene!) alebo urobí niečo iné agresívne (naznačene!).
+Tretia fáza je naznačená agresívna interakcia: jeden z účastníkov „rozdá“ facku (len naznačenú!), udrie (naznačené!), kopne (naznačené!) alebo urobí čokoľvek iné agresívne (naznačené!).
 
 **Dôležité**:
-Agresívna časť sa len hrá! Pohyby sa vykonávajú pomaly, aby mal partner čas zareagovať. Pri každom stretnutí je agresívny vždy len jeden partner; nedochádza k výmene úderov.
+Agresívna časť sa len hrá! Pohyby sa vykonávajú pomaly, aby mal partner čas zareagovať. Pri každom stretnutí je agresívny vždy len jeden partner; nedochádza k žiadnej výmene úderov.
 
 ## **Zdroj**:
 

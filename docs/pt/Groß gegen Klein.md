@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Groß gegen Klein
-description: 
+description: Ein körperliches Rangelspiel, bei dem eine große Person versucht, mehrere kleine Personen von der Matte zu lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: Matte
+Spieldauer: 1-5
+source: Tasifan Spielebuch
+group-min: 3
+group-max: 10
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Groß gegen Klein.md
-translation_source_hash: 6dcd2a650fd8c3ff2d75b631a75c70e21962e86211c12f73446415ab2f50aee6
+translation_source_hash: f6b74faf7f9cb42d23d65dcf65201375f8e88d3af3021691d7ed9f18f70c4dc5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:46:23+00:00
+translation_updated: 2026-06-09T01:41:26+00:00
 ---
-# Grande contra Pequeno
+> [!info] Breve Descrição
+> Um jogo físico de luta livre em que uma pessoa grande tenta tirar várias pessoas pequenas do tapete.
 
 **Tamanho do grupo**: 3 a 10 participantes
 **Dificuldade**: média
-**Material**: nenhum
+**Material**: Tapete
 **Duração do jogo**: 1 a 5 minutos
 
-**Descrição do jogo**:
-O título é, na verdade, bastante autoexplicativo. O facilitador/líder do jogo deita-se num tapete e todos os participantes/pequenos, ou um número de participantes/pequenos determinado pelo "grande", podem deitar-se sobre ele, segurando os braços e as pernas ou fixando-o de outra forma. Apenas a cabeça do facilitador não pode ser tocada. O jogo começa e agora o "grande" tem de tentar remover todos os "pequenos" do tapete. Os "pequenos" têm de tentar segurar o "grande" até que ele desista. Importante: Se o "grande" desistir, é preciso soltá-lo imediatamente! Ao lutarem um contra o outro, o "grande" e os "pequenos" não podem dar pontapés nem socos. Deve-se também ter cuidado para que ninguém tenha objetos pontiagudos ou duros nos bolsos. Se o "grande" conseguir remover todos os "pequenos" do tapete, ele ganha a rodada. Se ele tiver de desistir, os "pequenos" ganham.
+## **Descrição do Jogo**:
 
-**Fonte**:
+O título é bastante autoexplicativo. O facilitador/líder do jogo deita-se num tapete e todos os participantes do workshop/os pequenos, ou um número de participantes determinado pelo "grande", podem deitar-se sobre ele, segurando os braços e as pernas ou fixando-o de outra forma. Apenas a cabeça do facilitador não pode ser tocada. O jogo começa e agora o "grande" tem de tentar tirar todos os "pequenos" do tapete. Os "pequenos" devem tentar manter o "grande" preso até que ele desista. Importante: Se o "grande" desistir, deve ser libertado imediatamente! Ao lutarem um contra o outro, o "grande" e os "pequenos" não podem dar pontapés nem socos. Deve também ter-se o cuidado de garantir que ninguém tem objetos pontiagudos ou duros nos bolsos. Se o "grande" conseguir tirar todos os "pequenos" do tapete, ganha a ronda. Se ele tiver de desistir, os "pequenos" ganham.
+
+## **Fonte**:
+
 Tasifan Spielebuch

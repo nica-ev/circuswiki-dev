@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen
-description: 
+description: Eine einfache Kennenlernübung im Kreis, bei der Namen, Augenkontakt und sauberes Werfen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,10 +23,8 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: original
 translation_source_lang: de
 ---
-# Kennenlernen mit Bällen
-
 > [!info] Kurzbeschreibung
-> "Kennenlernen mit Bällen" ist eine einfache Kennenlernübung, die den Fokus auf Augenkontakt, Namenmerken und eine korrekte Wurftechnik legt.
+> Eine einfache Kennenlernübung im Kreis, bei der Namen, Augenkontakt und sauberes Werfen verbunden werden.
 
 **Gruppengröße**: Ab 4 Mitspieler
 **Schwierigkeit**: Einfach
@@ -47,7 +45,7 @@ Hinweis: Ein guter Wurf macht das Fangen leichter.
 ## **Quelle**: 
 Unbekannt
 
-## **Siehe auch:**
+## **Querverweise**
 
 [Kennenlernen mit Bällen hinterherlaufen](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
 [Aufmerksamkeits-Spiel mit Bällen](Aufmerksamkeits-Spiel%20mit%20Bällen.md)

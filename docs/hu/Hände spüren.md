@@ -7,31 +7,50 @@ publish: true
 tags:
   - spiele
 title: Hände spüren
-description: 
+description: Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände spüren.md
-translation_source_hash: b94d42ed97fb3042379245041ebad05bc37c5739d7816cb096102188ba4cc7c1
+translation_source_hash: 7e39cd5769c6a015008e15e3fdad24a8fb606cef67af9b4fe99ef6f15bfdc75b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:40:02+00:00
+translation_updated: 2026-06-09T01:43:41+00:00
 ---
-# Kezek érzékelése
+> [!info] Rövid leírás
+> Egy csendes észlelési játék, amelyben egy fekvő, csukott szemű személynek ki kell találnia, hány kéz érinti a testét.
 
-Relaxációs játék bármilyen csoportméretre:
+**Csoportméret**: 4-25 fő
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-4-5 fős csoportok alakulnak.
+## **Játék leírása**:
 
-Egy személy hason fekszik, és becsukja a szemét.
+Pihentető játék, bármilyen csoportmérettel játszható.
 
-A többiek nonverbálisan megbeszélik, hány kezet szeretnének egyszerre a fekvő testére helyezni.
+4-5 fős csoportokat kell alkotni.
+
+Egy személy hason fekszik, csukott szemmel.
+
+A többiek nonverbálisan megegyeznek abban, hány kézzel szeretnék egyszerre megérinteni a fekvő személy testét.
 
 A földön fekvő személynek most ki kell találnia, hány kéz van a testén.
 
-Az időtől és a résztvevők érzéseitől függően több kört is lehet játszani. Ezután szerepet cserélnek.
+A résztvevők ideje és érzései alapján több kört is lehet játszani. Ezután szerepcsere következik.
 
-**Lásd még:**
-[Robot](Roboter.md) – itt is nonverbálisan történik az interakció, és az érzékelés a lényeg.
+## **Forrás**:
+
+Ismeretlen
+
+## **Hivatkozások**
+
+[Robot](Roboter.md) - itt is nonverbális kommunikáció zajlik, és az érzékelés a lényeg.

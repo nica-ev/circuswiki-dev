@@ -7,29 +7,38 @@ publish: true
 tags:
   - spiele
 title: Beschütze deinen Freund
-description: 
+description: Ein Kreisspiel, bei dem sich Personen durch Paarbildung vor dem Fänger in der Mitte schützen.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4-9
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beschütze deinen Freund.md
-translation_source_hash: 1ac445e8db696fa89ec8cbe068aa612a80e05142e258f771c01d818e9f051cf3
+translation_source_hash: bff0af8b99455c361c223c5587237e15a1b3ed5d0b7c398aa5276881ab0e12f5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:11:42+00:00
+translation_updated: 2026-06-09T01:24:27+00:00
 ---
-# Bescherm je vriend
+> [!info] Korte beschrijving
+> Een kringspel waarbij mensen zich door een paar te vormen beschermen tegen de tikker in het midden.
 
-**Groepsgrootte**: Vanaf 8 spelers
+**Groepsgrootte**: vanaf 8 personen
 **Moeilijkheidsgraad**: makkelijk
 **Materiaal**: geen
-**Speelduur**: 4 tot 9 minuten
+**Speelduur**: 4-9 minuten
 
-**Spelbeschrijving**:
-Alle spelers staan in een cirkel. Eén persoon wordt aangewezen als 'tikker' en gaat in het midden van de cirkel staan. De tikker kan nu proberen spelers die in de cirkel staan, aan te tikken. Maar zij kunnen zichzelf beschermen door met z'n tweeën een stel te vormen. Staan ze echter met z'n drieën bij elkaar, dan mag de tikker een van de drie kiezen en aantikken. Als twee spelers een stel vormen en de tikker hen daardoor niet kan aantikken, mag de tikker één keer in de cirkel ronddraaien. Op dat moment moeten de twee spelers van elkaar scheiden en snel een nieuw stel vormen met een andere buurspeler. Anders kunnen ze getikt worden. Wordt iemand getikt, dan moet die persoon in het midden van de cirkel gaan staan en mag de tikker diens plaats innemen.
-Bij grotere groepen kunnen ook meerdere spelers in het midden van de cirkel staan en proberen de spelers aan de buitenkant aan te tikken.
+## **Spelbeschrijving**:
 
-**Bron**:
+Alle spelers staan in een kring. Eén persoon wordt aangewezen als tikker en gaat in het midden van de kring staan. De tikker kan nu proberen spelers die in de kring staan te tikken. Maar zij kunnen zich beschermen door met z'n tweeën te gaan staan. Als ze echter met z'n drieën staan, mag de tikker een van de drie kiezen en tikken. Als twee spelers zich samenvoegen en de tikker hen daardoor niet kan tikken, mag de tikker zich één keer in de kring draaien. Op dat moment moeten de twee spelers zich scheiden en snel een nieuw paar vormen met een andere buur. Anders kunnen ze getikt worden. Als iemand getikt wordt, moet die persoon de kring in en mag de tikker diens plaats innemen.
+Bij grotere groepen kunnen ook meerdere spelers in de kring staan en proberen de buitenste spelers te tikken.
+
+## **Bron**:
+
 Tasifan Spielebuch

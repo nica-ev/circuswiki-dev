@@ -7,37 +7,55 @@ publish: true
 tags:
   - spiele
 title: Piraten Begrüßungsspiel
-description: 
+description: Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Begrüßungsspiel.md
-translation_source_hash: 9e76b223baa9c409e10e76a6667bc39c7b5007d4da5310c7ae9680af788941ef
+translation_source_hash: 16d375f0b3c6af66d609f9a984e4c1d3e305c281cd8ced4ea7daefc819f5920d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:07:57+00:00
+translation_updated: 2026-06-09T02:10:54+00:00
 ---
-# Jogo de Boas-Vindas dos Piratas
+> [!info] Breve Descrição
+> Um jogo temático de boas-vindas onde uma canção de piratas é acompanhada por gestos e ações em dupla.
 
-Um jogo temático para grupos de qualquer tamanho. O texto a seguir é cantado e acompanhado de gestos/movimentos correspondentes.
+**Tamanho do grupo**: a partir de 4 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do jogo**: 5-10 minutos
 
-"**Ei, pirata, pareces audaz.**
+## **Descrição do Jogo**:
+
+Um jogo temático para grupos de qualquer tamanho. O texto a seguir é cantado e acompanhado por gestos/movimentos correspondentes.
+
+"**Ei pirata, você parece ousado.**
 *[ Apontar para outro pirata ]*
-**Tira o gancho de abordagem.**
+**Pegue o seu gancho de abordagem.**
 *[ Curvar os dedos indicadores, apontar um para o outro e entrelaçá-los ]*
-**Ganha o gancho, ganha, ganha, ganha.**
-[ Os dedos indicadores entrelaçados são abanados ]*
-**E balança a perna de pau, balança, balança, balança.**
-[ Inclinar-se para a frente, levantar uma perna, agarrar a perna levantada um do outro e abaná-la ]*
-**E depois manca, manca, manca, manca.**
+**Ganchos de abordagem, sacudir, sacudir, sacudir, sacudir.***
+[ Os dedos indicadores entrelaçados são sacudidos ]*
+**E a perna de pau, balançar, balançar, balançar, balançar.***
+[ Inclinar-se para a frente, levantar uma perna, agarrar a perna levantada um do outro e balançá-la ]*
+**E depois mancar, mancar, mancar, mancar***
 [ Soltar as pernas e mancar para longe ]*
-**E acena, acena, acena, acena para o próximo.**
-[ Apontar para o próximo pirata e acenar para ele ]*
+**E acenar para o próximo, acenar, acenar, acenar.***
+[ Mirar no próximo pirata e acenar para ele ]*
 "
 
-## Referências Cruzadas
+## **Fonte**:
+
+Desconhecida
+
+## **Referências Cruzadas**
 
 [Tópico do Workshop Piratas](Workshop%20Thema%20Piraten.md)
 [Capitão Pirata](Piraten%20Kapitän.md)

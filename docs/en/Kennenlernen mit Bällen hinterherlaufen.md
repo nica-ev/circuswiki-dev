@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,23 +23,23 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:26:01+00:00
+translation_updated: 2026-06-09T01:48:09+00:00
 ---
 > [!info] Brief Description
-> "Getting to Know You with Balls, Chasing After" is a dynamic icebreaker that combines movement, name memorization, and eye contact to foster interaction and a sense of community.
+> A dynamic circle-based icebreaker where participants chase a thrown ball and switch places.
 
-**Group Size**: Any
+**Group Size**: 5-25 people
 **Difficulty**: Easy to Medium (depending on the number of balls)
 **Materials**: One or more balls
-**Playtime**: Approx. 10-15 minutes
+**Game Duration**: Approx. 10-15 minutes
 
 ## **Game Description**:
 
 All participants stand in a circle.
 
-One person has a ball, makes eye contact with another person in the circle, says their name, and throws them the ball.
+One person holds a ball, makes eye contact with another person in the circle, says their name, and throws the ball to them.
 
 Then, they run after the ball and stand **behind** the person who caught it.
 

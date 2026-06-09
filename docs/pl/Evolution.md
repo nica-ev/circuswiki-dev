@@ -7,29 +7,38 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:57
 title: Evolution
-description: 
+description: Ein Bewegungsspiel mit Schnick-Schnack-Schnuck, bei dem Personen durch Evolutionsstufen auf- und absteigen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 12
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Evolution.md
-translation_source_hash: c874fdc479b71fd5996e0bc756434b0f48833058104864d23dee89eb06b1a448
+translation_source_hash: 0fb09a29fa397cff21d85b0c524e893c14efc9d6fb5e77a9bdb0310138911098
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:11:54+00:00
+translation_updated: 2026-06-09T01:36:31+00:00
 ---
-# Ewolucja
+> [!info] Krótki opis
+> Gra ruchowa z papier, kamień, nożyce, w której uczestnicy wspinają się i schodzą po szczeblach ewolucji.
 
 **Liczba graczy**: od 12 osób
 **Poziom trudności**: łatwy
 **Materiały**: brak
 **Czas gry**: ok. 10 minut
 
-**Opis gry**:
-Wszyscy gracze zaczynają jako ameby. Pełzają po podłodze i powtarzają „Ameba, ameba, ameba…”. Każdy gracz dąży do awansu w łańcuchu ewolucji. Osiąga się to, grając w papier, kamień, nożyce z inną amebą. Zwycięzca staje się jajem. Jajo podskakuje w przysiadzie, z małym daszkiem uformowanym z dłoni nad głową, przemieszcza się z miejsca na miejsce i woła „Jajo, jajo, jajo…”. Ten, kto przegrał w papier, kamień, nożyce, pozostaje amebą, ponieważ niżej w ewolucji nie można już upaść. Gdy dwa jaja spotkają się, ponownie grają w papier, kamień, nożyce. Przegrany wraca do etapu ameby, czyli spada o jeden poziom ewolucji. Zwycięzca staje się kurczakiem. Kurczak ma ręce przyłożone do pach, trzepocze małymi skrzydełkami i wydaje kurczęce dźwięki. Gdy dwa kurczaki się spotkają, ponownie grają w papier, kamień, nożyce. Przegrany znów spada o jeden poziom, stając się jajem. Kurczak, który wygrał, staje się orłem. Orzeł rozpościera swoje wielkie skrzydła i głośno woła „Aaaar, aaaar, aaaar”. Po pojedynku orłów, przegrany znów staje się kurczakiem, a zwycięzca – małpą. Małpa bije się po piersi i woła „ugah, ugah”. Małpa, która wygra pojedynek w papier, kamień, nożyce z inną małpą, staje się człowiekiem i może obserwować ewolucyjny zgiełk z boku. Małpa, która przegrała, logicznie wraca do etapu orła.
+## **Opis gry**:
 
-Alternatywnie można wprowadzić dinozaura i Włocha. Dinozaur trzyma ręce przed sobą jak małe dino-łapki i woła „rarw”. Włoch łączy kciuk i palec wskazujący jednej dłoni, unosi ją i powtarza „Lorenzo”. Gdy kilku graczy stanie się ludźmi, można zakończyć grę.
+Wszyscy uczestnicy na początku są amebami, czołgają się po podłodze i ciągle powtarzają „Ameba”, „Ameba”, „Ameba”... Każdy gracz ma na celu jak najwyższe wspięcie się w łańcuchu ewolucji. Osiąga się to, grając z inną amebą w papier, kamień, nożyce. Kto wygra, staje się jajem. Jajo podskakuje w kucki, z małym dachem uformowanym z dłoni nad głową, przemieszcza się z punktu A do punktu B i woła „Jajo”, „Jajo”, „Jajo”. Ten, kto przegrał w papier, kamień, nożyce, pozostaje amebą, ponieważ niżej w ewolucji nie można już spaść. Gdy dwa jaja spotkają się, ponownie grają w papier, kamień, nożyce. Przegrany wraca do postaci ameby, czyli spada o jeden stopień ewolucji. Zwycięzca staje się kurczakiem. Kurczak ma ręce przyłożone do pach, trzepocze swoimi małymi skrzydełkami i wydaje kurcze dźwięki. Gdy dwa kurczaki się spotkają, ponownie grają w papier, kamień, nożyce. Przegrany znów spada o jeden stopień, stając się jajem. Zwycięski kurczak staje się orłem, rozpościera swoje wielkie skrzydła i głośno woła „Ahr”, „Ahr”, „Ahr”. Po pojedynku orłów, przegrany wraca do postaci kurczaka, a zwycięzca staje się małpą. Małpa bije się po piersi i woła „ugah”, „ugah”. Małpa, która wygra rundę papier, kamień, nożyce z inną małpą, staje się człowiekiem i może obserwować ewolucyjne zamieszanie z boku. Małpa, która przegrała, logicznie wraca do postaci orła.
 
-**Źródło**:
+Alternatywnie można również wprowadzić dinozaura i Włocha. Dinozaur trzyma ręce przed klatką piersiową jak małe dino-łapki i mówi „rarw”. Włoch łączy kciuk i palec wskazujący jednej dłoni, unosi ją i ciągle powtarza „Lorenzo”. Gdy kilku graczy stanie się ludźmi, można zakończyć grę.
+
+## **Źródło**:
+
 Tasifan Spielebuch

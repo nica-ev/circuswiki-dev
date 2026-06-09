@@ -7,17 +7,29 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:06:23
 title: Die Bombe
-description: 
+description: Ein Kreisspiel mit Ball, bei dem eine Bombe nach einem geheimen Countdown explodiert und Hindernisse im Kreis entstehen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Ball
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-#  Die Bombe
+> [!info] Kurzbeschreibung
+> Ein Kreisspiel mit Ball, bei dem eine Bombe nach einem geheimen Countdown explodiert und Hindernisse im Kreis entstehen.
 
-Kreisspiel:
+**Gruppengröße**: 6-30 Personen
+**Schwierigkeit**: einfach
+**Material**: Ball
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Alle stehen in einem Kreis, ein Teilnehmer sitzt in der Mitte.
 Der TN in der Mitte zählt leise von 1 bis 10, danach ruft er laut "Bombe".
@@ -29,3 +41,7 @@ Derjenige/Diejenige rechts/links von ihm muss dann entsprechend erst über die B
 
 Derjenige in der Mitte fängt immer wieder neu von 1 an zu zählen, solange bis nur noch ein Teilnehmer im Kreis übrig ist.
 Dies ist der Gewinner.
+
+## **Quelle**:
+
+Unbekannt

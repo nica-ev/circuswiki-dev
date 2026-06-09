@@ -7,35 +7,53 @@ publish: true
 tags:
   - spiele
 title: Piraten Kapitän
-description: 
+description: Ein thematisches Kommandospiel auf einem Piratenschiff, bei dem Piraten reagieren und vor Haien fliehen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte
+Spieldauer: 5-15
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Kapitän.md
-translation_source_hash: 31da3ce6327cd599f74f762b567b208703a7fe1325bb106bb10aa3146321538c
+translation_source_hash: 145d0499229845f3528c7708ee23d9887e2d8eff6fed6fb02383a9010ffaf7f7
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:28:57+00:00
+translation_updated: 2026-06-09T02:11:06+00:00
 ---
-# Kalóz Kapitány
+> [!info] Rövid leírás
+> Tematikus parancsjáték egy kalózhajón, ahol a kalózok reagálnak és cápák elől menekülnek.
 
-Tematikus játék kisebb és közepes csoportok számára.
+**Csoportméret**: 5-25 fő
+**Nehézség**: könnyű
+**Eszköz**: szőnyeg
+**Játékidő**: 5-15 perc
+
+## **Játék leírása**:
+
+Tematikus játék kis- és közepes méretű csoportoknak.
 A játékvezető a kalózkapitány.
-Egy nagy szőnyegen (pl. puha matrac) van a kalózhajó, amelyen minden kalóz tartózkodik.
+Egy nagy szőnyegen (pl. puha talajú szőnyeg) van a kalózhajó, amelyen minden kalóz tartózkodik.
 
 A kapitány különféle parancsokat adhat ki. Például:
 Mindenki balra!
 Mindenki jobbra!
-A pallost pucolni!
-Mindenki evez!
+Tisztítsátok meg a fedélzetet!
+Mindenki evezzen!
 
-Mindenki a tengerbe! – erre a parancsra minden kalóz leugrik a hajóról és úszkálni kezd.
-Mielőtt a játék elkezdődik, már kijelöltek 2-3 cápát. A „Jönnek a cápák!” parancsra ezek odúsznak és megpróbálják „megenni” a kalózokat (akik ezután maguk is cápává válnak).
-A kalózok megpróbálnak minél gyorsabban visszajutni a hajóra.
+Mindenki a tengerbe! – erre a parancsra minden kalóz leugrik a hajóról és körbeúszik.
+Mielőtt a játék elkezdődne, már kijelöltek 2-3 cápát. A „Cápák jönnek!” parancsra ezek odúsznak és megpróbálják elkapni a kalózokat (akik ezután maguk is cápává válnak).
+A kalózok igyekeznek minél gyorsabban visszajutni a hajóra.
 
-## Keresztlinkek
+## **Forrás**:
+
+Ismeretlen
+
+## **Hivatkozások**
 
 [Workshop Téma Kalózok](Workshop%20Thema%20Piraten.md)
-[Kalóz Köszöntőjáték](Piraten%20Begrüßungsspiel.md)
+[Kalóz köszöntőjáték](Piraten%20Begrüßungsspiel.md)

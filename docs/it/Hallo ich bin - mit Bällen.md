@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Hallo, ich bin - mit Bällen
-description: 
+description: Eine Kennenlernübung im Kreis, bei der Namen mit individuellen Ballbewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,14 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin - mit Bällen.md
-translation_source_hash: 792187e09ae8b8d3435deda9c6597dcac4b4b7114527cf4383f48991e735dcc4
+translation_source_hash: d351dc062d6db08454b0cca37c5d1bc80959ca11a2364dc3c89a3bb1a6599dba
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:01:52+00:00
+translation_updated: 2026-06-09T01:42:58+00:00
 ---
 > [!info] Breve descrizione
-> "Ciao, sono - con la palla" è un esercizio ludico di conoscenza in cerchio che collega nomi e abilità motorie, promuovendo la dinamica di gruppo.
+> Un esercizio di conoscenza reciproca in cerchio, in cui i nomi vengono associati a movimenti individuali con la palla.
 
-**Dimensioni del gruppo**: Qualsiasi
+**Dimensioni del gruppo**: 3-30 persone
 **Difficoltà**: Facile
 **Materiale**: Una palla per ogni partecipante (di uguali dimensioni)
 **Durata del gioco**: Circa 10-15 minuti

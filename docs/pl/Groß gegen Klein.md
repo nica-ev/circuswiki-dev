@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Groß gegen Klein
-description: 
+description: Ein körperliches Rangelspiel, bei dem eine große Person versucht, mehrere kleine Personen von der Matte zu lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: Matte
+Spieldauer: 1-5
+source: Tasifan Spielebuch
+group-min: 3
+group-max: 10
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Groß gegen Klein.md
-translation_source_hash: 6dcd2a650fd8c3ff2d75b631a75c70e21962e86211c12f73446415ab2f50aee6
+translation_source_hash: f6b74faf7f9cb42d23d65dcf65201375f8e88d3af3021691d7ed9f18f70c4dc5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:15:30+00:00
+translation_updated: 2026-06-09T01:41:13+00:00
 ---
-# Duży kontra Mały
+> [!info] Krótki opis
+> Fizyczna zabawa w zapasy, w której jedna duża osoba próbuje zepchnąć kilka małych osób z maty.
 
-**Liczba graczy**: od 3 do 10 uczestników
+**Liczba uczestników**: od 3 do 10 osób
 **Poziom trudności**: średni
-**Materiały**: brak
-**Czas gry**: od 1 do 5 minut
+**Materiały**: mata
+**Czas trwania**: od 1 do 5 minut
 
-**Opis gry**:
-Tytuł jest w zasadzie samowyjaśniający. Prowadzący warsztaty/instruktor kładzie się na macie, a wszyscy uczestnicy warsztatów/mali, lub określona przez "Dużego" liczba małych, mogą się na nim położyć, chwytając go za ręce i nogi lub w inny sposób unieruchamiając. Jedynie głowa prowadzącego nie może być dotykana. Gra się rozpoczyna, a "Duży" musi teraz spróbować zrzucić wszystkich "Małych" z maty. "Mali" muszą próbować tak mocno trzymać "Dużego", aż ten się podda. Ważne: Jeśli "Duży" się podda, należy natychmiast puścić! Podczas wzajemnego zmagania się "Dużego" i "Małych" nie wolno kopać ani uderzać. Należy również uważać, aby nikt nie miał w kieszeniach niczego ostrego ani twardego. Jeśli "Dużemu" uda się zrzucić wszystkich "Małych" z maty, wygrywa rundę. Jeśli musi się poddać, wygrywają "Mali".
+## **Opis zabawy**:
 
-**Źródło**:
+Nazwa gry jest w zasadzie bardzo trafna. Prowadzący warsztaty/zabawę kładzie się na macie, a wszyscy uczestnicy warsztatów/małe osoby (lub określona przez "dużego" liczba osób) mogą się na nim położyć, chwytając go za ręce i nogi lub w inny sposób unieruchamiając. Jedynie głowa prowadzącego nie może być dotykana. Gra się rozpoczyna, a "duży" musi teraz spróbować zepchnąć wszystkie "małe" osoby z maty. "Małe" osoby muszą próbować tak mocno trzymać "dużego", aż ten się podda. Ważne: Jeśli "duży" się podda, należy natychmiast puścić! Podczas zapasów między "dużym" a "małymi" nie wolno kopać ani uderzać. Należy również upewnić się, że nikt nie ma w kieszeniach niczego ostrego ani twardego. Jeśli "dużemu" uda się zepchnąć wszystkie "małe" osoby z maty, wygrywa rundę. Jeśli musi się poddać, wygrywają "małe" osoby.
+
+## **Źródło**:
+
 Tasifan Spielebuch

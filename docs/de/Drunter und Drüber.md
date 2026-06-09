@@ -7,16 +7,30 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
 
-# Drunter und Drüber
+> [!info] Kurzbeschreibung
+> Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
+
+**Gruppengröße**: 5-20 Personen
+**Schwierigkeit**: einfach
+**Material**: Gegenstände
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Ein einfaches Spiel mit Objekten für kleine bis mittlere Gruppen.
 
@@ -26,9 +40,10 @@ Der letzte in der Reihe gibt die Gegenstände von hinten nach vorne durch die Be
 
 Entweder das ganze als Endlos-Spiel machen, oder die Gegenstände werden beiseite gelegt wenn sie eine komplette Runde geschafft haben.
 
----
-merge with duplicate note:
+## **Hinweise**:
 
-Ein einfaches Spiel mit Objekten für kleine bis mittlere Gruppen.
+Mögliche Zusammenführung mit einer doppelten Notiz prüfen.
 
-Alle stehen in einer Reihe. Es werden Gegenstände von vorne nach hinten über den Kopf weitergegeben. Der/die Letzte in der Reihe gibt die Gegenstände von hinten nach vorne durch die Beine des/der Vordermanns/-frau weiter. Die Gegenstände können entweder beiseite gelegt werden, wenn sie eine komplette Runde durchlaufen haben, oder es wird als Endlos-Spiel von Neuem gestartet.
+## **Quelle**:
+
+Unbekannt

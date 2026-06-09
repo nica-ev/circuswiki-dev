@@ -7,17 +7,31 @@ publish: true
 tags:
   - spiele
 title: Hände spüren
-description: 
+description: Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
-#  Hände spüren
+> [!info] Kurzbeschreibung
+> Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
 
-Entspannungsspiel für jede Gruppengröße:
+**Gruppengröße**: 4-25 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
+
+Entspannungsspiel für jede Gruppengröße.
 
 Es werden 4-5er Gruppen gebildet.
 
@@ -29,5 +43,10 @@ Der/die auf dem Boden Liegende muss nun erraten, wieviele Hände sich auf seinem
 
 Es können je nach Zeit und Empfinden der Teilnehmer mehrere Runden gespielt werden. Danach wird gewechselt.
 
-**Siehe auch:** 
+## **Quelle**:
+
+Unbekannt
+
+## **Querverweise**
+
 [Roboter](Roboter.md) - auch hier wird nonverbal agiert und es geht um das erspüren.

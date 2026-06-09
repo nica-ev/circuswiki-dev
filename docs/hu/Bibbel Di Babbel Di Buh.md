@@ -7,47 +7,65 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bibbel Di Babbel Di Buh.md
-translation_source_hash: f29cf5b3a99d6b785defb40476628a18dac2fe3a512fe5eb1fac4237334178c6
+translation_source_hash: 6c397f22039416473e532257c66f97dff1abe9c28c8b5499f53a3ec513cdd00e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:34:13+00:00
+translation_updated: 2026-06-09T01:26:37+00:00
 ---
-# Bibbel Di Babbel Di Buh
+> [!info] Rövid leírás
+> Egy körben játszott reakciójáték, ahol szavakra, mozdulatokra és kis figurákra gyorsan kell reagálni.
 
-Körjáték kisebb és közepes csoportoknak.
+**Csoportméret**: 6-25 fő
+**Nehézség**: közepes
+**Eszközök**: nincsenek
+**Játékidő**: 10-15 perc
 
-Mindenki álljon körbe, egy személy álljon a közepére.
-A középen álló személy (P1) elkezd rámutatni egy tetszőleges személyre (P2) a körben. Fontos, hogy egyértelműen mutasson valakire, vegye fel a szemkontaktot – így teljesen világos lesz, kit ért.
+## **Játékleírás**:
+
+Körjáték kisebb és közepes csoportok számára.
+
+Mindenki álljon egy körben, egy személy menjen a közepére.
+A középen álló személy (P1) elkezd mutatni egy tetszőleges személyre (P2) a körben. Fontos, hogy egyértelműen mutasson valakire, vegye fel a szemkontaktot – hogy teljesen világos legyen, kit választott.
 
 Ezután a következő szabályok közül lehet választani:
 
-**"Bibbel Di Babbel Di Buh"**: Ezt a mondatot P1 mondja, és mielőtt a mondat végére érne, P2-nek ki kell mondania, hogy "Buh". Ha P2 túl lassú, P2-nek a közepére kell állnia.
+**„Bibbel Di Babbel Di Buh”**: Ezt a mondatot mondja P1, és mielőtt a mondat végére érne, P2-nek ki kell mondania, hogy „Buh”. Ha P2 túl lassú, neki kell bemennie a közepére.
 
-**"Buh"**: Ha P1 azt mondja, hogy "Buh", P2 nem reagálhat. Ha P2 mégis megszólal, P2-nek a közepére kell állnia.
+**„Buh”**: Ha P1 azt mondja, hogy „Buh”, P2 nem reagálhat. Ha P2 mégis megszólal, neki kell bemennie a közepére.
 
-**"Toaster"**: P1 azt mondja, hogy "Toaster" – P2 jobb és bal oldalán álló személyek P2 felé fordulnak, és kinyújtott kézzel P2 mellé tartják a kezüket, P2 felugrik és azt kiáltja: "Bing" (P2 a pirítós, a többiek alkotják a kenyérpirítót). Aki valamit rosszul csinál, annak a közepére kell állnia.
+**„Toaster”**: P1 azt mondja, hogy „Toaster”. P2 jobb és bal oldalán álló személyek P2 felé fordulnak, és kinyújtott kézzel P2 mellé teszik a kezüket, P2 pedig felugrik és azt kiáltja: „Bing!” (P2 a kenyérpirító, a többiek formázzák a pirítót). Aki valamit rosszul csinál, annak be kell mennie a közepére.
 
-**"kaput Toaster"**: Ez a parancs hasonló a "Toaster"-hez. P2 jobb és bal oldalán álló személyek ismét alkotják a kenyérpirítót, P2 a pirítós, de ezúttal P2 mozdulatlanul áll, a másik kettő felugrik és azt kiáltja: "Bing".
+**„Hibás kenyérpirító”**: Ez a parancs hasonló a „Toaster”-hez. P2 jobb és bal oldalán álló személyek ismét formázzák a pirítót, P2 a kenyérpirító, de ezúttal P2 mozdulatlanul áll, a másik kettő felugrik és azt kiáltja: „Bing!”
 
-**"mosógép"**: P2 jobb és bal oldalán álló személyek felfelé és lefelé tartják a kezüket, így együtt nagy kört alkotnak P2 előtt – ők alkotják a mosógépet, P2 pedig a fejét forgatja ebben a körben – ez a mosott ruha.
+**„Mosógép”**: P2 jobb és bal oldalán álló személyek kezeiket felfelé és lefelé tartják, hogy együtt nagy kört alkossanak P2 előtt – ők formázzák a mosógépet, P2 pedig a fejét forgatja e körön belül – ez a mosandó ruha.
 
-**"hányó kenguru"**: P2 maga elé tartja mindkét kezét, és így alkotja a kenguruzsebet. P2 jobb és bal oldalán álló két személy a zseb fölé hajlik, és hangosan hányó hangokat adnak ki.
+**„Hányó kenguru”**: P2 mindkét kezét maga elé tartja, és formázza a kenguruzsebet. P2 jobb és bal oldalán álló személyek a zseb fölé hajlanak, és hangosan hányó hangokat adnak ki.
 
-**"egyszülő anya gyerekkel"**:
+**„Egyedülálló anya gyerekkel”**:
 
-**"Cowboy-párbaj"**
+**„Cowboy párbaj”**
 
-**"Rockzenekar"**
+**„Rockzenekar”**
 
-**"James Bond"**
+**„James Bond”**
 
-**"Halálos iramban"**
+**„Halálos iramban”**
 
-**"Gollam"**
+**„Gollam”**
+
+## **Forrás**:
+
+Ismeretlen

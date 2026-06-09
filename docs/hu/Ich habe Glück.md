@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ich habe Glück
-description: 
+description: Ein Fangspiel mit Zweierteams, bei dem ein Stein-Schere-Papier-Moment entscheidet, wer weiter fängt.
 authors:
   - Marc Bielert
 category:
@@ -23,32 +23,32 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ich habe Glück.md
-translation_source_hash: 75831da799fba368aae4f4ea83364ba399a254c09869a3a4db291ffac9f90946
+translation_source_hash: 13c970eb630ddc5dba3607f14160f6ea673632cddde9a035cb0cb00d5cb4a008
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:40:10+00:00
+translation_updated: 2026-06-09T01:44:34+00:00
 ---
 > [!info] Rövid leírás
-> Az "Szerencsém van" egy dinamikus fogójáték, amely a fogócska, a csapatmunka és a "kő, papír, olló" elemeit ötvözi a mozgás, a gyors döntéshozatal és az interakció ösztönzése érdekében.
+> Egy páros csapatokkal játszott fogójáték, ahol egy kő-papír-olló pillanat dönti el, ki folytatja a fogást.
 
-**Csoportméret**: Tetszőleges
+**Csoportméret**: 6-28 fő
 **Nehézség**: Könnyű
 **Anyag**: Nincs
-**Játékidő**: Tetszőleges
+**Játékidő**: 5-10 perc
 
 ## **Játék leírása**:
 
 A gyerekek páros csapatokat alkotnak, kézfogással. Ezek a csapatok a fogók (több fogócsapat is lehet egyszerre játékban).
 
-Ha egy fogócsapat megérint egy másik személyt, a három érintett fél egy minijátékot játszik:
+Amikor egy fogócsapat megérint egy másik személyt, a három érintett egy minijátékot játszik:
 
-Mindhárman körbe állnak, és azt mondják: "Szerencsém van". Közben zárt öklüket fel-le mozgatják, mint a "kő, papír, olló" játékban.
+Mindhárman körbe állnak, és azt mondják: „Szerencsém van”. Közben zárt öklüket fel-le mozgatják, mint a „Kő, papír, olló” játékban.
 
-Harmadik alkalommal mindhárom játékos egyszerre választ "kő", "papír" vagy "olló" közül, és mindkét kezével megmutatja a választását (tehát vagy mindkét kéz ökölbe van szorítva, mindkét kéz lapos, vagy mindkét kéz szétterjesztett ujjal = olló).
+Harmadik alkalommal mindhárom játékos egyszerre választ „követ”, „papírt” vagy „ollót”, és mindkét kezével megmutatja a választását (tehát vagy mindkét kéz ökölbe van szorítva, vagy mindkét kéz lapos, vagy mindkét kéz szétterjesztett ujjal = olló).
 
-*   Ha a három játékos közül kettő ugyanazt mutatja (pl. kétszer "kő"), akkor ez a kettő alkotja az új fogócsapatot. A harmadik személy ezután szabad, és ismét elfut a fogók elől.
-*   Ha mindhárom játékos mást mutat, vagy mindhárman ugyanazt mutatják, akkor egy újabb "Szerencsém van" kört játszanak, amíg új fogócsapat nem alakul ki.
+*   Ha a három játékos közül kettő ugyanazt mutatja (pl. kétszer „kő”), akkor ez a kettő alkotja az új fogócsapatot. A harmadik személy innentől szabad, és ismét elfut a fogók elől.
+*   Ha mindhárom játékos mást mutat, vagy mindhárman ugyanazt mutatják, akkor újabb „Szerencsém van” kört játszanak, amíg új fogócsapat nem alakul ki.
 
-Játékvezetőként jól szabályozható, hogy hány fogócsapat van játékban, csapatok hozzáadásával vagy eltávolításával. Érdemes kevés fogócsapattal kezdeni, és fokozatosan többet hozzáadni.
+Játékvezetőként jól szabályozható, hány fogócsapat van játékban, csapatok hozzáadásával vagy eltávolításával. Ajánlott kevés fogócsapattal kezdeni, és fokozatosan többet hozzáadni.
 
 A játéknak nincs igazi vége, mivel a fogócsapatok száma mindig állandó marad.
 

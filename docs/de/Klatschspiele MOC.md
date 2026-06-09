@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 21:17:56
+update: 2026-06-09 01:23:41
 title: Klatschpiele
 description: 
 authors:
@@ -29,7 +29,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                  | group-min | group-max | Schwierigkeit | Material | Spieldauer |
 | ----------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- |
-| [Ding Dang Dong](<Ding%20Dang%20Dong.md>)             | -         | -         | -             | -        | -          |
+| [Ding Dang Dong](<Ding%20Dang%20Dong.md>)             | 2         | 2         | einfach       | keines   | 2-5        |
 | [Schoko Schoko La La](<Schoko%20Schoko%20La%20La.md>) | 2         | 2         | einfach       | keines   | 2-5        |
 
 <!-- dynamic:end -->

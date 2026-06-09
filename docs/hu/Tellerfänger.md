@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:26:31
 update: 2025-03-25 22:49:54
 title: Tellerfänger
-description: 
+description: Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tellerfänger.md
-translation_source_hash: 3b2931745d731d9fe1298ba22b24dfafcfd9aaa84b35774ac57031fccb636657
+translation_source_hash: d497ab7d8d4a3ccfbca7e0f85378b122f905e443e0e2676c3857220bbc572765
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:54:25+00:00
+translation_updated: 2026-06-09T02:30:50+00:00
 ---
-# Tányérfogó
-
 > [!info] Rövid leírás
-> Egy egyszerű fogójáték, ahol a résztvevők a tányérpörgetéshez szükséges eszközök utánzása révén kerülik el a lekapást.
+> Egy labdajáték zsonglőrködési kellékekkel, ahol a játékosok testtartással menthetik meg magukat a lekapástól.
 
 **Csoportméret**: 6 főtől
 **Nehézség**: Egyszerű
@@ -39,14 +37,14 @@ translation_updated: 2026-06-06T22:54:25+00:00
 
 ## **Játék leírása**:
 
-Kijelölnek egy fogót. Ez a személy egy tányért tart a kezében, és megpróbálja lekapni a többieket. A többiek úgy tudják magukat megmenteni, hogy felemelik a karjukat, ezzel utánozva azt a rudat, ami a tányér pörgetéséhez szükséges.
+Kijelölünk egy fogót. Ez a személy egy tányért tart a kezében, és megpróbálja lecsapni a többieket. A többiek azonban úgy menthetik meg magukat, hogy felemelik a karjukat a levegőbe, ezzel utánozva azt a rudat, ami a tányér pörgetéséhez szükséges.
 
-Akit lekapnak, annak átadják a tányért.
+Ha valakit lecsaptak, a tányért átadják neki.
 
-A csoport méretétől és a résztvevők korától függően további elemeket és fogókat lehet bevonni:
+A csoport méretétől és a játékosok korától függően további elemeket és fogókat vonhatunk be:
 
-*   Kendő: Megmentés a földre helyezéssel (a kendő letakar valamit)
-*   Diabolo: Egy második személy megfogása (utánozza a diabolo zsinórját)
+*   Kendő: Mentés a földre helyezéssel (a kendő letakar valamit)
+*   Diabolo: Egy második személy kezébe vétel (utánozza a diabolo zsinórját)
 
 ## **Forrás**:
 

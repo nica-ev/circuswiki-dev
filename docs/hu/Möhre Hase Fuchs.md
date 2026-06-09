@@ -7,7 +7,7 @@ tags:
 created: 2025-01-25 01:38:42
 update: 2025-03-25 20:34:19
 title: Möhre Hase Fuchs
-description: 
+description: Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
 authors:
   - Marc Bielert
 category:
@@ -24,14 +24,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Möhre Hase Fuchs.md
-translation_source_hash: 5d7454d4fcd6939f9929f343d63fe25eefa0b60aee60bb74a3088274415628dd
+translation_source_hash: 460c20f1d59f674b64f76620853e0007c48942688dd6ae6e01926c3841bde78d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:47:48+00:00
+translation_updated: 2026-06-09T02:07:16+00:00
 ---
-# Répa Nyuszi Róka
-
-> [!info]+ Rövid leírás
-> Mozgalmas fogócskajáték nagyobb csoportoknak, ahol a "nyuszik" próbálnak "répákat" szerezni a csapatuknak, miközben a "rókák" ezt elfogással próbálják megakadályozni.
+> [!info] Rövid leírás
+> Mozgalmas fogócskajáték nagyobb csoportoknak, ahol a nyulak répákat hoznak a csapatukba, a rókák pedig megakadályozzák őket ebben.
 
 **Csoportméret**: 15 főtől
 **Nehézség**: Elég egyszerű
@@ -40,21 +38,21 @@ translation_updated: 2026-06-06T22:47:48+00:00
 
 ## **Játék leírása**:
 
-Kezdetben egy-három játékos lesz a "róka". A többi játékos két csoportra oszlik: "nyuszikra" és "répákra". A "répák" kinyújtott lábakkal ülnek egy vonal mögött. A "nyuszik" a szemközti vonal mögül indulnak.
+Kezdetben 1-3 játékost "rókának" jelölünk ki. A többi játékos két csoportra oszlik: "nyulakra" és "répákra". A "répák" kinyújtott lábakkal ülnek egy vonal mögött. A "nyulak" a szemközti vonal mögül indulnak.
 
-A játék célja, hogy a "nyuszik" "répákat" szerezzenek a csapatuknak. Ez kétféleképpen történhet:
+A játék célja, hogy a "nyulak" bejuttassák a "répákat" a saját csapatukba. Ez kétféleképpen történhet:
 
-1. **Húzás**: A "nyuszik" a lábuknál fogva húzzák a "répákat" a "nyuszik" vonalán túlra. Amint egy "répát" áthúztak a vonalon, "nyuszivá" válik.
-2. **Szekér**: A "nyuszik" talicskába (fordított talicska pozícióban) teszik a "répákat", és így szállítják őket a játéktéren át a szemközti oldalra. Ha egy "répa" így éri el a másik oldalt, "nyuszivá" válik.
+1. **Húzás**: A "nyulak" a lábuknál fogva húzzák a "répákat" a "nyulak" vonala mögé. Amint egy "répát" áthúztak a vonalon, "nyúllá" válik.
+2. **Talicska**: A "nyulak" fordított talicska-tartásban szállítják a "répákat" a játéktéren át a szemközti oldalra. Ha egy "répa" így eléri a másik oldalt, "nyúllá" válik.
 
-A "rókák" megpróbálják elkapni a "nyuszikat". Ha egy "nyuszit" elkapnak (akár akkor is, amikor épp "répát" húz vagy szállít), az "répává" változik, és a "répák" vonala mögé kell ülnie.
+A "rókák" megpróbálják elkapni a "nyulakat". Ha egy "nyulat" elkapnak (akár akkor, amikor éppen húzza vagy szállítja a "répát"), az "répává" változik, és a "répák" vonala mögé kell ülnie.
 
-A "nyuszik" biztonságban vannak a saját vonaluk mögött, valamint a "répák" vonala mögött. Ott a "rókák" nem kaphatják el őket.
+A "nyulak" biztonságban vannak a saját vonaluk mögött és a "répák" vonala mögött is. Ott a "rókák" nem kaphatják el őket.
 
 A játék akkor ér véget, ha:
 
 - Minden játékos "répává" vált (a "rókák" nyertek).
-- Minden játékos "nyuszivá" vált (a "nyuszik" nyertek).
+- Minden játékos "nyúllá" vált (a "nyulak" nyertek).
 
 ## **Forrás**:
 

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:58:45
 title: Suchkind
-description: 
+description: Ein Kennenlernspiel, bei dem Kinder anhand charakteristischer Hinweise passende Gruppenmitglieder finden.
 authors:
   - Marc Bielert
 category:
@@ -22,33 +22,31 @@ todo: fertig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Suchkind.md
-translation_source_hash: 15949f723ff92e000e1e8df4cb527c2fa228b48b0912c48c112c5549dcf551a4
+translation_source_hash: 203077a1d76455a6bab18a92b76d7339dbbb5aa7fe94fe62794f34cf31dc6ce8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:54:13+00:00
+translation_updated: 2026-06-09T02:29:23+00:00
 ---
-# Keresettgyerek
-
 > [!info] Rövid leírás
-> A "Keresettgyerek" egy játékos ismerkedős játék, amely fejleszti a megfigyelőképességet és a csoporttagokról szerzett ismereteket, mivel a gyerekeknek jellegzetes tulajdonságok alapján kell kitalálniuk és megtalálniuk egymást.
+> Egy ismerkedős játék, amelyben a gyerekek jellegzetes utalások alapján keresik meg a hozzájuk illő csoporttagokat.
 
-**Csoportméret**: Tetszőleges
-**Nehézség**: Közepes (előzetes csoportismereteket feltételez)
+**Csoportméret**: 5-20 fő
+**Nehézség**: Közepes (előzetes csoportismeretet igényel)
 **Anyag**: Nincs
 **Játékidő**: Kb. 20-30 perc
 
-## **Játék leírása**:
+## **Játékleírás**:
 
-Ehhez a játékhoz az szükséges, hogy a gyerekek már egy kicsit ismerjék egymást a csoportban. De még így is érdemes egy bevezető körrel kezdeni a játékot, amelyben mindenki sorban elmond magáról valami különösen jellemzőt.
+Ehhez a játékhoz az szükséges, hogy a gyerekek már egy kicsit ismerjék egymást a csoportban. De még így is érdemes egy bevezető körrel kezdeni, ahol mindenki sorban elmond valami jellegzeteset magáról.
 
-Ezután mindenki sétálgat a teremben. Aztán a játékvezető elkezdi a játékot, és például ezt mondja:
+Ezután mindenki sétáljon a teremben. Aztán a játékvezető elkezdi a játékot, és például ezt mondja:
 
-„Keressétek meg a fiút, aki szeret esőben is kint lenni.” vagy „Keressétek meg a lányt, aki nagyon jól focizik.”
+„Keresd meg a fiút, aki szeret kint lenni esőben is.” vagy „Keresd meg a lányt, aki nagyon jól focizik.”
 
 A gyerekek odamennek a keresett gyerekhez, és megrázzák a kezét.
 
-A gyereket, akit (helyesen) kitaláltak, most kiválaszt egy gyereket, aki a következő keresőfeladványt állíthatja össze. A kitalálandó gyerek nemét nem kell közölni, de megkönnyíti a megoldást. Nem csak pozitív viselkedésformákat vagy képességeket kell megnevezni. A negatív kijelentéseket azonban mindig kössük össze pozitívakkal, és a megfogalmazás maradjon barátságos.
+Akit (helyesen) kitaláltak, az most kiválaszt egy gyereket, aki a következő keresési feladványt állíthatja össze. A kitalálandó gyerek nemének közlése nem kötelező, de megkönnyíti a megoldást. Nem csak pozitív viselkedésformákat vagy képességeket kell megnevezni. A negatív megjegyzéseket azonban mindig kössük össze pozitívakkal, és a megfogalmazás maradjon barátságos.
 
-„Keressétek meg azt a gyereket, aki gyorsan megsértődik, de nagyon jól tud másoknak segíteni.”
+„Keresd meg azt a gyereket, aki könnyen megsértődik, de nagyon jól tud másoknak segíteni.”
 
 Ahogy a gyerekek egyre jobban megismerik egymást, a keresési feladatoknál lehetőség szerint ne csak külsőségekre kérdezzünk rá.
 

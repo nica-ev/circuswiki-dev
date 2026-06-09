@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:56:02
 title: Die Quadratur des Kreises
-description: 
+description: Eine Kooperationsaufgabe, bei der die Gruppe mit geschlossenen Augen aus einem gehaltenen Seil ein Quadrat bilden soll.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Seil, optional Augenbinden
+Spieldauer: 5-60
+source: unbekannt
+group-min: 8
+group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
-# Die Quadratur des Kreises
+> [!info] Kurzbeschreibung
+> Eine Kooperationsaufgabe, bei der die Gruppe mit geschlossenen Augen aus einem gehaltenen Seil ein Quadrat bilden soll.
+
+**Gruppengröße**: 8-20 Personen
+**Schwierigkeit**: mittel
+**Material**: Seil, optional Augenbinden
+**Spieldauer**: 5-60 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Kooperations-Spiel für kleine bis mittlere Gruppen.
 
@@ -33,6 +47,8 @@ Alle Teilnehmer müssen das Seil ständig mit mindestens einer Hand festhalten, 
 Wenn die Gruppe entscheidet das sie fertig ist dürfen alle die Augenbinden abnehmen bzw. die Augen öffnen und das Ergebniss betrachten.
 Es empfiehlt sich danach den Prozess gemeinsam auszuwerten.
 
+## **Hinweise**:
+
 Ziele:
 Zusammenarbeit, Vertrauen, Wahrnehmung, Kommunikation, Konflikte, Problemlösungsstrategien
 
@@ -45,3 +61,7 @@ Kommentar:
 Möglichst ruhige Umgebung wählen
 Konflikte können ausbrechen
 Auf Sicherheit achten, da Verletzungsgefahr durch Stolpern besteht
+
+## **Quelle**:
+
+Unbekannt

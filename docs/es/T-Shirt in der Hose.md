@@ -7,28 +7,38 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:14:03
 title: T-Shirt in der Hose
-description: 
+description: Ein Fangspiel mit Ball, bei dem das Fängerteam nur mit Ballbesitz tippen darf und nach und nach wächst.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: Ball
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/T-Shirt in der Hose.md
-translation_source_hash: d8a478deb8a8ca64d700e2f2a3a8d8918346303cf10aa9416049fd0ba5a09f99
+translation_source_hash: 35cdad800b7b561cc5f421fe00e234fafcd02784a4d5b57d9ec16d0474789a47
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:11:09+00:00
+translation_updated: 2026-06-09T02:29:54+00:00
 ---
-# Camiseta por dentro del pantalón
+> [!info] Breve descripción
+> Un juego de atrapar con pelota, en el que el equipo de los perseguidores solo puede tocar a los demás mientras tiene la pelota y va creciendo poco a poco.
 
 **Tamaño del grupo**: A partir de 6 participantes
-**Dificultad**: Media
-**Material**: Ninguno
+**Dificultad**: media
+**Material**: ninguno
 **Duración del juego**: 5-15 minutos
 
-**Descripción del juego**: Entre los participantes se designa un grupo de "pilla-pilla" (o "perseguidores"). Dependiendo del número de jugadores, pueden ser dos, tres o cuatro perseguidores. Los perseguidores se meten la camiseta o la parte superior de su ropa por dentro del pantalón como señal distintiva. El grupo de perseguidores recibe un balón que deben pasarse entre ellos, ya que ni el balón ni un jugador por sí solo pueden "pillar" a nadie. Sin embargo, el perseguidor que tiene el balón no puede moverse. Solo se puede "pillar" a los jugadores libres con el balón en la mano. Por lo tanto, los perseguidores deben moverse hacia los jugadores libres, recibir un pase y luego, con el balón, poder "pillar" a alguien. Quien sea "pillado" también se mete la parte superior de su ropa por dentro del pantalón y se une al equipo de perseguidores. El juego termina cuando solo queda un jugador libre en el campo de juego.
+## **Descripción del juego**:
 
-En grupos más grandes, se pueden poner varios balones a disposición del equipo de perseguidores.
+Entre los participantes se designa un grupo de perseguidores. Dependiendo del número de jugadores, pueden ser dos, tres o cuatro perseguidores. Los perseguidores se meten la camiseta o prenda superior por dentro del pantalón como distintivo. El grupo de perseguidores recibe una pelota que deben pasarse entre ellos, ya que ni la pelota ni el jugador por sí solos pueden tocar a nadie. Sin embargo, el perseguidor que tiene la pelota tampoco puede moverse. Solo se puede tocar a los jugadores libres con la pelota sujeta. Por lo tanto, los perseguidores deben moverse hacia los jugadores libres, recibir un pase y luego tocar a alguien con la pelota. Quien sea tocado, se mete también la prenda superior por dentro del pantalón y se une al equipo de perseguidores. El juego termina cuando solo queda un jugador libre en el campo de juego.
 
-**Fuente**:
+En grupos más grandes, se pueden poner varias pelotas a disposición del equipo de perseguidores.
+
+## **Fuente**:
+
 Tasifan Spielebuch

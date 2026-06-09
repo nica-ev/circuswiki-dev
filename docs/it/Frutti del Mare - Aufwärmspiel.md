@@ -5,40 +5,58 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:20:18
-update: 2025-03-17 01:37:20
-title: "# Frutti del Mare"
-description: 
+update: 2026-06-09 02:10:40
+title: Frutti del Mare
+description: Eine ruhige Aufwärmübung, bei der Kinder Meeresfiguren mit einfachen Bodenbewegungen nachspielen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Frutti del Mare - Aufwärmspiel.md
-translation_source_hash: 51998d46946cdcc69632ec057f528c2072a8f516b0e6b1df4f644ab37fbaf0d8
+translation_source_hash: d9e69ea26bfaa38a1fa4206c56a5efca7b0ac9efbe72ff82f93ef52b3efec337
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:01:27+00:00
+translation_updated: 2026-06-09T01:39:28+00:00
 ---
-# Frutti di Mare (Gioco di riscaldamento)
+> [!info] Breve descrizione
+> Un tranquillo esercizio di riscaldamento in cui i bambini imitano figure marine con semplici movimenti a terra.
 
-Esercizio di riscaldamento per gruppi piccoli e medi, particolarmente adatto ai bambini piccoli.
+**Dimensioni del gruppo**: 3-20 persone
+**Difficoltà**: facile
+**Materiale**: nessuno
+**Durata del gioco**: 5-10 minuti
 
-**La Stella marina**
+## **Descrizione del gioco**:
+
+Esercizio di riscaldamento per gruppi piccoli o medi, particolarmente adatto ai bambini piccoli.
+
+**La stella marina**
 Iniziamo sdraiati sulla schiena, con braccia e gambe allargate a forma di stella rispetto al corpo.
 
-**La Conchiglia**
-Ci giriamo su un fianco e tiriamo braccia e gambe verso di noi, rannicchiandoci il più possibile.
+**La conchiglia**
+Ci giriamo su un fianco e tiriamo su braccia e gambe in modo da rimpicciolirci il più possibile.
 
-**Il Cavalluccio marino**
-La conchiglia si sveglia lentamente e si allunga, rimanendo ancora su un fianco, diventando così un cavalluccio marino.
+**Il cavalluccio marino**
+La conchiglia si sveglia lentamente e si allunga dritta, ancora sdraiata su un fianco, diventando così un cavalluccio marino.
 
-**La Foca**
-Ci lasciamo cadere sulla pancia, solleviamo la testa e ci appoggiamo sugli avambracci.
-Muoviamo la coda (o il sedere)
+**La foca**
+Ci lasciamo cadere a pancia in giù, solleviamo la testa verso l'alto, con le braccia appoggiate.
+Scodinzoliamo (o muoviamo il sedere).
 
-La foca guarda a destra, poi a sinistra, poi guarda il cielo. Afferra le stelle con una mano (il corpo inizia già a ruotare leggermente) e poi si lascia cadere sulla schiena, tornando ad essere una stella marina.
+La foca guarda a destra, poi a sinistra, poi guarda il cielo. Allunga una mano verso le stelle (il corpo inizia già a ruotare un po') e poi si lascia cadere sulla schiena, tornando a essere una stella marina.
 Il giro ricomincia da capo.
 
-## Riferimenti incrociati
+## **Fonte**:
 
-[Saluto al Sole Bambini](Sonnengruß%20Kinder.md)
+Sconosciuta
+
+## **Riferimenti incrociati**
+
+[Saluto al sole bambini](Sonnengruß%20Kinder.md)

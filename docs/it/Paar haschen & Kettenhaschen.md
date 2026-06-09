@@ -7,28 +7,35 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:16:04
 title: Paar haschen & Kettenhaschen
-description: 
+description: Ein Fangspiel, bei dem gefangene Personen zu Paaren oder Ketten werden und gemeinsam weiterfangen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5
+source: Tasifan Spielebuch
+group-min: 15
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Paar haschen & Kettenhaschen.md
-translation_source_hash: 990c760bead744f3e494f2d82157760e578f0703fac2d4dfa4e176b8ea4acb57
+translation_source_hash: 337ff4942969dddddd0ad4ece6824b0dd2adf677ec167c5fe57646a896c43104
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:07:39+00:00
+translation_updated: 2026-06-09T02:09:45+00:00
 ---
-# Acchiapparella a coppie e a catena
+> [!info] Breve descrizione
+> Un gioco di presa in cui le persone catturate diventano coppie o catene e continuano a prendere insieme.
 
 **Dimensione del gruppo**: Da 15 partecipanti in su
-**Difficoltà**: Molto semplice
-**Materiale**: Nessuno
-**Durata del gioco**: Meno di 5 minuti
+**Difficoltà**: molto semplice
+**Materiale**: nessuno
+**Durata del gioco**: meno di 5 minuti
 
 ## **Descrizione del gioco**:
 
-Tra tutti i partecipanti viene scelto un "acchiappatore". Tutti gli altri si distribuiscono nello spazio di gioco. Dal segnale di partenza, l'acchiappatore cerca di toccare i giocatori. Se ci riesce, questi si prendono per mano e iniziano ad acchiappare in coppia, poi in tre, poi in quattro. A quel punto, si dividono a metà e si formano due coppie di due persone, che continuano ad acchiappare. Si formano sempre più coppie di acchiappatori finché, alla fine, tutti vengono presi. Questo gioco può essere giocato anche senza la divisione. In questo modo, la catena di acchiappatori diventa sempre più lunga. Se la catena si spezza, cioè se uno degli acchiappatori lascia la mano accidentalmente, questa deve essere ricostituita prima che qualcuno possa essere preso.
+Tra tutti i partecipanti viene scelto un "cacciatore". Tutti gli altri si distribuiscono nello spazio di gioco. Dal segnale di partenza, il cacciatore cerca di toccare i giocatori. Se ci riesce, i due si prendono per mano e continuano a prendere insieme come coppia, poi in tre e poi in quattro. A quel punto, si dividono a metà e si formano due coppie di due persone, che ora continuano a prendere. Si formano sempre più coppie di cacciatori fino a quando, alla fine, tutti vengono presi. Questo gioco può anche essere giocato bene senza la divisione. In questo modo, la catena dei cacciatori diventa sempre più lunga. Se la catena si spezza, cioè uno dei cacciatori lascia la mano accidentalmente, deve essere ricomposta prima che qualcuno possa essere preso.
 
 ## **Fonte**:
 

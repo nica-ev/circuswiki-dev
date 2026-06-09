@@ -5,16 +5,16 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:38:59
+update: 2026-06-09 02:34:55
 title: Tratschen in Anwesenheit
-description: 
+description: Ein Kennenlernspiel für kleine Gruppen, bei dem über eine anwesende Person Vermutungen gesammelt und anschließend aufgelöst werden.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
 Schwierigkeit: einfach
 Material: keines
-Spieldauer: 
+Spieldauer: 10-15
 source:
   - unbekannt
 group-min: "3"
@@ -22,22 +22,34 @@ group-max: "6"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tratschen in Anwesenheit.md
-translation_source_hash: b9f4927f36c4709d07d3a0577da69af70ea33a617e6350342931189097ea172a
+translation_source_hash: b99d93773d9a0a1a7d2c17d30d25146acb8e99d6b4407221d916f009b6a26e51
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:25:02+00:00
+translation_updated: 2026-06-09T02:32:27+00:00
 ---
-# Roddelen in aanwezigheid
+> [!info] Korte beschrijving
+> Een kennismakingsspel voor kleine groepen, waarbij over een aanwezige persoon aannames worden gedaan en vervolgens worden ontkracht.
 
-Kennismakingsspel voor kleine groepen (ideaal 3-6 personen)
+**Groepsgrootte**: 3-6 personen
+**Moeilijkheidsgraad**: eenvoudig
+**Materiaal**: geen
+**Speelduur**: 10-15 minuten
 
-Eén persoon wordt gekozen, over wie luid wordt geroddeld of speculaties worden gedaan. De persoon zit ondertussen gewoon stil toe te luisteren, hoort alles aan, maar becommentarieert niets en corrigeert ook niets.
+## **Spelbeschrijving**:
 
-Onderwerpen zoals burgerlijke staat, afkomst, interesses, muzieksmaak, etc...
+Kennismakingsspel voor kleine groepen (ideaal 3-6 personen).
 
-Na een tijdje onthult de persoon alles, of corrigeert hij/zij foute speculaties.
+Eén persoon wordt gekozen, over wie luid geroddeld wordt of aannames worden gedaan. De persoon zit ondertussen gewoon stil toe te luisteren, hoort alles aan, maar becommentarieert niets en corrigeert ook niets.
+
+Onderwerpen zoals burgerlijke staat, afkomst, interesses, muzieksmaak, etc.
+
+Na een tijdje ontkracht de persoon alles, oftewel corrigeert de foute aannames.
 
 Daarna is de volgende aan de beurt totdat iedereen uit de groep een keer aan de beurt is geweest.
 
-## Verwijzingen
+## **Bron**:
 
-[Sich gegenseitig vorstellen](Sich%20gegenseitig%20vorstellen.md)
+Onbekend
+
+## **Verwijzingen**
+
+[Zichzelf aan elkaar voorstellen](Sich%20gegenseitig%20vorstellen.md)

@@ -13,9 +13,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Jonglage.md
-translation_source_hash: 36ca35dff7b4b161b2e4f2e1a5dbbda9f8a28feebdf341202f87b8eaa6c965c9
+translation_source_hash: 384a84f6fc5adc841b0193201ae7808180383079e91bc5570b0872533bc09502
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:02:10+00:00
+translation_updated: 2026-06-09T01:46:06+00:00
 ---
 # Giocoleria
 
@@ -43,7 +43,7 @@ Oggetti non classici
 - Concetti
 - Esercizi
 - Giochi
-	- [1,2,3](1,2,3.md) - un gioco con ritmi di conteggio
+	- [1-2-3](1-2-3.md) - un gioco con ritmi di conteggio
 
 # vedi anche
 https://www.kapsel.se/jugglingschool/en

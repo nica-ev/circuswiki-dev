@@ -7,23 +7,43 @@ publish: true
 tags:
   - spiele
 title: Eiskönigin - Riese und Zwerge
-description: 
+description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: kleiner Gegenstand
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2c51d15b075ef7fc16d553458f6630cee62eb8546a55f85c1069fbf518a61220
+translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:38:49+00:00
+translation_updated: 2026-06-09T01:35:56+00:00
 ---
-Egy személy háttal áll a többieknek, mögötte van egy kis tárgy (pl. egy labda).
+> [!info] Rövid leírás
+> Egy lopakodó és együttműködési játék, amelyben egy csoport titokban ellop és visszavisz egy tárgyat.
 
-Amikor ő megfordul, a többieknek meg kell dermedniük. Aki megmozdul, az két lépést hátrál (vagy vissza a kiinduló ponthoz).
+**Csoportméret**: 5-25 fő
+**Nehézség**: könnyű
+**Anyag**: kisebb tárgy
+**Játékidő**: 5-10 perc
 
-A cél a labda ellopása és a kiinduló vonalhoz juttatása.
+## **Játék leírása**:
+
+Egy személy háttal áll a többieknek, mögötte van egy kisebb tárgy (pl. egy labda).
+
+Valahányszor megfordul, a többieknek meg kell dermedniük. Aki megmozdul, annak 2 lépést hátra kell mennie (vagy vissza a kiinduló ponthoz).
+
+A cél a labda ellopása és a kiinduló vonalra való eljuttatása.
 Amint a labda eltűnt, a Jégkirálynő mindig EGY tippet adhat, hogy kié éppen a labda.
 
 Ha jól tippeli meg, ő nyert.
+
+## **Forrás**:
+
+Ismeretlen

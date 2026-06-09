@@ -7,18 +7,29 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:55:34
 title: Raumstation
-description: 
+description: Ein Kooperationsspiel, bei dem Astronauten durch Menschenketten Weltraumschrott einsammeln und zur Raumstation zurückbringen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: markierte Fläche, Gegenstände
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
-# Raumstation
+> [!info] Kurzbeschreibung
+> Ein Kooperationsspiel, bei dem Astronauten durch Menschenketten Weltraumschrott einsammeln und zur Raumstation zurückbringen.
 
-Raumstation
-Kooperationsspiel:
+**Gruppengröße**: 6-25 Personen
+**Schwierigkeit**: mittel
+**Material**: markierte Fläche, Gegenstände
+**Spieldauer**: 10-15 Minuten
+
+## **Spielbeschreibung**:
 
 Es wird eine klar umrissene, kleine Fläche geschaffen: die Raumstation.
 Dort ist das Atmen problemlos möglich.
@@ -31,3 +42,6 @@ Die Gruppe muss also selbst entscheiden, wann sie die Ketten zurück baut.
 
 Ziel ist es alle Gegenstände einzusammeln.
 
+## **Quelle**:
+
+Unbekannt

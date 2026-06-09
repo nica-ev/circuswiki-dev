@@ -5,16 +5,16 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:38:59
+update: 2026-06-09 02:34:55
 title: Tratschen in Anwesenheit
-description: 
+description: Ein Kennenlernspiel für kleine Gruppen, bei dem über eine anwesende Person Vermutungen gesammelt und anschließend aufgelöst werden.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
 Schwierigkeit: einfach
 Material: keines
-Spieldauer: 
+Spieldauer: 10-15
 source:
   - unbekannt
 group-min: "3"
@@ -22,22 +22,34 @@ group-max: "6"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tratschen in Anwesenheit.md
-translation_source_hash: b9f4927f36c4709d07d3a0577da69af70ea33a617e6350342931189097ea172a
+translation_source_hash: b99d93773d9a0a1a7d2c17d30d25146acb8e99d6b4407221d916f009b6a26e51
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:40+00:00
+translation_updated: 2026-06-09T02:32:21+00:00
 ---
-# Gossiping in Plain Sight
+> [!info] Brief Description
+> An icebreaker game for small groups where assumptions are made about a person present and then revealed.
 
-An icebreaker game for small groups (ideal for 3-6 people).
+**Group Size**: 3-6 people
+**Difficulty**: Easy
+**Materials**: None
+**Game Duration**: 10-15 minutes
 
-One person is chosen to be the subject of gossip or speculation. While this is happening, that person simply sits quietly, listens to everything, but doesn't comment or correct anything.
+## **Game Description**:
+
+An icebreaker game for small groups (ideally 3-6 people).
+
+One person is chosen to be the subject of gossip or speculation. While this is happening, the person simply sits quietly, listens to everything, but doesn't comment or correct anything.
 
 Topics can include marital status, origin, interests, musical taste, etc.
 
 After a while, the person reveals the truth or corrects any false assumptions.
 
-Then, the next person takes their turn until everyone in the group has had a chance.
+Then it's the next person's turn, until everyone in the group has had a turn.
 
-## Cross-references
+## **Source**:
+
+Unknown
+
+## **Cross-references**
 
 [Introducing Each Other](Sich%20gegenseitig%20vorstellen.md)

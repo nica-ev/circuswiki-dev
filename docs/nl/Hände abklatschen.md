@@ -7,26 +7,35 @@ publish: true
 tags:
   - spiele
 title: Hände abklatschen
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Hände im Rhythmus abgeklatscht und im richtigen Moment weggezogen werden.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 6
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände abklatschen.md
-translation_source_hash: 6133bcfc21d1e9032aa91e30fa2f7a52aaf45b9449e02e0888def26ca3257add
+translation_source_hash: 56b768e4b336b0f1d3d40b4c1091839405438364c43f2a75a22145b8a0f20d1d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:16:24+00:00
+translation_updated: 2026-06-09T01:43:22+00:00
 ---
-# Handen klappen
-**Groepsgrootte**: Vanaf 5 spelers
+> [!info] Korte beschrijving
+> Een reactiespel in een kring, waarbij handen ritmisch worden geklapt en op het juiste moment worden weggetrokken.
+
+**Groepsgrootte**: Vanaf 5 deelnemers
 **Moeilijkheidsgraad**: gemiddeld
 **Materiaal**: geen
 **Speelduur**: ca. 6 minuten
 
 ## **Spelbeschrijving**:
-Alle spelers zitten in een cirkel. Iedereen houdt zijn rechterhand naar rechts uitgestoken, zodat deze naar de rechterbuurman wijst. Vervolgens legt elke speler zijn linkerhand voor de rechterhand van zijn linkerbuurman. De spelleider kiest een getal tussen 2 en 21 en zegt dit hardop. Daarna zegt hij het volgende getal hardop, terwijl hij met zijn linkerhand voorzichtig de linkerhand van zijn rechterbuurman (die voor zijn eigen rechterhand ligt) klapt. Degene wiens hand nu aangeraakt is, dus de rechterbuurman, doet hetzelfde, maar zegt geen getal meer hardop. Iedereen moet nu in stilte meemeten terwijl het klappen in de rondte gaat. Als het door de spelleider aan het begin bepaalde getal bereikt is, moeten degene die aan de beurt is om te klappen en zijn rechterbuurman snel zijn. Degene die aan de beurt is, probeert de hand van zijn buurman normaal te klappen, maar deze probeert deze juist weg te trekken. Hij mag zijn hand echter pas wegtrekken als de hand die probeert te klappen de vorige niet meer raakt, dus "onderweg is". Degene van de twee die zijn doel niet bereikt, valt voor deze ronde af. Degene die in het spel blijft, bepaalt een nieuw getal. Wie een fout maakt, dus op de verkeerde plek klapt of te vroeg zijn hand wegtrekt, valt ook af. De speler die overblijft, wint.
+
+Alle deelnemers zitten in een kring. Iedereen houdt zijn rechterhand naar rechts uitgestoken, zodat deze naar de rechterbuurman wijst. Vervolgens legt iedereen zijn linkerhand voor de rechterhand van zijn linkerbuurman. De spelleider kiest een getal tussen 2 en 21 en zegt dit hardop. Daarna zegt hij het volgende getal hardop, terwijl hij met zijn linkerhand voorzichtig de linkerhand van zijn rechterbuurman (die voor zijn eigen rechterhand ligt) klapt. Degene wiens hand nu is aangeraakt, dus de rechterbuurman, doet hetzelfde, maar zegt geen getal meer hardop. Iedereen moet nu in stilte meerekenen terwijl de klappen om de beurt worden doorgegeven. Wanneer het door de spelleider aan het begin gekozen getal is bereikt, moeten degene die aan de beurt is om te klappen en zijn rechterbuurman snel zijn. Degene die aan de beurt is, probeert normaal gesproken de hand van zijn buurman te klappen, maar deze probeert deze van tevoren weg te trekken. Hij mag zijn hand echter pas wegtrekken als de hand die probeert te klappen de vorige niet meer raakt, dus "onderweg is". Degene van de twee die zijn doel niet bereikt, valt voor deze ronde af. Degene die overblijft, bepaalt een nieuw getal. Wie een fout maakt, dus op de verkeerde plek klapt of te vroeg zijn hand wegtrekt, valt ook af. De speler die overblijft, wint.
 
 ## **Bron**:
 Tasifan Spielebuch

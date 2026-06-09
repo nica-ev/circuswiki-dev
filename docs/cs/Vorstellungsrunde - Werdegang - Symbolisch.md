@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 02:01:47
 title: Vorstellungsrunde - Werdegang - Symbolisch
-description: 
+description: Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,27 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vorstellungsrunde - Werdegang - Symbolisch.md
-translation_source_hash: f9ce72a19472a651e18a45ffb908adc8141f7b3d2b7e6bea5e0615e3b981c5e4
+translation_source_hash: 5fac14ef4bc249a22a8cc484d0c6d716c37bba82715d1708bdc7dd36ed1e052a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:14:29+00:00
+translation_updated: 2026-06-09T02:36:13+00:00
 ---
 > [!info] Stručný popis
-> Kreativní seznamovací hra pro malé skupiny, při které účastníci symbolicky znázorňují svou osobní cestu nebo jiná témata pomocí předmětů a poskytují tak hluboký vhled do svých zkušeností.
+> Symbolické představení, při kterém se osobní životní dráhy vykládají a prezentují pomocí předmětů jako časová osa.
 
-**Velikost skupiny**: Malá
+**Velikost skupiny**: 2–10 osob
 **Obtížnost**: Střední
-**Materiál**: Velká krabice s hračkami, malými zvířátky, stavebnicemi, Legem apod.
-**Délka hry**: Přibližně 30–45 minut
+**Materiál**: Velká krabice s hračkami, malými zvířátky, stavebnicemi, legem apod.
+**Délka hry**: Cca 30–45 minut
 
 ## **Popis hry**:
 
-Seznamovací hra pro malé skupiny.
+Hra na seznámení pro malé skupiny.
 
-Uprostřed kruhu je umístěna velká krabice s hračkami, malými zvířátky, stavebnicemi, Legem apod.
+Uprostřed kruhu je postavena velká krabice s hračkami, malými zvířátky, stavebnicemi, legem apod.
 
-Každý účastník má nyní 5–10 minut na to, aby si pomocí předmětů vyložil svou osobní cestu (témata se mohou lišit).
+Každý účastník má nyní 5–10 minut na to, aby si vyložil svou osobní životní dráhu (témata se mohou lišit).
 
-Cílem je sestavit linii / posloupnost předmětů, která reprezentuje vlastní cestu k určitému tématu od minulosti k budoucnosti v jakési časové ose.
+Cílem je sestavit z předmětů linii / posloupnost, která reprezentuje vlastní životní dráhu na určité téma od minulosti k budoucnosti v jakési časové ose.
 
 Poté každý svou časovou osu představí a mohou být položeny otázky.
 

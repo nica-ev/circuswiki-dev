@@ -7,37 +7,55 @@ publish: true
 tags:
   - spiele
 title: Piraten Begrüßungsspiel
-description: 
+description: Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Begrüßungsspiel.md
-translation_source_hash: 9e76b223baa9c409e10e76a6667bc39c7b5007d4da5310c7ae9680af788941ef
+translation_source_hash: 16d375f0b3c6af66d609f9a984e4c1d3e305c281cd8ced4ea7daefc819f5920d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:22:04+00:00
+translation_updated: 2026-06-09T02:10:40+00:00
 ---
-# Powitalna gra w piratów
+> [!info] Krótki opis
+> Tematyczna gra powitalna, w której piosenka o piratach jest ilustrowana gestami i interakcjami z partnerem.
 
-Tematyczna gra dla grup o dowolnej wielkości. Poniższy tekst jest śpiewany i towarzyszą mu odpowiednie gesty/ruchy.
+**Liczba osób**: od 4 osób
+**Poziom trudności**: łatwy
+**Materiały**: żadne
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
+
+Tematyczna gra dla grup o dowolnej wielkości. Poniższy tekst jest śpiewany i ilustrowany odpowiednimi gestami/ruchami.
 
 "**Hej piracie, wyglądasz na zuchwałego.**
 *[ Wskazać na innego pirata ]*
-**Wyciągnijże kotwiczkę do abordażu.**
-*[ Zgiąć palce wskazujące, wskazać na siebie nawzajem i zahaczyć nimi ]*
-**Kotwiczka trzęsie, trzęsie, trzęsie, trzęsie.**
+**Wyciągnijże swój hak do abordażu.**
+*[ Zgiąć palce wskazujące, wskazać na siebie nawzajem i zahaczyć się nimi ]*
+**Hak do abordażu, trzęś, trzęś, trzęś, trzęś.**
 [ Zahaczone palce wskazujące są potrząsane ]*
-**A drewnianą nogą kiwa, kiwa, kiwa, kiwa.**
-[ Pochylić się do przodu, podnieść jedną nogę, chwycić się nawzajem za podniesioną nogę i nią potrząsać ]*
-**A potem kulej, kulej, kulej, kulej**
-[ Puścić nogi i odkulająć się ]*
-**I machaj, machaj, machaj, machaj do następnego.**
-[ Wycelować w następnego pirata i pomachać mu ]*
+**I nogą drewnianą, ruszaj, ruszaj, ruszaj, ruszaj.**
+[ Pochylić się do przodu, podnieść jedną nogę, złapać się nawzajem za podniesioną nogę i nią potrząsać ]*
+**I potem dalej kulej, kulej, kulej, kulej.**
+[ Puścić nogi i odkulodawać się ]*
+**I następnemu machaj, machaj, machaj, machaj.**
+[ Wycelować w następnego pirata i mu pomachać ]*
 "
 
-## Powiązane strony
+## **Źródło**:
 
-[Temat warsztatów Piraci](Workshop%20Thema%20Piraten.md)
+Nieznane
+
+## **Powiązane strony**
+
+[Warsztat Temat Piraci](Workshop%20Thema%20Piraten.md)
 [Kapitan Piratów](Piraten%20Kapitän.md)

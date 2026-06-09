@@ -7,47 +7,65 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bibbel Di Babbel Di Buh.md
-translation_source_hash: f29cf5b3a99d6b785defb40476628a18dac2fe3a512fe5eb1fac4237334178c6
+translation_source_hash: 6c397f22039416473e532257c66f97dff1abe9c28c8b5499f53a3ec513cdd00e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:30:28+00:00
+translation_updated: 2026-06-09T01:26:34+00:00
 ---
-# Bibbel Di Babbel Di Buh
+[!info] Krótki opis
+> Gra reakcyjna w kole, w której komendy są szybko odzwierciedlane słowami, ruchami i małymi figurami.
 
-Gra w kole dla małych i średnich grup.
+**Liczba uczestników**: 6-25 osób
+**Poziom trudności**: średni
+**Materiały**: żadne
+**Czas trwania**: 10-15 minut
 
-Wszyscy stają w kręgu, jedna osoba wchodzi na środek.
-Osoba w środku (O1) zaczyna wskazywać na dowolną osobę (O2) w kręgu. Ważne jest, aby wyraźnie na kogoś wskazać, nawiązać kontakt wzrokowy – tak, aby było całkowicie jasne, o kogo chodzi.
+## **Opis gry**:
+
+Gra kołowa dla małych i średnich grup.
+
+Wszyscy stają w kole, jedna osoba wchodzi na środek.
+Osoba w środku (O1) zaczyna wskazywać na dowolną osobę (O2) w kole. Ważne jest, aby wyraźnie na kogoś wskazać, nawiązać kontakt wzrokowy – tak, aby było jasne, o kogo chodzi.
 
 Teraz można wybrać spośród następujących zasad:
 
-**„Bibbel Di Babbel Di Buh”**: To zdanie wypowiada O1 i zanim zdanie zostanie zakończone, O2 musi powiedzieć „Buh”. Jeśli O2 jest zbyt wolne, musi przejść na środek.
+**"Bibbel Di Babbel Di Buh"**: Ten zwrot wypowiada O1 i zanim zdanie zostanie zakończone, O2 musi powiedzieć „Buh”. Jeśli O2 jest zbyt wolny, musi wejść na środek.
 
-**„Buh”**: Kiedy O1 mówi „Buh”, O2 nie może zareagować. Jeśli O2 mimo to coś powie, musi przejść na środek.
+**"Buh"**: Kiedy O1 mówi „Buh”, O2 nie może reagować. Jeśli O2 mimo to coś powie, musi wejść na środek.
 
-**„Toster”**: O1 mówi „Toster” – osoby po prawej i lewej stronie O2 zwracają się do O2 i wyciągają ręce obok O2, O2 podskakuje i woła „Bing” (O2 to tost, inni tworzą toster). Ktoś popełni błąd, musi przejść na środek.
+**"Toster"**: O1 mówi „Toster” – osoby po prawej i lewej stronie O2 zwracają się do O2 i wyciągają ręce obok O2, O2 podskakuje i woła „Bing” (O2 to tost, pozostali tworzą toster). Kto popełni błąd, musi wejść na środek.
 
-**„Zepsuty toster”**: To polecenie jest podobne do „Toster”. Osoby po prawej i lewej stronie O2 ponownie tworzą toster, O2 to tost, ale tym razem O2 stoi nieruchomo, a pozostałe dwie osoby podskakują i wołają „Bing”.
+**"Zepsuty toster"**: To polecenie jest podobne do „Toster”. Osoby po prawej i lewej stronie O2 ponownie tworzą toster, O2 to tost, ale tym razem O2 stoi nieruchomo, pozostałe dwie osoby podskakują i wołają „Bing”.
 
-**„Pralka”**: Osoby po prawej i lewej stronie O2 trzymają ręce w górze i w dole, tak aby razem tworzyły duży okrąg przed O2 – tworzą pralkę, O2 kręci głową wewnątrz tego okręgu – to pranie, które jest prane.
+**"Pralka"**: Osoby po prawej i lewej stronie O2 trzymają ręce w górze i w dole, tak aby razem tworzyły duży okrąg przed O2 – tworzą pralkę, O2 kręci głową wewnątrz tego okręgu – to pranie, które jest prane.
 
-**„Wymiotujące kangury”**: O2 trzyma obie ręce przed sobą, tworząc torbę kangura. Dwie osoby po prawej i lewej stronie O2 pochylają się nad torbą i wydają głośne odgłosy wymiotowania.
+**"Wymiotujące kangury"**: O2 trzyma obie ręce przed sobą, tworząc torbę kangura. Dwie osoby po prawej i lewej stronie O2 pochylają się nad torbą i wydają głośne odgłosy wymiotowania.
 
-**„Samotna matka z dzieckiem”**:
+**"Samotna matka z dzieckiem"**:
 
-**„Pojedynek rewolwerowców”**
+**"Pojedynek rewolwerowców"**
 
-**„Zespół rockowy”**
+**"Zespół rockowy"**
 
-**„James Bond”**
+**"James Bond"**
 
-**„Szybcy i wściekli”**
+**"Szybcy i wściekli"**
 
-**„Gollum”**
+**"Gollum"**
+
+## **Źródło**:
+
+Nieznane

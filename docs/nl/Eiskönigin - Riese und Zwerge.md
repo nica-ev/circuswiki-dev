@@ -7,23 +7,43 @@ publish: true
 tags:
   - spiele
 title: Eiskönigin - Riese und Zwerge
-description: 
+description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: kleiner Gegenstand
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2c51d15b075ef7fc16d553458f6630cee62eb8546a55f85c1069fbf518a61220
+translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:15:11+00:00
+translation_updated: 2026-06-09T01:35:59+00:00
 ---
-Eén persoon staat met de rug naar de anderen toe. Achter die persoon ligt een klein voorwerp (bijvoorbeeld een bal).
+> [!info] Korte beschrijving
+> Een sluip- en coöperatief spel waarbij een groep een voorwerp stiekem steelt en terugbrengt.
 
-Telkens als de persoon zich omdraait, moeten de anderen stil blijven staan. Wie beweegt, moet twee stappen terug (of terug naar het begin).
+**Groepsgrootte**: 5-25 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: klein voorwerp
+**Speeltijd**: 5-10 minuten
+
+## **Spelbeschrijving**:
+
+Eén persoon staat met de rug naar de anderen toe, achter haar ligt een klein voorwerp (bijv. een bal).
+
+Telkens als zij zich omdraait, moeten de anderen bevriezen. Wie beweegt, moet twee stappen terug (of naar het begin).
 
 Het doel is om de bal te stelen en naar de startlijn te brengen.
-Zodra de bal weg is, mag de 'ijskoningin' (de persoon met de rug naar de anderen) steeds één keer raden wie de bal op dat moment heeft.
+Zodra de bal weg is, mag de IJskoningin steeds ÉÉN gok doen wie de bal op dat moment heeft.
 
-Als ze goed raadt, heeft ze gewonnen.
+Als ze goed gokt, heeft ze gewonnen.
+
+## **Bron**:
+
+Onbekend

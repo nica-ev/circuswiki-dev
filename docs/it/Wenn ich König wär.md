@@ -7,26 +7,44 @@ publish: true
 tags:
   - spiele
 title: Wenn ich König wär...
-description: 
+description: Ein darstellendes Spiel, bei dem Personen als König Tätigkeiten vorschlagen, die die Gruppe sofort spielt.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Podest
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Wenn ich König wär.md
-translation_source_hash: 4024e2424bce0d3598dd3f464eb1e089172e64f3bb26657f7445741267a9fdc3
+translation_source_hash: e2de6ed19a0c36666756aa19d6ad5323abe848a77c1ef5f0a30b6c963dca382c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:46+00:00
+translation_updated: 2026-06-09T02:36:42+00:00
 ---
-# Se fossi re...
+> [!info] Breve descrizione
+> Un gioco di recitazione in cui una persona, nei panni del re, propone attività che il gruppo deve immediatamente mettere in scena.
 
-Gioco di recitazione, Teatro / Pedagogia circense
+**Dimensioni del gruppo**: 4-30 persone
+**Difficoltà**: facile
+**Materiale**: pedana
+**Durata del gioco**: 5-10 minuti
 
-Una persona del gruppo sale su un podio e dice: "Se fossi re, allora farei..." e poi descrive un'attività che farebbe, ad esempio: "...mangerei gelato tutto il giorno" o "...saltellerei su una gamba sola", "...mi trasformerei in un unicorno".
+## **Descrizione del gioco**:
 
-Il gruppo interpreta poi questa attività finché un'altra persona del gruppo non sale sul podio e dice di nuovo: "Se fossi re...".
+Gioco di recitazione, teatro / Pedagogia circense
 
-## Riferimenti incrociati
+Una persona del gruppo sale su una pedana e dice: "Se fossi re, allora farei..." e poi nomina un'attività che farebbe, ad esempio: "...mangiare gelato tutto il giorno" o "...saltare su un piede solo", "...trasformarmi in un unicorno".
+
+Il gruppo mette quindi in scena questa attività, finché un'altra persona del gruppo non sale sulla pedana e dice di nuovo: "Se fossi re...".
+
+## **Fonte**:
+
+Sconosciuta
+
+## **Riferimenti incrociati**
 
 [Il Gioco del Sì](Das%20Ja%20Spiel.md)

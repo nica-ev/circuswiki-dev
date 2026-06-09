@@ -7,40 +7,66 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
 title: Slalom in Reihe
-description: 
+description: Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Slalom in Reihe.md
-translation_source_hash: 778c67f01158aabf9a806f91bc1cdfc1d6720f732f783e27877e1a66ac356c62
+translation_source_hash: a2f5e670c4637b1f2308771017ec9c090e03cc6aac8dadc91807756a38c67e45
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:02+00:00
+translation_updated: 2026-06-09T02:25:10+00:00
 ---
-# Slalom Relay
+> [!info] Short Description
+> A warm-up game for small groups where participants move one after another through a line, crawling or climbing.
 
-A warm-up game for small to medium-sized groups. Lots of room for variations.
+**Group Size**: 3-25 people
+**Difficulty**: Easy
+**Materials**: None
+**Duration**: 5-10 minutes
 
-Small groups of 3-5 people are formed. Within each group, people stand one behind the other in a line. There should always be enough space between individuals so that one can comfortably walk between them.
+## **Game Description**:
 
-The groups should have enough space next to each other so they don't interfere with one another.
+A warm-up game for small to medium-sized groups. Offers plenty of room for variations.
+
+Form small groups of 3-5 people. Participants in each group stand in a line, one behind the other. There should always be enough space between individuals to walk through comfortably.
+
+The groups should have enough space between them so they don't interfere with each other.
 Various sequences are described below.
 
-Slalom:
-The last person in the line starts weaving through the people in front of them until they reach the front of the line. They then stand there.
+## **Variations**:
+
+### Slalom
+
+The last person in the line starts by weaving through the people in front of them until they reach the front of the line. They then stand there.
 The second-to-last person starts weaving behind as soon as they become the last person in the line.
 
-High/Low:
-The people in the line alternately stand upright with legs spread apart and crouch down as small as possible. The last person in line starts again – crawling through spread legs, and doing a leapfrog over a crouched person.
+### High / Low
 
-Dog Tunnel:
-Each person in the group stands in the yoga pose "Downward-Facing Dog" – feet and hands are on the floor, legs are extended, and the hips are raised so the body forms a triangle with the floor.
-Each person turns so that a tunnel is formed (everyone turns to the right and assumes the position).
-The last person in line crawls through this tunnel, and upon reaching the other side, returns to the "Downward-Facing Dog" position.
+The people in the line stand alternately upright with legs spread and crouched down as small as possible. The last person in line starts again – crawling through spread legs, doing a leapfrog over a crouched person.
 
-Push-up:
-Each person in the group turns to the right and assumes a push-up position; arms can remain extended. The last person in line climbs over the others. Upon reaching the other side, they return to the push-up position.
+### Dog Tunnel
 
---> Many other variations can be invented. It's important to keep the sequences simple and not have too many people in a group.
+Each person in the group assumes the yoga pose "Downward-Facing Dog" – feet and hands on the floor, legs extended, hips raised so the body forms a triangle with the floor.
+Each person turns to the right, forming a tunnel (everyone turns right and assumes the position).
+The last person in line crawls through this tunnel. Upon reaching the other side, they return to the Downward-Facing Dog position.
+
+### Push-Up
+
+Each person in the group turns to the right and assumes a push-up position; arms can remain extended. The last person in line steps over the others. Upon reaching the other side, they return to the push-up position.
+
+## **Notes**:
+
+--> Many other variations can be invented. The key is to keep the sequences simple and not have too many people in one group.
+
+## **Source**:
+
+Unknown

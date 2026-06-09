@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:07
 title: Alaska Baseball
-description: 
+description: Ein laufintensives Teamspiel, bei dem Werfen, Sammeln und schnelle Gruppenkoordination über möglichst viele Runden entscheiden.
 authors:
   - Marc Bielert
 category:
@@ -22,21 +22,24 @@ group-max: "100"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Alaska Baseball.md
-translation_source_hash: 8b61f5e2810ab422f27a5474de1194c516a446bb5efe5232c0eaf771288566da
+translation_source_hash: 04713aafd85e0c626e7250a1987f47d9c4adc42fcc1a3afaa9beb19174660412
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:27:06+00:00
+translation_updated: 2026-06-09T01:20:49+00:00
 ---
-# Alaska Baseball
+> [!info] Descrição Curta
+> Um jogo de equipa que exige muita corrida, onde lançar, recolher e uma rápida coordenação de grupo determinam o maior número de rondas possível.
 
-**Tamanho do grupo**: 30 a 100 participantes
+**Tamanho do Grupo**: 30 a 100 participantes
 **Dificuldade**: simples
 **Material**: nenhum
-**Duração do jogo**: aprox. 5 minutos
+**Duração do Jogo**: aprox. 5 minutos
 
-**Descrição do jogo**:
-O grupo é dividido em duas equipes, o mais equilibradas possível. Uma equipe recebe uma escova de vaso sanitário ou outro objeto arremessável e escolhe o primeiro arremessador. A outra equipe pode se espalhar pelo campo de jogo ou bolar outra tática. Agora, o arremessador lança a escova de vaso sanitário para qualquer lugar no campo de jogo. Depois, ele precisa correr ao redor de todos os membros de sua equipe. A forma como os companheiros de equipe se organizam fica a critério deles, o importante é que o arremessador consiga dar o maior número de voltas possível. A outra equipe deve, o mais rápido possível, recolher a escova de vaso sanitário, formar uma fila atrás uns dos outros e passar a escova entre as pernas de todos. Quando o último jogador tiver a escova de vaso sanitário nas mãos, ele grita alto "Alaska Baseball". Este é o sinal de parada para a outra equipe. As voltas que o arremessador deu até o sinal são anotadas. Agora é a vez da outra equipe arremessar, e o último da fila, que gritou "Alaska Baseball", é o arremessador. A equipe que arremessou primeiro agora deve passar a escova de vaso sanitário entre as pernas. Assim, a escova de vaso sanitário vai alternando entre as duas equipes.
+## **Descrição do Jogo**:
 
-O jogo termina quando um tempo determinado expirar, um número determinado de voltas for jogado ou uma equipe atingir um número determinado de voltas.
+O grupo é dividido em duas equipas, o mais equilibradas possível. Uma equipa recebe uma escova de sanita ou outro objeto arremessável e determina o primeiro lançador. A outra equipa pode distribuir-se pelo campo de jogo ou pensar noutra tática. Agora, o lançador atira a escova de sanita para um local qualquer do campo. Depois, tem de correr à volta de todos os membros da sua equipa. A forma como os colegas se organizam é totalmente livre, o importante é que o lançador consiga dar o maior número de voltas possível. A outra equipa tem de recolher a escova de sanita o mais rapidamente possível nesse tempo, formar uma fila atrás uns dos outros e passar a escova uma vez por entre as pernas de todos. Quando o último jogador tiver a escova de sanita nas mãos, grita alto "Alaska Baseball". Este é o sinal de paragem para a outra equipa. As rondas que o lançador deu até ao sinal são registadas. Agora é a vez da outra equipa lançar, e o último da fila que gritou "Alaska Baseball" é o lançador. A equipa que lançou primeiro tem agora de passar a escova de sanita por entre as pernas. Desta forma, a escova de sanita vai alternando entre as duas equipas.
 
-**Fonte**:
+O jogo termina quando um determinado tempo expirar, um determinado número de rondas for jogado ou uma equipa atingir um determinado número de rondas.
+
+## **Fonte**:
+
 Tasifan Spielebuch

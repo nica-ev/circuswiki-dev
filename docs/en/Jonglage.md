@@ -13,13 +13,13 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Jonglage.md
-translation_source_hash: 36ca35dff7b4b161b2e4f2e1a5dbbda9f8a28feebdf341202f87b8eaa6c965c9
+translation_source_hash: 384a84f6fc5adc841b0193201ae7808180383079e91bc5570b0872533bc09502
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:23:35+00:00
+translation_updated: 2026-06-09T01:46:02+00:00
 ---
 # Juggling
 
-Classic (Western) Objects in Throwing Juggling
+Classic (Western) Objects in Thrown Juggling
 
 Balls [Basics](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
@@ -31,19 +31,19 @@ Rings
 
 Non-Classic Objects
 
-- Spinning Tops
+- Spinners
 	- Diabolo
 	- Yoyo
 	- Beigoma
 - Poi
 
-# Throwing Juggling
+# Thrown Juggling
 
 - Definition
 - Concepts
 - Exercises
 - Games
-	- [1,2,3](1,2,3.md) - a game with counting rhythms
+	- [1-2-3](1-2-3.md) - a game with counting rhythms
 
 # See Also
 https://www.kapsel.se/jugglingschool/en

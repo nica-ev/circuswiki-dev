@@ -6,24 +6,36 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:49:26
-title: " Zip Zap"
-description: 
+title: Zip Zap
+description: Ein Kreisspiel mit Impulsen, bei dem Zip, Zap, Peng und Boing rhythmisch und aufmerksam weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zip Zap.md
-translation_source_hash: 4879a168f152688b3b7c0839d1d764c5c0030daf5f2132b84c9a482e2b1cb4d7
+translation_source_hash: 9f9aee37bc004dc7bab868435cc8e4c1983e22871171d421e4105c727391b07b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:33:33+00:00
+translation_updated: 2026-06-09T02:38:14+00:00
 ---
-# Zip Zap
+> [!info] Stručný popis
+> Kruhová hra s impulzmi, pri ktorej sa rytmicky a pozorne odovzdávajú slová Zip, Zap, Peng a Boing.
 
-Zip Zap
+**Veľkosť skupiny**: od 5 osôb
+**Náročnosť**: jednoduchá
+**Materiál**: žiadny
+**Dĺžka hry**: 5-10 minút
 
-Hra pre akúkoľvek veľkosť skupiny:
+## **Popis hry**:
+
+Hra pre akúkoľvek veľkosť skupiny.
 
 Hráči sa postavia do kruhu.
 
@@ -31,8 +43,12 @@ Existujú 4 rôzne impulzy: „Zip“ (doprava), „Zap“ (doľava), „Peng“
 
 Príklad priebehu:
 
-Vedúci hry začne a tlesknutím odovzdá „Zip“ osobe napravo od seba. Tá ho s „Zip“ posunie ďalej. Tretia osoba ukáže prstom na inú osobu v kruhu a povie „Peng“. „Zasiahnutá“ osoba zdvihne ruky nahor, predkloní sa a povie „Boing“ a odrazí impulz späť.
+Vedúci hry začne a tlesknutím odovzdá „Zip“ osobe napravo od seba. Tá ho odovzdá ďalej slovom „Zip“. Tretia osoba ukáže prstom na inú osobu v kruhu a povie „Peng“. „Zasiahnutá“ osoba zdvihne ruky, predkloní sa a povie „Boing“ a impulz odrazí späť.
 
 Potom tretia osoba odovzdá impulz doľava a povie „Zap“...
 
-Dá sa hrať ľubovoľne dlho, napr. keď sa impulz vráti späť k vedúcemu hry.
+Možno hrať ľubovoľne dlho, napr. kým sa impulz opäť nedostane k vedúcemu hry.
+
+## **Zdroj**:
+
+Neznámy

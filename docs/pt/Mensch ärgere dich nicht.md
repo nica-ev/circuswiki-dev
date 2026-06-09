@@ -7,36 +7,47 @@ publish: true
 tags:
   - spiele
 title: Mensch ärgere dich nicht
-description: 
+description: Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Ringe oder Hula Hoops
+Spieldauer: 20-30
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mensch ärgere dich nicht.md
-translation_source_hash: 0ffdf51ecb1074d169c4dc82597b9dc929ef5b412b9620bce09f41304dfaf541
+translation_source_hash: bce928bbbebf1552cbc6d0a541165e9c7f039ecc4a5657e47b563f8b36b1ba68
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:05:29+00:00
+translation_updated: 2026-06-09T02:06:12+00:00
 ---
-# Não me Irrite
+> [!info] Breve Descrição
+> Um duelo de corrida ao longo de uma pista de argolas, onde as equipas lutam pelo progresso com o jogo "Pedra, Papel, Tesoura".
 
-**Tamanho do grupo**: A partir de aprox. 4-6 participantes
-**Dificuldade**: fácil
-**Material**: muitos anéis / aros de Hula Hoop
-**Duração do jogo**: 20-30 minutos
-**Fonte**: Facebook
+**Tamanho do Grupo**: A partir de aproximadamente 4-6 participantes
+**Dificuldade**: Fácil
+**Material**: Muitas argolas / Hula Hoops
+**Duração do Jogo**: 20-30 minutos
 
-**Descrição do jogo**:
-Os aros são dispostos em linha longa (e sinuosa). É bom uni-los para que não se desloquem, mas também funciona sem os unir.
+## **Descrição do Jogo**:
 
-Formam-se 2 grupos que se posicionam em fila em cada extremidade da linha de aros.
+As argolas / Hula Hoops são dispostas em linha longa (e sinuosa). É bom uni-las para que não se desloquem, mas também funciona sem união.
 
-Ao sinal de partida, um participante de cada grupo salta, de um aro para o seguinte.
-Assim que os dois participantes se encontram, jogam "Pedra, Papel, Tesoura" (ou "Schnick Schnack Schnuck"). O perdedor contorna o campo de jogo (por fora dos aros) e volta para o fim da fila.
-O próximo participante desse grupo pode saltar imediatamente.
+Formam-se 2 grupos que se alinham em fila em cada extremidade da linha de argolas.
+
+Ao sinal de partida, um jogador de cada grupo corre, saltando de uma argola para a próxima.
+Assim que os dois jogadores se encontram, jogam "Pedra, Papel, Tesoura". O perdedor contorna o campo (fora das argolas) e volta para o fim da fila.
+O próximo jogador desse grupo pode começar imediatamente a saltar.
 O vencedor continua a saltar.
 
-A ronda termina quando um participante alcança o primeiro aro do grupo adversário.
+A ronda é ganha quando um jogador alcança a primeira argola do grupo adversário.
 
 É bom jogar várias rondas (3-5), embora cada ronda possa demorar bastante tempo.
+
+## **Fonte**:
+
+Facebook

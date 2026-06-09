@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: 
+description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 3-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Whiskeymixer.md
-translation_source_hash: 5bb55b901c9ef9bf07e01a2bb368becfe2b159ee7da7e7dc0cacd9effb66130c
+translation_source_hash: 94393da6b70f6d8b26d2718fbbb8ade735da2dbeaead0b31cdcba5fbaeaeab7f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:55:03+00:00
+translation_updated: 2026-06-09T02:36:56+00:00
 ---
-# Whiskeymixer
+> [!info] Rövid leírás
+> Egy körben játszott beszéd- és reakciójáték, amelyben nehéz szavakat adnak tovább nevetés vagy elszólás nélkül.
 
-**Csoportméret**: 5 vagy több játékostól
+**Csoportméret**: 5 főtől
 **Nehézség**: közepes (nyelvi szempontból)
-**Anyag**: nincs
-**Játékidő**: 3-10 perc
+**Szükséges anyag**: nincs
+**Játékidő**: 3–10 perc
 
-**Játékszabály**:
-Mindenki álljon körben, és az egyik játékos kezdje el a „Whiskeymixer” szót mondani a jobb oldali szomszédjának. Ezt követően a játékos a jobb oldali szomszédjának ismételje meg a „Whiskeymixer” szót, és így tovább. Ha a körben valakinek a játék során el kell nevetnie magát, vagy elszólja magát, akkor egyszer körbe kell futnia a teljes kört, és vissza kell állnia az eredeti helyére. Ha éppen az a játékos lett volna soros, akinek el kell futnia, őt egyszerűen át kell ugrani. A „Messwechsel” szóval lehet irányt váltani. Ha a játék balra halad, akkor a bal oldali szomszédnak „Wachsmaskenmacher” szót kell mondani a „Whiskeymixer” helyett.
+## **Játékszabály**:
 
-**Forrás**:
+Mindenki körben áll, és az egyik játékos elkezdi a „Whiskeymixer” szót mondani a jobb oldali szomszédjának. Ezt követően a játékos a jobb oldali szomszédjának ismét azt mondja, hogy „Whiskeymixer”, és így tovább. Ha a körben valakinek a játék során el kell nevetnie magát, vagy elszólja magát, annak egyszer körbe kell futnia a teljes kört, és vissza kell állnia az eredeti helyére. Ha éppen az adott játékos lett volna a soros, őt egyszerűen átugranák. A „Messwechsel” szóval lehet irányt váltani. Ha a játék balra halad, akkor a „Wachsmaskenmacher” szót kell mondani a bal oldali szomszédnak a „Whiskeymixer” helyett.
+
+## **Forrás**:
+
 Tasifan Spielebuch

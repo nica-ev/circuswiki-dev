@@ -7,22 +7,42 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:03:53
 title: Energie Klatschkreis
-description: 
+description: Ein schnelles Kreisspiel, bei dem ein Klatschimpuls möglichst flüssig von Person zu Person weitergegeben wird.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 5
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Energie Klatschkreis.md
-translation_source_hash: dd096f961765cdeaf981185ad5412d98a4fab3f92f1ce84e8ead4053cdc626ae
+translation_source_hash: 3c69d5b0f828cbd5d469491e2f9a7de3ce68f17dd522a1dea8f68855465b7a35
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:00:53+00:00
+translation_updated: 2026-06-09T01:36:16+00:00
 ---
-# Cerchio di Battiti
+> [!info] Breve descrizione
+> Un gioco veloce in cerchio, in cui un impulso di battito di mani viene trasmesso di persona in persona nel modo più fluido possibile.
 
-Un gioco di gruppo in cerchio per piccoli e grandi gruppi.
+**Dimensioni del gruppo**: da 5 persone in su
+**Difficoltà**: facile
+**Materiale**: nessuno
+**Durata del gioco**: 2-5 minuti
 
-Tutti stanno in cerchio e un battito di mani viene passato al vicino. L'obiettivo è raccogliere questo battito, girarsi e passarlo – il più velocemente possibile.
+## **Descrizione del gioco**:
 
-[Battito con contatto visivo](Klatsch%20mit%20Augenkontakt.md)
+Un gioco in cerchio per gruppi piccoli o grandi.
+
+Tutti stanno in cerchio e un battito di mani viene trasmesso al vicino. L'obiettivo è afferrare questo battito di mani, girarsi e trasmetterlo - il più velocemente possibile.
+
+## **Fonte**:
+
+Sconosciuta
+
+## **Riferimenti incrociati**
+
+[Battito di mani con contatto visivo](Klatsch%20mit%20Augenkontakt.md)

@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:26:31
 update: 2025-03-25 22:49:54
 title: Tellerfänger
-description: 
+description: Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tellerfänger.md
-translation_source_hash: 3b2931745d731d9fe1298ba22b24dfafcfd9aaa84b35774ac57031fccb636657
+translation_source_hash: d497ab7d8d4a3ccfbca7e0f85378b122f905e443e0e2676c3857220bbc572765
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:13:16+00:00
+translation_updated: 2026-06-09T02:31:03+00:00
 ---
-# Tanierový chyták
-
 > [!info] Stručný popis
-> Jednoduchá hra na chytanie, pri ktorej sa účastníci môžu vyhnúť chyteniu napodobňovaním žonglérskych pomôcok.
+> Chytacia hra s materiálom na žonglovanie, kde sa hráči môžu zachrániť pred chytením vhodným postojom tela.
 
 **Veľkosť skupiny**: Od 6 hráčov
 **Obtiažnosť**: Jednoduchá
@@ -39,9 +37,9 @@ translation_updated: 2026-06-07T19:13:16+00:00
 
 ## **Popis hry**:
 
-Určí sa jeden chytač. Ten drží v ruke tanier a snaží sa dotknúť ostatných osôb. Tí sa však môžu zachrániť tak, že vystrú rameno do vzduchu a napodobnia tak tyč, ktorú potrebujete na otáčanie taniera.
+Určí sa chytač. Ten drží v ruke tanier a snaží sa dotykom chytiť ostatných. Tí sa však môžu zachrániť tak, že vystrú rameno do vzduchu a napodobnia tak tyč, ktorú potrebujete na otáčanie taniera.
 
-Ak je niekto chytený, tanier sa mu odovzdá.
+Ak je niekto chytený, tanier mu/jej sa odovzdá.
 
 V závislosti od veľkosti skupiny a veku môžete zapojiť ďalšie prvky a chytačov:
 

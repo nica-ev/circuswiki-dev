@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
 title: Der Zirkus kommt in die Stadt
-description: 
+description: Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte, markierte Bereiche
+Spieldauer: 5-15
+source: unbekannt
+group-min: 10
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# Der Zirkus kommt in die Stadt
+> [!info] Kurzbeschreibung
+> Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
+
+**Gruppengröße**: 10-40 Personen
+**Schwierigkeit**: einfach
+**Material**: Matte, markierte Bereiche
+**Spieldauer**: 5-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Mitmachspiel für mittlere bis große Kindergruppen
 Verschiedene Kommandos werden kurz erklärt:
@@ -37,9 +51,12 @@ Zu Anfang werden schon ein oder mehrere Löwen bestimmt (vorzugsweise Erwachsene
 
 Das Spiel eignet sich durchaus für große Gruppen wenn der Platz vorhanden ist.
 
-# Variationen des Themas
+## **Varianten**:
 
 Das Grundprinzip eignet sich auch gut um Themen-Variationen zu machen.
 
 Statt einem Zirkus mit verschiedenen Stationen nimmt man z.B. eine Piratencrew, ein Indianerdorf etc...
 
+## **Quelle**:
+
+Unbekannt

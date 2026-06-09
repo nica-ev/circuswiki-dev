@@ -5,40 +5,59 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:44:14
+update: 2026-06-09 01:24:02
 title: Ding Dang Dong
-description: 
+description: Ein Klatschspiel für zwei Personen mit rhythmischem Text und einfachen Bewegungen zu Ding, Dang und Dong.
 authors:
   - Marc Bielert
 category:
   - klatschspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 2
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ding Dang Dong.md
-translation_source_hash: d69cb9e70abeb49c310c911f081a5437bcb6993ce258c8f9ff29fa3887f489cb
+translation_source_hash: 1a90ded22af79816b409c4a73c4fb02aa5e5d8ab6b4a9e19aeced92dff121b65
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:53+00:00
+translation_updated: 2026-06-09T01:34:54+00:00
 ---
-# Ding Dang Dong
+> [!info] Stručný popis
+> Tleskací hra pro dvě osoby s rytmickým textem a jednoduchými pohyby.
+
+**Velikost skupiny**: 2 osoby
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 2–5 minut
+
+## **Popis hry**:
 
 Tleskací hra pro 2 osoby.
 
-Text:
-„Ó, balónek, karamelový bonbónek.
+### Text
+
+„Ó, balónek, karamelka.
 Všechny opice a žirafy dělají
 Ding Dang Dong
 Všechna prasátka bez nožiček
-Všechny kozy bez mouchy
-dělají Mééé“
+Všechny kozičky bez mouchy
+dělají mňau“
 
-Následuje text s pohyby:
+### Pohyby
 
 „Ó *(ruce před ústa jako při volání)*
-Balónek, karamelový bonbónek, všechny opice a žirafy dělají
-*(ruce se rytmicky střídavě tleskají o sebe nebo o ruce partnera)*
+balónek, karamelka, všechny opice a žirafy dělají
+*(ruce se střídavě tleskají do rytmu o sebe nebo o ruce partnera)*
 Ding *(ruka se dotkne hlavy)*
 Dang *(ruka se dotkne boku)*
 Dong *(ruka se dotkne chodidla)*
-Všechna prasátka bez nožiček, všechny kozy bez mouchy
-*(ruce se rytmicky střídavě tleskají o sebe nebo o ruce partnera)*
-dělají Mééé *(ruce vedle uší, dlaně otevřené k partnerovi, palce se dotýkají spánků)*“
+Všechna prasátka bez nožiček, všechny kozičky bez mouchy
+*(ruce se střídavě tleskají do rytmu o sebe nebo o ruce partnera)*
+dělají mňau *(ruce vedle uší, dlaně otevřené k partnerovi, palce se dotýkají spánků)*
+
+## **Zdroj**:
+
+Neznámý

@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,27 +23,27 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:07:08+00:00
+translation_updated: 2026-06-09T01:48:16+00:00
 ---
 > [!info] Breve descripción
-> "Conocerse corriendo tras la pelota" es un ejercicio dinámico de presentación que combina movimiento, memorización de nombres y contacto visual para fomentar la interacción y el sentido de comunidad.
+> Un ejercicio dinámico de presentación en círculo, en el que las personas corren tras el balón lanzado y cambian de sitio.
 
-**Tamaño del grupo**: Cualquiera
-**Dificultad**: Fácil a media (dependiendo del número de pelotas)
-**Material**: Una o varias pelotas
+**Tamaño del grupo**: 5-25 personas
+**Dificultad**: Fácil a media (dependiendo del número de balones)
+**Material**: Uno o varios balones
 **Duración del juego**: Aprox. 10-15 minutos
 
 ## **Descripción del juego**:
 
 Todos los participantes se colocan en círculo.
 
-Una persona tiene una pelota, establece contacto visual con otra persona del círculo, dice su nombre y le lanza la pelota.
+Una persona tiene un balón, establece contacto visual con otra persona del círculo, dice su nombre y le lanza el balón.
 
-Luego, corre tras la pelota y se coloca **detrás** de la persona que la ha atrapado.
+A continuación, corre tras el balón y se coloca **detrás** de la persona que ha atrapado el balón.
 
-Se puede aumentar la dificultad incrementando el número de pelotas en juego.
+Se puede aumentar la dificultad incrementando el número de balones en juego.
 
 ## **Fuente**:
 

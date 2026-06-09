@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ägyptisches Wurfspiel
-description: 
+description: Ein Wurfspiel für kleine Teams, bei dem auf die nicht klatschende Person geworfen werden muss.
 authors:
   - Marc Bielert
 category:
@@ -22,36 +22,36 @@ todo: fertig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ägyptisches Wurfspiel.md
-translation_source_hash: d628c3f5775e180305802433b12903429d2e6d5960d8678356aa281f9996c68c
+translation_source_hash: 330dc15d2b177ebd85455417a7bdc18477ed7a3349594bf0f785b88018f95d87
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:58:58+00:00
+translation_updated: 2026-06-09T01:20:21+00:00
 ---
 > [!info] Breve descripción
-> Este juego de lanzamiento para grupos pequeños, cuyo origen se cree que está en Egipto, exige concentración y capacidad de reacción. El objetivo es lanzar la pelota a la persona correcta mientras el grupo contrario intenta evitar errores.
+> Un juego de lanzamiento para equipos pequeños en el que hay que lanzar a la persona que no aplaude.
 
 **Tamaño del grupo**: 4 jugadores (2 equipos de 2 personas) o 8, 12, 16, etc.
 **Dificultad**: Media
-**Material**: 1 pelota
-**Duración del juego**: Variable (dependiendo de la puntuación objetivo)
+**Material**: 1 balón
+**Duración del juego**: 5-10 minutos
 
 ## **Descripción del juego**:
 
-La estructura básica del juego se cree que proviene de Egipto. Dos grupos de dos personas cada uno se enfrentan.
+La estructura básica del juego proviene probablemente de Egipto. Dos grupos de dos personas cada uno se enfrentan.
 
-Una persona de un grupo (Grupo 1) tiene una pelota. Una persona del grupo contrario (Grupo 2) debe aplaudir. Es importante que las personas dentro del grupo no se pongan de acuerdo ni se comuniquen en exceso.
+Una persona de un grupo (Grupo 1) tiene un balón. Una persona del grupo contrario (Grupo 2) debe aplaudir ahora. Es importante que las personas dentro del grupo no se pongan de acuerdo ni se comuniquen en exceso.
 
-La persona con la pelota del Grupo 1 debe lanzársela a la persona del Grupo 2 que *no* ha aplaudido.
+La persona con el balón del Grupo 1 debe lanzárselo ahora a la persona del Grupo 2 que *no* ha aplaudido.
 
 Un grupo recibe un punto si:
 
-*   el otro grupo no atrapa la pelota
+*   el otro grupo no atrapa el balón
 *   el otro grupo reacciona demasiado lento
-*   el otro grupo lanza la pelota incorrectamente (es decir, a la persona que aplaudió)
+*   el otro grupo lanza el balón incorrectamente (es decir, a la persona que ha aplaudido)
 
-El grupo que alcance primero una puntuación predeterminada gana el juego.
+El grupo que alcance primero un número de puntos predeterminado gana el juego.
 
-El juego probablemente también se pueda jugar con más personas, pero en general es adecuado para grupos muy pequeños.
+El juego probablemente también se puede jugar con más personas, pero en general es adecuado para grupos muy pequeños.
 
 ## **Fuente**:
 
-Desconocida (origen probable en Egipto)
+Desconocida (Origen probable en Egipto)

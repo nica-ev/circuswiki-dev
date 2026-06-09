@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:14:36
 title: Zeitbombe
-description: 
+description: Ein Fangspiel, bei dem gefangene Personen als tickende Zeitbomben entschärft werden müssen, bevor sie ausscheiden.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Markierung für Fänger
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Zeitbombe
+> [!info] Kurzbeschreibung
+> Ein Fangspiel, bei dem gefangene Personen als tickende Zeitbomben entschärft werden müssen, bevor sie ausscheiden.
 
 **Gruppengröße**: Ab 8 Mitspieler
 **Schwierigkeit**: simpel

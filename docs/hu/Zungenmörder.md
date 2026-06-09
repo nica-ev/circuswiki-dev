@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zungenmörder
-description: 
+description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 authors:
   - Marc Bielert
 category:
@@ -23,35 +23,33 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zungenmörder.md
-translation_source_hash: 83273580fce27ef134c04149f1e233e13a06b667303df809b0d4bf62278a253c
+translation_source_hash: 9214e7f4aa5f97ec20764de198a3ddc664353461aba1ae07ebdf79e74a373e97
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:56:04+00:00
+translation_updated: 2026-06-09T02:39:53+00:00
 ---
-# Nyelvtörő
-
 > [!info] Rövid leírás
-> A "Nyelvtörő" egy izgalmas szerepjáték közepes és nagy létszámú csoportok számára, ahol egy gyilkos a nyelv kinyújtásával választja ki "áldozatait", miközben egy detektív próbálja leleplezni őt.
+> Egy körjáték, ahol a gyilkos titokban nyelvnyújtással öl, a detektívnek pedig le kell lepleznie őt.
 
-**Csoportméret**: Közepes vagy nagy
+**Csoportméret**: 10-30 fő
 **Nehézség**: Közepes
-**Szükséges anyagok**: Nincsenek
-**Játékidő**: Kb. 10-15 perc
+**Anyag**: Nincs
+**Játékidő**: 5-10 perc
 
 ## **Játék leírása**:
 
-Minden játékos üljenek körben, és csukják be a szemüket.
+Minden játékos körben ül, és becsukja a szemét.
 
-Eközben a játékvezető körbejár, és *egyszer* megérinti egy játékos hátát (ő a gyilkos), majd egy másik játékos hátát *kétszer* (ő a detektív).
+Eközben a játékvezető körbejár, és *egyszer* megérinti egy tetszőleges személy hátát (ez a gyilkos), majd egy másik személyt *kétszer* (ez a detektív).
 
-Ezután mindenki nyissa ki újra a szemét, a detektív pedig üljön a kör közepére.
+Ezután mindenki újra kinyitja a szemét, a detektív pedig beül a kör közepére.
 
-Most mindenki nézzen körbe, és figyelje a többieket. Ha a gyilkos ránéz egy másik játékosra, és észrevétlenül kinyújtja neki a nyelvét.
+Most mindenki egymást nézi. Ha a gyilkos ránéz egy másik személyre, észrevétlenül kinyújtja neki a nyelvét.
 
-Az illetőnek ezután teátrálisan meg kell halnia.
+Az érintett személynek ezután teátrálisan meg kell halnia.
 
-A detektív összesen 3 alkalommal tippelhet, hogy ki lehet a gyilkos.
+A detektív összesen 3 tippel élhet, hogy ki lehet a gyilkos.
 
-Ha sikerül lelepleznie a gyilkost, a detektív nyert.
+Ha leleplezi a gyilkost, a detektív nyert.
 
 Ha nem találja el a gyilkost, a gyilkos nyert.
 

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
 title: Spinnennetz
-description: 
+description: Eine Kooperationsaufgabe, bei der die Gruppe durch ein Seilnetz gelangen muss, ohne Felder doppelt zu nutzen oder Seile zu berühren.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 14
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spinnennetz.md
-translation_source_hash: 0cc6637fccb69acf901ac2b36c1cd9dd7a825c764f9f7612d0e12d016df99add
+translation_source_hash: fa2a83e65ff6903cd72f15f2fef87b365865728084bb7f20d6436b0eacd586bd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:24:34+00:00
+translation_updated: 2026-06-09T02:28:20+00:00
 ---
-# Spinnenweb
+> [!info] Korte beschrijving
+> Een samenwerkingsopdracht waarbij de groep een net van touwen moet doorkruisen zonder vakjes dubbel te gebruiken of de touwen aan te raken.
 
 **Groepsgrootte**: 6 tot 14 deelnemers
-**Moeilijkheidsgraad**: afhankelijk van het spinnenweb, van eenvoudig tot zeer zwaar
+**Moeilijkheidsgraad**: afhankelijk van het spinnenweb, van eenvoudig tot zeer moeilijk
 **Materiaal**: meerdere touwen of één heel lang touw
-**Speeltijd**: 5 tot 15 minuten
+**Speelduur**: 5 tot 15 minuten
 
-**Spelbeschrijving**:
-Tussen twee of meer palen, bomen of iets dergelijks wordt met touwen een net gespannen. Het net heeft precies evenveel vakken als er spelers aan het spel deelnemen, en de vakken zijn zo groot dat er telkens één speler op de een of andere manier doorheen past. De spelers moeten nu van de ene kant van het net naar de andere zien te komen, maar mogen daarbij elk vak maar één keer gebruiken. Er moet dus goed nagedacht worden over wie er als eerste gaat en wie welk vak met welke afmetingen doorkruipt. Om het geheel moeilijker te maken, mogen de spelers de touwen niet aanraken. Alles wordt teruggezet naar het begin als een touw door een speler wordt aangeraakt. Dat betekent dat iedereen terug moet. Voor de bijzonder goed op elkaar ingespeelde groepen krijgt degene die het touw heeft aangeraakt nog een handicap. Bijvoorbeeld worden zijn benen of armen samengebonden, de ogen verbonden, of iets anders wat passend lijkt.
+## **Spelbeschrijving**:
 
-**Bron**:
+Door twee of meer palen, bomen of iets dergelijks te verbinden, wordt een net van touwen gespannen. Het net heeft precies evenveel vakjes als er spelers aan het spel deelnemen en de vakjes zijn zo groot dat er telkens één speler op de een of andere manier doorheen past. De spelers moeten nu van de ene kant van het net naar de andere, maar mogen daarbij elk vakje slechts één keer gebruiken. Er moet dus goed nagedacht worden over wie er als eerste gaat en wie welk vakje met welke afmetingen doorkruist. Om het geheel moeilijker te maken, mogen de spelers de touwen niet aanraken. Alles wordt teruggezet naar het begin als een touw door een speler wordt aangeraakt. Dat betekent dat iedereen terug moet. Voor de bijzonder goed op elkaar ingespeelde groepen krijgt degene die het touw heeft aangeraakt nog een handicap. Bijvoorbeeld worden zijn benen of armen samengebonden, de ogen verbonden of iets anders wat passend lijkt.
+
+## **Bron**:
+
 Tasifan Spielebuch

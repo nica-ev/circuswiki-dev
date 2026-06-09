@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:58:45
 title: Suchkind
-description: 
+description: Ein Kennenlernspiel, bei dem Kinder anhand charakteristischer Hinweise passende Gruppenmitglieder finden.
 authors:
   - Marc Bielert
 category:
@@ -22,12 +22,10 @@ todo: fertig
 translation_status: original
 translation_source_lang: de
 ---
-# Suchkind
-
 > [!info] Kurzbeschreibung
-> "Suchkind" ist ein spielerisches Kennenlernspiel, das die Beobachtungsgabe und das Wissen über die Gruppenmitglieder fördert, indem die Kinder anhand von charakteristischen Eigenschaften erraten und finden müssen.
+> Ein Kennenlernspiel, bei dem Kinder anhand charakteristischer Hinweise passende Gruppenmitglieder finden.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 5-20 Personen
 **Schwierigkeit**: Mittel (setzt Vorkenntnisse über die Gruppe voraus)
 **Material**: Keins
 **Spieldauer**: Ca. 20-30 Minuten

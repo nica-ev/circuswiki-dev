@@ -5,34 +5,45 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 02:22:26
+update: 2026-06-09 02:09:22
 title: Stierkampf - Tatonga
-description: 
+description: Ein Kreisspiel mit Seil, bei dem ein Stier in der Mitte Hände antippt oder versucht, das Seil zu Boden zu bringen.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: Seil
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Stierkampf - Tatonga.md
-translation_source_hash: 121d0ba38d337cfe5e84877d9fb0a8d4f0ab7461e4a8a886e87bd8a3904c98e0
+translation_source_hash: 4f0feff33035394064f6cf86217b1bf68b1587b5beef5815dbd5ca8d1707b5ad
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:54:10+00:00
+translation_updated: 2026-06-09T02:28:59+00:00
 ---
-# Bika – Tatonga
+> [!info] Rövid leírás
+> Egy körjáték kötéllel, amelyben egy bika próbál elmenekülni a közepéből.
 
-**Csoportméret**: 5–20 játékos
+**Csoportméret**: 5-20 játékos
 **Nehézség**: könnyű
-**Eszköz**: kötél
-**Játékidő**: 5–10 perc
+**Anyag**: kötél
+**Játékidő**: 5-10 perc
 
-**Játékleírás**:
-A kötelet körré kötjük, amelyen minden játékos megfogja egymást. Egy játékos beáll a kör közepére, ő a bika. A bika az arénában van, és meg akar szökni, de a kötél ezt megakadályozza. A játékot kétféleképpen lehet játszani.
+## **Játék leírása**:
 
-1. változat: A bika hangosan felkiált: „Tatonga!”, majd megpróbálja megérinteni a kötelet fogó kezeket. Azok, akik a kötelet fogják, elengedhetik a kötelet, hogy megvédjék magukat. Csak akkor lehet megérinteni a kezet, amíg a kötélhez van fogva. A kötél azonban nem érintheti a földet! Ha a bika megérint egy kezet, az illető lesz az új bika, és belép az arénába. Miután elkiáltotta a „Tatonga!” szót, ő is megpróbál kezeket érinteni. Ha a kötél a földet éri, a bika nyert, és a játékvezető határoz meg egy új bikát.
+A kötelet körré kötjük, amelyen minden játékos megfogja egymást. Egy játékos beáll a kör közepére, ő a bika. A bika az arénában van, és el akar menekülni, de a kötél ezt megakadályozza. Most kétféleképpen lehet játszani ezt a játékot.
 
-2. változat: A játék menete lényegében ugyanaz, mint az 1. változatnál. Csak itt, akit a bika megérint, nem lesz az új bika, hanem az adott körre kiesik. Így egyre kevesebb játékos tudja tartani a kötelet. Ha a kötél a földet éri, a bika szabad, és új bikát lehet kijelölni.
+## **Változatok**:
 
-**Forrás**:
+1. változat: A bika hangosan felkiált: „Tatonga!”, majd megpróbálja megérinteni a kötélen lévő kezeket. Azok, akik fogják a kötelet, elengedhetik azt, hogy megvédjék magukat. Csak amíg a kéz a kötélen van, addig lehet megérinteni. A kötél azonban nem érheti a földet! Ha a bika megérint egy kezet, az illető lesz az új bika, és belép az arénába. Az ő „Tatonga!” kiáltása után ő is próbál kezeket érinteni. Ha a kötél a földet éri, a bika nyert, és a játékvezető határoz meg egy új bikát.
+
+2. változat: A játék menete lényegében ugyanaz, mint az 1. változatnál. Csak itt, akit a bika megérint, az nem lesz új bika, hanem az illető kiesik az adott körre. Így egyre kevesebb játékos fogja tudni tartani a kötelet. Ha a kötél a földet éri, a bika szabad, és új bikát lehet kijelölni.
+
+## **Forrás**:
+
 Tasifan Spielebuch

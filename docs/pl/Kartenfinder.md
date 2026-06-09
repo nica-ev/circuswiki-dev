@@ -7,31 +7,40 @@ publish: true
 tags:
   - spiele
 title: Kartenfinder
-description: 
+description: Ein Staffelspiel mit Spielkarten, bei dem Teams ihre eigene Kartenfarbe finden und möglichst schnell sammeln.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: Kartenspiel
+Spieldauer: 10-15
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kartenfinder.md
-translation_source_hash: 7900cf4f7888b60983dbf67354cc0740d38819e1cb633e57821644a14d82681c
+translation_source_hash: a2192aa88e300790e7f1c73560437d02c85335dc92c6c7ab7932ea9be46c47fc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:16:04+00:00
+translation_updated: 2026-06-09T01:46:19+00:00
 ---
-# Znajdź Kartę
+> [!info] Krótki opis
+> Bieg sztafetowy z kartami do gry, w którym drużyny odnajdują swój kolor kart i zbierają je jak najszybciej.
 
-**Liczba graczy**: 4 do 20
+**Liczba graczy**: od 4 do 20
 **Poziom trudności**: łatwy
-**Materiały**: co najmniej jedna talia kart
+**Materiały**: min. jedna talia kart
 **Czas gry**: 10 do 15 minut
 
-**Opis gry**:
-Wszyscy gracze dzielą się na cztery równe grupy. Grupy ustawiają się w rzędzie za linią startu i otrzymują przypisaną im kolorystykę kart: pik, karo, kier lub trefl. Każda grupa powinna mieć również swojego lidera. Po przeciwnej stronie od linii startu, na środku, znajduje się pudełko, stołek lub mata. Na nim leżą karty do gry, po tyle samo z każdego koloru. Im więcej kart, tym dłużej trwa gra. Po rozpoczęciu gry pierwszy gracz z każdej grupy biegnie do kart i może odwrócić jedną z nich. Jeśli karta ma kolor przypisany jego grupie, może ją zabrać. Jeśli karta ma jeden z trzech pozostałych kolorów, musi ją odłożyć na miejsce i wrócić bez zabierania jej. Po dotarciu do swojej linii wybija kolejnego gracza i ustawia się na końcu. Następny gracz postępuje tak samo.
+## **Opis gry**:
 
-Zabraną kartę należy przekazać liderowi grupy. Należy znać liczbę kart każdego koloru, która powinna leżeć na polu gry, ponieważ gdy ta liczba zostanie osiągnięta, prowadzący grę wie, że odpowiednia drużyna wygrała.
+Wszyscy gracze zostają podzieleni na cztery równe grupy. Grupy ustawiają się w jednej linii za wyznaczoną linią startową, a każdej grupie przypisany zostaje jeden kolor kart: pik, karo, kier lub trefl. Każda grupa powinna mieć również swojego lidera. Po przeciwnej stronie linii startowej, na środku, znajduje się pudełko, stołek lub mata. Na tym przedmiocie leży równa liczba kart każdego koloru. Im więcej kart, tym dłużej trwa gra. Po rozpoczęciu gry pierwszy gracz z każdej grupy biegnie do przedmiotu z kartami. Może wziąć kartę, jeśli ma przypisany kolor swojej grupy. Jeśli karta ma jeden z trzech pozostałych kolorów, gracz musi ją odłożyć i wrócić na start bez zabierania karty. Po dotarciu do linii startowej, klaszcze w dłoń kolejnego gracza i staje na końcu kolejki. Następny gracz postępuje tak samo.
+
+Jeśli karta zostanie zabrana, należy ją przekazać liderowi grupy. Liczba kart każdego koloru, które muszą zostać zebrane, powinna być znana, ponieważ gdy ta liczba zostanie osiągnięta, prowadzący grę wie, że odpowiednia drużyna wygrała.
 
 Gra kończy się, gdy każda drużyna przekaże wszystkie swoje karty liderowi grupy.
 
-**Źródło**:
+## **Źródło**:
+
 Tasifan Spielebuch

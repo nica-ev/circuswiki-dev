@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: 
+description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 3-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Whiskeymixer.md
-translation_source_hash: 5bb55b901c9ef9bf07e01a2bb368becfe2b159ee7da7e7dc0cacd9effb66130c
+translation_source_hash: 94393da6b70f6d8b26d2718fbbb8ade735da2dbeaead0b31cdcba5fbaeaeab7f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:58+00:00
+translation_updated: 2026-06-09T02:36:53+00:00
 ---
-# Whiskeymixer
+> [!info] Krótki opis
+> Gra językowa i reakcji w kole, polegająca na przekazywaniu trudnych słów bez śmiechu i pomyłek.
 
 **Liczba graczy**: od 5 osób
-**Poziom trudności**: średni (językowo)
+**Poziom trudności**: średni (językowy)
 **Materiały**: żadne
 **Czas gry**: 3 do 10 minut
 
-**Opis gry**:
-Wszyscy stoją w kręgu. Jedna osoba zaczyna, mówiąc do swojej prawej sąsiadki słowo „Whiskeymixer”. Następnie ta osoba mówi „Whiskeymixer” do swojej prawej sąsiadki i tak dalej. Jeśli ktoś z kręgu w trakcie gry się zaśmieje lub pomyli, musi raz obejść cały krąg i wrócić na swoje pierwotne miejsce. Gdyby w tym momencie przypadała kolej gracza, zostałby on po prostu pominięty. Słowem „Messwechsel” można zmienić kierunek gry. Jeśli gra toczy się w lewo, należy powiedzieć do swojej lewej sąsiadki „Wachsmaskenmacher” zamiast „Whiskeymixer”.
+## **Opis gry**:
 
-**Źródło**:
+Wszyscy stają w kole. Jedna osoba zaczyna, mówiąc do swojej prawej sąsiadki słowo „Whiskeymixer”. Następnie ta osoba powtarza słowo „Whiskeymixer” do swojej prawej sąsiadki i tak dalej. Jeśli ktoś w kole w trakcie gry zaśmieje się lub pomyli, musi obiec całe koło i wrócić na swoje pierwotne miejsce. Gdyby gracz był w tym momencie na linii, zostałby po prostu pominięty. Teraz można zmienić kierunek, mówiąc słowo „Messwechsel”. Jeśli gra toczy się w lewo, należy powiedzieć do swojej lewej sąsiadki „Wachsmaskenmacher” zamiast „Whiskeymixer”.
+
+## **Źródło**:
+
 Tasifan Spielebuch

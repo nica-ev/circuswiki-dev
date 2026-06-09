@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:50
 title: Ultimate Ninja
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Ninjas mit schnellen Bewegungen Hände abschlagen und ausweichen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ultimate Ninja.md
-translation_source_hash: 57c22c98e9eb34ad31657335e7d859d1715fb40e87b9e314b4612914fb452495
+translation_source_hash: ef460f0f0c1721938cf90bc662897b2ee6a5d178d4663ebd0891eb2c3f3159e4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:42+00:00
+translation_updated: 2026-06-09T02:32:40+00:00
 ---
-# Ultimate Ninja
+> [!info] Brief Description
+> A reaction game played in a circle where ninjas use quick movements to slap hands and dodge.
 
-**Group Size**: 5+ players
-**Difficulty**: Moderately challenging
-**Materials**: None
-**Playtime**: Approx. 10 minutes
+**Group Size**: 5 or more players
+**Difficulty**: somewhat challenging
+**Materials**: none
+**Playtime**: approx. 10 minutes
 
-**Game Description**:
-All players form a circle and place one hand in the center. Everyone then shouts "Ultimate Ninja" together and takes a step backward. The goal of the game is to use ninja-like movements with your hands to slap the hands of other ninjas. One player starts by attempting a quick ninja move to slap another ninja's hand. The targeted ninja can dodge with a swift ninja-like movement. After the attempt, both players immediately freeze in place. Then, the player to the right of the first player takes their turn and performs their quick ninja move. The turns proceed around the circle. **Important**: The order of turns remains the same as it was in the initial circle, regardless of how or where the ninjas are positioned during the game. If a hand is slapped, it is placed behind the player's back and is out of play. If a ninja's second hand is slapped, they are incapacitated and completely out of the game. The game becomes particularly exciting when played at a fast pace. As soon as one ninja completes their attack move, the next ninja in line can attack, and then the next, and so on. The game ends when only one ninja remains.
+## **Game Description**:
 
-**Source**:
+All players form a circle and place one hand in the center. Everyone then shouts "Ultimate Ninja" together and takes a step backward. The goal of the game is to use ninja-like movements to slap the hands of other ninjas. One player starts and tries to slap another ninja's hand with a quick ninja move. The targeted ninja can dodge with a swift ninja movement. After this, both players immediately freeze again. Then, the player to the right of the first player takes their turn and performs their quick ninja move. The game proceeds around the circle, but be aware: the order remains the same as it was in the initial circle, regardless of how or where the ninjas move during the game. If a hand is slapped, it is placed behind the player's back and is out of play. If a second hand is slapped, that ninja is incapacitated and completely out of the game. The game becomes particularly exciting when played at a fast pace, because as soon as one ninja has completed their attack move, the next ninja in line can attack, and then the next, and so on. The game ends when only one ninja remains.
+
+## **Source**:
+
 Tasifan Spielebuch

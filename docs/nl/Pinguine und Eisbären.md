@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,31 +23,29 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Eisbären.md
-translation_source_hash: a70b7f507c9d28bf73f67c596d3b6b7681a09ee82259176334abd4a57f2f70ac
+translation_source_hash: 456eb506127cd3c4347481dfe7f31d0df0f7b7b085594f43e5705cbb63b53d3a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:23:11+00:00
+translation_updated: 2026-06-09T02:10:28+00:00
 ---
-# Pinguïns en IJsberen
-
 > [!info] Korte beschrijving
-> Een bewegingsrijk spel voor kleine tot middelgrote groepen, waarbij pinguïns proberen een ijsbeer van zijn ijsschots te verdrijven, wat teamwork en strategisch handelen vereist.
+> Een matspel waarbij pinguïns een ijsschots door de ruimte verplaatsen, terwijl een ijsbeer deze verdedigt.
 
-**Groepsgrootte**: Klein tot middel
+**Groepsgrootte**: 6-31 personen
 **Moeilijkheidsgraad**: Gemiddeld
-**Materiaal**: Eén grote valmat (als ijsschots)
-**Speelduur**: Ongeveer 5-15 minuten
+**Materiaal**: Een grote valmat (als ijsschots)
+**Speeltijd**: Ongeveer 5-15 minuten
 
 ## **Spelbeschrijving**:
 
-Eén ijsbeer wordt aangewezen. Deze plaatst zich op een grote valmat (de ijsschots).
+Er wordt één ijsbeer aangewezen, die op een grote valmat gaat liggen (de ijsschots).
 
 De andere deelnemers, de pinguïns, willen de ijsbeer uit zijn territorium verdrijven. Dit doen ze door de ijsschots naar de andere kant van de ruimte te duwen en te trekken.
 
 De ijsbeer kan zich verdedigen door te proberen de pinguïns af te tikken.
 
-Als een pinguïn wordt getikt, moet hij een rondje om de ijsschots rennen.
+Als een pinguïn wordt afgetikt, moet hij een rondje om de ijsschots rennen.
 
-De pinguïns winnen als ze de ijsschots naar de andere kant hebben verplaatst.
+De pinguïns winnen als ze de ijsschots naar de overkant hebben gebracht.
 
 ## **Bron**:
 

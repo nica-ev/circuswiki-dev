@@ -7,30 +7,41 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:23:35
 title: Menschenhalma
-description: 
+description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen mit Sprüngen gegnerische Figuren schlagen oder die Grundlinie erreichen.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Menschenhalma.md
-translation_source_hash: 6e1051eb6834bd79f7c6851e2c7e6afdf312404839a05d7cf179f557a46c454d
+translation_source_hash: 7738fc3c54e9797e7abfd1a474cdc13588b7078f25c1d6cc6a9e440250129242
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:09:00+00:00
+translation_updated: 2026-06-09T02:06:31+00:00
 ---
-# Damas Humanas
+> [!info] Breve descripción
+> Un juego de táctica silencioso en dos equipos, en el que los participantes eliminan a las figuras contrarias con saltos o alcanzan la línea de fondo.
 
 **Dificultad**: fácil
 **Tamaño del grupo**: de 8 a 20 participantes, preferiblemente un número par
 **Material**: ninguno
 **Duración del juego**: aprox. 4 minutos
 
-**Descripción del juego**:
-Dos equipos de igual tamaño se enfrentan en dos líneas. La regla más importante es: ¡no se puede hablar durante el juego! Un miembro del equipo que debe empezar salta hacia adelante o hacia un lado con las piernas juntas, nunca hacia atrás. Ahora es el turno del otro equipo y aquí también un jugador salta siguiendo el mismo principio. El objetivo de este juego es eliminar a todos los demás jugadores, es decir, saltar de tal manera que se pueda tocar a otro jugador. Alternativamente, un jugador puede saltar por encima de la línea de fondo del equipo contrario, en cuyo caso el equipo de ese jugador ha ganado. Si un jugador comete un error al saltar (no aterrizar con ambos pies, saltar hacia atrás, caerse, etc.), queda eliminado. Si dos jugadores del mismo equipo saltan en una ronda, el que saltó en segundo lugar queda eliminado. Si un jugador se cae al intentar tocar a otro o tiene que apoyarse, solo ese jugador queda eliminado, incluso si el otro fue tocado. Si alguien se cae por miedo a ser tocado o da un paso, queda eliminado. Y por último: quien hable o haga ruidos también queda eliminado.
+## **Descripción del juego**:
 
-**Fuente**:
+Dos equipos de igual tamaño se enfrentan en dos líneas. La regla más importante es: ¡no se puede hablar durante el juego! Un miembro del equipo que debe empezar salta hacia adelante o hacia un lado con las piernas juntas, nunca hacia atrás. Ahora le toca al otro equipo y aquí también un jugador salta siguiendo el mismo principio. El objetivo de este juego es eliminar a todos los demás jugadores, es decir, saltar de tal manera que se pueda "tocar" a otro jugador. Alternativamente, un jugador puede saltar por encima de la línea de fondo del equipo contrario, en cuyo caso el equipo de ese jugador gana. Si un participante comete un error al saltar (no aterriza con ambos pies, salta hacia atrás, se cae, etc.), queda eliminado. Si dos jugadores del mismo equipo saltan en una ronda, el que saltó en segundo lugar queda eliminado. Si un jugador se cae al intentar tocar a otro o tiene que apoyarse, solo él queda eliminado, aunque el otro haya sido "tocado". Si alguien se cae por miedo a ser "tocado" o da un paso, queda eliminado. Y por último: quien hable o haga ruidos también queda eliminado.
+
+## **Fuente**:
+
 Tasifan Spielebuch
 
-**Véase también**: [Ajedrez](Schach.md)
+## **Enlaces relacionados**
+
+[Ajedrez](Schach.md)

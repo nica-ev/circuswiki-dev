@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:06:34+00:00
+translation_updated: 2026-06-09T02:08:38+00:00
 ---
-# Luta de Nomes
-
 > [!info] Breve Descrição
-> "Luta de Nomes" é um jogo de nomes rápido e divertido para qualquer tamanho de grupo, onde o objetivo é dizer o nome do oponente mais rápido para trazê-lo para a sua própria equipa.
+> Um duelo de nomes com barreira visual, onde duas equipas tentam dizer o nome do adversário mais rapidamente.
 
-**Tamanho do Grupo**: Qualquer (dividido em duas equipas de tamanho igual)
+**Tamanho do Grupo**: 10-30 pessoas
 **Dificuldade**: Fácil
 **Material**: Um pano (ou outra barreira visual)
 **Duração do Jogo**: Aproximadamente 10-15 minutos
 
 ## **Descrição do Jogo**:
 
-Formam-se duas equipas de tamanho igual. Um pano (ou outra barreira visual) é segurado entre as equipas, de modo que não se possam ver mutuamente.
+Formam-se duas equipas de tamanho igual. Um pano (ou outra barreira visual) é segurado entre as equipas, de modo que não se possam ver.
 
-Uma pessoa de cada equipa posiciona-se agora atrás do pano. O líder do jogo conta "1-2-3" e deixa cair o pano.
+Uma pessoa de cada equipa posiciona-se atrás do pano. O(A) facilitador(a) conta "1-2-3" e larga o pano.
 
-As pessoas que se encontram agora frente a frente devem dizer o nome da outra pessoa o mais rápido possível. O vencedor do "duelo de nomes" pode adicionar o perdedor à sua equipa.
+As pessoas que agora se encontram frente a frente devem dizer o nome da outra pessoa o mais rápido possível. O vencedor do "duelo de nomes" pode incorporar o(a) perdedor(a) na sua equipa.
 
-O jogo é ganho quando todas as pessoas estão de um lado do pano.
+O jogo é ganho quando todas as pessoas estiverem de um lado do pano.
 
 ## **Fonte**:
 

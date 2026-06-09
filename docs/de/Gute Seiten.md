@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:30:39
 title: Gute Seiten
-description: 
+description: Ein wertschätzendes Kennenlernspiel, bei dem positive Eigenschaften und Fähigkeiten erraten und besprochen werden.
 authors:
   - Marc Bielert
 category:
@@ -22,12 +22,10 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Gute Seiten
-
 > [!info] Kurzbeschreibung
-> "Gute Seiten" ist ein wertschätzendes Spiel für mittlere Gruppen, das die Selbst- und Fremdwahrnehmung positiver Eigenschaften und Fähigkeiten fördert.
+> Ein wertschätzendes Kennenlernspiel, bei dem positive Eigenschaften und Fähigkeiten erraten und besprochen werden.
 
-**Gruppengröße**: Mittel
+**Gruppengröße**: 6-30 Personen
 **Schwierigkeit**: Leicht
 **Material**: Kleine Zettel, Stifte, ein Karton oder Korb
 **Spieldauer**: Ca. 10-30 Minuten, abhängig von der Gruppengröße

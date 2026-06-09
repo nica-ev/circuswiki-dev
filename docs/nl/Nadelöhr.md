@@ -7,34 +7,56 @@ publish: true
 tags:
   - spiele
 title: Nadelöhr
-description: 
+description: Ein langsames Wahrnehmungsspiel im Kreis, bei dem alle mit geschlossenen Augen vorsichtig die gegenüberliegende Seite suchen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Nadelöhr.md
-translation_source_hash: f6fb1e91f5df347242719bd0ccfd34404bdba7ce81126d57f34c04aaa8e8fb0b
+translation_source_hash: e5631ab3e18d733dc15d215615ef406d505b602aef77986b21fdb89bb98f4ea6
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:22:50+00:00
+translation_updated: 2026-06-09T02:08:13+00:00
 ---
-# Naald van de speld
+> [!info] Korte beschrijving
+> Een langzaam waarnemingsspel in een kring, waarbij iedereen met gesloten ogen voorzichtig de tegenoverliggende kant zoekt.
+
+**Groepsgrootte**: 5-30 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: geen
+**Speelduur**: 5-10 minuten
+
+## **Spelbeschrijving**:
 
 Een spel voor kleine tot grote groepen.
 
-Zeer geschikt als voorbereiding op het spel [Aardappel Aardappel](Kartoffel%20Kartoffel.md)
+Zeer geschikt als voorbereiding op het spel [Aardappel Aardappel](Kartoffel%20Kartoffel.md).
 
 Iedereen staat in een kring.
 Belangrijk:
-Er wordt alleen langzaam bewogen – het is goed om vooraf te benadrukken dat men zich bij dit spel in slow motion beweegt, dat iedereen slakken is en zich maar extreem langzaam kan voortbewegen.
+Er wordt alleen langzaam bewogen – het is goed om van tevoren aan te geven dat men zich bij dit spel in slow motion beweegt, dat iedereen slakken zijn en zich slechts extreem langzaam kan voortbewegen.
 
-Iedereen zoekt een punt aan de tegenoverliggende kant van de kring. Daarna worden de ogen gesloten en stelt men zich de kring visueel voor. Op commando lopen allen LANGZAAM los en proberen de overkant te bereiken.
-Als men denkt de overkant bereikt te hebben, draait men zich om en opent de ogen.
+Iedereen zoekt een punt aan de tegenoverliggende kant van de kring. Daarna worden de ogen gesloten en stelt men zich de kring visueel voor. Op commando lopen allen LANGZAAM en proberen de andere kant te bereiken.
+Als men denkt de andere kant bereikt te hebben, draait men zich om en opent de ogen.
 
 Het doel is daarna om als groep weer een kring te vormen.
-Belangrijk: De ogen blijven de hele tijd gesloten totdat men de overkant heeft bereikt.
+Belangrijk: De ogen blijven de hele tijd gesloten totdat men de andere kant heeft bereikt.
 Ga voorzichtig en langzaam te werk.
 
-Het spel heet 'Naald van de speld' omdat iedereen elkaar in het midden ontmoet en met gesloten ogen langs elkaar heen moet zien te komen zonder de oriëntatie te verliezen.
+Het spel heet Naald van Sacco, omdat iedereen elkaar in het midden ontmoet en met gesloten ogen langs elkaar heen moet zien te komen zonder de oriëntatie te verliezen.
+
+## **Bron**:
+
+Onbekend
+
+## **Verwijzingen**
+
+[Aardappel Aardappel](Kartoffel%20Kartoffel.md)

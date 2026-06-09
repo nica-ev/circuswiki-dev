@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:03:08
 title: Zombieball
-description: 
+description: Ein Abwurfspiel, bei dem getroffene Personen zurückkehren können, sobald die Person abgeworfen wird, die sie getroffen hat.
 authors:
   - Marc Bielert
 category:
@@ -22,23 +22,23 @@ todo: Text überarbeiten
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombieball.md
-translation_source_hash: 979aeae00a807a39b1fd21d17501ddedd713c17f4234575ea17c51e9910dd812
+translation_source_hash: a3bfe9f918871b1f4656bc201e6a960d132980912dcb2ab80f678c66271404d9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:25:43+00:00
+translation_updated: 2026-06-09T02:39:07+00:00
 ---
->[!info] Krótki opis
->"Zombieball" to gra w zbijanego, w której gracze rzucają w siebie piłką. Zbijani gracze mogą wrócić do gry, jeśli gracz, który ich zbił, sam zostanie zbity.
+> [!info] Krótki opis
+> Gra w rzucanie, w której trafione osoby mogą wrócić do gry, gdy tylko zostanie trafiona osoba, która je trafiła.
 
-**Liczba graczy**: od 5 osób
+**Liczba graczy**: od 5 uczestników
 **Poziom trudności**: średni
 **Materiały**: co najmniej 1 piłka
 **Czas gry**: ok. 10 minut
 
 ## **Opis gry**:
 
-Niektórzy nazywają tę grę również "Merkball". Wszyscy gracze rozchodzą się po boisku, a prowadzący rzuca piłkę w tłum. Gracz, który złapie piłkę, może spróbować zbić nią kogoś innego. Może zrobić maksymalnie trzy kroki – jeśli zrobi więcej, musi upuścić piłkę. Jeśli zrobi maksymalnie trzy kroki i trafi kogoś piłką, trafiony gracz jest tymczasowo wyeliminowany. Taki gracz musi jednak zapamiętać, kto go zbił. Siada na skraju boiska i może teraz krzyczeć do gracza, który aktualnie ma piłkę, kogo ma zbijać. Jeśli zbity zostanie gracz, który sam wcześniej kogoś zbił, można wrócić do gry. Prowadzący może przyspieszyć grę, udostępniając więcej piłek.
+Niektórzy nazywają tę grę „Merkball”. Wszyscy gracze rozchodzą się po boisku, a prowadzący rzuca piłkę w tłum. Gracz, który złapie piłkę, może spróbować rzucić nią w kogoś innego. Może zrobić maksymalnie trzy kroki; jeśli zrobi więcej, musi upuścić piłkę. Jeśli zrobi maksymalnie trzy kroki i trafi kogoś piłką, trafiony gracz jest tymczasowo wyeliminowany. Taka osoba musi jednak zapamiętać, kto ją trafił. Siada na skraju boiska i może teraz krzyknąć do gracza, który aktualnie ma piłkę, kogo ma trafić. Jeśli zostanie trafiony gracz, który sam wcześniej kogoś trafił, osoba ta może wrócić do gry. Prowadzący może przyspieszyć grę, udostępniając więcej piłek.
 
-Aby gra się zakończyła, po określonym czasie wszyscy gracze czekający na skraju boiska mogą wrócić do gry, a od tej pory trafiony gracz jest całkowicie wyeliminowany. W ten sposób pozostaje jeden zwycięzca.
+Aby gra dobiegła końca, po określonym czasie można przywrócić wszystkich czekających graczy do gry, a od tego momentu trafiony gracz jest całkowicie wyeliminowany. W ten sposób pozostaje jeden zwycięzca.
 
 ## **Źródło**:
 

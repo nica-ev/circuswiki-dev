@@ -7,16 +7,30 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:06:01
 title: Sortieren in der Gruppe
-description: 
+description: Eine Kooperationsaufgabe, bei der sich die Gruppe auf Stühlen nach Kriterien sortiert, ohne den Boden zu berühren.
 authors:
   - Marc Bielert
 category:
   - Kooperation
   - kreisspiel
+Schwierigkeit: mittel
+Material: Stühle oder Hocker
+Spieldauer: 5-15
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
-# Sortieren in der Gruppe
+> [!info] Kurzbeschreibung
+> Eine Kooperationsaufgabe, bei der sich die Gruppe auf Stühlen nach Kriterien sortiert, ohne den Boden zu berühren.
+
+**Gruppengröße**: 5-25 Personen
+**Schwierigkeit**: mittel
+**Material**: Stühle oder Hocker
+**Spieldauer**: 5-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Kooperationsspiel für kleine bis mittlere Gruppen.
 
@@ -31,3 +45,6 @@ Sortiert werden kann z.B. nach Namen, Größe, Alter etc..
 Erschwerend kann man die verbale Kommunikation untersagen.
 Die Stühle in eine Reihe statt einen Kreis zu stellen macht die Aufgabe auch schwerer.
 
+## **Quelle**:
+
+Unbekannt

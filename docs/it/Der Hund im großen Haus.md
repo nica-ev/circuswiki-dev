@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:23:23
-update: 2025-03-25 23:27:58
+update: 2026-06-09 01:12:29
 title: Der Hund im großen Haus
-description: 
+description: Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
 authors:
   - Marc Bielert
 category:
@@ -23,34 +23,34 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Hund im großen Haus.md
-translation_source_hash: b322cbf5df3e87cad8bd089c309fda5aa30554180bca10736f687f70186ced4c
+translation_source_hash: cb0fafc2594ffe50f96b5fa3c9d2543893841b9cd06df5d9e892c9a676b8c474
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:00:03+00:00
+translation_updated: 2026-06-09T01:30:21+00:00
 ---
 > [!info] Breve descrizione
-> Un gioco di riscaldamento dinamico per qualsiasi dimensione di gruppo, che combina movimento, coordinazione e divertimento.
+> Un gioco narrativo di riscaldamento in cui il gruppo rievoca una breve storia con movimenti appropriati.
 
-**Dimensioni del gruppo**: Qualsiasi
+**Dimensioni del gruppo**: 5-30 persone
 **Difficoltà**: Facile
 **Materiale**: Nessuno
 **Durata del gioco**: Circa 5-10 minuti
 
 ## **Descrizione del gioco**:
 
-Tutte le persone stanno in cerchio e imitano i movimenti del conduttore.
+Tutte le persone stanno in cerchio ed eseguono i movimenti del conduttore.
 
 | Testo                                  | Movimento                                                                  |
 | :------------------------------------ | :------------------------------------------------------------------------ |
 | In una casa grande, grande           | Diventare molto grandi (allargare le braccia)                                  |
-| Vive un topolino, piccolino             | Abbassarsi a terra (accovacciarsi)                                      |
+| Vive un topolino piccolo piccolo       | Diventare molto piccoli a terra (accovacciarsi)                                      |
 | E in questa casa grande, grande       | Diventare molto grandi (allargare le braccia)                                  |
 | Vive anche un cane                     | Mani e piedi a terra, sedere in aria (posizione del cane)               |
 | Molto sano                            | Alzare la gamba sinistra (mantenere la posizione del cane)                      |
 | Veramente molto sano                   | Alzare la gamba destra (mantenere la posizione del cane)                     |
 | E nella casa grande, grande          | Diventare molto grandi (allargare le braccia)                                  |
 | Vive anche un serpente                 | Sdraiarsi a pancia in giù (serpeggiare)                                        |
-| Il cane si spaventa così               | Mani e piedi a terra, sedere in aria (posizione del cane spaventato) |
-| E scappa via - in una casa nuova | Cambiare posto (trovare velocemente un nuovo posto nel cerchio)                |
+| Il cane si spaventa molto             | Mani e piedi a terra, sedere in aria (posizione del cane spaventato) |
+| E scappa via - in una nuova casa | Cambio di posto (trovare velocemente un nuovo posto nel cerchio)                |
 
 Alla fine della storia, si cambia posto in modo che tutti si trovino di nuovo in cerchio, ma in un punto diverso.
 La storia si ripete e viene raccontata sempre più velocemente.

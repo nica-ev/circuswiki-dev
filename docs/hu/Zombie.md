@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:26
 title: Zombie
-description: 
+description: Ein Namens-Reaktionsspiel im Kreis, bei dem ein langsamer Zombie durch schnelle Blicke und Namensrufe umgelenkt wird.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 18
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombie.md
-translation_source_hash: 09f213b539f08bdedafeea3f4c1918935f4cc6abddaf4aff6fb6ea2938c5c1f1
+translation_source_hash: cdefea9227c439b42e34e9f3c6d3395b9830802cfb193647d05380791c5fc482
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:55:53+00:00
+translation_updated: 2026-06-09T02:38:46+00:00
 ---
-# Zombi
+> [!info] Rövid leírás
+> Egy körben játszott névfelismerő játék, ahol egy lassú zombival gyors pillantásokkal és névfelkiáltásokkal irányítanak.
 
-**Csoportméret**: 6–18 játékos
+**Csoportméret**: 6-18 játékos
 **Nehézség**: közepes
-**Szükséges anyag**: nincs
-**Játékidő**: 5–10 perc
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-**Játékszabály**:
-A játékosok kört alkotnak, kivéve egy személyt, aki a zombi, és a kör közepén áll. A játékvezető kijelöl egy személyt, aki felé a zombinak lassan kell közelednie. A zombik nem futhatnak! Akit „megtámadnak”, annak gyorsan meg kell néznie valakit a körben. A megszólított személynek szintén gyorsan ki kell mondania valaki nevét a körből. Az illető lesz a zombi új „áldozata”. Ha azonban a megszólított személy túl lassú, és a zombi időben eléri az „áldozatát”, akkor az áldozat zombivá válik, a zombi pedig beáll a felszabadult helyre. Az új zombi most azt támadja meg, aki felelős a „megtértéért”. Az illető ismét megpróbálhat megmenteni magát egy segélykérő pillantással. A játékosok neveit egymásnak viszonylag tisztán kell ismerniük a játék előtt.
+## **Játék leírása**:
 
-**Forrás**:
+A játékosok körben állnak, kivéve egyet, aki a középen álló zombi. A játékvezető ezután kijelöl egy személyt, aki felé a zombinak lassan kell mozognia. A zombik nem futhatnak! A „megtámadott“ játékosnak gyorsan meg kell néznie valakit a körben. A megnézett személynek szintén gyorsan ki kell mondania valaki nevét a körből. Az lesz a zombi új „áldozata”. Ha azonban a megnézett személy túl lassú, és a zombi előbb eléri az „áldozatát“, akkor az áldozat zombivá válik, a zombi pedig beáll a megüresedett helyre. Az új zombi most azt támadja meg, aki a „megtértéért” felelős. Az pedig ismét megpróbálhat megmenteni magát egy segélykérő pillantással. A játékosok neveit egymásnak már előzetesen viszonylag tisztán kell ismerniük.
+
+## **Forrás**:
+
 Tasifan Spielebuch

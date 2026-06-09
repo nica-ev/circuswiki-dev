@@ -7,29 +7,38 @@ publish: true
 tags:
   - spiele
 title: Beschütze deinen Freund
-description: 
+description: Ein Kreisspiel, bei dem sich Personen durch Paarbildung vor dem Fänger in der Mitte schützen.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4-9
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beschütze deinen Freund.md
-translation_source_hash: 1ac445e8db696fa89ec8cbe068aa612a80e05142e258f771c01d818e9f051cf3
+translation_source_hash: bff0af8b99455c361c223c5587237e15a1b3ed5d0b7c398aa5276881ab0e12f5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:26+00:00
+translation_updated: 2026-06-09T01:24:40+00:00
 ---
-# Chráň svojho priateľa
+> [!info] Stručný popis
+> Kruhová hra, pri ktorej sa hráči chránia pred chytačom v strede vytvorením párov.
 
-**Veľkosť skupiny**: Od 8 hráčov
-**Obtiažnosť**: jednoduchá
+**Veľkosť skupiny**: od 8 osôb
+**Náročnosť**: jednoduchá
 **Materiál**: žiadny
-**Dĺžka hry**: 4 až 9 minút
+**Dĺžka hry**: 4 – 9 minút
 
-**Popis hry**:
-Všetci hráči stoja v kruhu. Jedna osoba je určená ako chytač a postaví sa do stredu kruhu. Chytač sa teraz môže pokúsiť dotknúť hráčov, ktorí stoja v kruhu. Tí sa však môžu pred ním ochrániť tým, že sa postavia do dvojíc. Ak sa však postavia do trojíc, chytač si môže vybrať jedného z troch a dotknúť sa ho. Ak sa teraz dvaja postavia k sebe a chytač sa ich tak nemôže dotknúť, môže sa raz v kruhu otočiť. V tomto momente sa dvojica musí rozdeliť a obaja hráči si musia rýchlo vytvoriť dvojicu s iným susedom. Inak ich môže chytač dotknúť. Ak sa niekoho dotkne, ten sa musí postaviť do kruhu a chytač si môže zaujať jeho pozíciu.
-Vo väčších skupinách môže stáť v kruhu aj viacero chytačov a pokúšať sa dotknúť vonkajších hráčov.
+## **Popis hry**:
 
-**Zdroj**:
+Všetci hráči stoja v kruhu. Jedna osoba je určená ako chytač a postaví sa do stredu kruhu. Chytač sa potom môže pokúsiť dotknúť hráčov stojacich v kruhu. Tí sa však môžu pred ním ochrániť tým, že sa spoja do dvojíc. Ak sa však spoja traja, chytač si môže vybrať jedného z nich a dotknúť sa ho. Ak sa spoja dvaja a chytač sa ich nemôže dotknúť, môže sa raz otočiť v kruhu. V tomto momente sa dvojica musí rozísť a obaja hráči si musia rýchlo vytvoriť pár s iným susedom. Inak sa ich chytač môže dotknúť. Ak sa niekoho dotkne, musí tento hráč vstúpiť do kruhu a chytač si môže zaujať jeho miesto.
+Vo väčších skupinách môžu v strede kruhu stáť aj viacerí hráči a pokúšať sa dotknúť hráčov na okraji.
+
+## **Zdroj**:
+
 Tasifan Spielebuch

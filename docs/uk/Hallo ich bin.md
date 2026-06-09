@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:39:56
 title: Hallo, ich bin
-description: 
+description: Eine kurze Kennenlernübung im Kreis, bei der Namen mit individuellen Bewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,12 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin.md
-translation_source_hash: f0667a9dde21e4608a58b06bcd7c146b19b8a9264206cd1291b5a2f079ef4c93
+translation_source_hash: 8da9389568d6f8777fdf52df4f87beee7286e46b338d8d26147e6368280ac6d9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:22:55+00:00
+translation_updated: 2026-06-09T01:42:47+00:00
 ---
 > [!info] Короткий опис
-> «Привіт, я» — це проста та швидка вправа для знайомства в групах.
+> Коротка вправа на знайомство в колі, де імена поєднуються з індивідуальними рухами.
 
 **Розмір групи**: Від 4 учасників
 **Складність**: Легка
@@ -42,10 +42,10 @@ translation_updated: 2026-06-07T14:22:55+00:00
 
 Людина повертається в коло. Тепер усі інші повторюють цей рух і вітаються у відповідь:
 
---> Усі роблять перекид вперед і кажуть «Привіт, Марк»*
+--> Усі роблять перекид вперед і кажуть «Привіт, Марк!»*
 
 ## **Джерело**:
 Невідоме
 
-## **Див. також:**
-[Привіт, я — з м'ячами](Hallo%20ich%20bin%20-%20mit%20Bällen.md)
+## **Пов'язані статті**
+[Привіт, я – з м'ячами](Hallo%20ich%20bin%20-%20mit%20Bällen.md)

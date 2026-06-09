@@ -7,28 +7,38 @@ publish: true
 tags:
   - spiele
 title: Neun Menschen – 8 Beine - 4 Hände
-description: 
+description: Eine Teamaufgabe, bei der Gruppen eine Strecke mit vorgegeben begrenzten Bodenkontakten überwinden müssen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Neun Menschen – 8 Beine - 4 Hände.md
-translation_source_hash: 97222bf056547a4f9bd8d1317d7600da05c17ee5751ce87c4d96b8f1b1de2363
+translation_source_hash: 77a2014c8bfeb24139154d36778ef5d46c11b75c66792b1a23d7b48ea28ec365
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:21:39+00:00
+translation_updated: 2026-06-09T02:08:44+00:00
 ---
-# Dziewięć osób – 8 nóg – 4 ręce
+> [!info] Krótki opis
+> Zadanie zespołowe, w którym grupy muszą pokonać trasę z ograniczoną liczbą dozwolonych punktów kontaktu z podłożem.
 
-Wielkość grupy: od 10 uczestników
-Poziom trudności: dość łatwy
-Materiały: żadne
-Czas trwania gry: ok. 10 minut
+**Liczba osób w grupie**: od 10
+**Poziom trudności**: dość łatwy
+**Materiały**: żadne
+**Czas gry**: ok. 10 minut
 
-Opis gry: Tworzone są równe zespoły, których liczebność nie powinna przekraczać dziesięciu osób. Następnie prowadzący grę stawia przed graczami zadanie, na przykład pokonanie określonego dystansu z punktu A do punktu B. Może ono wyglądać następująco:
+## **Opis gry**:
 
-„Pokonajcie trasę z punktu A do punktu B, używając tylko ośmiu nóg i czterech rąk.” Zaczynamy. Gracze próbują pokonać trasę zgodnie z podanym zadaniem. Oznacza to, że w danym momencie tylko osiem nóg i cztery ręce graczy mogą dotykać podłoża. To, w jaki sposób zespoły poradzą sobie z tym zadaniem, zależy wyłącznie od nich, ale powinno pójść szybko, ponieważ grają przeciwko sobie. Kto pierwszy dotrze na miejsce, wygrywa. Jeśli zbyt wiele kończyn dotknie podłoża, cała drużyna musi wrócić do punktu wyjścia i spróbować ponownie. Gdy wszyscy dotrą na miejsce, można postawić nowe zadanie, a drogę powrotną należy pokonać zgodnie z nowymi wytycznymi. Zadania muszą być oczywiście dostosowane do wielkości grupy i wieku uczestników. Im mniej osób, tym mniej kończyn.
+Tworzone są równe zespoły, przy czym nie powinny one liczyć więcej niż dziesięć osób. Następnie prowadzący grę stawia przed graczami zadanie, polegające na pokonaniu wcześniej określonej trasy z punktu A do punktu B. Może ono na przykład wyglądać następująco:
 
-Źródło:
+„Pokonajcie trasę z punktu A do punktu B, używając tylko ośmiu nóg i czterech rąk”. Zaczynamy. Gracze próbują pokonać trasę zgodnie z podanym zadaniem. Oznacza to, że w danym momencie gracze mogą dotykać podłoża tylko ośmioma nogami i czterema rękami. Sposób, w jaki zespoły poradzą sobie z tym zadaniem, zależy wyłącznie od nich, ale powinno pójść szybko, ponieważ grają przeciwko sobie. Kto pierwszy dotrze na miejsce, wygrywa. Jeśli zbyt wiele kończyn dotknie podłoża, cała drużyna musi wrócić do punktu wyjścia i spróbować ponownie. Gdy wszyscy dotrą na miejsce, można postawić nowe zadanie, a drogę powrotną należy pokonać zgodnie z nowymi zasadami. Zadania muszą być oczywiście dostosowane do wielkości grupy i wieku uczestników. Im mniej osób, tym mniej kończyn.
+
+## **Źródło**:
+
 Tasifan Spielebuch

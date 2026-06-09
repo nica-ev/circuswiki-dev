@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 00:58:34
 title: Zuzwinkern
-description: 
+description: Ein Kreisspiel, bei dem eine alleinstehende Person durch Zuzwinkern einen neuen Partner zu sich holen will.
 authors:
   - Marc Bielert
 category:
@@ -24,20 +24,20 @@ todo: Text überarbeiten
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuzwinkern.md
-translation_source_hash: 218ed2b9970060b0a818f6154b1d91b13657e937ff73c970d1cc3e7c10239dfd
+translation_source_hash: 11981c4cbcc83d7046b059ecd4387a1c851a82627c7544f409ebd955ceb710ff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:35:01+00:00
+translation_updated: 2026-06-09T02:40:22+00:00
 ---
->[!info] Breve Descrição
->No jogo "Piscar de Olhos", um jogador tenta encontrar um parceiro piscando para ele, enquanto os outros tentam impedi-lo. O objetivo é não ficar sozinho no círculo pelo maior tempo possível.
+> [!info] Breve Descrição
+> Um jogo em círculo em que uma pessoa sozinha tenta atrair um novo parceiro piscando.
 
-**Tamanho do Grupo**: A partir de 9 participantes, preferencialmente um número ímpar
+**Tamanho do grupo**: A partir de 9 participantes, preferencialmente um número ímpar
 **Dificuldade**: Média
 **Material**: Nenhum
-**Duração do Jogo**: Aproximadamente 7 minutos
+**Duração do jogo**: aprox. 7 minutos
 
 ## **Descrição do Jogo**:
-Todos os participantes ficam em círculo, com duas pessoas sempre uma atrás da outra. Exceto uma pessoa, que fica sozinha no centro do círculo. No entanto, essa pessoa também quer ter um parceiro. Ela pode piscar para um participante que esteja na frente, para chamá-lo para perto. A pessoa para quem se piscou tenta correr até a pessoa que está sozinha. Mas o participante atrás dela, é claro, não quer ficar sozinho, então ele tenta segurar a pessoa que está correndo sem ter que correr junto. Se ele conseguir, o participante da frente fica com quem o segurou. Se o participante da frente conseguir correr até quem "piscou", ele se posiciona atrás dessa pessoa e entra no círculo. O antigo participante de trás agora está sozinho e também tenta piscar para alguém.
+Todos os participantes formam um círculo, com duas pessoas uma atrás da outra. Exceto uma pessoa, que fica sozinha no centro do círculo. No entanto, ela também quer ter um parceiro. Ela pode piscar para um participante que esteja na frente, para atraí-lo para junto de si. A pessoa para quem se piscou tenta correr até a pessoa que está sozinha. Mas o participante atrás dela, claro, não quer ficar sozinho, por isso tenta segurar a pessoa que está a correr sem ter de correr também. Se ele conseguir, o participante da frente fica com ele. Se o participante da frente conseguir correr até a pessoa que "piscou", ele se posiciona atrás dela e entra no círculo. O antigo participante de trás fica agora sozinho e tenta também atrair alguém piscando.
 
 ## **Fonte**:
 Tasifan Spielebuch

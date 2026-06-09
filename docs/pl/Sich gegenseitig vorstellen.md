@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
 title: Sich gegenseitig vorstellen
-description: 
+description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sich gegenseitig vorstellen.md
-translation_source_hash: 6e8bed46c484842a0579a60e4d7797386619f19c2591b4319d5ca6a9c0130756
+translation_source_hash: d0fa686a546856fccbc8d91f481af5854d931934cd9abd246ed7fe787ccbd272
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:23:07+00:00
+translation_updated: 2026-06-09T02:24:52+00:00
 ---
-# Wzajemne "przedstawianie się"
-
 > [!info] Krótki opis
-> "Wzajemne przedstawianie się" to kreatywna gra integracyjna dla małych grup, oparta na założeniach, która rozwija wyobraźnię i umiejętności komunikacyjne uczestników.
+> Gra integracyjna w kręgu, podczas której uczestnicy przedstawiają się nawzajem na podstawie założeń.
 
-**Wielkość grupy**: Mała
+**Wielkość grupy**: 5-15 osób
 **Poziom trudności**: Średni
 **Materiały**: Brak
-**Czas trwania gry**: Ok. 10-15 minut
+**Czas trwania**: Około 10-15 minut
 
-## Opis gry:
+## **Opis gry**:
 
-W nawiązaniu do gry [Plotkowanie w obecności](Tratschen%20in%20Anwesenheit.md). Gra integracyjna dla małych grup.
+Nawiązanie do gry [Plotkowanie w obecności](Tratschen%20in%20Anwesenheit.md). Gra integracyjna dla małych grup.
 
 ### Wariant 1
 
 Wszyscy siedzą w kręgu. Jedna osoba zaczyna, wstaje i staje za dowolną inną osobą, po czym "przedstawia" ją grupie.
-Sedno tej gry – podobnie jak w [Plotkowaniu w obecności](Tratschen%20in%20Anwesenheit.md) – polega na tym, że dokonuje się jedynie założeń na temat tej osoby.
+Sedno polega na tym – podobnie jak w [Plotkowaniu w obecności](Tratschen%20in%20Anwesenheit.md) – że formułuje się jedynie przypuszczenia na temat tej osoby.
 
-Po pewnym czasie osoba opisywana wyjaśnia swoje założenia lub prostuje pewne informacje.
+Po pewnym czasie przedstawiona osoba wyjaśnia swoje przypuszczenia lub prostuje pewne informacje.
 
 ### Wariant 2
 

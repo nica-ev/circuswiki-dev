@@ -10,16 +10,30 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
 
-# Bewerbung im Zirkus
+> [!info] Kurzbeschreibung
+> Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 
-Spiel für mittlere bis große Gruppen:
+**Gruppengröße**: ab 8 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
+
+Spiel für mittlere bis große Gruppen.
 
 Alle Mitspieler sitzen in einem Kreis zusammen. Ein Bewerber wird bestimmt, der den Raum verlassen muss.
 
@@ -31,3 +45,7 @@ Der Zirkusdirektor gibt derzeit ständig Bewegungen vor, die alle anderen nachma
 
 Errät der Bewerber den Direktor, so hat er das Spiel gewonnen.
 Gelingt es ihm nicht, so hat die Gruppe gewonnen.
+
+## **Quelle**:
+
+Unbekannt

@@ -7,28 +7,45 @@ publish: true
 tags:
   - spiele
 title: Seeüberquerung
-description: 
+description: Eine Teamaufgabe, bei der Kleingruppen mit Papierinseln gemeinsam einen See überqueren und eine Insel erreichen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Papier, Weichbodenmatte, optional Gegenstände
+Spieldauer: 15-20
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Seeüberquerung.md
-translation_source_hash: 2dd8c42b54308b983d817f3dce488fc2aecdca1100e3250284af75ba70b37bab
+translation_source_hash: c9516fa2d5a5c211a78830258ce1e4297680dd98d1b99e5aeea69563cc182e9a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:10:26+00:00
+translation_updated: 2026-06-09T02:24:44+00:00
 ---
-Grupos de 5 participantes
-que intentan cruzar un lago (el área de juego) con 6 trozos de papel y llegar a una isla (una colchoneta de suelo blando).
+> [!info] Breve descripción
+> Una tarea en equipo en la que pequeños grupos cruzan un lago juntos con islas de papel y llegan a una isla.
+
+**Tamaño del grupo**: Grupos de 5 personas
+**Dificultad**: media
+**Material**: Papel, colchoneta de suelo blando, opcionalmente objetos
+**Duración del juego**: 15-20 minutos
+
+## **Descripción del juego**:
+
+Grupos de 5 participantes intentan cruzar un lago (el área de juego) con 6 trozos de papel y llegar a una isla (una colchoneta de suelo blando).
 
 Si alguien cae al agua, hay varias posibilidades:
 - El grupo tiene que empezar de nuevo.
 
-**Objetivo**:
-- Todos los participantes, todos los grupos, llegan a la isla y se cuidan mutuamente en la isla.
+El objetivo es que todos los participantes y todos los grupos lleguen a la isla y quepan juntos en ella.
 
-**Variación**:
-- En el camino a la isla se pueden recoger ciertos tesoros u objetos.
+## **Variantes**:
 
-**Tiempo**: según el tamaño del grupo y del espacio, 15-20 minutos.
+En el camino a la isla se pueden recoger ciertos tesoros u objetos.
+
+## **Fuente**:
+
+Desconocida

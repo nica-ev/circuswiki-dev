@@ -7,44 +7,62 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:13
 title: Was tust Du da?
-description: 
+description: Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Was tust Du da.md
-translation_source_hash: c5e20af0897aaa0cc0477e21f3bee34498f9c7b7d06b8f0565a0cbababcad58c
+translation_source_hash: a1e6cd66c46069b1c5317dfe1beb87a8d5d1e578c583dd2fdbb085ed725ac51c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:45+00:00
+translation_updated: 2026-06-09T02:36:22+00:00
 ---
-# Cosa stai facendo?
+> [!info] Breve descrizione
+> Un gioco teatrale in cui le azioni rappresentate vengono trasmesse attraverso risposte volutamente inadeguate.
+
+**Dimensioni del gruppo**: 4-20 persone
+**Difficoltà**: media
+**Materiale**: nessuno
+**Durata del gioco**: 10-15 minuti
+
+## **Descrizione del gioco**:
 
 Un gioco teatrale per gruppi piccoli e medi.
 
-Ci sono sempre 2 persone sul palco, il resto guarda.
+Ci sono sempre 2 persone sul palco, il resto osserva.
 
-La persona A inizia a mimare un'attività qualsiasi (es. mangiare un gelato, leggere un libro, lavarsi i denti, giocare a calcio, ecc.)
+La persona A inizia a rappresentare mimicamente un'attività qualsiasi (es. mangiare un gelato, leggere un libro, lavarsi i denti, giocare a calcio, ecc.).
 
-La persona B osserva per un po', poi si avvicina e chiede: "Cosa stai facendo di preciso? / Cosa fai?"
+La persona B osserva per un po', poi si avvicina e chiede: "Cosa stai facendo?".
 
 La persona A risponde con un'attività completamente diversa.
 
-Esempio: La persona A sta leggendo un libro, B chiede: "Cosa fai?" A risponde: "Sto lavando la mia macchina".
+Esempio: La persona A sta leggendo un libro, B chiede: "Cosa stai facendo?". A risponde: "Sto lavando la mia macchina".
 
-Persona B: "Ah, certo - capito" e inizia a mimare quell'attività.
+La persona B: "Ah, certo - ho capito" e inizia a rappresentare quell'attività.
 
-Ora A osserva per un po' e poi chiede: "Cosa stai facendo di preciso?" e B risponde di nuovo con un'altra attività: "Sto facendo ginnastica mattutina".
+Ora A osserva per un po' e poi chiede: "Cosa stai facendo?". E B risponde di nuovo con un'altra attività: "Sto facendo ginnastica mattutina".
 
-Regole:
+## **Indicazioni**:
 
-Utilizzare preferibilmente il centro del palco.
+Utilizza preferibilmente il centro del palco.
 
 Il corpo è rivolto verso il pubblico.
 
-Parlare in modo chiaro e udibile.
+Parla in modo chiaro e forte.
 
-Dare all'altro almeno 10 secondi per mimare qualcosa prima di chiedere cosa sta facendo.
+Dai all'altro almeno 10 secondi per rappresentare qualcosa prima di chiedergli cosa sta facendo.
 
-Lasciare che avvengano 3-4 scambi e poi terminare il gioco. 2 nuove persone possono salire sul palco.
+Lascia che avvengano 3-4 scambi, poi termina il gioco. 2 nuove persone possono salire sul palco.
+
+## **Fonte**:
+
+Sconosciuta

@@ -5,33 +5,43 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 02:21:12
+update: 2026-06-09 01:58:49
 title: Zah
-description: 
+description: Ein schnelles Energie-Kreisspiel, bei dem Impulse mit klaren Bewegungen angenommen und weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zah.md
-translation_source_hash: 7cc9e3149e57a2d4198d2f33532e46dcba7146e738db179a2af2dee1934729cf
+translation_source_hash: 9ca053a5b13a54862d3760f5c647a1cf29a0e5721b8f61933f801c4a43ebb00d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:55:33+00:00
+translation_updated: 2026-06-09T02:37:17+00:00
 ---
-# Zah
+> [!info] Rövid leírás
+> Egy gyors energiakörjáték, amelyben az impulzusokat tiszta mozdulatokkal fogadják és adják tovább.
 
-**Csoportlétszám**: 6 főtől
-**Nehézség**: viszonylag könnyű
-**Anyag**: nincs
+**Csoportméret**: 6 főtől
+**Nehézség**: Elég egyszerű
+**Anyag**: Nincs
 **Játékidő**: kb. 5 perc
 
-**Játékleírás**:
-Ez is egy körjáték. A körben álló egyik személy tenyereit összefogva, fej fölé emeli a fejét, ez a személy birtokolja az „energiát”. Ez a személy az „energiát” hangos „Zah” kiáltással továbbítja, miközben a fej fölött összefogott kezeivel egy másik személyre mutat. Akire mutatnak, az átveszi az energiát. Ehhez ellentétes mozdulatot tesz: tenyereit összefogja, és a teste előtt összefogott kezeit a fej fölé emeli. A mozdulat közben a játékos ismét hangosan kiáltja: „Zah”. Ennek a játékosnak a két szomszédja most oldalról „átvágja” őt. Ehhez mindkét kezüket összefogják, és hangos „Zah” kiáltással elhúzzák az illető oldala mellett. Érintés nélkül! Ha az energiát birtokló játékost „átvágták”, akkor ő is, mint az első játékos, továbbítja az energiát a kör valamelyik tagjának. Ha mindenki megértette a játékot, a „Zah”-t kieséses játékként is lehet játszani. Ha valaki túl lassan reagál, elfelejti kimondani a „Zah”-t, rossz mozdulatot tesz, vagy más hibát vét, annak le kell ülnie. De vigyázat! Így új szomszédok alakulnak ki az „átvágás” során, mert csak az álló játékosok vehetnek részt a játékban. Tehát egy, kettő, három, öt vagy tíz játékos is ülhet középen, és akkor is mindig a következő álló játékos szomszédai leszünk. A „Zah” akkor a legélvezetesebb, ha igazán gyorsan megy!
+## **Játékleírás**:
 
-**Bővítés**:
-Azok számára, akiknek a „Zah” parancsszó túl egyhangú, különböző hangokat használhatnak. Az energia továbbítása: Zah. Az energia átvétele: Zii. Az energia átvágása: Zoh. És máris sokkal nagyobb kihívást jelent a játék.
+Ez is egy körjáték. A körben álló egyik személy a fej fölött összefordított tenyerekkel tartja a kezét, ő birtokolja az "energiát". Ez a személy egy hangos "Zah" kiáltással továbbküldi az energiát, miközben a fej fölött lévő kezével egy másik személyre mutat. Akit megmutatnak, az átveszi az energiát. Ehhez a fordított mozdulatot teszi: összefordítja a tenyerét, és a test előtt a fej fölé emeli a kezeit. A mozdulat közben a játékos ismét hangosan kiáltja: "Zah". Ennek a játékosnak a két szomszédja most "átvágja" őt oldalról. Ehhez is összefordítják mindkét kezüket, és egy hangos "Zah" kiáltással elhúzzák az illető oldala mellett. Érintés nélkül! Ha az energiával rendelkező játékost "átvágták", akkor ő is, mint az első játékos, továbbadja az energiát a kör valamelyik tagjának. Ha mindenki megértette a játékot, a "Zah"-val ki is lehet ejteni a játékból. Ha valaki túl lassan reagál, elfelejti kimondani a "Zah"-t, rossz mozdulatot tesz, vagy más hibát vét, annak le kell ülnie. De vigyázat! Így új szomszédok alakulnak ki az "átvágás" során, mert csak az álló játékosok vehetnek részt. Tehát egy, kettő, három, öt vagy tíz játékos is ülhet középen, és mégis mindig a következő álló játékos szomszédai lesznek. A "Zah" akkor a legélvezetesebb, ha igazán gyorsan megy!
 
-**Forrás**:
+## **Változatok**:
+
+Azok számára, akiknek az "Zah" parancsszó túl egyhangú, különböző hangokat használhatnak. Az energia elküldése: Zah. Az energia átvétele: Zii. Az energia átvágása: Zoh. És máris sokkal nagyobb kihívást jelent a játék.
+
+## **Forrás**:
+
 Tasifan Spielebuch

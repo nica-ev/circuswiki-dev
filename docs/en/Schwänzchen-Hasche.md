@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwänzchen-Hasche.md
-translation_source_hash: 134bf5d8cc91335e0e6f7dcda2d88ed4ab10d6087ef8eec6fd486c64c69f050f
+translation_source_hash: de1d8e40c5fade00d950d22fd75c50371657745f5b45a9f11534b44175b7ffda
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:28:17+00:00
+translation_updated: 2026-06-09T02:24:00+00:00
 ---
-# Tail Tag
+> [!info] Brief Description
+> A tag game with scarves where everyone tries to steal others' "tails" and collect them.
 
-> [!info] Short Description
-> A movement-intensive tag game for small to medium groups, ideal for warm-ups, where the goal is to steal others' "tails" and collect as many as possible yourself.
-
-**Group Size**: Small to Medium
+**Group Size**: 5-30 people
 **Difficulty**: Easy
-**Materials**: Cloths (one per person)
+**Materials**: Scarves (one per person)
 **Game Duration**: Approx. 10-15 minutes
 
 ## **Game Description**:
 
-A tag game for small to medium groups, well-suited for warm-ups.
+A tag game for small to medium-sized groups, well-suited for warm-ups.
 
-**Required Props**: Cloths
+**Required Props**: Scarves
 
-Each person tucks a cloth into the back of their pants so that a "tail" hangs out, making it easy to pull out.
+Each person tucks a scarf into the back of their pants so that a "tail" hangs out and is easy to pull out.
 
-The goal is now to steal others' tails and collect as many tails as possible.
-Once you've stolen a tail, tuck it into the back of your pants as well, so that a large part hangs out and is easy to grab.
+The goal is to steal others' tails and collect as many as possible.
+Once you've stolen a tail, tuck it into the back of your pants as well, so a large part hangs out and is easy to grab.
 
 ## **Source**:
 

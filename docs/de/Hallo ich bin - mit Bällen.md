@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Hallo, ich bin - mit Bällen
-description: 
+description: Eine Kennenlernübung im Kreis, bei der Namen mit individuellen Ballbewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,9 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> "Hallo, ich bin - mit Bällen" ist eine spielerische Kennenlernübung im Kreis, die Namen und motorische Fähigkeiten verbindet und die Gruppendynamik fördert.
+> Eine Kennenlernübung im Kreis, bei der Namen mit individuellen Ballbewegungen verbunden werden.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 3-30 Personen
 **Schwierigkeit**: Leicht
 **Material**: Für jeden Teilnehmer einen Ball (gleiche Größe)
 **Spieldauer**: Ca. 10-15 Minuten
@@ -48,4 +48,3 @@ Nun gehen alle anderen Teilnehmer einen Schritt nach vorne, ahmen die Bewegung m
 ## **Quelle**:
 
 Unbekannt
-

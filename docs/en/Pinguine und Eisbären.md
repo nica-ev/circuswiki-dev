@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,23 +23,21 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Eisbären.md
-translation_source_hash: a70b7f507c9d28bf73f67c596d3b6b7681a09ee82259176334abd4a57f2f70ac
+translation_source_hash: 456eb506127cd3c4347481dfe7f31d0df0f7b7b085594f43e5705cbb63b53d3a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:47+00:00
+translation_updated: 2026-06-09T02:10:22+00:00
 ---
-# Penguins and Polar Bears
-
 > [!info] Short Description
-> A movement-intensive game for small to medium-sized groups, where penguins try to push a polar bear off its ice floe, requiring teamwork and strategic action.
+> A mat game where penguins move an ice floe across the room while a polar bear defends it.
 
-**Group Size**: Small to Medium
+**Group Size**: 6-31 people
 **Difficulty**: Medium
 **Materials**: One large soft mat (as the ice floe)
 **Game Duration**: Approx. 5-15 minutes
 
 ## **Game Description**:
 
-One player is designated as the polar bear and sits on a large soft mat (the ice floe).
+One polar bear is chosen and positions themselves on a large soft mat (the ice floe).
 
 The other participants, the penguins, want to drive the polar bear out of its territory. They achieve this by pushing and pulling the ice floe to the other side of the room.
 

@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:16:04
 title: Paar haschen & Kettenhaschen
-description: 
+description: Ein Fangspiel, bei dem gefangene Personen zu Paaren oder Ketten werden und gemeinsam weiterfangen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5
+source: Tasifan Spielebuch
+group-min: 15
+group-max: 40
 translation_status: original
 translation_source_lang: de
 ---
-# Paar haschen & Kettenhaschen
+> [!info] Kurzbeschreibung
+> Ein Fangspiel, bei dem gefangene Personen zu Paaren oder Ketten werden und gemeinsam weiterfangen.
 
 **Gruppengröße**: Ab 15 Mitspieler
 **Schwierigkeit**: sehr simpel

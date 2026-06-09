@@ -7,25 +7,43 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:30:36
 title: Der Photograph
-description: 
+description: Ein theaterpädagogisches Spiel, bei dem die Gruppe eingefrorene Bilder zu vorgegebenen Themen gestaltet und auswertet.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10-20
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Photograph.md
-translation_source_hash: f6395f0b0bee948d1dd28c844e0de81d49b50570bc215c1f0dff2cefd5f1c54f
+translation_source_hash: b8e57863e76290f36588e0363591752b3c2f32aa9568fb106b033dd31033d4ad
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:36:48+00:00
+translation_updated: 2026-06-09T01:30:52+00:00
 ---
-# O Fotógrafo
+> [!info] Breve Descrição
+> Um jogo de pedagogia teatral em que o grupo cria e analisa imagens congeladas sobre temas pré-determinados.
 
-Jogo de teatro / circo-pedagógico para grupos pequenos a médios.
+**Tamanho do Grupo**: 5-25 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do Jogo**: 10-20 minutos
 
-O grupo move-se livremente pelo espaço de jogo. A uma indicação, a tarefa é representar um tema em torno do centro do palco (o movimento é congelado).
-A imagem final é "fotografada".
+## **Descrição do Jogo**:
 
-Após algumas rondas, sentamo-nos juntos para analisar as imagens: composição da imagem, distribuição no espaço, visibilidade das pessoas, etc.
+Jogo de pedagogia teatral / circense para grupos pequenos a médios.
 
-Temas possíveis: Contos de fadas, circo, limpeza, rotina de escritório, compras, parque infantil, na praia, etc.
+O grupo move-se livremente pelo espaço de jogo. Ao sinal, a tarefa é representar um tema (o movimento fica congelado) em torno do centro do palco.
+A imagem final é fotografada.
+
+Após algumas rodadas, sentam-se juntos e analisam as imagens: composição da imagem, distribuição no espaço, visibilidade das pessoas, etc.
+
+Temas possíveis: Contos de fadas, circo, limpeza, dia a dia no escritório, compras, parque infantil, na praia, etc.
+
+## **Fonte**:
+
+Desconhecida

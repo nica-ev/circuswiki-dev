@@ -7,25 +7,32 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:11
 title: Feuer Wasser Sand
-description: 
+description: Ein Kommandospiel, bei dem die Gruppe schnell auf angesagte Begriffe reagiert und passende Bewegungen oder Positionen findet.
 authors:
   - Marc Bielert
 category:
   - warm-up
   - bewegung
+Schwierigkeit: einfach
+Material: Erhöhungen, optional Trommel
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Feuer Wasser Sand.md
-translation_source_hash: f3e03e98f9418ca5e7284472e78274cecadfaa2d64c8e9cc296cfee99c8d5d4a
+translation_source_hash: 33edae0db1b053be2a240f3331b6bf961d2e23be9c3d6d0af06c222eab062aca
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:22:49+00:00
+translation_updated: 2026-06-09T01:37:32+00:00
 ---
-# Fire Water Sand
+> [!info] Short Description
+> A command game where the group quickly reacts to called-out terms and finds suitable movements or positions.
 
 **Group Size**: 4+ players
 **Difficulty**: Easy
-**Materials**: Playing area with elevated surfaces (e.g., benches), optional
-**Playtime**: 5-15 minutes
+**Materials**: Elevated surfaces (e.g., benches), optional drum
+**Game Duration**: 5-15 minutes
 
 ## **Game Description**:
 
@@ -33,9 +40,9 @@ All players move freely around the room. If a drum is available, the facilitator
 
 **Commands**:
 
-**Fire**: When this command is given, the facilitator points in a direction where there is "fire." Players must then move as quickly as possible to the opposite side, getting as far away from the fire as possible.
+**Fire**: When this command is given, the facilitator points in the direction where the "fire" is. Players must then move as quickly as possible to the opposite side, getting as far away from the fire as possible.
 
-**Water**: All players must quickly get onto an elevated surface so they are no longer touching the floor.
+**Water**: All players must quickly get onto something elevated so that they are no longer touching the floor.
 
 **Sand**: When this command is called, everyone quickly lies down on their stomachs on the floor to avoid sinking in the sand.
 
@@ -45,21 +52,21 @@ All players move freely around the room. If a drum is available, the facilitator
 
 **Gum**: This command requires all players to stick to a wall.
 
-**Coffee Break**: Players sit on the floor cross-legged and clap their hands three times.
+**Coffee Break**: Players sit on the floor in a cross-legged position and clap their hands three times.
 
 **Cola**: Like a cola in a cup, everyone stands up straight and extends one arm upwards – this is the straw.
 
-**Bug**: Everyone lies on their backs, extends their arms and legs into the air, and tries in vain to flip over for a few seconds.
+**Bug**: Everyone lies on their backs, stretches their arms and legs into the air, and tries in vain to flip over for a few seconds.
 
-**Fries**: In this command, three players must lie down next to each other. (If the number of players is not divisible by three, four players lying down is also acceptable.)
+**Fries**: In this command, players must lie down next to each other in groups of three. (If the number of players is not divisible by three, groups of four are also acceptable.)
 
 **Storm**: Everyone must hold onto something to avoid being blown away.
 
-Regarding the commands, you can be very creative and invent many more commands to play with. This game can also be played very effectively with elimination, where the slowest player or the one who doesn't follow the command correctly is eliminated.
+You can be very creative with the terms and invent many more commands to play with. This game can also be played with elimination, where the slowest player or the one who performs the action incorrectly is eliminated.
 
-## **Game Variation**
+## **Variations**:
 
-This variation is called "Save Yourself If You Can." The principle is the same, but the facilitator can be even more creative. Whenever the facilitator says, "Save yourself if you can..." players must perform the corresponding action. For example: "Save yourself if you can hop on one foot." What the facilitator inserts into the blank is entirely up to them. Whether it's hopping on one foot, picking your nose, or spinning in a circle, anything the facilitator can think of is possible.
+This game variation is called "Every man for himself." The principle is the same, but the facilitator can be even more creative. Whenever the facilitator says, "Every man for himself if you can..." players must execute the command that follows. For example: "Every man for himself if you can hop on one leg." What the facilitator adds in the blank is entirely up to them. Whether it's hopping on one leg, picking your nose, or spinning in a circle, anything the facilitator can think of is possible.
 
 ## **Source**:
 

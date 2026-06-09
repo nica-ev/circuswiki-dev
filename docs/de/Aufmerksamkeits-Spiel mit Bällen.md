@@ -7,16 +7,30 @@ publish: true
 tags:
   - spiele
 title: Aufmerksamkeits-Spiel mit Bällen
-description: 
+description: Ein Aufmerksamkeitsspiel mit Bällen, bei dem Personen laufend Augenkontakt aufnehmen und sicher zueinander werfen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Bälle
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
 
-# Aufmerksamkeits-Spiel mit Bällen
+> [!info] Kurzbeschreibung
+> Ein Aufmerksamkeitsspiel mit Bällen, bei dem Personen laufend Augenkontakt aufnehmen und sicher zueinander werfen.
+
+**Gruppengröße**: 5-25 Personen
+**Schwierigkeit**: einfach
+**Material**: Bälle
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Spiel für kleine und mittlere Gruppen.
 Alle laufen auf einer abgegrenzten Spielfläche frei herum. 
@@ -27,3 +41,6 @@ Wichtig: die Zielperson sollte relativ nah sein, erst werfen wenn Augenkontakt a
 
 Der Schwierigkeitsgrad kann beliebig erhöht werden indem die Anzahl der Bälle erhöht wird.
 
+## **Quelle**:
+
+Unbekannt

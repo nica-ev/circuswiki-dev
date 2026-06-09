@@ -7,24 +7,41 @@ publish: true
 tags:
   - spiele
 title: Seeüberquerung
-description: 
+description: Eine Teamaufgabe, bei der Kleingruppen mit Papierinseln gemeinsam einen See überqueren und eine Insel erreichen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Papier, Weichbodenmatte, optional Gegenstände
+Spieldauer: 15-20
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-Gruppen a 5 Teilnehmer
-die versuchen mit 6 Stücken Papier einen See (das Spielfeld) zu überqueren und zu einer Insel (Weichbodenmatte) zu gelangen.
+> [!info] Kurzbeschreibung
+> Eine Teamaufgabe, bei der Kleingruppen mit Papierinseln gemeinsam einen See überqueren und eine Insel erreichen.
+
+**Gruppengröße**: Gruppen à 5 Personen
+**Schwierigkeit**: mittel
+**Material**: Papier, Weichbodenmatte, optional Gegenstände
+**Spieldauer**: 15-20 Minuten
+
+## **Spielbeschreibung**:
+
+Gruppen à 5 Teilnehmer versuchen mit 6 Stücken Papier einen See (das Spielfeld) zu überqueren und zu einer Insel (Weichbodenmatte) zu gelangen.
 
 Wenn jemand ins Wasser fällt gibt es verschiedene Möglichkeiten
 - Gruppe muss von vorne starten
 
-**Ziel**: 
-- alle Teilnehmer, alle Gruppen erreichen die Insel und passen gemeinsam auf die Insel
+Ziel ist, dass alle Teilnehmer und alle Gruppen die Insel erreichen und gemeinsam auf die Insel passen.
 
-**Variation**:
-- auf dem Weg zur Insel können bestimmte Schätze bzw Gegenstände eingesammelt werden
+## **Varianten**:
 
-**Zeit**: je nach Gruppen und Raumgröße 15-20min
+Auf dem Weg zur Insel können bestimmte Schätze bzw. Gegenstände eingesammelt werden.
+
+## **Quelle**:
+
+Unbekannt

@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:11:54+00:00
+translation_updated: 2026-06-09T01:26:13+00:00
 ---
-# Sollicitatie bij het circus
+> [!info] Korte beschrijving
+> Een kringspel waarbij een deelnemer de geheime circusdirecteur moet vinden aan de hand van subtiele bewegingsveranderingen.
 
-Spel voor middelgrote tot grote groepen:
+**Groepsgrootte**: vanaf 8 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: geen
+**Speelduur**: 5-10 minuten
 
-Alle deelnemers zitten in een kring. Eén deelnemer wordt aangewezen om de ruimte te verlaten.
+## **Spelbeschrijving**:
 
-Vervolgens wordt een circusdirecteur gekozen.
+Spel voor middelgrote tot grote groepen.
 
-De deelnemer die de ruimte verliet, wordt weer naar binnen gehaald en krijgt drie pogingen om de circusdirecteur te ontmaskeren.
+Alle deelnemers zitten in een kring bij elkaar. Eén deelnemer wordt aangewezen om de ruimte te verlaten.
 
-De circusdirecteur geeft continu bewegingen aan die alle anderen moeten nadoen. Hij moet proberen deze bewegingen zo onopvallend mogelijk te doen, zodat de deelnemer van alle personen tegelijkertijd dezelfde beweging ziet.
+Nu wordt een circusdirecteur gekozen.
 
-Als de deelnemer de directeur raadt, heeft hij het spel gewonnen.
-Als het hem niet lukt, heeft de groep gewonnen.
+De deelnemer wordt weer in de ruimte gehaald en krijgt drie pogingen om de circusdirecteur te ontmaskeren.
+
+De circusdirecteur geeft continu bewegingen voor die iedereen moet nadoen. Hij moet proberen deze zo onopvallend mogelijk voor te doen, zodat de deelnemer van alle personen tegelijkertijd dezelfde beweging ziet.
+
+Raadt de deelnemer de directeur, dan heeft hij het spel gewonnen.
+Als het hem niet lukt, dan heeft de groep gewonnen.
+
+## **Bron**:
+
+Onbekend

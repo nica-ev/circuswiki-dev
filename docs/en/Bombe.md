@@ -7,28 +7,37 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:02
 title: Bombe
-description: 
+description: Ein Kreisspiel mit Ball, bei dem eine tickende Bombe weitergegeben wird und beim Explodieren neue Hindernisse entstehen.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: Ball
+Spieldauer: 3-6
+source: Tasifan Spielebuch
+group-min: 7
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bombe.md
-translation_source_hash: 4f42bd1090fa60dbf0b5dd4e21a2b507cbd5df24058eb39ae7f7db3a933e1110
+translation_source_hash: 9db0f89c634551c893ea26ca1085801dfbf2f73b55746d8256fba99c15a00412
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:19:53+00:00
+translation_updated: 2026-06-09T01:28:01+00:00
 ---
-# Bomb
+> [!info] Short Description
+> A circle game with a ball where a ticking bomb is passed around, and new obstacles are created when it explodes.
 
-**Group Size**: 7+ players
+**Group Size**: 7+ people
 **Difficulty**: Very Easy
 **Materials**: One or two balls or similar objects
-**Playtime**: 3 to 6 minutes
+**Game Duration**: 3-6 minutes
 
-**Game Description**:
-All players stand in a circle. One player sits in the middle, closes their eyes, and covers their ears. This player is the "bomb trigger" and continuously makes a ticking sound. Meanwhile, a "bomb" (a ball) is passed around the circle. The bomb trigger can shout "boom" at any time, causing the bomb to explode. The player holding the bomb when "boom" is called "explodes" and must sit down with their legs outstretched. The player who would have had to pass the bomb to the person now sitting with outstretched legs must step over their legs. Only then can the bomb be passed on, and the player can return to their spot by stepping back over the legs. This must also happen if many people end up sitting down during the game. The bomb trigger can also shout "change direction," and the bomb must then be passed in the opposite direction. Additionally, the bomb is very sensitive: if it is dropped, it explodes, and the person who dropped it is out. The last player remaining wins and can, for example, be the new bomb trigger. With large groups, two bombs can be in play simultaneously; they will then always explode at the same time.
+## **Game Description**:
 
-**Source**:
+All players stand in a circle. Except for one person, who sits in the middle. This person closes their eyes and covers their ears. They are the "bomb trigger" and are constantly ticking. Meanwhile, a "bomb" (a ball) is passed around the circle continuously. The bomb trigger can shout "boom" whenever they want, causing the bomb to explode. The person holding the bomb when "boom" is called explodes and must sit down with their legs stretched out. The player who would have had to pass the bomb to the person now sitting with outstretched legs must step over their legs. Only then can they pass the bomb and return to their own spot by stepping over the legs. This must also happen if many people end up sitting down during the game. The bomb trigger can also shout "change direction," and the bomb must then be passed in the opposite direction. Furthermore, the bomb is very sensitive; if it is dropped, it explodes, and the person who dropped it is out. The last person remaining wins and can, for example, be the new bomb trigger. With large groups, two bombs can be used simultaneously; they will then always explode at the same time.
+
+## **Source**:
+
 Tasifan Spielebuch

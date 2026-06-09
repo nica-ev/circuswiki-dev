@@ -7,22 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:01:34
 title: Drei gewinnt
-description: 
+description: Ein Lauf- und Taktikspiel, bei dem zwei Teams Gegenstände in ein 3x3-Feld legen und verschieben.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: 9 Ringe, 6 farbige Gegenstände, Startmarkierung
+Spieldauer: 5-20
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
+> [!info] Kurzbeschreibung
+> Ein Lauf- und Taktikspiel, bei dem zwei Teams Gegenstände in ein 3x3-Feld legen und verschieben.
 
 **Gruppengröße**: Ab ca 4-6 Mitspieler
 **Schwierigkeit**: mittel
 **Material**: 9 Ringe, 6 farbige Gegenstände (Tuch, Teller etc.) davon jeweils 3 in der gleichen Farbe, Seil o.ä. als Startmarkierung
 **Spieldauer**: 5-20 Minuten
-**Quelle** : Facebook
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Die 9 Ringe werden zu einem Quadrat (3x3 Felder) zusammengelegt.
 Es macht sich gut diese zu verbinden so das sie nicht auseinanderrutschen können.
 Die Teilnehmer bilden 2 Gruppen und stellen sich jeweils in einer Reihe an der Startlinie auf.
@@ -38,3 +46,7 @@ Dann erhält diese Gruppe einen Punkt.
 
 Es ist gut mehrere Spieldurchläufe zu machen, da die einzelnen Spiele recht kurz sind. Zum Beispiel 5 Durchläufe und gewonnen hat die Gruppe die die meisten Punkte hat.
 Es empfiehlt sich 2-3 Testspiele zu machen und darauf aufmerksam zu machen das es nicht nur um Schnelligkeit, sondern auch um Taktik / Strategie geht.
+
+## **Quelle**:
+
+Facebook

@@ -7,23 +7,32 @@ publish: true
 tags:
   - spiele
 title: Lachbär
-description: 
+description: Ein ruhiges Spiel, bei dem der Lachbär liegende Personen ohne Berührung zum Lachen bringen muss.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Lachbär
+> [!info] Kurzbeschreibung
+> Ein ruhiges Spiel, bei dem der Lachbär liegende Personen ohne Berührung zum Lachen bringen muss.
 
 **Gruppengröße**: Ab 6 Mitspieler
 **Schwierigkeit**: simpel
 **Material**: keins
 **Spieldauer**: ca. 4 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Vor Spielbeginn muss eine Person ausgewählt werden, welche der Lachbär sein wird. Alle anderen Mitspieler legen mit dem Rücken auf den Boden. Sie haben alle die Augen offen und schauen an die Decke. Ab jetzt dürfen diejenigen die liegen nicht mehr sprechen oder Geräusche machen. Der Lachbär muss nun versuchen die liegenden Spieler zum Lachen zu bringen, jedoch ohne diese zu berühren! Schafft es der Lachbär jemanden zum Lachen zu bringen, wird derjenige auch zum Lachbär und sie können zu zweit weitermachen, solange bis es keine liegenden Personen mehr gibt. Wichtig ist nur, die liegenden Personen dürfen ihr Gesicht nicht verkrampfen. Wer lachen muss, muss auch lachen!
 
-**Quelle**:
+## **Quelle**:
+
 Tasifan Spielebuch

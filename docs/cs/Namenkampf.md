@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:06:36+00:00
+translation_updated: 2026-06-09T02:08:39+00:00
 ---
-# Boj o jména
-
 > [!info] Stručný popis
-> "Boj o jména" je rychlá a zábavná hra se jmény pro jakoukoli velikost skupiny, jejímž cílem je rychleji vyslovit jméno protihráče, abyste si ho získali do vlastního týmu.
+> Jmenný souboj s vizuální bariérou, ve kterém se dva týmy snaží rychleji vyslovit jméno protihráče.
 
-**Velikost skupiny**: Libovolná (rozdělená do dvou stejně velkých týmů)
+**Velikost skupiny**: 10–30 osob
 **Obtížnost**: Lehká
-**Materiál**: Látka (nebo jiná zástěna)
-**Délka hry**: Cca 10-15 minut
+**Materiál**: Látka (nebo jiná vizuální bariéra)
+**Délka hry**: Cca 10–15 minut
 
 ## **Popis hry**:
 
-Vytvoří se dva stejně velké týmy. Mezi týmy se napne látka (nebo jiná zástěna), aby se navzájem neviděli.
+Vytvoří se dva stejně velké týmy. Mezi týmy se napne látka (nebo jiná vizuální bariéra), takže se navzájem nevidí.
 
-Z každého týmu se nyní postaví jedna osoba za látku. Vedoucí hry odpočítá "1-2-3" a pustí látku.
+Z každého týmu se nyní postaví jedna osoba za látku. Vedoucí hry odpočítá „jedna, dva, tři“ a pustí látku dolů.
 
-Osoby, které se nyní ocitnou proti sobě, musí co nejrychleji říct jméno druhé osoby. Vítěz "souboje jmen" si může poraženého hráče přibrat do svého týmu.
+Osoby, které se nyní ocitnou proti sobě, musí co nejrychleji říci jméno druhé osoby. Vítěz „jmenného souboje“ si může poraženého hráče přibrat do svého týmu.
 
-Hra je vyhraná, když se všichni hráči ocitnou na jedné straně látky.
+Hra je vyhraná, když se všechny osoby ocitnou na jedné straně látky.
 
 ## **Zdroj**:
 

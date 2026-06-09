@@ -7,23 +7,30 @@ publish: true
 tags:
   - spiele
 title: Mensch ärgere dich nicht
-description: 
+description: Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Ringe oder Hula Hoops
+Spieldauer: 20-30
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Mensch ärgere dich nicht
+> [!info] Kurzbeschreibung
+> Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
 
 **Gruppengröße**: Ab ca 4-6 Mitspieler
 **Schwierigkeit**: einfach
 **Material**:  viele Ringe / Hula Hoops
 **Spieldauer**: 20-30 Minuten
-**Quelle** : Facebook
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Die Ringe / Hoops werden in einer langen (gewundenen) Linie aufgereiht. Es macht sich gut diese zu verbinden das sie sich nicht verschieben können, es geht aber auch ohne Verbindung.
 
 Es werden 2 Gruppen gebildet die sich jeweils in einer Reihe an jeweils einem Ende der Ringlinie in einer Reihe aufstellen.
@@ -36,3 +43,7 @@ Der Gewinner hüpft ebenfalls weiter.
 Gewonnen ist die Runde wenn ein Spieler den ersten Ring bei der gegnerischen Gruppe erreicht.
 
 Es macht sich gut mehrere Durchläufe zu spielen (3-5), die jeweiligen Durchläufe können aber durchaus recht lange dauern.
+
+## **Quelle**:
+
+Facebook

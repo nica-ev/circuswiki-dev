@@ -7,15 +7,29 @@ publish: true
 tags:
   - spiele
 title: Piraten Begrüßungsspiel
-description: 
+description: Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-# Piraten Begrüßungsspiel
+> [!info] Kurzbeschreibung
+> Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
+
+**Gruppengröße**: ab 4 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Ein thematisches Spiel für beliebig große Gruppen. Der folgende Text wird gesungen und mit entsprechenden Gesten / Bewegungen begleitet.
 
@@ -33,8 +47,11 @@ Ein thematisches Spiel für beliebig große Gruppen. Der folgende Text wird gesu
 [ Den nächsten Pirat anvisieren und ihm zuwinken ]*
 "
 
-## Querverweise
+## **Quelle**:
+
+Unbekannt
+
+## **Querverweise**
 
 [Workshop Thema Piraten](Workshop%20Thema%20Piraten.md)
 [Piraten Kapitän](Piraten%20Kapitän.md)
-

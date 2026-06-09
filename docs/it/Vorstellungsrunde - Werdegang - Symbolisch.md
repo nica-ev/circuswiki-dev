@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 02:01:47
 title: Vorstellungsrunde - Werdegang - Symbolisch
-description: 
+description: Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,29 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vorstellungsrunde - Werdegang - Symbolisch.md
-translation_source_hash: f9ce72a19472a651e18a45ffb908adc8141f7b3d2b7e6bea5e0615e3b981c5e4
+translation_source_hash: 5fac14ef4bc249a22a8cc484d0c6d716c37bba82715d1708bdc7dd36ed1e052a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:44+00:00
+translation_updated: 2026-06-09T02:34:17+00:00
 ---
 > [!info] Breve descrizione
-> Un gioco creativo di conoscenza reciproca per piccoli gruppi, in cui i partecipanti rappresentano simbolicamente il proprio percorso personale o altri temi con oggetti, offrendo così una visione approfondita delle loro esperienze.
+> Un giro di presentazioni simbolico, in cui i percorsi personali vengono disposti e presentati con oggetti come linea del tempo.
 
-**Dimensioni del gruppo**: Piccolo
+**Dimensioni del gruppo**: 2-10 persone
 **Difficoltà**: Media
-**Materiale**: Una grande scatola con giocattoli, piccoli animali, blocchi da costruzione, Lego e oggetti simili
+**Materiale**: Una grande scatola con giocattoli, piccoli animali, blocchi da costruzione, Lego e oggetti simili.
 **Durata del gioco**: Circa 30-45 minuti
 
 ## **Descrizione del gioco**:
 
-Gioco di conoscenza reciproca per piccoli gruppi.
+Gioco di conoscenza per piccoli gruppi.
 
 Una grande scatola con giocattoli, piccoli animali, blocchi da costruzione, Lego e oggetti simili viene posta al centro del cerchio.
 
-Ogni partecipante ha ora 5-10 minuti per disporre il proprio percorso personale (i temi possono variare).
+Ogni partecipante ha ora 5-10 minuti di tempo per disporre il proprio percorso personale (gli argomenti possono variare).
 
-L'obiettivo è costruire una linea/sequenza di oggetti che rappresenti il proprio percorso su un determinato tema, dal passato al futuro, in una sorta di linea temporale.
+L'obiettivo è costruire una linea/sequenza di oggetti che rappresenti il proprio percorso su un determinato tema, dal passato al futuro, in una sorta di linea del tempo.
 
-Successivamente, ognuno presenta la propria linea temporale e si possono porre domande.
+Successivamente, ognuno presenta la propria linea del tempo e si possono porre domande.
 
 ## **Fonte**:
 

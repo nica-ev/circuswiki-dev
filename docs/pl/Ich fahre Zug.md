@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:36:43
 title: Ich fahre Zug
-description: 
+description: Ein Namens- und Platzwechselspiel im Stuhlkreis, bei dem ein freier Platz durch Zurufe und Rutschen weiterwandert.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ Spieldauer: beliebig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ich fahre Zug.md
-translation_source_hash: a5ecc00b39bdb1b2c1d8aae4e0aec96cae534bb986b0de345d67296c8993bd4c
+translation_source_hash: 4ab91a1ead6a6af1764d72c5298c61c503902060e7f7aa205cbc4578e6103b17
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:15:51+00:00
+translation_updated: 2026-06-09T01:44:11+00:00
 ---
-# Jadę pociągiem
+> [!info] Krótki opis
+> Gra polegająca na zamianie miejsc i imion w kręgu z krzeseł, w której wolne miejsce przesuwa się dzięki okrzykom i przesuwaniu się.
 
 **Liczba graczy**: od 10 do 30
 **Poziom trudności**: średni
-**Materiały**: Stabilne krzesło bez podłokietników dla każdego gracza
-**Czas gry**: dowolny
+**Materiały**: Stabilne krzesło bez podłokietników dla każdego uczestnika
+**Czas trwania**: dowolny
 
-**Opis gry**:
-Gracze siedzą w kręgu na krzesłach. Dowolny gracz zaczyna, wstaje i staje na środku kręgu, przez co jedno miejsce pozostaje wolne. Teraz rozpoczyna się gra: Gracz siedzący po lewej stronie wolnego miejsca szybko przesuwa się na nie i mówi: „Jadę pociągiem”. Następny gracz, który w wyniku tego zajmuje miejsce po lewej stronie nowo zwolnionego miejsca, przesuwa się dalej i mówi: „Jadę dalej”. Trzeci gracz również się przesuwa i mówi: „Jadę czarnym”. Czwarty gracz przesuwa się także i wywołuje imię jednego z graczy siedzących w kręgu, który następnie zajmuje wolne krzesło. Teraz wszystko zaczyna się od nowa z nowo zwolnionym krzesłem! Gracz stojący na środku próbuje zająć miejsce i usiąść na wolnym krześle, podczas gdy pozostali przesuwają się w kręgu. Ważne jest, że gdy czwarty gracz wypowie imię, miejsce jest uważane za zajęte, nawet jeśli wywołany gracz jeszcze na nim nie usiadł.
+## **Opis gry**:
 
-**Źródło**:
+Gracze siedzą w kręgu na krzesłach. Dowolny gracz zaczyna, wstaje i staje na środku kręgu, przez co jedno miejsce pozostaje wolne. Teraz rozpoczyna się gra: gracz siedzący po lewej stronie wolnego miejsca szybko przesuwa się na prawo, na to wolne miejsce, i mówi: „Jadę Zo”. Następny gracz, który w konsekwencji siedzi po lewej stronie nowo zwolnionego miejsca, przesuwa się dalej i mówi: „Jadę z”. Trzeci gracz również przesuwa się dalej i mówi: „Jadę czarno”. Czwarty gracz przesuwa się również dalej i wywołuje imię jednego z graczy siedzących w kręgu, który następnie zajmuje wolne krzesło. Teraz wszystko zaczyna się od nowa z nowo zwolnionym krzesłem! Gracz stojący na środku próbuje podczas przesuwania się pozostałych graczy w kręgu zająć miejsce i usiąść na wolnym krześle. Ważne jest, że gdy czwarty gracz wypowie imię, miejsce jest uważane za zajęte, nawet jeśli wywołany gracz jeszcze nie usiadł.
+
+## **Źródło**:
+
 Tasifan Spielebuch

@@ -7,25 +7,43 @@ publish: true
 tags:
   - spiele
 title: Aufmerksamkeits-Spiel mit Bällen
-description: 
+description: Ein Aufmerksamkeitsspiel mit Bällen, bei dem Personen laufend Augenkontakt aufnehmen und sicher zueinander werfen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Bälle
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Aufmerksamkeits-Spiel mit Bällen.md
-translation_source_hash: d7cf519d89c189f9a870d292f1b1fc61874e660178d8d5750be7821efbd4cfec
+translation_source_hash: fb53437b6197900dd007811c4fdebc2127c3094672deb1cc22b771e2036a40a2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:17:42+00:00
+translation_updated: 2026-06-09T01:22:23+00:00
 ---
-# Гра на увагу з м'ячами
+> [!info] Короткий опис
+> Гра на увагу з м'ячами, під час якої учасники встановлюють зоровий контакт і безпечно перекидаються м'ячем.
 
-Гра для малих і середніх груп.
-Усі вільно бігають на окресленій ігровій території.
+**Кількість учасників**: 5-25 осіб
+**Складність**: легка
+**Матеріал**: м'ячі
+**Тривалість гри**: 5-10 хвилин
+
+## **Опис гри**:
+
+Гра для малих та середніх груп.
+Усі вільно бігають на визначеній ігровій території.
 (див. також вільний біг / театральні вправи / заповнення простору)
-Одна людина має м'яч. Ця людина тепер, під час бігу, встановлює зоровий контакт з іншою людиною і кидає їй м'яч.
+Одна людина має м'яч. Ця людина, продовжуючи рухатися, встановлює зоровий контакт з іншою людиною і перекидає їй м'яч.
 
-Важливо: цільова людина має бути відносно близько, кидати тільки після встановлення зорового контакту.
+Важливо: цільова людина має бути відносно близько, кидати м'яч тільки після встановлення зорового контакту.
 
-Рівень складності можна довільно підвищувати, збільшуючи кількість м'ячів.
+Рівень складності можна довільно підвищити, збільшивши кількість м'ячів.
+
+## **Джерело**:
+
+Невідоме

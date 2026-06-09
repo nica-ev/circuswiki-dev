@@ -7,31 +7,50 @@ publish: true
 tags:
   - spiele
 title: Hände spüren
-description: 
+description: Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände spüren.md
-translation_source_hash: b94d42ed97fb3042379245041ebad05bc37c5739d7816cb096102188ba4cc7c1
+translation_source_hash: 7e39cd5769c6a015008e15e3fdad24a8fb606cef67af9b4fe99ef6f15bfdc75b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:15:47+00:00
+translation_updated: 2026-06-09T01:43:39+00:00
 ---
-# Czucie dłońmi
+> [!info] Krótki opis
+> Spokojna gra percepcyjna, w której leżąca osoba z zamkniętymi oczami odgaduje liczbę położonych dłoni.
 
-Gra relaksacyjna dla każdej wielkości grupy:
+**Liczba uczestników**: 4-25 osób
+**Poziom trudności**: łatwy
+**Materiały**: żadne
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
+
+Gra relaksacyjna dla każdej liczby uczestników.
 
 Tworzone są grupy 4-5 osobowe.
 
 Jedna osoba kładzie się płasko na brzuchu i zamyka oczy.
 
-Pozostali uczestnicy porozumiewają się niewerbalnie, ustalając, ile dłoni chcą jednocześnie położyć na ciele leżącej osoby.
+Pozostali uczestnicy ustalają niewerbalnie, ile dłoni chcą jednocześnie położyć na ciele leżącej osoby.
 
 Osoba leżąca na podłodze musi teraz odgadnąć, ile dłoni znajduje się na jej ciele.
 
-W zależności od czasu i samopoczucia uczestników, można rozegrać kilka rund. Następnie następuje zmiana.
+W zależności od czasu i samopoczucia uczestników można rozegrać kilka rund. Następnie następuje zmiana.
 
-**Zobacz też:**
-[Robot](Roboter.md) - tutaj również działamy niewerbalnie i chodzi o wyczuwanie.
+## **Źródło**:
+
+Nieznane
+
+## **Powiązane strony**
+
+[Robot](Roboter.md) - tutaj również działa się niewerbalnie i chodzi o wyczuwanie.

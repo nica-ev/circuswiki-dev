@@ -7,33 +7,47 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:25:55
 title: Gleich und gleich
-description: 
+description: Ein Kennenlern- und Bewegungsspiel, bei dem Personen nach Gemeinsamkeiten passende Partner finden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: optional Musik
+Spieldauer: 5-15
+source: Portmann2009
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gleich und gleich.md
-translation_source_hash: cbc066a130453047db687047c5c9bd289e6fd16f19da99481a1ef199e2bf53ed
+translation_source_hash: 6a3e78e3e7351a0d77c37d2c37752c481c17066834c687e252ecbba525f24922
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:01:38+00:00
+translation_updated: 2026-06-09T01:40:39+00:00
 ---
-# Uguali e uguali
+> [!info] Breve descrizione
+> Un gioco di conoscenza e movimento in cui le persone trovano partner compatibili in base a somiglianze.
+
+**Dimensioni del gruppo**: 6-30 persone
+**Difficoltà**: facile
+**Materiale**: musica opzionale
+**Durata del gioco**: 5-15 minuti
+
+## **Descrizione del gioco**:
 
 I bambini si muovono liberamente nello spazio. Su indicazione di un animatore, cercano uno dopo l'altro almeno un altro bambino che:
 
 - abbia lo stesso colore di capelli
-- abbia lo stesso colore di occhi
+- abbia lo stesso colore degli occhi
 - pratichi lo stesso sport
 - compia gli anni nello stesso mese
 - abbia un nome che inizi con la stessa lettera del proprio
 - ecc.
 
-Le istruzioni devono essere adeguate all'età e alla composizione del gruppo, in modo che le persone corrispondenti possano effettivamente essere trovate. Il gioco può essere accompagnato da musica. Finché la musica suona, i membri del gruppo che si sono trovati camminano insieme e parlano tra loro. Ogni volta che la musica si ferma, viene data una nuova istruzione e si formano nuove coppie che poi camminano insieme per un po'.
+Le istruzioni devono essere adatte all'età e alla composizione del gruppo, in modo che le persone corrispondenti possano effettivamente essere trovate. Il gioco può essere accompagnato da musica. Finché la musica suona, i membri del gruppo che si sono trovati camminano insieme e parlano tra loro. Ogni volta che la musica si ferma, viene data una nuova istruzione e si formano nuove coppie che poi camminano insieme per un po'.
 
-**Variante**
+## **Varianti**:
 
-## Letteratura
+## **Fonte**:
 
 @Portmann2009

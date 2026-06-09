@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:23:23
-update: 2025-03-25 23:27:58
+update: 2026-06-09 01:12:29
 title: Der Hund im großen Haus
-description: 
+description: Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Hund im großen Haus.md
-translation_source_hash: b322cbf5df3e87cad8bd089c309fda5aa30554180bca10736f687f70186ced4c
+translation_source_hash: cb0fafc2594ffe50f96b5fa3c9d2543893841b9cd06df5d9e892c9a676b8c474
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:01:46+00:00
+translation_updated: 2026-06-09T01:30:28+00:00
 ---
 > [!info] Breve descripción
-> Un juego dinámico de calentamiento para cualquier tamaño de grupo que combina movimiento, coordinación y diversión.
+> Un juego narrativo de calentamiento en el que el grupo representa una breve historia con movimientos apropiados.
 
-**Tamaño del grupo**: Cualquiera
+**Tamaño del grupo**: 5-30 personas
 **Dificultad**: Fácil
 **Material**: Ninguno
 **Duración del juego**: Aprox. 5-10 minutos
@@ -41,18 +41,18 @@ Todas las personas se colocan en círculo y repiten los movimientos del director
 
 | Texto                                  | Movimiento                                                                  |
 | :------------------------------------ | :------------------------------------------------------------------------ |
-| En una casa muy, muy grande           | Hacerse muy grande (abrir los brazos ampliamente)                                  |
-| Vive un ratoncito                     | Hacerse muy pequeño en el suelo (agacharse)                                      |
-| Y en esta casa muy, muy grande       | Hacerse muy grande (abrir los brazos ampliamente)                                  |
-| Vive también un perro                     | Poner manos y pies en el suelo, trasero en el aire (postura de perro)               |
-| Muy sano                              | Levantar la pierna izquierda (mantener la postura de perro)                      |
-| Realmente muy sano                   | Levantar la pierna derecha (mantener la postura de perro)                     |
-| Y en la casa muy, muy grande          | Hacerse muy grande (abrir los brazos ampliamente)                                  |
+| En una casa muy, muy grande           | Ponerse muy grande (extender los brazos)                                  |
+| Vive un ratoncito diminuto            | Ponerse muy pequeño en el suelo (agacharse)                                      |
+| Y en esta casa muy, muy grande       | Ponerse muy grande (extender los brazos)                                  |
+| Vive también un perro                     | Pies y manos en el suelo, trasero en el aire (postura del perro)               |
+| Muy sano                              | Levantar la pierna izquierda (mantener la postura del perro)                      |
+| Realmente muy sano                   | Levantar la pierna derecha (mantener la postura del perro)                     |
+| Y en esta casa muy, muy grande          | Ponerse muy grande (extender los brazos)                                  |
 | Vive también una serpiente                 | Tumbarse boca abajo (ondular)                                        |
-| El perro se asusta mucho             | Poner manos y pies en el suelo, trasero en el aire (postura de perro asustado) |
-| Y escapa - ¡a una casa nueva! | Cambio de lugar (buscar rápidamente un nuevo sitio en el círculo)                |
+| El perro se asusta mucho             | Pies y manos en el suelo, trasero en el aire (postura del perro asustado) |
+| Y sale corriendo, ¡a una casa nueva! | Cambio de lugar (buscar rápidamente un nuevo sitio en el círculo)                |
 
-Al final de la historia, se cambia de lugar de tal manera que todos vuelven a estar en círculo, pero en un sitio diferente.
+Al final de la historia, se cambia de sitio de tal manera que todos vuelven a estar en círculo, pero en un lugar diferente.
 La historia se repite y se cuenta cada vez más rápido.
 
 ## **Fuente**:

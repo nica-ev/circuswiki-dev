@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
 title: Eisbär auf der Scholle
-description: 
+description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 authors:
   - Marc Bielert
 category:
@@ -22,26 +22,24 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eisbär auf der Scholle.md
-translation_source_hash: 77871035b928d57d11ac0a8c52f91fa152f871c6be73b90b69e3e1694cbe8d3c
+translation_source_hash: 40b1f156692a45237de5c0f050a876ce1875d709e7982c01fc413932302b2b10
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:40:14+00:00
+translation_updated: 2026-06-09T01:35:49+00:00
 ---
-# Lední medvěd na kře
-
 > [!info] Stručný popis
-> Kooperativní a kompetitivní pohybová hra, při které se hráči společně snaží posunout podložku („kru“) po hrací ploše, zatímco se jim „lední medvěd“ snaží v tom zabránit.
+> Pohybová hra, při které skupina posouvá žíněnku jako ledovou krou, zatímco se ji snaží zastavit lední medvěd.
 
-**Velikost skupiny**: Od 10 hráčů
+**Počet hráčů**: Od 10 účastníků
 **Obtížnost**: Střední
-**Materiál**: Silná podložka
+**Materiál**: Silná žíněnka
 **Délka hry**: 5 až 10 minut
 
 ## **Popis hry**:
-Vedoucí hry nebo jeden z hráčů si sedne na silnou podložku a je ledním medvědem na své kře. Kru se nachází na startovní čáře a na druhém konci hrací plochy, v určité vzdálenosti, je cílová čára.
+Vedející hry nebo jeden z hráčů si sedne na silnou žíněnku a představuje ledního medvěda na své kře. Ledová kra se nachází na startovní čáře a na druhém konci hřiště, v jisté vzdálenosti, je cílová čára.
 
-Hráči se snaží posunout kru ze startovní čáry k cílové čáře. To se však lednímu medvědovi vůbec nelíbí, protože chce mít svůj klid. Proto se snaží hráče, kteří kru tlačí, dotknout. Kdo je dotknut, musí kompletně uběhnout zpět na startovní čáru a případně ještě provést malý trest (například pět dřepů s výskokem apod.). Teprve potom se smí vrátit ke kru a pokusit se ji dále tlačit k cíli.
+Hráči se snaží posunout kru od startovní čáry k cílové čáře. To se však lednímu medvědovi vůbec nelíbí, protože chce mít klid. Proto se snaží hráče, kteří kru posouvají, dotknout. Kdo je dotknut, musí kompletně uběhnout zpět na startovní čáru a případně ještě provést malý trest (například pět dřepů s výskokem apod.). Teprve poté se smí vrátit ke kře a pokusit se ji dále tlačit k cíli.
 
-Pokud kru dosáhne cíle, lední medvěd se vzdá a opustí svou kru. Při dostatečném počtu hráčů lze hru hrát také jako závod kruna dvou skupin proti sobě.
+Pokud kra dosáhne cíle, lední medvěd se vzdává a opouští svou ledovou kru. Při dostatečném počtu hráčů lze hru hrát i jako závod ledových krou mezi dvěma skupinami.
 
 ## **Zdroj**:
 Tasifan Spielebuch

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2026-06-08 18:39:31
 title: Ritter und Zwerge
-description: 
+description: Ein Reaktionsspiel, bei dem eine Zwergengruppe auf Stockbewegungen des Ritters mit Ducken, Springen und Ausweichen reagiert.
 authors:
   - Marc Bielert
 category:
@@ -22,23 +22,25 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ritter und Zwerge.md
-translation_source_hash: b6fc861fc531fac7ddc0012bbd1c00e544f74beaf6eee2d63066e021c87f13c7
+translation_source_hash: 90795f033a294de04a13ca65bdf3bc00849d786b75837a89915e9feb798ce29e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:19:30+00:00
+translation_updated: 2026-06-09T02:12:53+00:00
 ---
-# Caballeros y Enanos
+> [!info] Breve descripción
+> Un juego de reacción en el que un grupo de enanos responde a los movimientos de un caballero con un palo, agachándose, saltando y esquivando.
 
-**Tamaño del grupo**: 8 a 20 participantes
-**Dificultad**: Sencilla
-**Material**: Un palo (escoba)
+**Tamaño del grupo**: de 8 a 20 participantes
+**Dificultad**: sencilla
+**Material**: un palo (escoba)
 **Duración del juego**: 5 a 10 minutos
 
-**Descripción del juego**:
-El grupo se forma en un montón compacto. Los participantes son enanos que quieren proteger su tesoro a sus espaldas.
-El director del juego (o una persona del grupo) es el caballero, que lucha contra los enanos para robarles su tesoro.
-Él posee un palo que puede hacer oscilar por arriba (sobre las cabezas de los enanos, pero con una distancia de seguridad), por abajo (arrastrando por el suelo) o por el medio (también solo insinuado con una distancia de seguridad) del montón de enanos. Los enanos deben reaccionar a ello.
-Si el palo oscila por arriba, deben agacharse.
-Si el palo oscila por abajo, deben saltar.
-Si el golpe viene por el medio, el montón debe separarse por el centro, pero luego cerrarse inmediatamente para que el caballero no pueda pasar hasta el tesoro.
+## **Descripción del juego**:
+
+El grupo se forma en un montón. Los participantes son enanos que quieren proteger su tesoro a sus espaldas.
+El director del juego (o una persona del grupo) es el caballero que lucha contra los enanos para robarles su tesoro.
+Tiene un palo que puede mover por arriba (por encima de las cabezas de los enanos, pero con una distancia de seguridad), por abajo (a ras del suelo) o por el medio (también solo insinuado con una distancia de seguridad) del montón de enanos. Los enanos deben reaccionar a ello.
+Si el palo se mueve por arriba, deben agacharse.
+Si el palo se mueve por abajo, deben saltar.
+Si el golpe viene por el medio, el montón debe separarse por el centro, pero luego volver a unirse inmediatamente para que el caballero no pueda pasar hasta el tesoro.
 Si un enano reacciona de forma incorrecta o demasiado tarde, queda eliminado.
-El juego se gana cuando todos los enanos han sido eliminados y el caballero alcanza el tesoro.
+El juego se gana cuando todos los enanos han sido eliminados y el caballero ha alcanzado el tesoro.
