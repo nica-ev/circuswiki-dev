@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,9 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> "Kennenlernen mit Bällen, hinterherlaufen" ist eine dynamische Kennenlernübung, die Bewegung, Namenmerken und Augenkontakt kombiniert, um die Interaktion und das Gemeinschaftsgefühl zu fördern.
+> Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 5-25 Personen
 **Schwierigkeit**: Leicht bis Mittel (je nach Anzahl der Bälle)
 **Material**: Ein oder mehrere Bälle
 **Spieldauer**: Ca. 10-15 Minuten

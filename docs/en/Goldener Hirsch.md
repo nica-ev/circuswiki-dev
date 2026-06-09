@@ -5,15 +5,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 05:44:16
+update: 2026-06-09 01:18:42
 title: Goldener Hirsch
-description: 
+description: Ein Fangspiel, bei dem ein heimlich bestimmter Goldener Hirsch gefangene Personen befreien kann.
 authors:
   - Marc Bielert
 category:
   - fangen
-source:
-  - Kinder der 5.ten Klasse Friesenschule (Halle)
+source: Kinder der 5.ten Klasse Friesenschule (Halle)
 Schwierigkeit: einfach
 Material: keines
 Spieldauer: 5 - 15
@@ -22,23 +21,27 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Goldener Hirsch.md
-translation_source_hash: 6dc6274415233ea0fbf668905222686459156457a17e95d6e0d6d10e9da9e0db
+translation_source_hash: 87b5941789b42997f5a502e5fbb80d84aadc4e111e6e136f8a525ea6bd95deac
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:23:09+00:00
+translation_updated: 2026-06-09T01:40:53+00:00
 ---
-# Golden Deer
+> [!info] Short Description
+> A tag game where a secretly designated Golden Deer can free captured players.
 
 **Group Size**: From approx. 10 players
 **Difficulty**: Easy
 **Materials**: None
-**Playtime**: 5-15 minutes
-**Source**: 5th-grade students from Friesenschule (Halle)
+**Game Duration**: 5-15 minutes
 
-**Game Description**:
+## **Game Description**:
 
-First, one or more "chasers" are chosen (depending on group size).
-The rest of the group secretly decides on the "Golden Deer."
+First, one or more (depending on group size) taggers are chosen.
+The rest of the group secretly designates the "Golden Deer."
 
-The chaser tags the other players, who then freeze (stand still, crouch down, etc. – in a way that clearly indicates they are caught). The Golden Deer is the only one who can free the tagged players (by tagging them or similar).
+The tagger touches other players, who then freeze (stand still, crouch, etc. – in a way that makes it clear who is caught). The Golden Deer is the only one who can free the players again (by tagging them or similar).
 
 If the "Golden Deer" is caught, the game ends.
+
+## **Source**:
+
+Children from the 5th grade, Friesenschule (Halle)

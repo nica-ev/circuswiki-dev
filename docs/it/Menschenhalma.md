@@ -7,30 +7,41 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:23:35
 title: Menschenhalma
-description: 
+description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen mit Sprüngen gegnerische Figuren schlagen oder die Grundlinie erreichen.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Menschenhalma.md
-translation_source_hash: 6e1051eb6834bd79f7c6851e2c7e6afdf312404839a05d7cf179f557a46c454d
+translation_source_hash: 7738fc3c54e9797e7abfd1a474cdc13588b7078f25c1d6cc6a9e440250129242
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:07:12+00:00
+translation_updated: 2026-06-09T02:06:24+00:00
 ---
-# Dama Umana
+> [!info] Breve descrizione
+> Un gioco di tattica silenzioso a squadre, in cui i giocatori eliminano gli avversari saltando o raggiungono la linea di fondo.
 
 **Difficoltà**: facile
-**Dimensioni del gruppo**: da 8 a 20 partecipanti, preferibilmente un numero pari
+**Numero di partecipanti**: da 8 a 20 giocatori, preferibilmente un numero pari
 **Materiale**: nessuno
-**Durata del gioco**: circa 4 minuti
+**Durata**: circa 4 minuti
 
-**Descrizione del gioco**:
-Due squadre di uguali dimensioni si fronteggiano su due linee; la regola più importante è: non si può parlare durante il gioco! Un membro della squadra che deve iniziare salta in avanti o lateralmente con le gambe unite, mai all'indietro. Ora tocca all'altra squadra e anche qui un giocatore salta secondo lo stesso principio. L'obiettivo di questo gioco è eliminare tutti gli altri giocatori, ovvero saltare in modo da poter toccare un altro giocatore. In alternativa, un giocatore può saltare oltre la linea di fondo avversaria, e in tal caso la squadra di quel giocatore ha vinto. Se un giocatore commette un errore durante il salto (non atterra su entrambi i piedi, salta all'indietro, cade, ecc.), è eliminato. Se due giocatori della stessa squadra saltano consecutivamente, viene eliminato quello che è saltato per secondo. Se un giocatore cade nel tentativo di toccarne un altro o deve appoggiarsi, viene eliminato solo quest'ultimo, anche se l'altro è stato toccato. Se qualcuno cade per paura di essere toccato o fa un passo, è eliminato. E infine: chi parla o fa rumore è eliminato.
+## **Descrizione del gioco**:
 
-**Fonte**:
-Libro di giochi Tasifan
+Due squadre di egual numero si fronteggiano su due linee. La regola più importante è: durante il gioco non si può parlare! Un giocatore della squadra che deve iniziare salta in avanti o lateralmente con le gambe unite, mai all'indietro. Ora tocca all'altra squadra e anche qui un giocatore salta secondo lo stesso principio. L'obiettivo di questo gioco è eliminare tutti gli altri giocatori, saltando in modo da poter "toccare" un altro giocatore. In alternativa, un giocatore può saltare oltre la linea di fondo avversaria per far vincere la propria squadra. Se un giocatore commette un errore durante il salto (non atterra su entrambi i piedi, salta all'indietro, cade, ecc.), è eliminato. Se due giocatori della stessa squadra saltano nello stesso turno, viene eliminato quello che è saltato per secondo. Se un giocatore cade nel tentativo di toccarne un altro o deve appoggiarsi, viene eliminato solo quest'ultimo, anche se l'altro è stato toccato. Se qualcuno cade per paura di essere toccato o fa un passo, è eliminato. E infine: chi parla o fa rumore è eliminato.
 
-**Vedi anche**: [Scacchi](Schach.md)
+## **Fonte**:
+
+Tasifan Spielebuch
+
+## **Riferimenti incrociati**
+
+[Scacchi](Schach.md)

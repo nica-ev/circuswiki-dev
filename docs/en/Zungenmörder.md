@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zungenmörder
-description: 
+description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 authors:
   - Marc Bielert
 category:
@@ -23,19 +23,17 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zungenmörder.md
-translation_source_hash: 83273580fce27ef134c04149f1e233e13a06b667303df809b0d4bf62278a253c
+translation_source_hash: 9214e7f4aa5f97ec20764de198a3ddc664353461aba1ae07ebdf79e74a373e97
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:30:33+00:00
+translation_updated: 2026-06-09T02:39:50+00:00
 ---
-# Tongue Twister Killer
+> [!info] Brief Description
+> A circle game where a murderer secretly "kills" by sticking out their tongue, and a detective must unmask them.
 
-> [!info] Short Description
-> "Tongue Twister Killer" is an exciting role-playing game for medium to large groups, where a murderer selects "victims" by sticking out their tongue, while a detective tries to unmask them.
-
-**Group Size**: Medium to large
+**Group Size**: 10-30 people
 **Difficulty**: Medium
 **Materials**: None
-**Playtime**: Approx. 10-15 minutes
+**Game Duration**: 5-10 minutes
 
 ## **Game Description**:
 
@@ -47,7 +45,7 @@ Afterward, everyone opens their eyes again, and the detective sits in the middle
 
 Now, everyone looks at each other. If the murderer looks at another person, they discreetly stick their tongue out at them.
 
-The person targeted must then die theatrically.
+The targeted person must then "die" dramatically.
 
 The detective can make a total of 3 guesses as to who the murderer might be.
 

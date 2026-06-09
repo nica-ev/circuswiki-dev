@@ -275,3 +275,20 @@ views:
     columnSize:
       note.group-min: 116
       note.group-max: 121
+  - type: table
+    name: Inklusion-Spiele
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("inklusion")
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121

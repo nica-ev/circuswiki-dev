@@ -7,29 +7,38 @@ publish: true
 tags:
   - spiele
 title: Beschütze deinen Freund
-description: 
+description: Ein Kreisspiel, bei dem sich Personen durch Paarbildung vor dem Fänger in der Mitte schützen.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4-9
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beschütze deinen Freund.md
-translation_source_hash: 1ac445e8db696fa89ec8cbe068aa612a80e05142e258f771c01d818e9f051cf3
+translation_source_hash: bff0af8b99455c361c223c5587237e15a1b3ed5d0b7c398aa5276881ab0e12f5
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:22+00:00
+translation_updated: 2026-06-09T01:24:36+00:00
 ---
-# Protege o Teu Amigo
+> [!info] Descrição Curta
+> Um jogo em círculo onde as pessoas se protegem de quem está no meio formando pares.
 
-**Tamanho do grupo**: A partir de 8 participantes
+**Tamanho do grupo**: a partir de 8 pessoas
 **Dificuldade**: fácil
 **Material**: nenhum
-**Duração do jogo**: 4 a 9 minutos
+**Duração do jogo**: 4-9 minutos
 
-**Descrição do jogo**:
-Todos os jogadores formam um círculo. Uma pessoa é designada como o "apanhador" e fica no centro do círculo. O apanhador pode tentar tocar nos jogadores que estão no círculo. No entanto, estes podem proteger-se juntando-se em pares. Se ficarem três juntos, o apanhador pode escolher um dos três e tocá-lo. Se dois se juntarem e o apanhador não os conseguir tocar, ele pode rodar uma vez no círculo. Neste momento, o par tem de se separar e os dois jogadores devem formar rapidamente um par com outro vizinho. Caso contrário, podem ser tocados. Se alguém for tocado, essa pessoa tem de ir para o centro do círculo e o apanhador pode ocupar o seu lugar.
-Em grupos maiores, vários jogadores podem ficar no círculo e tentar tocar nos jogadores exteriores.
+## **Descrição do Jogo**:
 
-**Fonte**:
+Todos os jogadores formam um círculo. Uma pessoa é escolhida como "pegador" e fica no centro do círculo. O pegador pode tentar tocar nos jogadores que estão no círculo. No entanto, eles podem se proteger formando pares. Se três pessoas se juntarem, o pegador pode escolher um dos três e tocá-lo. Se duas pessoas se juntarem e o pegador não conseguir tocá-las, ele pode girar uma vez no círculo. Nesse momento, o par deve se separar e os dois jogadores devem rapidamente formar um par com outro vizinho. Caso contrário, eles podem ser tocados. Se alguém for tocado, essa pessoa deve ir para o centro do círculo e o pegador pode ocupar o lugar dela.
+Em grupos maiores, vários jogadores podem ficar no centro e tentar tocar os jogadores externos.
+
+## **Fonte**:
+
 Tasifan Spielebuch

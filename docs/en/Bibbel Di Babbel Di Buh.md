@@ -7,38 +7,52 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bibbel Di Babbel Di Buh.md
-translation_source_hash: f29cf5b3a99d6b785defb40476628a18dac2fe3a512fe5eb1fac4237334178c6
+translation_source_hash: 6c397f22039416473e532257c66f97dff1abe9c28c8b5499f53a3ec513cdd00e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:24:07+00:00
+translation_updated: 2026-06-09T01:26:32+00:00
 ---
-# Bibbel Di Babbel Di Buh
+> [!info] Short Description
+> A reaction game played in a circle where commands are quickly answered with words, movements, and small figures.
+
+**Group Size**: 6-25 people
+**Difficulty**: Medium
+**Materials**: None
+**Duration**: 10-15 minutes
+
+## **Game Description**:
 
 A circle game for small to medium-sized groups.
 
 Everyone stands in a circle, and one person goes into the middle.
-The person in the middle (P1) then points to any person (P2) in the circle. It's important to point clearly at someone, making eye contact, so it's absolutely clear who is meant.
+The person in the middle (P1) then points to any person (P2) in the circle. It's important to point clearly at someone and make eye contact so it's obvious who is meant.
 
-You can then choose from the following rules:
+Now, you can choose from the following rules:
 
-**"Bibbel Di Babbel Di Buh"**: P1 says this phrase, and before P1 finishes the sentence, P2 must say "Buh." If P2 is too slow, P2 must go to the middle.
+**"Bibbel Di Babbel Di Buh"**: P1 says this phrase, and before P1 finishes the sentence, P2 must say "Buh." If P2 is too slow, P2 has to go into the middle.
 
-**"Buh"**: When P1 says "Buh," P2 must not react. If P2 says anything anyway, P2 must go to the middle.
+**"Buh"**: If P1 says "Buh," P2 must not react. If P2 says anything anyway, P2 has to go into the middle.
 
-**"Toaster"**: P1 says "Toaster." The people to P2's right and left turn to P2 and hold their hands outstretched next to P2. P2 jumps up and shouts "Bing!" (P2 is the toast, the others form the toaster). Anyone who does something wrong must go to the middle.
+**"Toaster"**: P1 says "Toaster." The people to P2's right and left turn towards P2 and hold their outstretched hands next to P2. P2 jumps up and shouts "Bing!" (P2 is the toast, the others form the toaster). Anyone who does something wrong has to go into the middle.
 
-**"Broken Toaster"**: This command is similar to "Toaster." The people to P2's right and left again form the toaster, and P2 is the toast. This time, however, P2 stands still, while the other two jump up and shout "Bing!"
+**"Broken Toaster"**: This command is similar to "Toaster." The people to P2's right and left form the toaster again, with P2 as the toast. This time, however, P2 stands still, while the other two jump up and shout "Bing!"
 
-**"Washing Machine"**: The people to P2's right and left hold their hands up and down, forming a large circle in front of P2. They form the washing machine, and P2 circles their head within this circle – the laundry being washed.
+**"Washing Machine"**: The people to P2's right and left hold their hands up and down, forming a large circle in front of P2. They form the washing machine, and P2 circles their head within this circle – representing the laundry being washed.
 
-**"Vomiting Kangaroo"**: P2 holds both hands in front of them, forming the kangaroo pouch. The two people to P2's right and left bend over the pouch and make loud vomiting sounds.
+**"Vomiting Kangaroo"**: P2 holds both hands in front of them, forming the kangaroo's pouch. The two people to P2's right and left bend over the pouch and make loud vomiting sounds.
 
 **"Single Parent with Child"**
 
@@ -51,3 +65,7 @@ You can then choose from the following rules:
 **"Fast and Furious"**
 
 **"Gollum"**
+
+## **Source**:
+
+Unknown

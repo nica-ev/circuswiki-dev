@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
 title: Sich gegenseitig vorstellen
-description: 
+description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 authors:
   - Marc Bielert
 category:
@@ -23,36 +23,34 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sich gegenseitig vorstellen.md
-translation_source_hash: 6e8bed46c484842a0579a60e4d7797386619f19c2591b4319d5ca6a9c0130756
+translation_source_hash: d0fa686a546856fccbc8d91f481af5854d931934cd9abd246ed7fe787ccbd272
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:10:28+00:00
+translation_updated: 2026-06-09T02:25:01+00:00
 ---
-# "Presentarse" mutuamente
-
 > [!info] Breve descripción
-> "Presentarse" mutuamente es un juego creativo para conocerse en grupos pequeños, basado en suposiciones, que fomenta la imaginación y las habilidades de comunicación de los participantes.
+> Un juego de presentación en círculo en el que las personas se presentan unas a otras basándose en suposiciones.
 
-**Tamaño del grupo**: Pequeño
+**Tamaño del grupo**: 5-15 personas
 **Dificultad**: Media
 **Material**: Ninguno
 **Duración del juego**: Aprox. 10-15 minutos
 
-## Descripción del juego:
+## **Descripción del juego**:
 
-Inspirado en [Chismorrear en presencia de](Tratschen%20in%20Anwesenheit.md). Un juego para conocerse en grupos pequeños.
+Inspirado en [Chismorrear en presencia](Tratschen%20in%20Anwesenheit.md). Un juego de presentación para grupos pequeños.
 
 ### Variante 1
 
-Todos se sientan en círculo. Una persona comienza, se levanta y se coloca detrás de otra persona cualquiera, y "presenta" a esta a la persona a la persona al grupo.
-El truco, al igual que en [Chismorrear en presencia de](Tratschen%20in%20Anwesenheit.md), es que solo se hacen suposiciones sobre la persona.
+Todos se sientan en círculo. Una persona empieza, se levanta y se coloca detrás de otra persona cualquiera para "presentarla" al grupo.
+El truco, al igual que en [Chismorrear en presencia](Tratschen%20in%20Anwesenheit.md), es que solo se hacen suposiciones sobre la persona.
 
 Después de un rato, la persona descrita aclara las suposiciones o corrige cosas.
 
 ### Variante 2
 
 Todos se sientan en círculo.
-Una persona comienza, se levanta, se coloca detrás de otra persona cualquiera y la presenta al grupo.
-Cuando la persona que presenta termina, se sienta en el lugar de la persona presentada. Ahora es el turno de la persona presentada de buscar a una nueva persona a la que presentar.
+Una persona empieza, se levanta, se coloca detrás de otra persona cualquiera y la presenta al grupo.
+Cuando la persona que presenta termina, se sienta en el lugar de la persona presentada. Ahora es el turno de la persona presentada de buscar a una nueva persona a la que pueda presentar.
 
 ## **Fuente**:
 

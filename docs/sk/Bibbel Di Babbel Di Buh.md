@@ -7,47 +7,65 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bibbel Di Babbel Di Buh.md
-translation_source_hash: f29cf5b3a99d6b785defb40476628a18dac2fe3a512fe5eb1fac4237334178c6
+translation_source_hash: 6c397f22039416473e532257c66f97dff1abe9c28c8b5499f53a3ec513cdd00e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:07+00:00
+translation_updated: 2026-06-09T01:27:01+00:00
 ---
-# Bibbel Di Babbel Di Buh
+> [!info] Stručný popis
+> Reakčná hra v kruhu, pri ktorej sa na povely rýchlo reaguje slovami, pohybmi a malými figúrami.
+
+**Veľkosť skupiny**: 6 – 25 osôb
+**Náročnosť**: stredná
+**Materiál**: žiadny
+**Dĺžka hry**: 10 – 15 minút
+
+## **Popis hry**:
 
 Kruhová hra pre malé až stredne veľké skupiny.
 
 Všetci stoja v kruhu, jedna osoba ide do stredu.
-Osoba v strede (O1) začne ukazovať na ľubovoľnú osobu (O2) v kruhu. Dôležité je, aby bolo jasne ukázané, nadviazaný očný kontakt – tak, aby bolo úplne zrejmé, na koho sa myslí.
+Osoba v strede (O1) začne ukazovať na ľubovoľnú osobu (O2) v kruhu. Dôležité je, aby sa jasne ukázalo na niekoho, nadviazal sa očný kontakt – tak, aby bolo úplne jasné, na koho sa myslí.
 
-Teraz je možné vybrať si z nasledujúcich pravidiel:
+Teraz si možno vybrať z nasledujúcich pravidiel:
 
-**"Bibbel Di Babbel Di Buh"**: Tento text povie O1 a skôr, ako sa text dokončí, musí O2 povedať "Buh". Ak je O2 príliš pomalá, musí ísť do stredu.
+**„Bibbel Di Babbel Di Buh“**: Tento vetu povie O1 a skôr, než sa veta dokončí, musí O2 povedať „Buh“. Ak je O2 príliš pomalé, musí O2 ísť do stredu.
 
-**"Buh"**: Keď O1 povie "Buh", O2 nesmie reagovať. Ak O2 aj napriek tomu niečo povie, musí ísť do stredu.
+**„Buh“**: Keď O1 povie „Buh“, O2 nesmie reagovať. Ak O2 aj napriek tomu niečo povie, musí O2 ísť do stredu.
 
-**"Hriankovač"**: O1 povie "Hriankovač" – osoby napravo a naľavo od O2 sa otočia k O2 a držia ruky vystreté vedľa O2, O2 vyskočí a zakričí "Bing" (O2 je hrianka, ostatní tvoria hriankovač). Kto niečo urobí zle, musí ísť do stredu.
+**„Hriankovač“**: O1 povie „Hriankovač“ – osoby napravo a naľavo od O2 sa otočia k O2 a vystrú ruky vedľa O2, O2 vyskočí a zakričí „Bing“ (O2 je hrianka, ostatní tvoria hriankovač). Kto niečo urobí zle, musí ísť do stredu.
 
-**"Pokazený hriankovač"**: Tento povel je podobný ako "Hriankovač". Osoby napravo a naľavo od O2 opäť tvoria hriankovač, O2 je hrianka, ale tentoraz O2 stojí potichu, ostatní dvaja vyskočia a zakričia "Bing".
+**„Pokazený hriankovač“**: Tento povel je podobný ako „Hriankovač“. Osoby napravo a naľavo od O2 opäť tvoria hriankovač, O2 je hrianka, tentoraz však O2 zostane stáť potichu, ostatní dvaja vyskočia a zakričia „Bing“.
 
-**"Práčka"**: Osoby napravo a naľavo od O2 držia ruky hore a dole tak, aby spolu pred O2 vytvorili veľký kruh – tvoria práčku, O2 krúži hlavou v tomto kruhu – bielizeň, ktorá sa perie.
+**„Práčka“**: Osoby napravo a naľavo od O2 držia ruky hore a dole tak, aby spolu pred O2 vytvorili veľký kruh – tvoria práčku, O2 krúži hlavou v tomto kruhu – bielizeň, ktorá sa perie.
 
-**"Vracajúce sa klokanie"**: O2 drží obe ruky pred sebou a tvorí klokaní vak. Dve osoby napravo a naľavo od O2 sa zohýbajú nad vak a vydávajú hlasné zvuky zvracania.
+**„Vracajúci sa kengura“**: O2 drží pred sebou obe ruky a tvorí kengurí vak. Dve osoby napravo a naľavo od O2 sa skláňajú nad vak a vydávajú hlasné zvuky zvracania.
 
-**"Slobodná matka s dieťaťom"**:
+**„Slobodná matka s dieťaťom“**:
 
-**"Dvojica ako z westernu"**
+**„Dvojitý kovboj“**
 
-**"Rocková kapela"**
+**„Rocková kapela“**
 
-**"James Bond"**
+**„James Bond“**
 
-**"Rýchlo a zbesilo"**
+**„Rýchlo a zbesilo“**
 
-**"Gollum"**
+**„Gollum“**
+
+## **Zdroj**:
+
+Neznámy

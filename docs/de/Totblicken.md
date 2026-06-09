@@ -7,25 +7,36 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:11:31
 title: Totblicken
-description: 
+description: Ein Blickspiel im engen Kreis, bei dem gegenseitiger Augenkontakt zum Ausscheiden führt.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3-9
+source: Tasifan Spielebuch
+group-min: 7
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Totblicken
+> [!info] Kurzbeschreibung
+> Ein Blickspiel im engen Kreis, bei dem gegenseitiger Augenkontakt zum Ausscheiden führt.
 
 **Gruppengröße**: Ab 7 Mitspieler
 **Schwierigkeit**: sehr einfach
 **Material**: keins
 **Spieldauer**: 3 bis 9 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Alle Spieler stehen Schulter an Schulter in einem engen Kreis und schauen auf die Füße ihrer Mitspieler. Einer zählt von eins bis drei und während dieser Zeit sucht sich jeder ein paar Füße aus. Auf drei schauen alle in die zu den Füßen gehörenden Augen. Schauen sich Spieler gegenseitig in die Augen, schreien sie laut und gehen aus dem Kreis. Der Kreis wird kleiner und die nächste Runde startet.
 
-**Quelle**:
+## **Quelle**:
+
 Tasifan Spielebuch
+
+## **Querverweise**
 
 [Medusa](Medusa.md)

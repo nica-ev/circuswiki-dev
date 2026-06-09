@@ -7,25 +7,32 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:11
 title: Feuer Wasser Sand
-description: 
+description: Ein Kommandospiel, bei dem die Gruppe schnell auf angesagte Begriffe reagiert und passende Bewegungen oder Positionen findet.
 authors:
   - Marc Bielert
 category:
   - warm-up
   - bewegung
+Schwierigkeit: einfach
+Material: Erhöhungen, optional Trommel
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-# Feuer Wasser Sand
+> [!info] Kurzbeschreibung
+> Ein Kommandospiel, bei dem die Gruppe schnell auf angesagte Begriffe reagiert und passende Bewegungen oder Positionen findet.
 
 **Gruppengröße**: Ab 4 Mitspieler
 **Schwierigkeit**: einfach
-**Material**: Spielfeld mit Erhöhungen (z.B. Bänke), eventuell
+**Material**: Erhöhungen (z.B. Bänke), optional Trommel
 **Spieldauer**: 5-15 Minuten
 
 ## **Spielbeschreibung**:
 
-Alle Spieler bewegen sich frei durch den Raum. Wenn eine Trommel zur Hand ist kann der Spielleiter einen Rhythmus vorgeben nachdem die Spieler durch den Raum laufen – mal schneller und mal langsamer. Nun kann der Spielleiter verschiedene Kommandos rufen, welche dan Spieler ausführen müssen.
+Alle Spieler bewegen sich frei durch den Raum. Wenn eine Trommel zur Hand ist kann der Spielleiter einen Rhythmus vorgeben nachdem die Spieler durch den Raum laufen – mal schneller und mal langsamer. Nun kann der Spielleiter verschiedene Kommandos rufen, welche die Spieler ausführen müssen.
 
 **Kommandos**:
 
@@ -53,7 +60,7 @@ Alle Spieler bewegen sich frei durch den Raum. Wenn eine Trommel zur Hand ist ka
 
 Was die Begriffe betrifft, kann man sehr kreativ sein und sich jede Menge weitere Kommandos ausdenken und spielen. Sehr gut kann man dieses Spiel auch mit ausscheiden spielen, dabei scheidet immer der Langsamste oder derjenige der sich falsch verhält aus.
 
-## **Spielvariante**
+## **Varianten**:
 
 „Rette sich wer kann“ heißt diese Spielvariante. Das Prinzip ist das gleiche, nur dass der Spielleiter noch kreativer sein kann. Denn immer, wenn er sagt „rette sich wer ... kann“ müssen die Spieler dieses Kommando ausführen. Z.B: „Rette sich wer auf einem Bein hüpfen kann“. Was er an der freien Stelle einfügt ist ganz ihm überlassen. Ob es auf einem Bein hüpfen, in der Nase bohren oder sich im Kreisdrehen ist, alles was dem Spielleiter einfällt, ist möglich.
 

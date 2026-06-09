@@ -7,30 +7,39 @@ publish: true
 tags:
   - spiele
 title: Mörderspiel
-description: 
+description: Ein stilles Rollenspiel, bei dem ein Mörder durch Blinzeln tötet und die Gruppe ihn gemeinsam entlarven muss.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 6
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mörderspiel.md
-translation_source_hash: eff72cd92251e6f0b55af8716ece1eaec21469b79764c6f55821cb33bcdbd135
+translation_source_hash: 442a3eb63e2f809aaef640d854bc67c95505a8e01080886cc669b9b1f76b5c4f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:27+00:00
+translation_updated: 2026-06-09T02:07:36+00:00
 ---
-# Murder Game
+> [!info] Brief Description
+> A silent role-playing game where a murderer kills by blinking, and the group must unmask them together.
 
 **Group Size**: 8+ players
-**Difficulty**: Slightly challenging
-**Materials**: None
-**Duration**: Approx. 6 minutes
+**Difficulty**: somewhat challenging
+**Materials**: none
+**Duration**: approx. 6 minutes
 
-**Game Description**:
-All players stand in a line with their eyes closed. The game leader walks behind them and taps each person once, except for one person, whom they tap twice. The person tapped twice is the murderer. The game begins, and everyone moves around the room in complete silence. The murderer can "kill" other players by blinking twice quickly. Anyone who is winked at by the murderer waits for 3 seconds and then dies in a dramatic fashion. The murderer tries to kill as many players as possible this way. However, the other players have a way to catch the murderer: they can go to the game leader at any time and accuse a suspected player. But this cannot be done alone. If one player goes to the game leader, the leader counts down from 10 to 0. If no second player comes forward by the time the leader reaches 0, the accuser dies. However, if a second player or more join, the game leader counts to three, and on the count of three, everyone who wants to accuse points at their suspect. If a majority of accusers point to the same suspect, that person is eliminated. If there is no majority, all accusers die.
+## **Game Description**:
 
-If the players manage to eliminate the murderer, they win the game. However, if the murderer is skilled enough to reduce the number of players to just two (including themselves), the murderer wins the game.
+All players stand in a line and close their eyes. The game leader walks behind them and taps each person once, except for one person who is tapped twice. The person tapped twice is the murderer. The game begins, and everyone moves silently through the room. The murderer can kill others by blinking twice quickly. Anyone who is blinked at by the murderer waits for 3 seconds and then dies in a theatrical manner. The murderer tries to kill as many players as possible this way. However, the players have a way to catch the murderer: they can go to the game leader at any time and accuse a suspected player. But this cannot be done alone. If one player goes to the game leader, the leader counts down loudly from 10 to 0. If no second player comes forward by then, the person who went to the game leader dies. However, if a second or more player joins, the game leader counts to three, and on three, everyone who wants to accuse points at their suspect. If a majority points to one suspect, that person is eliminated. If there is no majority, all accusers die.
 
-**Source**:
+If the players succeed in eliminating the murderer, they win the game. However, if the murderer is skillful enough to reduce the number of players to two (besides themselves), the murderer wins the game.
+
+## **Source**:
+
 Tasifan Spielebuch

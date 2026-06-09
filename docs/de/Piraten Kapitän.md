@@ -7,16 +7,30 @@ publish: true
 tags:
   - spiele
 title: Piraten Kapitän
-description: 
+description: Ein thematisches Kommandospiel auf einem Piratenschiff, bei dem Piraten reagieren und vor Haien fliehen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte
+Spieldauer: 5-15
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
 
-# Piraten Kapitän
+> [!info] Kurzbeschreibung
+> Ein thematisches Kommandospiel auf einem Piratenschiff, bei dem Piraten reagieren und vor Haien fliehen.
+
+**Gruppengröße**: 5-25 Personen
+**Schwierigkeit**: einfach
+**Material**: Matte
+**Spieldauer**: 5-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein thematisches Spiel für kleine bis mittelgroße Gruppen.
 Der Spielleiter ist der Piratenkapitän.
@@ -32,8 +46,11 @@ Alle Mann über Bord - auf dieses Kommando hin springen alle Piraten vom Schiff 
 Bevor das Spiel beginnt wurden schon 2-3 Haie festgelegt. Auf das Kommando "Die Haie kommen" schwimmen diese heran und versuchen Piraten zu fressen (diese verwandeln sich dann selbst in Haie)
 Die Piraten versuchen sich so schnell wie möglich wieder aufs Schiff zu retten.
 
-## Querverweise
+## **Quelle**:
+
+Unbekannt
+
+## **Querverweise**
 
 [Workshop Thema Piraten](Workshop%20Thema%20Piraten.md)
 [Piraten Begrüßungsspiel](Piraten%20Begrüßungsspiel.md)
-

@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,27 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Eisbären.md
-translation_source_hash: a70b7f507c9d28bf73f67c596d3b6b7681a09ee82259176334abd4a57f2f70ac
+translation_source_hash: 456eb506127cd3c4347481dfe7f31d0df0f7b7b085594f43e5705cbb63b53d3a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:48:21+00:00
+translation_updated: 2026-06-09T02:10:25+00:00
 ---
-# Pingvinek és jegesmedvék
-
 > [!info] Rövid leírás
-> Mozgalmas játék kis- és közepes csoportok számára, amelyben a pingvinek megpróbálják elűzni a jegesmedvét a jégtáblájáról, ami csapatmunkát és stratégiai gondolkodást igényel.
+> Egy szőnyegjáték, amelyben pingvinek mozgatnak egy jégtáblát a teremben, miközben egy jegesmedve védi azt.
 
-**Csoportméret**: Kicsi-közepes
+**Csoportméret**: 6-31 fő
 **Nehézség**: Közepes
-**Anyag**: Egy nagy, puha matrac (mint jégtábla)
+**Anyag**: Egy nagy, puha szőnyeg (mint jégtábla)
 **Játékidő**: Kb. 5-15 perc
 
-## **Játék leírása**:
+## **Játékleírás**:
 
-Kijelölünk egy jegesmedvét, aki elfoglalja helyét egy nagy, puha matracon (ez a jégtábla).
+Kijelölnek egy jegesmedvét, aki elfoglalja helyét egy nagy, puha szőnyegen (ez a jégtábla).
 
-A többi résztvevő, a pingvinek, el akarják űzni a jegesmedvét a területéről. Ezt úgy érik el, hogy a jégtáblát a terem másik oldalára tolják és húzzák.
+A többi résztvevő, a pingvinek, ki akarják szorítani a jegesmedvét a területéről. Ezt úgy érik el, hogy a jégtáblát a terem másik oldalára tolják és húzzák.
 
-A jegesmedve védekezhet úgy, hogy megpróbálja megérinteni a pingvineket.
+A jegesmedve úgy védekezhet, hogy megpróbálja lecsapni a pingvineket.
 
-Ha egy pingvin „fogságba esik”, egy kört kell futnia a jégtábla körül.
+Ha egy pingvin elkapott, egy kört kell futnia a jégtábla körül.
 
 A pingvinek akkor nyernek, ha a jégtáblát a terem másik oldalára juttatták.
 

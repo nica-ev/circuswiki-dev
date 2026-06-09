@@ -5,40 +5,52 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2026-06-06 21:40:10
+update: 2026-06-07 00:01:34
 title: Drei gewinnt
-description: 
+description: Ein Lauf- und Taktikspiel, bei dem zwei Teams Gegenstände in ein 3x3-Feld legen und verschieben.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: 9 Ringe, 6 farbige Gegenstände, Startmarkierung
+Spieldauer: 5-20
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/3 gewinnt.md
-translation_source_hash: eb9f1566e8b4293cfe22f829510a10574b65a81b49fa882ddae29c066af92e37
+translation_source_hash: 7883c933a716c5797718b4050bf04bb2cb9fdedf9048b5ca9df3bea0411c489e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:17:14+00:00
+translation_updated: 2026-06-09T01:19:24+00:00
 ---
+> [!info] Short Description
+> A running and strategy game where two teams place and move objects within a 3x3 grid.
 
-**Group Size**: Approximately 4-6 participants
+**Group Size**: From approx. 4-6 participants
 **Difficulty**: Medium
-**Materials**: 9 rings, 6 colored objects (scarf, plate, etc.) – 3 of each color – rope or similar for a starting line
+**Materials**: 9 rings, 6 colored objects (scarf, plate, etc.), with 3 of each color, rope or similar for a starting line
 **Game Duration**: 5-20 minutes
-**Source**: Facebook
 
-**Game Description**:
-Arrange the 9 rings into a 3x3 grid.
+## **Game Description**:
+
+The 9 rings are arranged to form a square (3x3 grid).
 It's helpful to connect them so they don't slide apart.
-Participants form 2 teams and line up behind the starting line.
-The distance from the starting line to...
+Participants form 2 teams and line up in a row at the starting line.
+The distance from the starting line to
 Each team receives 3 objects of the same color.
 
-When the game starts, the first child from each team runs forward and places their object in one of the 9 squares. They then run back and tag the next player, who can then start.
+When the game starts, the first child from each team runs out and places their object in one of the 9 squares. Then they run back and tag the next person, who is then allowed to run.
 
-As soon as all 3 objects for a team are placed in the squares, the next player can move one object.
+As soon as all 3 objects of a team are placed in the squares, the next person can move an object.
 
-The team whose objects form a line of 3 horizontally, vertically, or diagonally first wins.
-That team earns one point.
+The team whose objects are the first to form a line of 3 horizontally, vertically, or diagonally wins.
+This team then receives one point.
 
-It's good to play multiple rounds, as individual games are quite short. For example, play 5 rounds, and the team with the most points wins.
-It's recommended to play 2-3 practice rounds and emphasize that the game is not just about speed, but also about tactics and strategy.
+It's good to play multiple rounds, as individual games are quite short. For example, play 5 rounds and the team with the most points wins.
+It is recommended to play 2-3 test rounds and emphasize that it's not just about speed, but also about tactics/strategy.
+
+## **Source**:
+
+Facebook

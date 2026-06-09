@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:56:55
 title: Der heikle Wassertransport
-description: 
+description: Eine anspruchsvolle Kooperationsaufgabe, bei der eine Gruppe Wasser mit Seilen und einem Topf möglichst verlustfrei transportiert.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: schwer
+Material: Topf, Schnur, Wasser, zweites Gefäß
+Spieldauer: 5-20
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 15
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der heikle Wassertransport.md
-translation_source_hash: f018fc92a74094fd791b822e719d275a75cf28faf55960b74f1c7a243463923e
+translation_source_hash: 0741699ba28b623bf2334d9d36015f98b8eeeaa9ba5f3fb5a8b97d6b1c6652c2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:36:40+00:00
+translation_updated: 2026-06-09T01:30:11+00:00
 ---
-# Chúlostivý prenos vody
+> [!info] Stručný popis
+> Náročná kooperatívna úloha, pri ktorej skupina prepravuje vodu pomocou lán a nádoby s minimálnymi stratami.
 
-**Veľkosť skupiny:** 5 až 15 hráčov
-**Náročnosť:** náročná
-**Materiál:** hrniec, šnúra, voda a druhá nádoba
-**Dĺžka hry:** 5 až 20 minút
+**Veľkosť skupiny**: 5-15 osôb
+**Náročnosť**: náročná
+**Materiál**: nádoba, šnúra, voda a druhá nádoba
+**Dĺžka hry**: 5-20 minút
 
-**Popis hry:**
-Na prípravu hry je potrebné pripevniť okolo hrnca toľko šnúr, koľko je účastníkov hry. Šnúry sa najlepšie pripevnia, ak sa najprv okolo hrnca uviaže jedna šnúra, na ktorú sa potom pripevnia všetky ostatné. Teraz sa do hrnca naleje odmerané množstvo vody a na istú vzdialenosť sa postaví nádoba, do ktorej sa voda preleje. Každý hráč uchopí jednu šnúru. Šnúra sa uchopí úplne na konci, pretože kto šnúru drží kratšie, porušuje pravidlá. Odteraz ide o to, aby sa voda z hrnca čo najmenej rozliata preliala do postavenej nádoby. Hrniec sa však môže pohybovať iba pomocou držaných šnúr. Každý musí svoju šnúru počas celej hry držať a nepustiť. Tip: Ale nie všetky šnúry musia byť vždy napnuté. Riešenie: Existuje v skutočnosti len jeden spôsob, ako vodu takmer úplne preniesť. Na to je potrebné hrniec na jednom mieste a na protiľahlom mieste dobre držať pomocou tam pripevnených šnúr. Najmenej dvaja ľudia, ktorí stoja medzi tými, čo držia hrniec, si teraz oproti sebe vymenia miesta. Pretože takto sa pri nakláňaní môže spodná hrana hrnca opatrne potiahnuť dozadu a horná hrana opatrne dopredu. Týmto spôsobom sa dá voda preniesť bez strát, ale nie je to vôbec jednoduché.
+## **Popis hry**:
 
-**Zdroj**:
-Tasifan Spielebuch
+Na prípravu hry je potrebné pripevniť k nádobe toľko lán, koľko je účastníkov hry. Lán sa najlepšie pripevní, ak sa najprv jeden povraz uviaže okolo nádoby, aby sa naň potom dali pripevniť všetky ostatné laná. Teraz sa do nádoby naleje odmerané množstvo vody a nádoba, do ktorej sa voda preleje, sa umiestni do určitej vzdialenosti. Každý hráč uchopí lano. Lano sa uchopí úplne na konci, pretože kto lano drží kratšie, porušuje pravidlá. Odteraz ide o to, aby sa voda z nádoby s čo najmenšími stratami preliala do pripravenej nádoby. Nádoba sa však môže pohybovať iba pomocou držaných lán. Každý musí svoje lano držať po celú dobu hry. Tip: Nie všetky laná musia byť vždy napnuté. Riešenie: Existuje v skutočnosti len jeden spôsob, ako vodu takmer úplne preliať. Na to je potrebné nádobu na jednom mieste a na protiľahlom mieste dobre držať pomocou tam pripevnených lán. Najmenej dvaja ľudia, ktorí stoja medzi tými, čo držia nádobu, si teraz oproti sebe vymenia miesta. Pretože takto sa pri nakláňaní môže spodná hrana nádoby opatrne potiahnuť dozadu a horná hrana opatrne dopredu. Týmto spôsobom sa voda dá preliať bez strát, ale vôbec to nie je jednoduché.
+
+## **Zdroj**:
+
+Kniha hier Tasifan

@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwänzchen-Hasche.md
-translation_source_hash: 134bf5d8cc91335e0e6f7dcda2d88ed4ab10d6087ef8eec6fd486c64c69f050f
+translation_source_hash: de1d8e40c5fade00d950d22fd75c50371657745f5b45a9f11534b44175b7ffda
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:22:52+00:00
+translation_updated: 2026-06-09T02:24:02+00:00
 ---
-# Ogonki
-
 > [!info] Krótki opis
-> Ruchowa gra w łapanie dla małych i średnich grup, idealna do rozgrzewki, której celem jest zabieranie "ogonek" innym i zbieranie jak największej liczby własnych.
+> Gra w łapanie z chusteczkami, w której wszyscy próbują ukraść "ogonki" innym i zebrać jak najwięcej dla siebie.
 
-**Wielkość grupy**: Mała do średniej
+**Liczba osób**: 5-30
 **Poziom trudności**: Łatwy
 **Materiały**: Chusteczki (jedna na osobę)
-**Czas gry**: Około 10-15 minut
+**Czas trwania**: Około 10-15 minut
 
 ## **Opis gry**:
 
-Gra w łapanie dla małych i średnich grup, dobrze nadająca się do rozgrzewki.
+Gra w łapanie dla małych i średnich grup, która świetnie nadaje się do rozgrzewki.
 
-Potrzebne rekwizyty: Chusteczki.
+Potrzebne rekwizyty: chusteczki.
 
-Każda osoba wkłada sobie chusteczkę za pas z tyłu, tak aby jeden "ogon" zwisał i można go było łatwo wyciągnąć.
+Każda osoba wkłada chusteczkę za pas z tyłu, tak aby "ogon" zwisał i można go było łatwo wyciągnąć.
 
-Celem jest teraz zabieranie ogonków innym i zbieranie jak największej liczby ogonków.
-Gdy zabierze się komuś ogonek, należy go również włożyć za pas z tyłu, tak aby duża jego część zwisała i można go było łatwo chwycić.
+Celem jest kradzież "ogona" innym i zebranie jak największej liczby "ogonów".
+Po kradzieży "ogona" należy go również włożyć za pas z tyłu, tak aby wystawał i był łatwy do chwycenia.
 
 ## **Źródło**:
 

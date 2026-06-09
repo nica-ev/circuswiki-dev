@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 02:38:33
 title: Fuchs und Hase
-description: 
+description: Ein Fangspiel im Kreis, bei dem Fuchs und Hase je nach Blickrichtung der Mitspielenden unterschiedliche Wege nutzen können.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,9 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> Ein dynamisches Fangspiel für mittlere und große Gruppen, das räumliches Denken und Reaktionsfähigkeit fördert.
+> Ein Fangspiel im Kreis, bei dem Fuchs und Hase je nach Blickrichtung der Mitspielenden unterschiedliche Wege nutzen können.
 
-**Gruppengröße**: Mittel bis Groß
+**Gruppengröße**: 8-25 Personen
 **Schwierigkeit**: Mittel
 **Material**: Keins
 **Spieldauer**: Ca. 10-15 Minuten

@@ -7,31 +7,46 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
+translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T16:35:07+00:00
+translation_updated: 2026-06-09T01:35:18+00:00
 ---
-# Felborítva és Átforgatva
+> [!info] Rövid leírás
+> Egyszerű átadós játék, ahol a tárgyakat felváltva a fej fölött és a lábak között kell továbbítani.
 
-Egyszerű tárgyakkal játszható játék kis- és közepes létszámú csoportoknak.
+**Csoportméret**: 5-20 fő
+**Nehézség**: könnyű
+**Anyag**: Tárgyak
+**Játékidő**: 5-10 perc
+
+## **Játék leírása**:
+
+Egyszerű, tárgyakkal játszható játék kis- és közepes csoportoknak.
 
 Mindenki felsorakozik.
-Tárgyakat adnak tovább elölről hátrafelé a fej fölött.
+A tárgyakat elölről hátrafelé, a fej fölött kell továbbítani.
 A sor végén álló személy hátulról előre, az előtte álló lábai között adja tovább a tárgyakat.
 
-Vagy az egészet végtelenített játékként lehet játszani, vagy a tárgyakat félretesszük, miután egy teljes kört megtettek.
+Lehet végtelenített játékként is játszani, vagy a tárgyakat félre lehet tenni, miután egy teljes kört megtettek.
 
----
-egyesítve az ismétlődő jegyzettel:
+## **Megjegyzések**:
 
-Egyszerű tárgyakkal játszható játék kis- és közepes létszámú csoportoknak.
+Vizsgálni kell a kettős jegyzet lehetséges összevonását.
 
-Mindenki felsorakozik. Tárgyakat adnak tovább elölről hátrafelé a fej fölött. A sor végén álló személy hátulról előre, az előtte álló lábai között adja tovább a tárgyakat. A tárgyakat vagy félre lehet tenni, miután egy teljes kört megtettek, vagy végtelenített játékként lehet elölről kezdeni.
+## **Forrás**:
+
+Ismeretlen

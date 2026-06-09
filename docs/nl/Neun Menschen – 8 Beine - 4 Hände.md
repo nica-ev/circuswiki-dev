@@ -7,28 +7,38 @@ publish: true
 tags:
   - spiele
 title: Neun Menschen – 8 Beine - 4 Hände
-description: 
+description: Eine Teamaufgabe, bei der Gruppen eine Strecke mit vorgegeben begrenzten Bodenkontakten überwinden müssen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Neun Menschen – 8 Beine - 4 Hände.md
-translation_source_hash: 97222bf056547a4f9bd8d1317d7600da05c17ee5751ce87c4d96b8f1b1de2363
+translation_source_hash: 77a2014c8bfeb24139154d36778ef5d46c11b75c66792b1a23d7b48ea28ec365
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:22:54+00:00
+translation_updated: 2026-06-09T02:08:50+00:00
 ---
-# Negen mensen – 8 benen - 4 handen
+> [!info] Korte beschrijving
+> Een groepstaak waarbij groepen een parcours moeten afleggen met een beperkt aantal toegestane contactpunten met de grond.
 
-Groepsgrootte: vanaf 10 deelnemers
-Moeilijkheidsgraad: redelijk eenvoudig
-Materiaal: geen
-Speelduur: ca. 10 minuten
+**Groepsgrootte**: vanaf 10 personen
+**Moeilijkheidsgraad**: vrij eenvoudig
+**Materiaal**: geen
+**Speeltijd**: ca. 10 minuten
 
-Spelbeschrijving: Er worden teams van gelijke grootte gevormd, waarbij deze niet groter mogen zijn dan tien personen. Vervolgens geeft de spelleider de spelers een opdracht, bijvoorbeeld hoe een vooraf bepaalde afstand van A naar B overwonnen moet worden. Dit kan er bijvoorbeeld als volgt uitzien:
+## **Spelbeschrijving**:
 
-"Overwin de afstand van A naar B met slechts acht benen en vier handen." Los gaat het. De spelers proberen de afstand volgens de opgegeven opdracht te overbruggen. Dat wil zeggen dat er nu van de spelers slechts acht benen en vier handen de grond mogen raken. Hoe de teams deze opdracht uitvoeren, is geheel aan hen, maar het moet snel gaan, want ze spelen tegen elkaar. Wie als eerste aankomt, wint. Als een ledemaat te veel de grond raakt, moet de hele ploeg terug naar het beginpunt en het opnieuw proberen. Als iedereen is aangekomen, kan een nieuwe opdracht worden gegeven en moet de terugweg dienovereenkomstig worden afgelegd. De opdrachten moeten uiteraard worden aangepast aan de groepsgrootte en de leeftijd. Hoe minder mensen, hoe minder ledematen.
+Er worden teams van gelijke grootte gevormd, waarbij de teams niet groter mogen zijn dan tien personen. Vervolgens geeft de spelleider de spelers een opdracht, bijvoorbeeld hoe ze een vooraf bepaalde afstand van A naar B moeten overbruggen. Dit kan er bijvoorbeeld als volgt uitzien:
 
-Bron:
+"Overbrug de afstand van A naar B met slechts acht benen en vier handen." Start! De spelers proberen de afstand te overbruggen volgens de gegeven opdracht. Dat wil zeggen dat slechts acht benen en vier handen de grond mogen raken. Hoe de teams deze taak uitvoeren, is volledig aan hen, maar het moet snel gaan, want ze spelen tegen elkaar. Wie als eerste aankomt, wint. Als een ledemaat te veel de grond raakt, moet de hele ploeg terug naar het beginpunt en het opnieuw proberen. Als iedereen is aangekomen, kan een nieuwe opdracht worden gegeven en moet de terugweg dienovereenkomstig worden afgelegd. De opdrachten moeten natuurlijk worden aangepast aan de groepsgrootte en leeftijd. Hoe minder mensen, hoe minder ledematen.
+
+## **Bron**:
+
 Tasifan Spielebuch

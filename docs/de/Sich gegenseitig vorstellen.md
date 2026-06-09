@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
 title: Sich gegenseitig vorstellen
-description: 
+description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 authors:
   - Marc Bielert
 category:
@@ -23,17 +23,15 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: original
 translation_source_lang: de
 ---
-# Sich gegenseitig "vorstellen"
-
 > [!info] Kurzbeschreibung
-> "Sich gegenseitig 'vorstellen'" ist ein kreatives Kennenlernspiel für kleine Gruppen, das auf Annahmen basiert und die Vorstellungskraft sowie die Kommunikationsfähigkeiten der Teilnehmer fördert.
+> Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 
-**Gruppengröße**: Klein
+**Gruppengröße**: 5-15 Personen
 **Schwierigkeit**: Mittel
 **Material**: Keins
 **Spieldauer**: Ca. 10-15 Minuten
 
-## Spielbeschreibung:
+## **Spielbeschreibung**:
 
 In Anlehnung an [Tratschen in Anwesenheit](Tratschen%20in%20Anwesenheit.md). Ein Kennenlernspiel für kleine Gruppen.
 

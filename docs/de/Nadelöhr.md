@@ -7,16 +7,30 @@ publish: true
 tags:
   - spiele
 title: Nadelöhr
-description: 
+description: Ein langsames Wahrnehmungsspiel im Kreis, bei dem alle mit geschlossenen Augen vorsichtig die gegenüberliegende Seite suchen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Nadelöhr
+> [!info] Kurzbeschreibung
+> Ein langsames Wahrnehmungsspiel im Kreis, bei dem alle mit geschlossenen Augen vorsichtig die gegenüberliegende Seite suchen.
+
+**Gruppengröße**: 5-30 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Spiel für kleine bis große Gruppen.
 
@@ -35,3 +49,10 @@ Vorsichtig und langsam vorgehen.
 
 Das Spiel trägt den Namen Nadelöhr da sich in der Mitte alle treffen und versuchen müssen mit geschlossenen Augen aneinander vorbei zu kommen ohne die Orientierung zu verlieren.
 
+## **Quelle**:
+
+Unbekannt
+
+## **Querverweise**
+
+[Kartoffel Kartoffel](Kartoffel%20Kartoffel.md)

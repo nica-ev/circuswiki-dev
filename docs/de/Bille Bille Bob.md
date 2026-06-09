@@ -7,21 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:06:17
 title: Bille Bille Bob
-description: 
+description: Ein schnelles Reaktionsspiel, bei dem Kommandos im Kreis mit Worten, Gesten und Gruppenfiguren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 8
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
+> [!info] Kurzbeschreibung
+> Ein schnelles Reaktionsspiel, bei dem Kommandos im Kreis mit Worten, Gesten und Gruppenfiguren beantwortet werden.
 
-**Gruppengröße**: Ab 6 Mitspieler 
-**Schwierigkeit**: mittel 
-**Material**: keins 
+**Gruppengröße**: Ab 6 Mitspieler
+**Schwierigkeit**: mittel
+**Material**: keins
 **Spieldauer**: ca. 8 Minuten
 
-## **Spielbeschreibung**: 
+## **Spielbeschreibung**:
+
 Die Gruppe bildet einen Kreis und einer steht in der Mitte. Derjenige möchte jedoch aus der Mitte raus, dies kann er folgendermaßen schaffen: Er zeigt auf jemanden und sagt „Bille Bille Bob“. Die Person, auf die gezeigt wird, muss versuchen „Bob“ zu sagen bevor der mittlere Spieler das „Bob" von „Bille Bille Bob" ausgesprochen hat. Schafft die Person das, muss der Mittlere sich jemand neues suchen. Schafft sie es nicht, muss sie in den Kreis und muss auch versuchen mithilfe von ,,Bille Bille Bob" aus der Mitte zu kommen. Folgend noch einige Kommandos, die im Laufe des Spiels eingeführt werden können und vom Spieler in der Mitte gerufen werden. Bei Kommandos, bei denen mehrere involviert sind, muss man dann in die Mitte, wenn man einen Fehler bei der Bewegung oder den Geräuschen macht oder seinen Einsatz gänzlich vergisst bzw. an falscher Stelle einsetzt. 
 
 1. **Bob**:
@@ -63,5 +72,6 @@ Tasifan Spielebuch
 Verschiedene Figuren wie z.B. James Bond, Mutter mit Kind etc.. werden kontrovers betrachtet. Meist bezüglich des Rollenverständnisses welches vermittelt wird.
 Ich persönlich denke das, anstatt diese Figuren zu verbannen, eine alternative Form wie z.B. "Vater mit Kind", "Superwomen" angebrachter ist.
 
-## **Siehe auch**:
+## **Querverweise**
+
 [Bibbel Di Babbel Di Buh](Bibbel%20Di%20Babbel%20Di%20Buh.md)

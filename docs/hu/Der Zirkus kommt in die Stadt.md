@@ -7,42 +7,60 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
 title: Der Zirkus kommt in die Stadt
-description: 
+description: Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte, markierte Bereiche
+Spieldauer: 5-15
+source: unbekannt
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus kommt in die Stadt.md
-translation_source_hash: ee8b13fec805376aade3280ab044ae68ef0675d5240ba68e4102263645e8958e
+translation_source_hash: 797952a6a3e069193ad1befc6a02bee1c8a29f56e55df8146e1e1c0f09be9297
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:37:50+00:00
+translation_updated: 2026-06-09T01:31:52+00:00
 ---
-# Megérkezett a cirkusz!
+> [!info] Rövid leírás
+> Egy tematikus, interaktív játék, amelyben cirkuszi parancsokhoz mozgások és egy oroszlánfogó szakasz kapcsolódik.
 
-Közepes és nagyobb létszámú gyermekcsoportoknak való interaktív játék
-Különböző parancsok rövid magyarázata:
+**Csoportméret**: 10-40 fő
+**Nehézség**: könnyű
+**Anyag**: szőnyeg, kijelölt területek
+**Játékidő**: 5-15 perc
 
-1. "Megérkezett a cirkusz!" --> Mindenki hangosan felkiált: "Hurrá!", és a levegőbe emeli a karját.
-2. "Van pattogatott kukorica!" --> Mindenki a helyén ugrál, és azt kiabálja: "Pop, pop, pop, pop!"
-3. "Van vattacukor!" --> Mindenki megpördül a tengelye körül.
-4. "Van virsli!" --> Mindenki a földre fekszik, és ide-oda gurul.
-5. "Megérkeztek az artisták!" --> Mindenki ugrálva nyitja szét a lábait és karjait (hampelmänner).
-6. "Megérkeztek a bohócok!"
+## **Játék leírása**:
+
+Interaktív játék közepes és nagy létszámú gyermekcsoportoknak.
+Különböző parancsok kerülnek röviden ismertetésre:
+
+1. "A cirkusz megérkezik a városba" --> mindenki hangosan kiáltja: "Hurrá!", és a karjait a levegőbe emeli.
+2. "Van pattogatott kukorica" --> mindenki a helyén ugrál és azt kiabálja: "Pop, pop, pop, pop!"
+3. "Van vattacukor" --> mindenki megpördül a tengelye körül.
+4. "Van virsli" --> mindenki a földön fekszik és ide-oda gurul.
+5. "Megérkeztek az artisták" --> mindenki ugrál.
+6. "Megérkeztek a bohócok"
 
 Ez a lista tetszőlegesen bővíthető/módosítható.
-Fontos a "utolsó állomás".
+Fontos az "utolsó állomás".
 
-1. "Megesik az oroszlánokat!" --> Mindenki az oroszlánketrechez megy, és megeteti az oroszlánokat.
-2. "Kiszabadultak az oroszlánok!" --> Az oroszlánok kitörnek, és megpróbálják elkapni a gyerekeket. Az elkapott gyerekek is oroszlánná válnak. Van egy, lehetőség szerint minél távolabb eső "biztonságos terület", ahová a gyerekek menekülhetnek.
+1. "Az oroszlánokat etetik" --> Mindenki az oroszlánketrechez megy és megeteti az oroszlánokat.
+2. "Az oroszlánok elszabadultak" --> Az oroszlánok kitörnek, és megpróbálják elkapni a gyerekeket. Az elkapott gyerekek is oroszlánná válnak. Van egy, lehetőleg minél távolabb eső "biztonságos terület", ahová a gyerekek menekülhetnek.
 
-Kezdetben már egy vagy több oroszlán ki van jelölve (előnyösen felnőttek/pedagógusok – de néhány gyereket is lehet választani).
+Kezdetben már kijelölünk egy vagy több oroszlánt (előnyben részesítve a felnőtteket/trénereket – de néhány gyereket is lehet választani).
 
-A játék alkalmas nagy csoportok számára is, ha rendelkezésre áll a megfelelő hely.
+A játék nagy létszámú csoportok számára is alkalmas, ha rendelkezésre áll a megfelelő hely.
 
-# A téma variációi
+## **Változatok**:
 
-Az alapelv jól használható témavariációk készítéséhez is.
+Az alapelv jól használható tematikus változatok készítéséhez is.
 
-Egy cirkusz helyett, különböző állomásokkal, vegyünk például egy kalózhajót, egy indiánfalut stb.
+A cirkusz helyett különböző állomásokkal például egy kalózlegénység, egy indiánfalu stb. is használható.
+
+## **Forrás**:
+
+Ismeretlen

@@ -7,18 +7,32 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:10
 title: Aufgaben Spiel
-description: 
+description: Ein Gruppenaufgabenspiel, bei dem Personen gemeinsam Körperkontaktpunkte und Gruppengrößen passend zu Ansagen lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-15
+source: unbekannt
+group-min: 4
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
 
-#  Aufgaben Spiel
+> [!info] Kurzbeschreibung
+> Ein Gruppenaufgabenspiel, bei dem Personen gemeinsam Körperkontaktpunkte und Gruppengrößen passend zu Ansagen lösen.
 
-Spiel für jede Gruppengröße:
+**Gruppengröße**: 4-30 Personen
+**Schwierigkeit**: mittel
+**Material**: keines
+**Spieldauer**: 5-15 Minuten
+
+## **Spielbeschreibung**:
+
+Spiel für jede Gruppengröße.
 
 Alle Personen laufen im Raum umher.
 
@@ -36,3 +50,6 @@ Die Aufgaben können einfach beginnen und sich von Runde zu Runde steigern.
 
 Das Spielende könnte sein, wenn eine Aufgabe nicht mehr von allen erfüllt werden kann.
 
+## **Quelle**:
+
+Unbekannt

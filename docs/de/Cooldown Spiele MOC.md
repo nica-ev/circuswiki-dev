@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 20:50:45
+update: 2026-06-09 01:41:05
 title: Cooldown Spiele
 description: 
 authors:
@@ -28,19 +28,19 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                          | group-min | group-max | Schwierigkeit | Material | Spieldauer |
 | --------------------------------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- |
-| [Bewerbung im Zirkus](<Bewerbung%20im%20Zirkus.md>)                                           | -         | -         | -             | -        | -          |
-| [Bücherbalance](<B%C3%BCcherbalance.md>)                                                      | -         | -         | -             | -        | -          |
-| [Hände spüren](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | -         | -         | -             | -        | -          |
-| [Kartoffel Kartoffel](<Kartoffel%20Kartoffel.md>)                                             | -         | -         | -             | -        | -          |
-| [Klatsch mit Augenkontakt](<Klatsch%20mit%20Augenkontakt.md>)                                 | -         | -         | -             | -        | -          |
-| [Massagespiel - Bauer und Kartoffelfeld](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | -         | -         | -             | -        | -          |
-| [Medusa](<Medusa.md>)                                                                         | -         | -         | -             | -        | -          |
-| [Menschenhalma](<Menschenhalma.md>)                                                           | -         | -         | -             | -        | -          |
-| [Mörderspiel](<M%C3%B6rderspiel.md>)                                                          | -         | -         | -             | -        | -          |
-| [Nadelöhr](<Nadel%C3%B6hr.md>)                                                                | -         | -         | -             | -        | -          |
-| [Roboter](<Roboter.md>)                                                                       | -         | -         | -             | -        | -          |
-| [Schach](<Schach.md>)                                                                         | -         | -         | -             | -        | -          |
-| [Zip Zap](<Zip%20Zap.md>)                                                                     | -         | -         | -             | -        | -          |
+| [Bewerbung im Zirkus](<Bewerbung%20im%20Zirkus.md>)                                           | 8         | 99        | einfach       | keines   | 5-10       |
+| [Bücherbalance](<B%C3%BCcherbalance.md>)                                                      | 3         | 20        | einfach       | Bücher   | 5-10       |
+| [Hände spüren](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | einfach       | keines   | 5-10       |
+| [Kartoffel Kartoffel](<Kartoffel%20Kartoffel.md>)                                             | 5         | 20        | einfach       | keines   | 5-10       |
+| [Klatsch mit Augenkontakt](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5         | 99        | einfach       | keines   | 5-10       |
+| [Massagespiel - Bauer und Kartoffelfeld](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4         | 20        | einfach       | keines   | 5-10       |
+| [Medusa](<Medusa.md>)                                                                         | 5         | 25        | einfach       | keines   | 5-10       |
+| [Menschenhalma](<Menschenhalma.md>)                                                           | 8         | 20        | einfach       | keines   | 4          |
+| [Mörderspiel](<M%C3%B6rderspiel.md>)                                                          | 8         | 30        | mittel        | keines   | 6          |
+| [Nadelöhr](<Nadel%C3%B6hr.md>)                                                                | 5         | 30        | einfach       | keines   | 5-10       |
+| [Roboter](<Roboter.md>)                                                                       | 2         | 30        | einfach       | keines   | 5-10       |
+| [Schach](<Schach.md>)                                                                         | 6         | 20        | mittel        | keines   | 5-10       |
+| [Zip Zap](<Zip%20Zap.md>)                                                                     | 5         | 99        | einfach       | keines   | 5-10       |
 | [Zungenmörder](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | mittel        | keines   | 5 - 10     |
 
 <!-- dynamic:end -->

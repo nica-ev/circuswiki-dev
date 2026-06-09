@@ -5,16 +5,16 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:38:59
+update: 2026-06-09 02:34:55
 title: Tratschen in Anwesenheit
-description: 
+description: Ein Kennenlernspiel für kleine Gruppen, bei dem über eine anwesende Person Vermutungen gesammelt und anschließend aufgelöst werden.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
 Schwierigkeit: einfach
 Material: keines
-Spieldauer: 
+Spieldauer: 10-15
 source:
   - unbekannt
 group-min: "3"
@@ -22,22 +22,34 @@ group-max: "6"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tratschen in Anwesenheit.md
-translation_source_hash: b9f4927f36c4709d07d3a0577da69af70ea33a617e6350342931189097ea172a
+translation_source_hash: b99d93773d9a0a1a7d2c17d30d25146acb8e99d6b4407221d916f009b6a26e51
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:13:51+00:00
+translation_updated: 2026-06-09T02:32:35+00:00
 ---
-# Fofocar na Presença
+> [!info] Breve Descrição
+> Um jogo de apresentação para pequenos grupos, no qual se recolhem e, em seguida, se desfazem suposições sobre uma pessoa presente.
 
-Jogo de apresentação para pequenos grupos (ideal para 3-6 pessoas)
+**Tamanho do grupo**: 3-6 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do jogo**: 10-15 minutos
 
-Uma pessoa é selecionada para que se fale sobre ela, ou seja, façam-se suposições. A pessoa, enquanto isso, senta-se em silêncio, ouve tudo, mas não comenta nem corrige nada.
+## **Descrição do Jogo**:
 
-Temas como estado civil, origem, interesses, gosto musical, etc...
+Jogo de apresentação para pequenos grupos (idealmente 3-6 pessoas).
 
-Depois de um tempo, a pessoa revela tudo, ou seja, corrige as suposições erradas.
+Uma pessoa é selecionada sobre a qual se fofoca ou se fazem suposições. A pessoa, entretanto, senta-se calmamente, ouve tudo, mas não comenta nada nem corrige nada.
 
-Depois, é a vez do próximo, até que todos no grupo já tenham tido a sua vez.
+Tópicos como estado civil, origem, interesses, gosto musical, etc.
 
-## Referências Cruzadas
+Após algum tempo, a pessoa desfaz tudo, ou seja, corrige as suposições erradas.
+
+Depois, é a vez do próximo, até que todos no grupo tenham tido a sua vez.
+
+## **Fonte**:
+
+Desconhecida
+
+## **Referências Cruzadas**
 
 [Apresentar-se mutuamente](Sich%20gegenseitig%20vorstellen.md)

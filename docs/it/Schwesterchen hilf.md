@@ -7,28 +7,35 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:16
 title: Schwesterchen hilf
-description: 
+description: Ein Paar-Fangspiel, bei dem der Läufer sich an ein Paar anhängt und dadurch neue Rollen entstehen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwesterchen hilf.md
-translation_source_hash: 36b55f86cc680c6a15d4b63cd89eb552e2b398fc6612e05e4315084a32053f79
+translation_source_hash: 07981369ec1c6e94898a1365944f653c77891690619f9457a8146012ff0b7cf8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:08:28+00:00
+translation_updated: 2026-06-09T02:24:22+00:00
 ---
-# **Sorellina, Aiutami!**
+> [!info] Breve descrizione
+> Un gioco di presa a coppie, in cui chi corre si aggancia a una coppia e crea così nuovi ruoli.
 
-**Dimensioni del gruppo**: Da 8 giocatori in su, preferibilmente un numero pari
+**Numero di partecipanti**: Da 8 giocatori in su, preferibilmente un numero pari
 **Difficoltà**: Semplice
 **Materiale**: Nessuno
 **Durata del gioco**: circa 5 minuti
 
 ## **Descrizione del gioco**:
 
-Ogni giocatore cerca un partner e si posiziona accanto ad esso. Una coppia diventa la coppia "inseguitore-inseguito" e l'inseguitore inizia a rincorrere l'inseguito. Se l'inseguitore riesce a prenderlo, i ruoli si invertono. Tuttavia, l'inseguito può salvarsi mettendosi di fianco a una coppia. In questo caso, la persona esterna di quella coppia diventa l'inseguitore e l'inseguitore originale diventa l'inseguito. Per un maggiore movimento, si possono designare più coppie "inseguitore-inseguito", ma ognuna di esse deve rimanere separata dalle altre.
+Ogni giocatore cerca un partner e si posiziona accanto ad esso. Una coppia viene designata come coppia "prenditore-corridore" e il prenditore inizia a rincorrere il corridore. Se il prenditore riesce a prenderlo, i ruoli si invertono. Il corridore, tuttavia, può salvarsi mettendosi di fianco a una coppia. In questo caso, l'altra persona esterna di quella coppia diventa il prenditore e il prenditore originale diventa il corridore. Per un movimento ancora maggiore, si possono designare più coppie "prenditore-corridore", ma ognuna di esse deve rimanere sempre separata dalle altre.
 
 ## **Fonte**:
 

@@ -7,29 +7,40 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:11:31
 title: Totblicken
-description: 
+description: Ein Blickspiel im engen Kreis, bei dem gegenseitiger Augenkontakt zum Ausscheiden führt.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3-9
+source: Tasifan Spielebuch
+group-min: 7
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Totblicken.md
-translation_source_hash: e992044e012456533a4bb88e1d3d91a57666dbd075eee3028ce3be9369b0d20b
+translation_source_hash: 8d21cbb18c21312f5f87c0d8c4c52293e3cd05f12acfc7ea987e609baa755d2f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:33+00:00
+translation_updated: 2026-06-09T02:31:04+00:00
 ---
-# Dead Stare
+> [!info] Brief Description
+> A staring game played in a close circle where making eye contact with another player leads to elimination.
 
 **Group Size**: 7+ players
 **Difficulty**: Very Easy
 **Materials**: None
-**Playtime**: 3-9 minutes
+**Playtime**: 3 to 9 minutes
 
-**Game Description**:
-All players stand shoulder to shoulder in a tight circle, looking down at their feet. One person counts from one to three, and during this time, everyone chooses a pair of feet to focus on. On the count of three, everyone looks up into the eyes of the person whose feet they chose. If two players make eye contact, they shout loudly and step out of the circle. The circle gets smaller, and the next round begins.
+## **Game Description**:
 
-**Source**:
+All players stand shoulder-to-shoulder in a tight circle, looking down at their feet. One person counts from one to three. During this time, each player chooses a pair of feet to focus on. On the count of three, everyone looks up at the eyes belonging to those feet. If two players make eye contact, they shout loudly and leave the circle. The circle gets smaller, and the next round begins.
+
+## **Source**:
+
 Tasifan Spielebuch
+
+## **Cross-references**
 
 [Medusa](Medusa.md)

@@ -7,36 +7,47 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:47
 title: Der Zirkus ist in der Stadt
-description: 
+description: Ein interaktives Zirkus-Erzählspiel, bei dem Kommandos, Bewegungen und kurze Fangmomente in eine Geschichte eingebettet werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus ist in der Stadt.md
-translation_source_hash: 44d72c6fc743c0ef30f4565b66f86808e4648bc758d8106c06ba36d012049e29
+translation_source_hash: e0231e6b46e5f0bec69042e64c25dc9ba3ac324b6b7f0247e3d344808301b949
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:37:48+00:00
+translation_updated: 2026-06-09T01:31:08+00:00
 ---
-# A cirkusz a városban
+> [!info] Rövid leírás
+> Egy interaktív cirkuszi mesélő játék, amelyben parancsok, mozdulatok és rövid elkapós pillanatok fonódnak össze egy történetbe.
 
-**Csoportméret**: 10+ játékos
+**Csoportméret**: 10+ fő
 **Nehézség**: könnyű
-**Eszközök**: nincsenek
+**Anyag**: nincs
 **Játékidő**: 5-15 perc
 
-**Játékleírás**:
-Remek játék kreatív játékvezetőknek, mert a „A cirkusz a városban” minden játékvezetőnél más és más, hiszen mindenki kitalál egy interaktív történetet. A hozzá kapcsolódó interakciókat a történetben érdemes elmagyarázni. Ahogy a játék neve is sugallja, a játékvezető egy történetet mesél a városban járó cirkuszról. A történethez van egy kis útmutató: Valahányszor az elbeszélő azt mondja, hogy „a cirkusz a városban”, minden hallgatónak lelkesen fel kell kiáltania, hogy „Ó, igen!”. A történet során a játékvezető elmeséli, mi mindent lehet látni a cirkuszban (pl. zsonglőrök, bohócok, artisták, kötéltáncosok stb.), és valahányszor megemlítik az egyik attrakciót, minden hallgató hozzá kapcsolódóan csinál egy meghatározott mozdulatot (a zsonglőr zsonglőrködik, a bohóc grimaszol, stb.). Most a történetben megnyílik a jegypénztár a cirkuszi előadásra. Ez a jel, hogy mindenki sorakozzon fel a pénztárnál. A játékvezető szorgalmasan árulja a jegyeket a várakozó vendégeknek. Az utolsó nem kap semmit, mert elfogytak a jegyek. Ez az utolsó vendég ezért oroszlánná válik, akinek be kell mennie a ketrecbe (kijelölt hely). Most kezdődik az előadás, és az elbeszélő beszámolhat az összes számról, miközben a hallgatóknak ismét szóra a mozdulatokat kell végezniük. A ketrec mellett van két további kijelölt hely vagy sarok. Az egyikben popcorn, a másikban vattacukor van. Ha a történetben elhangzik a „popcorn” szó, mindenki a popcorn sarokba rohan, és azt kiabálja, hogy „pop pop pop”, mintha popcorn lenne. Aki utolsóként érkezik meg a popcorn sarokba, az is oroszlánná válik, és bekerül a ketrecbe. Hasonlóan működik a vattacukor sarok is: ha elhangzik a „vattacukor” szó, mindenki a vattacukor sarokba rohan, körbe-körbe forog, és azt mondja: „Cukor, cukor”. Aki ezt utoljára csinálja, oroszlánná válik. A játékvezető ezek között a dolgok között mindig tud váltani a történetében. Parancsok, pénztár, valamint a vattacukor és popcorn sarok. Ha már sokan oroszlánná váltak, a játékvezető áttérhet az utolsó lehetőségre: a nézők állatbemutatójára. Ilyenkor az oroszlánok csak egy bizonyos vonalig mehetnek, a nézők pedig egészen közelről csodálhatják meg őket. A nézőknek azonban meg kell mutatni a menekülési vonalat is, ahol biztonságban vannak a megszökött oroszlánok elől. Mert az elbeszélő bármikor kiálthatja: „Az oroszlánok elszabadultak”. Erre a parancsra az oroszlánok elindulnak, és megpróbálják elkapni a nézőket. A nézők természetesen igyekeznek a lehető leggyorsabban a menekülési vonal mögé kerülni. Aki elkapott, az is oroszlánná válik. Ha már nincsenek elfogható nézők, mert mindenki biztonságban van a vonal mögött, a játékvezető visszaviszi az oroszlánokat a ketrecbe, és újabb állatbemutatót indít. Ha végül már nem maradnak nézők, csak boldog oroszlánok lesznek, és a történet véget ér.
+## **Játékleírás**:
 
-**Forrás**:
+Remek játék kreatív játékvezetőknek, mert a „Cirkusz a városban” minden játékvezetőnél más és más, hiszen mindenki kitalál egy interaktív történetet. A hozzá kapcsolódó interakciókat a legjobb a történetbe ágyazni. Ahogy a játék neve is sugallja, a játékvezető egy olyan történetet mesél, amely szerint cirkusz érkezett a városba. A történethez adunk egy kis útmutatót: Valahányszor a mesélő azt mondja, hogy „a cirkusz a városban”, minden hallgatónak lelkesen kell azt válaszolnia, hogy „Ó, igen!”. A történet során a játékvezető elmeséli, mi mindent lehet látni a cirkuszban (pl. zsonglőrök, bohócok, artisták, kötéltáncosok stb.), és valahányszor megemlítik az egyik attrakciót, minden hallgató elvégez hozzá egy meghatározott mozdulatot (a zsonglőr zsonglőrködik, a bohóc grimaszol, stb.). Ezután a történetben megnyílik a jegypénztár a cirkuszi előadásra. Ez a jelzés, hogy mindenki sorakozzon fel a pénztárnál. A játékvezető szorgalmasan árulja a jegyeket a várakozó vendégeknek. Az utolsó nem kap semmit, mert elfogytak a jegyek. Ez az utolsó vendég lesz az oroszlán, akinek be kell mennie a ketrecbe (egy kijelölt hely). Most kezdődik az előadás, és a mesélő elmondhatja az összes számot, miközben a hallgatóknak ismét szóra kell bírniuk a mozdulatokat a kulcsszóra. Emellett a ketrec mellett van még két kijelölt hely vagy sarok. Az egyikben popcorn van, a másikban vattacukor. Ha a történetben elhangzik a „popcorn” szó, mindenki a popcorn sarokba rohan, és azt mondja: „pop, pop, pop”, mintha ők lennének a pattogatott kukorica. Aki utolsóként érkezik meg a popcorn sarokba, az is oroszlán lesz, és bekerül a ketrecbe. Hasonlóan működik a vattacukor sarok is: ha elhangzik a „vattacukor” szó, mindenki a vattacukor sarokba rohan, körbe forog, és azt mondja: „Cukor, cukor”. Aki ezt utolsóként teszi, oroszlán lesz. A játékvezető ezek között az elemek között mindig tud váltani a történetében: parancsok, pénztár, valamint a vattacukor és popcorn sarok. Ha már sokan oroszlánná váltak, a játékvezető áttérhet az utolsó lehetőségre: az állatbemutatóra a nézők számára. Ilyenkor az oroszlánok csak egy bizonyos vonalig mehetnek, a nézők pedig egészen közelről csodálhatják meg őket. A nézőknek azonban meg kell mutatni a biztonsági vonalat is, ahonnan biztonságban vannak a megszökött oroszlánok elől. Mert a mesélő bármikor kiálthatja: „Elszabadultak az oroszlánok!”. Erre a parancsra az oroszlánok elindulnak, és megpróbálják elkapni a nézőket. A nézők pedig természetesen igyekeznek minél gyorsabban a biztonsági vonal mögé kerülni. Aki elkap, az is oroszlán lesz. Ha már nincsenek elfogható nézők, mert mindenki biztonságban van a vonal mögött, a játékvezető visszaviszi az oroszlánokat a ketrecbe, és új állatbemutatót indít. Ha végül már nincsenek nézők, csak boldog oroszlánok maradnak, és a történet véget ér.
+
+## **Forrás**:
+
 Tasifan Spielebuch
 
-**Alternatíva / Lásd még**: [A cirkusz jön a városba](Der%20Zirkus%20kommt%20in%20die%20Stadt.md)
+## **Hivatkozások**
+
+[A cirkusz a városba jön](Der%20Zirkus%20kommt%20in%20die%20Stadt.md)
 
 ## Inkluzív
 
-- Popcorn (ugrálás + „popop” kiáltás)
+- Popcorn (ugrálás + „pop, pop” kiáltás)
 - Bohócok (nevetés)
 - Vattacukor (forgás)
 - Tigrisek (fújás, lopakodás, púp tartás)

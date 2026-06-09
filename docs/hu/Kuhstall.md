@@ -7,24 +7,42 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:27:03
 title: Kuhstall
-description: 
+description: Ein Gruppenwechselspiel, bei dem Kühe und Ställe auf Kommandos schnell neue Dreiergruppen bilden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 7
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kuhstall.md
-translation_source_hash: 1db5fcbde49d1fb2244fe08baa5ecc3b11040d81b0458602318cd934632803c6
+translation_source_hash: a8ed42a74f94e57bb9cfdbd5e8e889d48d2a6bb2e381745396f7a7ed9befcf90
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:46:10+00:00
+translation_updated: 2026-06-09T01:53:56+00:00
 ---
-# Istálló
+> [!info] Rövid leírás
+> Egy csoportváltó játék, amelyben a tehenek és az istállók gyorsan új háromfős csoportokat alkotnak parancsra.
 
-Játék közepes és nagy létszámú csoportoknak:
+**Csoportméret**: 7 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-3 fős csoportokat alakítunk. Két személy alkot egy "istállót" (karjukat ferdén felfelé nyújtják, és összeérintik a másik kezével –> tetőt alkotnak), alájuk pedig beáll egy harmadik személy. Ez a személy a "tehén".
-Egy személy kimarad. Ez a személy most megpróbál helyet szerezni a 3 fős csoportokban. Ehhez 3 parancsot használhat: "Tehén", "Istálló" vagy "Istálló-tehén".
-"Tehén" parancs esetén minden tehénnek a lehető leggyorsabban ki kell futnia az istállójából, és új helyet kell keresnie. Ezalatt az egyedül maradt személy gyorsan be tud állni egy istállóba, és elfoglalni a tehén helyét. Az a tehén, amelyik végül kimarad, új parancsot adhat.
-"Istálló" parancs esetén az istállókat alkotóknak szét kell válniuk, és egy másik tehénnel, illetve egy másik személlyel kell új tetőt alkotniuk.
-"Istálló-tehén" parancs esetén minden 3 fős csoportnak fel kell oszlania, és új helyet kell keresnie. Itt a szerepek is felcserélhetők. A tehenekből istállók, az istállókból pedig tehenek lehetnek.
+## **Játék leírása**:
+
+Közepes és nagy létszámú csoportok számára.
+
+Háromfős csoportok alakulnak. Két személy alkot egy istállót (karokat ferdén felfelé nyújtva, a másik kezét fogva —> tetőt képezve), alájuk pedig beáll egy harmadik személy. Ez a tehén.
+Egy személy kimarad. Ez a személy most megpróbál helyet szerezni a háromfős csoportokban. Ehhez 3 parancsot használhat: Tehén, Istálló vagy Tehénistálló.
+"Tehén" parancsra minden tehénnek a lehető leggyorsabban ki kell szaladnia az istállójából, és új istállót kell keresnie. Ezalatt a kimaradó személy gyorsan be tud állni egy istállóba, és elfoglalni egy tehén helyét. Az istállóból kimaradó tehén most új parancsot adhat.
+"Istálló" parancsra az istállóknak szét kell válniuk, és egy másik tehénnel, illetve egy másik személlyel kell tetőt képezniük.
+"Tehénistálló" parancsra az összes háromfős csoportnak fel kell bomlania, és új helyet kell keresnie. Itt a szerepek is felcserélhetők. A tehenekből istállók, az istállókból pedig tehenek lehetnek.
+
+## **Forrás**:
+
+Ismeretlen

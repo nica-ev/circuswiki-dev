@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 02:35:36
 title: Festnageln
-description: 
+description: Ein Fangspiel, bei dem Personen durch Antippen der Füße festgenagelt werden und mit eingeschränkter Bewegung weiterspielen.
 authors:
   - Marc Bielert
 category:
@@ -23,23 +23,23 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Festnageln.md
-translation_source_hash: 1a7ab604978afeb658a9b1859ea053f4f611b50b6ef891365e6724e814dd157d
+translation_source_hash: 51bd65d170779ee1cdedfd974736779180eb5d904aba3c39159d6863d1fa173d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:41:14+00:00
+translation_updated: 2026-06-09T01:37:30+00:00
 ---
 > [!info] Stručný popis
-> Chytacia hra pre akúkoľvek veľkosť skupiny, ktorá podporuje rýchlosť a vytrvalosť, pričom sa hráči snažia navzájom „pripnúť“.
+> Chytacia hra, pri ktorej sú hráči "pripináčikmi" pripnutí k zemi dotykomom na chodidlá a pokračujú v hre s obmedzeným pohybom.
 
-**Veľkosť skupiny**: Neobmedzená
-**Obtiažnosť**: Stredná
+**Veľkosť skupiny**: 5 – 25 osôb
+**Náročnosť**: Stredná
 **Materiál**: Žiadny
 **Dĺžka hry**: Približne 15 – 20 minút
 
 ## **Popis hry**:
 
-Všetci sa pohybujú po miestnosti a snažia sa navzájom dotknúť nôh. Ak sa dotknete nohy, je pripnutá k zemi a nesmiete ju viac hýbať.
+Všetci hráči sa pohybujú po miestnosti a snažia sa navzájom dotknúť chodidiel. Ak sa niekoho dotknete na chodidlo, toto chodidlo je "pripináčikom" pripnuté k zemi a už sa s ním nedá hýbať.
 
-Ak máte pripnuté obe nohy, stále sa môžete pokúsiť chytiť iných hráčov, ktorí okolo vás prebehnú.
+Ak sú obe chodidlá pripnuté, stále sa môžete pokúšať chytať iných hráčov, ktorí okolo vás prebiehajú.
 
 Vyhráva ten, kto ako posledný zostane voľne sa pohybovať.
 

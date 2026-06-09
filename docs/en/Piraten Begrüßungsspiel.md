@@ -7,37 +7,55 @@ publish: true
 tags:
   - spiele
 title: Piraten Begrüßungsspiel
-description: 
+description: Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Begrüßungsspiel.md
-translation_source_hash: 9e76b223baa9c409e10e76a6667bc39c7b5007d4da5310c7ae9680af788941ef
+translation_source_hash: 16d375f0b3c6af66d609f9a984e4c1d3e305c281cd8ced4ea7daefc819f5920d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:49+00:00
+translation_updated: 2026-06-09T02:10:38+00:00
 ---
-# Pirate Welcome Game
+> [!info] Brief Description
+> A themed welcome game where a pirate song is accompanied by gestures and partner actions.
 
-A thematic game for groups of any size. The following text is sung and accompanied by corresponding gestures/movements.
+**Group Size**: 4+ people
+**Difficulty**: Easy
+**Materials**: None
+**Game Duration**: 5-10 minutes
 
-"**Hey pirate, you look daring.**
+## **Game Description**:
+
+A themed game for groups of any size. The following text is sung and accompanied by corresponding gestures/movements.
+
+"**Hey pirate, you look so bold.**
 *[ Point to another pirate ]*
-**Go ahead and grab the grappling hook.**
-*[ Curve index fingers, point at each other, and hook them together ]*
+**Go grab your grappling hook, I'm told.**
+*[ Curl index fingers, point at each other, and hook them together ]*
 **Grappling hook shake, shake, shake, shake.**
 [ Shake the hooked index fingers ]*
-**And rattle, rattle, rattle, rattle your peg leg.**
+**And peg leg rattle, rattle, rattle, rattle.**
 [ Bend forward, lift one leg, grab each other's lifted leg, and shake it ]*
-**Then limp, limp, limp, limp along.**
+**Then limp away, limp, limp, limp.**
 [ Release legs and limp away ]*
-**And wave, wave, wave, wave to the next.**
+**And wave to the next, wave, wave, wave.**
 [ Target the next pirate and wave to them ]*
 "
 
-## Cross-references
+## **Source**:
+
+Unknown
+
+## **Cross-references**
 
 [Workshop Theme Pirates](Workshop%20Thema%20Piraten.md)
 [Pirate Captain](Piraten%20Kapitän.md)

@@ -7,31 +7,49 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 03:02:29
 title: Schach
-description: 
+description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen wie Spielfiguren springen, schlagen und die Grundlinie erreichen.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schach.md
-translation_source_hash: 133bc733c14283c93b12675b9eff40450924b8a2afb1fbd138366859c3ff7376
+translation_source_hash: 273d006d73852a3fbe07e657d5d5819a2f5e471e652c6f532fcfb3119661e702
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:08:58+00:00
+translation_updated: 2026-06-09T02:13:58+00:00
 ---
-# Šachy
+> [!info] Stručný popis
+> Tichá taktická hra pro dva týmy, ve které lidé skáčou, trefují a dosahují základní linie jako herní figurky.
 
-Vhodné pro malé až střední velikosti skupin
+**Velikost skupiny**: 6–20 osob
+**Obtížnost**: střední
+**Materiál**: žádný
+**Doba trvání hry**: 5–10 minut
+
+## **Popis hry**:
+
+Vhodné pro malé až středně velké skupiny.
 
 Vytvoří se 2 stejně velké týmy.
-Určí se obdélníkové hřiště, na jehož protilehlých stranách se týmy postaví.
+Určí se obdélníkové hřiště, na jehož protilehlých okrajích se týmy postaví.
 
 Platí následující pravidla:
-* Hraje se střídavě.
-* Vždy může skočit pouze 1 osoba z týmu.
-* Skok znamená odraz oběma nohama a bezpečné přistání na obou nohách. Výpad nebo jiné vratké/nejisté přistání znamená opuštění hřiště.
-* O tom, kdo ze týmu skočí, lze rozhodnout pouze očním kontaktem. Mluvení nebo gestikulace nejsou povoleny.
-* Pokud skočí více osob současně, rozhodčí určí, kdo musí hřiště opustit.
-* Soupeřovy figurky lze "sejmout" dotykem rukou po bezpečném přistání. Tyto figurky pak musí hřiště opustit.
-* Vyhrává tým, který jako první dosáhne soupeřovy základní linie, nebo který sejme všechny soupeřovy figurky.
+* Hraje se na střídačku.
+* Z týmu může v jednom tahu skočit vždy jen 1 osoba.
+* Tah znamená, že člověk vyskočí oběma nohama a bezpečně přistane na obě nohy. Výpad nebo jiné vratké / nejisté přistání znamená opuštění hřiště.
+* O tom, kdo ze týmu skočí, se rozhoduje výhradně očním kontaktem. Mluvení nebo gestikulace nejsou povoleny.
+* Pokud skočí více lidí najednou, rozhodne vedoucí hry, kdo musí hřiště opustit.
+* Protičující figurky lze "sestřelit" tak, že se jich po bezpečném přistání dotknete rukou. Tyto figurky pak musí hřiště opustit.
+* Vyhrává ten tým, který jako první dosáhne soupeřovy základní linie, nebo který sestřelí všechny soupeřovy figurky.
+
+## **Zdroj**:
+
+Neznámý

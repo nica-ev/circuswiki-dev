@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 00:58:17
 title: Schattenlauf
-description: 
+description: Ein Partner-Bewegungsspiel, bei dem eine Person die Bewegungen der anderen wie ein Schatten imitiert.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,14 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung 
-> "Schattenlauf" ist ein Bewegungsspiel, bei dem Partner die Bewegungen des jeweils anderen imitieren.
+> Ein Partner-Bewegungsspiel, bei dem eine Person die Bewegungen der anderen wie ein Schatten imitiert.
 
-**Gruppengröße**: Beliebig 
+**Gruppengröße**: ab 2 Personen
 **Schwierigkeit**: Leicht 
 **Material**: Keines 
 **Spieldauer**: Variabel
 
-## **Spielbeschreibung:**
+## **Spielbeschreibung**:
 Es werden Paare gebildet.
 Der eine Partner beginnt und bewegt sich frei im Raum umher (Arme und Beine bewegen, Tanzen o.Ä.).
 Die andere Person imitiert die Bewegungen des Partners und bildet somit seinen Schatten.

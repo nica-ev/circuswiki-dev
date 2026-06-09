@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
 title: Spinnennetz
-description: 
+description: Eine Kooperationsaufgabe, bei der die Gruppe durch ein Seilnetz gelangen muss, ohne Felder doppelt zu nutzen oder Seile zu berühren.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 14
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spinnennetz.md
-translation_source_hash: 0cc6637fccb69acf901ac2b36c1cd9dd7a825c764f9f7612d0e12d016df99add
+translation_source_hash: fa2a83e65ff6903cd72f15f2fef87b365865728084bb7f20d6436b0eacd586bd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:17+00:00
+translation_updated: 2026-06-09T02:28:11+00:00
 ---
-# Spiderweb
+> [!info] Brief Description
+> A cooperative task where the group must navigate through a rope net without reusing spaces or touching the ropes.
 
-**Group Size**: 6 to 14 players
+**Group Size**: 6 to 14 participants
 **Difficulty**: Easy to very difficult, depending on the spiderweb
-**Materials**: Several ropes or one very long one
+**Materials**: Several ropes or one very long rope
 **Playtime**: 5 to 15 minutes
 
-**Game Description**:
-By tying two or more posts, trees, or similar objects together, a net is created using ropes. The net should have exactly as many openings as there are players participating in the game. The openings should be just large enough for one player to pass through in some way. The players must now move from one side of the net to the other, but they may only use each opening once. Therefore, careful consideration is needed regarding who goes first and which opening each player will use, considering their size. To make the game more challenging, players are not allowed to touch the ropes. If a rope is touched by a player, the game resets to the beginning, meaning everyone must return to their starting positions. For particularly well-coordinated groups, the player who touched the rope can be given a handicap. For example, their legs or arms could be tied together, they could be blindfolded, or any other suitable modification could be made.
+## **Game Description**:
 
-**Source**:
+By tying together two or more posts, trees, or similar structures, a net is created using ropes. The net should have exactly as many spaces as there are players participating in the game, and the spaces should be large enough for one player to pass through in some way. The players must then move from one side of the net to the other, but they are only allowed to use each space once. Therefore, careful consideration must be given to who goes first and which space each person will climb through, and how. To make the challenge more difficult, players are not allowed to touch the ropes. If a rope is touched by a player, the entire group must start over, meaning everyone goes back to the beginning. For particularly well-coordinated groups, the player who touched the rope can be given a handicap. For example, their legs or arms could be tied together, their eyes blindfolded, or any other suitable modification.
+
+## **Source**:
+
 Tasifan Spielebuch

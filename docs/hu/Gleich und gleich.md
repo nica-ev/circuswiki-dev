@@ -7,33 +7,47 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:25:55
 title: Gleich und gleich
-description: 
+description: Ein Kennenlern- und Bewegungsspiel, bei dem Personen nach Gemeinsamkeiten passende Partner finden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: optional Musik
+Spieldauer: 5-15
+source: Portmann2009
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gleich und gleich.md
-translation_source_hash: cbc066a130453047db687047c5c9bd289e6fd16f19da99481a1ef199e2bf53ed
+translation_source_hash: 6a3e78e3e7351a0d77c37d2c37752c481c17066834c687e252ecbba525f24922
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:39:38+00:00
+translation_updated: 2026-06-09T01:40:38+00:00
 ---
-# Hasonmás
+> [!info] Rövid leírás
+> Egy ismerkedős és mozgásos játék, amelyben a résztvevők közös tulajdonságok alapján keresnek párokat.
 
-A gyerekek szabadon mozognak a teremben. Egy csoportvezető utasítására egymás után legalább egy másik gyermeket keresnek, aki:
+**Csoportméret**: 6-30 fő
+**Nehézség**: könnyű
+**Eszközök**: opcionálisan zene
+**Játékidő**: 5-15 perc
+
+## **Játék leírása**:
+
+A gyerekek szabadon mozognak a teremben. A csoportvezető utasítására egymás után legalább egy másik gyermeket keresnek, aki:
 
 - ugyanolyan színű a haja
 - ugyanolyan színű a szeme
-- ugyanolyan sportot űz
-- ugyanolyan hónapban van a születésnapja
-- olyan utónevet visel, amely ugyanazzal a betűvel kezdődik, mint a sajátjuk
+- ugyanazt a sportot űzi
+- ugyanabban a hónapban van a születésnapja
+- ugyanazzal a betűvel kezdődik a keresztneve, mint a sajátjuké
 - stb.
 
-Az utasításokat az életkornak és a csoport összetételének megfelelően kell megadni, hogy a keresett személyek valóban megtalálhatók legyenek. A játékot zene kísérheti. Amíg a zene szól, a csoporttagok, akik megtalálták egymást, együtt mozognak és beszélgetnek. Amikor a zene megáll, új utasítás hangzik el, és új párok alakulnak, akik aztán egy ideig együtt mozognak.
+Az utasításokat a csoport életkorának és összetételének megfelelően kell megadni, hogy a keresett személyek valóban megtalálhatóak legyenek. A játékot zene kísérheti. Amíg a zene szól, a megtalált csoporttagok együtt mozognak és beszélgetnek. Amikor a zene megáll, új utasítás hangzik el, és új párok alakulnak, akik aztán egy ideig együtt mozognak.
 
-**Variáció**
+## **Változatok**:
 
-## Irodalom
+## **Forrás**:
 
 @Portmann2009

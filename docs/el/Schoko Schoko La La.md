@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:40:45
 title: Schoko Schoko La La
-description: 
+description: Ein kurzes Klatschspiel für zwei Personen, bei dem Handflächen, Handrücken und Fäuste rhythmisch wechseln.
 authors:
   - Marc Bielert
 category:
@@ -22,21 +22,34 @@ group-max: "2"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schoko Schoko La La.md
-translation_source_hash: a8983634767269846a3e2a207dc810a6b7ca5dc54c6e971b802c4748ee4027e6
+translation_source_hash: e2cdbc488cc55e0d442f01f2fc28335f805494a25635f362def5143631bd9c0f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:51:25+00:00
+translation_updated: 2026-06-09T02:16:21+00:00
 ---
-# Σοκολάτα Σοκολάτα Λα Λα
+> [!info] Σύντομη Περιγραφή
+> Ένα σύντομο παιχνίδι παλαμάκων για δύο άτομα, όπου οι παλάμες, οι ράχες των χεριών και οι γροθιές εναλλάσσονται ρυθμικά.
 
-Ένα παιχνίδι παλαμακίων για 2 άτομα.
+**Μέγεθος Ομάδας**: 2 άτομα
+**Δυσκολία**: εύκολο
+**Υλικά**: κανένα
+**Διάρκεια Παιχνιδιού**: 2-5 λεπτά
 
-Κείμενο:
-Σοκολάτα Σοκολάτα Λα Λα
-Σοκολάτα Σοκολάτα Ντε Ντε
-Σοκολάτα Λα
-Σοκολάτα Ντε
-Σοκολάτα Λα Ντε
+## **Περιγραφή Παιχνιδιού**:
 
-Στη λέξη "Σοκολάτα" χτυπάμε τις παλάμες μας.
-Στη λέξη "Λα" χτυπάμε τις ράχες των χεριών μας.
-Στη λέξη "Ντε" χτυπάμε τις γροθιές μας.
+Ένα παιχνίδι παλαμάκων για 2 άτομα.
+
+### Κείμενο
+
+Σόκο Σόκο Λα Λα
+Σόκο Σόκο Ντε Ντε
+Σόκο Λα
+Σόκο Ντε
+Σόκο Λα Ντε
+
+Στο "Σόκο" χτυπάμε τις παλάμες των χεριών μας.
+Στο "Λα" χτυπάμε τις ράχες των χεριών μας.
+Στο "Ντε" χτυπάμε τις γροθιές μας.
+
+## **Πηγή**:
+
+Άγνωστη

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-08 22:39:10
 title: Komm mit, lauf weg
-description: 
+description: Ein Laufspiel im Kreis, bei dem angetippte Personen auf Kommando mitlaufen oder in die Gegenrichtung starten.
 authors:
   - Marc Bielert
 category:
@@ -24,12 +24,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/komm-mit-lauf-weg.md
-translation_source_hash: fb1bf6a636190cd5e7e66e2d17a3a9a6483caf43187bc25d09c313369a09f3cf
+translation_source_hash: 3b3ff4fdeb624f1a1ea118f1c01c4a8fb12c7ca75e47b143ccb505edda45c758
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:41:13+00:00
+translation_updated: 2026-06-09T01:50:18+00:00
 ---
-> [!info] Short Description
-> A dynamic running game for larger groups that promotes quick reactions, orientation, and team spirit by encouraging participants to make rapid changes in direction and move together.
+> [!info] Brief Description
+> A running game in a circle where tapped individuals must run along or start in the opposite direction upon command.
 
 **Group Size**: 5+, suitable for large groups
 **Difficulty**: Easy
@@ -38,18 +38,20 @@ translation_updated: 2026-06-08T20:41:13+00:00
 
 ## **Game Description**:
 
-This game is based on quick reactions and changes of direction. The basic idea is that a "chaser" tags a person or an entire team and gives a command that requires an immediate response.
+This game focuses on quick reactions and changes in direction. The basic idea is that a chaser taps a person or an entire team and gives a command that requires an immediate response.
 
-**Variation 1 (Large Group Size):**
+## **Variations**:
 
-The group is divided into several teams of equal size. The teams stand in a circle. A chaser runs around the outside of the circle, passing by the teams. The chaser tags the last person of a team or any person in the circle and calls out either "Come with me!" or "Run away!".
+### Variation 1: Large Group Size
 
-*   **"Come with me!":** The tagged person (or the entire team) runs in the same direction as the chaser outside the circle and tries to get back to their original spot as quickly as possible before the chaser takes it.
-*   **"Run away!":** The tagged person (or the entire team) runs in the opposite direction of the chaser outside the circle and tries to get back to their original spot as quickly as possible before the chaser takes it.
+The group is divided into several equally sized teams. The teams stand in a circle. A chaser runs around the outside of the circle. The chaser taps the last person of a team or any person in the circle and calls out either "Come with!" or "Run away!".
 
-**Variation 2 (Small Group Size):**
+*   **"Come with!"**: The tapped person (or the entire team) runs in the same direction as the chaser outside the circle and tries to get back to their original spot as quickly as possible before the chaser takes it.
+*   **"Run away!"**: The tapped person (or the entire team) runs in the opposite direction of the chaser outside the circle and tries to get back to their original spot as quickly as possible before the chaser takes it.
 
-All participants stand together in a circle. A chaser is chosen. This person runs around the outside of the circle, passing by the others. They tap one person on the shoulder and say either "Come with me!" or "Run away!". Depending on the command, the tagged person now runs either in the same or the opposite direction as the chaser around the circle, and both try to reclaim their original spot.
+### Variation 2: Small Group Size
+
+All participants stand together in a circle. A chaser is chosen. This person runs around the outside of the circle. They tap a person of their choice on the shoulder and say either "Come with!" or "Run away!". The tapped person now runs around the circle, either in the same or opposite direction as the chaser, depending on the command, and both try to get back to the empty spot.
 
 ## **Source**:
 

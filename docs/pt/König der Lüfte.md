@@ -7,21 +7,39 @@ publish: true
 tags:
   - spiele
 title: König der Lüfte
-description: 
+description: Ein Vertrauensspiel, bei dem eine Person von der Gruppe getragen, gestützt und vorsichtig bewegt wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/König der Lüfte.md
-translation_source_hash: ac77fff0d110cd3076cb140e276896d3236e0d92ec4ef278355b2cf35ec8c68d
+translation_source_hash: 9543219b1c388f9513bc4ebc91b76f42aad1aabd399b4c0366851bf8270c76ee
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:00:30+00:00
+translation_updated: 2026-06-09T01:51:49+00:00
 ---
-# Rei dos Ares
+> [!info] Breve Descrição
+> Um jogo de confiança onde uma pessoa é carregada, apoiada e movida cuidadosamente pelo grupo.
 
-Jogo de confiança para grupos médios:
+**Tamanho do Grupo**: 6-20 pessoas
+**Dificuldade**: média
+**Material**: nenhum
+**Duração do Jogo**: 5-10 minutos
 
-Um rei é escolhido. Este deita-se no chão e o seu povo reúne-se à sua volta. Agora, ele é levantado. Se estiver seguro nas mãos do seu povo, o rei pode mover-se com cuidado, por exemplo, endireitar-se, colocar os pés no ar um de cada vez ou até mesmo fazer um rolamento. O povo deve acompanhar sempre atentamente os seus movimentos para apoiar o seu rei.
+## **Descrição do Jogo**:
+
+Jogo de confiança para grupos médios.
+
+Um rei é escolhido. Ele deita-se no chão e o seu povo reúne-se à sua volta. Agora, ele é levantado. Se estiver seguro nas mãos do seu povo, o rei pode mover-se cuidadosamente, por exemplo, endireitar-se, colocar os pés um de cada vez no ar ou até mesmo rolar. O povo deve sempre acompanhar os seus movimentos com atenção para apoiar o seu rei.
 No final, ele é cuidadosamente colocado de volta no chão.
+
+## **Fonte**:
+
+Desconhecida

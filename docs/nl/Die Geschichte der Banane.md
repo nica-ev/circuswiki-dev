@@ -7,21 +7,35 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:31:40
 title: Die Geschichte der Banane
-description: 
+description: Ein Call-and-Response-Spiel, bei dem die Gruppe eine Banane mit wiederholten Sprach- und Bewegungsimpulsen begleitet.
 authors:
   - Marc Bielert
 category:
   - call-response
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Geschichte der Banane.md
-translation_source_hash: e8946e5b7450df07ee4ae3e48f6e5771943fbbbdb758e92757d97692decbad35
+translation_source_hash: 02d2cdf0a2f957f88d73fa7833d7b8ecf4b887fb858b753851d9bb0aa5bd9dcc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:14:30+00:00
+translation_updated: 2026-06-09T01:32:41+00:00
 ---
-# Het Verhaal van de Banaan
+> [!info] Korte beschrijving
+> Een call-and-response-spel waarbij de groep een banaan begeleidt met herhaalde stem- en bewegingsimpulsen.
 
-Call-and-response spel voor kleine tot grote groepen
+**Groepsgrootte**: vanaf 4 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: geen
+**Speelduur**: 5-10 minuten
+
+## **Spelbeschrijving**:
+
+Call-and-response-spel voor kleine tot grote groepen.
 
 Tekst:
 "Plant banaan, plant, plant banaan"
@@ -34,6 +48,10 @@ Shake banaan, shake shake banaan
 Drink banaan, drink drink banaan
 Surf banaan, surf surf banaan
 Rock banaan, rock rock banaan
-Boetseer de banaan, boetseer de banaan
+Model de banaan, model de banaan
 
-Elke zin wordt 2 keer gespeeld, de eerste keer "normaal" en de tweede keer "gek"
+Elke zin wordt 2 keer gespeeld, de eerste keer "normaal", de tweede keer "gek".
+
+## **Bron**:
+
+Onbekend

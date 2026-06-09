@@ -7,42 +7,60 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:39:12
 title: Kommando Pimperle
-description: 
+description: Ein Reaktionsspiel, bei dem Kommandos nur ausgeführt werden dürfen, wenn sie mit dem Signalwort angesagt werden.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kommando Pimperle.md
-translation_source_hash: 563862eea8b6b3b2a2aff0b801f5f0a0240df03c1c39dc818fa897b716dde24a
+translation_source_hash: 2cc0a5286d53cdc6c7285afcfa158b8944ba30634bb22a0abb21b71f28563abd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:45:43+00:00
+translation_updated: 2026-06-09T01:51:16+00:00
 ---
-# Parancsolj, Pimperle!
+> [!info] Rövid leírás
+> Egy reakciójáték, amelyben a parancsokat csak akkor szabad végrehajtani, ha a jel szóval mondják be őket.
 
-Játék minden csoportméretre:
+**Csoportméret**: 3 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-Mindenki üljön le egy körben.
-A kezeket nyújtsák be középre, és mutatóujjal doboljanak a földön.
-A játékvezető most különféle parancsokat adhat:
-- Lapos (az ujjakat a földre kell tenni)
-- Hát (az ujjakat fordítva a földre kell tenni)
-- Híd (a kezek hídat képeznek a földön)
-- Kő (az öklöket a földre kell tenni)
-- Rúd (az ujjak a levegőbe mutatnak)
-Ezeket a parancsokat azonban csak akkor szabad végrehajtani, ha a játékvezető minden utasítás előtt kimondja a "Parancsolj" szót (pl. "Parancsolj Kő").
-Ha nem mondja ki, hanem csak magát a parancsot mondja (pl. "Kő"), akkor tovább kell dobolni az ujjal a földön. A játékvezető azonban mindig végrehajthatja a parancsot, hogy összezavarja a játékosokat.
+## **Játékleírás**:
+
+Mindenki körben ül.
+A kezeket kinyújtjuk középre, és mutatóujjal dobolunk a földön.
+A játékvezető ezután különböző parancsokat adhat:
+- lapos (az ujjakat a földre fektetjük)
+- hát (az ujjakat fordítva a földre fektetjük)
+- híd (a kezek hídat képeznek a földön)
+- kő (az öklöket a földre tesszük)
+- rúd (az ujjak a levegőbe mutatnak)
+Ezeket a parancsokat azonban csak akkor szabad végrehajtani, ha a játékvezető minden bemondás előtt kimondja a "Parancs" szót (pl. "Parancs ököl").
+Ha nem mondja ki, hanem csak magát a parancsot (pl. "Ököl"), akkor tovább kell dobolni az ujjal a földön. A játékvezető azonban mindig végrehajthatja a parancsot, hogy összezavarja a játékosokat.
 Ha valaki hibázik, egy kört kell futnia a kör körül.
 
-Változat: A játék állva is játszható.
-Ehhez a dobolás helyett a helyükön kell futni. A parancsokat most a testtel kell végrehajtani.
-- Lapos (hasra kell feküdni)
-- Hát (hátra kell feküdni)
-- Híd (a kezeket és a lábakat a földre kell tenni, a feneket a levegőbe kell nyújtani)
-- Kő (le kell térdelni a földre, és egészen kicsire össze kell kuporodni)
-- Rúd (a karokat felfelé kell nyújtani, a lábakat összezárni)
-A parancsok végrehajtása után tovább kell futni a helyükön.
+## **Változatok**:
+
+A játék állva is játszható.
+Ehhez a dobolás helyett a helyükön futnak. A parancsokat ezután a testtel hajtják végre.
+- lapos (hasra fekszik)
+- hát (hátra fekszik)
+- híd (kezeket és lábakat a földre teszi, fenék a levegőbe nyúlik)
+- kő (leguggol a földre és egészen kicsire csinálja magát)
+- rúd (karokat felfelé nyújtja, lábakat összeteszi)
+A parancsok végrehajtása után tovább futnak a helyükön.
 
 A parancsok az életkorhoz is igazíthatók.
-A kisgyermekek számára például állatmozgásokat (béka, kígyó, elefánt…) lehet használni.
+A kisebb gyermekek számára például állatmozgásokat lehet használni (béka, kígyó, elefánt...).
+
+## **Forrás**:
+
+Ismeretlen

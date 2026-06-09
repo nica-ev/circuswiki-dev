@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:39:56
 title: Hallo, ich bin
-description: 
+description: Eine kurze Kennenlernübung im Kreis, bei der Namen mit individuellen Bewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,12 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin.md
-translation_source_hash: f0667a9dde21e4608a58b06bcd7c146b19b8a9264206cd1291b5a2f079ef4c93
+translation_source_hash: 8da9389568d6f8777fdf52df4f87beee7286e46b338d8d26147e6368280ac6d9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:16:21+00:00
+translation_updated: 2026-06-09T01:42:44+00:00
 ---
 > [!info] Korte beschrijving
-> "Hallo, ik ben" is een eenvoudige en snelle kennismakingsoefening voor groepen.
+> Een korte kennismakingsoefening in een kring, waarbij namen met individuele bewegingen worden verbonden.
 
 **Groepsgrootte**: Vanaf 4 deelnemers
 **Moeilijkheidsgraad**: Eenvoudig
@@ -36,16 +36,16 @@ translation_updated: 2026-06-06T23:16:21+00:00
 **Speelduur**: 2-10 minuten (afhankelijk van het aantal deelnemers)
 
 ## **Spelbeschrijving**:
-Iedereen staat in een cirkel. Om de beurt gaat er een persoon naar het midden van de cirkel, begroet de anderen met een individuele beweging en stelt zich voor.
+Iedereen staat in een kring. Om de beurt gaat een persoon naar het midden van de kring, begroet de anderen met een individuele beweging en stelt zich voor.
 
 *Bijvoorbeeld: "Ik ben Marc" + een koprol maken*
 
-De persoon stapt terug in de cirkel. Nu wordt de beweging door alle anderen nagebootst en wordt er terug begroet:
+De persoon stapt terug in de kring. Nu wordt de beweging door alle anderen nagebootst en wordt er terugbegroet:
 
 --> Iedereen maakt een koprol en zegt "Hallo Marc"*
 
 ## **Bron**:
 Onbekend
 
-## **Zie ook:**
+## **Verwijzingen**
 [Hallo ik ben - met ballen](Hallo%20ich%20bin%20-%20mit%20Bällen.md)

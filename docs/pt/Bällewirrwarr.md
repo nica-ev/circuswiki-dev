@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Bällewirrwarr
-description: 
+description: Ein Namens- und Ballspiel, bei dem feste Wurfreihenfolgen mit mehreren Ballfarben immer komplexer werden.
 authors:
   - Marc Bielert
 category:
@@ -22,22 +22,26 @@ group-max: "15"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bällewirrwarr.md
-translation_source_hash: 4122048aa52e12484941e8511993405326a798bc8d90e5fc832e1d64eadcf17d
+translation_source_hash: 9fb9ac30105207a2f62e66d99c130c1f089754da57936540b5dfb0f39cfd8901
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:27:55+00:00
+translation_updated: 2026-06-09T01:24:13+00:00
 ---
-# Confusão de Bolas
+> [!info] Descrição Curta
+> Um jogo de nomes e bolas em que sequências fixas de arremesso com várias cores de bolas se tornam cada vez mais complexas.
 
-**Tamanho do grupo**: 5 a 15 participantes
+**Tamanho do Grupo**: 5 a 15 participantes
 **Dificuldade**: fácil a difícil (dependendo do número de bolas em jogo)
-**Material**: Bolas (várias de cada cor)
-**Duração do jogo**: aprox. 10 minutos
+**Material**: Bolas (várias da mesma cor)
+**Duração do Jogo**: aprox. 10 minutos
 
-**Descrição do jogo**:
-Neste jogo, todos os participantes formam um círculo. Se os participantes não se conhecem de todo, recomenda-se a seguinte rodada inicial: O(A) facilitador(a) começa dizendo em voz alta o seu nome e, em seguida, lança uma bola para alguém no círculo. É melhor fazer contato visual claro antes de lançar e lançar a bola por baixo, em arco. Agora, o(a) facilitador(a) senta-se ou coloca a mão na cabeça. O objetivo é apenas que todos os participantes reconheçam que ele(a) já participou. Quem agora tem a bola continua exatamente como o(a) facilitador(a) lançou, seguindo em ordem. O último lança a bola de volta para o(a) facilitador(a). Agora a ordem está clara, sentar-se/colocar a mão na cabeça pode ser omitido e a ordem pode ser praticada. Ao fazer isso, não se deve esquecer de dizer os nomes dos outros participantes! Quando isso estiver razoavelmente seguro, uma nova ordem pode ser estabelecida. Isso é feito seguindo o mesmo princípio de antes, mas agora você diz o nome da pessoa que deve receber a bola, em vez de dizer o seu próprio nome. Alternativamente, a ordem antiga pode ser mantida e apenas a forma de dizer os nomes é alterada. Quando a ordem estiver bem praticada, o(a) facilitador(a) pode introduzir várias bolas da mesma cor em sequência no círculo.
+## **Descrição do Jogo**:
 
-**Expansão**:
-A partir daqui é que o jogo realmente começa. O(A) facilitador(a) pode introduzir outra cor no jogo e a bola, ou mais tarde as bolas dessa cor, são lançadas em ordem inversa. Outra bola de uma cor diferente pode ser simplesmente lançada no sentido horário e, inversamente, outra bola de outra cor no sentido anti-horário. Agora existem quatro cores diferentes e tantas bolas quantas o grupo conseguir gerir. Para levar as coisas ao extremo, o círculo é dissolvido e todos os participantes movem-se livremente pela sala! Agora é preciso saber qual bola vai para quem!
+Neste jogo, todos os participantes formam um círculo. Se os participantes não se conhecerem de todo, a seguinte rodada inicial é recomendada: O(A) facilitador(a) começa, diz em voz alta o seu nome e, em seguida, passa uma bola para alguém no círculo. É melhor fazer contato visual claro antes de arremessar e lançar a bola em arco por baixo. Agora, o(a) facilitador(a) senta-se ou coloca a mão na cabeça. O objetivo é apenas que todos os participantes reconheçam que ele(a) já participou. Quem agora tem a bola continua exatamente como o(a) facilitador(a) executou o seu arremesso, seguindo a ordem. O último participante lança a bola de volta para o(a) facilitador(a). Agora a sequência está clara, sentar-se/colocar a mão na cabeça pode ser omitido e a sequência pode ser praticada. Não se deve esquecer de dizer os nomes dos outros participantes! Quando isso estiver razoavelmente seguro, uma nova sequência pode ser definida. Isso é feito com o mesmo princípio de antes, mas agora você chama pelo nome a pessoa para quem a bola deve ser enviada, em vez de dizer o seu próprio nome. Alternativamente, a sequência antiga pode ser mantida e apenas a forma de dizer os nomes é alterada. Quando a sequência estiver bem praticada, o(a) facilitador(a) pode introduzir várias bolas da mesma cor no círculo, uma após a outra.
 
-**Fonte**:
+## **Variantes**:
+
+A partir daqui é que o jogo realmente começa. O(A) facilitador(a) pode introduzir outra cor no jogo e a bola, ou mais tarde as bolas dessa cor, são lançadas na sequência inversa. Outra bola de uma cor diferente pode simplesmente ser lançada no sentido horário e, inversamente, outra bola de outra cor no sentido anti-horário. Agora existem quatro cores diferentes e tantas bolas quantas o grupo conseguir gerir. Para levar as coisas ao extremo, o círculo é dissolvido e todos os participantes movem-se livremente pela sala! Agora é preciso saber qual bola vai para quem!
+
+## **Fonte**:
+
 Tasifan Spielebuch

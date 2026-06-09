@@ -7,23 +7,41 @@ publish: true
 tags:
   - spiele
 title: Bücherbalance
-description: 
+description: Ein ruhiges Balance-Spiel, bei dem Bücher auf Hand oder Fuß gehalten werden, während verschiedene Bewegungen ausprobiert werden.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: Bücher
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bücherbalance.md
-translation_source_hash: 72bc0150511b392c9ee30deb80e44010ea66c3c27545646167ec508ad5d9e23a
+translation_source_hash: 223f0455e096e26c3fb585a89357c161d96393a8d948e531c99dbfb40c3bf6b2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:30:58+00:00
+translation_updated: 2026-06-09T01:28:42+00:00
 ---
-# Balansovanie s knihou
+> [!info] Stručný popis
+> Pokojná balančná hra, pri ktorej sa drží kniha na ruke alebo nohe počas rôznych pohybových aktivít.
 
-Hra pre malé až stredne veľké skupiny:
+**Počet osôb**: 3-20 osôb
+**Náročnosť**: jednoduchá
+**Materiál**: knihy
+**Dĺžka hry**: 5-10 minút
 
-Každý účastník dostane knihu.
-Úlohou je pokúsiť sa vybalansovať knihu na dlani a zároveň zistiť, do akej miery môže pri tom pohybovať svojím telom (sadnúť si na zem, otočiť sa na bok, ľahnúť si na brucho, kotúľať sa do strany atď.).
-Keď sa to podarí, obtiažnosť sa dá zvýšiť položením knihy na chodidlo.
-Opäť sa skúma, aké pohyby sú možné bez toho, aby kniha spadla z chodidla.
+## **Popis hry**:
+
+Hra pre malé až stredne veľké skupiny.
+
+Každá osoba dostane knihu.
+Potom sa musí pokúsiť udržať knihu na dlani, pričom si vyskúša, do akej miery môže pri tom pohybovať svojím telom (sadnúť si na zem, otočiť sa na bok, ľahnúť si na brucho, kotúľať sa do strán...).
+Keď sa to podarí, náročnosť sa môže zvýšiť položením knihy na chodidlo.
+Opäť sa vyskúša, aké pohyby sú možné bez toho, aby kniha z chodidla spadla.
+
+## **Zdroj**:
+
+Neznámy

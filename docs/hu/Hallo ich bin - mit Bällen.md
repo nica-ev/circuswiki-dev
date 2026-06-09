@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Hallo, ich bin - mit Bällen
-description: 
+description: Eine Kennenlernübung im Kreis, bei der Namen mit individuellen Ballbewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,14 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin - mit Bällen.md
-translation_source_hash: 792187e09ae8b8d3435deda9c6597dcac4b4b7114527cf4383f48991e735dcc4
+translation_source_hash: d351dc062d6db08454b0cca37c5d1bc80959ca11a2364dc3c89a3bb1a6599dba
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:39:57+00:00
+translation_updated: 2026-06-09T01:42:56+00:00
 ---
 > [!info] Rövid leírás
-> A „Szia, én vagyok – labdával” egy játékos ismerkedő gyakorlat körben, amely összekapcsolja a neveket és a motoros készségeket, valamint elősegíti a csoportdinamikát.
+> Egy ismerkedős körjáték, ahol a neveket egyéni labdás mozdulatokkal kötjük össze.
 
-**Csoportméret**: Tetszőleges
+**Csoportméret**: 3-30 fő
 **Nehézség**: Könnyű
 **Anyag**: Minden résztvevőnek egy labda (azonos méretű)
 **Játékidő**: Kb. 10-15 perc
@@ -39,15 +39,15 @@ translation_updated: 2026-06-06T22:39:57+00:00
 
 Minden résztvevő körben áll. Mindenkinél van egy labda (kicsi vagy nagy, de minden labda azonos méretű legyen).
 
-Egyszerre mindenki belép a kör közepére, elvégez egy mozdulatot vagy trükköt a labdájával, és a nevén szólítva köszönti a többieket:
+Egyszerre, sorban mindenki belép a kör közepére, végez egy mozdulatot vagy trükköt a labdájával, és a nevén szólítva köszönti a többieket:
 
-„Szia, én vagyok Marci” -> (Példa: A labdát az egyik láb alatt átdobni, és a másik kézzel elkapni).
+„Szia, én Marc vagyok” -> (Példa: A labdát a lábad alatt átdobni, és a másik kezeddel elkapni).
 
-Ezután a személy visszalép a körbe.
+Ezután a játékos visszalép a körbe.
 
-Ezután mindenki más egy lépést tesz előre, megismétli a mozdulatot a labdával, és a személy nevén szólítva köszönti:
+Ekkor mindenki más egy lépést előre tesz, megismétli a labdás mozdulatot, és a nevén szólítva köszönti az illetőt:
 
-„Szia, Marci!” – (Ismételd meg a trükköt).
+„Szia, Marc!” – (Ismételd meg a trükköt).
 
 ## **Forrás**:
 

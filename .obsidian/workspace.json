@@ -4,20 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "3e3620bc35bef661",
+        "id": "6e26185ec138e88b",
         "type": "tabs",
         "children": [
           {
-            "id": "750b12d455ecefe4",
+            "id": "a1d490d6d429efd3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "type": "markdown",
+              "state": {
+                "file": "docs/de/index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "f48d8f7934078f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_dataview/dataview serializer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "dataview serializer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -110,9 +131,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "_dataview/dataview serializer.md"
+              },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften"
+              "title": "Dateieigenschaften von dataview serializer"
             }
           },
           {
@@ -151,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/nl/Aufwärmspiele MOC.md",
+                "file": "_dataview/dataview serializer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +184,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Aufwärmspiele MOC"
+              "title": "Rückverweise auf dataview serializer"
             }
           },
           {
@@ -213,54 +236,54 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "750b12d455ecefe4",
+  "active": "f48d8f7934078f19",
   "lastOpenFiles": [
-    "tools/translation/original_graph.py",
-    "tools/translation/link_repair_workflow.py",
-    "tools/translation/link_repair.py",
-    "tools/translation/cleanup.py",
-    "tools/tests/test_translation_cleanup.py",
-    "tools/tests/test_original_graph.py",
-    "tools/tests/test_link_repair_workflow.py",
-    "tools/tests/test_link_repair.py",
-    "tools/tests/test_dynamic_workflow.py",
-    "tools/dynamic_pages.py",
-    "tools/dynamic/workflow.py",
-    "docs/sk/komm-mit-lauf-weg.md",
-    "docs/nl/komm-mit-lauf-weg.md",
-    "docs/hu/komm-mit-lauf-weg.md",
-    "docs/es/komm-mit-lauf-weg.md",
-    "docs/en/komm-mit-lauf-weg.md",
-    "docs/de/komm-mit-lauf-weg.md",
-    "_inbox/Unbenannt 5.md",
-    "docs/sk/Komm mit, lauf weg.md",
-    "docs/pl/Komm mit, lauf weg.md",
-    "docs/hu/Komm mit, lauf weg.md",
-    "docs/en/sitemap.md",
-    "docs/el/Komm mit, lauf weg.md",
-    "docs/de/sitemap.md",
-    "docs/cs/Komm mit, lauf weg.md",
-    "docs/it/5-Step Methode.md",
-    "docs/de/5-Step Methode.md",
-    "docs/de/Spiele zum Kennenlernen.md",
-    "docs/pl/Spiele zum Kennenlernen.md",
-    "docs/de/Kartoffel Kartoffel.md",
-    "docs/en/Kartoffel Kartoffel.md",
-    "docs/de/Fangspiele.md",
-    "docs/cs/Fangspiele.md",
-    "docs/pl/Aufwärmspiele MOC.md",
-    "docs/nl/Schlangen Hasche.md",
-    "docs/cs/Schlangen Hasche.md",
-    "site/uk/assets/images/favicon.png",
-    "site/sk/assets/images/favicon.png",
-    "site/pt/assets/images/favicon.png",
-    "site/pl/assets/images/favicon.png",
-    "site/nl/assets/images/favicon.png",
-    "site/it/assets/images/favicon.png",
-    "site/hu/assets/images/favicon.png",
-    "site/es/assets/images/favicon.png",
-    "site/en/assets/images/favicon.png",
-    "site/el/assets/images/favicon.png",
+    "docs/sk/Verheiratet-Geschieden.md",
+    "docs/cs/Verheiratet-Geschieden.md",
+    "docs/pt/Verheiratet-Geschieden.md",
+    "docs/uk/Verheiratet-Geschieden.md",
+    "docs/es/Verheiratet-Geschieden.md",
+    "docs/el/Verheiratet-Geschieden.md",
+    "docs/nl/Verheiratet-Geschieden.md",
+    "docs/it/Verheiratet-Geschieden.md",
+    "docs/hu/Verheiratet-Geschieden.md",
+    "docs/pl/Verheiratet-Geschieden.md",
+    "docs/en/Verheiratet-Geschieden.md",
+    "docs/sk/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/cs/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/pt/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/uk/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/es/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/el/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/nl/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/it/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/hu/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/pl/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/en/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
+    "docs/pl/komm-mit-lauf-weg.md",
+    "docs/de/index.md",
+    "docs/de/Bewegungs-Spiele.md",
+    "docs/de/1-2-3.md",
+    "_bases/Spiele-Base.base",
+    "site/blog/posts/Taming Project Complexity/index.html",
+    "site/blog/posts/Zettelkasten, Wiki, and Beyond/index.html",
+    "site/blog/posts/Games - The Data Side/index.html",
+    "site/blog/posts/Taming Project Complexity",
+    "site/blog/posts/Zettelkasten, Wiki, and Beyond",
+    "site/blog/posts/Games - The Data Side",
+    "site/Ägyptisches Wurfspiel/index.html",
+    "site/Zuzwinkern/index.html",
+    "site/Zungenmörder/index.html",
+    "site/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/img/poland-03.jpg",
+    "site/img/poland-02.jpg",
+    "site/img/poland-01.jpg",
+    "site/img/nica-logo-simple-small-150x150.png",
+    "site/img/nica-background.jpg",
+    "site/img/monokyklo_feelingsafe_autism.jpg",
+    "site/img/monokyklo_colours_and_patterns.jpg",
+    "site/img/Kaskade-002-05.png",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

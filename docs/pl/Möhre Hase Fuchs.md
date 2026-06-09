@@ -7,7 +7,7 @@ tags:
 created: 2025-01-25 01:38:42
 update: 2025-03-25 20:34:19
 title: Möhre Hase Fuchs
-description: 
+description: Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
 authors:
   - Marc Bielert
 category:
@@ -24,14 +24,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Möhre Hase Fuchs.md
-translation_source_hash: 5d7454d4fcd6939f9929f343d63fe25eefa0b60aee60bb74a3088274415628dd
+translation_source_hash: 460c20f1d59f674b64f76620853e0007c48942688dd6ae6e01926c3841bde78d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:21:26+00:00
+translation_updated: 2026-06-09T02:07:14+00:00
 ---
-# Marchewka, Zając, Lis
-
-> [!info]+ Krótki opis
-> Ruchowa gra w łapanie dla większych grup, w której "zające" próbują przyciągnąć "marchewki" do swojej drużyny, podczas gdy "lisy" próbują im w tym przeszkodzić, łapiąc ich.
+> [!info] Krótki opis
+> Ruchliwa gra w łapanie dla większych grup, w której "króliczki" przyciągają marchewki do swojej drużyny, a "lisy" im w tym przeszkadzają.
 
 **Liczba graczy**: Od 15 osób
 **Poziom trudności**: Dość łatwy
@@ -40,21 +38,21 @@ translation_updated: 2026-06-06T20:21:26+00:00
 
 ## **Opis gry**:
 
-Na początku wyznacza się jednego do trzech graczy jako "lisy". Pozostali gracze dzielą się na dwie grupy: "zające" i "marchewki". "Marchewki" siedzą z wyciągniętymi nogami za linią. "Zające" startują za przeciwległą linią.
+Na początku wyznacza się jednego do trzech graczy jako "lisy". Pozostali gracze dzielą się na dwie grupy: "króliczki" i "marchewki". "Marchewki" siadają z wyciągniętymi nogami za linią. "Króliczki" startują za przeciwległą linią.
 
-Celem gry jest, aby "zające" przyciągnęły "marchewki" do swojej drużyny. Można to zrobić na dwa sposoby:
+Celem gry jest, aby "króliczki" przyciągnęły "marchewki" do swojej drużyny. Można to zrobić na dwa sposoby:
 
-1.  **Ciągnięcie**: "Zające" ciągną "marchewki" za nogi za linię "zająców". Gdy tylko "marchewka" zostanie przeciągnięta za linię, staje się "zającem".
-2.  **Przenoszenie w "wózku"**: "Zające" przenoszą "marchewki" w odwróconym "wózku" (na rękach, jak w transporcie wózka) przez teren gry na przeciwną stronę. Jeśli "marchewka" dotrze w ten sposób na drugą stronę, staje się "zającem".
+1. **Przeciąganie**: "Króliczki" ciągną "marchewki" za nogi za linię "króliczków". Gdy tylko "marchewka" zostanie przeciągnięta za linię, staje się "króliczkiem".
+2. **Przenoszenie w "wózku"**: "Króliczki" transportują "marchewki" w odwróconym "wózku" (pozycja na rękach i nogach) przez pole gry na przeciwną stronę. Gdy "marchewka" dotrze w ten sposób na drugą stronę, staje się "króliczkiem".
 
-"Lisy" próbują łapać "zające". Jeśli "zając" zostanie złapany (nawet podczas ciągnięcia lub przenoszenia "marchewki"), zamienia się w "marchewkę" i musi usiąść za linią "marchewek".
+"Lisy" próbują łapać "króliczki". Jeśli "króliczek" zostanie złapany (nawet podczas ciągnięcia lub transportowania "marchewki"), zamienia się w "marchewkę" i musi usiąść za linią "marchewek".
 
-"Zające" są bezpieczne za własną linią oraz za linią "marchewek". Nie mogą tam zostać złapane przez "lisy".
+"Króliczki" są bezpieczne za swoją własną linią oraz za linią "marchewek". W tych miejscach "lisy" nie mogą ich złapać.
 
 Gra kończy się, gdy:
 
-*   Wszyscy gracze staną się "marchewkami" ("lisy" wygrały).
-*   Wszyscy gracze staną się "zającami" ("zające" wygrały).
+- Wszyscy gracze staną się "marchewkami" ("lisy" wygrały).
+- Wszyscy gracze staną się "króliczkami" ("króliczki" wygrały).
 
 ## **Źródło**:
 

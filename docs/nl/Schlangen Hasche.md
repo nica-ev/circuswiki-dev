@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2026-06-08 23:41:01
+update: 2025-03-17 05:39:47
 title: Schlangen Hasche
-description: 
+description: Ein Fangspiel am Boden, bei dem gefangene Personen selbst zu Schlangen werden und die übrigen Mitspielenden fangen.
 authors:
   - Marc Bielert
 category:
@@ -23,19 +23,20 @@ group-max: "99"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schlangen Hasche.md
-translation_source_hash: 3dd0ae4c8ee96f8f34cf3e46f7acb467618ff6624a06a24f623f1205fe4eaa45
+translation_source_hash: b8e2fc0ad86afa535a4997f9fafec95de4c8d57ee454c8c7bc74849093ba9234
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:23:35+00:00
+translation_updated: 2026-06-09T02:15:01+00:00
 ---
-
-# Slangen Haken
+> [!info] Korte beschrijving
+> Een vangspel op de grond waarbij gevangen personen zelf slangen worden en de overgebleven spelers vangen.
 
 **Groepsgrootte**: vanaf 6 spelers
 **Moeilijkheidsgraad**: eenvoudig
 **Materiaal**: geen
-**Speelduur**: 5 tot 10 minuten
+**Speeltijd**: 5 tot 10 minuten
 
-**Spelbeschrijving**:
-Eén persoon wordt aangewezen als 'vanger'. Deze kruipt over de grond als een slang en probeert de andere spelers aan hun benen aan te tikken.
-Wanneer iemand getikt is, wordt deze persoon ook een slang.
-De persoon die als laatste nog op beide benen staat, wint het spel.
+## **Spelbeschrijving**:
+
+Eén speler wordt aangewezen als vanger. Deze kruipt over de grond als een slang en probeert de andere spelers aan hun benen aan te tikken.
+Wanneer een persoon wordt gevangen, wordt deze ook een slang.
+De persoon die als laatste nog op beide benen staat, wint.

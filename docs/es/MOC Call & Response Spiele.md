@@ -7,7 +7,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:51
-update: 2026-06-08 21:44:31
+update: 2026-06-09 02:16:29
 title: Call & Response - Spiele
 description: 
 authors:
@@ -15,9 +15,9 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/MOC Call & Response Spiele.md
-translation_source_hash: 9e658a48cd5275e8bcea2f47627a8ed3b8cc713e4a7c3e5e52b9b355d2d69ff4
+translation_source_hash: d0f0634536a9097ba8d8c2c38c1b2a0316eed5ebb55db85f6e5c8d87f6ab7517
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:19:12+00:00
+translation_updated: 2026-06-09T02:07:04+00:00
 ---
 # Llamada y Respuesta
 
@@ -33,7 +33,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                              | group-min | group-max | Dificultad | Material | Duración del juego |
 | ----------------------------------------------------------------- | --------- | --------- | ---------- | -------- | ------------------ |
-| [La historia del plátano](<Die%20Geschichte%20der%20Banane.md>) | -         | -         | -          | -        | -                  |
-| [Caza de leones](<L%C3%B6wenjagd.md>)                                  | -         | -         | -          | -        | -                  |
+| [La historia del plátano](<Die%20Geschichte%20der%20Banane.md>) | 4         | 99        | fácil      | ninguno  | 5-10               |
+| [Caza de leones](<L%C3%B6wenjagd.md>)                                  | 4         | 99        | fácil      | ninguno  | 5-10               |
 
 <!-- dynamic:end -->

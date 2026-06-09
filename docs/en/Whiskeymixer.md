@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: 
+description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 3-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Whiskeymixer.md
-translation_source_hash: 5bb55b901c9ef9bf07e01a2bb368becfe2b159ee7da7e7dc0cacd9effb66130c
+translation_source_hash: 94393da6b70f6d8b26d2718fbbb8ade735da2dbeaead0b31cdcba5fbaeaeab7f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:54+00:00
+translation_updated: 2026-06-09T02:36:52+00:00
 ---
-# Whiskey Mixer
+> [!info] Brief Description
+> A circle-based language and reaction game where difficult words are passed around without laughing or stumbling over them.
 
-**Group Size**: 5 or more players
+**Group Size**: 5 or more participants
 **Difficulty**: Medium (language-wise)
 **Materials**: None
-**Playing Time**: 3 to 10 minutes
+**Game Duration**: 3 to 10 minutes
 
-**Game Description**:
-Everyone stands in a circle. One person starts by saying the word "Whiskey Mixer" to the person on their right. That player then says "Whiskey Mixer" to their right neighbor, and so on. If anyone in the circle laughs or makes a mistake at any point during the game, they must run all the way around the circle and return to their starting position. If it was that player's turn at that moment, they would simply be skipped. The direction of play can be changed by saying the word "Messwechsel" (which translates to "measurement change"). If the game is currently going to the left, players must say "Wachsmaskenmacher" (which translates to "wax mask maker") to their left neighbor instead of "Whiskey Mixer."
+## **Game Description**:
 
-**Source**:
+Everyone stands in a circle. One person starts by saying the word "Whiskeymixer" to their neighbor on the right. Then, that player says "Whiskeymixer" to their own right-hand neighbor, and so on. If anyone in the circle laughs or stumbles over their words at any point during the game, they must run around the entire circle and return to their starting position. If it would have been that player's turn at that moment, they are simply skipped. Now, the word "Messwechsel" can be used to change the direction. If the game is proceeding clockwise, you must say "Wachsmaskenmacher" to your left-hand neighbor instead of "Whiskeymixer."
+
+## **Source**:
+
 Tasifan Spielebuch

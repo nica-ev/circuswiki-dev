@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
 title: Eisbär auf der Scholle
-description: 
+description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 authors:
   - Marc Bielert
 category:
@@ -22,26 +22,24 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eisbär auf der Scholle.md
-translation_source_hash: 77871035b928d57d11ac0a8c52f91fa152f871c6be73b90b69e3e1694cbe8d3c
+translation_source_hash: 40b1f156692a45237de5c0f050a876ce1875d709e7982c01fc413932302b2b10
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:00:51+00:00
+translation_updated: 2026-06-09T01:35:36+00:00
 ---
-# Orso polare sulla banchisa
-
 > [!info] Breve descrizione
-> Un gioco motorio cooperativo e competitivo in cui i giocatori cercano insieme di spingere un tappetino (la "banchisa") attraverso il campo di gioco, mentre un "orso polare" cerca di impedirglielo.
+> Un gioco di movimento in cui il gruppo spinge una materassina come un iceberg, mentre un orso polare cerca di fermarli.
 
-**Dimensioni del gruppo**: Da 10 partecipanti in su
+**Numero di partecipanti**: Da 10 giocatori in su
 **Difficoltà**: Media
-**Materiale**: Un tappetino spesso
+**Materiale**: Una materassina spessa
 **Durata del gioco**: 5-10 minuti
 
 ## **Descrizione del gioco**:
-Il conduttore del gioco o un giocatore si siede sul tappetino spesso e rappresenta l'orso polare sulla sua banchisa. La banchisa si trova su una linea di partenza e, all'altra estremità del campo di gioco, a una certa distanza, si trova la linea del traguardo.
+Il conduttore del gioco o un giocatore si siede sulla materassina spessa e rappresenta l'orso polare sulla sua banchisa di ghiaccio. La banchisa di ghiaccio si trova su una linea di partenza e, all'altra estremità del campo di gioco, a una certa distanza, si trova la linea del traguardo.
 
-I giocatori cercano di spingere la banchisa dalla linea di partenza alla linea del traguardo. Tuttavia, all'orso polare questo non va affatto bene, perché vuole solo stare in pace. Perciò, cerca di toccare i giocatori che spingono. Chi viene toccato deve correre completamente indietro alla linea di partenza e, opzionalmente, eseguire anche una piccola penalità (ad esempio, cinque salti in lungo o simili). Solo allora potrà tornare alla banchisa e cercare di spingerla ulteriormente verso il traguardo.
+I giocatori cercano di spingere la banchisa dalla linea di partenza fino alla linea del traguardo. Tuttavia, all'orso polare questo non va affatto bene, perché vuole solo stare in pace. Perciò, cerca di toccare i giocatori che spingono. Chi viene toccato deve correre completamente fino alla linea di partenza e, facoltativamente, eseguire una piccola penitenza (ad esempio, cinque salti a gambe unite o simili). Solo allora potrà tornare alla banchisa e cercare di spingerla ulteriormente verso il traguardo.
 
-Se la banchisa raggiunge il traguardo, l'orso polare si arrende ed esce dalla sua banchisa. Con un numero sufficiente di giocatori, il gioco può anche essere giocato da due gruppi l'uno contro l'altro come una gara di banchise.
+Se la banchisa raggiunge il traguardo, l'orso polare si arrende ed abbandona la sua banchisa di ghiaccio. Con un numero sufficiente di giocatori, il gioco può anche essere giocato da due gruppi l'uno contro l'altro come una gara di banchise di ghiaccio.
 
 ## **Fonte**:
 Tasifan Spielebuch

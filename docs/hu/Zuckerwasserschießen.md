@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zuckerwasserschießen
-description: 
+description: Ein Namens-Reaktionsspiel, bei dem imaginäre Zuckerwasserpistolen schnelle Namensduelle auslösen.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: "20"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuckerwasserschießen.md
-translation_source_hash: 08069a4f5cf80fb8bf9d72eb1ae8d3ad00d6f765902560aeab3c172085050e74
+translation_source_hash: 1a88f49a65ac24a6c56fb0fd34f18d994b057ad62eeac125309325383d8da802
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:56:02+00:00
+translation_updated: 2026-06-09T02:39:30+00:00
 ---
-# Cukrosvízzel lövöldözés
+> [!info] Rövid leírás
+> Egy névfelismerő játék, ahol képzeletbeli cukrosvizes pisztolyok gyors névi párbajokat robbantanak ki.
 
-**Csoportméret**: 6–20 játékos
+**Csoportméret**: 6-20 játékos
 **Nehézség**: kissé nehezebb
 **Anyag**: nincs
 **Játékidő**: kb. 7 perc
 
-**Játékleírás**:
-Minden játékosnak van egy képzeletbeli pisztolya, ami cukros vízzel van töltve. Mivel a cukros víz rettenetesen összeragasztja a hajat, senki sem szeretné, ha eltalálnák. Az egyik játékos kezdi, és a körben ülő, nem szomszédos játékosok egyikének a nevét mondja ki, miközben a képzeletbeli pisztolyával rálő. A megtámadott játékosnak a lehető leggyorsabban el kell hajolnia, különben eltalálják, és kiesik. Ha azonban időben elhajol, akkor a játékos szomszédai kerülnek sorra, és párbajozniuk kell. Nekik is a lehető leggyorsabban kell "lelőniük" egymást, kimondva a másik nevét. Aki elveszíti a párbajt, leül. Ezután az kerül sorra, akit eredetileg "lelőttek", és ő nevezhet meg és "lőhet le" egy másik játékost (nem a szomszédját). Mivel folyamatosan kiesnek emberek, állandóan új szomszédok lesznek, és más neveket kell mondani; a játék ezért kiválóan alkalmas a játékostársak nevének megjegyzésére.
+## **Játék leírása**:
 
-**Forrás**:
+Minden játékosnak van egy képzeletbeli, cukros vízzel töltött pisztolya. Mivel a cukros víz rettenetesen összeragasztja a hajat, senki sem szeretné, hogy találat érje. Az egyik játékos kezdi, és a körben ülő, nem szomszédos játékos nevét mondja ki, miközben rá céloz a képzeletbeli pisztolyával. A megtámadott játékosnak a lehető leggyorsabban el kell hajolnia; ha nem teszi, eltalálták, és kiesik. Ha azonban időben elhajol, a játékos szomszédai kerülnek sorra, és párbajozniuk kell. Nekik is a lehető leggyorsabban kell "lelőniük" egymást a másik nevét kimondva. Aki elveszíti a párbajt, leül. Ezután az eredetileg "lelőtt" játékos következik, és (nem a szomszédját) másvalaki nevét kimondva "lelőhet" valakit. Mivel folyamatosan kiesnek emberek, állandóan új szomszédok alakulnak ki, és más neveket kell mondani; a játék ezért kiválóan alkalmas a játékosok neveinek megjegyzésére.
+
+## **Forrás**:
+
 Tasifan Spielebuch

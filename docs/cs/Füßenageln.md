@@ -7,31 +7,41 @@ tags:
 created: 2025-01-25 01:57:09
 update: 2026-06-07 01:14:58
 title: Füßenageln
-description: 
+description: Ein Bewegungsspiel, bei dem alle versuchen, die Füße anderer Personen festzunageln und selbst beweglich zu bleiben.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Füßenageln.md
-translation_source_hash: a851c1888efc3fdc9e5ab26d97093e5b8f4e5e95debba05584324b194c96f7df
+translation_source_hash: 5f6f2334066fbb0a9cf90f04b4c89b3ea2f3fb58daac5252408a87e3217061ae
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:45:45+00:00
+translation_updated: 2026-06-09T01:39:58+00:00
 ---
-# Přibíjení chodidel
+> [!info] Stručný popis
+> Pohybová hra, při které se všichni snaží "přibít" nohy ostatních a zároveň zůstat v pohybu.
 
-Velikost skupiny: od 5 hráčů
-Obtížnost: snadná
-Materiál: žádný
-Délka hry: 5-10 minut
+**Velikost skupiny**: od 5 osob
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 5-10 minut
 
-Každý hráč se snaží svýma rukama dotknout chodidel ostatních hráčů. Platí tedy: Každý proti každému.
+## **Popis hry**:
 
-Pokud se hráči podaří dotknout chodidla jiného hráče, je toto chodidlo na zemi „přibito“. To znamená, že s tímto chodidlem se již nelze pohnout z místa. S druhým – volným chodidlem – se však lze stále pokoušet uhýbat. Kromě toho lze kdykoli dotýkat i jiných chodidel.
-Základní podmínka této hry: všichni volní hráči se musí stále pohybovat!
+Každý hráč se snaží dotknout rukama nohou ostatních hráčů. Platí tedy: Každý proti každému.
 
-Hra končí, když už nikdo, nebo jen ještě jeden hráč, nemá dvě volná chodidla.
+Pokud se hráči podaří dotknout nohy jiného hráče, je tato noha "přibita" k zemi. To znamená, že s touto nohou se již nelze pohnout z místa. S druhou – volnou nohou – se však lze stále pokoušet uhýbat. Navíc lze kdykoli "přibít" i další nohy.
+Základní podmínkou této hry je: všichni volní hráči se musí neustále pohybovat!
 
-Zdroj:
+Hra končí, když už nikdo, nebo jen jeden hráč, nemá dvě volné nohy.
+
+## **Zdroj**:
+
 Tasifan Spielebuch

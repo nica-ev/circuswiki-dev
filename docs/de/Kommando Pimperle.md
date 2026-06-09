@@ -7,17 +7,29 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:39:12
 title: Kommando Pimperle
-description: 
+description: Ein Reaktionsspiel, bei dem Kommandos nur ausgeführt werden dürfen, wenn sie mit dem Signalwort angesagt werden.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-# Kommando Pimperle
+> [!info] Kurzbeschreibung
+> Ein Reaktionsspiel, bei dem Kommandos nur ausgeführt werden dürfen, wenn sie mit dem Signalwort angesagt werden.
 
-Spiel für jede Gruppengröße:
+**Gruppengröße**: ab 3 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Alle Personen setzen sich in einem Kreis zusammen.
 Die Hände werden in die Mitte gestreckt und mit den Zeigefingern auf den Boden getrommelt.
@@ -31,7 +43,9 @@ Nun dürfen diese Kommandos jedoch nur ausgeführt werden, wenn der Spielleiter 
 Sagt er es nicht, sondern nur das Kommando selbst (z.B. "Faust"), muss weiter mit den Fingern auf dem Boden getrommelt werden. Der Spielleiter darf das Kommando jedoch immer ausführen, um die Mitspieler zu verwirren.
 Macht jemand einen Fehler, muss er/sie eine Runde um den Kreis rennen.
 
-Variation: Das Spiel kann auch im Stehen gespielt werden.
+## **Varianten**:
+
+Das Spiel kann auch im Stehen gespielt werden.
 Dafür wird anstatt des Trommelns, auf der Stelle gelaufen. Die Kommandos werden nun mit dem Körper ausgeführt.
 - flach (auf den Bauch legen)
 - Rücken (auf den Rücken legen)
@@ -43,3 +57,6 @@ Nach jedem Ausführen der Kommandos wird weiter auf der Stelle gelaufen.
 Die Kommandos können auch der Altersgruppe angepasst werden.
 Für Kleinkinder kann man beispielsweise Tierbewegungen (Frosch, Schlange, Elefant…) verwenden.
 
+## **Quelle**:
+
+Unbekannt

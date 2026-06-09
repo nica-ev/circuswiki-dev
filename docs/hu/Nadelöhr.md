@@ -7,34 +7,56 @@ publish: true
 tags:
   - spiele
 title: Nadelöhr
-description: 
+description: Ein langsames Wahrnehmungsspiel im Kreis, bei dem alle mit geschlossenen Augen vorsichtig die gegenüberliegende Seite suchen.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Nadelöhr.md
-translation_source_hash: f6fb1e91f5df347242719bd0ccfd34404bdba7ce81126d57f34c04aaa8e8fb0b
+translation_source_hash: e5631ab3e18d733dc15d215615ef406d505b602aef77986b21fdb89bb98f4ea6
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:47:55+00:00
+translation_updated: 2026-06-09T02:08:08+00:00
 ---
-# Tűfok
+> [!info] Rövid leírás
+> Egy lassú, körben játszott érzékelő játék, amelyben mindenki csukott szemmel óvatosan keresi az átellenes oldalt.
 
-Játék kisebb és nagyobb csoportok számára.
+**Csoportméret**: 5-30 fő
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-Jól használható előkészületként a [Krumpli Krumpli](Kartoffel%20Kartoffel.md) játékhoz.
+## **Játék leírása**:
+
+Kis- és nagycsoportok számára is alkalmas játék.
+
+Jól használható előkészületként a [Krumpli Krumpli](Kartoffel%20Kartoffel.md) nevű játékhoz.
 
 Mindenki álljon egy körben.
 Fontos:
-Csak lassan szabad mozogni – jó, ha ezt előre hangsúlyozzuk, hogy ebben a játékban mindenki csak időhúzó módon mozog, mint a csigák, és csak rendkívül lassan tud haladni.
+Csak lassan szabad mozogni – jó, ha ezt előre hangsúlyozzuk, hogy ebben a játékban mindenki csak időlassítva mozog, mint egy csiga, és csak rendkívül lassan tud haladni.
 
-Mindenki keressen magának egy pontot a kör átellenes oldalán. Ezután csukják be a szemüket, és képzeljék el maguk elé a kört. Parancsra mindenki LASSAN elindul, és megpróbál átjutni a másik oldalra.
-Amikor úgy gondolják, hogy elérték a másik oldalt, forduljanak meg, és nyissák ki a szemüket.
+Mindenki jelöljön ki egy pontot a kör átellenes oldalán. Ezután csukják be a szemüket, és képzeljék el maguk előtt a kört. Egy jelre mindenki LASSAN induljon el, és próbáljon átjutni a másik oldalra.
+Amikor úgy gondolja, hogy elérte a másik oldalt, forduljon meg, és nyissa ki a szemét.
 
-A cél az, hogy a csoport tagjai ismét kört alkossanak.
-Fontos: A szemeket mindaddig csukva kell tartani, amíg el nem érik a másik oldalt.
-Óvatosan és lassan haladjanak.
+A cél, hogy a csoport tagjai ismét kört alkossanak.
+Fontos: A szemeket mindvégig csukva kell tartani, amíg el nem érte a másik oldalt.
+Óvatosan és lassan haladjon.
 
-A játék azért kapta a Tűfok nevet, mert a játékosok a kör közepén találkoznak, és csukott szemmel kell egymás mellett elhaladniuk anélkül, hogy elveszítenék a tájékozódási képességüket.
+A játék neve azért Tűlyuk, mert a játékosok a közepén találkoznak, és csukott szemmel kell egymás mellett elhaladniuk anélkül, hogy elveszítenék a tájékozódási képességüket.
+
+## **Forrás**:
+
+Ismeretlen
+
+## **Hivatkozások**
+
+[Krumpli Krumpli](Kartoffel%20Kartoffel.md)

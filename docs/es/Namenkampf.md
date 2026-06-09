@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,25 +23,23 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:09:17+00:00
+translation_updated: 2026-06-09T02:08:35+00:00
 ---
-# Lucha de nombres
-
 > [!info] Breve descripción
-> "Lucha de nombres" es un juego de nombres rápido y divertido para cualquier tamaño de grupo, en el que se trata de decir el nombre del oponente más rápido para incorporarlo al propio equipo.
+> Un duelo de nombres con barrera visual, en el que dos equipos intentan decir el nombre del oponente más rápido.
 
-**Tamaño del grupo**: Cualquiera (dividido en dos equipos de igual tamaño)
+**Tamaño del grupo**: 10-30 personas
 **Dificultad**: Fácil
 **Material**: Una tela (u otra barrera visual)
-**Duración del juego**: Aproximadamente 10-15 minutos
+**Duración del juego**: Aprox. 10-15 minutos
 
 ## **Descripción del juego**:
 
 Se forman dos equipos de igual tamaño. Se sostiene una tela (u otra barrera visual) entre los equipos, de modo que no puedan verse mutuamente.
 
-Ahora, una persona de cada equipo se coloca detrás de la tela. El director del juego cuenta "1-2-3" y deja caer la tela.
+De cada equipo, una persona se coloca detrás de la tela. El director del juego cuenta "1-2-3" y deja caer la tela.
 
 Las personas que ahora se enfrentan deben decir el nombre de la otra persona lo más rápido posible. El ganador del "duelo de nombres" puede incorporar al perdedor a su equipo.
 

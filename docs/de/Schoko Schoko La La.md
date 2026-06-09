@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:40:45
 title: Schoko Schoko La La
-description: 
+description: Ein kurzes Klatschspiel für zwei Personen, bei dem Handflächen, Handrücken und Fäuste rhythmisch wechseln.
 authors:
   - Marc Bielert
 category:
@@ -22,11 +22,20 @@ group-max: "2"
 translation_status: original
 translation_source_lang: de
 ---
-# Schoko Schoko La La
+> [!info] Kurzbeschreibung
+> Ein kurzes Klatschspiel für zwei Personen, bei dem Handflächen, Handrücken und Fäuste rhythmisch wechseln.
+
+**Gruppengröße**: 2 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 2-5 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Klatschspiel für 2 Personen.
 
-Text:
+### Text
+
 Schoko Schoko La La
 Schoko Schoko De De
 Schoko La
@@ -35,5 +44,8 @@ Schoko La De
 
 Bei "Schoko" werden die Hände mit den Handflächen zusammengeklatscht.
 Bei "La" werden sie mit dem Handrücken zusammengeklatscht.
-Bei "De" werden die Fäuste zusammengeklatscht.e
+Bei "De" werden die Fäuste zusammengeklatscht.
 
+## **Quelle**:
+
+Unbekannt

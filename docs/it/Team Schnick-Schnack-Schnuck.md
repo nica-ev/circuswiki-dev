@@ -7,30 +7,37 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:28
 title: Team Schnick-Schnack-Schnuck
-description: 
+description: Ein Team-Reaktionsspiel, bei dem Gruppen Figuren wählen und nach dem Aufdecken fangen oder fliehen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 14
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Team Schnick-Schnack-Schnuck.md
-translation_source_hash: 0ba779354fde33196e724712a58473c51b1db62f75aba46c78f7c78b092f3758
+translation_source_hash: 7fbcc80cc52bc0bb95abc28412b679168cc17e41f8e54b76b4c4179acbbd68c8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:12+00:00
+translation_updated: 2026-06-09T02:30:31+00:00
 ---
-# **Team Sasso-Carta-Forbice (o simili)**
+> [!info] Breve descrizione
+> Un gioco di reazione di squadra in cui i gruppi scelgono delle figure e, dopo averle rivelate, si inseguono o scappano.
 
-**Dimensioni del gruppo**: Da 14 giocatori in su
+**Dimensione del gruppo**: Da 14 giocatori in su
 **Difficoltà**: Semplice
 **Materiale**: Nessuno
 **Durata del gioco**: circa 10 minuti
 
 ## **Descrizione del gioco**:
 
-Tutti i giocatori vengono divisi in due gruppi di uguali dimensioni. Il conduttore ha precedentemente stabilito tre figure diverse, ognuna con un suono e una posa caratteristici. Ad esempio, potrebbero essere: Drago, Principessa e Cavaliere. È importante che sia logicamente chiaro chi vince contro chi, proprio come in Sasso-Carta-Forbice. Come esempio: il Drago rapisce facilmente la Principessa, il Cavaliere sconfigge il Drago e la Principessa seduce il Cavaliere. Le due squadre formate si consultano ora su quale delle tre figure scegliere. Successivamente, i gruppi si incontrano al centro del campo di gioco e si dispongono in fila uno di fronte all'altro, a una distanza di circa due bracci. Il conduttore conta alla rovescia da tre e a zero le due squadre mostrano la loro figura. La squadra la cui figura ha sconfitto quella dell'altra squadra può ora tentare di "toccare" (o "acchiappare") i giocatori della squadra perdente. La squadra perdente cerca di salvarsi dietro la propria linea di partenza sul campo di gioco. Chi viene toccato prima, cambia squadra.
+Tutti i giocatori vengono divisi in due gruppi di uguali dimensioni. Il conduttore ha precedentemente stabilito tre figure diverse con un suono e una posa. Ad esempio, potrebbero essere: Drago, Principessa e Cavaliere. È importante che sia logicamente chiaro chi vince contro chi, come in Morra Cinese. Come esempio: il Drago rapisce facilmente la Principessa, il Cavaliere sconfigge il Drago e la Principessa seduce il Cavaliere. Le due squadre formate si consultano ora su quale delle tre figure scegliere. Successivamente, i gruppi si incontrano al centro del campo di gioco e si dispongono in fila uno di fronte all'altro, a una distanza di circa due bracci. Il conduttore conta alla rovescia da tre e a zero i due gruppi mostrano la loro figura. La squadra la cui figura ha sconfitto quella dell'altra squadra, può ora tentare di toccare i giocatori della squadra che ha perso. La squadra perdente cerca di salvarsi dietro la propria linea di partenza del campo di gioco. Chi viene toccato prima, cambia squadra.
 
-Le figure possono essere inventate liberamente in base all'umore, al desiderio e all'eventuale tema prestabilito. L'importante è che la posa e il suono di ciascuna figura si distinguano bene dalle altre.
+Le figure possono essere inventate liberamente secondo il desiderio, l'umore e l'eventuale tema. L'importante è che la posa e il suono di ciascuna figura si distinguano bene dalle altre figure.
 
 ## **Fonte**:
 

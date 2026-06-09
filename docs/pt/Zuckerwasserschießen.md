@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zuckerwasserschießen
-description: 
+description: Ein Namens-Reaktionsspiel, bei dem imaginäre Zuckerwasserpistolen schnelle Namensduelle auslösen.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: "20"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuckerwasserschießen.md
-translation_source_hash: 08069a4f5cf80fb8bf9d72eb1ae8d3ad00d6f765902560aeab3c172085050e74
+translation_source_hash: 1a88f49a65ac24a6c56fb0fd34f18d994b057ad62eeac125309325383d8da802
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:34:52+00:00
+translation_updated: 2026-06-09T02:39:42+00:00
 ---
-# Tiro de Água com Açúcar
+> [!info] Breve Descrição
+> Um jogo de reação com nomes, onde pistolas imaginárias de água com açúcar desencadeiam duelos rápidos de nomes.
 
-**Tamanho do grupo**: 6 a 20 participantes
+**Tamanho do Grupo**: 6 a 20 participantes
 **Dificuldade**: um pouco mais difícil
 **Material**: nenhum
-**Duração do jogo**: aprox. 7 minutos
+**Duração do Jogo**: aprox. 7 minutos
 
-**Descrição do jogo**:
-Todos os jogadores têm uma pistola imaginária cheia de água com açúcar. Como água com açúcar gruda terrivelmente no cabelo, ninguém quer ser atingido por ela. Um jogador começa e diz o nome de um jogador do círculo que não seja seu vizinho, ao mesmo tempo em que "atira" nele com sua pistola imaginária. O jogador atacado deve se abaixar o mais rápido possível; caso contrário, ele é atingido e é eliminado. Se ele se abaixar a tempo, os vizinhos desse jogador entram em ação e devem duelar. Eles também devem "atirar" um no outro o mais rápido possível, dizendo o nome do outro. Quem perder o duelo senta-se. Agora é a vez de quem foi "atropelado" originalmente, e ele pode nomear e "atirar" em outra pessoa (que não seja seu vizinho). Como as pessoas são eliminadas constantemente, os vizinhos mudam e é preciso dizer outros nomes. Por isso, o jogo é excelente para memorizar os nomes dos participantes.
+## **Descrição do Jogo**:
 
-**Fonte**:
+Todos os jogadores têm uma pistola imaginária cheia de água com açúcar. Como água com açúcar é pegajosa e desagradável no cabelo, ninguém quer ser atingido. Um jogador começa, diz o nome de outro jogador do círculo que não seja seu vizinho, e ao mesmo tempo aponta a sua pistola imaginária para ele. O jogador visado deve agachar-se o mais rápido possível; caso contrário, é atingido e é eliminado. Se ele se agachar a tempo, os vizinhos desse jogador entram em ação e devem duelar. Eles também devem "disparar" um contra o outro o mais rápido possível, dizendo o nome do outro. Quem perder o duelo senta-se. Agora é a vez do jogador que foi originalmente visado, e ele pode chamar pelo nome de outra pessoa (não do seu vizinho) e "disparar". Como as pessoas são eliminadas constantemente, os vizinhos mudam e é preciso dizer outros nomes. Por isso, o jogo é excelente para memorizar os nomes dos participantes.
+
+## **Fonte**:
+
 Tasifan Spielebuch

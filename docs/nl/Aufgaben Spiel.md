@@ -5,37 +5,54 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2026-06-07 01:33:04
+update: 2026-06-07 00:02:10
 title: Aufgaben Spiel
-description: 
+description: Ein Gruppenaufgabenspiel, bei dem Personen gemeinsam Körperkontaktpunkte und Gruppengrößen passend zu Ansagen lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-15
+source: unbekannt
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Aufgaben Spiel.md
-translation_source_hash: 1cd51cf1f1eaaf1f3f5d8b7d6c6d871be265a4f92faec46dc22658f18f6326c5
+translation_source_hash: 6b7889aa52924fe12397ea06c7514bf7bfcd1cd877c0ee895ba8d47a3376cf7c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:11:24+00:00
+translation_updated: 2026-06-09T01:21:57+00:00
 ---
+> [!info] Korte beschrijving
+> Een groepsopdrachtspel waarbij deelnemers gezamenlijk lichaamscontactpunten en groepsgroottes moeten vormen die passen bij de opdrachten.
 
-# Opdrachten Spel
+**Groepsgrootte**: 4-30 personen
+**Moeilijkheidsgraad**: gemiddeld
+**Materiaal**: geen
+**Speeltijd**: 5-15 minuten
 
-Spel voor elke groepsgrootte:
+## **Spelbeschrijving**:
 
-Alle personen lopen door de ruimte.
+Dit spel is geschikt voor elke groepsgrootte.
 
-De spelleider roept luid een opdracht om, bijvoorbeeld "4 personen, 3 hoofden, 6 benen".
+Alle deelnemers lopen door de ruimte.
 
-Nu moeten de spelers zich snel in groepen van 4 vinden. Ze moeten hun hoofden op de grond leggen en met hun voeten ook de grond raken. Twee personen mogen daarbij echter maar op één been staan, zodat de opdracht "6 benen" is vervuld.
+De spelleider kondigt luid een opdracht aan, bijvoorbeeld: "4 personen, 3 hoofden, 6 benen".
+
+De spelers moeten zich nu snel in groepen van 4 vormen. Ze moeten hun hoofden op de grond leggen en ook hun voeten de grond laten raken. Twee personen mogen daarbij echter maar op één been staan, zodat de opdracht "6 benen" is volbracht.
 
 De volgende opdracht luidt: "2 personen, 2 benen, 4 handen, 2 neuzen".
 
-Nu moeten duo's van 2 gevormd worden. Beide personen moeten op één been staan, de handen en de neus op de grond leggen.
+Nu moeten er duo's gevormd worden. Beide personen moeten op één been staan en hun handen en neus op de grond leggen.
 
 …
 
-De opdrachten kunnen eenvoudig beginnen en van ronde tot ronde worden verzwaard.
+De opdrachten kunnen eenvoudig beginnen en van ronde tot ronde moeilijker worden.
 
-Het spel kan eindigen wanneer een opdracht niet meer door iedereen kan worden vervuld.
+Het spel kan eindigen wanneer een opdracht niet meer door iedereen kan worden uitgevoerd.
+
+## **Bron**:
+
+Onbekend

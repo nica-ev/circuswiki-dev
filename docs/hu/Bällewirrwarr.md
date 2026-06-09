@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Bällewirrwarr
-description: 
+description: Ein Namens- und Ballspiel, bei dem feste Wurfreihenfolgen mit mehreren Ballfarben immer komplexer werden.
 authors:
   - Marc Bielert
 category:
@@ -22,22 +22,26 @@ group-max: "15"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bällewirrwarr.md
-translation_source_hash: 4122048aa52e12484941e8511993405326a798bc8d90e5fc832e1d64eadcf17d
+translation_source_hash: 9fb9ac30105207a2f62e66d99c130c1f089754da57936540b5dfb0f39cfd8901
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:33:44+00:00
+translation_updated: 2026-06-09T01:23:57+00:00
 ---
-# Labirintus labdákkal
+> [!info] Rövid leírás
+> Egy név- és labdajáték, amelyben a fix dobási sorrendek többféle labdával egyre bonyolultabbá válnak.
 
-**Csoportlétszám**: 5-15 játékos
+**Csoportméret**: 5–15 játékos
 **Nehézség**: könnyűtől nehézig (a játékban lévő labdák számától függően)
-**Eszközök**: labdák (több, azonos színű labda)
+**Anyag**: labdák (mindegyikből több egyforma színű)
 **Játékidő**: kb. 10 perc
 
-**Játékszabály**:
-Ebben a játékban minden játékos körben áll. Ha a játékosok egyáltalán nem ismerik egymás nevét, az alábbi bevezető kört ajánljuk: A játékvezető kezdi, hangosan kimondja a nevét, majd átdob egy labdát valakinek a körben. A legjobb, ha a dobás előtt világos szemkontaktust létesítünk, és alulról, ívben dobjuk a labdát. Most a játékvezető leül vagy a fejére teszi a kezét. Ez csak azért van, hogy mindenki felismerje, hogy ő már dobott. Aki most fogja a labdát, ugyanúgy folytatja, ahogy a játékvezető dobott, körbe-körbe. Az utolsó játékos visszadobja a labdát a játékvezetőnek. Most már világos a sorrend, a leülést/fejére tett kezet el lehet hagyni, és a sorrendet gyakorolni lehet. Közben ne felejtsük el kimondani a játékostársak nevét! Ha ez nagyjából biztonságos, új sorrendet lehet felállítani. Ez ugyanazon az elven történik, mint fentebb, csak most azt a játékost nevezzük meg, akinek a labdát szánjuk, és nem a saját nevünket mondjuk. Alternatívaként a régi sorrend is megtartható, és csak a névkihívás változik. Ha a sorrendet jól begyakorolták, a játékvezető több, azonos színű labdát dobhat be egymás után a körbe.
+## **Játékleírás**:
 
-**Bővítés**:
-Innentől kezdődik igazán a játék. A játékvezető behozhat egy újabb színt, és az adott színű labdát, vagy később az adott színű labdákat, hátrafelé kell dobni a sorrendben. Egy másik színű labdát egyszerűen az óramutató járásával megegyező irányban lehet dobálni, és ezzel ellentétesen egy újabb színű labdát az óramutató járásával ellenkező irányban. Most már négy különböző szín van, és annyi labda, amennyit a csoport elbír. Hogy mindent a csúcsra pörgessünk, a kört fel kell bontani, és minden játékos szabadon mozoghat a teremben! Most már tudni kell, melyik labda kinek kell!
+Ebben a játékban minden játékos körben áll. Ha a játékosok egyáltalán nem ismerik egymás nevét, az alábbi kezdőkört ajánljuk: A játékvezető kezdi, hangosan kimondja a nevét, majd egy labdát átdob valakinek a körben. A legjobb, ha a dobás előtt világos szemkontaktust létesítünk, és alulról, ívben dobjuk a labdát. Most a játékvezető leül, vagy a fejére teszi a kezét. Ez csak arra szolgál, hogy minden játékos felismerje, hogy ő már sorra került. Aki most a labdát kapja, ugyanúgy folytatja, ahogy a játékvezető dobott, ez körbe halad. Az utolsó játékos visszadobja a labdát a játékvezetőnek. Most már világos a sorrend, a leülés/fejére tett kéz elhagyható, és a sorrend gyakorolható. Közben nem szabad megfeledkezni a játékostársak nevének kimondásáról! Ha ez nagyjából biztonságos, új sorrendet lehet felállítani. Ez ugyanazon az elven történik, mint fent, csak most azt a játékost nevezzük meg, akinek a labdát szánjuk, és nem a saját nevünket mondjuk. Alternatívaként a régi sorrend is megtartható, és csak a névkihívás változik. Ha a sorrendet jól begyakorolták, a játékvezető több, azonos színű labdát dobhat be egymás után a körbe.
 
-**Forrás**:
+## **Változatok**:
+
+Innentől kezdve igazán csak most indul be a játék. A játékvezető behozhat egy újabb színt, és ennek a színnek a labdáját, vagy később a labdáit, hátrafelé dobálják a sorrendben. Egy másik színű labdát egyszerűen az óramutató járásával megegyező irányban lehet dobálni, és ellentétesen egy másik színű labdát az óramutató járásával ellentétes irányban. Most már négy különböző szín van, és ezekből annyi labda, amennyit a csoport elbír. Hogy a dolgot a csúcsra vigyük, a kört fel kell bontani, és minden játékos szabadon mozog a teremben! Most már tudni kell, melyik labda kihez kerüljön!
+
+## **Forrás**:
+
 Tasifan Spielebuch

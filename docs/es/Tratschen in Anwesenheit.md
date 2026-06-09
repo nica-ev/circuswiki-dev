@@ -5,16 +5,16 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:38:59
+update: 2026-06-09 02:34:55
 title: Tratschen in Anwesenheit
-description: 
+description: Ein Kennenlernspiel für kleine Gruppen, bei dem über eine anwesende Person Vermutungen gesammelt und anschließend aufgelöst werden.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
 Schwierigkeit: einfach
 Material: keines
-Spieldauer: 
+Spieldauer: 10-15
 source:
   - unbekannt
 group-min: "3"
@@ -22,22 +22,34 @@ group-max: "6"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tratschen in Anwesenheit.md
-translation_source_hash: b9f4927f36c4709d07d3a0577da69af70ea33a617e6350342931189097ea172a
+translation_source_hash: b99d93773d9a0a1a7d2c17d30d25146acb8e99d6b4407221d916f009b6a26e51
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:11:28+00:00
+translation_updated: 2026-06-09T02:32:29+00:00
 ---
-# Charlar en presencia
+> [!info] Breve descripción
+> Un juego para conocerse en grupos pequeños, en el que se hacen y luego se aclaran suposiciones sobre una persona presente.
 
-Juego de presentación para grupos pequeños (ideal 3-6 personas)
+**Tamaño del grupo**: 3-6 personas
+**Dificultad**: fácil
+**Material**: ninguno
+**Duración del juego**: 10-15 minutos
 
-Se elige a una persona sobre la que se va a charlar o hacer suposiciones. La persona, mientras tanto, se sienta tranquilamente, escucha todo, pero no comenta nada ni corrige nada.
+## **Descripción del juego**:
+
+Juego para conocerse en grupos pequeños (idealmente de 3 a 6 personas).
+
+Se elige a una persona sobre la que se rumorea o se hacen suposiciones. La persona simplemente se sienta en silencio, escucha todo, pero no comenta nada ni corrige nada.
 
 Temas como estado civil, origen, intereses, gustos musicales, etc.
 
-Después de un rato, la persona revela todo o corrige las suposiciones incorrectas.
+Después de un rato, la persona aclara todo o corrige las suposiciones incorrectas.
 
 Luego, le toca el turno al siguiente hasta que todos en el grupo hayan pasado por ello.
 
-## Enlaces cruzados
+## **Fuente**:
+
+Desconocida
+
+## **Referencias cruzadas**
 
 [Presentarse mutuamente](Sich%20gegenseitig%20vorstellen.md)

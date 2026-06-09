@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zungenmörder
-description: 
+description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 authors:
   - Marc Bielert
 category:
@@ -23,37 +23,35 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zungenmörder.md
-translation_source_hash: 83273580fce27ef134c04149f1e233e13a06b667303df809b0d4bf62278a253c
+translation_source_hash: 9214e7f4aa5f97ec20764de198a3ddc664353461aba1ae07ebdf79e74a373e97
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:34:57+00:00
+translation_updated: 2026-06-09T02:40:03+00:00
 ---
-# Assassino da Língua
-
 > [!info] Breve Descrição
-> "Assassino da Língua" é um jogo de interpretação de papéis emocionante para grupos médios a grandes, onde um assassino seleciona "vítimas" mostrando a língua, enquanto um detetive tenta desmascará-lo.
+> Um jogo em círculo onde um assassino mata secretamente mostrando a língua e um detetive tem de o desmascarar.
 
-**Tamanho do Grupo**: Médio a grande
+**Tamanho do Grupo**: 10-30 pessoas
 **Dificuldade**: Média
 **Material**: Nenhum
-**Duração do Jogo**: Aprox. 10-15 minutos
+**Duração do Jogo**: 5-10 minutos
 
 ## **Descrição do Jogo**:
 
 Todos os jogadores sentam-se em círculo e fecham os olhos.
 
-Enquanto isso, o(a) facilitador(a) caminha ao redor do círculo e toca uma pessoa qualquer *uma vez* nas costas (esta é a assassina) e outra pessoa *duas vezes* (este é o detetive).
+Enquanto isso, o(a) encarregado(a) do jogo circula o círculo e toca uma vez nas costas de uma pessoa qualquer (esta é o assassino) e duas vezes nas costas de outra pessoa (esta é o detetive).
 
-Em seguida, todos abrem os olhos novamente, e o detetive senta-se no meio do círculo.
+Depois, todos abrem os olhos novamente e o detetive senta-se no meio do círculo.
 
-Agora, todos se olham nos olhos. Se a assassina olhar para outra pessoa, ela discretamente mostra a língua para ela.
+Agora, todos se olham nos olhos. Se o assassino olhar para outra pessoa, mostra-lhe a língua discretamente.
 
-A pessoa afetada deve agora morrer teatralmente.
+A pessoa visada tem agora de morrer de forma teatral.
 
-O detetive pode fazer um total de 3 suposições sobre quem poderia ser a assassina.
+O detetive pode fazer um total de 3 suposições sobre quem poderá ser o assassino.
 
-Se ele(a) desmascarar a assassina, o detetive vence.
+Se ele(a) desmascarar o assassino, o detetive ganha.
 
-Se ele(a) não adivinhar a assassina, a assassina vence.
+Se ele(a) não adivinhar o assassino, o assassino ganha.
 
 ## **Fonte**:
 

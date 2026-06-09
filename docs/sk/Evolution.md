@@ -7,29 +7,38 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:57
 title: Evolution
-description: 
+description: Ein Bewegungsspiel mit Schnick-Schnack-Schnuck, bei dem Personen durch Evolutionsstufen auf- und absteigen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 12
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Evolution.md
-translation_source_hash: c874fdc479b71fd5996e0bc756434b0f48833058104864d23dee89eb06b1a448
+translation_source_hash: 0fb09a29fa397cff21d85b0c524e893c14efc9d6fb5e77a9bdb0310138911098
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:40:31+00:00
+translation_updated: 2026-06-09T01:37:00+00:00
 ---
-# Evolúcia
+> [!info] Stručný opis
+> Pohybová hra s hrou „Kameň, papier, nožnice“, v ktorej hráči postupujú nahor a nadol v evolučných stupňoch.
 
-**Počet hráčov**: od 12
+**Veľkosť skupiny**: Od 12 účastníkov
 **Náročnosť**: jednoduchá
 **Materiál**: žiadny
 **Dĺžka hry**: cca 10 minút
 
-**Opis hry**:
-Všetci hráči začínajú ako améby. Plazia sa po zemi a stále opakujú „améba“, „améba“, „améba“... Každý hráč má cieľ postúpiť v evolučnom reťazci. To sa podarí, keď si s inou amébou zahráte hru „kameň, papier, nožnice“. Ak vyhráte, stanete sa vajíčkom. Vajíčko poskakuje v podrepe, s malou strieškou z rúk nad hlavou, z miesta A na miesto B a volá „vajíčko“, „vajíčko“, „vajíčko“. Ten, kto pri hre „kameň, papier, nožnice“ prehral, zostáva amébou, pretože nižšie v evolúcii to už nejde. Keď sa dve vajíčka stretnú, opäť si zahrajú „kameň, papier, nožnice“. Prehrávajúci sa opäť stáva amébou, teda klesá o jednu evolučnú úroveň. Víťaz sa stáva sliepkou. Má ruky pri pazuchách, máva malými krídelkami a vydáva zvuky sliepky. Keď sa stretnú dve sliepky, opäť sa hrá „kameň, papier, nožnice“. Prehrávajúci opäť klesá o úroveň nižšie, stáva sa teda vajíčkom. Víťazná sliepka sa stáva orlom, máva veľkými krídlami a nahlas kričí „ár“, „ár“, „ár“. Po súboji orlov sa prehrávajúci opäť stáva sliepkou a víťaz opicou. Opica si búcha na hrudník a kričí „ugah“, „ugah“. Opica, ktorá vyhrá kolo „kameň, papier, nožnice“ proti inej opici, sa stáva človekom a môže sledovať evolučný ruch zvonku. Opica, ktorá prehrala, sa logicky opäť stáva orlom.
+## **Opis hry**:
 
-Alternatívne sa dajú pridať aj dinosaurus a Talian. Dinosaurus má ruky pred hrudníkom ako malé dinosaurie ramená a reve „rarw“. Talian spojí ukazovák a palec jednej ruky, zdvihne ju a stále opakuje „Lorenzo“. Keď sa niektorí hráči stanú ľuďmi, je možné hru ukončiť.
+Všetci hráči začínajú ako améby, plazia sa po zemi a opakovane volajú „Améba“, „Améba“, „Améba“... Každý hráč má cieľ postúpiť v evolučnom reťazci. To sa podarí, keď si s inou amébou zahráte hru „Kameň, papier, nožnice“. Ak vyhráte, stanete sa vajíčkom. Vajíčko poskakuje v podrepe, s malou strieškou nad hlavou vytvorenou z rúk, z miesta A na miesto B a volá „Vajíčko“, „Vajíčko“, „Vajíčko“. Ten, kto prehral v hre „Kameň, papier, nožnice“, zostáva amébou, pretože nižšie v evolúcii to už nejde. Keď sa dve vajíčka stretnú, opäť si zahrajú „Kameň, papier, nožnice“. Porazený sa opäť stáva amébou, teda klesá o jeden evolučný stupeň. Víťaz sa stáva sliepkou. Má ruky pri pazuchách, máva malými krídelkami a vydáva zvuky sliepky. Keď sa stretnú dve sliepky, opäť sa hrá „Kameň, papier, nožnice“. Porazený opäť klesá o stupeň, teda sa stáva vajíčkom. Víťazná sliepka sa stáva orlom, máva veľkými krídlami a nahlas kričí „Ááár“, „Ááár“, „Ááár“. Po súboji orlov sa porazený opäť stáva sliepkou a víťaz opicou. Opica si búcha na prsia a volá „ugah“, „ugah“. Opica, ktorá vyhrá kolo „Kameň, papier, nožnice“ proti inej opici, sa stáva človekom a môže sledovať evolučný ruch zvonku. Opica, ktorá prehrala, sa logicky opäť stáva orlom.
 
-**Zdroj**:
+Alternatívne sa môžu pridať aj dinosaurus a Talian. Dinosaurus má ruky pred hrudníkom ako malé dinosaurie ramená a volá „rarw“. Talian spojí ukazovák a palec jednej ruky, zdvihne ju a opakuje „Lorenzo“. Keď sa niektorí hráči stanú ľuďmi, môže sa hra ukončiť.
+
+## **Zdroj**:
+
 Tasifan Spielebuch

@@ -7,35 +7,44 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:01
 title: Adler - Hase - Kohlkopf
-description: 
+description: Ein Laufspiel mit Adler, Hase und Kohlköpfen, bei dem Rollen durch Antippen ständig wechseln.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Adler Hase Kohlkopf.md
-translation_source_hash: 451fb41ba0e0aa4b7d60db2ef95b0f581f9049c9a5156eafc95e45a3b2c92cca
+translation_source_hash: 402d581fbd6c2c692d9b0e36c55badc3612a065d1785781ee400ebde05216305
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:26:58+00:00
+translation_updated: 2026-06-09T01:20:08+00:00
 ---
-# Orel - Zajíc - Zelí
+> [!info] Stručný popis
+> Běhací hra s orlem, zajícem a hlávkami zelí, kde se role neustále mění dotykem.
 
-**Počet hráčů**: od 8
-**Obtížnost**: střední
+**Počet hráčů**: od 8 účastníků
+**Obtížnost**: Střední
 **Materiál**: žádný
-**Doba trvání**: 5-15 min
+**Doba trvání hry**: 5–15 min
 
-**Popis hry**:
+## **Popis hry**:
 
-Nejprve se určí jeden zajíc a jeden orel z dětí. Všichni ostatní jsou zelí a sedí na zemi. Základní princip je, že orel se snaží chytit zajíce. Pokud se mu to podaří, oba si vymění role. Bývalý zajíc se stane orlem a musí chytit bývalého orla – který je teď zajícem.
+Nejprve určíme mezi dětmi jednoho zajíce a jednoho orla. Všichni ostatní jsou hlávky zelí a sedí na zemi. Základním principem je, že orel se snaží chytit zajíce. Pokud se mu to podaří, oba si vymění role. Bývalý zajíc se stane orlem a musí chytit bývalého orla – který je nyní zajícem.
 
-Zajíc se však může kdykoli schovat za zelí a to dotknout. Nyní se toto zelí stane orlem, bývalý orel se stane zajícem a musí utéct nebo si najít nové zelí. Zajíc, který se dotkl zelí, se stane zelím a zaujme místo tohoto zelí.
+Zajíc se však může kdykoli schovat za hlávku zelí a tu dotknout. Tím se tato hlávka zelí stane orlem, bývalý orel se stane zajícem a musí utíkat nebo si opět najít novou hlávku zelí. Zajíc, který se dotkl hlávky zelí, se stane hlávkou zelí a zaujme její místo.
 
-V průběhu hry lze určit více dvojic orel-zajíc, ale pozor: Každý orel smí chytit pouze jemu přiděleného zajíce.
+V průběhu hry lze určit více dvojic orel–zajíc, ale pozor: Každý orel smí chytit pouze jemu přiděleného zajíce.
 
-**Podobné hry**
+## **Související články**
+
 [Mrkev zajíc liška](Möhre%20Hase%20Fuchs.md)
-**Zdroj**:
+
+## **Zdroj**:
 
 Tasifan Spielebuch

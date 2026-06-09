@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:24:05+00:00
+translation_updated: 2026-06-09T01:26:07+00:00
 ---
-# Applying to the Circus
+> [!info] Short Description
+> A circle game where one participant must find the secret circus director by observing subtle changes in movement.
 
-A game for medium to large groups:
+**Group Size**: 8+ people
+**Difficulty**: Easy
+**Materials**: None
+**Playtime**: 5-10 minutes
 
-All players sit together in a circle. One applicant is chosen and must leave the room.
+## **Game Description**:
 
-Now, a circus director is selected.
+This game is suitable for medium to large groups.
 
-The applicant is brought back into the room and has three attempts to identify the circus director.
+All participants sit together in a circle. One person is chosen to leave the room.
 
-The circus director continuously initiates movements that everyone else must copy. They must try to perform these movements as subtly as possible so that the applicant sees the same movement from all players simultaneously.
+Next, a "circus director" is selected from the remaining participants.
 
-If the applicant guesses the director, they win the game.
-If they fail, the group wins.
+The person who left the room is then invited back in and has three attempts to identify the circus director.
+
+The circus director continuously initiates movements that everyone else must imitate. The director's goal is to perform these movements as subtly as possible, so that the participant trying to guess sees the same action from everyone simultaneously.
+
+If the participant correctly guesses the director, they win the game.
+If they fail to guess correctly, the group wins.
+
+## **Source**:
+
+Unknown

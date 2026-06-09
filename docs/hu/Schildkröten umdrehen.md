@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schildkröten umdrehen.md
-translation_source_hash: d1cb5e236a90cb1bce8e1c21fd352833ecdb7f3f95bcc5b4c69d397c5a6ac3ac
+translation_source_hash: 44e187024a0f9cb37069a6a44988c4bd66bf77e74bc9a148a84fc451b23aa406
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:48:54+00:00
+translation_updated: 2026-06-09T02:14:43+00:00
 ---
-# Teknősbékák megfordítása
+> [!info] Rövid leírás
+> Egy fizikai mozgásjáték, amelyben a hason fekvő teknősöknek meg kell próbálniuk nem felborítani őket.
 
 **Csoportméret**: 6–30 játékos
 **Nehézség**: közepes
 **Anyag**: nincs
 **Játékidő**: 5–10 perc
 
-**Játékszabály**:
-A játékosok erejétől és méretétől függően egy vagy két "teknősbéka-fordító" lesz kijelölve. Minden más játékos hason fekszik, és teknősbéka. Mozogni is tudnak, de csak fekve! A teknősbéka-fordító(k) célja a teknősök hátukra fordítása. Amint egy teknős háta a földet éri, az is teknősbéka-fordítóvá válik. A teknősök természetesen ezt nem szeretnék, ezért megpróbálnak egymásba kapaszkodni, vagy más taktikát kidolgozni, hogy minél tovább elkerüljék a megfordítást. A játék akkor ér véget, amikor már nincsenek teknősök.
+## **Játék leírása**:
 
-**Forrás**:
+A játékosok erejétől és méretétől függően egy vagy két „teknősbékaforgatót” jelölünk ki. Minden más játékos hason fekszik, ők a teknősök. Mozoghatnak, de csak fekve! A teknősbékaforgató(k) célja a teknősöket a hátukra fordítani. Amint egy teknős háta hozzáér a talajhoz, ő maga is teknősbékaforgatóvá válik. A teknősök természetesen ezt nem szeretnék, ezért megpróbálnak egymásba kapaszkodni, vagy más taktikát kidolgozni, hogy minél tovább elkerüljék a felborítást. A játék akkor ér véget, amikor már nincsenek teknősök.
+
+## **Forrás**:
+
 Tasifan Spielebuch

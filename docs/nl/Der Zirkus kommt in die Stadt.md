@@ -7,42 +7,60 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
 title: Der Zirkus kommt in die Stadt
-description: 
+description: Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte, markierte Bereiche
+Spieldauer: 5-15
+source: unbekannt
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus kommt in die Stadt.md
-translation_source_hash: ee8b13fec805376aade3280ab044ae68ef0675d5240ba68e4102263645e8958e
+translation_source_hash: 797952a6a3e069193ad1befc6a02bee1c8a29f56e55df8146e1e1c0f09be9297
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:14:27+00:00
+translation_updated: 2026-06-09T01:31:56+00:00
 ---
-# De circus komt naar de stad
+> [!info] Korte beschrijving
+> Een thematisch meespel waarbij circuscommando's worden gecombineerd met bewegingen en een leeuwen-vangfase.
 
-Een doe-spel voor middelgrote tot grote groepen kinderen
+**Groepsgrootte**: 10-40 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: mat, afgebakende zones
+**Speeltijd**: 5-15 minuten
+
+## **Spelbeschrijving**:
+
+Een meespel voor middelgrote tot grote kinder groepen.
 Verschillende commando's worden kort uitgelegd:
 
-1. "De circus komt naar de stad" --> iedereen roept luid "Hoera" en slaat de armen in de lucht
-2. "Er is popcorn" --> iedereen huppelt ter plekke en roept "Pop Pop Pop Pop"
-3. "Er is suikerspin" --> iedereen draait om zichzelf
-4. "Er zijn worstjes" --> iedereen gaat op de grond liggen en rolt heen en weer
-5. "De artiesten zijn er" --> iedereen doet jumping jacks
+1. "De circustent komt eraan" --> iedereen roept luid "Hoera" en slaat de armen in de lucht.
+2. "Er is popcorn" --> iedereen huppelt ter plekke en roept "Pop pop pop pop".
+3. "Er is suikerspin" --> iedereen draait om zijn eigen as.
+4. "Er zijn worstjes" --> iedereen gaat op de grond liggen en rolt heen en weer.
+5. "De artiesten zijn er" --> iedereen doet jumping jacks.
 6. "De clowns zijn er"
 
-Deze lijst kan naar believen worden uitgebreid / aangepast
-Belangrijk is de "laatste etappe"
+Deze lijst kan naar wens worden uitgebreid/aangepast.
+Belangrijk is de "laatste fase".
 
-1. "De leeuwen worden gevoerd" Iedereen gaat naar de leeuwenkooi en voert de leeuwen
-2. "De leeuwen zijn los" --> De leeuwen breken uit en proberen kinderen te vangen, gevangen kinderen worden ook leeuwen. Er is een, zo ver mogelijk gelegen, "veilige zone" waar de kinderen zich in kunnen redden
+1. "De leeuwen worden gevoerd" --> iedereen gaat naar de leeuwenkooi en voert de leeuwen.
+2. "De leeuwen zijn los" --> de leeuwen breken uit en proberen kinderen te vangen. Gevangen kinderen worden ook leeuwen. Er is een, zo ver mogelijk gelegen, "veilige zone" waar de kinderen zich in kunnen redden.
 
-Aan het begin worden al één of meerdere leeuwen aangewezen (bij voorkeur volwassenen/trainers - maar je kunt ook een paar kinderen nemen)
+In het begin worden al één of meerdere leeuwen aangewezen (bij voorkeur volwassenen/trainers - maar je kunt ook een paar kinderen nemen).
 
-Het spel is zeer geschikt voor grote groepen als de ruimte beschikbaar is.
+Het spel is zeer geschikt voor grote groepen als er voldoende ruimte is.
 
-# Variaties op het thema
+## **Varianten**:
 
 Het basisprincipe leent zich ook goed voor thematische variaties.
 
-In plaats van een circus met verschillende etappes, neemt men bijvoorbeeld een piratenbemanning, een indianendorp, etc...
+In plaats van een circus met verschillende stations, gebruik je bijvoorbeeld een piraten bemanning, een indianendorp, etc.
+
+## **Bron**:
+
+Onbekend

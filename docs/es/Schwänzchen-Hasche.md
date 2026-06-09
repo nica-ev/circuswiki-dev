@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwänzchen-Hasche.md
-translation_source_hash: 134bf5d8cc91335e0e6f7dcda2d88ed4ab10d6087ef8eec6fd486c64c69f050f
+translation_source_hash: de1d8e40c5fade00d950d22fd75c50371657745f5b45a9f11534b44175b7ffda
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:10:18+00:00
+translation_updated: 2026-06-09T02:24:10+00:00
 ---
-# Cola de Trapo
+> [!info] Breve descripción
+> Un juego de atrapar con pañuelos, en el que todos intentan robar las "colas" de los demás y recoger las suyas.
 
-> [!info] Descripción breve
-> Un juego de persecución muy activo para grupos pequeños y medianos, ideal para calentar, en el que se trata de robar las "colas" de los demás y recoger tantas como sea posible.
-
-**Tamaño del grupo**: Pequeño a mediano
+**Tamaño del grupo**: 5-30 personas
 **Dificultad**: Fácil
 **Material**: Pañuelos (uno por persona)
 **Duración del juego**: Aprox. 10-15 minutos
 
 ## **Descripción del juego**:
 
-Un juego de persecución para grupos pequeños y medianos, muy adecuado para el calentamiento.
+Un juego de atrapar para grupos pequeños y medianos, ideal para el calentamiento.
 
 Material necesario: Pañuelos.
 
-Cada persona se mete un pañuelo por detrás en el pantalón, de modo que una "cola" cuelgue y sea fácil de sacar.
+Cada persona se mete un pañuelo por detrás del pantalón, de modo que cuelgue una "cola" fácil de agarrar y sacar.
 
 El objetivo es robar las colas de los demás y recoger tantas como sea posible.
-Cuando se ha robado una cola, se mete también por detrás en el pantalón, de modo que cuelgue una gran parte y sea fácil de agarrar.
+Cuando se roba una cola, se mete también por detrás del pantalón, de modo que cuelgue una parte grande y sea fácil de agarrar.
 
 ## **Fuente**:
 

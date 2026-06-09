@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:30
 title: Schnick Schnack Schnuck
-description: 
+description: Ein Kennenlernspiel, bei dem Verlierende zu Fans werden und am Ende eine große Namensschlange entsteht.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-# Schnick Schnack Schnuck
+> [!info] Kurzbeschreibung
+> Ein Kennenlernspiel, bei dem Verlierende zu Fans werden und am Ende eine große Namensschlange entsteht.
+
+**Gruppengröße**: ab 4 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Kennenlernspiel für kleine bis sehr große Gruppen.
 
@@ -25,3 +39,6 @@ Alle laufen durch den Raum, wenn sich 2 Personen treffen spielen sie Schnick, Sc
 
 Am Ende des Spieles bleibt nur eine einzige Schlange übrig an dessen Spitze der Gewinner läuft und alle anderen dessen Namen rufen.
 
+## **Quelle**:
+
+Unbekannt

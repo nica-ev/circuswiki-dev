@@ -7,28 +7,38 @@ publish: true
 tags:
   - spiele
 title: Neun Menschen – 8 Beine - 4 Hände
-description: 
+description: Eine Teamaufgabe, bei der Gruppen eine Strecke mit vorgegeben begrenzten Bodenkontakten überwinden müssen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Neun Menschen – 8 Beine - 4 Hände.md
-translation_source_hash: 97222bf056547a4f9bd8d1317d7600da05c17ee5751ce87c4d96b8f1b1de2363
+translation_source_hash: 77a2014c8bfeb24139154d36778ef5d46c11b75c66792b1a23d7b48ea28ec365
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:06:39+00:00
+translation_updated: 2026-06-09T02:08:57+00:00
 ---
-# Nove Pessoas – 8 Pernas - 4 Mãos
+> [!info] Breve Descrição
+> Uma tarefa em equipa em que os grupos têm de superar um percurso com contactos limitados com o solo pré-determinados.
 
-Tamanho do grupo: a partir de 10 participantes
-Dificuldade: bastante fácil
-Material: nenhum
-Duração do jogo: aprox. 10 minutos
+**Tamanho do grupo**: a partir de 10 pessoas
+**Dificuldade**: bastante fácil
+**Material**: nenhum
+**Duração do jogo**: aprox. 10 minutos
 
-Descrição do jogo: Formam-se equipas de tamanho igual, não devendo estas ter mais de dez elementos. Em seguida, o animador propõe uma tarefa aos participantes, como por exemplo, transpor uma determinada distância de A para B. Esta pode ser, por exemplo, a seguinte:
+## **Descrição do Jogo**:
 
-"Transponham a distância de A para B usando apenas oito pernas e quatro mãos." Comecem. Os participantes tentam transpor a distância de acordo com a tarefa dada. Isto significa que apenas oito pernas e quatro mãos dos participantes podem tocar no chão. A forma como as equipas resolvem esta tarefa fica totalmente ao critério delas, mas deve ser rápida, pois jogam umas contra as outras. Quem chegar primeiro ganha. Se um membro a mais tocar no chão, toda a equipa tem de voltar ao ponto de partida e tentar novamente. Quando todos chegarem, pode ser dada uma nova tarefa e o percurso de regresso terá de ser transposto em conformidade. As tarefas devem, naturalmente, ser adaptadas ao tamanho do grupo e à idade. Quanto menos pessoas, menos membros.
+Formam-se equipas de tamanho igual, não devendo exceder as dez pessoas. O animador de jogo apresenta então uma tarefa aos jogadores, como superar um percurso pré-determinado de A para B. Este pode, por exemplo, ter o seguinte aspeto:
 
-Fonte:
+"Superem o percurso de A para B usando apenas oito pernas e quatro mãos." Comecem. Os jogadores tentam superar o percurso de acordo com a tarefa dada. Isto significa que apenas oito pernas e quatro mãos dos jogadores podem tocar no chão. Como as equipas gerem esta tarefa fica inteiramente ao critério delas, mas deve ser rápido, pois jogam umas contra as outras. Quem chegar primeiro ganha. Se um membro a mais tocar no chão, toda a equipa tem de voltar ao ponto de partida e tentar novamente. Quando todos chegarem, pode ser dada uma nova tarefa e o caminho de regresso deve ser percorrido em conformidade. As tarefas devem, naturalmente, ser adaptadas ao tamanho do grupo e à idade. Quanto menos pessoas, menos membros.
+
+## **Fonte**:
+
 Tasifan Spielebuch

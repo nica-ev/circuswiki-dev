@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:26:31
 update: 2025-03-25 22:49:54
 title: Tellerfänger
-description: 
+description: Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 authors:
   - Marc Bielert
 category:
@@ -23,14 +23,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tellerfänger.md
-translation_source_hash: 3b2931745d731d9fe1298ba22b24dfafcfd9aaa84b35774ac57031fccb636657
+translation_source_hash: d497ab7d8d4a3ccfbca7e0f85378b122f905e443e0e2676c3857220bbc572765
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:22+00:00
+translation_updated: 2026-06-09T02:30:48+00:00
 ---
-# Łapacz z talerzem
-
 > [!info] Krótki opis
-> Prosta gra w łapanie, w której uczestnicy mogą uniknąć złapania, naśladując rekwizyty do żonglerki.
+> Gra w łapanie z materiałami do żonglerki, w której uczestnicy mogą uratować się przed złapaniem poprzez odpowiednią postawę ciała.
 
 **Liczba graczy**: Od 6 osób
 **Poziom trudności**: Łatwy
@@ -39,14 +37,14 @@ translation_updated: 2026-06-06T20:24:22+00:00
 
 ## **Opis gry**:
 
-Wyznacza się jedną osobę do łapania. Ta osoba trzyma w ręku talerz i próbuje dotknąć pozostałych uczestników. Ci mogą się jednak uratować, wyciągając rękę w górę i naśladując w ten sposób patyk, który jest potrzebny do kręcenia talerzem.
+Wyznacza się jedną osobę do łapania. Trzyma ona w ręku talerz i próbuje dotknąć pozostałych uczestników. Ci mogą się jednak uratować, wyciągając rękę w górę i imitując w ten sposób pałeczkę potrzebną do kręcenia talerzem.
 
-Jeśli ktoś zostanie złapany, talerz zostaje mu przekazany.
+Jeśli ktoś zostanie złapany, talerz jest mu przekazywany.
 
-W zależności od wielkości grupy i wieku uczestników, można wprowadzić dodatkowe elementy i łapaczy:
+W zależności od liczby graczy i ich wieku, można wprowadzić dodatkowe elementy i osoby łapiące:
 
-*   Chusta: Ratunek poprzez położenie chusty na ziemi (chusta coś przykrywa).
-*   Diabolo: Wzięcie za rękę drugiej osoby (naśladuje sznurek do diabolo).
+*   Chusta: Uratowanie poprzez położenie jej na ziemi (chusta coś zakrywa).
+*   Diabolo: Chwycenie za rękę drugiej osoby (imituje sznurek do diabolo).
 
 ## **Źródło**:
 

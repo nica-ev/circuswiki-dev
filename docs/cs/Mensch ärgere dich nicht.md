@@ -7,36 +7,47 @@ publish: true
 tags:
   - spiele
 title: Mensch ärgere dich nicht
-description: 
+description: Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Ringe oder Hula Hoops
+Spieldauer: 20-30
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mensch ärgere dich nicht.md
-translation_source_hash: 0ffdf51ecb1074d169c4dc82597b9dc929ef5b412b9620bce09f41304dfaf541
+translation_source_hash: bce928bbbebf1552cbc6d0a541165e9c7f039ecc4a5657e47b563f8b36b1ba68
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:05:30+00:00
+translation_updated: 2026-06-09T02:06:14+00:00
 ---
-# Člověče, nezlob se
+> [!info] Stručný popis
+> Běžecký souboj podél kruhové dráhy, kde týmy bojují o postup pomocí hry kámen, nůžky, papír.
 
-**Počet hráčů**: Od cca 4-6 účastníků
+**Velikost skupiny**: Od cca 4-6 hráčů
 **Obtížnost**: snadná
 **Materiál**: mnoho kruhů / obručí
-**Doba hraní**: 20-30 minut
-**Zdroj**: Facebook
+**Doba trvání hry**: 20-30 minut
 
-**Popis hry**:
+## **Popis hry**:
+
 Kruhy / obruče se naskládají do dlouhé (klikaté) linie. Je dobré je spojit, aby se nemohly posouvat, ale jde to i bez spojení.
 
 Vytvoří se 2 skupiny, které se postaví do řady na obou koncích linie kruhů.
 
-Po startu vyskočí jeden hráč z každé skupiny a skáče z jednoho kruhu na další.
-Jakmile se oba hráči setkají, hrají "kámen, nůžky, papír". Poražený se vrací vně (mimo kruhy) hracího pole a postaví se zpět na konec řady.
+Po startu vyskočí jeden hráč z každé skupiny a skáče z jednoho kruhu na druhý.
+Jakmile se oba hráči setkají, zahrají si "kámen, nůžky, papír". Poražený se vrátí vnější stranou (mimo kruhy) zpět a postaví se na konec řady.
 Další hráč z této skupiny může okamžitě vyrazit.
 Vítěz také pokračuje ve skákání.
 
 Kolo je vyhrané, když hráč dosáhne prvního kruhu u soupeřovy skupiny.
 
-Je dobré odehrát několik kol (3-5), jednotlivá kola však mohou být poměrně dlouhá.
+Je dobré odehrát několik kol (3-5), jednotlivá kola však mohou trvat poměrně dlouho.
+
+## **Zdroj**:
+
+Facebook

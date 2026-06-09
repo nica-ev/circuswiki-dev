@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 02:35:36
 title: Festnageln
-description: 
+description: Ein Fangspiel, bei dem Personen durch Antippen der Füße festgenagelt werden und mit eingeschränkter Bewegung weiterspielen.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,9 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> Ein Fangespiel für jede Gruppengröße, das Schnelligkeit und Ausdauer fördert, indem die Spieler versuchen, sich gegenseitig "festzunageln".
+> Ein Fangspiel, bei dem Personen durch Antippen der Füße festgenagelt werden und mit eingeschränkter Bewegung weiterspielen.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 5-25 Personen
 **Schwierigkeit**: Mittel
 **Material**: Keins
 **Spieldauer**: Ca. 15-20 Minuten

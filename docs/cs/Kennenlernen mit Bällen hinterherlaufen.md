@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,27 +23,27 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:59:33+00:00
+translation_updated: 2026-06-09T01:48:19+00:00
 ---
 > [!info] Stručný popis
-> „Seznámení s míčky a honění“ je dynamické seznamovací cvičení, které kombinuje pohyb, zapamatování si jmen a oční kontakt s cílem podpořit interakci a pocit sounáležitosti.
+> Dynamické seznamovací cvičení v kruhu, při kterém účastníci běží za hozeným míčem a mění si místa.
 
-**Velikost skupiny**: Libovolná
-**Obtížnost**: Lehká až střední (v závislosti na počtu míčků)
-**Materiál**: Jeden nebo více míčků
+**Velikost skupiny**: 5–25 osob
+**Obtížnost**: Lehká až střední (v závislosti na počtu míčů)
+**Materiál**: Jeden nebo více míčů
 **Délka hry**: Přibližně 10–15 minut
 
 ## **Popis hry**:
 
 Všichni účastníci stojí v kruhu.
 
-Jedna osoba má míček, naváže oční kontakt s jinou osobou v kruhu, řekne její jméno a hodí jí míček.
+Jedna osoba má míč, naváže oční kontakt s jinou osobou v kruhu, řekne její jméno a hodí jí míč.
 
-Poté běží za míčkem a postaví se **za** osobu, která míček chytila.
+Poté běží za míčem a postaví se **za** osobu, která míč chytila.
 
-Obtížnost lze zvýšit přidáním dalších míčků do hry.
+Obtížnost lze zvýšit přidáním dalších míčů do hry.
 
 ## **Zdroj**:
 

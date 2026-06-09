@@ -5,25 +5,43 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2026-06-06 21:03:32
+update: 2026-06-09 02:33:59
 title: Gemeinsamkeit und Unterschied
-description: 
+description: Ein kurzes Inklusionsspiel, bei dem Paare im Gespräch jeweils eine Gemeinsamkeit und einen Unterschied finden.
 authors:
   - Marc Bielert
 category:
   - inklusion
+Schwierigkeit: einfach
+Material: Musik
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gemeinsamkeit und Unterschied.md
-translation_source_hash: 8f0ec2d63680dd0d4e740c1e848a562ab983510d3aef92742085de5cfc75f758
+translation_source_hash: c2c4add47947c504a4e430f19526a3fc4c599687be142f756b4223c7161f3540
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:40:07+00:00
+translation_updated: 2026-06-09T01:40:28+00:00
 ---
-# Κοινότητα και Διαφορά
+> [!info] Σύντομη Περιγραφή
+> Ένα σύντομο παιχνίδι ένταξης, όπου τα ζευγάρια σε συζήτηση βρίσκουν μία ομοιότητα και μία διαφορά.
 
-Ένα μικρό παιχνίδι με θέμα την ένταξη
+**Μέγεθος Ομάδας**: 4-30 άτομα
+**Δυσκολία**: εύκολο
+**Υλικά**: Μουσική
+**Διάρκεια Παιχνιδιού**: 5-10 λεπτά
 
-- Περιπλανιέστε στον χώρο με μουσική
-- Με το σήμα, βρείτε έναν σύντροφο, μιλήστε μεταξύ σας
-- 2 ερωτήσεις: ένα κοινό σημείο, μια διαφορά
+## **Περιγραφή Παιχνιδιού**:
+
+Ένα μικρό παιχνίδι με θέμα την ένταξη.
+
+- Κίνηση στον χώρο με μουσική
+- Με το σήμα, αναζήτηση συντρόφου, συζήτηση μεταξύ τους
+- 2 ερωτήσεις: μία ομοιότητα, μία διαφορά
 - Αυτό επαναλαμβάνεται αρκετές φορές
+
+## **Πηγή**:
+
+Άγνωστη

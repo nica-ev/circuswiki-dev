@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Die Hürde
-description: 
+description: Eine Kooperationsaufgabe, bei der die ganze Gruppe über ein gespanntes Seil kommen muss, ohne es zu berühren.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Seil
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Hürde.md
-translation_source_hash: 2c2efd62751cdd191bfa24cb567d4c92b6ec86c61d1285439466e0bc2f259a49
+translation_source_hash: 2f70cd01568cf6a717ec508803527730a194a409ccc679f690a499227684c645
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:37:56+00:00
+translation_updated: 2026-06-09T01:32:56+00:00
 ---
-# Az akadály
+> [!info] Rövid leírás
+> Egy együttműködésen alapuló feladat, ahol a teljes csoportnak át kell jutnia egy kifeszített kötélen anélkül, hogy hozzáérne.
 
-**Csoportméret:** 4–20 játékos
-**Nehézség:** közepes
-**Anyag:** kötél
-**Játékidő:** 5–10 perc
+**Csoportméret**: 4-20 fő
+**Nehézség**: közepes
+**Anyag**: kötél
+**Játékidő**: 5-10 perc
 
-**Játékleírás:**
-Egy kötelet feszesen kifeszítenek két rögzített gerenda, oszlop, fa vagy hasonló közé. A kötél kifeszítésének magasságát a játékvezetőnek jól kell megítélnie. Egy játékosnak egyedül is át kell tudnia ugrani a kötelet. A játék lényege ugyanis az, hogy a kötélen úgy kell átjutni, hogy azt nem érintik meg, és nem is nyúlnak alatta át. Ez azt jelenti, hogy a játékosoknak egymást kell átsegíteniük a kötélen, hordozniuk kell egymást, piramisokat építhetnek, vagy „rablólétra” módszerrel próbálkozhatnak. Minden csoport megtalálja majd a saját módját, hogyan juttatja át mindenkit a kötélen. Ha egy játékos megérinti a kötelet, mindenkinek vissza kell térnie a kiinduló oldalra.
+## **Játék leírása**:
 
-Forrás:
+Két stabil oszlop, fa vagy hasonló közé egy kötelet feszítenek ki. A játékvezetőnek jól kell megítélnie a kötél magasságát. Egy játékosnak egyedül is képesnek kell lennie átugrani a kötélen. A játék lényege ugyanis, hogy a kötélen úgy kell átjutni, hogy nem érintik meg, és nem is nyúlnak alatta át. Ez azt jelenti, hogy a játékosoknak egymást kell felemelniük, átvinniük a kötél felett, piramisokat építhetnek, vagy létrás módszerrel próbálkozhatnak. Minden csoport megtalálja majd a saját módját, hogy mindenkit átjuttasson a kötélen. Ha egy játékos hozzáér a kötélhez, mindenkinek vissza kell térnie a kiinduló oldalra.
+
+## **Forrás**:
+
 Tasifan Spielebuch

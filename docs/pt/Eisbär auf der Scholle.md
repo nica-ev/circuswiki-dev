@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
 title: Eisbär auf der Scholle
-description: 
+description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 authors:
   - Marc Bielert
 category:
@@ -22,14 +22,12 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eisbär auf der Scholle.md
-translation_source_hash: 77871035b928d57d11ac0a8c52f91fa152f871c6be73b90b69e3e1694cbe8d3c
+translation_source_hash: 40b1f156692a45237de5c0f050a876ce1875d709e7982c01fc413932302b2b10
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:40:12+00:00
+translation_updated: 2026-06-09T01:35:46+00:00
 ---
-# Urso Polar na Plataforma de Gelo
-
 > [!info] Breve Descrição
-> Um jogo de movimento cooperativo e competitivo em que os jogadores tentam empurrar juntos um tapete (a "plataforma de gelo") pelo campo de jogo, enquanto um "urso polar" tenta impedi-los.
+> Um jogo de movimento em que o grupo empurra um tapete como um bloco de gelo, enquanto um urso polar tenta impedi-los.
 
 **Tamanho do Grupo**: A partir de 10 participantes
 **Dificuldade**: Média
@@ -37,11 +35,11 @@ translation_updated: 2026-06-07T18:40:12+00:00
 **Duração do Jogo**: 5 a 10 minutos
 
 ## **Descrição do Jogo**:
-O(a) facilitador(a) do jogo ou um jogador senta-se no tapete grosso e é o urso polar na sua plataforma de gelo. A plataforma de gelo encontra-se numa linha de partida, e na outra extremidade do campo de jogo, a alguma distância, encontra-se a linha de chegada.
+O líder do jogo ou um dos jogadores senta-se no tapete grosso e assume o papel de urso polar no seu bloco de gelo. O bloco de gelo começa numa linha de partida e, à distância, no outro lado do campo de jogo, encontra-se a linha de chegada.
 
-Os jogadores tentam empurrar a plataforma de gelo da linha de partida até à linha de chegada. No entanto, o urso polar não gosta nada disto, pois quer apenas a sua paz. Por isso, tenta tocar nos jogadores que estão a empurrar. Quem for tocado(a) tem de correr de volta para a linha de partida e, opcionalmente, até realizar uma pequena penalidade (por exemplo, cinco saltos de agachamento ou algo semelhante). Só depois podem voltar para a plataforma de gelo e tentar empurrá-la mais em direção à meta.
+Os jogadores tentam empurrar o bloco de gelo da linha de partida até à linha de chegada. No entanto, o urso polar não gosta nada disto, pois quer apenas a sua paz. Por isso, tenta tocar nos jogadores que estão a empurrar. Quem for tocado tem de voltar a correr até à linha de partida e, opcionalmente, até realizar uma pequena penalidade (por exemplo, cinco saltos de agachamento ou algo semelhante). Só depois disso é que podem voltar para o bloco de gelo e tentar empurrá-lo mais em direção ao objetivo.
 
-Se a plataforma de gelo atingir a meta, o urso polar considera-se derrotado e abandona a sua plataforma de gelo. Com jogadores suficientes, o jogo também pode ser jogado por dois grupos um contra o outro como uma corrida de plataformas de gelo.
+Se o bloco de gelo atingir o objetivo, o urso polar considera-se derrotado e abandona o seu bloco de gelo. Com jogadores suficientes, o jogo também pode ser jogado por dois grupos um contra o outro como uma corrida de blocos de gelo.
 
 ## **Fonte**:
 Tasifan Spielebuch

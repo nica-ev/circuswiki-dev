@@ -6,20 +6,32 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:49:26
-title: " Zip Zap"
-description: 
+title: Zip Zap
+description: Ein Kreisspiel mit Impulsen, bei dem Zip, Zap, Peng und Boing rhythmisch und aufmerksam weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-#  Zip Zap
+> [!info] Kurzbeschreibung
+> Ein Kreisspiel mit Impulsen, bei dem Zip, Zap, Peng und Boing rhythmisch und aufmerksam weitergegeben werden.
 
-Zip Zap
+**Gruppengröße**: ab 5 Personen
+**Schwierigkeit**: einfach
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
 
-Spiel für jede Gruppengröße:
+## **Spielbeschreibung**:
+
+Spiel für jede Gruppengröße.
 
 Die Spieler stellen sich in einem Kreis auf.
 
@@ -33,3 +45,6 @@ Nun gibt die dritte Person den Impuls nach links und sagt "Zap" …
 
 Kann beliebig lang gespielt werden, z.B. wenn der Impuls wieder beim Spielleiter angekommen ist.
 
+## **Quelle**:
+
+Unbekannt

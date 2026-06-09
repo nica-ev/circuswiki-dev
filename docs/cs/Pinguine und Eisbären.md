@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,31 +23,29 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Eisbären.md
-translation_source_hash: a70b7f507c9d28bf73f67c596d3b6b7681a09ee82259176334abd4a57f2f70ac
+translation_source_hash: 456eb506127cd3c4347481dfe7f31d0df0f7b7b085594f43e5705cbb63b53d3a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:07:46+00:00
+translation_updated: 2026-06-09T02:10:35+00:00
 ---
-# Tučňáci a lední medvědi
-
 > [!info] Stručný popis
-> Pohybově náročná hra pro malé až střední skupiny, ve které se tučňáci snaží zahnat ledního medvěda z jeho kry, což vyžaduje týmovou práci a strategické myšlení.
+> Hra s žíněnkou, při které tučňáci přesouvají ledovou kře po místnosti, zatímco ji lední medvěd brání.
 
-**Velikost skupiny**: Malá až střední
+**Počet hráčů**: 6–31 osob
 **Obtížnost**: Střední
-**Materiál**: Velká měkká podložka (jako ledová kra)
-**Délka hry**: Cca 5-15 minut
+**Materiál**: Velká žíněnka (jako ledová kra)
+**Délka hry**: Cca 5–15 minut
 
 ## **Popis hry**:
 
-Určí se jeden lední medvěd, který si stoupne na velkou měkkou podložku (ledovou kra).
+Určí se lední medvěd, který si stoupne na velkou žíněnku (ledovou kra).
 
-Ostatní účastníci, tučňáci, se snaží ledního medvěda ze svého teritoria vypudit. To se jim podaří tím, že podložku posouvají a táhnou na druhou stranu místnosti.
+Ostatní účastníci, tučňáci, se snaží ledního medvěda ze svého teritoria vypudit. To se jim podaří tím, že žíněnku posouvají a táhnou na druhou stranu místnosti.
 
 Lední medvěd se může bránit tím, že se snaží tučňáky chytit (dotykem).
 
 Pokud je tučňák chycen, musí jedno kolo oběhnout kolem ledové kry.
 
-Tučňáci vyhrají, pokud se jim podaří dostat ledovou kru na druhou stranu.
+Tučňáci vyhrají, pokud se jim podaří přesunout ledovou kra na druhou stranu.
 
 ## **Zdroj**:
 

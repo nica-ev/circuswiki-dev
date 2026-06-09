@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:26:31
 update: 2025-03-25 22:49:54
 title: Tellerfänger
-description: 
+description: Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 authors:
   - Marc Bielert
 category:
@@ -23,10 +23,8 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Tellerfänger
-
 > [!info] Kurzbeschreibung
-> Ein einfaches Fangspiel, bei dem die Teilnehmer durch Imitieren von Jonglierutensilien der Gefangennahme entgehen können.
+> Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 
 **Gruppengröße**: Ab 6 Mitspieler
 **Schwierigkeit**: Simpel

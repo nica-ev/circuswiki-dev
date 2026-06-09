@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:23:23
-update: 2025-03-25 23:27:58
+update: 2026-06-09 01:12:29
 title: Der Hund im großen Haus
-description: 
+description: Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
 authors:
   - Marc Bielert
 category:
@@ -23,10 +23,11 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-> [!info] Kurzbeschreibung
-> Ein dynamisches Aufwärmspiel für jede Gruppengröße, das Bewegung, Koordination und Spaß kombiniert.
 
-**Gruppengröße**: Beliebig
+> [!info] Kurzbeschreibung
+> Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
+
+**Gruppengröße**: 5-30 Personen
 **Schwierigkeit**: Leicht
 **Material**: Keins
 **Spieldauer**: Ca. 5-10 Minuten

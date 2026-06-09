@@ -39,7 +39,7 @@ Nichtklassische Objekte
 - Konzepte
 - Übungen
 - Spiele
-	- [1,2,3](1,2,3.md) - ein Spiel mit Zählrhytmen
+	- [1-2-3](1-2-3.md) - ein Spiel mit Zählrhytmen
 
 # siehe auch
 https://www.kapsel.se/jugglingschool/en

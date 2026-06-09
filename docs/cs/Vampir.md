@@ -7,30 +7,46 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:14
 title: Vampir
-description: 
+description: Ein Spiel mit geschlossenen Augen, bei dem Vampire andere infizieren und sich beim Treffen gegenseitig zurückverwandeln können.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vampir.md
-translation_source_hash: 11f828cd89460a3b6a7b0e7f67f52bdc95ea8d2f1c3bd7356a6359e3c2dc8ea5
+translation_source_hash: df28bd75d5dc5e57d15b8f0e66490adcebeb8c8d9f3bc5d022bc83ad1a2071ee
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:14:04+00:00
+translation_updated: 2026-06-09T02:33:15+00:00
 ---
-# Upír
+> [!info] Stručný popis
+> Hra se zavřenýma očima, kde upíři infikují ostatní a při setkání se mohou vzájemně přeměnit zpět.
 
-Upír
+**Velikost skupiny**: 6–30 osob
+**Obtížnost**: střední
+**Materiál**: žádný
+**Délka hry**: 5–10 minut
 
-- všichni mají zavřené oči
-- před začátkem hry je vybrán jeden hlavní upír
-- když se upír setká s člověkem, položí mu ruce kolem krku, zakřičí a tím ho nakazí (člověk se tak stane upírem)
-- když se setkají dva upíři (oba si položí ruce kolem krku toho druhého), promění se zpět v lidi
-- pouze hlavní upír se nemůže proměnit zpět
+## **Popis hry**:
 
-Cílem je proměnit všechny na upíry.
+*   všichni mají zavřené oči
+*   před začátkem hry je vybrán jeden „vrchní upír“
+*   pokud se upír setká s někým, kdo není upír, položí mu ruce kolem krku, zakřičí a tím ho infikuje (neupír se tak stane upírem)
+*   pokud se setkají dva upíři (oba položí ruce kolem krku toho druhého), přemění se zpět na neupíry
+*   pouze vrchního upíra nelze přeměnit zpět
 
-viz také:
+Cílem je přeměnit všechny na upíry.
+
+## **Zdroj**:
+
+Neznámý
+
+## **Související**:
 
 [Brambora Brambora](Kartoffel%20Kartoffel.md)

@@ -7,19 +7,33 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:13
 title: Was tust Du da?
-description: 
+description: Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Was tust Du da.md
-translation_source_hash: c5e20af0897aaa0cc0477e21f3bee34498f9c7b7d06b8f0565a0cbababcad58c
+translation_source_hash: a1e6cd66c46069b1c5317dfe1beb87a8d5d1e578c583dd2fdbb085ed725ac51c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:54+00:00
+translation_updated: 2026-06-09T02:36:18+00:00
 ---
-# Co tam robisz?
+> [!info] Krótki opis
+> Gra teatralna, w której przedstawiane czynności są przekazywane dalej poprzez celowo nieodpowiednie odpowiedzi.
+
+**Liczba uczestników**: 4-20 osób
+**Poziom trudności**: średni
+**Materiały**: żadne
+**Czas trwania gry**: 10-15 minut
+
+## **Opis gry**:
 
 Gra teatralna dla małych i średnich grup.
 
@@ -27,20 +41,28 @@ Na scenie zawsze znajdują się 2 osoby, reszta obserwuje.
 
 Osoba A zaczyna pantomimicznie przedstawiać dowolną czynność (np. jedzenie lodów, czytanie książki, mycie zębów, gra w piłkę nożną itp.).
 
-Osoba B przez chwilę obserwuje, następnie podchodzi bliżej i pyta: „Co właściwie robisz? / Co tam robisz?”.
+Osoba B przez chwilę obserwuje, następnie podchodzi bliżej i pyta: „Co Ty właściwie robisz? / Co tam robisz?”.
 
 Osoba A odpowiada, podając zupełnie inną czynność.
 
-Przykład: Osoba A czyta książkę, B pyta: „Co tam robisz?”. A odpowiada: „Myję właśnie samochód”.
+Przykład: Osoba A czyta książkę, B pyta: „Co Ty tam robisz?”. A odpowiada: „No myję samochód”.
 
 Osoba B: „Ach, rzeczywiście – wszystko jasne” i zaczyna przedstawiać tę czynność.
 
-Teraz A przez chwilę obserwuje, a następnie pyta: „Co właściwie robisz?”, a B ponownie odpowiada inną czynnością: „Robię właśnie poranną gimnastykę”.
+Teraz A przez chwilę obserwuje, a następnie pyta: „Co Ty właściwie robisz?”, a B ponownie odpowiada inną czynnością: „Robię właśnie poranną gimnastykę”.
 
-Zasady:
+## **Wskazówki**:
 
-*   Preferuj środek sceny.
-*   Ciało zwrócone w stronę publiczności.
-*   Mów głośno i wyraźnie.
-*   Daj drugiej osobie co najmniej 10 sekund na przedstawienie czynności, zanim zapytasz, co robi.
-*   Pozwól na 3-4 zmiany, a następnie zakończ grę. Mogą wejść 2 nowe osoby.
+Preferuj środek sceny.
+
+Ciało zwrócone w stronę publiczności.
+
+Mów głośno i wyraźnie.
+
+Daj drugiej osobie co najmniej 10 sekund na przedstawienie czynności, zanim zapytasz, co robi.
+
+Pozwól na 3-4 zmiany, a następnie zakończ grę. 2 nowe osoby mogą teraz wejść na scenę.
+
+## **Źródło**:
+
+Nieznane

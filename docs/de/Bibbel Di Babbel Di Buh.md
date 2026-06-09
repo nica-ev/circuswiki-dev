@@ -7,16 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 6
+group-max: 25
 translation_status: original
 translation_source_lang: de
 ---
 
-# Bibbel Di Babbel Di Buh
+> [!info] Kurzbeschreibung
+> Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
+
+**Gruppengröße**: 6-25 Personen
+**Schwierigkeit**: mittel
+**Material**: keines
+**Spieldauer**: 10-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Kreisspiel für kleine bis mittlere Gruppen.
 
@@ -48,3 +62,7 @@ Nun kann aus folgenden Regeln ausgewählt werden:
 **"Fast and Furious"**
 
 **"Gollum"**
+
+## **Quelle**:
+
+Unbekannt

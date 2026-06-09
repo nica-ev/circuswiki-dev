@@ -13,13 +13,13 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Jonglage.md
-translation_source_hash: 36ca35dff7b4b161b2e4f2e1a5dbbda9f8a28feebdf341202f87b8eaa6c965c9
+translation_source_hash: 384a84f6fc5adc841b0193201ae7808180383079e91bc5570b0872533bc09502
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:16:40+00:00
+translation_updated: 2026-06-09T01:46:07+00:00
 ---
 # Jongleren
 
-Klassieke (westerse) objecten in werpjongleren
+Klassieke (westerse) objecten in worpjongleren
 
 Ballen [Basisprincipes](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
@@ -37,13 +37,13 @@ Niet-klassieke objecten
 	- Beigoma
 - Poi
 
-# Werpjongleren
+# Worpjongleren
 
 - Definitie
 - Concepten
 - Oefeningen
-- Spellen
-	- [1,2,3](1,2,3.md) - een spel met telritmes
+- Spelen
+	- [1-2-3](1-2-3.md) - een spel met telritmes
 
 # zie ook
 https://www.kapsel.se/jugglingschool/en

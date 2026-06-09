@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:23:23
-update: 2025-03-25 23:27:58
+update: 2026-06-09 01:12:29
 title: Der Hund im großen Haus
-description: 
+description: Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
 authors:
   - Marc Bielert
 category:
@@ -23,37 +23,37 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Hund im großen Haus.md
-translation_source_hash: b322cbf5df3e87cad8bd089c309fda5aa30554180bca10736f687f70186ced4c
+translation_source_hash: cb0fafc2594ffe50f96b5fa3c9d2543893841b9cd06df5d9e892c9a676b8c474
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:37:41+00:00
+translation_updated: 2026-06-09T01:30:18+00:00
 ---
 > [!info] Rövid leírás
-> Egy dinamikus bemelegítő játék bármilyen létszámú csoportsoknak, amely ötvözi a mozgást, a koordinációt és a szórakozást.
+> Egy történetmesélős bemelegítő játék, amelyben a csoport eljátssza a hozzá tartozó mozdulatokkal a rövid történetet.
 
-**Csoportméret**: Tetszőleges
+**Csoportméret**: 5-30 fő
 **Nehézség**: Könnyű
-**Anyag**: Nincs
+**Eszközök**: Nincsenek
 **Játékidő**: Kb. 5-10 perc
 
-## **Játék leírása**:
+## **Játékleírás**:
 
-Mindenki álljon egy körben, és utánozza a játékvezető mozdulatait.
+Mindenki egy körben áll, és megismétli a játékvezető mozdulatait.
 
-| Szöveg                                  | Mozdulat                                                                  |
+| Szöveg                                | Mozdulat                                                                  |
 | :------------------------------------ | :------------------------------------------------------------------------ |
-| Egy nagy, nagy házban           | Törjön ki mindenki, hogy nagy legyen (karok széttárva)                                  |
-| Lakott egy picinyke egér             | Guggoljon le mindenki a földre, hogy kicsi legyen                                      |
-| És ebben a nagy, nagy házban       | Törjön ki mindenki, hogy nagy legyen (karok széttárva)                                  |
-| Lakott egy kutya is                     | Térdeljen le mindenki, kezek és lábak a földön, fenék a levegőben (kutyapóz)               |
-| Nagyon egészséges                      | Emelje fel a bal lábát (kutyapózban maradva)                      |
-| Igazán nagyon egészséges               | Emelje fel a jobb lábát (kutyapózban maradva)                     |
-| És ebben a nagy, nagy házban          | Törjön ki mindenki, hogy nagy legyen (karok széttárva)                                  |
-| Lakott egy kígyó is                 | Feküdjön hasra (csúszkáljon)                                        |
-| Ettől a kutya nagyon megijedt             | Térdeljen le mindenki, kezek és lábak a földön, fenék a levegőben (ijedt kutyapóz) |
-| És elmenekült - egy új házba | Helycsere (gyorsan keressen mindenki egy új helyet a körben)                |
+| Egy nagy, nagy házban                 | Nagyon nagyra nyújtózkodni (karokat széttárni)                                  |
+| Lakott egy picinyke egér              | Nagyon kicsire összehúzódni a földön (guggolni)                                      |
+| És ebben a nagy, nagy házban           | Nagyon nagyra nyújtózkodni (karokat széttárni)                                  |
+| Lakott egy kutya is                     | Lábak és kezek a földön, fenék a levegőben (kutyapóz)               |
+| Nagyon egészséges                     | Bal lábat felemelni (kutyapózban maradva)                      |
+| Igazán nagyon egészséges              | Jobb lábat felemelni (kutyapózban maradva)                     |
+| És a nagy, nagy házban                 | Nagyon nagyra nyújtózkodni (karokat széttárni)                                  |
+| Lakott egy kígyó is                     | Hasra feküdni (kígyózni)                                        |
+| Ettől a kutya nagyon megijedt             | Lábak és kezek a földön, fenék a levegőben (ijedt kutyapóz) |
+| És elmenekült – egy új házba | Helycsere (gyorsan új helyet keresni a körben)                |
 
-A történet végén a helycserével úgy rendeződjenek át, hogy mindenki újra körben álljon, de egy másik helyen.
-A történet ismétlődik, és minden ismétléssel egyre gyorsabban meséljük.
+A történet végén a helycserét úgy kell végrehajtani, hogy mindenki ismét egy körben álljon, de már egy másik helyen.
+A történetet ismételjük, és minden ismétléssel gyorsabban mondjuk el.
 
 ## **Forrás**:
 

@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ohrfeigen und Küsse
-description: 
+description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,10 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Ohrfeigen und Küsse
-
 > [!info] Kurzbeschreibung
-> "Ohrfeigen und Küsse" ist ein ungewöhnliches Interaktionsspiel, das Freundlichkeit und Aggression auf spielerische Weise kombiniert.
+> Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
 
-**Gruppengröße**: Beliebig
+**Gruppengröße**: 5-30 Personen
 **Schwierigkeit**: Mittel (erfordert Sensibilität und Absprache)
 **Material**: Keins
 **Spieldauer**: Ca. 10-15 Minuten
@@ -49,4 +47,3 @@ Der aggressive Part wird nur gespielt! Die Bewegungen werden langsam ausgeführt
 ## **Quelle**:
 
 Unbekannt
-

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
 title: Spinnennetz
-description: 
+description: Eine Kooperationsaufgabe, bei der die Gruppe durch ein Seilnetz gelangen muss, ohne Felder doppelt zu nutzen oder Seile zu berühren.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 14
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spinnennetz.md
-translation_source_hash: 0cc6637fccb69acf901ac2b36c1cd9dd7a825c764f9f7612d0e12d016df99add
+translation_source_hash: fa2a83e65ff6903cd72f15f2fef87b365865728084bb7f20d6436b0eacd586bd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:08:59+00:00
+translation_updated: 2026-06-09T02:28:17+00:00
 ---
-# Ragnatela
+> [!info] Breve descrizione
+> Un compito cooperativo in cui il gruppo deve attraversare una rete di corde senza riutilizzare gli spazi o toccare le corde.
 
-**Dimensioni del gruppo**: da 6 a 14 partecipanti
-**Difficoltà**: da facile a molto difficile, a seconda della ragnatela
-**Materiale**: diverse corde o una corda molto lunga
+**Numero di partecipanti**: da 6 a 14 giocatori
+**Difficoltà**: da facile a molto difficile, a seconda della "ragnatela"
+**Materiale**: diverse corde o una molto lunga
 **Durata del gioco**: 5-15 minuti
 
-**Descrizione del gioco**:
-Tra due o più pali, alberi o elementi simili, si tende una rete con delle corde. La rete deve avere tanti spazi quanti sono i giocatori che partecipano al gioco, e gli spazi devono essere abbastanza grandi da permettere a ciascun giocatore di passarci attraverso in qualche modo. I giocatori devono ora passare da un lato all'altro della rete, ma ogni spazio può essere utilizzato una sola volta. È quindi necessario pensare attentamente a chi va per primo e quale spazio attraversare, con quale modalità. Per rendere il tutto più difficile, i giocatori non possono toccare le corde e, se una corda viene toccata da un giocatore, si ricomincia da capo, cioè tutti devono tornare indietro. Per i gruppi particolarmente affiatati, a chi tocca la corda viene assegnato un handicap. Ad esempio, gli si legano le gambe o le braccia, gli si benda gli occhi o qualsiasi altra cosa sembri appropriata.
+## **Descrizione del gioco**:
 
-**Fonte**:
+Tirando due o più pali, alberi o elementi simili, si tende una rete di corde. La rete ha esattamente tanti spazi quanti sono i giocatori che partecipano al gioco, e questi spazi sono abbastanza grandi da permettere a un giocatore di passarci attraverso in qualche modo. I giocatori devono ora passare da un lato all'altro della rete, ma possono utilizzare ogni spazio una sola volta. È quindi necessario pensare bene a chi va per primo e quale spazio attraverserà ciascuno, e con quale modalità. Per rendere il tutto più difficile, i giocatori non devono toccare le corde, e tutto viene resettato se un giocatore tocca una corda. Ciò significa che tutti devono tornare indietro. Per i gruppi particolarmente affiatati, a chi tocca la corda viene inflitto un handicap. Ad esempio, gli vengono legate gambe o braccia, bendati gli occhi o qualsiasi altra cosa sembri appropriata.
+
+## **Fonte**:
+
 Tasifan Spielebuch

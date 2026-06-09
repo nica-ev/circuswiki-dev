@@ -7,7 +7,7 @@ copyright = "CC BY-SA 4.0"
 docs_dir = ".build/pl"
 site_dir = "site/pl"
 extra_css = ["stylesheets/circuswiki.css"]
-extra_javascript = ["javascripts/site-theme.js", "javascripts/language-switcher.js", "javascripts/translation-status.js"]
+extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js"]
 
 nav = [
   { "Strona główna" = "index.md" },

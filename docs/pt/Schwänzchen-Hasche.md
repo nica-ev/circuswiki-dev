@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwänzchen-Hasche.md
-translation_source_hash: 134bf5d8cc91335e0e6f7dcda2d88ed4ab10d6087ef8eec6fd486c64c69f050f
+translation_source_hash: de1d8e40c5fade00d950d22fd75c50371657745f5b45a9f11534b44175b7ffda
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:10:00+00:00
+translation_updated: 2026-06-09T02:24:12+00:00
 ---
-# Rabo de Pano
-
 > [!info] Breve Descrição
-> Um jogo de perseguição com muita movimentação para grupos pequenos a médios, ideal para aquecimento, onde o objetivo é roubar os "rabos de pano" dos outros e recolher o máximo possível.
+> Um jogo de apanhar com lenços, em que todos tentam roubar as "caudas" dos outros e recolhê-las para si.
 
-**Tamanho do Grupo**: Pequeno a Médio
+**Tamanho do Grupo**: 5-30 pessoas
 **Dificuldade**: Fácil
-**Material**: Lenços/Panos (um por pessoa)
+**Material**: Lenços (um por pessoa)
 **Duração do Jogo**: Aprox. 10-15 minutos
 
 ## **Descrição do Jogo**:
 
-Um jogo de perseguição para grupos pequenos a médios, que é adequado para o aquecimento.
+Um jogo de apanhar para grupos pequenos a médios, que é adequado para o aquecimento.
 
-Material necessário: Lenços/Panos
+Material necessário: Lenços
 
-Cada pessoa coloca um lenço/pano na parte de trás das calças, de modo que um "rabo de pano" fique pendurado e seja fácil de puxar.
+Cada pessoa coloca um lenço na parte de trás das calças, de modo que uma "cauda" fique pendurada e seja fácil de puxar.
 
-O objetivo é roubar os rabos de pano dos outros e recolher o máximo de rabos de pano possível.
-Quando se rouba um rabo de pano, este também é colocado atrás das calças, de modo que fique bem visível e fácil de agarrar.
+O objetivo é roubar as caudas dos outros e recolher o maior número possível de caudas.
+Quando se rouba uma cauda, esta também é colocada na parte de trás das calças, de modo que fique bem visível e fácil de agarrar.
 
 ## **Fonte**:
 

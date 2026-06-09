@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
 title: Spinnennetz
-description: 
+description: Eine Kooperationsaufgabe, bei der die Gruppe durch ein Seilnetz gelangen muss, ohne Felder doppelt zu nutzen oder Seile zu berühren.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 14
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spinnennetz.md
-translation_source_hash: 0cc6637fccb69acf901ac2b36c1cd9dd7a825c764f9f7612d0e12d016df99add
+translation_source_hash: fa2a83e65ff6903cd72f15f2fef87b365865728084bb7f20d6436b0eacd586bd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:12:24+00:00
+translation_updated: 2026-06-09T02:28:29+00:00
 ---
-# Pavučina
+> [!info] Stručný popis
+> Kooperativní úkol, při kterém musí skupina projít pavučinou z lan, aniž by opakovala pole nebo se dotýkala lan.
 
 **Počet hráčů**: 6 až 14
-**Obtížnost**: od jednoduché po velmi obtížnou, v závislosti na pavučině
-**Materiál**: několik lan nebo jedno velmi dlouhé lano
-**Délka hry**: 5 až 15 minut
+**Obtížnost**: od jednoduché po velmi těžkou, v závislosti na pavučině
+**Materiál**: několik lan nebo jedno velmi dlouhé
+**Doba trvání hry**: 5 až 15 minut
 
-**Popis hry**:
-Mezi dvěma nebo více sloupy, stromy nebo podobnými předměty se napne síť z lan. Síť má přesně tolik polí, kolik hráčů se hry účastní, a pole jsou dostatečně velká, aby jimi každý hráč nějakým způsobem prolezl. Hráči se nyní musí dostat z jedné strany sítě na druhou, ale každý pole mohou využít pouze jednou. Je tedy třeba dobře promyslet, kdo půjde první a kdo kterým polem jakým způsobem projde. Aby se hra ztížila, hráči se nesmí dotýkat lan a vše se vrátí na začátek, pokud se hráč lana dotkne. To znamená, že se všichni musí vrátit. Pro obzvláště sehranou skupinu dostane ten, kdo se lana dotkl, ještě nějaké znevýhodnění. Například mu budou svázány nohy nebo ruce, zavázány oči nebo cokoli jiného, co se bude zdát vhodné.
+## **Popis hry**:
 
-**Zdroj**:
-Tasifan Spielebuch
+Mezi dvěma nebo více sloupy, stromy nebo podobnými předměty se napne síť z lan. Síť má přesně tolik polí, kolik hráčů se účastní hry, a jsou dostatečně velké, aby se jimi každý hráč mohl nějakým způsobem protáhnout. Hráči se nyní musí dostat z jedné strany sítě na druhou, ale přitom smí každé pole využít pouze jednou. Je tedy třeba dobře promyslet, kdo půjde první a kterým polem jakým způsobem se protáhne. Aby bylo vše obtížnější, hráči se nesmí dotýkat lan a vše se vrátí na začátek, pokud se hráč lana dotkne. To znamená, že všichni se musí vrátit. Pro obzvláště sehrané skupiny dostane ten, kdo se lana dotkl, nějakou zátěž navíc. Například mu budou svázány nohy nebo ruce, zakryty oči nebo cokoli jiného, co se zdá vhodné.
+
+## **Zdroj**:
+
+Kniha her Tasifan

@@ -6,24 +6,42 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:29:11
-title: " Finger-Fechten"
-description: 
+title: Finger-Fechten
+description: Ein kurzes Partnerspiel, bei dem zwei Personen versuchen, einander mit ausgestrecktem Zeigefinger am Bauch zu treffen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Finger-Fechten.md
-translation_source_hash: 47b7604b4d9c35d5021cc6907cddd612caae25098af9c72fe9b495336d1b9ef2
+translation_source_hash: 4283cb73fff83f1bc1179a003836bb9c8cf4dc431035b5db435279c08af530d4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:22:17+00:00
+translation_updated: 2026-06-09T01:38:41+00:00
 ---
-# Пальчикові бої
+> [!info] Короткий опис
+> Коротка парна гра, в якій двоє людей намагаються торкнутися один одного пальцем у живіт.
 
-Гра для будь-якої кількості учасників:
+**Розмір групи**: від 2 осіб
+**Складність**: легка
+**Матеріали**: не потрібні
+**Тривалість гри**: 2-5 хвилин
+
+## **Опис гри**:
+
+Гра підходить для будь-якого розміру групи.
 
 Учасники діляться на пари.
-Двоє людей беруться за руки. Потім роблять крок назад, витягують по одному вказівному пальцю і стають у "бойову стійку".
-За командою вони намагаються торкнутися пальцем живота партнера.
+Двоє людей беруться за руки. Потім вони роблять крок назад, витягають по одному вказівному пальцю і стають у "бойову стійку".
+За командою вони намагаються торкнутися живота партнера своїм пальцем.
 Хто перший торкнеться іншого, той виграє гру.
+
+## **Джерело**:
+
+Невідоме

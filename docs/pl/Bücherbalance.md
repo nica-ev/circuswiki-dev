@@ -7,23 +7,41 @@ publish: true
 tags:
   - spiele
 title: Bücherbalance
-description: 
+description: Ein ruhiges Balance-Spiel, bei dem Bücher auf Hand oder Fuß gehalten werden, während verschiedene Bewegungen ausprobiert werden.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: Bücher
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bücherbalance.md
-translation_source_hash: 72bc0150511b392c9ee30deb80e44010ea66c3c27545646167ec508ad5d9e23a
+translation_source_hash: 223f0455e096e26c3fb585a89357c161d96393a8d948e531c99dbfb40c3bf6b2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:08:58+00:00
+translation_updated: 2026-06-09T01:28:29+00:00
 ---
-# Równowaga z książką
+> [!info] Krótki opis
+> Spokojna gra zręcznościowa polegająca na utrzymywaniu książki na dłoni lub stopie podczas wykonywania różnych ruchów.
 
-Gra dla małych i średnich grup:
+**Liczba uczestników**: 3-20 osób
+**Poziom trudności**: łatwy
+**Materiały**: książki
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
+
+Gra przeznaczona dla małych i średnich grup.
 
 Każda osoba otrzymuje książkę.
-Następnie musi spróbować zbalansować książkę na dłoni, jednocześnie sprawdzając, w jakim stopniu może poruszać swoim ciałem (usiąść na podłodze, obrócić się na bok, położyć się na brzuchu, przetoczyć się na bok itp.).
-Gdy to się uda, można zwiększyć trudność, kładąc książkę na stopie.
-Ponownie testuje się, jakie ruchy są możliwe bez spadania książki ze stopy.
+Następnie musi spróbować zbalansować książkę na swojej dłoni, jednocześnie testując, w jakim stopniu może poruszać ciałem (usiąść na podłodze, obrócić się na bok, położyć się na brzuchu, przetoczyć się na bok itp.).
+Gdy to się uda, można zwiększyć poziom trudności, kładąc książkę na stopie.
+Ponownie testujemy, jakie ruchy są możliwe bez upuszczenia książki ze stopy.
+
+## **Źródło**:
+
+Nieznane

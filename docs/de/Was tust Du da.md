@@ -7,15 +7,29 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:13
 title: Was tust Du da?
-description: 
+description: Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 10-15
+source: unbekannt
+group-min: 4
+group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
-# Was tust Du da?
+> [!info] Kurzbeschreibung
+> Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
+
+**Gruppengröße**: 4-20 Personen
+**Schwierigkeit**: mittel
+**Material**: keines
+**Spieldauer**: 10-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Theater-Spiel für kleine bis mittlere Gruppen.
 
@@ -33,7 +47,7 @@ Person B "Ah, stimmt - alles klar"  und fängt an diese Tätigkeit darzustellen.
 
 Nun schaut A eine Weile zu und fragt dann "Was tust Du da eigentlich" und B antwortet wieder mit einer anderen Tätigkeit "Ich mache gerade Morgengymnastik"
 
-Regeln:
+## **Hinweise**:
 
 Nutze bevorzugt die Bühnenmitte
 
@@ -45,3 +59,6 @@ Gib dem anderen mindestens 10 sek Zeit etwas darzustellen bevor Du ihn fragst wa
 
 Lass 3-4 Wechsel zu und beendet dann das Spiel. 2 neue Personen können nun auf die Bühne kommen.
 
+## **Quelle**:
+
+Unbekannt

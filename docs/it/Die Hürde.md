@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Die Hürde
-description: 
+description: Eine Kooperationsaufgabe, bei der die ganze Gruppe über ein gespanntes Seil kommen muss, ohne es zu berühren.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Seil
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Hürde.md
-translation_source_hash: 2c2efd62751cdd191bfa24cb567d4c92b6ec86c61d1285439466e0bc2f259a49
+translation_source_hash: 2f70cd01568cf6a717ec508803527730a194a409ccc679f690a499227684c645
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:00:13+00:00
+translation_updated: 2026-06-09T01:32:57+00:00
 ---
-# La Traversata
+> [!info] Breve descrizione
+> Un compito di cooperazione in cui l'intero gruppo deve superare una corda tesa senza toccarla.
 
-**Numero di partecipanti:** da 4 a 20
-**Difficoltà:** media
-**Materiale:** corda
-**Durata del gioco:** 5-10 minuti
+**Dimensioni del gruppo**: 4-20 persone
+**Difficoltà**: media
+**Materiale**: corda
+**Durata del gioco**: 5-10 minuti
 
-**Descrizione del gioco:**
-Una corda viene tesa saldamente tra due supporti fissi, come pali, alberi o elementi simili. L'altezza a cui viene tesa la corda deve essere ben valutata dal conduttore del gioco. Un giocatore dovrebbe essere in grado di saltare da solo sopra la corda. L'obiettivo del gioco è infatti superare la corda senza toccarla o passare sotto di essa. Ciò significa che i giocatori devono aiutarsi a vicenda a superare la corda, trasportandosi, costruendo piramidi o provando con le scale dei ladri. Ogni gruppo troverà il proprio modo per far superare la corda a tutti. Se la corda viene toccata da un giocatore, tutti devono tornare al punto di partenza.
+## **Descrizione del gioco**:
 
-Fonte:
+Una corda viene tesa saldamente tra due pali fissi, alberi o elementi simili. L'altezza a cui viene tesa la corda deve essere ben valutata dal conduttore del gioco. Un giocatore dovrebbe essere in grado di saltare da solo sopra la corda. Infatti, l'obiettivo del gioco è superare la corda senza toccarla o passare sotto di essa. Ciò significa che i giocatori devono sollevarsi a vicenda sopra la corda, trasportarsi, costruire piramidi o provare con scale da ladro. Ogni gruppo troverà il proprio modo per far superare la corda a tutti. Se la corda viene toccata da un giocatore, tutti devono tornare al punto di partenza.
+
+## **Fonte**:
+
 Tasifan Spielebuch

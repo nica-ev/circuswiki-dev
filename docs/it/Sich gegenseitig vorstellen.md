@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
 title: Sich gegenseitig vorstellen
-description: 
+description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 authors:
   - Marc Bielert
 category:
@@ -23,23 +23,21 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sich gegenseitig vorstellen.md
-translation_source_hash: 6e8bed46c484842a0579a60e4d7797386619f19c2591b4319d5ca6a9c0130756
+translation_source_hash: d0fa686a546856fccbc8d91f481af5854d931934cd9abd246ed7fe787ccbd272
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:08:32+00:00
+translation_updated: 2026-06-09T02:24:56+00:00
 ---
-# "Presentarsi" a vicenda
-
 > [!info] Breve descrizione
-> "Presentarsi" a vicenda è un gioco creativo di conoscenza per piccoli gruppi, basato su supposizioni, che promuove l'immaginazione e le capacità comunicative dei partecipanti.
+> Un gioco di conoscenza in cerchio, in cui le persone si presentano a vicenda sulla base di supposizioni.
 
-**Dimensioni del gruppo**: Piccolo
+**Dimensioni del gruppo**: 5-15 persone
 **Difficoltà**: Media
 **Materiale**: Nessuno
 **Durata del gioco**: Circa 10-15 minuti
 
-## Descrizione del gioco:
+## **Descrizione del gioco**:
 
-Ispirato a [Pettegolezzi in presenza](Tratschen%20in%20Anwesenheit.md). Un gioco di conoscenza per piccoli gruppi.
+In linea con [Pettegolezzi in presenza](Tratschen%20in%20Anwesenheit.md). Un gioco di conoscenza per piccoli gruppi.
 
 ### Variante 1
 

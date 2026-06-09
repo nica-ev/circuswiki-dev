@@ -7,34 +7,52 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:10
 title: Aufgaben Spiel
-description: 
+description: Ein Gruppenaufgabenspiel, bei dem Personen gemeinsam Körperkontaktpunkte und Gruppengrößen passend zu Ansagen lösen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-15
+source: unbekannt
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Aufgaben Spiel.md
-translation_source_hash: 1cd51cf1f1eaaf1f3f5d8b7d6c6d871be265a4f92faec46dc22658f18f6326c5
+translation_source_hash: 6b7889aa52924fe12397ea06c7514bf7bfcd1cd877c0ee895ba8d47a3376cf7c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:27:27+00:00
+translation_updated: 2026-06-09T01:22:09+00:00
 ---
-# Úkolová hra
+> [!info] Stručný popis
+> Skupinová hra, při které účastníci na základě pokynů vytvářejí skupiny a dotýkají se tělem určeným počtem bodů.
 
-Hra pro jakýkoli počet hráčů:
+**Počet účastníků**: 4–30 osob
+**Obtížnost**: střední
+**Materiál**: žádný
+**Délka hry**: 5–15 minut
 
-Všichni se pohybují po místnosti.
+## **Popis hry**:
 
-Vůdce hry nahlas oznámí úkol, např. „4 osoby, 3 hlavy, 6 nohou“.
+Hra je vhodná pro jakýkoli počet účastníků.
 
-Hráči se nyní musí rychle najít ve skupinkách po čtyřech. Musí si položit hlavy na zem a chodidly se také dotýkat země. Dvě osoby se však smí dotýkat země pouze na jedné noze, aby byl splněn úkol „6 nohou“.
+Všichni účastníci se volně pohybují po místnosti.
 
-Další úkol zní: „2 osoby, 2 nohy, 4 ruce, 2 nosy“.
+Vedoucí hry nahlas oznámí zadání, například „4 osoby, 3 hlavy, 6 nohou“.
 
-Nyní se musí vytvořit dvojice. Obě osoby musí stát na jedné noze a položit ruce a nos na zem.
+Účastníci se nyní musí rychle spojit do skupin po čtyřech. Musí položit hlavy na zem a zároveň se chodidly dotýkat země. Dvě osoby se však mohou dotýkat země pouze jednou nohou, aby bylo splněno zadání „6 nohou“.
+
+Další zadání zní: „2 osoby, 2 nohy, 4 ruce, 2 nosy“.
+
+Nyní se musí vytvořit dvojice. Obě osoby se musí dotýkat země jednou nohou a položit ruce a nos na zem.
 
 …
 
-Úkoly mohou začít jednoduše a v každém kole se stupňovat.
+Zadání mohou být zpočátku jednoduchá a postupně se v každém kole zvyšovat.
 
-Hra může skončit, když úkol již není možné splnit.
+Hra může skončit, když už všichni nejsou schopni splnit zadaný úkol.
+
+## **Zdroj**:
+
+Neznámý

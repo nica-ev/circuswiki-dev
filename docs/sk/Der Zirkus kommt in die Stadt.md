@@ -7,42 +7,60 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
 title: Der Zirkus kommt in die Stadt
-description: 
+description: Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Matte, markierte Bereiche
+Spieldauer: 5-15
+source: unbekannt
+group-min: 10
+group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus kommt in die Stadt.md
-translation_source_hash: ee8b13fec805376aade3280ab044ae68ef0675d5240ba68e4102263645e8958e
+translation_source_hash: 797952a6a3e069193ad1befc6a02bee1c8a29f56e55df8146e1e1c0f09be9297
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:09+00:00
+translation_updated: 2026-06-09T01:32:15+00:00
 ---
-# Prichádza cirkus do mesta
+> [!info] Stručný popis
+> Tematická interaktívna hra, pri ktorej sa cirkusové povely spájajú s pohybmi a fázou chytania levov.
 
-Zábavná hra pre stredne veľké až veľké skupiny detí
+**Veľkosť skupiny**: 10-40 osôb
+**Náročnosť**: jednoduchá
+**Materiál**: podložka, vyznačené zóny
+**Dĺžka hry**: 5-15 minút
+
+## **Popis hry**:
+
+Interaktívna hra pre stredne veľké až veľké skupiny detí.
 Rôzne povely sa stručne vysvetlia:
 
-1. "Prichádza cirkus do mesta" --> všetci nahlas zakričia "Hurá" a zdvihnú ruky nad hlavu
-2. "Sú tu pukance" --> všetci poskakujú na mieste a kričia "Puk Puk Puk Puk"
-3. "Je tu cukrová vata" --> všetci sa točia dokola
-4. "Sú tu klobásky" --> všetci si ľahnú na zem a kotúľajú sa tam a späť
-5. "Umelci sú tu" --> všetci robia panákov
+1. "Cirkus prichádza do mesta" --> všetci hlasno kričia "Hurá" a zdvíhajú ruky nad hlavu.
+2. "Je tu popcorn" --> všetci poskakujú na mieste a kričia "Pop Pop Pop Pop".
+3. "Je tu cukrová vata" --> všetci sa otáčajú okolo svojej osi.
+4. "Sú tu párky" --> všetci si ľahnú na zem a kotúľajú sa sem a tam.
+5. "Umelci sú tu" --> všetci robia panákov.
 6. "Sú tu klauni"
 
-Tento zoznam sa dá ľubovoľne rozšíriť / zmeniť
-Dôležitá je "posledná stanica"
+Tento zoznam sa dá ľubovoľne rozšíriť/zmeniť.
+Dôležitá je "posledná stanica".
 
-1. "Levy sa kŕmia" Všetci idú k klietke s levmi a kŕmia levy
-2. "Levy sú na slobode" --> Levy utečú a snažia sa chytiť deti, chytené deti sa tiež stávajú levmi. Existuje jeden, čo najďalej vzdialený, "bezpečný priestor", kde sa deti môžu zachrániť
+1. "Levy sa kŕmia" --> všetci idú k klietke s levmi a kŕmia levy.
+2. "Levy sú na slobode" --> levy ujdú a snažia sa chytiť deti. Chytené deti sa tiež stávajú levmi. Existuje jedna, čo najďalej vzdialená, bezpečná zóna, kde sa deti môžu zachrániť.
 
-Na začiatku sa už určí jeden alebo viacero levov (prednostne dospelí/tréneri - ale dajú sa použiť aj niektoré deti)
+Na začiatku sa určí jeden alebo viacero levov (prednostne dospelí/vedúci – ale dajú sa použiť aj niektoré deti).
 
 Hra je vhodná aj pre veľké skupiny, ak je k dispozícii dostatok priestoru.
 
-# Variácie témy
+## **Varianty**:
 
-Základný princíp sa dá dobre využiť aj na tématické variácie.
+Základný princíp sa dá dobre využiť aj na tematické variácie.
 
-Namiesto cirkusu s rôznymi stanicami sa napríklad použije pirátska posádka, indiánska dedina atď...
+Namiesto cirkusu s rôznymi stanicami sa napríklad použije pirátska posádka, indiánska dedina atď.
+
+## **Zdroj**:
+
+Neznámy

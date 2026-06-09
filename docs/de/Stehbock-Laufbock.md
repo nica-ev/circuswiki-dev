@@ -7,15 +7,22 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:19
 title: Stehbock-Laufbock
-description: 
+description: Ein Anschleich- und Reaktionsspiel, bei dem Personen nur laufen dürfen, solange der Überwacher nicht hinschaut.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# **Stehbock-Laufbock**
+> [!info] Kurzbeschreibung
+> Ein Anschleich- und Reaktionsspiel, bei dem Personen nur laufen dürfen, solange der Überwacher nicht hinschaut.
 
 **Gruppengröße**: Ab 6 Mitspieler
 **Schwierigkeit**: einfach

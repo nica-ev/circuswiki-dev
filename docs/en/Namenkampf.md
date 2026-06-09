@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,16 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:27:29+00:00
+translation_updated: 2026-06-09T02:08:27+00:00
 ---
-# Name Battle
+> [!info] Brief Description
+> A name-guessing game with a visual barrier, where two teams try to be the first to call out the other person's name.
 
-> [!info] Short Description
-> "Name Battle" is a fast-paced and fun name game for any group size, where the goal is to call out your opponent's name faster to bring them onto your team.
-
-**Group Size**: Any (divided into two equal teams)
+**Group Size**: 10-30 people
 **Difficulty**: Easy
 **Materials**: A cloth (or other visual barrier)
 **Game Duration**: Approx. 10-15 minutes
@@ -41,11 +39,11 @@ translation_updated: 2026-06-06T19:27:29+00:00
 
 Two teams of equal size are formed. A cloth (or other visual barrier) is held between the teams so they cannot see each other.
 
-One person from each team stands behind the cloth. The game leader counts "1-2-3" and drops the cloth.
+One person from each team then stands behind the cloth. The game leader counts "1-2-3" and drops the cloth.
 
-The two individuals now facing each other must say the other person's name as quickly as possible. The winner of the "name duel" gets to add the loser to their team.
+The two individuals now facing each other must say the other person's name as quickly as possible. The winner of the "name duel" may add the loser to their team.
 
-The game is won when all individuals are on one side of the cloth.
+The game is won when all participants are on one side of the cloth.
 
 ## **Source**:
 

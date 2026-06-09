@@ -7,20 +7,27 @@ publish: true
 tags:
   - spiele
 title: Jeder fängt Jeden
-description: 
+description: Ein kurzes Fangspiel, bei dem alle gleichzeitig fangen und nur zwischen den Schulterblättern getippt werden darf.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
 
-# Jeder fängt Jeden
+> [!info] Kurzbeschreibung
+> Ein kurzes Fangspiel, bei dem alle gleichzeitig fangen und nur zwischen den Schulterblättern getippt werden darf.
 
-**Gruppengröße**: Ab 10 Mitspieler 
-**Schwierigkeit**: sehr einfach 
-**Material**: keins 
+**Gruppengröße**: Ab 10 Mitspieler
+**Schwierigkeit**: sehr einfach
+**Material**: keins
 **Spieldauer**: ca. 3 Minuten
 
 ## **Spielbeschreibung**: 

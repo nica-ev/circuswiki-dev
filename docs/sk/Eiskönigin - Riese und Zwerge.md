@@ -7,23 +7,43 @@ publish: true
 tags:
   - spiele
 title: Eiskönigin - Riese und Zwerge
-description: 
+description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: kleiner Gegenstand
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2c51d15b075ef7fc16d553458f6630cee62eb8546a55f85c1069fbf518a61220
+translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:40:20+00:00
+translation_updated: 2026-06-09T01:36:12+00:00
 ---
-Jedna osoba stojí chrbtom k ostatným, za ňou je malý predmet (napr. lopta).
+> [!info] Stručný popis
+> Plíživá a kooperatívna hra, pri ktorej skupina tajne ukradne a prinesie späť predmet.
 
-Vždy, keď sa otočí, ostatní musia zamrznúť. Kto sa pohne, musí urobiť 2 kroky dozadu (alebo sa vrátiť na začiatok).
+**Veľkosť skupiny**: 5 – 25 osôb
+**Obtiažnosť**: ľahká
+**Materiál**: malý predmet
+**Dĺžka hry**: 5 – 10 minút
+
+## **Popis hry**:
+
+Jedna osoba stojí chrbtom k ostatným, za ňou leží malý predmet (napr. lopta).
+
+Vždy, keď sa otočí, ostatní musia zamrznúť. Kto sa pohne, musí urobiť 2 kroky dozadu (alebo na začiatok).
 
 Cieľom je ukradnúť loptu a doniesť ju na štartovaciu čiaru.
-Hneď ako je lopta preč, ľadová kráľovná môže vždy tipnúť, kto má práve loptu.
+Hneď ako je lopta preč, ľadová kráľovná môže dať VŽDY JEDEN tip, kto má práve loptu.
 
-Ak správne tipne, vyhráva.
+Ak tipne správne, vyhrala.
+
+## **Zdroj**:
+
+Neznámy

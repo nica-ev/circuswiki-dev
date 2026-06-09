@@ -7,26 +7,35 @@ publish: true
 tags:
   - spiele
 title: Hände abklatschen
-description: 
+description: Ein Reaktionsspiel im Kreis, bei dem Hände im Rhythmus abgeklatscht und im richtigen Moment weggezogen werden.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 6
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände abklatschen.md
-translation_source_hash: 6133bcfc21d1e9032aa91e30fa2f7a52aaf45b9449e02e0888def26ca3257add
+translation_source_hash: 56b768e4b336b0f1d3d40b4c1091839405438364c43f2a75a22145b8a0f20d1d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:47:15+00:00
+translation_updated: 2026-06-09T01:43:36+00:00
 ---
-# Tlieskanie rúk
-**Veľkosť skupiny**: Od 5 hráčov
-**Obtiažnosť**: stredná
+> [!info] Stručný popis
+> Reakčná hra v kruhu, pri ktorej sa rytmicky tlieska rukami a v správnom momente sa ruky odťahujú.
+
+**Veľkosť skupiny**: Od 5 účastníkov
+**Náročnosť**: stredná
 **Materiál**: žiadny
 **Dĺžka hry**: cca 6 minút
 
 ## **Popis hry**:
-Všetci hráči sedia v kruhu. Každý drží pravú ruku smerom doprava, takže smeruje k pravému susedovi. Potom každý hráč položí ľavú ruku pred pravú ruku svojho ľavého suseda. Vedúci hry si vyberie číslo medzi 2 a 21 a nahlas ho povie. Potom nasledujúce číslo povie nahlas, zatiaľ čo ľavou rukou opatrne tleskne do ľavej ruky svojho pravého suseda (ktorá leží pred jeho vlastnou pravou rukou). Ten, koho ruka bola práve dotknutá, teda pravý sused, postupuje rovnako, len už nahlas nehovorí žiadne číslo. Každý si teraz musí potichu počítať, zatiaľ čo tlesknutia idú postupne dookola. Keď sa dosiahne číslo, ktoré na začiatku určil vedúci hry, ten, na koho príde tlesknutie, a jeho pravý sused, musia konať rýchlo. Ten, na koho príde rad, sa snaží normálne tlesknúť do ruky svojho suseda, ten sa však snaží ruku skôr odtiahnuť. Svoju ruku však môže odtiahnuť až vtedy, keď sa ruka, ktorá sa snaží tlesknúť, už nedotýka predchádzajúcej, teda sa „vydáva na cestu“. Ten z nich dvoch, kto nedosiahne svoj cieľ, vypadáva z tohto kola. Ten, kto zostane v hre, určí nové číslo. Kto urobí chybu, teda tleskne na nesprávnom mieste alebo príliš skoro odtiahne ruku, tiež vypadáva. Hráč, ktorý zostane ako posledný, vyhráva.
+
+Všetci účastníci sedia v kruhu. Každý drží pravú ruku smerom doprava, takže smeruje k pravému susedovi. Potom každý hráč položí svoju ľavú ruku pred pravú ruku svojho ľavého suseda. Vedúci hry si vyberie číslo od 2 do 21 a nahlas ho povie. Potom nasledujúce číslo povie nahlas, zatiaľ čo ľavou rukou opatrne tleskne do ľavej ruky svojho pravého suseda (ktorá leží pred jeho vlastnou pravou rukou). Ten, koho ruka bola práve dotknutá, teda pravý sused, postupuje rovnako, len už nehovorí žiadne číslo nahlas. Každý si teraz musí potichu počítať, zatiaľ čo tlesknutia idú kolo za kolom. Keď sa dosiahne číslo, ktoré na začiatku určil vedúci hry, ten, na koho príde tlesknutie, a jeho pravý sused, musia konať rýchlo. Ten, na koho príde rad, sa snaží normálne tlesknúť do ruky svojho suseda, ten sa však snaží ruku skôr odtiahnuť. Svoju ruku však môže odtiahnuť až vtedy, keď sa ruka, ktorá sa snaží tlesknúť, už nedotýka predchádzajúcej ruky, teda sa „vydáva na cestu“. Ten z dvojice, kto nedosiahne svoj cieľ, vypadáva z tohto kola. Ten, kto zostane v hre, určí nové číslo. Kto urobí chybu, teda netlieskne na nesprávnom mieste alebo príliš skoro odtiahne ruku, tiež vypadáva. Hráč, ktorý zostane posledný, vyhráva.
 
 ## **Zdroj**:
 Tasifan Spielebuch

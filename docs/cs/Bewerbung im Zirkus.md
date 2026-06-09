@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:58+00:00
+translation_updated: 2026-06-09T01:26:20+00:00
 ---
-# Přihláška do cirkusu
+> [!info] Stručný popis
+> Kruhová hra, ve které má uchazeč najít tajného cirkusového ředitele na základě nenápadných změn pohybu.
 
-Hra pro střední až velké skupiny:
+**Velikost skupiny**: od 8 osob
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 5-10 minut
+
+## **Popis hry**:
+
+Hra pro střední až velké skupiny.
 
 Všichni hráči sedí v kruhu. Vybere se jeden uchazeč, který musí opustit místnost.
 
-Poté se vybere ředitel cirkusu.
+Nyní se vybere cirkusový ředitel.
 
-Uchazeč je znovu vpuštěn do místnosti a má tři pokusy zjistit, kdo je ředitel cirkusu.
+Uchazeč je znovu vpuštěn do místnosti a má tři pokusy, aby cirkusového ředitele našel.
 
-Ředitel cirkusu neustále předvádí pohyby, které musí všichni ostatní opakovat. Musí se snažit tyto pohyby předvádět co nejnenápadněji, aby uchazeč viděl od všech osob současně stejný pohyb.
+Cirkusový ředitel neustále předvádí pohyby, které musí všichni ostatní opakovat. Musí se snažit je předvádět co nejnenápadněji, aby uchazeč viděl od všech osob současně stejný pohyb.
 
-Pokud uchazeč uhodne ředitele, hru vyhrál.
+Pokud uchazeč uhodne ředitele, vyhrál hru.
 Pokud se mu to nepodaří, vyhrála skupina.
+
+## **Zdroj**:
+
+Neznámý

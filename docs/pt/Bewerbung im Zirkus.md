@@ -10,27 +10,45 @@ category:
   - cool-down
   - kreisspiel
 title: Bewerbung im Zirkus
-description: 
+description: Ein Kreisspiel, bei dem ein Bewerber den heimlichen Zirkusdirektor anhand unauffälliger Bewegungswechsel finden muss.
 authors:
   - Marc Bielert
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 8
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewerbung im Zirkus.md
-translation_source_hash: 0d801c1be6e592c6c884a25fe4bff102db5241bfd08563f2728746bf214b4baa
+translation_source_hash: 4ecc49b48fbde9b68f400e27c73966e58f06b1cd33f80bc85130fbbfe32f4aff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:57+00:00
+translation_updated: 2026-06-09T01:26:18+00:00
 ---
-# Candidatura no Circo
+> [!info] Descrição Curta
+> Um jogo em círculo onde um candidato deve encontrar o diretor de circo secreto através de mudanças subtis de movimento.
 
-Jogo para grupos médios a grandes:
+**Tamanho do grupo**: a partir de 8 pessoas
+**Dificuldade**: fácil
+**Material**: nenhum
+**Duração do jogo**: 5-10 minutos
 
-Todos os participantes sentam-se em círculo. Um candidato é escolhido e deve sair da sala.
+## **Descrição do Jogo**:
 
-Em seguida, um diretor de circo é selecionado.
+Jogo para grupos médios a grandes.
 
-O candidato retorna à sala e tem três tentativas para identificar o diretor de circo.
+Todos os participantes sentam-se em círculo. Um candidato é escolhido para sair da sala.
 
-O diretor de circo executa continuamente movimentos que todos os outros devem imitar. Ele deve tentar fazer os movimentos o mais discretamente possível, de modo que o candidato veja o mesmo movimento em todas as pessoas ao mesmo tempo.
+Agora, um diretor de circo é selecionado.
 
-Se o candidato adivinhar o diretor, ele ganha o jogo.
-Se não conseguir, o grupo ganha.
+O candidato regressa à sala e tem três tentativas para identificar o diretor de circo.
+
+O diretor de circo dá continuamente movimentos que todos os outros devem imitar. Ele deve tentar fazê-los o mais subtilmente possível, de modo que o candidato veja o mesmo movimento de todas as pessoas ao mesmo tempo.
+
+Se o candidato adivinhar o diretor, ganhou o jogo.
+Se não conseguir, o grupo ganhou.
+
+## **Fonte**:
+
+Desconhecida

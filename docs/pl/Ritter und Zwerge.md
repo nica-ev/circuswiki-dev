@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2026-06-08 18:39:31
 title: Ritter und Zwerge
-description: 
+description: Ein Reaktionsspiel, bei dem eine Zwergengruppe auf Stockbewegungen des Ritters mit Ducken, Springen und Ausweichen reagiert.
 authors:
   - Marc Bielert
 category:
@@ -22,27 +22,25 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ritter und Zwerge.md
-translation_source_hash: b6fc861fc531fac7ddc0012bbd1c00e544f74beaf6eee2d63066e021c87f13c7
+translation_source_hash: 90795f033a294de04a13ca65bdf3bc00849d786b75837a89915e9feb798ce29e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:19:21+00:00
+translation_updated: 2026-06-09T02:12:43+00:00
 ---
-# Rycerze i Krasnoludki
+> [!info] Krótki opis
+> Gra reakcyjna, w której grupa krasnoludków reaguje na ruchy rycerza trzymanego w ręku kija, poprzez kucanie, skakanie i unikanie.
 
-**Liczba graczy**: 8 do 20 osób
+**Liczba graczy**: od 8 do 20
 **Poziom trudności**: łatwy
-**Materiały**: kij (np. trzonek od miotły)
+**Materiały**: jeden kij (np. trzonek od miotły)
 **Czas gry**: 5 do 10 minut
 
-**Opis gry**:
-Grupa ustawia się w zwartym kole. Uczestnicy wcielają się w krasnoludki, które chcą chronić swój skarb znajdujący się za nimi.
-Osoba prowadząca grę (lub jeden z uczestników) wciela się w rycerza, który walczy z krasnoludkami, aby ukraść ich skarb.
-Rycerz posiada kij, którym może wymachiwać:
-*   u góry (nad głowami krasnoludków, ale z zachowaniem bezpiecznej odległości),
-*   na dole (wzdłuż podłogi),
-*   lub przez środek (również tylko z zaznaczeniem bezpiecznej odległości).
-Krasnoludki muszą na to reagować.
-Jeśli kij zostanie wymachnięty u góry, krasnoludki muszą się schylić.
-Jeśli kij zostanie wymachnięty na dole, krasnoludki muszą podskoczyć.
-Jeśli cios przejdzie przez środek, koło krasnoludków musi się rozdzielić na dwie części, a następnie natychmiast ponownie połączyć, aby rycerz nie dostał się do skarbu.
+## **Opis gry**:
+
+Grupa ustawia się w zwartym tłumie. Uczestnicy wcielają się w krasnoludków, które chcą chronić swój skarb znajdujący się za nimi.
+Osoba prowadząca grę (lub jeden z uczestników) wciela się w rolę rycerza, który walczy z krasnoludkami, aby ukraść ich skarb.
+Rycerz trzyma kij, którym może machać nad głowami krasnoludków (zachowując bezpieczną odległość), wzdłuż ziemi lub przez środek tłumu (również tylko zaznaczając ruch w bezpiecznej odległości). Krasnoludki muszą na te ruchy reagować.
+Jeśli kij jest wymachiwany z góry, krasnoludki muszą się schylić.
+Jeśli kij jest wymachiwany z dołu, muszą podskoczyć.
+Jeśli ruch kija przechodzi przez środek, tłum krasnoludków musi się rozdzielić, a następnie natychmiast ponownie połączyć, aby rycerz nie dostał się do skarbu.
 Jeśli krasnoludek zareaguje nieprawidłowo lub zbyt późno, odpada z gry.
 Gra kończy się zwycięstwem rycerza, gdy wszyscy krasnoludki odpadną, a rycerz dotrze do skarbu.

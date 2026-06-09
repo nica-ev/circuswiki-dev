@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Schildkröten umdrehen
-description: 
+description: Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 authors:
   - Marc Bielert
 category:
@@ -22,15 +22,18 @@ group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Schildkröten umdrehen
+> [!info] Kurzbeschreibung
+> Ein körperliches Bewegungsspiel, bei dem Schildkröten auf dem Bauch liegend versuchen, nicht umgedreht zu werden.
 
 **Gruppengröße**: 6 bis 30 Mitspieler
 **Schwierigkeit**: mittel
 **Material**: keins
 **Spieldauer**: 5 bis 10 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Es werden je nach Kraft und Größe der Spieler ein oder zwei Schildkröten dreher bestimmt. Alle anderen Spieler legen sich auf den Bauch und sind Schildkröten. Sie können sich auch fortbewegen, aber nur liegend! Der oder die Schildkrötendreher versuchen die Schildkröten auf den Rücken zu drehen, denn sobald der Rücken einer Schildkröte den Boden berührt wird diese auch zum Schildkrötendreher. Die Schildkröten wollen das natürlich nicht und versuchen sich deshalb aneinander festzuhalten oder eine andere Taktik zu entwickeln, um möglichst nicht umgedreht zu werden. Das Spiel ist vorbei, wenn es keine Schildkröten mehr gibt.
 
-**Quelle**:
+## **Quelle**:
+
 Tasifan Spielebuch

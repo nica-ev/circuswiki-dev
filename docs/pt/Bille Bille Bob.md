@@ -7,64 +7,75 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:06:17
 title: Bille Bille Bob
-description: 
+description: Ein schnelles Reaktionsspiel, bei dem Kommandos im Kreis mit Worten, Gesten und Gruppenfiguren beantwortet werden.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 8
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bille Bille Bob.md
-translation_source_hash: 48370b87d3d983f0efafff4cb3190e11d9a4a11e5b2024fafe05016e0edbf729
+translation_source_hash: fe311adf40a3da6799536de160fbf8cf167ea556abaa04b9e36992fe9c45979e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:10+00:00
+translation_updated: 2026-06-09T01:27:49+00:00
 ---
-**Número de Jogadores**: A partir de 6 participantes
+> [!info] Breve Descrição
+> Um jogo rápido de reação onde comandos são respondidos em círculo com palavras, gestos e figuras de grupo.
+
+**Tamanho do Grupo**: A partir de 6 participantes
 **Dificuldade**: Média
 **Material**: Nenhum
-**Duração**: Aproximadamente 8 minutos
+**Duração do Jogo**: Aproximadamente 8 minutos
 
 ## **Descrição do Jogo**:
-O grupo forma um círculo e uma pessoa fica no centro. Essa pessoa quer sair do centro e pode fazer isso da seguinte maneira: ela aponta para alguém e diz "Bille Bille Bob". A pessoa para quem se aponta deve tentar dizer "Bob" antes que o jogador no centro termine de dizer "Bob" em "Bille Bille Bob". Se a pessoa conseguir, o jogador do centro deve procurar outra pessoa. Se não conseguir, deve entrar no círculo e também tentar sair do centro usando "Bille Bille Bob". Abaixo estão alguns comandos que podem ser introduzidos durante o jogo e chamados pelo jogador no centro. Em comandos que envolvem várias pessoas, é preciso ir para o centro se cometer um erro no movimento, nos sons, ou se esquecer completamente a sua parte ou a executar no lugar errado.
 
-1.  **Bob**:
-    O jogador escolhido não pode falar nem se mover por três segundos.
+O grupo forma um círculo e uma pessoa fica no centro. Essa pessoa quer sair do centro, o que pode conseguir da seguinte forma: ela aponta para alguém e diz "Bille Bille Bob". A pessoa para quem se aponta deve tentar dizer "Bob" antes que o jogador no centro termine de dizer "Bob" em "Bille Bille Bob". Se a pessoa conseguir, o jogador do centro deve procurar outra pessoa. Se não conseguir, deve entrar no círculo e também tentar sair do centro usando "Bille Bille Bob". A seguir, alguns comandos que podem ser introduzidos durante o jogo e que são chamados pelo jogador no centro. Em comandos que envolvem várias pessoas, é preciso ir para o centro se cometer um erro no movimento ou nos sons, ou se esquecer completamente a sua participação ou a aplicar no lugar errado.
 
-2.  **Máquina de Lavar**:
-    O vizinho esquerdo e o vizinho direito da pessoa escolhida formam um círculo com os braços, como o tambor de uma máquina de lavar, e a pessoa escolhida gira a cabeça dentro dele.
+1. **Bob**:
+O jogador escolhido não pode falar nem se mover por três segundos.
 
-3.  **Máquina de Lavar Quebrada**:
-    Basicamente o mesmo que a máquina de lavar, mas o jogador do centro fica parado e as cabeças e o tambor da máquina de lavar dos jogadores externos giram.
+2. **Máquina de Lavar Roupa**:
+O vizinho esquerdo e o vizinho direito da pessoa abordada formam um círculo com os braços, como o tambor de uma máquina de lavar, e a pessoa abordada gira a cabeça dentro dele.
 
-4.  **Torradeira**:
-    A pessoa escolhida fica em pé, rígida como uma torrada, e os vizinhos à esquerda e à direita formam uma caixa em volta dessa pessoa. Então, a torrada salta e grita alto "bing".
+3. **Máquina de Lavar Roupa Quebrada**:
+Essencialmente o mesmo que na máquina de lavar roupa, apenas o jogador do centro fica parado e as cabeças e o tambor de roupa dos jogadores externos giram.
 
-5.  **Torradeira Quebrada**:
-    Tudo igual à torradeira, só que a torradeira inteira salta e grita "bing". A torrada em si não salta.
+4. **Torradeira**:
+A pessoa abordada fica em pé, rígida como uma torrada, e os vizinhos à esquerda e à direita formam uma caixa em volta dessa pessoa. Então, a torrada salta e grita "bing".
 
-6.  **Poste de Luz**:
-    O jogador escolhido levanta os braços e se estica como se fosse um poste de luz. Os jogadores à esquerda e à direita levantam a perna e fingem urinar no poste de luz como um cachorro.
+5. **Torradeira Quebrada**:
+Tudo como na torradeira, apenas a torradeira inteira salta e grita "bing". A própria torrada não salta.
 
-7.  **Canguru Vomitando**:
-    A pessoa no centro forma um balde com os braços à sua frente e os dois vizinhos fingem vomitar dentro dele.
+6. **Poste de Luz**:
+O jogador escolhido levanta os braços e se estica como se fosse um poste de luz. Os jogadores à esquerda e à direita levantam a perna e fingem urinar no poste de luz como um cão.
 
-8.  **James Bond**:
-    A pessoa escolhida é James e segura uma pistola de dedo. Os dois vizinhos à direita e à esquerda abanam as mãos no ar na direção de James e gritam "ohhhh James".
+7. **Canguru Vomitando**:
+A pessoa no centro forma um balde à sua frente com os braços, e os dois vizinhos fingem vomitar nele.
 
-9.  **Liquidificador**:
-    O jogador do centro coloca as mãos sobre as cabeças de seus vizinhos. Eles giram sob cada mão em torno de seu próprio eixo.
+8. **James Bond**:
+A pessoa escolhida é James e segura uma pistola de dedo. Os dois vizinhos à direita e à esquerda abanam as mãos no ar na direção de James e gritam "ohhhh James".
 
-10. **Seja criativo e invente um novo comando em seu grupo!**
+9. **Liquidificador**:
+O jogador do centro coloca as mãos sobre as cabeças dos seus vizinhos. Eles giram sob cada mão em torno do seu próprio eixo.
 
-## **Versão do Jogo como Pega-Pega**:
-O pegador, sempre que toca em alguém, dá um dos comandos que envolvem vários jogadores. Agora, o jogador pego deve executar o movimento que o jogador do centro do comando faria. Ele só pode ser libertado se jogadores livres completarem o comando corretamente.
+10. **Seja criativo e invente um novo comando no seu grupo!**
+
+## **Versão do Jogo como Jogo de Pegar**:
+O pegador, sempre que toca em alguém, dá um dos comandos que envolvem vários jogadores. Agora, o jogador está "preso" e deve executar o movimento que o jogador do centro do comando faria. Ele só pode ser libertado se jogadores livres completarem o comando corretamente.
 
 ## **Fonte**:
 Tasifan Spielebuch
 
 ## Controvérsias
-Várias figuras, como James Bond, Mãe com Filho, etc., são vistas como controversas. Principalmente em relação ao papel que transmitem.
+Várias figuras, como James Bond, Mãe com Filho, etc., são vistas de forma controversa. Geralmente em relação ao papel que é transmitido.
 Pessoalmente, acho que, em vez de proibir essas figuras, uma forma alternativa como "Pai com Filho", "Supermulher" seria mais apropriada.
 
-## **Ver também**:
+## **Links Relacionados**
+
 [Bibbel Di Babbel Di Buh](Bibbel%20Di%20Babbel%20Di%20Buh.md)

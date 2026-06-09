@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:48:09
 title: Zirkusfangen
-description: 
+description: Ein thematisches Fangspiel, bei dem gefangene Personen in Zirkusrollen verwandelt und durch passende Aktionen befreit werden.
 authors:
   - Marc Bielert
 category:
@@ -22,14 +22,15 @@ group-max: 99
 translation_status: original
 translation_source_lang: de
 ---
-# Zirkusfangen
+> [!info] Kurzbeschreibung
+> Ein thematisches Fangspiel, bei dem gefangene Personen in Zirkusrollen verwandelt und durch passende Aktionen befreit werden.
 
 **Gruppengröße**: ab 6 Mitspieler
 **Schwierigkeit**: simpel
 **Material**: keines
 **Spieldauer**: 10 bis 15 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
 
 Jeder ist Fänger, aber auch Befreier.
 
@@ -42,4 +43,3 @@ Der Jongleur jongliert pantomimisch. Er wird von seinem Zauber befreit, wenn sic
 Der Zirkusdirektor ruft freundlich in die Runde "Herzlich Willkommen". Befreit wird er, wenn jemand durch seine Beine krabbelt.
 
 Der Clown steht traurig da und weint. Man kann ihn nur befreien, wenn man ihm zum lachen bringt, z.B. durch Grimassen schneiden.
-

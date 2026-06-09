@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen
-description: 
+description: Eine einfache Kennenlernübung im Kreis, bei der Namen, Augenkontakt und sauberes Werfen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,35 +23,33 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen.md
-translation_source_hash: 5bca38356ed6a8371bbe59cfed4d8ad2f1d0845286e40d1316789dae66bbee63
+translation_source_hash: f661873986655b6189e8d4802a7cc386080c983f8f9561407f0f018f7b3aa9ff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:19:49+00:00
+translation_updated: 2026-06-09T01:47:50+00:00
 ---
-# Poznawanie się z piłkami
-
 > [!info] Krótki opis
-> „Poznawanie się z piłkami” to proste ćwiczenie integracyjne, które skupia się na kontakcie wzrokowym, zapamiętywaniu imion i prawidłowej technice rzutu.
+> Proste ćwiczenie integracyjne w kręgu, łączące imiona, kontakt wzrokowy i precyzyjne rzuty.
 
 **Liczba uczestników**: Od 4 osób
 **Poziom trudności**: Łatwy
-**Materiały**: Jedna lub więcej piłek (woreczki fasolowe, miękkie piłki lub podobne)
+**Materiały**: Jedna lub więcej piłek (np. woreczki gimnastyczne, miękkie piłki)
 **Czas trwania**: 2-10 minut (w zależności od liczby uczestników)
 
 ## **Opis gry**:
-Wszyscy stoją w kręgu.
-Jedna osoba trzyma piłkę. Nawiązuje kontakt wzrokowy z inną osobą w grupie, podaje jej imię i rzuca piłkę.
+Wszyscy uczestnicy stają w kręgu.
+Jedna osoba trzyma piłkę. Nawiązuje kontakt wzrokowy z inną osobą w grupie, wypowiada jej imię i rzuca do niej piłkę.
 
-Ważne: Rzucaj dopiero po nawiązaniu kontaktu wzrokowego, podaniu imienia i upewnieniu się, że druga osoba wie, że to do niej jest rzut.
+Ważne: Rzucaj dopiero po nawiązaniu kontaktu wzrokowego i wypowiedzeniu imienia, tak aby druga osoba wiedziała, że to do niej jest kierowany rzut.
 
-Rzut powinien być wykonany łukiem, ręka rzucająca wykonuje ruch od tyłu-dołu do przodu (zobacz też: ruch żonglerski z piłkami).
+Rzut powinien być wykonany łukiem, ręka rzucająca wykonuje zamach od tyłu-dołu do przodu (zobacz też: ruchy żonglerskie z piłkami).
 [Podstawy żonglerki rzutami – Kaskada](Grundlagen%20Wurfjonglage%20-%20Kaskade.md)
 
-Wskazówka: Dobry rzut ułatwia złapanie.
+Uwaga: Dobry rzut ułatwia złapanie.
 
 ## **Źródło**:
 Nieznane
 
-## **Zobacz też:**
+## **Powiązane artykuły**
 
-[Poznawanie się z piłkami w biegu](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
+[Integracja z piłkami i bieganiem](Kennenlernen%20mit%20Bällen%20hinterherlaufen.md)
 [Gra na uwagę z piłkami](Aufmerksamkeits-Spiel%20mit%20Bällen.md)

@@ -7,47 +7,57 @@ tags:
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
 title: Schüttelspiel
-description: 
+description: Ein Sprech- und Bewegungsspiel, bei dem Gruppen sich gegenseitig zum gemeinsamen Schütteln auffordern.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schüttelspiel.md
-translation_source_hash: 5e729532db50c8a9c7073d63416811899e4f84d08842448a27fb5a567a799cc0
+translation_source_hash: d47523faad35891bbd400b4116996910fe05c6d1cc00204e28fd3c4d0addc461
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:08:21+00:00
+translation_updated: 2026-06-09T02:19:50+00:00
 ---
-# Gioco dello Scuotimento
+> [!info] Breve descrizione
+> Un gioco di parole e movimento in cui i gruppi si invitano reciprocamente a scuotere insieme.
 
-**Dimensioni del gruppo**: Diversi gruppi (dimensione del gruppo indifferente)
+**Dimensione del gruppo**: da 4 persone in su
 **Difficoltà**: molto facile
 **Materiale**: nessuno
 **Durata del gioco**: 5-10 minuti
 
-**Descrizione del gioco**:
-Il Gioco dello Scuotimento è un coro parlato con movimenti corrispondenti secondo lo schema seguente:
+## **Descrizione del gioco**:
 
-Gruppo A: Ehi Gruppo B (nome dell'altro gruppo/del workshop/ecc.), volete giocare con noi al Gioco dello Scuotimento?
+Il gioco dello scuotimento è un coro parlato con movimenti corrispondenti secondo lo schema seguente:
 
-Gruppo B: Oh Siiii!
+Gruppo A: Ehi Gruppo B (nome dell'altro gruppo/del workshop/ecc.), volete giocare con noi al gioco dello scuotimento?
+
+Gruppo B: Oh SÌÌÌ!
 
 A + Tutti: Siete fantastici!
 
-Tutti: E scuotiamo a destra destra destra destra destra. (Scuotendo tutto a destra)
+Tutti: E a destra scuoti scuoti, scuooooti scuoti scuoti. (Scuotendo tutto a destra)
 
-E scuotiamo a sinistra sinistra sinistra sinistra sinistra. (Scuotendo tutto a sinistra)
+E a sinistra scuoti scuoti, scuooooti scuoti scuoti. (Scuotendo tutto a sinistra)
 
-E scuotiamo in alto in alto in alto in alto in alto. (Scuotendo tutto in alto)
+E in alto scuoti scuoti, scuooooti scuoti scuoti. (Scuotendo tutto in alto)
 
-E scuotiamo tutto tutto tutto tutto tutto. (Scuotendo tutto)
+E tutto scuoti scuoti, scuuuoti scuoti scuoti. (Scuotendo tutto)
 
-Gruppo B: Ehi Gruppo C (nome di un altro gruppo/di un workshop/ecc.), volete giocare con noi al Gioco dello Scuotimento?
+Gruppo B: Ehi Gruppo C (nome di un altro gruppo/di un workshop/ecc.), volete giocare con noi al gioco dello scuotimento?
 
-Gruppo C: Oh Siiii!
+Gruppo C: Oh SÌÌÌ!
 
-E così via, finché ogni gruppo non ha avuto il suo turno. Il ritmo può anche essere aumentato gradualmente durante il gioco.
+E così via, finché ogni gruppo non ha avuto il suo turno. Il ritmo può anche essere aumentato progressivamente durante il gioco.
 
-**Fonte**:
+## **Fonte**:
+
 Tasifan Spielebuch

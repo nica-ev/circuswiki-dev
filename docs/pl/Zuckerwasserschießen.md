@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zuckerwasserschießen
-description: 
+description: Ein Namens-Reaktionsspiel, bei dem imaginäre Zuckerwasserpistolen schnelle Namensduelle auslösen.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: "20"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuckerwasserschießen.md
-translation_source_hash: 08069a4f5cf80fb8bf9d72eb1ae8d3ad00d6f765902560aeab3c172085050e74
+translation_source_hash: 1a88f49a65ac24a6c56fb0fd34f18d994b057ad62eeac125309325383d8da802
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:25:45+00:00
+translation_updated: 2026-06-09T02:39:28+00:00
 ---
-# Strzelanie cukrową wodą
+> [!info] Krótki opis
+> Gra reakcyjna na zapamiętywanie imion, w której wyobrażone pistolety na wodę z cukrem wywołują szybkie pojedynki imienne.
 
-**Liczba graczy**: 6 do 20
-**Poziom trudności**: nieco trudniejsze
+**Liczba graczy**: od 6 do 20
+**Poziom trudności**: nieco trudniejsza
 **Materiały**: żadne
 **Czas gry**: ok. 7 minut
 
-**Opis gry**:
-Wszyscy gracze mają wyimaginowany pistolet napełniony wodą z cukrem. Ponieważ woda z cukrem okropnie klei się we włosach, nikt nie chce jej dostać. Jedna osoba zaczyna, wymieniając imię gracza z kręgu, który nie jest jej sąsiadem, i jednocześnie strzela do tej osoby ze swojego wyimaginowanego pistoletu. Atakowany gracz musi jak najszybciej się uchylić, w przeciwnym razie zostaje trafiony i odpada z gry. Jeśli jednak uchyli się na czas, kolej na sąsiadów tego gracza, którzy muszą się pojedynkować. Oni również muszą się jak najszybciej "zastrzelic", wymieniając swoje imiona. Kto przegra pojedynek, siada. Teraz kolej na osobę, która została pierwotnie zaatakowana, i może ona nazwać i "zastrzelic" kogoś innego (nie swojego sąsiada). Ponieważ ludzie stale odpadają, ciągle zmieniają się sąsiedzi i trzeba wymieniać inne imiona. Gra doskonale nadaje się do zapamiętywania imion uczestników.
+## **Opis gry**:
 
-**Źródło**:
+Wszyscy gracze mają wyobrażoną broń napełnioną wodą z cukrem. Ponieważ woda z cukrem okropnie klei się we włosach, nikt nie chce jej dostać. Jedna osoba zaczyna, mówiąc imię innego gracza z kręgu, który nie jest jej sąsiadem, i jednocześnie strzela do tej osoby ze swojej wyobrażonej broni. Osoba zaatakowana musi jak najszybciej uchylić się, w przeciwnym razie zostaje trafiona i odpada z gry. Jeśli jednak uchyli się na czas, kolej na sąsiadów tej osoby, którzy muszą się pojedynkować. Oni również muszą jak najszybciej się "postrzelić", mówiąc swoje imiona. Kto przegra pojedynek, siada. Teraz kolej na osobę, która została pierwotnie "postrzelona", i może ona nazwać i "postrzelić" kogoś innego (nie swojego sąsiada). Ponieważ ludzie stale odpadają, ciągle pojawiają się nowi sąsiedzi i trzeba mówić inne imiona, dlatego gra doskonale nadaje się do zapamiętywania imion współgraczy.
+
+## **Źródło**:
+
 Tasifan Spielebuch

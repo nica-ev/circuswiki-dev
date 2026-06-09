@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 02:01:47
 title: Vorstellungsrunde - Werdegang - Symbolisch
-description: 
+description: Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,9 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> Ein kreatives Kennenlernspiel für kleine Gruppen, bei dem die Teilnehmenden ihren persönlichen Werdegang oder andere Themen symbolisch mit Objekten darstellen und so einen tiefgründigen Einblick in ihre Erfahrungen geben.
+> Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
 
-**Gruppengröße**: Klein
+**Gruppengröße**: 2-10 Personen
 **Schwierigkeit**: Mittel
 **Material**: Eine große Kiste mit Spielzeug, kleinen Tieren, Bausteinen, Lego u.ä. Dingen
 **Spieldauer**: Ca. 30-45 Minuten

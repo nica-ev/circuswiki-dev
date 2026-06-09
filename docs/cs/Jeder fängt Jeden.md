@@ -7,31 +7,38 @@ publish: true
 tags:
   - spiele
 title: Jeder fängt Jeden
-description: 
+description: Ein kurzes Fangspiel, bei dem alle gleichzeitig fangen und nur zwischen den Schulterblättern getippt werden darf.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Jeder fängt Jeden.md
-translation_source_hash: 454076b736de812e289e4a5f9b53b87ad3dafb93300e62c9aa37b5083637928d
+translation_source_hash: a09bbc531f48c8a117f38ef9911246726dc6a7cb4e12cb3039bccadc446a767e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:48:01+00:00
+translation_updated: 2026-06-09T01:46:00+00:00
 ---
-# Každý chytá každého
+> [!info] Stručný popis
+> Krátká honička, při které se všichni honí zároveň a dotýkat se lze pouze mezi lopatkami.
 
-**Počet hráčů**: Od 10 účastníků
+**Velikost skupiny**: Od 10 hráčů
 **Obtížnost**: velmi snadné
 **Materiál**: žádný
 **Délka hry**: cca 3 minuty
 
 ## **Popis hry**:
-Tato hra je rychle vysvětlená a většinou i stejně rychle odehraná, zato ale přinese do skupiny pořádný pohyb. Jak už název napovídá, každý se snaží chytit každého. Jeden hráč však může někoho chytit (ťuknout) a sám být chycen pouze v oblasti mezi lopatkami. Kdo byl chycen, prostě si sedne a čeká, dokud kolo neskončí. Kolo končí, když zbývá už jen jeden stojící hráč. Postavit se zády ke zdi nebo si lehnout na zem je samozřejmě ZAKÁZÁNO!
+Tuto hru lze rychle vysvětlit a většinou je stejně rychle i odehrána, ale zato pořádně rozproudí aktivitu ve skupině. Jak název napovídá, každý se snaží chytit každého. Hráč však může někoho chytit (dotknout se ho) pouze v oblasti mezi lopatkami a sám může být chycen také jen tam. Kdo je chycen, jednoduše si sedne a čeká, dokud kolo neskončí. Kolo končí, když zůstane stát už jen jeden hráč. Postavit se zády ke zdi nebo si lehnout na zem je samozřejmě ZAKÁZÁNO!
 
-**Rozšíření 1**: Navíc mohou ťukat i sedící hráči. Ti pak mohou ťukat hráče po celém těle.
+**Rozšíření 1**: Navíc mohou chytat i sedící hráči. Ti se pak mohou dotýkat hráčů po celém těle.
 
-**Rozšíření 2**: Komu normální verze skončí příliš rychle, může zavést pravidlo, že sedící hráči se mohou osvobodit tak, že ťuknou volného hráče. Pro sedící hráče platí, stejně jako v rozšíření 1, že pravidlo o lopatkách neplatí, mohou ťukat spoluhráče kdekoli.
+**Rozšíření 2**: Komu přijde normální verze příliš rychlá, může zavést pravidlo, že sedící hráči se mohou osvobodit tak, že se dotknou volného hráče. Pro sedící hráče neplatí pravidlo o lopatkách jako v rozšíření 1, mohou se dotýkat spoluhráčů kdekoli.
 
 ## **Zdroj**:
 Tasifan Spielebuch

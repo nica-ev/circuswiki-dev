@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:40:45
 title: Schoko Schoko La La
-description: 
+description: Ein kurzes Klatschspiel für zwei Personen, bei dem Handflächen, Handrücken und Fäuste rhythmisch wechseln.
 authors:
   - Marc Bielert
 category:
@@ -22,21 +22,34 @@ group-max: "2"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schoko Schoko La La.md
-translation_source_hash: a8983634767269846a3e2a207dc810a6b7ca5dc54c6e971b802c4748ee4027e6
+translation_source_hash: e2cdbc488cc55e0d442f01f2fc28335f805494a25635f362def5143631bd9c0f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:09:42+00:00
+translation_updated: 2026-06-09T02:16:25+00:00
 ---
-# Čoko Čoko La La
+> [!info] Stručný popis
+> Krátká hra tleskání pro dvě osoby, při které se rytmicky střídají dlaně, hřbety rukou a pěsti.
 
-Tleskací hra pro 2 osoby.
+**Velikost skupiny**: 2 osoby
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 2-5 minut
 
-Text:
-Čoko Čoko La La
-Čoko Čoko De De
-Čoko La
-Čoko De
-Čoko La De
+## **Popis hry**:
 
-Při slově „Čoko“ se tleskne dlaněmi o sebe.
-Při slově „La“ se tleskne hřbety rukou o sebe.
-Při slově „De“ se tleskne pěstmi o sebe.
+Hra tleskání pro 2 osoby.
+
+### Text
+
+Čoko čoko la la
+Čoko čoko de de
+Čoko la
+Čoko de
+Čoko la de
+
+Při slově „Čoko“ se tleskne spojenými dlaněmi.
+Při slově „la“ se tleskne spojenými hřbety rukou.
+Při slově „de“ se tleskne spojenými pěstmi.
+
+## **Zdroj**:
+
+Neznámý

@@ -7,47 +7,57 @@ tags:
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
 title: Schüttelspiel
-description: 
+description: Ein Sprech- und Bewegungsspiel, bei dem Gruppen sich gegenseitig zum gemeinsamen Schütteln auffordern.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schüttelspiel.md
-translation_source_hash: 5e729532db50c8a9c7073d63416811899e4f84d08842448a27fb5a567a799cc0
+translation_source_hash: d47523faad35891bbd400b4116996910fe05c6d1cc00204e28fd3c4d0addc461
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:09:54+00:00
+translation_updated: 2026-06-09T02:19:59+00:00
 ---
-# Jogo do Sacudir
+> [!info] Breve Descrição
+> Um jogo de fala e movimento em que grupos se convidam mutuamente a abanar em conjunto.
 
-**Tamanho do grupo**: Vários grupos (tamanho do grupo indiferente)
+**Tamanho do grupo**: a partir de 4 pessoas
 **Dificuldade**: muito fácil
 **Material**: nenhum
 **Duração do jogo**: 5 a 10 minutos
 
-**Descrição do jogo**:
-O Jogo do Sacudir é um coro falado com movimentos correspondentes, seguindo o padrão abaixo:
+## **Descrição do Jogo**:
 
-Grupo A: Ei, Grupo B (nome do outro grupo/do workshop/etc.), querem jogar o Jogo do Sacudir connosco?
+O jogo do abanar é um coro falado com movimentos correspondentes, seguindo o seguinte padrão:
 
-Grupo B: Ah, Simmm!
+Grupo A: Ei Grupo B (nome do outro grupo/do workshop/ou similar), querem jogar o jogo do abanar connosco?
+
+Grupo B: Ah, simmm!
 
 A + Todos: Vocês são fixes!
 
-Todos: E para a direita, sacode, sacode, saaaacode, sacode, sacode. (Enquanto isso, sacode tudo para a direita)
+Todos: E para a direita abana abana, abaaaaana abana abana. (Enquanto isso, abana tudo para a direita)
 
-E para a esquerda, sacode, sacode, saaaacode, sacode, sacode. (Enquanto isso, sacode tudo para a esquerda)
+E para a esquerda abana abana, abaaaaana abana abana. (Enquanto isso, abana tudo para a esquerda)
 
-E para cima, sacode, sacode, saaaacode, sacode, sacode. (Enquanto isso, sacode tudo para cima)
+E para cima abana abana, abaaaaana abana abana. (Enquanto isso, abana tudo para cima)
 
-E tudo, sacode, sacode, saaaacode, sacode, sacode. (Enquanto isso, sacode tudo)
+E tudo abana abana, abaaaaana abana abana. (Enquanto isso, abana tudo)
 
-Grupo B: Ei, Grupo C (nome de outro grupo/do workshop/etc.), querem jogar o Jogo do Sacudir connosco?
+Grupo B: Ei Grupo C (nome de outro grupo/workshop/ou similar), querem jogar o jogo do abanar connosco?
 
-Grupo C: Ah, Simmm!
+Grupo C: Ah, simmm!
 
-E assim por diante, até que cada grupo tenha tido a sua vez. O ritmo pode também ser aumentado progressivamente ao longo do jogo.
+E assim por diante, até que cada grupo tenha tido a sua vez. O ritmo também pode ser aumentado progressivamente ao longo do jogo.
 
-**Fonte**:
+## **Fonte**:
+
 Tasifan Spielebuch

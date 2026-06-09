@@ -7,31 +7,46 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
+translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T16:35:12+00:00
+translation_updated: 2026-06-09T01:35:23+00:00
 ---
-# Arriba y Abajo
+> [!info] Breve descripción
+> Un sencillo juego de pases en el que los objetos se transportan alternativamente por encima de la cabeza y entre las piernas.
 
-Un juego sencillo con objetos para grupos pequeños o medianos.
+**Tamaño del grupo**: 5-20 personas
+**Dificultad**: fácil
+**Material**: objetos
+**Duración del juego**: 5-10 minutos
+
+## **Descripción del juego**:
+
+Un juego sencillo con objetos para grupos pequeños y medianos.
 
 Todos se colocan en fila.
-Se pasan objetos de adelante hacia atrás por encima de la cabeza.
+Los objetos se pasan de adelante hacia atrás por encima de la cabeza.
 La última persona de la fila pasa los objetos de atrás hacia adelante entre las piernas de la persona que tiene delante.
 
-Se puede hacer como un juego interminable o dejar los objetos a un lado cuando hayan completado una ronda.
+Se puede hacer como un juego interminable o los objetos se apartan cuando completan una ronda.
 
----
-fusionar con nota duplicada:
+## **Notas**:
 
-Un juego sencillo con objetos para grupos pequeños o medianos.
+Evaluar la posible fusión con una nota doble.
 
-Todos se colocan en fila. Se pasan objetos de adelante hacia atrás por encima de la cabeza. La última persona de la fila pasa los objetos de atrás hacia adelante entre las piernas de la persona que tiene delante. Los objetos se pueden dejar a un lado cuando hayan completado una ronda, o se puede reiniciar como un juego interminable.
+## **Fuente**:
+
+Desconocida

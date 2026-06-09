@@ -7,47 +7,57 @@ tags:
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
 title: Schüttelspiel
-description: 
+description: Ein Sprech- und Bewegungsspiel, bei dem Gruppen sich gegenseitig zum gemeinsamen Schütteln auffordern.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schüttelspiel.md
-translation_source_hash: 5e729532db50c8a9c7073d63416811899e4f84d08842448a27fb5a567a799cc0
+translation_source_hash: d47523faad35891bbd400b4116996910fe05c6d1cc00204e28fd3c4d0addc461
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:09:56+00:00
+translation_updated: 2026-06-09T02:20:01+00:00
 ---
-# Třesoucí hra
+> [!info] Stručný popis
+> Mluvní a pohybová hra, při které se skupiny navzájem vyzývají ke společnému třesení.
 
-**Velikost skupiny**: Více skupin (velikost skupiny je libovolná)
+**Počet hráčů**: od 4 osob
 **Obtížnost**: velmi snadné
 **Materiál**: žádný
-**Doba trvání hry**: 5 až 10 minut
+**Délka hry**: 5 až 10 minut
 
-**Popis hry**:
+## **Popis hry**:
+
 Třesoucí hra je mluvený sbor s odpovídajícími pohyby podle následujícího vzoru:
 
-Skupina A: Hej Skupino B (název druhé skupiny/workshopu/apod.), chcete si s námi zahrát Třesoucí hru?
+Skupina A: Hej skupino B (název druhé skupiny/workshopu/apod.), chcete si s námi zahrát třesoucí hru?
 
 Skupina B: Au Joooo!
 
 A + Všichni: Jste skvělí!
 
-Všichni: A teď vpravo třes, třes, třes, třes, třes. (Přitom třeseme vším vpravo)
+Všichni: A teď doprava třes třes, třeeeřes třes třes. (Přitom všechno třeseme doprava)
 
-A vlevo třes, třes, třes, třes, třes. (Přitom třeseme vším vlevo)
+A doleva třes třes, třeeeřes třes třes. (Přitom všechno třeseme doleva)
 
-A nahoru třes, třes, třes, třes, třes. (Přitom třeseme vším nahoru)
+A nahoru třes třes, třeeeřes třes třes. (Přitom všechno třeseme nahoru)
 
-A všechno třes, třes, třes, třes, třes. (Přitom třeseme vším)
+A všechno třes třes, třeeeřes třes třes. (Přitom všechno třeseme)
 
-Skupina B: Hej Skupino C (název další skupiny/workshopu/apod.), chcete si s námi zahrát Třesoucí hru?
+Skupina B: Hej skupino C (název další skupiny/workshopu/apod.), chcete si s námi zahrát třesoucí hru?
 
 Skupina C: Au Joooo!
 
-A tak dále, dokud se každá skupina jednou nevystřídá. Tempo se může během hry také stále zvyšovat.
+A tak dále, dokud se každá skupina jednou nevystřídá. Tempo se během hry může také stále zvyšovat.
 
-**Zdroj**:
+## **Zdroj**:
+
 Tasifan Spielebuch

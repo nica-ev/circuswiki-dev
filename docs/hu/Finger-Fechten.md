@@ -6,24 +6,42 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:29:11
-title: " Finger-Fechten"
-description: 
+title: Finger-Fechten
+description: Ein kurzes Partnerspiel, bei dem zwei Personen versuchen, einander mit ausgestrecktem Zeigefinger am Bauch zu treffen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source: unbekannt
+group-min: 2
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Finger-Fechten.md
-translation_source_hash: 47b7604b4d9c35d5021cc6907cddd612caae25098af9c72fe9b495336d1b9ef2
+translation_source_hash: 4283cb73fff83f1bc1179a003836bb9c8cf4dc431035b5db435279c08af530d4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:39:15+00:00
+translation_updated: 2026-06-09T01:38:36+00:00
 ---
-# Ujj-vívás
+> [!info] Rövid leírás
+> Egy rövid páros játék, amelyben két személy megpróbálja egymást kinyújtott mutatóujjal a hasán megérinteni.
 
-Játék minden csoportméretre:
+**Csoportméret**: 2 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 2-5 perc
 
-Párok alakulnak.
-A két személy kezet fog. Ezután egy lépést hátrálnak, kinyújtják az egyik mutatóujjukat, és "harci pozícióba" állnak.
-Jelzésre megpróbálják az ujjukkal eltalálni a partner hasát.
-Aki először találja el a másikat, nyeri a játékot.
+## **Játék leírása**:
+
+Minden csoportméretre alkalmas játék.
+
+Párokat alkotunk.
+A két személy kezet fog. Ezt követően egy lépést hátrálnak, kinyújtják az egyik mutatóujjukat, és "harci pozícióba" állnak.
+Jeladásra megpróbálják a partnerüket az ujjukkal a hasán megérinteni.
+Aki először érinti meg a másikat, nyeri a játékot.
+
+## **Forrás**:
+
+Ismeretlen

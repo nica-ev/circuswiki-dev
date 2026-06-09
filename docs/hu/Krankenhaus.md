@@ -7,28 +7,35 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:20
 title: Krankenhaus
-description: 
+description: Ein Fangspiel, bei dem infizierte Personen von anderen gemeinsam ins Krankenhaus getragen und dort gerettet werden.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Matten
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Krankenhaus.md
-translation_source_hash: ead5a763191d1199cb3336a3285c68e6f324a353ac266f8b2cd573f7b6d49aed
+translation_source_hash: d4f156354746cac9926003e5586a17cc569179b5998f13d4a7d468cfda9eadff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:45:52+00:00
+translation_updated: 2026-06-09T01:52:33+00:00
 ---
-# Kórház
+> [!info] Rövid leírás
+> Egy fogójáték, ahol a fertőzött játékosokat mások közösen kórházba viszik, és ott megmentik őket.
 
-**Csoportlétszám**: 8+ játékos
+**Csoportméret**: 8+ játékos
 **Nehézség**: egyszerű
-**Anyag**: 2-3 szőnyeg
+**Eszközök**: 2-3 szőnyeg
 **Játékidő**: 5-10 perc
 
-**Játékszabály**:
+## **Játékleírás**:
 
-A játéktéren két vagy három szőnyeget helyezünk el, vagy hasonló módon kis területeket jelölünk ki – ezek lesznek a kórházak. A játékosoknak a csoport méretének megfelelően meghatározunk néhány „bacilust”. A bacilusok megpróbálják megfertőzni az egészséges játékosokat azzal, hogy megérintik őket, és így legyengítik őket, hogy azok a földre rogyjanak és ott feküdjenek. A megfertőzött játékosokat két vagy több egészséges játékos hangos „tatu-tata” kiáltással „kórházba” szállíthatja, és ott leteheti őket. Ehhez karon és lábon fogják meg őket, és a szőnyegekhez viszik. Az egészséges játékosok, akik éppen „mentőt” vezetnek, azaz valakit szállítanak, biztonságban vannak a bacilusok elől. Azonban csak addig, amíg a „mentő” teljes. Ha egy egészséges játékos egyedül próbál meg valakit kórházba vinni, megérinthető. A kórházakba természetesen a bacilusok nem mehetnek be, így az egészséges játékosok ott biztonságban vannak.
+A játéktéren két vagy három szőnyeget helyezünk el, vagy kisebb területeket jelölünk ki – ezek a kórházak. A játékosok közül a csoport méretének megfelelően kijelölünk néhány „bacilust”. A bacilust hordozók megpróbálják megérinteni az egészségeseket, hogy megfertőzzék őket, és ezáltal annyira legyengítsék őket, hogy földre rogyjanak. A fertőzött játékosokat két vagy több egészséges játékos hangos „tütü-táta” kiáltással a kórházba viheti, és ott letámaszthatja őket. Ehhez karjuknál és lábuknál fogva emelik fel és viszik a szőnyegekhez. Az egészséges játékosok, akik éppen „mentőautót” vezetnek, azaz valakit szállítanak, biztonságban vannak a bacilust hordozóktől. Azonban csak addig, amíg a „mentőautó” teljes. Ha egy egészséges játékos megpróbál egyedül valakit kórházba vinni, megérinthető. A bacilusok természetesen nem mehetnek be a kórházakba, így az egészséges játékosok ott biztonságban vannak.
 
 ## **Forrás**:
 

@@ -7,40 +7,66 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
 title: Slalom in Reihe
-description: 
+description: Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Slalom in Reihe.md
-translation_source_hash: 778c67f01158aabf9a806f91bc1cdfc1d6720f732f783e27877e1a66ac356c62
+translation_source_hash: a2f5e670c4637b1f2308771017ec9c090e03cc6aac8dadc91807756a38c67e45
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:24:03+00:00
+translation_updated: 2026-06-09T02:25:21+00:00
 ---
-# Slalom in de rij
+> [!info] Korte beschrijving
+> Een opwarmspel in kleine groepen, waarbij deelnemers na elkaar door een rij lopen, kruipen of klimmen.
+
+**Groepsgrootte**: 3-25 personen
+**Moeilijkheidsgraad**: makkelijk
+**Materiaal**: geen
+**Speeltijd**: 5-10 minuten
+
+## **Spelbeschrijving**:
 
 Een opwarmspel voor kleine tot middelgrote groepen. Veel ruimte voor variaties.
 
-Kleine groepen van 3 tot 5 personen worden gevormd. De personen binnen een groep staan achter elkaar in een rij. Er moet altijd voldoende ruimte zijn tussen de individuele personen, zodat je er gemakkelijk tussendoor kunt lopen.
+Er worden kleine groepen van 3 tot 5 personen gevormd. De personen binnen een groep staan achter elkaar in een rij. Er moet altijd voldoende ruimte zijn tussen de individuele deelnemers, zodat men er gemakkelijk tussendoor kan lopen.
 
 De groepen moeten voldoende ruimte naast elkaar hebben, zodat ze elkaar niet hinderen.
 Hieronder worden verschillende uitvoeringen beschreven.
 
-Slalom:
-De laatste persoon in de rij begint met slalommen om de personen voor zich heen, totdat hij/zij aan de kop van de rij is aangekomen. Daar blijft hij/zij staan.
-De "voorlaatste" persoon begint achteraan te slalommen zodra hij/zij de laatste persoon in de rij is geworden.
+## **Varianten**:
 
-Hoog / Laag:
-De personen in de rij staan steeds afwisselend rechtop met gespreide benen en ineengedoken, zo klein mogelijk. De laatste in de rij begint weer – door gespreide benen wordt heen gekropen, over een ineengedoken persoon wordt een bokspring gemaakt.
+### Slalom
 
-Hondentunnel:
-Elke persoon in de groep staat in de yogahouding "De Hond" – voeten en handen zijn op de grond, benen zijn gestrekt, de billen zijn omhoog gestrekt zodat het lichaam een driehoek vormt met de grond.
-Elke persoon is zo gedraaid dat er een tunnel ontstaat (iedereen is naar rechts gedraaid en gaat in de positie staan).
-De laatste in de rij kruipt door deze tunnel heen, aan de andere kant aangekomen gaat hij/zij weer in de hondenhouding staan.
+De laatste persoon in de rij begint met het slalommen om de personen voor zich heen, totdat hij/zij aan de kop van de rij is aangekomen. Daar blijft hij/zij staan.
+De "voorlaatste" persoon begint met het achtervolgen in een slalom, zodra hij/zij de laatste persoon in de rij is geworden.
 
-Opdrukken:
-Elke persoon in de groep draait zich naar rechts en gaat in de opdrukpositie staan, de armen mogen gestrekt blijven. De laatste in de rij stapt over de anderen heen, aan de andere kant aangekomen gaat hij/zij weer in de opdrukpositie staan.
+### Hoog / Laag
 
---> Je kunt veel andere variaties bedenken, het is belangrijk dat de uitvoeringen simpel worden gehouden en dat er niet te veel personen in een groep zitten.
+De personen in de rij staan afwisselend rechtop met gespreide benen en ineengedoken, zo klein mogelijk. De laatste in de rij begint weer - door gespreide benen wordt heen gekropen, over een ineengedoken persoon wordt een sprongetje gemaakt.
+
+### Hondentunnel
+
+Iedere persoon in de groep staat in de yoga-houding "De Hond" - voeten en handen zijn op de grond, benen zijn gestrekt, de billen zijn omhoog gestoken zodat het lichaam een driehoek vormt met de grond.
+Iedere persoon is zo gedraaid dat er een tunnel ontstaat (iedereen is naar rechts gedraaid en neemt de positie in).
+De laatste in de rij kruipt door deze tunnel heen, op de andere kant aangekomen neemt hij/zij weer de hondenhouding aan.
+
+### Opdrukken
+
+Iedere persoon in de groep draait zich naar rechts en neemt de opdruk-positie aan, de armen mogen gestrekt blijven. De laatste in de rij stapt over de anderen heen, op de andere kant aangekomen neemt hij/zij weer de opdruk-positie aan.
+
+## **Aanwijzingen**:
+
+--> Men kan veel andere variaties bedenken, belangrijk is dat de uitvoeringen simpel worden gehouden en dat er niet te veel personen in een groep zitten.
+
+## **Bron**:
+
+Onbekend

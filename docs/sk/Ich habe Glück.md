@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Ich habe Glück
-description: 
+description: Ein Fangspiel mit Zweierteams, bei dem ein Stein-Schere-Papier-Moment entscheidet, wer weiter fängt.
 authors:
   - Marc Bielert
 category:
@@ -23,34 +23,34 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ich habe Glück.md
-translation_source_hash: 75831da799fba368aae4f4ea83364ba399a254c09869a3a4db291ffac9f90946
+translation_source_hash: 13c970eb630ddc5dba3607f14160f6ea673632cddde9a035cb0cb00d5cb4a008
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:47:37+00:00
+translation_updated: 2026-06-09T01:44:55+00:00
 ---
 > [!info] Stručný popis
-> "Mám šťastie" je dynamická naháňačka, ktorá kombinuje prvky naháňačky, tímovej práce a hry "Kameň, papier, nožnice" s cieľom podporiť pohyb, rýchle rozhodovanie a interakciu.
+> Hra na chytanie v dvojčlenných tímoch, kde rozhoduje moment hry "kameň, papier, nožnice", kto bude ďalej chytať.
 
-**Veľkosť skupiny**: Neobmedzená
-**Obtiažnosť**: Jednoduchá
+**Veľkosť skupiny**: 6-28 osôb
+**Náročnosť**: Jednoduchá
 **Materiál**: Žiadny
-**Dĺžka hry**: Neobmedzená
+**Dĺžka hry**: 5-10 minút
 
 ## **Popis hry**:
 
-Deti tvoria dvojice tak, že sa chytia za ruky. Tieto dvojice sú naháňači (v hre môže byť naraz viacero naháňacích tímov).
+Deti sa spoja do dvojčlenných tímov tak, že sa chytia za ruky. Tieto tímy sú chytači (v hre môže byť naraz viacero chytačských tímov).
 
-Keď naháňací tím chytí inú osobu, traja zúčastnení odohrajú minihru:
+Keď chytačský tím chytí inú osobu, traja zúčastnení odohrajú minihru:
 
-Všetci traja sa postavia do kruhu a povedia "Mám šťastie". Pritom pohybujú zovretými päsťami hore a dole, podobne ako pri hre "Kameň, papier, nožnice".
+Všetci traja sa postavia do kruhu a hovoria "Mám šťastie". Pritom pohybujú zovretými päsťami hore a dole, ako pri hre "kameň, papier, nožnice".
 
-Pri treťom opakovaní si každý z troch hráčov súčasne vyberie "kameň", "papier" alebo "nožnice" a ukáže svoju voľbu oboma rukami (teda buď obe ruky ako päsť, obe ruky naplocho alebo obe ruky s roztiahnutými prstami = nožnice).
+Pri tretíkrát sa každý z troch hráčov súčasne rozhodne pre "kameň", "papier" alebo "nožnice" a ukáže svoju voľbu oboma rukami (teda buď obe ruky ako päsť, obe ruky ploché alebo obe ruky s roztiahnutými prstami = nožnice).
 
-*   Ak dvaja z troch hráčov ukážu to isté (napr. dvakrát "kameň"), títo dvaja tvoria nový naháňací tím. Tretia osoba je teraz voľná a opäť uteká pred naháňačmi.
-*   Ak všetci traja hráči ukážu niečo iné, alebo všetci traja ukážu to isté, nasleduje ďalšie kolo "Mám šťastie", kým sa nevytvorí nová skupina naháňačov.
+*   Ak dvaja z troch hráčov ukážu to isté (napr. dvakrát "kameň"), títo dvaja vytvoria nový chytačský tím. Tretia osoba je teraz voľná a opäť uteká pred chytačmi.
+*   Ak všetci traja hráči ukážu niečo iné alebo všetci traja ukážu to isté, nasleduje nové kolo "Mám šťastie", kým sa nevytvorí nová skupina chytačov.
 
-Ako vedúci hry môžete dobre kontrolovať, koľko naháňacích tímov je v hre, pridávaním alebo odoberaním tímov. Odporúča sa začať s malým počtom naháňacích tímov a postupne pridávať ďalšie.
+Ako vedúci hry môžete dobre kontrolovať, koľko chytačských tímov je v hre, pridávaním alebo odoberaním tímov. Odporúča sa začať s malým počtom chytačských tímov a postupne pridávať ďalšie.
 
-Hra nemá skutočný koniec, pretože počet naháňacích tímov zostáva vždy rovnaký.
+Hra nemá skutočný koniec, pretože počet chytačských tímov zostáva vždy rovnaký.
 
 ## **Zdroj**:
 

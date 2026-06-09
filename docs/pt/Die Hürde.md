@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Die Hürde
-description: 
+description: Eine Kooperationsaufgabe, bei der die ganze Gruppe über ein gespanntes Seil kommen muss, ohne es zu berühren.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Seil
+Spieldauer: 5-10
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Hürde.md
-translation_source_hash: 2c2efd62751cdd191bfa24cb567d4c92b6ec86c61d1285439466e0bc2f259a49
+translation_source_hash: 2f70cd01568cf6a717ec508803527730a194a409ccc679f690a499227684c645
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:17+00:00
+translation_updated: 2026-06-09T01:33:06+00:00
 ---
-# A Travessia
+> [!info] Breve Descrição
+> Uma tarefa de cooperação em que todo o grupo tem de atravessar uma corda esticada sem a tocar.
 
-**Tamanho do grupo:** 4 a 20 participantes
-**Dificuldade:** média
-**Material:** Corda
-**Duração do jogo:** 5 a 10 minutos
+**Tamanho do Grupo**: 4-20 pessoas
+**Dificuldade**: Média
+**Material**: Corda
+**Duração do Jogo**: 5-10 minutos
 
-**Descrição do jogo:**
-Uma corda é esticada firmemente entre duas barras fixas, postes, árvores ou algo semelhante. A altura em que a corda é esticada deve ser bem avaliada pelo(a) facilitador(a). Um jogador deve ser capaz de saltar sobre a corda sozinho(a). Pois o objetivo do jogo é passar por cima da corda sem tocá-la ou passar por baixo dela. Isso significa que os jogadores devem erguer-se uns aos outros, carregar-se, construir pirâmides ou tentar com escadas de ladrão. Cada grupo encontrará o seu próprio caminho para fazer com que todos passem por cima da corda. Se a corda for tocada por um jogador, todos devem voltar para o lado inicial.
+## **Descrição do Jogo**:
 
-Fonte:
+Uma corda é esticada firmemente entre duas barras fixas, postes, árvores ou algo semelhante. A altura a que a corda é esticada deve ser bem avaliada pelo facilitador. Um jogador deve ser capaz de saltar sobre a corda sozinho. Pois o objetivo do jogo é atravessar a corda sem a tocar ou passar por baixo dela. Isto significa que os jogadores têm de se ajudar mutuamente a passar por cima da corda, carregando uns aos outros, construindo pirâmides ou tentando com escadas de ladrão. Cada grupo encontrará a sua própria maneira de fazer com que todos atravessem a corda. Se a corda for tocada por um jogador, todos têm de voltar ao lado inicial.
+
+## **Fonte**:
+
 Tasifan Spielebuch

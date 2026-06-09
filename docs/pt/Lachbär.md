@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Lachbär
-description: 
+description: Ein ruhiges Spiel, bei dem der Lachbär liegende Personen ohne Berührung zum Lachen bringen muss.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 4
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Lachbär.md
-translation_source_hash: 2630f34b7799e8bf0039afa9fde846100a6fc49013ef21ec87a99fe4ead33f4e
+translation_source_hash: 2b5a6d4f333b8821b559dc7fd08d7109370b6f37f69d8d411c26ea798bf2d1c7
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:01:35+00:00
+translation_updated: 2026-06-09T01:54:29+00:00
 ---
-# Urso do Riso
+> [!info] Descrição Curta
+> Um jogo calmo em que o urso do riso tem de fazer rir as pessoas deitadas sem as tocar.
 
-**Tamanho do grupo**: A partir de 6 participantes
+**Tamanho do Grupo**: A partir de 6 participantes
 **Dificuldade**: Simples
 **Material**: Nenhum
-**Duração do jogo**: Aprox. 4 minutos
+**Duração do Jogo**: aprox. 4 minutos
 
-**Descrição do jogo**:
-Antes de começar o jogo, uma pessoa deve ser escolhida para ser o "Urso do Riso". Todos os outros participantes deitam-se de costas no chão. Todos eles devem manter os olhos abertos e olhar para o teto. A partir deste momento, os que estão deitados não podem mais falar ou fazer barulho. O Urso do Riso deve então tentar fazer os jogadores deitados rirem, mas sem tocá-los! Se o Urso do Riso conseguir fazer alguém rir, essa pessoa também se torna um Urso do Riso e eles podem continuar em dupla até que não haja mais ninguém deitado. O importante é que as pessoas deitadas não podem contrair o rosto. Quem tiver que rir, que ria!
+## **Descrição do Jogo**:
 
-**Fonte**:
+Antes de começar o jogo, uma pessoa tem de ser escolhida para ser o urso do riso. Todos os outros participantes deitam-se de costas no chão. Todos eles mantêm os olhos abertos e olham para o teto. A partir deste momento, os que estão deitados não podem mais falar nem fazer barulho. O urso do riso tem agora de tentar fazer rir os jogadores deitados, mas sem os tocar! Se o urso do riso conseguir fazer alguém rir, essa pessoa também se torna urso do riso e podem continuar os dois, até que não haja mais ninguém deitado. O importante é que as pessoas deitadas não podem contrair o rosto. Quem tiver de rir, tem de rir!
+
+## **Fonte**:
+
 Tasifan Spielebuch

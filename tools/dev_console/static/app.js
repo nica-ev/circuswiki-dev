@@ -263,11 +263,19 @@ async function runBatchTranslation() {
   progress.value = 0;
   setBusy(true);
   const results = [];
+  const startedAt = performance.now();
 
   try {
     for (let index = 0; index < plan.candidates.length; index += 1) {
       const item = plan.candidates[index];
-      $("batch-status").textContent = `Translating ${index + 1}/${plan.candidates.length}: ${item.translation_id}`;
+      $("batch-status").textContent = batchProgressLabel(
+        "Translating",
+        index + 1,
+        plan.candidates.length,
+        item.translation_id,
+        startedAt,
+        results.length
+      );
       const result = await api("/api/batch-translate-file", {
         method: "POST",
         body: JSON.stringify({
@@ -280,13 +288,25 @@ async function runBatchTranslation() {
       });
       results.push(result);
       progress.value = index + 1;
+      $("batch-status").textContent = batchProgressLabel(
+        "Translated",
+        results.length,
+        plan.candidates.length,
+        item.translation_id,
+        startedAt,
+        results.length
+      );
       batchLog(results);
     }
-    $("batch-status").textContent = `Batch complete: ${results.length} translated.`;
+    $("batch-status").textContent = `Batch complete: ${results.length} translated (time left: 00:00 min).`;
     await loadHealth();
     await loadVaultHealth();
   } catch (error) {
-    $("batch-status").textContent = "Batch stopped.";
+    $("batch-status").textContent = `Batch stopped after ${results.length}/${plan.candidates.length} (${batchTimeLeftLabel(
+      startedAt,
+      results.length,
+      plan.candidates.length
+    )}).`;
     batchLog({
       error: error.message,
       completed: results.length,
@@ -422,6 +442,33 @@ function renderBatchPlan() {
     </tbody>
   `;
   batchLog(plan);
+}
+
+function formatBatchTimeLeft(milliseconds) {
+  const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")} min`;
+}
+
+function batchTimeLeftLabel(startedAt, completedCount, totalCount) {
+  if (startedAt == null || completedCount < 1) {
+    return "time left: --:-- min";
+  }
+
+  const elapsed = performance.now() - startedAt;
+  const averagePerFile = elapsed / completedCount;
+  const remainingCount = Math.max(0, totalCount - completedCount);
+
+  return `time left: ${formatBatchTimeLeft(remainingCount * averagePerFile)}`;
+}
+
+function batchProgressLabel(action, currentCount, totalCount, translationId, startedAt, completedCount) {
+  const timeLeft = batchTimeLeftLabel(startedAt, completedCount, totalCount);
+  const fileLabel = translationId ? `: ${translationId}` : "";
+
+  return `${action} ${currentCount}/${totalCount} (${timeLeft})${fileLabel}`;
 }
 
 function batchLog(value) {

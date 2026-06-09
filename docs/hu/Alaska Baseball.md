@@ -5,9 +5,9 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2026-06-07 01:13:50
+update: 2026-06-07 00:02:07
 title: Alaska Baseball
-description: 
+description: Ein laufintensives Teamspiel, bei dem Werfen, Sammeln und schnelle Gruppenkoordination über möglichst viele Runden entscheiden.
 authors:
   - Marc Bielert
 category:
@@ -22,22 +22,24 @@ group-max: "100"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Alaska Baseball.md
-translation_source_hash: 8b61f5e2810ab422f27a5474de1194c516a446bb5efe5232c0eaf771288566da
+translation_source_hash: 04713aafd85e0c626e7250a1987f47d9c4adc42fcc1a3afaa9beb19174660412
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:33:20+00:00
+translation_updated: 2026-06-09T01:20:37+00:00
 ---
+> [!info] Rövid leírás
+> Futásintenzív csapatjáték, ahol a dobás, gyűjtés és a gyors csoportkoordináció dönti el a legtöbb kört.
 
-# Alaszkai baseball
-
-**Csoportméret**: 30–100 játékos
+**Csoportméret**: 30-100 játékos
 **Nehézség**: egyszerű
-**Szükséges anyag**: nincs
+**Anyag**: nincs
 **Játékidő**: kb. 5 perc
 
-**Játékszabály**:
-A csoportot két, lehetőség szerint egyenlő erejű csapatra osztjuk. Az egyik csapat kap egy WC-kefét vagy egy másik dobható tárgyat, és kijelöli az első dobót. A másik csapat elhelyezkedhet a játéktéren, vagy kitalálhat más taktikát. A dobó ezután a WC-kefét a játéktér bármely pontjára eldobja. Utána körbe kell futnia az összes csapattagja körül. A játékosok elrendezése teljesen rajtuk múlik, a lényeg, hogy a dobó minél több kört tudjon teljesíteni. A másik csapatnak ezalatt a lehető leggyorsabban fel kell szednie a WC-kefét, majd egy sorba kell beállnia egymás mögé, és a kefét egyszer át kell adnia mindenki lábai között. Amikor az utolsó játékos kezébe kerül a WC-kefe, hangosan felkiált: „Alaszkai baseball”. Ez a másik csapat számára a megállító jel. A dobó által a jelzésig megtett köröket feljegyezzük. Most a másik csapat következik a dobással, és a sorban utolsó játékos, aki az „Alaszkai baseball” kiáltást tette, lesz az új dobó. Az a csapat, amelyik először dobott, most a WC-kefét adja át a lábai között. Így a WC-kefe folyamatosan a két csapat között cserél gazdát.
+## **Játékleírás**:
 
-A játék akkor ér véget, ha letelt egy meghatározott idő, egy bizonyos számú kört játszottak, vagy valamelyik csapat elérte a kívánt körszámot.
+A csoportot két, lehetőleg egyenlő erejű csapatra osztjuk. Az egyik csapat kap egy WC-kefét vagy más dobható tárgyat, és kiválasztja az első dobót. A másik csapat eloszlathatja magát a játéktéren, vagy kitalálhat egy másik taktikát. A dobó ezután a WC-kefét a játéktér bármely pontjára eldobja. Ezután körbe kell futnia az összes csapattag körül. A játékosok elrendezkedése teljesen rajtuk múlik, a lényeg, hogy a dobó minél több kört teljesítsen. A másik csapatnak ezalatt a lehető leggyorsabban fel kell szednie a WC-kefét, majd egy sorba kell rendeződnie, és a kefét egyszer át kell adnia mindenki lábai között. Amikor az utolsó játékos kezébe kerül a WC-kefe, hangosan felkiált: „Alaska Baseball”. Ez a megállító jel a másik csapat számára. Feljegyzik, hány kört futott a dobó a jelzésig. Most a másik csapat következik a dobással, és a sorban utolsó, aki az „Alaska Baseball”-t kiáltotta, ő lesz a dobó. Az a csapat, amelyik először dobott, most a WC-kefét adja át lábai között. Így a WC-kefe folyamatosan a két csapat között cserél gazdát.
 
-**Forrás**:
+A játék akkor ér véget, ha lejárt egy meghatározott idő, lement egy bizonyos számú kör, vagy egy csapat elérte a meghatározott körszámot.
+
+## **Forrás**:
+
 Tasifan Spielebuch

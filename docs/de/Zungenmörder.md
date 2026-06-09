@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Zungenmörder
-description: 
+description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 authors:
   - Marc Bielert
 category:
@@ -23,15 +23,13 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Zungenmörder
-
 > [!info] Kurzbeschreibung
-> "Zungenmörder" ist ein spannendes Rollenspiel für mittlere bis große Gruppen, bei dem ein Mörder durch Zungenzeigen "Mordopfer" auswählt, während ein Detektiv versucht, ihn zu entlarven.
+> Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
 
-**Gruppengröße**: Mittel bis groß
+**Gruppengröße**: 10-30 Personen
 **Schwierigkeit**: Mittel
 **Material**: Keines
-**Spieldauer**: Ca. 10-15 Minuten
+**Spieldauer**: 5-10 Minuten
 
 ## **Spielbeschreibung**:
 

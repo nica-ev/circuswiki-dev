@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-08 22:39:10
 title: Komm mit, lauf weg
-description: 
+description: Ein Laufspiel im Kreis, bei dem angetippte Personen auf Kommando mitlaufen oder in die Gegenrichtung starten.
 authors:
   - Marc Bielert
 category:
@@ -24,12 +24,12 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/komm-mit-lauf-weg.md
-translation_source_hash: fb1bf6a636190cd5e7e66e2d17a3a9a6483caf43187bc25d09c313369a09f3cf
+translation_source_hash: 3b3ff4fdeb624f1a1ea118f1c01c4a8fb12c7ca75e47b143ccb505edda45c758
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:41:32+00:00
+translation_updated: 2026-06-09T01:50:34+00:00
 ---
 > [!info] Breve descripción
-> Un juego dinámico de correr para grupos grandes que fomenta la rapidez de reacción, la orientación y el espíritu de equipo, animando a los participantes a cambiar de dirección rápidamente y a moverse juntos.
+> Un juego de carrera en círculo en el que las personas tocadas deben correr o empezar en la dirección opuesta según una orden.
 
 **Tamaño del grupo**: 5 o más, también grupos grandes
 **Dificultad**: Fácil
@@ -38,18 +38,20 @@ translation_updated: 2026-06-08T20:41:32+00:00
 
 ## **Descripción del juego**:
 
-Este juego se basa en reacciones rápidas y cambios de dirección. La idea principal es que un "pilla" toque a una persona o a un equipo entero y dé una orden que requiera una reacción inmediata.
+Este juego se basa en reacciones rápidas y cambios de dirección. La idea principal es que un "perseguidor" toca a una persona o a un equipo entero y da una orden que requiere una reacción inmediata.
 
-**Variante 1 (Grupos grandes):**
+## **Variantes**:
 
-El grupo se divide en varios equipos de igual tamaño. Los equipos se colocan en círculo. Un "pilla" corre por fuera del círculo, rodeando a los equipos. El "pilla" toca a la última persona de un equipo o a cualquier persona del círculo y grita "¡Ven conmigo!" o "¡Huye!".
+### Variante 1: Grupos grandes
 
-*   **"¡Ven conmigo!":** La persona tocada (o el equipo entero) corre en la misma dirección que el "pilla" fuera del círculo e intenta volver a su sitio lo más rápido posible antes de que el "pilla" ocupe ese lugar.
-*   **"¡Huye!":** La persona tocada (o el equipo entero) corre en la dirección opuesta a la del "pilla" fuera del círculo e intenta volver a su sitio lo más rápido posible antes de que el "pilla" ocupe ese lugar.
+El grupo se divide en varios equipos de igual tamaño. Los equipos se colocan en círculo. Un perseguidor corre por fuera del círculo alrededor de los equipos. El perseguidor toca a la última persona de un equipo o a cualquier persona del círculo y grita "¡Ven conmigo!" o "¡Huye!".
 
-**Variante 2 (Grupos pequeños):**
+*   **"¡Ven conmigo!"**: La persona tocada (o todo el equipo) corre en la misma dirección que el perseguidor por fuera del círculo e intenta volver a su sitio lo más rápido posible antes de que el perseguidor ocupe su lugar.
+*   **"¡Huye!"**: La persona tocada (o todo el equipo) corre en la dirección opuesta al perseguidor por fuera del círculo e intenta volver a su sitio lo más rápido posible antes de que el perseguidor ocupe su lugar.
 
-Todos los participantes se colocan juntos en un círculo. Se designa un "pilla". Este corre por fuera del círculo rodeando a las demás personas. Toca el hombro de una persona de su elección y dice "¡Ven conmigo!" o "¡Huye!". La persona tocada corre ahora, dependiendo de la orden, en la misma dirección o en la dirección opuesta al "pilla" alrededor del círculo, y ambos intentan recuperar su sitio.
+### Variante 2: Grupos pequeños
+
+Todos los participantes se colocan juntos en un círculo. Se designa un perseguidor. Este corre por fuera del círculo alrededor de las demás personas. Toca el hombro de una persona de su elección y dice "¡Ven conmigo!" o "¡Huye!". La persona tocada corre ahora, dependiendo de la orden, en la misma dirección o en la dirección opuesta al perseguidor alrededor del círculo, y ambos intentan recuperar su lugar.
 
 ## **Fuente**:
 

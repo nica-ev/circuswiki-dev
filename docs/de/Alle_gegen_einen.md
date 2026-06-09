@@ -7,16 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:08
 title: Alle gegen einen
-description: 
+description: Ein strategisches Kooperationsspiel, bei dem eine Gruppe durch schnelles Besetzen freier Reifen eine einzelne Person aufhalten muss.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: mittel
+Material: Reifen
+Spieldauer: 10-15
+source: unbekannt
+group-min: 8
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
 
-# Alle gegen einen
+> [!info] Kurzbeschreibung
+> Ein strategisches Kooperationsspiel, bei dem eine Gruppe durch schnelles Besetzen freier Reifen eine einzelne Person aufhalten muss.
+
+**Gruppengröße**: 8-30 Personen
+**Schwierigkeit**: mittel
+**Material**: Reifen
+**Spieldauer**: 10-15 Minuten
+
+## **Spielbeschreibung**:
 
 Ein Kooperationsspiel mit starken strategischen Elementen welches mit mittleren Gruppen am besten zu spielen ist. Kein reines Koop-Spiel da, wie der Name schon sagt - die ganze Gruppe gegen einen einzelnen spielt.
 
@@ -39,3 +53,6 @@ Ziel der Gruppe ist es das zu verhindern.
 
 Man merkt sehr schnell wie schwer es der Gruppe fällt ihr Spielziel längere Zeit umzusetzen. Eine gemeinsame Strategie, besonders aber auch die non-verbale Kommunikation und das achten aufeinander sind hier besonders wichtig.
 
+## **Quelle**:
+
+Unbekannt

@@ -7,27 +7,47 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:26:37
 title: Luftballons Balancieren
-description: 
+description: Ein einfaches Balancespiel, bei dem Luftballons auf unterschiedlichen Körperteilen balanciert werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: Luftballons
+Spieldauer: 5-10
+source: unbekannt
+group-min: 2
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Luftballons Balancieren.md
-translation_source_hash: 06910bc35596bad01e1ac4c7de88027045ea2d5bc31f71abf074e797baca579e
+translation_source_hash: c804a36fbebe8596105e2adc0eb2d81e94c0265403833136b60eeee19a1e9c26
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:21:06+00:00
+translation_updated: 2026-06-09T02:04:45+00:00
 ---
-# Balansowanie balonem
+> [!info] Krótki opis
+> Prosta gra zręcznościowa polegająca na balansowaniu balonami na różnych częściach ciała.
+
+**Liczba graczy**: od 2 osób
+**Poziom trudności**: łatwy
+**Materiały**: balony
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
 
 Gra dla małych i dużych grup.
 
-Materiały: Balony
+Materiały: balony
 
-Prosta gra do ćwiczenia podstawowych umiejętności balansowania.
+Prosta gra do ćwiczenia podstawowych umiejętności utrzymywania równowagi.
 
-Każdy uczestnik bierze balon i próbuje utrzymać go jak najdłużej na różnych częściach ciała.
+Każdy gracz bierze balon i próbuje jak najdłużej utrzymać go na różnych częściach ciała.
 Na przykład: na nosie, na głowie, na wyciągniętych palcach, na pięści itp.
 
-Zobacz też: [[Pfauenfedern balancieren]]
+## **Źródło**:
+
+Nieznane
+
+## **Powiązane strony**
+
+[[Pfauenfedern balancieren]]

@@ -7,30 +7,48 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:19
 title: Ball werfen im Stern
-description: 
+description: Ein Ballspiel im Kreis, bei dem ein festes Wurfmuster entsteht und mit mehreren Bällen trainiert werden kann.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Bälle
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 15
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ball werfen im Stern.md
-translation_source_hash: e46d334024f56d0f38b314c9d7032e3e79e42de3f4aa7b39e19bc765b29b8213
+translation_source_hash: 59b229bf1eb08e74e350864d931d24ca2167165dfb7c828287a0534f1af70883
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:27:51+00:00
+translation_updated: 2026-06-09T01:23:44+00:00
 ---
-# Lançar a Bola em Estrela
+> [!info] Breve Descrição
+> Um jogo de bola em círculo que cria um padrão de arremesso fixo e pode ser praticado com várias bolas.
 
-Jogo em círculo para pequenos grupos com bolas.
+**Tamanho do Grupo**: 5-15 pessoas
+**Dificuldade**: fácil
+**Material**: Bolas
+**Duração do Jogo**: 5-10 minutos
 
-O grupo forma um círculo. Inicialmente, apenas uma bola circula. Dependendo do número de pessoas, lança-se a bola para um parceiro que esteja X posições à direita.
+## **Descrição do Jogo**:
 
-Este, por sua vez, lança para uma pessoa que esteja X posições à sua direita, e assim por diante.
+Jogo em círculo para grupos pequenos com bolas.
+
+O grupo fica em círculo. Inicialmente, apenas uma bola circula. Dependendo do número de pessoas, joga-se para um parceiro que está X posições à direita.
+
+Este, por sua vez, joga para uma pessoa que está X posições à sua direita, e assim por diante.
 
 É importante que cada pessoa receba a bola uma vez antes que ela retorne à primeira pessoa.
 
-Cada pessoa tem, assim, exatamente uma pessoa de quem recebe bolas e uma para quem lança bolas.
+Assim, cada pessoa tem exatamente uma pessoa de quem recebe bolas e uma para quem joga bolas.
 
-O padrão é repetido algumas vezes com uma bola, e depois o número de bolas em circulação pode ser aumentado progressivamente.
+O padrão é repetido algumas vezes com uma bola, e então o número de bolas em circulação pode ser aumentado gradualmente.
 
 Coordenação e trabalho em equipe são treinados aqui, além de ser um bom exercício preparatório para malabarismo com arremesso e trabalho em dupla.
+
+## **Fonte**:
+
+Desconhecida

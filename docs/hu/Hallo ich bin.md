@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:39:56
 title: Hallo, ich bin
-description: 
+description: Eine kurze Kennenlernübung im Kreis, bei der Namen mit individuellen Bewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -23,29 +23,29 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hallo ich bin.md
-translation_source_hash: f0667a9dde21e4608a58b06bcd7c146b19b8a9264206cd1291b5a2f079ef4c93
+translation_source_hash: 8da9389568d6f8777fdf52df4f87beee7286e46b338d8d26147e6368280ac6d9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:39:55+00:00
+translation_updated: 2026-06-09T01:42:41+00:00
 ---
 > [!info] Rövid leírás
-> A "Szia, én vagyok" egy egyszerű és gyors ismerkedési gyakorlat csoportok számára.
+> Egy rövid ismerkedős játék körben, ahol a neveket egyéni mozdulatokkal kötjük össze.
 
 **Csoportméret**: 4 főtől
-**Nehézség**: Egyszerű
+**Nehézség**: Könnyű
 **Anyag**: Nincs
 **Játékidő**: 2-10 perc (a játékosok számától függően)
 
 ## **Játék leírása**:
-Mindenki álljon körben. Sorban egy személy beáll a kör közepére, egy egyéni mozdulattal köszönti a többieket, és bemutatkozik.
+Mindenki álljon körbe. Sorban egy személy beáll a kör közepére, egy egyéni mozdulattal köszönti a többieket, és bemutatkozik.
 
-*Pl.: "Szia, én Marc vagyok" + egy gurulás előre*
+*Pl.: „Én vagyok Marc” + egy gurulás előre*
 
-A személy visszalép a körbe. Most a többiek mind utánozzák a mozdulatot, és viszonzanak a köszöntést:
+A személy visszalép a körbe. Ezután mindenki más utánozza a mozdulatot, és visszaköszönnek:
 
---> Mindenki gurul előre és azt mondja: "Szia Marc"*
+--> Mindenki gurul előre, és azt mondja: „Szia Marc!”*
 
 ## **Forrás**:
 Ismeretlen
 
-## **Lásd még:**
+## **Hivatkozások**
 [Szia, én vagyok – labdákkal](Hallo%20ich%20bin%20-%20mit%20Bällen.md)

@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:26:31
 update: 2025-03-25 22:49:54
 title: Tellerfänger
-description: 
+description: Ein Fangspiel mit Jongliermaterial, bei dem sich Mitspielende durch passende Körperhaltungen vor dem Fangen retten können.
 authors:
   - Marc Bielert
 category:
@@ -23,30 +23,28 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tellerfänger.md
-translation_source_hash: 3b2931745d731d9fe1298ba22b24dfafcfd9aaa84b35774ac57031fccb636657
+translation_source_hash: d497ab7d8d4a3ccfbca7e0f85378b122f905e443e0e2676c3857220bbc572765
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:13+00:00
+translation_updated: 2026-06-09T02:30:51+00:00
 ---
-# Prendi il piatto
-
 > [!info] Breve descrizione
-> Un semplice gioco di presa in cui i partecipanti possono evitare di essere presi imitando attrezzi da giocoleria.
+> Un gioco di presa con materiale da giocoleria, in cui i partecipanti possono salvarsi dalla presa assumendo pose corporee appropriate.
 
-**Dimensioni del gruppo**: Da 6 giocatori in su
+**Dimensioni del gruppo**: Da 6 partecipanti in su
 **Difficoltà**: Semplice
 **Materiale**: Un piatto, (opzionale: foulard, diabolo o simili)
 **Durata del gioco**: 5-10 minuti
 
 ## **Descrizione del gioco**:
 
-Si designa un "acchiappatore". Questa persona tiene in mano un piatto e cerca di toccare gli altri partecipanti. Questi ultimi, tuttavia, possono salvarsi allungando un braccio verso l'alto, imitando così il bastone necessario per far girare il piatto.
+Viene scelto un "cacciatore". Questa persona tiene in mano un piatto e cerca di toccare gli altri partecipanti. Questi ultimi, tuttavia, possono salvarsi allungando un braccio verso l'alto, imitando così il bastone necessario per far girare il piatto.
 
 Se qualcuno viene preso, il piatto viene passato a quella persona.
 
-A seconda delle dimensioni del gruppo e dell'età, si possono introdurre ulteriori elementi e acchiappatori:
+A seconda delle dimensioni del gruppo e dell'età, si possono introdurre ulteriori elementi e "cacciatori":
 
 *   Foulard: Salvarsi posando il foulard a terra (il foulard copre qualcosa).
-*   Diabolo: Prendere per mano una seconda persona (imita il filo del diabolo).
+*   Diabolo: Afferrare la mano di una seconda persona (imita il filo del diabolo).
 
 ## **Fonte**:
 

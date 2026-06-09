@@ -7,33 +7,51 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:31:40
 title: Die Geschichte der Banane
-description: 
+description: Ein Call-and-Response-Spiel, bei dem die Gruppe eine Banane mit wiederholten Sprach- und Bewegungsimpulsen begleitet.
 authors:
   - Marc Bielert
 category:
   - call-response
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Geschichte der Banane.md
-translation_source_hash: e8946e5b7450df07ee4ae3e48f6e5771943fbbbdb758e92757d97692decbad35
+translation_source_hash: 02d2cdf0a2f957f88d73fa7833d7b8ecf4b887fb858b753851d9bb0aa5bd9dcc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:37:54+00:00
+translation_updated: 2026-06-09T01:32:38+00:00
 ---
-# A banán története
+> [!info] Rövid leírás
+> Egy hívás-válasz játék, amelyben a csoport ismételt hang- és mozgásimpulzusokkal kísér egy banánt.
 
-Hívás és felelet játék kisebb és nagyobb csoportok számára
+**Csoportméret**: 4 főtől
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
+
+## **Játék leírása**:
+
+Hívás és válasz játék kis és nagy csoportok számára.
 
 Szöveg:
-"Ültess banánt, ültess, ültess banánt!"
-"Nőj banán, nőj, nőj banán!"
-"Szedj banánt, szedj, szedj banánt!"
-"Hámozz banánt, hámozz, hámozz banánt!"
-"Vágj banánt, vágj, vágj banánt!"
-"Törj banánt, törj, törj banánt!"
-"Rázd a banánt, rázd, rázd a banánt!"
-"Igyál banánt, igyál, igyál banánt!"
-"Szörfözz banánon, szörf, szörf banánon!"
-"Táncolj banánnal, tánc, tánc banánnal!"
-"Formázz banánt, formázz banánt!"
+"Ültess banánt, ültess, ültess banánt"
+"Nőjön banán, nőjön, nőjön banán"
+Szedj banánt, szedj, szedj banánt
+Hámozz banánt, hámozz, hámozz banánt
+Szeletelj banánt, szeletelj, szeletelj banánt
+Pürésíts banánt, pürésíts, pürésíts banánt
+Rázz banánt, rázz, rázz banánt
+Igyál banánt, igyál, igyál banánt
+Szörfözz banánnal, szörf, szörf banánnal
+Táncolj banánnal, táncolj, táncolj banánnal
+Formázd a banánt, formázd a banánt
 
-Minden mondatot kétszer játszunk le, először "normálisan", másodszor pedig "őrülten".
+Minden mondatot 2-szer játszunk le, először "normálisan", másodszor "őrülten".
+
+## **Forrás**:
+
+Ismeretlen

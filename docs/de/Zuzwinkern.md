@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 00:58:34
 title: Zuzwinkern
-description: 
+description: Ein Kreisspiel, bei dem eine alleinstehende Person durch Zuzwinkern einen neuen Partner zu sich holen will.
 authors:
   - Marc Bielert
 category:
@@ -24,8 +24,8 @@ todo: Text überarbeiten
 translation_status: original
 translation_source_lang: de
 ---
->[!info] Kurzbeschreibung
->In dem Spiel "Zuzwinkern" versucht ein Spieler durch Zuzwinkern einen Partner zu finden, während die anderen versuchen, diesen davon abzuhalten. Das Ziel ist es, möglichst lange nicht alleine im Kreis zu stehen.
+> [!info] Kurzbeschreibung
+> Ein Kreisspiel, bei dem eine alleinstehende Person durch Zuzwinkern einen neuen Partner zu sich holen will.
 
 **Gruppengröße**: Ab 9 Mitspieler, möglichst eine ungerade Anzahl
 **Schwierigkeit**: mittel

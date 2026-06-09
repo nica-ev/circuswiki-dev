@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,31 +23,29 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Eisbären.md
-translation_source_hash: a70b7f507c9d28bf73f67c596d3b6b7681a09ee82259176334abd4a57f2f70ac
+translation_source_hash: 456eb506127cd3c4347481dfe7f31d0df0f7b7b085594f43e5705cbb63b53d3a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:07:44+00:00
+translation_updated: 2026-06-09T02:10:34+00:00
 ---
-# Pinguins e Ursos Polares
-
 > [!info] Breve Descrição
-> Um jogo rico em movimento para grupos pequenos a médios, onde os pinguins tentam expulsar um urso polar da sua "balsa de gelo", o que exige trabalho em equipa e abordagem estratégica.
+> Um jogo de tapetes onde pinguins movem uma placa de gelo pela sala enquanto um urso polar a defende.
 
-**Tamanho do Grupo**: Pequeno a Médio
+**Tamanho do grupo**: 6-31 pessoas
 **Dificuldade**: Média
-**Material**: Um tapete grande e macio (como balsa de gelo)
-**Duração do Jogo**: Aprox. 5-15 minutos
+**Material**: Um tapete grande e macio (como placa de gelo)
+**Duração do jogo**: Aproximadamente 5-15 minutos
 
 ## **Descrição do Jogo**:
 
-Um urso polar é escolhido e posiciona-se num tapete grande e macio (a balsa de gelo).
+Um urso polar é escolhido e posiciona-se sobre um tapete grande e macio (a placa de gelo).
 
-Os outros participantes, os pinguins, querem expulsar o urso polar do seu território. Conseguem fazer isso empurrando e puxando a balsa de gelo para o outro lado da sala.
+Os outros participantes, os pinguins, querem expulsar o urso polar do seu território. Eles conseguem fazer isso empurrando e puxando a placa de gelo para o outro lado da sala.
 
 O urso polar pode defender-se tentando tocar nos pinguins.
 
-Se um pinguim for apanhado, tem de dar uma volta à volta da balsa de gelo.
+Se um pinguim for apanhado, ele tem de dar uma volta à volta da placa de gelo.
 
-Os pinguins ganham quando conseguem levar a balsa de gelo para o outro lado.
+Os pinguins ganham se conseguirem levar a placa de gelo para o outro lado.
 
 ## **Fonte**:
 

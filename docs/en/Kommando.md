@@ -7,33 +7,42 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:37
 title: Kommando
-description: 
+description: Ein Reaktionsspiel mit Platzwechseln, bei dem Personen auf passende Kommandos schnell neue Plätze suchen.
 authors:
   - Marc Bielert
 category:
   - action
+Schwierigkeit: einfach
+Material: Matten oder Sitzplatzmarkierungen
+Spieldauer: 4-7
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kommando.md
-translation_source_hash: d4a80fcce7dab7c6125879dd6e0fad3f6a32134e511907d7d1068ccf5c3ee8fd
+translation_source_hash: 12499e7ccff550bf5a46ede3b613d0748555365dac4c1454509fbe2ef58d4c86
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:26:13+00:00
+translation_updated: 2026-06-09T01:50:45+00:00
 ---
-# Command
+> [!info] Brief Description
+> A reaction game involving changing places, where participants quickly find new spots based on matching commands.
 
-**Group Size**: 6 to 25 players
+**Group Size**: 6 to 25 participants
 **Difficulty**: Easy
 **Materials**: Mats or other seating markers
-**Playtime**: 4 to 7 minutes
+**Game Duration**: 4 to 7 minutes
 
-**Game Description**:
-All players, except one, sit on a mat or another clearly marked spot. The spots are arranged in a circle, and the player without a spot is in the center. This player then gives a specific command, for example: "Command: anyone who has been to the Baltic Sea" or "Command: anyone wearing green socks" or whatever comes to mind. All players to whom the command applies must then jump up and quickly find a new spot. The player in the middle can try to grab one of the newly vacated spots. If they succeed, the person left without a spot must give a new command. Additionally, there are the following three commands that can be given at any time when in the center:
+## **Game Description**:
+
+All players, except one, sit on a mat or another clearly marked spot. The spots are arranged in a circle, and in the center is the player who doesn't have a spot. This player then gives a specific command, for example: "Command: anyone who has been to the Baltic Sea" or "Command: anyone wearing green socks," or whatever comes to mind. All players who fit the command must jump up and quickly find a new spot. The player in the middle can try to grab one of the newly vacant spots. If they succeed, the person left without a spot must give a new command. Additionally, there are the following three commands that can be given at any time when in the middle:
 
 - Command left: Everyone must move to the spot to their left.
 - Command right: Everyone must move to the spot to their right.
-- Command around: Everyone must walk once around their own spot and then sit down again.
+- Command around: Everyone must walk around their own spot once and then sit back down.
 
-These commands are only intended to add more movement to the game, not to allow the player in the middle to find a spot.
+These commands are solely intended to add more movement to the game, not for the person in the middle to find a spot for themselves.
 
-**Source**:
+## **Source**:
+
 Tasifan Spielebuch

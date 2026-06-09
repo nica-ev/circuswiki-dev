@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
 title: Namenkampf
-description: 
+description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
 authors:
   - Marc Bielert
 category:
@@ -23,16 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: 7c41ef31227d3bd723be213d373634bf54eb614f789e2937cb32e5aa6f1b53f1
+translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:22:52+00:00
+translation_updated: 2026-06-09T02:08:32+00:00
 ---
-# Naamgevecht
-
 > [!info] Korte beschrijving
-> "Naamgevecht" is een snel en leuk naamspel voor elke groepsgrootte, waarbij het erop aankomt de naam van de tegenstander sneller te noemen om deze bij het eigen team te voegen.
+> Een naam-duel met een zichtbarrière, waarbij twee teams proberen de naam van de tegenstander sneller te noemen.
 
-**Groepsgrootte**: Onbeperkt (verdeeld in twee even grote teams)
+**Groepsgrootte**: 10-30 personen
 **Moeilijkheidsgraad**: Makkelijk
 **Materiaal**: Een doek (of een andere zichtbarrière)
 **Speeltijd**: Ongeveer 10-15 minuten
@@ -41,9 +39,9 @@ translation_updated: 2026-06-06T23:22:52+00:00
 
 Er worden twee even grote teams gevormd. Tussen de teams wordt een doek (of een andere zichtbarrière) omhoog gehouden, zodat ze elkaar niet kunnen zien.
 
-Van elk team stelt zich nu één persoon achter het doek. De spelleider telt "1-2-3" en laat het doek zakken.
+Van elk team gaat nu één persoon achter het doek staan. De spelleider telt "1-2-3" en laat het doek zakken.
 
-De personen die zich nu tegenover elkaar bevinden, moeten zo snel mogelijk de naam van de ander zeggen. De winnaar van het "naamduel" mag de verliezer aan zijn team toevoegen.
+De personen die nu tegenover elkaar staan, moeten zo snel mogelijk de naam van de ander zeggen. De winnaar van het "naam-duel" mag de verliezer bij zijn team voegen.
 
 Het spel is gewonnen als alle personen aan één kant van het doek staan.
 

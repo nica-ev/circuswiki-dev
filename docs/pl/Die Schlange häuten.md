@@ -7,30 +7,50 @@ publish: true
 tags:
   - spiele
 title: Die Schlange häuten
-description: 
+description: Ein Bewegungsspiel in einer Reihe, bei dem die Gruppe verbunden bleibt und sich nacheinander wie eine Schlange ablegt.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Schlange häuten.md
-translation_source_hash: 695138fcba375d9b5ff44b02234a860232ec97e8c2e700a24a0bfd3c4336b805
+translation_source_hash: 7e332c189b2c5cbf742c5d262bf144cccde6911932a80d0039ba9d7f4e0c268d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:11:10+00:00
+translation_updated: 2026-06-09T01:33:42+00:00
 ---
-# Zrzucanie skóry przez węża
+> [!info] Krótki opis
+> Gra ruchowa w szeregu, podczas której grupa pozostaje połączona i układa się kolejno jak wąż.
+
+**Liczba graczy**: 5-20 osób
+**Poziom trudności**: łatwy
+**Materiały**: żadne
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
 
 Prosta gra ruchowa dla małych i średnich grup.
 
-Wszyscy ustawiają się w rzędzie, nogi rozstawione.
+Wszyscy stają w szeregu, z rozstawionymi nogami.
 Wszyscy pochylają się do przodu tak, aby prawą ręką, przechodząc przez własne nogi, mogli chwycić lewą rękę osoby stojącej za nimi.
 
-Ostatnia osoba w rzędzie kładzie się na ziemi (można puścić ręce).
-Pozostali biegną teraz razem (nie puszczając rąk) do tyłu, aż "nowa" ostatnia osoba znajdzie miejsce, by się położyć.
+Ostatnia osoba w szeregu kładzie się na ziemi (można puścić ręce).
+Pozostali idą teraz razem (nie puszczając rąk) do tyłu, aż "nowa" ostatnia osoba będzie miała miejsce, by się położyć.
 
 Gra kończy się, gdy wszyscy leżą.
 
-Jako wariację można zamknąć całość w nieskończony krąg, poprzez ponowne wstawanie leżących osób, gdy tylko wszyscy inni przebiegną nad nimi, i ponowne dołączenie do rzędu z przodu.
+## **Warianty**:
 
-Utworzono 201407031659
+Jako wariant można zamknąć grę w nieskończony krąg, poprzez ponowne wstawanie leżących osób, gdy wszyscy inni już przez nie przeszli, i ponowne dołączenie do szeregu z przodu.
+
+## **Źródło**:
+
+Nieznane
+
+Utworzono dnia    201407031659

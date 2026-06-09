@@ -7,33 +7,46 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:06
 title: Klatsch Theater
-description: 
+description: Ein Theater-Spiel, bei dem eingefrorene Bilder durch Klatschen verändert und erweitert werden.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 7
+source: Tasifan Spielebuch
+group-min: 4
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Klatsch Theater.md
-translation_source_hash: a87a710a120e8502d65078a971fd7ecc9c183b2ca0e96cb738fa6d56ed7a4ebb
+translation_source_hash: 4e5b612a2bdaa0eba723ed34d36efb7e36e59d10b186c84d29369c385a9ab839
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:26:08+00:00
+translation_updated: 2026-06-09T01:49:36+00:00
 ---
-# Clapping Theater
+> [!info] Brief Description
+> A theater game where frozen images are changed and expanded by clapping.
 
 **Group Size**: 4 to 20 players
 **Difficulty**: Quite easy
 **Materials**: None
 **Duration**: Approx. 7 minutes
 
-**Game Description**:
+## **Game Description**:
+
 This game can be played in two variations.
 
-**Variation 1**:
-Two, three, or four players form a frozen tableau in front of the other players. Everyone else observes it. Anyone who has an idea of how they could replace a player in the existing tableau with a different pose claps their hands once loudly. They can then step forward and tap the person they wish to replace. That person leaves their spot and joins the audience. The player who clapped now takes on the considered pose, and the next person can clap. To expand on this, a tableau can be created where each person in the picture performs a small movement. This can lead to very funny new tableaus. One step further would be to add a sound to each movement.
+## **Variations**:
 
-**Variation 2**:
-The same principle as the first variation, but one player starts, then another claps, joins in, and this continues until everyone is integrated into the tableau. This is the important aspect of this version and the game in general: interaction with each other!
+### Variation 1
 
-**Source**:
+Two, three, or four players together form a frozen image in front of the other participants. Everyone else watches. Anyone who has an idea of how they could replace a player in the existing image with a different pose claps their hands loudly once. They can then step forward and tap the person they wish to replace. That person leaves their spot and joins the audience. The player who clapped now takes the considered pose, and the next person can clap. To expand on this further, an image can be created where each person in the image performs a small movement. This can lead to very funny new images. One step further would be to add a sound to each movement.
+
+### Variation 2
+
+The same principle as the first variation, but one player starts, then another claps, joins in, and this continues until everyone is integrated into the image. This is the important aspect of this version, and of the game in general: interaction with each other!
+
+## **Source**:
+
 Tasifan Spielebuch

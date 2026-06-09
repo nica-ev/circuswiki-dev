@@ -7,24 +7,42 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:04:09
 title: Medusa
-description: 
+description: Ein Kreisspiel, bei dem zufälliger Blickkontakt zwei Personen versteinern lässt, bis nur noch wenige übrig sind.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Medusa.md
-translation_source_hash: 27418957df42fd275538816cdcb28cd9d892a02016fa93bf3552849cba32576a
+translation_source_hash: 14dd5a8ad6f92a0c5dfaed1eed6f4c23a85d44a8125c80f667566b173c2fd0de
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:05:26+00:00
+translation_updated: 2026-06-09T02:05:54+00:00
 ---
-# Medúza
+> [!info] Stručný popis
+> Kruhová hra, při níž náhodné oční spojení „zkamení“ dvě osoby, dokud nezůstane jen pár posledních.
 
-Kruhová hra pro malé až středně velké skupiny:
+**Počet hráčů**: 5–25 osob
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 5–10 minut
 
-Všichni se postaví do kruhu zády ke středu, obličejem k zemi.
-Vedeč hry odpočítá "jedna-dvě-tři", poté všichni zvednou hlavu a podívají se do očí osobě, kterou si vyberou.
-Pokud se pohledy dvou osob náhodně setkají, tyto osoby se navzájem "zkamení" a s teatrálním gestem spadnou na zem.
-Vítězové jsou poslední dvě osoby, které zůstaly stát v kruhu.
+## **Popis hry**:
+
+Kruhová hra pro malé až středně velké skupiny.
+
+Všichni se postaví do kruhu a dívají se na zem.
+Vypravěč počítá do tří a pak všichni zvednou hlavu a podívají se do očí někomu, koho si vyberou.
+Pokud se náhodou dva pohledy setkají, tyto osoby se navzájem „zkamení“ a s teatrálním gestem spadnou na zem.
+Vítězí poslední dvě osoby, které v kruhu zůstaly stát.
+
+## **Zdroj**:
+
+Neznámý

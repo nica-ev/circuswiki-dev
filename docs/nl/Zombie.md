@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:26
 title: Zombie
-description: 
+description: Ein Namens-Reaktionsspiel im Kreis, bei dem ein langsamer Zombie durch schnelle Blicke und Namensrufe umgelenkt wird.
 authors:
   - Marc Bielert
 category:
@@ -22,19 +22,22 @@ group-max: 18
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombie.md
-translation_source_hash: 09f213b539f08bdedafeea3f4c1918935f4cc6abddaf4aff6fb6ea2938c5c1f1
+translation_source_hash: cdefea9227c439b42e34e9f3c6d3395b9830802cfb193647d05380791c5fc482
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:26:00+00:00
+translation_updated: 2026-06-09T02:38:49+00:00
 ---
-# Zombie
+> [!info] Korte beschrijving
+> Een kringspel waarbij reactie op namen centraal staat. Een langzame zombie wordt afgeleid door snelle blikken en het roepen van namen.
 
 **Groepsgrootte**: 6 tot 18 deelnemers
 **Moeilijkheidsgraad**: gemiddeld
 **Materiaal**: geen
-**Speelduur**: 5 tot 10 minuten
+**Speeltijd**: 5 tot 10 minuten
 
-**Spelbeschrijving**:
-De deelnemers staan in een kring, behalve één persoon, de zombie, die in het midden staat. De spelleider wijst een persoon aan naar wie de zombie zich langzaam moet begeven. Zombies mogen niet rennen! De deelnemer die wordt „aangevallen“, moet snel iemand in de kring aankijken. De aangekeken persoon moet vervolgens snel de naam noemen van iemand anders in de kring. Die persoon is het nieuwe „slachtoffer“ van de zombie. Als de aangekeken persoon echter te langzaam is en de zombie er eerder in slaagt zijn „slachtoffer“ te bereiken, wordt het slachtoffer de nieuwe zombie. De oude zombie neemt dan de vrije plaats in de kring in. De nieuwe zombie valt nu degene aan die verantwoordelijk is voor zijn transformatie. Die persoon kan zich weer proberen te redden door een hulpzoekende blik te werpen. De namen van de deelnemers moeten van tevoren redelijk bekend zijn.
+## **Spelbeschrijving**:
 
-**Bron**:
+De deelnemers staan in een kring, met uitzondering van één persoon die de zombie in het midden is. De spelleider wijst een persoon aan naar wie de zombie zich langzaam moet bewegen. Zombies mogen niet rennen! De deelnemer die 'aangevallen' wordt, moet snel iemand in de kring aankijken. De aangekeken persoon moet op zijn beurt snel de naam van iemand anders in de kring noemen. Die persoon is het nieuwe 'slachtoffer' van de zombie. Als de aangekeken persoon echter te langzaam is en de zombie erin slaagt zijn 'slachtoffer' te bereiken voordat de naam genoemd is, wordt het slachtoffer de nieuwe zombie. De oude zombie neemt de vrije plaats in de kring in. De nieuwe zombie valt nu degene aan die verantwoordelijk is voor zijn transformatie. Die persoon kan proberen zich te redden door een hulpzoekende blik te werpen. De namen van de deelnemers moeten van tevoren redelijk bekend zijn.
+
+## **Bron**:
+
 Tasifan Spielebuch

@@ -7,30 +7,50 @@ publish: true
 tags:
   - spiele
 title: Die Schlange häuten
-description: 
+description: Ein Bewegungsspiel in einer Reihe, bei dem die Gruppe verbunden bleibt und sich nacheinander wie eine Schlange ablegt.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Schlange häuten.md
-translation_source_hash: 695138fcba375d9b5ff44b02234a860232ec97e8c2e700a24a0bfd3c4336b805
+translation_source_hash: 7e332c189b2c5cbf742c5d262bf144cccde6911932a80d0039ba9d7f4e0c268d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:37:42+00:00
+translation_updated: 2026-06-09T01:33:57+00:00
 ---
-# Hadí kůže
+> [!info] Stručný popis
+> Pohybová hra ve frontě, při které skupina zůstává propojená a postupně se jako had pokládá na zem.
+
+**Velikost skupiny**: 5–20 osob
+**Obtížnost**: snadná
+**Materiál**: žádný
+**Délka hry**: 5–10 minut
+
+## **Popis hry**:
 
 Jednoduchá pohybová hra pro malé až středně velké skupiny.
 
-Všichni stojí v řadě s rozkročenýma nohama.
-Všichni se předkloní tak, aby pravou rukou prostrčili vlastníma nohama a chytili levou ruku osoby stojící za nimi.
+Všichni stojí ve frontě s rozkročenýma nohama.
+Všichni se předkloní tak, aby pravou rukou prostrčili mezi vlastníma nohama a chytili levou ruku osoby stojící za nimi.
 
-Poslední v řadě si lehne na zem (ruce mohou pustit).
-Ostatní nyní společně (aniž by pustili ruce) courají dozadu, dokud "nový" poslední člověk nenajde místo, kde si může lehnout.
+Poslední ve frontě si lehne na zem (ruce mohou pustit).
+Ostatní nyní společně (aniž by pustili ruce) jdou dozadu, dokud se „nový“ poslední člověk nedostane na místo, kde si může lehnout.
 
-Celé to končí, když si lehnou všichni.
+Celé to končí, když všichni leží.
 
-Jako variaci lze celou hru uzavřít do nekonečného kruhu tím, že si ležící osoby znovu vstanou, jakmile přes ně přeběhnou všichni ostatní, a vpředu se znovu zařadí do řady.
+## **Varianty**:
 
-Vytvořeno    201407031659
+Jako variantu lze celou hru uzavřít do nekonečného kruhu. Ležící osoby se postaví, jakmile všichni ostatní proběhnou přes ně, a znovu se zařadí na začátek fronty.
+
+## **Zdroj**:
+
+Neznámý
+
+Vytvořeno dne 201407031659

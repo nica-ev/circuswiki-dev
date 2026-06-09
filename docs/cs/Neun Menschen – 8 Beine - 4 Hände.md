@@ -7,28 +7,38 @@ publish: true
 tags:
   - spiele
 title: Neun Menschen – 8 Beine - 4 Hände
-description: 
+description: Eine Teamaufgabe, bei der Gruppen eine Strecke mit vorgegeben begrenzten Bodenkontakten überwinden müssen.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10
+source: Tasifan Spielebuch
+group-min: 10
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Neun Menschen – 8 Beine - 4 Hände.md
-translation_source_hash: 97222bf056547a4f9bd8d1317d7600da05c17ee5751ce87c4d96b8f1b1de2363
+translation_source_hash: 77a2014c8bfeb24139154d36778ef5d46c11b75c66792b1a23d7b48ea28ec365
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:06:41+00:00
+translation_updated: 2026-06-09T02:08:59+00:00
 ---
-# Devět lidí – 8 nohou – 4 ruce
+> [!info] Stručný popis
+> Týmová úloha, při které skupiny musí překonat trasu s předem daným omezeným počtem dotyků země.
 
-Velikost skupiny: od 10 hráčů
-Obtížnost: poměrně snadné
-Materiál: žádný
-Délka hry: cca 10 minut
+**Velikost skupiny**: od 10 osob
+**Obtížnost**: poměrně snadné
+**Materiál**: žádný
+**Délka hry**: cca 10 minut
 
-Popis hry: Vytvoří se stejně velké týmy, přičemž by neměly být větší než deset lidí. Poté zadá vedoucí hry hráčům úkol, například jak překonat předem určenou trasu z bodu A do bodu B. Ten může například vypadat takto:
+## **Popis hry**:
 
-„Překonejte trasu z bodu A do bodu B pouze s osmi nohama a čtyřmi rukama.“ Jdeme na to. Hráči se pokusí trasu podle zadaného úkolu překonat. To znamená, že se země smí dotýkat pouze osmi nohou a čtyř rukou. Jak týmy tento úkol zvládnou, je zcela na nich, ale mělo by to jít rychle, protože hrají proti sobě. Kdo dorazí první, vyhrává. Pokud se země dotkne příliš mnoho končetin, musí celý tým zpět na výchozí bod a pokusit se znovu. Až všichni dorazí, lze zadat nový úkol a zpáteční cestu je pak třeba zvládnout odpovídajícím způsobem. Úkoly je samozřejmě nutné přizpůsobit velikosti skupiny a věku. Čím méně lidí, tím méně končetin.
+Vytvoří se stejně velké týmy, přičemž by neměly mít více než deset členů. Poté vedoucí hry zadá hráčům úkol, jak překonat předem určenou trasu z bodu A do bodu B. Ta může například vypadat takto:
 
-Zdroj:
+„Překonejte trasu z bodu A do bodu B pouze s osmi nohama a čtyřmi rukama.“ Jdeme na to. Hráči se pokusí trasu překonat podle zadaného úkolu. To znamená, že se země smí dotýkat pouze osm nohou a čtyři ruce. Jak týmy tento úkol zvládnou, je zcela na nich, ale mělo by to jít rychle, protože hrají proti sobě. Kdo dorazí první, vyhrává. Pokud se země dotkne příliš mnoho končetin, musí celý tým zpět na start a pokusit se znovu. Jakmile všichni dorazí, lze zadat nový úkol a zpáteční cestu je pak třeba zvládnout odpovídajícím způsobem. Úkoly je samozřejmě třeba přizpůsobit velikosti skupiny a věku. Čím méně lidí, tím méně končetin.
+
+## **Zdroj**:
+
 Tasifan Spielebuch

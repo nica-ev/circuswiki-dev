@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Pinguine und Eisbären
-description: 
+description: Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,10 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Pinguine und Eisbären
-
 > [!info] Kurzbeschreibung
-> Ein bewegungsreiches Spiel für kleine bis mittlere Gruppen, bei dem Pinguine versuchen, einen Eisbären von seiner Eisscholle zu verdrängen, was Teamwork und strategisches Vorgehen erfordert.
+> Ein Mattenspiel, bei dem Pinguine eine Eisscholle durch den Raum bewegen, während ein Eisbär sie verteidigt.
 
-**Gruppengröße**: Klein bis Mittel
+**Gruppengröße**: 6-31 Personen
 **Schwierigkeit**: Mittel
 **Material**: Eine große Weichbodenmatte (als Eisscholle)
 **Spieldauer**: Ca. 5-15 Minuten 

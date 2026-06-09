@@ -7,27 +7,36 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: 
+description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 3-10
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Whiskeymixer.md
-translation_source_hash: 5bb55b901c9ef9bf07e01a2bb368becfe2b159ee7da7e7dc0cacd9effb66130c
+translation_source_hash: 94393da6b70f6d8b26d2718fbbb8ade735da2dbeaead0b31cdcba5fbaeaeab7f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:25:26+00:00
+translation_updated: 2026-06-09T02:36:59+00:00
 ---
-# Whiskeymixer
+> [!info] Korte beschrijving
+> Een spel met taal en reactie in een kring, waarbij moeilijke woorden worden doorgegeven zonder te lachen of je te verspreken.
 
-**Groepsgrootte**: Vanaf 5 spelers
-**Moeilijkheidsgraad**: gemiddeld (qua taal)
+**Groepsgrootte**: Vanaf 5 deelnemers
+**Moeilijkheidsgraad**: gemiddeld (wat betreft de taal)
 **Materiaal**: geen
 **Speelduur**: 3 tot 10 minuten
 
-**Spelbeschrijving**:
-Iedereen staat in een cirkel. Eén persoon begint en zegt tegen zijn rechterbuurman het woord "Whiskeymixer". Daarna zegt deze speler weer "Whiskeymixer" tegen zijn rechterbuurman, enzovoort. Als iemand in de cirkel tijdens het spel moet lachen of zich verspreekt, moet hij eenmaal om de hele cirkel lopen en weer op zijn oorspronkelijke plek gaan staan. Als het de beurt van de speler was op dat moment, wordt hij gewoon overgeslagen. Nu kan men met het woord "Messwechsel" de richting veranderen. Als het spel linksom gaat, moet men tegen zijn linkerbuurman "Wachsmaskenmacher" zeggen in plaats van "Whiskeymixer".
+## **Spelbeschrijving**:
 
-**Bron**:
+Iedereen staat in een kring en één persoon begint tegen zijn rechterbuur het woord „Whiskeymixer“ te zeggen. Vervolgens zegt deze speler het woord weer tegen zijn rechterbuur, en zo verder. Als iemand in de kring tijdens het spel lacht of zich verspreekt, moet diegene eenmaal om de hele kring lopen en weer op zijn oorspronkelijke plek gaan staan. Als de speler op dat moment aan de beurt zou zijn, wordt hij gewoon overgeslagen. Nu kan men met het woord „Messwechsel“ de richting veranderen. Als het spel linksom gaat, moet men tegen zijn linkerbuur „Wachsmaskenmacher“ zeggen in plaats van „Whiskeymixer“.
+
+## **Bron**:
+
 Tasifan Spielebuch

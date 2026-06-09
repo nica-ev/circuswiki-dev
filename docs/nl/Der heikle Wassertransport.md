@@ -7,27 +7,36 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:56:55
 title: Der heikle Wassertransport
-description: 
+description: Eine anspruchsvolle Kooperationsaufgabe, bei der eine Gruppe Wasser mit Seilen und einem Topf möglichst verlustfrei transportiert.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: schwer
+Material: Topf, Schnur, Wasser, zweites Gefäß
+Spieldauer: 5-20
+source: Tasifan Spielebuch
+group-min: 5
+group-max: 15
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der heikle Wassertransport.md
-translation_source_hash: f018fc92a74094fd791b822e719d275a75cf28faf55960b74f1c7a243463923e
+translation_source_hash: 0741699ba28b623bf2334d9d36015f98b8eeeaa9ba5f3fb5a8b97d6b1c6652c2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:14:18+00:00
+translation_updated: 2026-06-09T01:29:56+00:00
 ---
-# Het lastige watertransport
+> [!info] Korte beschrijving
+> Een uitdagende samenwerkingsopdracht waarbij een groep met touwen en een pot zo verliesvrij mogelijk water transporteert.
 
-**Groepsgrootte:** 5 tot 15 deelnemers
-**Moeilijkheidsgraad:** uitdagend
-**Materiaal:** pan, touw, water en een tweede bak
-**Speelduur:** 5 tot 20 minuten
+**Groepsgrootte**: 5-15 personen
+**Moeilijkheidsgraad**: uitdagend
+**Materiaal**: pot, touw, water en een tweede vat
+**Speelduur**: 5-20 minuten
 
-**Spelbeschrijving:**
-Om het spel voor te bereiden, moeten er evenveel touwen rond een pan worden bevestigd als er deelnemers zijn. De touwen kunnen het beste worden bevestigd door eerst een touw om de pan te binden en vervolgens alle andere touwen daaraan vast te maken. Vul vervolgens een afgemeten hoeveelheid water in de pan en plaats een bak, waar het water in kan worden gegoten, op enige afstand. Elke speler pakt een touw. Het touw wordt helemaal aan het uiteinde vastgepakt, want wie het touw korter vasthoudt, overtreedt de regels. Vanaf nu is het de bedoeling om het water uit de pan zo verliesvrij mogelijk in de geplaatste bak te gieten. De pan mag daarbij echter alleen met behulp van de vastgehouden touwen worden bewogen. Iedereen moet zijn touw het hele spel vasthouden. Tip: Niet alle touwen hoeven altijd strak te worden gehouden. Oplossing: Er is eigenlijk maar één manier om het water vrijwel volledig over te gieten. Hiervoor moet de pan aan één kant en aan de tegenoverliggende kant goed worden vastgehouden met de daar bevestigde touwen. Minimaal twee personen, die zich telkens tussen de personen bevinden die de pan vasthouden, wisselen nu tegenover elkaar van plaats. Hierdoor kan bij het kantelen de onderrand van de pan voorzichtig naar achteren en de bovenrand voorzichtig naar voren worden getrokken. Zo kan het water verliesvrij worden overgegoten, maar eenvoudig is het desondanks niet.
+## **Spelbeschrijving**:
 
-**Bron**:
+Voor de voorbereiding van het spel moeten er evenveel touwen aan een pot worden bevestigd als er deelnemers zijn. De touwen kunnen het beste worden bevestigd door eerst een touw om de pot te binden en vervolgens alle andere touwen daaraan vast te maken. Vul nu een afgemeten hoeveelheid water in de pot en plaats op enige afstand een vat waarin het water weer kan worden geschonken. Elke speler pakt een touw. Het touw wordt helemaal aan het uiteinde vastgepakt, want wie het touw korter vasthoudt, overtreedt de regels. Vanaf nu is het de bedoeling om het water uit de pot zo verliesvrij mogelijk in het geplaatste vat te gieten. De pot mag daarbij echter alleen met de vastgehouden touwen worden bewogen. Iedereen moet zijn touw het hele spel lang behouden en vasthouden. Tip: Niet alle touwen hoeven altijd strak te worden gehouden. Oplossing: Er is eigenlijk maar één manier om het water nagenoeg volledig over te gieten. Hiervoor moet de pot aan één kant en aan de tegenoverliggende kant goed worden vastgehouden met de daar bevestigde touwen. Minimaal twee personen, die zich telkens tussen degenen bevinden die de pot vasthouden, wisselen nu tegenovergesteld van plaats. Hierdoor kan bij het kantelen de onderrand van de pot voorzichtig naar achteren en de bovenrand voorzichtig naar voren worden getrokken. Hierdoor kan het water verliesvrij worden overgegoten, maar eenvoudig is het desondanks niet.
+
+## **Bron**:
+
 Tasifan Spielebuch

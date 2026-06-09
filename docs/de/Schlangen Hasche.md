@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:39:47
 title: Schlangen Hasche
-description: 
+description: Ein Fangspiel am Boden, bei dem gefangene Personen selbst zu Schlangen werden und die übrigen Mitspielenden fangen.
 authors:
   - Marc Bielert
 category:
@@ -23,15 +23,16 @@ group-max: "99"
 translation_status: original
 translation_source_lang: de
 ---
-#  Schlangen Hasche
+> [!info] Kurzbeschreibung
+> Ein Fangspiel am Boden, bei dem gefangene Personen selbst zu Schlangen werden und die übrigen Mitspielenden fangen.
 
 **Gruppengröße**: ab 6 Mitspieler
 **Schwierigkeit**: simpel
 **Material**: keines
 **Spieldauer**: 5 bis 10 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
+
 Ein Fänger wird bestimmt. Dieser kriecht auf der Erde wie eine Schlange und versucht die anderen Mitspieler an den Beinen abzutippen.
 Wird eine Person gefangen, so wird sie ebenfalls zur Schlange.
 Gewonnen hat die Person, die als letzter noch auf beiden Beinen steht.
-

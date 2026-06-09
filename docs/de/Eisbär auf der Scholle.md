@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
 title: Eisbär auf der Scholle
-description: 
+description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 authors:
   - Marc Bielert
 category:
@@ -22,10 +22,8 @@ group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
-# Eisbär auf der Scholle
-
 > [!info] Kurzbeschreibung
-> Ein kooperatives und kompetitives Bewegungsspiel, bei dem die Spieler gemeinsam versuchen, eine Matte (die "Eisscholle") über das Spielfeld zu schieben, während ein "Eisbär" sie daran zu hindern versucht.
+> Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
 
 **Gruppengröße**: Ab 10 Mitspieler
 **Schwierigkeit**: Mittel

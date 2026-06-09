@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:39:56
 title: Hallo, ich bin
-description: 
+description: Eine kurze Kennenlernübung im Kreis, bei der Namen mit individuellen Bewegungen verbunden werden.
 authors:
   - Marc Bielert
 category:
@@ -24,7 +24,7 @@ translation_status: original
 translation_source_lang: de
 ---
 > [!info] Kurzbeschreibung
-> "Hallo, ich bin" ist eine einfache und schnelle Kennenlernübung für Gruppen.
+> Eine kurze Kennenlernübung im Kreis, bei der Namen mit individuellen Bewegungen verbunden werden.
 
 **Gruppengröße**: Ab 4 Mitspieler
 **Schwierigkeit**: Einfach
@@ -43,6 +43,5 @@ Die Person tritt zurück in den Kreis. Nun wird die Bewegung von allen anderen n
 ## **Quelle**: 
 Unbekannt
 
-## **Siehe auch:**
+## **Querverweise**
 [Hallo ich bin - mit Bällen](Hallo%20ich%20bin%20-%20mit%20Bällen.md)
-

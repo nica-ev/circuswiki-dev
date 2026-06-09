@@ -7,23 +7,30 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:01
 title: Adler - Hase - Kohlkopf
-description: 
+description: Ein Laufspiel mit Adler, Hase und Kohlköpfen, bei dem Rollen durch Antippen ständig wechseln.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-15
+source: Tasifan Spielebuch
+group-min: 8
+group-max: 30
 translation_status: original
 translation_source_lang: de
 ---
 
-# Adler - Hase - Kohlkopf
+> [!info] Kurzbeschreibung
+> Ein Laufspiel mit Adler, Hase und Kohlköpfen, bei dem Rollen durch Antippen ständig wechseln.
 
 **Gruppengröße** : ab 8 Mitspieler
 **Schwierigkeit** : Mittel
 **Material** : keins
 **Spieldauer** : 5- 15 min
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
 
 Zuerst bestimmt man einen Hasen und Adler unter den Kindern. Alle anderen sind Kohlköpfe und sitzen auf dem Boden. Das Grundprinzip ist, dass der Adler versucht den Hasen zu fangen. Schaftt er dies, tauschen die beiden ihre Rollen. Der ehemalige Hase wird zum Adler und muss den ehemaligen Adler - jetzt aber Hase fangen.
 
@@ -31,8 +38,10 @@ Der Hase kann sich jedoch jeder Zeit hinter einem Kohlkopf verstecken und diesen
 
 Im Verlauf des Spieles können mehrere Adler-Hase Pärchen bestimmt werden, aber Achtung:  Jeder Adler darf nur den ihm zugeteilten Hasen fangen.
 
-**Ähnliche Spiele**
+## **Querverweise**
+
 [Möhre Hase Fuchs](Möhre%20Hase%20Fuchs.md)
-**Quelle**:
+
+## **Quelle**:
 
 Tasifan Spielebuch

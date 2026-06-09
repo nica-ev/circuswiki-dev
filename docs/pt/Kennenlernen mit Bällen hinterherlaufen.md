@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,23 +23,23 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:59:32+00:00
+translation_updated: 2026-06-09T01:48:18+00:00
 ---
 > [!info] Breve Descrição
-> "Conhecer-se com Bolas, Correr Atrás" é um exercício dinâmico de apresentação que combina movimento, memorização de nomes e contacto visual para promover a interação e o sentimento de comunidade.
+> Um exercício dinâmico de apresentação em círculo, onde as pessoas correm atrás da bola lançada e trocam de lugar.
 
-**Tamanho do Grupo**: Qualquer
+**Tamanho do grupo**: 5-25 pessoas
 **Dificuldade**: Fácil a Média (dependendo do número de bolas)
 **Material**: Uma ou mais bolas
-**Duração do Jogo**: Aproximadamente 10-15 minutos
+**Duração do jogo**: Aproximadamente 10-15 minutos
 
 ## **Descrição do Jogo**:
 
 Todos os participantes ficam em círculo.
 
-Uma pessoa tem uma bola, estabelece contacto visual com outra pessoa no círculo, diz o nome dessa pessoa e atira-lhe a bola.
+Uma pessoa tem uma bola, estabelece contato visual com outra pessoa no círculo, diz o nome dela e lança-lhe a bola.
 
 Em seguida, corre atrás da bola e posiciona-se **atrás** da pessoa que a apanhou.
 

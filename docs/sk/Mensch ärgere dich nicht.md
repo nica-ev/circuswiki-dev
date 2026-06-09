@@ -7,36 +7,47 @@ publish: true
 tags:
   - spiele
 title: Mensch ärgere dich nicht
-description: 
+description: Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: einfach
+Material: Ringe oder Hula Hoops
+Spieldauer: 20-30
+source: Facebook
+group-min: 4
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mensch ärgere dich nicht.md
-translation_source_hash: 0ffdf51ecb1074d169c4dc82597b9dc929ef5b412b9620bce09f41304dfaf541
+translation_source_hash: bce928bbbebf1552cbc6d0a541165e9c7f039ecc4a5657e47b563f8b36b1ba68
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:05:32+00:00
+translation_updated: 2026-06-09T02:06:16+00:00
 ---
-# Človeče, nehnevaj sa!
+> [!info] Stručný popis
+> Bežecký súboj pozdĺž dráhy z kruhov, kde tímy bojujú o postup pomocou hry "Kameň, papier, nožnice".
 
-**Počet hráčov**: Od cca 4-6 účastníkov
+**Veľkosť skupiny**: Od cca 4-6 účastníkov
 **Náročnosť**: jednoduchá
-**Materiál**: veľa kruhov / hula hoopov
+**Materiál**: veľa kruhov / obručí
 **Dĺžka hry**: 20-30 minút
-**Zdroj**: Facebook
 
-**Popis hry**:
-Kruhy / hula hoopy sa poukladajú do dlhej (kľukatej) línie. Je dobré ich spojiť, aby sa nepohybovali, ale dá sa hrať aj bez spojenia.
+## **Popis hry**:
+
+Kruhy / obruče sa poukladajú do dlhej (kľukatej) línie. Je dobré ich spojiť, aby sa nepohybovali, ale dá sa hrať aj bez spojenia.
 
 Vytvoria sa 2 skupiny, ktoré sa postavia do radu na oboch koncoch línie kruhov.
 
 Po štarte vyskočí jeden hráč z každej skupiny a preskakuje z jedného kruhu na druhý.
-Keď sa obaja hráči stretnú, hrajú "Kameň, papier, nožnice". Porazený sa vráti po vonkajšej strane (mimo kruhov) ihriska a postaví sa na koniec radu.
+Hneď ako sa obaja hráči stretnú, zahrajú si "Kameň, papier, nožnice". Porazený sa vráti mimo ihriska (mimo kruhov) a postaví sa na koniec radu.
 Ďalší hráč z tejto skupiny môže okamžite začať skákať.
-Víťaz tiež pokračuje v skákaní.
+Víťaz pokračuje v skákaní.
 
 Kolo je vyhrané, keď hráč dosiahne prvý kruh pri súperovej skupine.
 
-Je dobré zahrať viacero kôl (3-5), pričom jednotlivé kolá môžu byť dosť dlhé.
+Je dobré odohrať viacero kôl (3-5), pričom jednotlivé kolá môžu byť dosť dlhé.
+
+## **Zdroj**:
+
+Facebook

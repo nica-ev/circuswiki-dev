@@ -7,31 +7,46 @@ publish: true
 tags:
   - spiele
 title: Drunter und Drüber
-description: 
+description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: Gegenstände
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: 0a10b9be2b162209115639e48f8e66eecbd1aec5d8f0712c07478cb51aa9e935
+translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T16:35:00+00:00
+translation_updated: 2026-06-09T01:35:16+00:00
 ---
-# Wszędzie i nigdzie
+> [!info] Krótki opis
+> Prosta gra w podawanie, w której przedmioty są przekazywane naprzemiennie nad głową i między nogami.
+
+**Liczba uczestników**: 5-20 osób
+**Poziom trudności**: łatwy
+**Materiały**: przedmioty
+**Czas trwania gry**: 5-10 minut
+
+## **Opis gry**:
 
 Prosta gra z przedmiotami dla małych i średnich grup.
 
-Wszyscy stoją w rzędzie.
-Przedmioty przekazywane są z przodu do tyłu nad głowami.
+Wszyscy ustawiają się w jednym rzędzie.
+Przedmioty są podawane z przodu do tyłu nad głowami.
 Ostatnia osoba w rzędzie podaje przedmioty z tyłu do przodu między nogami osoby stojącej przed nią.
 
-Można to zrobić jako grę bez końca lub odkładać przedmioty, gdy ukończą pełną rundę.
+Można grać w kółko bez końca lub odkładać przedmioty na bok, gdy wykonają pełne okrążenie.
 
----
-Połącz z duplikatem notatki:
+## **Uwagi**:
 
-Prosta gra z przedmiotami dla małych i średnich grup.
+Sprawdzić możliwość połączenia z podwójną notatką.
 
-Wszyscy stoją w rzędzie. Przedmioty przekazywane są z przodu do tyłu nad głowami. Ostatnia osoba w rzędzie podaje przedmioty z tyłu do przodu między nogami osoby stojącej przed nią. Przedmioty można albo odkładać, gdy ukończą pełną rundę, albo można zacząć grę od nowa jako grę bez końca.
+## **Źródło**:
+
+Nieznane

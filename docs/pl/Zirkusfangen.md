@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:48:09
 title: Zirkusfangen
-description: 
+description: Ein thematisches Fangspiel, bei dem gefangene Personen in Zirkusrollen verwandelt und durch passende Aktionen befreit werden.
 authors:
   - Marc Bielert
 category:
@@ -22,27 +22,28 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zirkusfangen.md
-translation_source_hash: 2273c68b7b11a6ddb516ea861a490c60db378747ff8619bea1cf8718323db15b
+translation_source_hash: f6c9b69c35ac31b11604239a1e54e3164720dcc1629b81dbb953580610290925
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:25:36+00:00
+translation_updated: 2026-06-09T02:38:19+00:00
 ---
-# Cyrkowy łapacz
+> [!info] Krótki opis
+> Tematyczna zabawa w berka, w której złapane osoby zamieniają się w cyrkowych artystów i są uwalniane poprzez odpowiednie akcje.
 
 **Liczba graczy**: od 6 osób
 **Poziom trudności**: łatwy
 **Materiały**: żadne
-**Czas trwania**: 10 do 15 minut
+**Czas gry**: 10 do 15 minut
 
-**Opis gry**:
+## **Opis gry**:
 
-Każdy jest łapaczem i jednocześnie wybawicielem.
+Każdy jest jednocześnie łapiącym i uwalniającym.
 
-Wszyscy biegają po sali i mogą dotykać innych. Dotknięta osoba zostaje "zaklęta" przez łapacza. Może zostać przemieniona w akrobatę, żonglera, klauna lub dyrektora cyrku.
+Wszyscy biegają po sali i mogą dotykać innych. Kiedy ktoś zostanie dotknięty, łapiący może go zaczarować. Może to być akrobata, żongler, klaun lub dyrektor cyrku.
 
-Akrobata wykonuje sportowy ruch, na przykład pajacyka. Może zostać uwolniony, gdy inna osoba stanie obok niego i razem z nim się ukłoni.
+Akrobata wykonuje sportowy ruch, na przykład pajacyka. Można go uwolnić, stając obok niego i kłaniając się razem z nim.
 
-Żongler naśladuje pantomimicznie żonglowanie. Zostaje uwolniony ze swojego zaklęcia, gdy inna osoba stanie naprzeciwko niego i będą sobie nawzajem rzucać "piłki" (podawać sobie).
+Żongler żongluje w pantomimie. Zostaje uwolniony ze swojego czaru, gdy ktoś stanie naprzeciwko niego i zacznie wzajemnie rzucać sobie "piłki" (podawać).
 
-Dyrektor cyrku woła przyjaźnie do wszystkich: "Serdecznie witam". Uwolni go osoba, która przejdzie pod jego nogami.
+Dyrektor cyrku wita wszystkich przyjaznym okrzykiem: "Serdecznie witamy". Uwolni go osoba, która przebiegnie pod jego nogami.
 
-Klaun stoi smutny i płacze. Można go uwolnić tylko wtedy, gdy się go rozśmieszy, na przykład robiąc śmieszne miny.
+Klaun stoi smutny i płacze. Można go uwolnić tylko wtedy, gdy uda się go rozśmieszyć, na przykład robiąc śmieszne miny.

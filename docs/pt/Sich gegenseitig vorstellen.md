@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
 title: Sich gegenseitig vorstellen
-description: 
+description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
 authors:
   - Marc Bielert
 category:
@@ -23,36 +23,34 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sich gegenseitig vorstellen.md
-translation_source_hash: 6e8bed46c484842a0579a60e4d7797386619f19c2591b4319d5ca6a9c0130756
+translation_source_hash: d0fa686a546856fccbc8d91f481af5854d931934cd9abd246ed7fe787ccbd272
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:10:40+00:00
+translation_updated: 2026-06-09T02:25:05+00:00
 ---
-# "Apresentar" uns aos outros
+> [!info] Breve Descrição
+> Um jogo de apresentação em círculo, no qual as pessoas se apresentam umas às outras com base em suposições.
 
-> [!info] Breve descrição
-> "Apresentar" uns aos outros é um jogo criativo de conhecimento para pequenos grupos, baseado em suposições, que promove a imaginação e as habilidades de comunicação dos participantes.
-
-**Tamanho do grupo**: Pequeno
+**Tamanho do Grupo**: 5-15 pessoas
 **Dificuldade**: Média
 **Material**: Nenhum
-**Duração do jogo**: Aproximadamente 10-15 minutos
+**Duração do Jogo**: Aproximadamente 10-15 minutos
 
-## Descrição do jogo:
+## **Descrição do Jogo**:
 
-Inspirado em [Fofocar na presença](Tratschen%20in%20Anwesenheit.md). Um jogo de conhecimento para pequenos grupos.
+Inspirado em [Fofocar na Presença](Tratschen%20in%20Anwesenheit.md). Um jogo de apresentação para grupos pequenos.
 
 ### Variante 1
 
-Todos sentam-se em círculo. Uma pessoa começa, levanta-se e posiciona-se atrás de outra pessoa qualquer, "apresentando-a" ao grupo.
-O truque, tal como em [Fofocar na presença](Tratschen%20in%20Anwesenheit.md), é que apenas se fazem suposições sobre a pessoa.
+Todos se sentam em círculo. Uma pessoa começa, levanta-se e posiciona-se atrás de outra pessoa qualquer, "apresentando-a" ao grupo.
+O ponto principal – tal como em [Fofocar na Presença](Tratschen%20in%20Anwesenheit.md) – é que apenas se fazem suposições sobre a pessoa.
 
-Após algum tempo, a pessoa descrita desfaz as suposições ou corrige as informações.
+Após algum tempo, a pessoa que foi descrita desfaz as suposições ou corrige as informações.
 
 ### Variante 2
 
-Todos sentam-se em círculo.
+Todos se sentam em círculo.
 Uma pessoa começa, levanta-se, posiciona-se atrás de outra pessoa qualquer e apresenta-a ao grupo.
-Quando a pessoa que apresenta termina, senta-se no lugar da pessoa apresentada. Agora, a pessoa apresentada é quem procura uma nova pessoa para apresentar.
+Quando a pessoa que está a apresentar termina, senta-se no lugar da pessoa apresentada. Agora, a pessoa apresentada é a próxima a escolher alguém para apresentar.
 
 ## **Fonte**:
 

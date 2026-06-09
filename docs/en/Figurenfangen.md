@@ -7,35 +7,38 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:53
 title: Figurenfangen
-description: 
+description: Ein Fangspiel, bei dem Gefangene zu Figuren werden und durch passende Aktionen wieder befreit werden können.
 authors:
   - Marc Bielert
 category:
   - bewegung
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 6
+source: Tasifan Spielebuch
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Figurenfangen.md
-translation_source_hash: ad5920eb27016e5fc32081bc071c896e9c12aec4064688051b5dbad80138f7bd
+translation_source_hash: 509ba6a704638eab731206c5aec2b0dc828ab0099691354b899dd082b6e167af
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:22:50+00:00
+translation_updated: 2026-06-09T01:38:11+00:00
 ---
-# Freeze Tag
+> [!info] Brief Description
+> A tag game where tagged players become statues and can be freed through corresponding actions.
 
 **Group Size**: 6+ players
 **Difficulty**: Medium
 **Materials**: None
-**Playtime**: Approx. 6 minutes
+**Game Duration**: Approx. 6 minutes
 
 ## **Game Description**:
-Based on the group size, an appropriate number of taggers will be chosen. Whenever a tagger tags a player, they can choose from three "figures" to assign to the tagged player: Stick, Gate, or Stone. The tagger calls out one of the three figures to the tagged player.
 
-*   **Stone**: If you become a stone, crouch down as small as possible on the ground, like a stone. Another player can then jump over you to free you.
-*   **Stick**: If you are tagged and assigned the "Stick" figure, stand rigidly still with your arms stretched upwards. You can be freed by someone walking around you once.
-*   **Gate**: If you are assigned the "Gate" figure, stand with your legs spread wide. You can be freed by someone crawling through your legs.
+Depending on the group size, an appropriate number of taggers will be chosen. Whenever a tagger tags a player, they can choose from three statues: Stick, Gate, or Stone. They call out one of the three statues to the tagged player.
+If you become the Stone, you crouch down as small as possible, like a stone on the ground. A free player can then jump over you to free you. If you are tagged and assigned the Stick statue, you stand stiff as a board with your arms stretched upwards. The Stick can be freed by someone walking around them once. The player assigned the Gate stands with legs spread wide and can be freed by someone crawling through their legs. Anyone who is currently freeing someone cannot be tagged!
 
-Players who are currently freeing someone cannot be tagged!
-
-The figures can be changed to other figures depending on the theme and the group. There are no limits to creativity; entirely different ways of freeing players can also be invented.
+The statues can be changed to other figures depending on the theme and the group. There are no limits to creativity; entirely different ways of freeing players can also be invented.
 
 ## **Source**:
 Tasifan Spielebuch

@@ -7,30 +7,46 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:14
 title: Vampir
-description: 
+description: Ein Spiel mit geschlossenen Augen, bei dem Vampire andere infizieren und sich beim Treffen gegenseitig zurückverwandeln können.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vampir.md
-translation_source_hash: 11f828cd89460a3b6a7b0e7f67f52bdc95ea8d2f1c3bd7356a6359e3c2dc8ea5
+translation_source_hash: df28bd75d5dc5e57d15b8f0e66490adcebeb8c8d9f3bc5d022bc83ad1a2071ee
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:25:07+00:00
+translation_updated: 2026-06-09T02:33:07+00:00
 ---
-# Vampier
+> [!info] Korte beschrijving
+> Een spel met gesloten ogen waarbij vampiers anderen kunnen besmetten en elkaar bij een ontmoeting terug kunnen veranderen.
 
-Vampier
+**Groepsgrootte**: 6-30 personen
+**Moeilijkheidsgraad**: gemiddeld
+**Materiaal**: geen
+**Speeltijd**: 5-10 minuten
+
+## **Spelbeschrijving**:
 
 - Iedereen heeft de ogen gesloten.
-- Er is één hoofd-vampier die wordt gekozen voordat het spel begint.
-- Als een vampier een niet-vampier tegenkomt, legt hij zijn handen om diens nek, schreeuwt en infecteert hem zo (de niet-vampier wordt hierdoor een vampier).
-- Als twee vampiers elkaar tegenkomen (beiden leggen hun handen om elkaars nek), veranderen ze terug in niet-vampiers.
-- Alleen de hoofd-vampier kan niet worden terugveranderd.
+- Er wordt voorafgaand aan het spel een 'oervampier' aangewezen.
+- Wanneer een vampier een niet-vampier ontmoet, legt hij zijn handen om diens nek, schreeuwt en besmet de persoon zo (de niet-vampier wordt hierdoor een vampier).
+- Als twee vampiers elkaar ontmoeten (beiden leggen hun handen om de nek van de ander), veranderen ze terug naar niet-vampiers.
+- Alleen de oervampier kan niet worden terugveranderd.
 
-Het doel is om iedereen tot vampier te maken.
+Het doel is om iedereen in vampiers te veranderen.
 
-Zie ook:
+## **Bron**:
+
+Onbekend
+
+## **Verwijzingen**
 
 [Aardappel Aardappel](Kartoffel%20Kartoffel.md)

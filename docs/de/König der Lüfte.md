@@ -7,18 +7,35 @@ publish: true
 tags:
   - spiele
 title: König der Lüfte
-description: 
+description: Ein Vertrauensspiel, bei dem eine Person von der Gruppe getragen, gestützt und vorsichtig bewegt wird.
 authors:
   - Marc Bielert
 category:
   - sonstiges
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 6
+group-max: 20
 translation_status: original
 translation_source_lang: de
 ---
-#  König der Lüfte
+> [!info] Kurzbeschreibung
+> Ein Vertrauensspiel, bei dem eine Person von der Gruppe getragen, gestützt und vorsichtig bewegt wird.
 
-Vertrauensspiel für mittlere Gruppen:
+**Gruppengröße**: 6-20 Personen
+**Schwierigkeit**: mittel
+**Material**: keines
+**Spieldauer**: 5-10 Minuten
+
+## **Spielbeschreibung**:
+
+Vertrauensspiel für mittlere Gruppen.
 
 Ein König wird gewählt. Dieser legt sich flach auf den Boden und sein Volk versammelt sich um ihn. Nun wird er hochgehoben. Ist er sicher auf den Händen seines Volkes, kann sich der König vorsichtig bewegen, z.B. sich aufrichten, die Füße nacheinander in die Luft setzen oder sogar eine Rolle machen. Das Volk muss immer aufmerksam mit seinen Bewegungen mitgehen, um ihren König zu stützen.
 Am Ende wird er vorsichtig wieder auf den Boden abgesetzt.
 
+## **Quelle**:
+
+Unbekannt

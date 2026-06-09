@@ -7,30 +7,50 @@ publish: true
 tags:
   - spiele
 title: Die Schlange häuten
-description: 
+description: Ein Bewegungsspiel in einer Reihe, bei dem die Gruppe verbunden bleibt und sich nacheinander wie eine Schlange ablegt.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Schlange häuten.md
-translation_source_hash: 695138fcba375d9b5ff44b02234a860232ec97e8c2e700a24a0bfd3c4336b805
+translation_source_hash: 7e332c189b2c5cbf742c5d262bf144cccde6911932a80d0039ba9d7f4e0c268d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:38:05+00:00
+translation_updated: 2026-06-09T01:33:45+00:00
 ---
-# A kígyó vedlése
+> [!info] Rövid leírás
+> Egy sorban állva végzett mozgásjáték, amelyben a csoport összekapcsolódva, kígyószerűen, egymás után fekszik le.
 
-Egyszerű mozgásjáték kis- és közepes csoportok számára.
+**Csoportméret**: 5-20 fő
+**Nehézség**: könnyű
+**Anyag**: nincs
+**Játékidő**: 5-10 perc
 
-Mindenki egy sorban áll, lábait terpeszben tartva.
-Mindenki hajoljon előre úgy, hogy jobb kezével a saját lábai között átnyúlva megfogja az előtte álló bal kezét.
+## **Játék leírása**:
 
-Az utolsó a sorban lefekszik a földre (a kezek elengedhetők).
-A többiek most együtt (kéz elengedése nélkül) hátrafelé haladnak, amíg az "új" utolsó is helyet foglal magának a földön.
+Egyszerű mozgásjáték kisebb és közepes csoportok számára.
 
-A játék akkor ér véget, amikor mindenki fekszik.
+Mindenki egy sorban áll, lábait széttárva.
+Mindenki előrehajol úgy, hogy saját lábai között átnyúlva, jobb kezével megfogja az előtte álló (vagyis a mögötte lévő) ember bal kezét.
 
-Változatként a játékot végtelenített körré is lehet alakítani, ekkor a már fekvő személyek felállnak, amint mindenki más átlépett rajtuk, és elöl csatlakoznak újra a sorhoz.
+Az utolsó a sorban lefekszik a földre (a kezeket el lehet engedni).
+A többiek most együtt (kéz elengedése nélkül) hátrafelé haladnak, amíg az "új" utolsó is helyet nem talál a lefeléshez.
 
-Létrehozva: 201407031659
+A játék akkor ér véget, amikor mindenki lefeküdt.
+
+## **Változatok**:
+
+Változatként a játékot végtelenített körré is lehet alakítani, ahol a már fekvő személyek felállnak, amint mindenki más átment rajtuk, és elöl újra csatlakoznak a sorhoz.
+
+## **Forrás**:
+
+Ismeretlen
+
+Létrehozva    201407031659

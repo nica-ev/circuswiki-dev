@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:21:45
 update: 2025-03-25 22:47:24
 title: Schwänzchen-Hasche
-description: 
+description: Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 authors:
   - Marc Bielert
 category:
@@ -23,12 +23,10 @@ todo: text inklusion
 translation_status: original
 translation_source_lang: de
 ---
-# Schwänzchen-Hasche
-
 > [!info] Kurzbeschreibung
-> Ein bewegungsreiches Fangespiel für kleine bis mittlere Gruppen, ideal zum Aufwärmen, bei dem es darum geht, die "Schwänzchen" der anderen zu stehlen und selbst möglichst viele zu sammeln.
+> Ein Fangspiel mit Tüchern, bei dem alle versuchen, die Schwänzchen der anderen zu stehlen und selbst zu sammeln.
 
-**Gruppengröße**: Klein bis Mittel
+**Gruppengröße**: 5-30 Personen
 **Schwierigkeit**: Leicht
 **Material**: Tücher (eines pro Person)
 **Spieldauer**: Ca. 10-15 Minuten

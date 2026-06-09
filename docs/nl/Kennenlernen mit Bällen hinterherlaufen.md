@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Kennenlernen mit Bällen, hinterherlaufen
-description: 
+description: Eine dynamische Kennenlernübung im Kreis, bei der Personen dem geworfenen Ball hinterherlaufen und Plätze wechseln.
 authors:
   - Marc Bielert
 category:
@@ -23,25 +23,25 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kennenlernen mit Bällen hinterherlaufen.md
-translation_source_hash: e1f3e29f41165b6b7b9ace55c7ab8cbddce7d651044ae9a7132870b2d163ac5a
+translation_source_hash: 99bd41279bd3d0a776caf02433e6615dc15cc037dfa012fab09e1d7d6683b0dc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:20:09+00:00
+translation_updated: 2026-06-09T01:48:14+00:00
 ---
 > [!info] Korte beschrijving
-> "Kennismaken met ballen, erachteraan lopen" is een dynamische kennismakingsactiviteit die beweging, het onthouden van namen en oogcontact combineert om interactie en gemeenschapszin te bevorderen.
+> Een dynamische kennismakingsactiviteit in een kring, waarbij deelnemers achter de gegooide bal aanrennen en van plaats wisselen.
 
-**Groepsgrootte**: Onbeperkt
+**Groepsgrootte**: 5-25 personen
 **Moeilijkheidsgraad**: Makkelijk tot gemiddeld (afhankelijk van het aantal ballen)
 **Materiaal**: Eén of meerdere ballen
 **Speeltijd**: Ongeveer 10-15 minuten
 
 ## **Spelbeschrijving**:
 
-Alle deelnemers staan in een cirkel.
+Alle deelnemers staan in een kring.
 
-Eén persoon heeft een bal, maakt oogcontact met een andere persoon in de cirkel, noemt diens naam en gooit de bal naar die persoon.
+Eén persoon heeft een bal, maakt oogcontact met een andere persoon in de kring, noemt diens naam en gooit de bal naar die persoon.
 
-Vervolgens loopt de persoon die de bal gooide achter de bal aan en gaat **achter** de persoon staan die de bal heeft gevangen.
+Vervolgens rent de persoon achter de bal aan en gaat **achter** de persoon staan die de bal heeft gevangen.
 
 De moeilijkheidsgraad kan worden verhoogd door het aantal ballen in het spel te vergroten.
 

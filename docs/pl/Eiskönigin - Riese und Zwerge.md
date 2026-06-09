@@ -7,23 +7,43 @@ publish: true
 tags:
   - spiele
 title: Eiskönigin - Riese und Zwerge
-description: 
+description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
 authors:
   - Marc Bielert
 category:
   - Kooperation
+Schwierigkeit: einfach
+Material: kleiner Gegenstand
+Spieldauer: 5-10
+source: unbekannt
+group-min: 5
+group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2c51d15b075ef7fc16d553458f6630cee62eb8546a55f85c1069fbf518a61220
+translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:11:50+00:00
+translation_updated: 2026-06-09T01:35:55+00:00
 ---
-Jedna osoba stoi tyłem do pozostałych, a za nią leży mały przedmiot (np. piłka).
+> [!info] Krótki opis
+> Gra polegająca na skradaniu się i współpracy, w której grupa potajemnie kradnie przedmiot i go odnosi.
 
-Za każdym razem, gdy się odwróci, pozostali muszą zamrzeć. Kto się poruszy, musi cofnąć się o 2 kroki (lub wrócić na start).
+**Liczba graczy**: 5-25 osób
+**Poziom trudności**: łatwy
+**Materiały**: mały przedmiot
+**Czas gry**: 5-10 minut
 
-Celem jest kradzież piłki i przetransportowanie jej do linii startowej.
-Gdy tylko piłka zniknie, "Królowa Lodu" może raz zgadywać, kto aktualnie ma piłkę.
+## **Opis gry**:
 
-Jeśli zgadnie poprawnie, wygrywa.
+Jedna osoba stoi tyłem do reszty grupy. Za nią leży mały przedmiot (np. piłka).
+
+Za każdym razem, gdy ta osoba się odwróci, pozostali muszą zamrzeć w bezruchu. Kto się poruszy, musi cofnąć się o 2 kroki (lub wrócić na start).
+
+Celem jest ukradzenie piłki i przetransportowanie jej do linii startowej.
+Gdy tylko piłka zniknie, "Królowa Lodu" może podać JEDNĄ wskazówkę, kto aktualnie posiada piłkę.
+
+Jeśli odgadnie poprawnie, wygrywa.
+
+## **Źródło**:
+
+Nieznane

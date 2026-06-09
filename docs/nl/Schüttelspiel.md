@@ -7,47 +7,57 @@ tags:
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
 title: Schüttelspiel
-description: 
+description: Ein Sprech- und Bewegungsspiel, bei dem Gruppen sich gegenseitig zum gemeinsamen Schütteln auffordern.
 authors:
   - Marc Bielert
 category:
   - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schüttelspiel.md
-translation_source_hash: 5e729532db50c8a9c7073d63416811899e4f84d08842448a27fb5a567a799cc0
+translation_source_hash: d47523faad35891bbd400b4116996910fe05c6d1cc00204e28fd3c4d0addc461
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:23:48+00:00
+translation_updated: 2026-06-09T02:19:51+00:00
 ---
-# Schudden maar!
+> [!info] Korte beschrijving
+> Een spel met praten en bewegen, waarbij groepen elkaar uitnodigen om samen te schudden.
 
-**Groepsgrootte**: Meerdere groepen (groepsgrootte maakt niet uit)
+**Groepsgrootte**: vanaf 4 personen
 **Moeilijkheidsgraad**: heel eenvoudig
-**Materiaal**: niets
-**Speelduur**: 5 tot 10 minuten
+**Materiaal**: geen
+**Speeltijd**: 5 tot 10 minuten
 
-**Spelbeschrijving**:
-"Schudden maar!" is een gesproken koor met bijbehorende bewegingen volgens het volgende patroon:
+## **Spelbeschrijving**:
 
-Groep A: Hé Groep B (naam van de andere groep/workshop/etc.), willen jullie met ons "Schudden maar!" spelen?
+Het schudspel is een gesproken koor met bijbehorende bewegingen volgens het volgende patroon:
 
-Groep B: Ja hoooor!
+Groep A: Hé Groep B (naam van de andere groep/workshop/etc.), wil je met ons het schudspel spelen?
 
-A + Iedereen: Zijn jullie cool!
+Groep B: Oh jaaaaa!
 
-Iedereen: En rechts schudden schudden, schudden schudden schudden. (Daarbij alles rechts schudden)
+A + Allen: Zijn jullie cool!
 
-En links schudden schudden, schudden schudden schudden. (Daarbij alles links schudden)
+Allen: En rechts schudden schudden, schudden schudden schudden. (Hierbij alles naar rechts schudden)
 
-En boven schudden schudden, schudden schudden schudden. (Daarbij alles boven schudden)
+En links schudden schudden, schudden schudden schudden. (Hierbij alles naar links schudden)
 
-En alles schudden schudden, schudden schudden schudden. (Daarbij alles schudden)
+En boven schudden schudden, schudden schudden schudden. (Hierbij alles naar boven schudden)
 
-Groep B: Hé Groep C (naam van een andere groep/workshop/etc.), willen jullie met ons "Schudden maar!" spelen?
+En alles schudden schudden, schudden schudden schudden. (Hierbij alles schudden)
 
-Groep C: Ja hoooor!
+Groep B: Hé Groep C (naam van een andere groep/workshop/etc.), wil je met ons het schudspel spelen?
 
-En zo verder totdat elke groep aan de beurt is geweest. Het tempo kan tijdens het spel steeds verder worden opgevoerd.
+Groep C: Oh jaaaaa!
 
-**Bron**:
+En zo verder totdat elke groep een keer aan de beurt is geweest. Het tempo kan tijdens het spel steeds verder worden opgevoerd.
+
+## **Bron**:
+
 Tasifan Spielebuch

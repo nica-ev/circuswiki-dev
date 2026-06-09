@@ -7,23 +7,41 @@ publish: true
 tags:
   - spiele
 title: Bücherbalance
-description: 
+description: Ein ruhiges Balance-Spiel, bei dem Bücher auf Hand oder Fuß gehalten werden, während verschiedene Bewegungen ausprobiert werden.
 authors:
   - Marc Bielert
 category:
   - cool-down
+Schwierigkeit: einfach
+Material: Bücher
+Spieldauer: 5-10
+source: unbekannt
+group-min: 3
+group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bücherbalance.md
-translation_source_hash: 72bc0150511b392c9ee30deb80e44010ea66c3c27545646167ec508ad5d9e23a
+translation_source_hash: 223f0455e096e26c3fb585a89357c161d96393a8d948e531c99dbfb40c3bf6b2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:19:55+00:00
+translation_updated: 2026-06-09T01:28:28+00:00
 ---
-# Book Balance
+> [!info] Brief Description
+> A quiet balancing game where participants hold books on their hands or feet while trying out various movements.
 
-A game for small to medium-sized groups:
+**Group Size**: 3-20 people
+**Difficulty**: Easy
+**Materials**: Books
+**Duration**: 5-10 minutes
+
+## **Game Description**:
+
+A game for small to medium-sized groups.
 
 Each person receives a book.
-They must then try to balance the book on their palm, while also exploring how much they can move their body (sitting down, turning to the side, lying on their stomach, rolling sideways, etc.).
+They must then try to balance the book on their palm, while also testing how much they can move their body (sitting down, turning onto their side, lying on their stomach, rolling sideways, etc.).
 Once this is successful, the difficulty can be increased by placing the book on the sole of a foot.
-Again, participants explore which movements are possible without the book falling off their foot.
+Again, participants test which movements are possible without the book falling off their foot.
+
+## **Source**:
+
+Unknown

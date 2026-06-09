@@ -84,6 +84,12 @@
         }
       ],
       "title": "Graph"
+    },
+    {
+      "type": "file",
+      "ctime": 1780958910815,
+      "path": "docs/de/index.md",
+      "title": "Index Deutsch"
     }
   ]
 }
