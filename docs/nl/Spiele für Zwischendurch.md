@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Spelletjes voor tussendoor
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:54+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:02+00:00
 ---
 # Spelletjes voor tussendoor
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, Moeilijkheidsgraad, Materiaal, Speelduur
 
 | file                                                                                      | group-min | group-max | Moeilijkheidsgraad | Materiaal                  | Speelduur |
 | ----------------------------------------------------------------------------------------- | --------- | --------- | ------------------ | -------------------------- | --------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2         | 99        | makkelijk          | geen                       | 5-10      |
-| [Egyptisch Werpspel](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | gemiddeld          | ballen                     | 5 - 10    |
-| [Opdrachten Spel](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | gemiddeld          | geen                       | 5-15      |
-| [Aandachtspel met ballen](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | makkelijk          | ballen                     | 5-10      |
+| [Eén, twee, drie](<1-2-3.md>)                                                                       | 2         | 99        | makkelijk          | geen                       | 5-10      |
+| [Egyptisch werpspel](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | gemiddeld          | ballen                     | 5 - 10    |
+| [Taken Spel](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | gemiddeld          | geen                       | 5-15      |
+| [Aandachtsspel met ballen](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | makkelijk          | ballen                     | 5-10      |
 | [Avatar](<Avatar.md>)                                                                     | 2         | 30        | makkelijk          | geen                       | 5-10      |
 | [Het Ja Spel](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | makkelijk          | geen                       | 5-10      |
 | [De Fotograaf](<Der%20Photograph.md>)                                                   | 5         | 25        | makkelijk          | geen                       | 10-20     |
-| [De circus is in de stad](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | makkelijk          | geen                       | 5-15      |
-| [De circus komt in de stad](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | makkelijk          | mat, gemarkeerde gebieden | 5-15      |
+| [De circusz is in de stad](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | makkelijk          | geen                       | 5-15      |
+| [De circus komt naar de stad](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | makkelijk          | mat, gemarkeerde gebieden | 5-15      |
 | [Evolutie](<Evolution.md>)                                                               | 12        | 40        | makkelijk          | geen                       | 10        |
-| [Fan Steentje-Tikkertje-Tak](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | makkelijk          | geen                       | 8         |
-| [Vinger-Vechten](<Finger-Fechten.md>)                                                     | 2         | 99        | makkelijk          | geen                       | 2-5       |
+| [Fan Steen-Papier-Schere](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | makkelijk          | geen                       | 8         |
+| [Vinger-vechten](<Finger-Fechten.md>)                                                     | 2         | 99        | makkelijk          | geen                       | 2-5       |
 | [Vriend en Vijand](<Freund%20und%20Feind.md>)                                             | 5         | 20        | makkelijk          | geen                       | 2-5       |
 | [Gelijk en gelijk](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | makkelijk          | optioneel muziek          | 5-15      |
 | [Groot tegen Klein](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | gemiddeld          | mat                        | 1-5       |
-| [Goedendag buurman](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | gemiddeld          | geen                       | 5-10      |
+| [Hallo Buurman](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | gemiddeld          | geen                       | 5-10      |
 | [Human Memory](<Human%20Memory.md>)                                                       | 8         | 40        | makkelijk          | geen                       | 10-15     |
-| [Killer-radio-auto](<Killerfunkwagen.md>)                                                   | 2         | 30        | makkelijk          | geen                       | 5-10      |
-| [Klets Theater](<Klatsch%20Theater.md>)                                                 | 4         | 20        | makkelijk          | geen                       | 7         |
-| [Koning van de Lucht](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | gemiddeld          | geen                       | 5-10      |
-| [Koeienstal](<Kuhstall.md>)                                                                 | 7         | 40        | makkelijk          | geen                       | 5-10      |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2         | 30        | makkelijk          | geen                       | 5-10      |
+| [Klatsch Theater](<Klatsch%20Theater.md>)                                                 | 4         | 20        | makkelijk          | geen                       | 7         |
+| [Koning van de luchten](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | gemiddeld          | geen                       | 5-10      |
+| [Koestal](<Kuhstall.md>)                                                                 | 7         | 40        | makkelijk          | geen                       | 5-10      |
 | [Lachbeer](<Lachb%C3%A4r.md>)                                                              | 6         | 30        | makkelijk          | geen                       | 4         |
-| [Laserzwaard](<Laserschwert.md>)                                                         | 5         | 25        | makkelijk          | geen                       | 5-10      |
-| [Ballonnen balanceren](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | makkelijk          | ballonnen                  | 5-10      |
-| [Bloedbad](<Massaker.md>)                                                                 | 2         | 30        | makkelijk          | geen                       | 5-10      |
-| [Naamgevecht](<Namenkampf.md>)                                                             | 10        | 30        | makkelijk          | grote doek                 | 10 -  15   |
-| [Piraten begroetingsspel](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | makkelijk          | geen                       | 5-10      |
-| [Piraten Kapitein](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | makkelijk          | mat                        | 5-15      |
-| [Ring doorgeven in een cirkel](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | makkelijk          | ring                       | 5-10      |
+| [Lichtzwaard](<Laserschwert.md>)                                                         | 5         | 25        | makkelijk          | geen                       | 5-10      |
+| [Ballonnen Balanceren](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | makkelijk          | ballonnen                  | 5-10      |
+| [Massaker](<Massaker.md>)                                                                 | 2         | 30        | makkelijk          | geen                       | 5-10      |
+| [Namenstrijd](<Namenkampf.md>)                                                             | 10        | 30        | makkelijk          | grote doek                 | 10 -  15   |
+| [Piraten Welkomspel](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | makkelijk          | geen                       | 5-10      |
+| [Piratenkapitein](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | makkelijk          | mat                        | 5-15      |
+| [Banden doorgeven in een cirkel](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | makkelijk          | ring                       | 5-10      |
 | [Schaduwloop](<Schattenlauf.md>)                                                         | 2         | 99        | makkelijk          | geen                       | 5 - 15     |
 | [Schildpadden omdraaien](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6         | 30        | gemiddeld          | geen                       | 5 - 10     |
-| [Snel snel - op de plek](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | gemiddeld          | geen                       | 5-10      |
-| [Steentje-Tikkertje-Tak](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | makkelijk          | geen                       | 5-10      |
+| [Snel, snel - op de plek](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | gemiddeld          | geen                       | 5-10      |
+| [Klavertje Vier](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | makkelijk          | geen                       | 5-10      |
 | [Speed Dating](<Speed%20Dating.md>)                                                       | 6         | 40        | makkelijk          | briefjes, pennen           | 10-20     |
-| [Doodstaren](<Totblicken.md>)                                                             | 7         | 30        | makkelijk          | geen                       | 3-9       |
+| [Totblicken](<Totblicken.md>)                                                             | 7         | 30        | makkelijk          | geen                       | 3-9       |
 | [Vampier](<Vampir.md>)                                                                     | 6         | 30        | gemiddeld          | geen                       | 5-10      |
 | [Virus](<Virus.md>)                                                                       | 5         | 30        | makkelijk          | geen                       | 5-10      |
-| [Wat doe je daar](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | gemiddeld          | geen                       | 10-15     |
-| [Als ik koning was](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | makkelijk          | podium                     | 5-10      |
+| [Wat doe je daar?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | gemiddeld          | geen                       | 10-15     |
+| [Als ik koning was...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | makkelijk          | podium                     | 5-10      |
 | [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5         | 30        | gemiddeld          | geen                       | 3-10      |
 
 <!-- dynamic:end -->

@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "release notes",
-      "path": "docs/de/release notes.md"
+      "basename": "Liste aller Spiele",
+      "path": "docs/de/Liste aller Spiele.md"
+    },
+    {
+      "basename": "Liste aller Spiele",
+      "path": "docs/es/Liste aller Spiele.md"
     },
     {
       "basename": "index",
       "path": "docs/de/index.md"
     },
     {
-      "basename": "Grundlagen Wurfjonglage - Kaskade",
-      "path": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
+      "basename": "index",
+      "path": "docs/cs/index.md"
+    },
+    {
+      "basename": "Liste aller Spiele",
+      "path": "docs/it/Liste aller Spiele.md"
+    },
+    {
+      "basename": "Aufmerksamkeits-Spiel mit Bällen",
+      "path": "docs/it/Aufmerksamkeits-Spiel mit Bällen.md"
+    },
+    {
+      "basename": "1-2-3",
+      "path": "docs/it/1-2-3.md"
+    },
+    {
+      "basename": "Alle_gegen_einen",
+      "path": "docs/nl/Alle_gegen_einen.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "translation-architecture",
+      "path": "_system/translation-architecture.md"
+    },
+    {
+      "basename": "belgium-1",
+      "path": "docs/img/belgium-1.jpg"
+    },
+    {
+      "basename": "Spiele-Base",
+      "path": "_bases/Spiele-Base.base"
     },
     {
       "basename": "Grundlagen Wurfjonglage - Kaskade",
       "path": "docs/de/Grundlagen Wurfjonglage - Kaskade.md"
     },
     {
-      "basename": "belgium-1",
-      "path": "docs/img/belgium-1.jpg"
+      "basename": "release notes",
+      "path": "docs/de/release notes.md"
+    },
+    {
+      "basename": "Grundlagen Wurfjonglage - Kaskade",
+      "path": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
     },
     {
       "basename": "abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166",
@@ -57,14 +97,6 @@
       "path": "docs/de/Aufwärmspiele MOC.md"
     },
     {
-      "basename": "Spiele-Base",
-      "path": "_bases/Spiele-Base.base"
-    },
-    {
-      "basename": "translation-architecture",
-      "path": "_system/translation-architecture.md"
-    },
-    {
       "basename": "spiele-content-schema",
       "path": "_system/spiele-content-schema.md"
     },
@@ -75,10 +107,6 @@
     {
       "basename": "1-2-3",
       "path": "docs/de/1-2-3.md"
-    },
-    {
-      "basename": "Liste aller Spiele",
-      "path": "docs/de/Liste aller Spiele.md"
     },
     {
       "basename": "Spiele für Zwischendurch",
@@ -171,34 +199,6 @@
     {
       "basename": "Der Hund im großen Haus",
       "path": "docs/de/Der Hund im großen Haus.md"
-    },
-    {
-      "basename": "5-Step Methode",
-      "path": "docs/it/5-Step Methode.md"
-    },
-    {
-      "basename": "5-Step Methode",
-      "path": "docs/de/5-Step Methode.md"
-    },
-    {
-      "basename": "Spiele zum Kennenlernen",
-      "path": "docs/pl/Spiele zum Kennenlernen.md"
-    },
-    {
-      "basename": "Kartoffel Kartoffel",
-      "path": "docs/de/Kartoffel Kartoffel.md"
-    },
-    {
-      "basename": "Kartoffel Kartoffel",
-      "path": "docs/en/Kartoffel Kartoffel.md"
-    },
-    {
-      "basename": "Fangspiele",
-      "path": "docs/cs/Fangspiele.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/pl/Aufwärmspiele MOC.md"
     }
   ],
   "omittedPaths": [],

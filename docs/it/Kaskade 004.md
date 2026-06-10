@@ -6,17 +6,22 @@ update: 2025-02-09 20:52:57
 publish: draft
 tags:
   - kaskade
-title: Kaskade 004 - 1985
-description: Transkript des Magazines "Kaskade 004" von 1985
+title: Cascata 004 - 1985
+description: "Trascrizione della rivista \"Cascata 004\" del 1985"
 authors:
   - Marc Bielert
 type: Magazin
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade 004.md
-translation_source_hash: 00d15d26d9272dc26b7e92d166104222701db2f06335561619256afd4669bbbc
+translation_source_hash: 3feb61d6a20641e415b67ea98308e959237c98d8335a28cb3e9d127ebc38bf41
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:04:18+00:00
+translation_source_body_hash: 3feb61d6a20641e415b67ea98308e959237c98d8335a28cb3e9d127ebc38bf41
+translation_source_metadata_hash: 830c9172064856d91be25856ea8308c0ff8fde235d66faf574f09d394c82e3f2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:52:40+00:00
 ---
 ## C'è qualcosa nell'aria
 

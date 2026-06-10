@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
-title: Namenkampf
-description: Ein Namensduell mit Sichtbarriere, bei dem zwei Teams versuchen, den Namen des Gegenübers schneller zu nennen.
+title: Duelo de nombres
+description: Un duelo de nombres con barrera visual donde dos equipos intentan nombrar al oponente más rápido.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Namenkampf.md
-translation_source_hash: fe043f50840081c06930d0909107bd8a683d5ca3afb429383350533228e69932
+translation_source_hash: 40ee229239ae905930273c35fa1d7fb1500de0aedfe011368bf16936d90a5c41
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:35+00:00
+translation_source_body_hash: 40ee229239ae905930273c35fa1d7fb1500de0aedfe011368bf16936d90a5c41
+translation_source_metadata_hash: 38cbf8a4e56ffce502ad4460bce50b25dbf9a7e943d30f31a1127f0a99faff9e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:00:11+00:00
 ---
 > [!info] Breve descripción
 > Un duelo de nombres con barrera visual, en el que dos equipos intentan decir el nombre del oponente más rápido.

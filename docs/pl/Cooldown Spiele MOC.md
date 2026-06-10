@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:41:05
-title: Cooldown Spiele
+title: Gry z odliczaniem
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 6dd4e1da674b4118b17220dd318fee9e76aa5b49ed024b7758f2164fcff4ee11
+translation_source_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:28:48+00:00
+translation_source_body_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
+translation_source_metadata_hash: 8d77c7b7ddeaea581e3e2ce39008eddd97c82a6ba03b3cc0e0067c525783d000
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:18+00:00
 ---
 # Gry na wyciszenie MOC
 <!-- dynamic:start
@@ -33,18 +38,18 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | plik                                                                                          | min. gr. | maks. gr. | trudność | materiał | czas gry |
 | --------------------------------------------------------------------------------------------- | -------- | --------- | -------- | -------- | -------- |
 | [Aplikacja w cyrku](<Bewerbung%20im%20Zirkus.md>)                                           | 8        | 99        | łatwy    | żaden    | 5-10     |
-| [Balansowanie książkami](<B%C3%BCcherbalance.md>)                                                      | 3        | 20        | łatwy    | książki  | 5-10     |
-| [Czucie dłońmi](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4        | 25        | łatwy    | żaden    | 5-10     |
-| [Ziemniak Ziemniak](<Kartoffel%20Kartoffel.md>)                                             | 5        | 20        | łatwy    | żaden    | 5-10     |
-| [Klapnij z kontaktem wzrokowym](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5        | 99        | łatwy    | żaden    | 5-10     |
-| [Gra masażu - Rolnik i pole ziemniaków](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4        | 20        | łatwy    | żaden    | 5-10     |
-| [Medusa](<Medusa.md>)                                                                         | 5        | 25        | łatwy    | żaden    | 5-10     |
-| [Ludzkie Halma](<Menschenhalma.md>)                                                           | 8        | 20        | łatwy    | żaden    | 4        |
+| [Równowaga z książkami](<B%C3%BCcherbalance.md>)                                                      | 3        | 20        | łatwy    | książki  | 5-10     |
+| [Czucie rąk](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4        | 25        | łatwy    | żaden    | 5-10     |
+| [Ziemniak, ziemniak](<Kartoffel%20Kartoffel.md>)                                             | 5        | 20        | łatwy    | żaden    | 5-10     |
+| [Plotka z kontaktem wzrokowym](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5        | 99        | łatwy    | żaden    | 5-10     |
+| [Gra w masaż - Rolnik i pole ziemniaków](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4        | 20        | łatwy    | żaden    | 5-10     |
+| [Meduza](<Medusa.md>)                                                                         | 5        | 25        | łatwy    | żaden    | 5-10     |
+| [Ludzkie \\"Warcaby\\](<Menschenhalma.md>)                                                           | 8        | 20        | łatwy    | żaden    | 4        |
 | [Gra w mordercę](<M%C3%B6rderspiel.md>)                                                          | 8        | 30        | średni   | żaden    | 6        |
-| [Dziurka od igły](<Nadel%C3%B6hr.md>)                                                                | 5        | 30        | łatwy    | żaden    | 5-10     |
+| [Długa kolejka](<Nadel%C3%B6hr.md>)                                                                | 5        | 30        | łatwy    | żaden    | 5-10     |
 | [Robot](<Roboter.md>)                                                                       | 2        | 30        | łatwy    | żaden    | 5-10     |
 | [Szachy](<Schach.md>)                                                                         | 6        | 20        | średni   | żaden    | 5-10     |
 | [Zip Zap](<Zip%20Zap.md>)                                                                     | 5        | 99        | łatwy    | żaden    | 5-10     |
-| [Morderca językowy](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | średni   | żaden    | 5 - 10     |
+| [Zabójca Języków](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | średni   | żaden    | 5 - 10     |
 
 <!-- dynamic:end -->

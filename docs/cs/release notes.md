@@ -2,35 +2,62 @@
 lang: cs
 translation_id: release-notes
 created: 2025-01-21 18:09:55
-update: 2025-03-11 02:46:28
+update: 2026-06-10 03:32:50
 publish: true
 tags: 
-title: Release Notes
+title: Poznámky k vydání
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/release notes.md
-translation_source_hash: 1ad4f35444c066d51b8846bf9b3695485a45c3fda904aa525f46ad2fcae2a51c
+translation_source_hash: 552574cc7eff1d5231818697f3e13c12302de19018f1a7f60a17252b52a71edd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:08:34+00:00
+translation_updated: 2026-06-10T20:14:19+00:00
+translation_source_metadata_hash: d98301b17d1c367eddf09027e8b8c2f1a29023193163f81acf69d253777088ec
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T20:14:19+00:00
+translation_source_body_hash: 552574cc7eff1d5231818697f3e13c12302de19018f1a7f60a17252b52a71edd
 ---
 >[!info]
 >Tyto poznámky k vydání poskytují pouze hrubý přehled, drobné změny (jako jsou jednotlivé nové stránky, úpravy stávajícího obsahu) nejsou všechny uvedeny. Tyto lze však přesně sledovat v historii repozitáře.
 
->[!info]- **Verze:** v0.03 - **Datum vydání**: 11. března 2025
+>[!info]- **Verze:** v0.04 - **Datum vydání**: 9. června 2026
 >**Obsah**
->- Doplněny chybějící popisy her
+>- Výrazně rozšířen vícejazyčný obsah: obsah je nyní strukturován pod `docs/<jazyk>`.
+>- Přidány nové a aktualizované překlady pro mnoho popisů her a projektových stránek.
+>- Importovány polské workshopové materiály a integrovány do vícejazyčné struktury obsahu.
+>- Další sjednocení struktury obsahu a metadat pro hry.
 >
 >**Technické**
->- Přidáno favicon + logo
+>- Generátor webu převeden z MkDocs/MkDocs Material na Zensical.
+>- Zavedena nová vícejazyčná struktura pro sestavení a staging.
+>- Němčina zůstává výchozím jazykem bez předpony jazyka; další jazyky budou publikovány pod jazykovými kódy, např. `/en/`, `/pl/`, `/es/`.
+>- Zavedena centrální konfigurace jazyků prostřednictvím `tools/config/languages.json`.
+>- Aktualizováno nasazení GitHub Pages pro novou strukturu Zensical.
+>- Výrazně rozšířeny lokální překladové nástroje a vývojová konzole: kontroly stavu, dávkové plánování, stav překladu, grafické zobrazení, navigační nástroje, workflow pro opravu odkazů a čištění.
+>- Doplněn přepínač jazyků, indikátory stavu překladu a záložní stránky pro chybějící překlady.
+>- Vylepšeny tabulky ve finálním výstupu webu: řaditelné tabulky, lepší zobrazení hustých tabulek a volitelně rozbalitelné sekce stránek.
+>
+>**Opraveno**
+>- Interní odkazy a odkazy v Markdownu na přeložených stránkách jsou spolehlivěji zachovány a opraveny.
+>- Stabilizována vícejazyčná navigace a struktura URL.
+>- Vylepšeno responzivní chování navigace, zejména ve spojení s mobilní hamburgerovou nabídkou Zensical.
+
+>[!info]- **Verze:** v0.03 - **Datum vydání**: 11. března 2025
+>**Obsah**
+>- Přidány chybějící popisy her
+>
+>**Technické**
+>- Přidán favicon + logo
 >- Redesign UI
->- Navigace první úrovně je nyní v záhlaví stránky, zatímco kontextově závislý pravý navigační panel je přizpůsoben
+>- Navigace první úrovně je nyní v záhlaví stránky, zatímco kontextově se přizpůsobuje pravý navigační panel
 >- Tabulky lze řadit kliknutím na záhlaví
 >
 >**Opraveno**
->- Značky (tagy) opět fungují
+>- Značky opět fungují
 
 >[!info]- **Verze:** v0.02 - **Datum vydání**: 26. února 2025
 >**Technické**
@@ -46,4 +73,4 @@ translation_updated: 2026-06-07T19:08:34+00:00
 >
 >**Technické**
 >- Základní nastavení pro Mkdocs a Mkdocs-materials
->- Podpora Obsidianu s Mkdocs-publisher (umožňuje používat Obsidian Markdown, jako jsou Markdown odkazy, Callout Boxes)
+>- Podpora Obsidianu s Mkdocs-publisher (umožňuje použití Obsidian Markdown, jako jsou Markdown odkazy, Callout Boxes)

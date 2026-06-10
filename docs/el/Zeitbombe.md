@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:14:36
-title: Zeitbombe
-description: Ein Fangspiel, bei dem gefangene Personen als tickende Zeitbomben entschärft werden müssen, bevor sie ausscheiden.
+title: Χρονική βόμβα
+description: Ένα παιχνίδι κυνηγητού όπου οι παίκτες που πιάνονται πρέπει να αφοπλιστούν ως χρονικές βόμβες πριν αποκλειστούν.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zeitbombe.md
-translation_source_hash: ce38bd06d730dffdef6b9ec0b243e2539bea9c9ad39663068fb2e044311107d3
+translation_source_hash: 8213c544d6847131566f316b1c924838ee19f9b225d311dcac0a89b9a0e3ad7b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:37:47+00:00
+translation_source_body_hash: 8213c544d6847131566f316b1c924838ee19f9b225d311dcac0a89b9a0e3ad7b
+translation_source_metadata_hash: cb1c176f396c0d894e1f4e585304e26727842a34d408913ce0ac32ca4d7abe5d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:13:04+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι κυνηγητού όπου οι παίκτες που έχουν "πιαστεί" πρέπει να "αφοπλιστούν" σαν χρονοβόμπες, πριν αποκλειστούν.

@@ -6,7 +6,7 @@ update: 2025-02-09 20:55:23
 publish: draft
 tags:
   - kaskade
-title: Zirkus gesucht!
+title: Hledá se cirkus!
 description: 
 authors:
   - Kattrin & Uli
@@ -15,9 +15,14 @@ source: Kaskade 001
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zirkus gesucht!.md
-translation_source_hash: 4f95873dcdad6172f2da7620c9678bdc8310471789f1e60ad00fa2efe24f5a8a
+translation_source_hash: 13de6b2c7958aa7af6d362855107a4c7f35dd15fc5d60726cef3f709549c5783
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:33:46+00:00
+translation_source_body_hash: 13de6b2c7958aa7af6d362855107a4c7f35dd15fc5d60726cef3f709549c5783
+translation_source_metadata_hash: d28f936eb7fbacec8fec7f391f7b796d49a3748a9e1b3977b64b42cca4fffbc6
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:13:30+00:00
 ---
 ## Hledá se cirkus!
 **Zpráva dvou klaunů, kteří už nechtěli žít v NDR**

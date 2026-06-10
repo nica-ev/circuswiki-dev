@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-25 01:38:42
 update: 2025-03-25 20:34:19
-title: Möhre Hase Fuchs
-description: Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem Hasen Möhren in ihr Team holen und Füchse sie daran hindern.
+title: Καρότο Λαγός Αλεπού
+description: Ένα παιχνίδι κυνηγητού με κίνηση για μεγάλες ομάδες, όπου οι λαγοί φέρνουν καρότα στην ομάδα τους και οι αλεπούδες τους εμποδίζουν.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Möhre Hase Fuchs.md
-translation_source_hash: 460c20f1d59f674b64f76620853e0007c48942688dd6ae6e01926c3841bde78d
+translation_source_hash: 9273ecd90e377b8e433334bc0271b1c8df4d6e73f314b740783afaa355014ee0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:07:23+00:00
+translation_source_body_hash: 9273ecd90e377b8e433334bc0271b1c8df4d6e73f314b740783afaa355014ee0
+translation_source_metadata_hash: 8952a763ed9671f6b772e776e72651bbd781a795942a0601bbb8d286076b39b8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:59:30+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι κυνηγητού με πολλή κίνηση για μεγάλες ομάδες, όπου τα κουνέλια φέρνουν καρότα στην ομάδα τους και οι αλεπούδες τις εμποδίζουν.

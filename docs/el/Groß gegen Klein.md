@@ -6,8 +6,8 @@ update: 2025-03-17 02:10:46
 publish: true
 tags:
   - spiele
-title: Groß gegen Klein
-description: Ein körperliches Rangelspiel, bei dem eine große Person versucht, mehrere kleine Personen von der Matte zu lösen.
+title: Μεγάλος εναντίον Μικρού
+description: Ένα σωματικό παιχνίδι πάλης όπου ένα μεγάλο άτομο προσπαθεί να βγάλει πολλούς μικρούς από το στρώμα.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 10
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Groß gegen Klein.md
-translation_source_hash: f6b74faf7f9cb42d23d65dcf65201375f8e88d3af3021691d7ed9f18f70c4dc5
+translation_source_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194c6efe96e7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:21+00:00
+translation_source_body_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194c6efe96e7
+translation_source_metadata_hash: cdad17318a2cbc6379aa9648389298e50146b3a706e5f9329cac5c95b93dfb08
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:49:00+00:00
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα σωματικό παιχνίδι πάλης, στο οποίο ένα μεγάλο άτομο προσπαθεί να απομακρύνει πολλά μικρά άτομα από το στρώμα.

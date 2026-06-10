@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Giochi di inseguimento
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:22+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:11+00:00
 ---
 # Giochi di Inseguimento
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                  | group-min | group-max | Difficoltà       | Materiale             | Durata del gioco |
 | ------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | --------------------- | ---------------- |
-| [5 Draghi e Nani](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | facile           | Foulard               | 5-10             |
+| [Draghi e Nani](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | facile           | Foulard               | 5-10             |
 | [Gioco della bomba](<Bombenspiel.md>)                                                       | 8         | 30        | facile           | nessuno               | 15-20            |
-| [Inseguimento dei colori](<Farbenhasche.md>)                                                     | 9         | 30        | medio            | Foulard               | 15-20            |
-| [Attaccare al muro](<Festnageln.md>)                                                         | 5         | 25        | medio            | nessuno               | 15-20            |
+| [Caccia ai colori](<Farbenhasche.md>)                                                     | 9         | 30        | medio            | Foulard               | 15-20            |
+| [Inchiodare](<Festnageln.md>)                                                         | 5         | 25        | medio            | nessuno               | 15-20            |
 | [Volpe e Lepre](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | medio            | nessuno               | 10 -  15         |
 | [Caccia alla volpe](<Fuchsjagd.md>)                                                           | 5         | 25        | facile           | Foulard               | 10 -  15         |
-| [Cervo d'oro](<Goldener%20Hirsch.md>)                                             | 10        | 99        | facile           | nessuno               | 5 - 15           |
+| [Cervo d'Oro](<Goldener%20Hirsch.md>)                                             | 10        | 99        | facile           | nessuno               | 5 - 15           |
 | [Ho fortuna](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | facile           | nessuno               | 5 - 10           |
-| [Vieni con me, corri via](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | facile           | nessuno               | 5 - 15           |
-| [Inseguimento con palloncino](<Luftballon%20Hasche.md>)                                         | 6         | 25        | medio            | nessuno               | 5 - 15           |
-| [Morra cinese medievale](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | facile           | nessuno               | 5 - 15           |
-| [Carota Lepre Volpe](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | facile           | nessuno               | 10               |
-| [Pinguini e orsi polari](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | facile - medio   | Materassino morbido   | 5 - 15           |
+| [Vieni, scappa](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | facile           | nessuno               | 5 - 15           |
+| [Palloncino Hasche](<Luftballon%20Hasche.md>)                                         | 6         | 25        | medio            | nessuno               | 5 - 15           |
+| [Medioevo Sasso Carta Forbici](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | facile           | nessuno               | 5 - 15           |
+| [Carota Coniglio Volpe](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | facile           | nessuno               | 10               |
+| [Pinguini e Orsi Polari](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | facile - medio   | Materassino morbido   | 5 - 15           |
 | [Pinguini e fenicotteri killer](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | facile           | nessuno               | 5 - 10           |
 | [Popcorn](<Popcorn.md>)                                                               | 5         | 99        | facile           | nessuno               | 5 - 15           |
-| [Foca e orsi polari](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | medio            | nessuno               | 10 -  15         |
-| [Inseguimento dei serpenti](<Schlangen%20Hasche.md>)                                           | 6         | 99        | facile           | nessuno               | 5-10             |
-| [Inseguimento della codina](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | facile           | Foulard               | 10 -  15         |
+| [Foche e Orsi Polari](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | medio            | nessuno               | 10 -  15         |
+| [Serpenti Inseguiti](<Schlangen%20Hasche.md>)                                           | 6         | 99        | facile           | nessuno               | 5-10             |
+| [Coda a coda](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | facile           | Foulard               | 10 -  15         |
 | [Prendi il piatto](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | facile           | Piatto, foulard, diabolo | 5-10             |
-| [Inseguimento temporale](<Zeithasche.md>)                                                         | 6         | 30        | medio            | nessuno               | 15-20            |
-| [Zombie - Inseguimento](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | facile           | nessuno               | 10 -  15         |
-| [Inseguimento zombie con nomi](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | medio            | nessuno               | 15-20            |
+| [Borsa del tempo](<Zeithasche.md>)                                                         | 6         | 30        | medio            | nessuno               | 15-20            |
+| [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | facile           | nessuno               | 10 -  15         |
+| [Zombie Hash con nome](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | medio            | nessuno               | 15-20            |
 
 <!-- dynamic:end -->

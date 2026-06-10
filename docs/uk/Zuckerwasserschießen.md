@@ -6,8 +6,8 @@ update: 2025-03-17 05:45:49
 publish: true
 tags:
   - spiele
-title: Zuckerwasserschießen
-description: Ein Namens-Reaktionsspiel, bei dem imaginäre Zuckerwasserpistolen schnelle Namensduelle auslösen.
+title: Стрілянина цукровою водою
+description: Гра на реакцію з назвами, де уявні пістолети з цукровою водою викликають швидкі дуелі імен.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: "20"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuckerwasserschießen.md
-translation_source_hash: 1a88f49a65ac24a6c56fb0fd34f18d994b057ad62eeac125309325383d8da802
+translation_source_hash: 893c5632375c7107461f3c4a16b4c4cb04ea81f06e3b97906c4040b7dc290bb6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:39:41+00:00
+translation_source_body_hash: 893c5632375c7107461f3c4a16b4c4cb04ea81f06e3b97906c4040b7dc290bb6
+translation_source_metadata_hash: 1b9a79c116deacf3e49eb013a62d9b3717ea37952b9c27f73d4e5ab0cd602037
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:36+00:00
 ---
 > [!info] Короткий опис
 > Гра на реакцію з іменами, де уявні водяні пістолети із цукровою водою провокують швидкі дуелі імен.

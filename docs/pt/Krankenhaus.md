@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:20
-title: Krankenhaus
-description: Ein Fangspiel, bei dem infizierte Personen von anderen gemeinsam ins Krankenhaus getragen und dort gerettet werden.
+title: Hospital
+description: Um jogo de pega-pega onde pessoas infectadas são carregadas juntas por outras para o hospital e salvas lá.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Krankenhaus.md
-translation_source_hash: d4f156354746cac9926003e5586a17cc569179b5998f13d4a7d468cfda9eadff
+translation_source_hash: 2b6ebdab6b948c39b20a049ec54c0d07fba1973eb52a27f51fb29db6b2753fb4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:47+00:00
+translation_source_body_hash: 2b6ebdab6b948c39b20a049ec54c0d07fba1973eb52a27f51fb29db6b2753fb4
+translation_source_metadata_hash: e91ba8cece24f141a92b49d1ac205a3daae6b8f8739afff79acaea1bbf492bbc
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:30+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de apanhar em que as pessoas infetadas são transportadas juntas para o hospital por outras e lá salvas.

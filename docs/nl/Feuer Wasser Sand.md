@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:11
-title: Feuer Wasser Sand
-description: Ein Kommandospiel, bei dem die Gruppe schnell auf angesagte Begriffe reagiert und passende Bewegungen oder Positionen findet.
+title: Vuur Water Zand
+description: Een commando-spel waarbij de groep snel reageert op uitgeroepen termen en passende bewegingen of posities vindt.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Feuer Wasser Sand.md
-translation_source_hash: 33edae0db1b053be2a240f3331b6bf961d2e23be9c3d6d0af06c222eab062aca
+translation_source_hash: b93e2da8f4cc33adcd93d832223f022dc6d2014c763165018687002b8351d103
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:37:47+00:00
+translation_source_body_hash: b93e2da8f4cc33adcd93d832223f022dc6d2014c763165018687002b8351d103
+translation_source_metadata_hash: 1b4d4d66b87fcd710c49c500085f8fadb8af13ac77dba66e334370dacf31b1d1
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:36+00:00
 ---
 > [!info] Korte beschrijving
 > Een commandospel waarbij de groep snel reageert op uitgeroepen termen en passende bewegingen of posities aanneemt.

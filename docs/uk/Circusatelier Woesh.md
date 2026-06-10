@@ -7,7 +7,7 @@ publish: false
 tags:
   - case-study
   - Kontakte
-title: Circusatelier Woesh
+title: Циркова студія Woesh
 description:
 authors:
 land: Belgium
@@ -18,9 +18,14 @@ website: www.woesh.be
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Circusatelier Woesh.md
-translation_source_hash: 49b7f78ac6ceba9ef030ba89340bc0a59c1bae3a8ed365d49ebf481278a8b3e2
+translation_source_hash: 47bdc3cf1817bcfd584ea7ded112f423e697eeb353967900131111d10082c9de
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:20:40+00:00
+translation_source_body_hash: 47bdc3cf1817bcfd584ea7ded112f423e697eeb353967900131111d10082c9de
+translation_source_metadata_hash: a5c0c283610721a293360a6245c15b038fecb93e51a7d344b0a42a88f39c0b49
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:16+00:00
 ---
 # Циркова студія Woesh
 

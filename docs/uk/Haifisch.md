@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:29
-title: Hai und Fisch
-description: Ein Laufspiel, bei dem Fische an Haien vorbeikommen müssen und gefangene Fische zu Algen werden.
+title: Акула та риба
+description: Гра, в якій риби повинні уникати акул, а спіймані риби перетворюються на водорості.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Haifisch.md
-translation_source_hash: 981ae6fa706b03bb8a461038e712eaec1ba3cc108e01eca6eaa2e8b72e460ecf
+translation_source_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac837c82acd0d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:42:29+00:00
+translation_source_body_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac837c82acd0d
+translation_source_metadata_hash: 08ef8a08243b6ba89a59c53d6317010ba4aeac46717791be49ab3b4c4cc4846b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:49:46+00:00
 ---
 > [!info] Короткий опис
 > Рухлива гра, в якій риби мають пропливти повз акул, а спіймані риби перетворюються на водорості.

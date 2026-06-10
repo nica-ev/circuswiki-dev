@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 03:14:51
-title: Luftballon Hasche
+title: Naháňačka s balónom
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Luftballon Hasche.md
-translation_source_hash: 3b41505ded74f92e197d6553a66ce6cc08ee773e44246257950e605798ea7058
+translation_source_hash: 1e4c1d3414580760b80105741ba5fe2ed4ea93e2f86a9e42c88ffa03927997c5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:05:08+00:00
+translation_source_body_hash: 1e4c1d3414580760b80105741ba5fe2ed4ea93e2f86a9e42c88ffa03927997c5
+translation_source_metadata_hash: 139806bc52a1b1ab214a04278e3841ea13d0f8ab19b16896213b931d352ac118
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:56:53+00:00
 ---
 # Naháňačka s balónmi
 

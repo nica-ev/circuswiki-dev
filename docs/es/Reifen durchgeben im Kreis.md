@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:06
-title: Reifen durchgeben im Kreis
-description: Ein Kreisspiel, bei dem ein oder mehrere Reifen durch die verbundene Gruppe wandern, ohne die Hände zu lösen.
+title: Pasar el aro en círculo
+description: Un juego en círculo donde uno o varios aros se mueven a través del grupo conectado sin soltarse de las manos.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Reifen durchgeben im Kreis.md
-translation_source_hash: 87dcfb5c414f172aa8a3dcc8bcd87b66f89bd3f70db711e9783402a87e141473
+translation_source_hash: 0d2dab26702e203d389822519e3b7d0c6ef9c06f796dc3b1a017a0069458248b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:12:33+00:00
+translation_source_body_hash: 0d2dab26702e203d389822519e3b7d0c6ef9c06f796dc3b1a017a0069458248b
+translation_source_metadata_hash: 70789d7d8b84b8e007ac8c70e2e2e24c951e7eb970bd45b17b597e45cc1efa81
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:03:39+00:00
 ---
 > [!info] Breve descripción
 > Un juego en círculo en el que uno o varios aros viajan a través del grupo conectado sin soltarse de las manos.

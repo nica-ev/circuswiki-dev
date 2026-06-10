@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:14
 publish: false
 tags:
   - case-study
-title: Movement & Play in Early Childhood Ed
+title: Pohyb a hra v predškolskom vzdelávaní
 description:
 authors:
   - Marc Bielert
@@ -15,9 +15,14 @@ land: Germany
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 10 - Germany.md
-translation_source_hash: 33e0c90409adbc227592d99087134d67586fff800f0f24581d1ac61ab4673e5d
+translation_source_hash: bb1845c565eb469e2bf150c0ec40b443aad4d17ca4838a48863f0aaa0f4f6db3
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:34:33+00:00
+translation_source_body_hash: bb1845c565eb469e2bf150c0ec40b443aad4d17ca4838a48863f0aaa0f4f6db3
+translation_source_metadata_hash: acc6853844bf9ed182b80901bec306c45b20f848171cd38e159894f687f39b1b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:32+00:00
 ---
 # **Pohyb a hra v predprimárnom vzdelávaní**
 

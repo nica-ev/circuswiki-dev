@@ -6,16 +6,21 @@ update: 2025-02-08 20:52:15
 publish: true
 tags:
   - moc
-title: Dokumentation Nica e.V.
+title: Τεκμηρίωση Nica e.V.
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Dokumentation Nica eV.md
-translation_source_hash: 433fe833d6aa308316828aaf61da95c6c62b6efa6df712cde944927c357bedfc
+translation_source_hash: d454ffd24b6e35848a4a2a1fbae1a610c5e4708ab1a96ad4db3673d9432145d2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:36:21+00:00
+translation_source_body_hash: d454ffd24b6e35848a4a2a1fbae1a610c5e4708ab1a96ad4db3673d9432145d2
+translation_source_metadata_hash: b62798ef87afd91cdd398e0a0b756b0bc7d5f9cb16a2d7be0c15d8c9d9de070c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:10:38+00:00
 ---
 # Τεκμηρίωση NICA e.V.
 

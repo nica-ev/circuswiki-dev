@@ -8,8 +8,8 @@ tags:
   - gry
   - rozgrzewka
   - hula-hoop
-title: Wyścig piłek z hula hoop
-description: Grupowa aktywność z hula hoop, w której zespoły transportują przedmioty przez rząd obręczy.
+title: Hula hoop labdaverseny
+description: Csoportos hula hoop tevékenység, ahol a csapatok tárgyakat szállítanak karikákon keresztül.
 authors:
   - Wiktoria Witenberg
 category:
@@ -25,9 +25,14 @@ source_file: _inbox/Hula hoop - materiały KPC.pdf
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Wyscig pilek z hula hoop.md
-translation_source_hash: 2e814e50ba63770ba019213b88df7e250d2b67cd4c835b779515fbc23af859ab
+translation_source_hash: 660ff8734e3eae9ae71d0dd79b13bd07693f15182032d884729aebc46af1817b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:30:11+00:00
+translation_source_body_hash: 660ff8734e3eae9ae71d0dd79b13bd07693f15182032d884729aebc46af1817b
+translation_source_metadata_hash: 3eab11a5926caf38701a01ba27038b18db36d8c5fe8424c1aff6ad093df26a4d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:12:41+00:00
 ---
 # Labdajáték karikákkal
 

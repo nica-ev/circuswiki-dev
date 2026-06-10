@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:30:39
-title: Gute Seiten
-description: Ein wertschätzendes Kennenlernspiel, bei dem positive Eigenschaften und Fähigkeiten erraten und besprochen werden.
+title: Jó oldalak
+description: Egy értékelő ismerkedési játék, ahol pozitív tulajdonságokat és képességeket találgatnak és megbeszélnek.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gute Seiten.md
-translation_source_hash: 2ceb2e92d5151d98b54944f43f830887b83139d55ddf4d7e54fc14ee82fa916e
+translation_source_hash: ae87b4ad153ae48548cb8c7912ed6f45e84d57de06bf2d499c5607847a95b357
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:38+00:00
+translation_source_body_hash: ae87b4ad153ae48548cb8c7912ed6f45e84d57de06bf2d499c5607847a95b357
+translation_source_metadata_hash: d3ee66b077bbacfeca813c35d999059c2e6315788557cbe3ca7347165c1e956e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:49:24+00:00
 ---
 > [!info] Rövid leírás
 > Egy értékelő ismerkedős játék, amely során pozitív tulajdonságokat és képességeket kell kitalálni és megbeszélni.

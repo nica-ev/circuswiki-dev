@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:20:18
 update: 2026-06-09 02:10:40
 title: Frutti del Mare
-description: Eine ruhige Aufwärmübung, bei der Kinder Meeresfiguren mit einfachen Bodenbewegungen nachspielen.
+description: Спокійна розминка, під час якої діти імітують морських істот за допомогою простих рухів на підлозі.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Frutti del Mare - Aufwärmspiel.md
-translation_source_hash: d9e69ea26bfaa38a1fa4206c56a5efca7b0ac9efbe72ff82f93ef52b3efec337
+translation_source_hash: 8ca04f3758b34ac206438ab8e072bf886600a87906acfe56d454300b8ec50a7f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:39:37+00:00
+translation_source_body_hash: 8ca04f3758b34ac206438ab8e072bf886600a87906acfe56d454300b8ec50a7f
+translation_source_metadata_hash: cb1fd009c70499156a5586a39f66da760cd3c9382035bed62431438887e2cf02
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:47:44+00:00
 ---
 > [!info] Короткий опис
 > Спокійна розминка, під час якої діти відтворюють морських істот за допомогою простих рухів на підлозі.

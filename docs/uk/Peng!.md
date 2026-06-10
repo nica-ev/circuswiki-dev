@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 03:02:18
 title: Peng
-description: Ein Kreisspiel-Stub zu Peng, dessen Spielbeschreibung noch ergänzt werden muss.
+description: Заготовка статті про гру Peng, опис гри потребує доповнення.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Peng!.md
-translation_source_hash: 31760979536ca1feeaa47ae1cca7ee0ef963a4a0ea944cab96c7dbe0758c1c02
+translation_source_hash: d392bcb4d8a7d923c7f289a086269eaa18b6c72592d5373fece00621d8773651
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:10:05+00:00
+translation_source_body_hash: d392bcb4d8a7d923c7f289a086269eaa18b6c72592d5373fece00621d8773651
+translation_source_metadata_hash: b89a0492d46135a58f15a5a369d7e59369a9dd3e19e1470d6cd9764b5adc3e07
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:01:58+00:00
 ---
 > [!info] Короткий опис
 > Заготовка для гри в колі "Peng", опис якої ще потребує доповнення.

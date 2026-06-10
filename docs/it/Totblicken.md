@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:11:31
-title: Totblicken
-description: Ein Blickspiel im engen Kreis, bei dem gegenseitiger Augenkontakt zum Ausscheiden führt.
+title: Sguardo Mortale
+description: Un gioco di sguardi per piccoli gruppi in cui il contatto visivo reciproco porta all'eliminazione.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Totblicken.md
-translation_source_hash: 8d21cbb18c21312f5f87c0d8c4c52293e3cd05f12acfc7ea987e609baa755d2f
+translation_source_hash: 945dd7144f099ad324ba3804efdc71abf2a89f18ed89132791bb52cf8aecad82
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:32:11+00:00
+translation_source_body_hash: 945dd7144f099ad324ba3804efdc71abf2a89f18ed89132791bb52cf8aecad82
+translation_source_metadata_hash: 23bd17346afe3f3782a99163b9a691fe3544943b13b9f1c7024fa768e8bc8568
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:46+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di sguardi in cerchio ristretto, in cui il contatto visivo reciproco porta all'eliminazione.

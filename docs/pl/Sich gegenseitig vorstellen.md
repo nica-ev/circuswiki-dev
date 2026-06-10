@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:55:28
-title: Sich gegenseitig vorstellen
-description: Ein Kennenlernspiel im Kreis, bei dem Personen einander auf Basis von Annahmen vorstellen.
+title: Przedstawianie się nawzajem
+description: Gra integracyjna w kręgu, w której uczestnicy przedstawiają się nawzajem na podstawie założeń.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: Text überarbeiten, ähnlihche Notizen verlinken
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sich gegenseitig vorstellen.md
-translation_source_hash: d0fa686a546856fccbc8d91f481af5854d931934cd9abd246ed7fe787ccbd272
+translation_source_hash: 1c112421025058579b17ffc98ecf3198f491fcd70db142b12552324bcc7f7772
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:24:52+00:00
+translation_source_body_hash: 1c112421025058579b17ffc98ecf3198f491fcd70db142b12552324bcc7f7772
+translation_source_metadata_hash: b5e16ac700994a65e028f618ed6d35818b58b771d0a31d32f0ae2f314cda5b65
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:08+00:00
 ---
 > [!info] Krótki opis
 > Gra integracyjna w kręgu, podczas której uczestnicy przedstawiają się nawzajem na podstawie założeń.

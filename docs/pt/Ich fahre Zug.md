@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:36:43
-title: Ich fahre Zug
-description: Ein Namens- und Platzwechselspiel im Stuhlkreis, bei dem ein freier Platz durch Zurufe und Rutschen weiterwandert.
+title: Eu vou de trem
+description: Um jogo de troca de nomes e lugares em círculo, onde um lugar vago se move com gritos e deslizes.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ Spieldauer: beliebig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ich fahre Zug.md
-translation_source_hash: 4ab91a1ead6a6af1764d72c5298c61c503902060e7f7aa205cbc4578e6103b17
+translation_source_hash: 04f227ef26a0694b93a348f2b6b56f64d0622a8ec27d6d4589e49084c7559fdb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:44:24+00:00
+translation_source_body_hash: 04f227ef26a0694b93a348f2b6b56f64d0622a8ec27d6d4589e49084c7559fdb
+translation_source_metadata_hash: ddddbf47c8fff008fb4b73c407d305942890fe95ed24051209e616cadbd58b29
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:50:46+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de troca de nomes e lugares num círculo de cadeiras, onde um lugar vago se move através de chamadas e deslizes.

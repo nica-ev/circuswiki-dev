@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:53
-title: Figurenfangen
-description: Ein Fangspiel, bei dem Gefangene zu Figuren werden und durch passende Aktionen wieder befreit werden können.
+title: Παιχνίδι Κυνηγητού
+description: Ένα παιχνίδι κυνηγητού όπου οι παίκτες που πιάνονται γίνονται «φιγούρες» και μπορούν να ελευθερωθούν με κατάλληλες ενέργειες.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Figurenfangen.md
-translation_source_hash: 509ba6a704638eab731206c5aec2b0dc828ab0099691354b899dd082b6e167af
+translation_source_hash: 4b3ecdeff45fc4f7425177eeda232bfa9fc4f06a2635eebe47e913f39390530f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:38:21+00:00
+translation_source_body_hash: 4b3ecdeff45fc4f7425177eeda232bfa9fc4f06a2635eebe47e913f39390530f
+translation_source_metadata_hash: 3b0154b444bcec369a9bb29aed00f023e9fb70153beb6f8643ec067e4b3e762e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:48+00:00
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα παιχνίδι κυνηγητού, όπου οι παίκτες που πιάνονται γίνονται αγάλματα και μπορούν να ελευθερωθούν με τις κατάλληλες ενέργειες.

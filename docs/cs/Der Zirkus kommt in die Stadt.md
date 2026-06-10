@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
-title: Der Zirkus kommt in die Stadt
-description: Ein thematisches Mitmachspiel, bei dem Zirkus-Kommandos mit Bewegungen und einer Löwen-Fangphase verbunden werden.
+title: Cirkus přijíždí do města
+description: Tematická interaktivní hra, kde se cirkusová komanda spojují s pohyby a fází chytání lva.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus kommt in die Stadt.md
-translation_source_hash: 797952a6a3e069193ad1befc6a02bee1c8a29f56e55df8146e1e1c0f09be9297
+translation_source_hash: dd3bdcabe0f7d217c7264ceaf0edb5b3cc732e10321472e49257dc2e982183b1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:32:12+00:00
+translation_source_body_hash: dd3bdcabe0f7d217c7264ceaf0edb5b3cc732e10321472e49257dc2e982183b1
+translation_source_metadata_hash: fd458f03b98f8ceb7e95f61955f0b3dee3b472162012acb29ef95867b5a21aed
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:08:39+00:00
 ---
 > [!info] Stručný popis
 > Tematická interaktivní hra, která spojuje cirkusová hesla s pohybem a fází chytání lvů.

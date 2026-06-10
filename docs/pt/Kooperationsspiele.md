@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Jogos Cooperativos
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:21+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:20+00:00
 ---
 # Jogos Cooperativos
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                   | group-min | group-max | Dificuldade      | Material                                      | Duração do Jogo |
 | ------------------------------------------------------------------------------------------------------ | --------- | --------- | ---------------- | --------------------------------------------- | --------------- |
-| [Todos_contra_um](<Alle_gegen_einen.md>)                                                              | 8         | 30        | média            | Pneus                                         | 10-15           |
+| [Todos contra um](<Alle_gegen_einen.md>)                                                              | 8         | 30        | média            | Pneus                                         | 10-15           |
 | [O delicado transporte de água](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | difícil          | Panela, corda, água, segundo recipiente           | 5-20            |
-| [A barreira](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | média            | Corda                                         | 5-10            |
-| [A quadratura do círculo](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | média            | Corda, vendas opcionais                       | 5-60            |
-| [Rainha da Neve - Gigante e Anões](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | fácil            | Pequeno objeto                                | 5-10            |
-| [Tapete voador](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | fácil            | Lona                                          | 3-10            |
-| [Nove pessoas – 8 pernas – 4 mãos](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | fácil            | Nenhum                                        | 10              |
-| [Estação espacial](<Raumstation.md>)                                                                        | 6         | 25        | média            | Área demarcada, objetos                       | 10-15           |
-| [Travessia do lago](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | média            | Papel, tapete de solo macio, objetos opcionais | 15-20           |
-| [Ordenar em grupo](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | média            | Cadeiras ou bancos                            | 5-15            |
-| [Teia de aranha](<Spinnennetz.md>)                                                                        | 6         | 14        | fácil - difícil  | Cordas                                        | 5 - 15          |
+| [A Barreira](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | média            | Corda                                         | 5-10            |
+| [A Quadratura do Círculo](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | média            | Corda, vendas opcionais                       | 5-60            |
+| [Rainha do Gelo - Gigante e Anões](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | fácil            | Pequeno objeto                                | 5-10            |
+| [Tapete Voadora](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | fácil            | Lona                                          | 3-10            |
+| [Nove Pessoas – 8 Pernas - 4 Mãos](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | fácil            | Nenhum                                        | 10              |
+| [Estação Espacial](<Raumstation.md>)                                                                        | 6         | 25        | média            | Área demarcada, objetos                       | 10-15           |
+| [Travessia do Lago](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | média            | Papel, tapete de solo macio, objetos opcionais | 15-20           |
+| [Ordenar em Grupo](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | média            | Cadeiras ou bancos                            | 5-15            |
+| [Teia de Aranha](<Spinnennetz.md>)                                                                        | 6         | 14        | fácil - difícil  | Cordas                                        | 5 - 15          |
 
 <!-- dynamic:end -->

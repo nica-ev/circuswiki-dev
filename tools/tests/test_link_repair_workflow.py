@@ -152,6 +152,132 @@ class LinkRepairWorkflowTests(unittest.TestCase):
 
         self.run_with_vault(scenario)
 
+    def test_dynamic_link_labels_use_target_language_titles(self) -> None:
+        def scenario(_root: Path, docs: Path) -> None:
+            source = docs / "de" / "Liste.md"
+            target = docs / "en" / "Liste.md"
+            linked = docs / "en" / "Spiel.md"
+            source.parent.mkdir()
+            target.parent.mkdir()
+            source.write_text(
+                note(
+                    """
+                    lang: de
+                    translation_id: liste
+                    translation_status: original
+                    tags:
+                      - dynamic
+                    """,
+                    dynamic_body("[Spiel](Spiel.md)"),
+                ),
+                encoding="utf-8",
+            )
+            target.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: liste
+                    translation_status: machine-translated
+                    translation_source: docs/de/Liste.md
+                    tags:
+                      - dynamic
+                    """,
+                    dynamic_body("[Spiel](Spiel.md)"),
+                ),
+                encoding="utf-8",
+            )
+            linked.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: spiel
+                    translation_status: machine-translated
+                    title: Translated Game
+                    """,
+                    "Body\n",
+                ),
+                encoding="utf-8",
+            )
+
+            scan = workflow.scan_link_repairs("en")
+            result = workflow.repair_link_files(["docs/en/Liste.md"])
+            text = target.read_text(encoding="utf-8")
+
+            self.assertEqual(scan["safe_count"], 1)
+            self.assertEqual(scan["label_repair_count"], 1)
+            self.assertEqual(scan["items"][0]["label_repair_count"], 1)
+            self.assertEqual(result["repaired_count"], 1)
+            self.assertIn("[Translated Game](Spiel.md)", text)
+
+        self.run_with_vault(scenario)
+
+    def test_dynamic_link_label_repair_requires_dynamic_tag(self) -> None:
+        def scenario(_root: Path, docs: Path) -> None:
+            source = docs / "de" / "Liste.md"
+            target = docs / "en" / "Liste.md"
+            linked = docs / "en" / "Spiel.md"
+            source.parent.mkdir()
+            target.parent.mkdir()
+            source.write_text(
+                note(
+                    """
+                    lang: de
+                    translation_id: liste
+                    translation_status: original
+                    """,
+                    dynamic_body("[Spiel](Spiel.md)"),
+                ),
+                encoding="utf-8",
+            )
+            target.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: liste
+                    translation_status: machine-translated
+                    translation_source: docs/de/Liste.md
+                    """,
+                    dynamic_body("[Spiel](Spiel.md)"),
+                ),
+                encoding="utf-8",
+            )
+            linked.write_text(
+                note(
+                    """
+                    lang: en
+                    translation_id: spiel
+                    translation_status: machine-translated
+                    title: Translated Game
+                    """,
+                    "Body\n",
+                ),
+                encoding="utf-8",
+            )
+
+            scan = workflow.scan_link_repairs("en")
+
+            self.assertEqual(scan["total"], 0)
+
+        self.run_with_vault(scenario)
+
+
+def dynamic_body(link: str) -> str:
+    return textwrap.dedent(
+        f"""
+        <!-- dynamic:start
+        engine: obsidian-base
+        base: _bases/Test.base
+        view: Test
+        -->
+        <!-- dynamic:content -->
+        | file |
+        | --- |
+        | {link} |
+
+        <!-- dynamic:end -->
+        """
+    ).lstrip()
+
 
 if __name__ == "__main__":
     unittest.main()

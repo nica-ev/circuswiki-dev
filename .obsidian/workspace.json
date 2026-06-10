@@ -4,77 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "6e26185ec138e88b",
+        "id": "f8e6791e4cf56876",
         "type": "tabs",
         "children": [
           {
-            "id": "a1d490d6d429efd3",
+            "id": "1690334cf67e6534",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_system/translation-architecture.md",
+                "file": "docs/it/Liste aller Spiele.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "translation-architecture"
+              "title": "Liste aller Spiele"
             }
           },
           {
-            "id": "d84832f40d44eef8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "docs/img/belgium-1.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "belgium-1"
-            }
-          },
-          {
-            "id": "c21c7c7654ab681c",
+            "id": "4a70b5c305b3a6e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/de/release notes.md",
+                "file": "docs/cs/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "release notes"
+              "title": "index"
             }
           },
           {
-            "id": "abf8d6de3d482d99",
+            "id": "4ee0bb048481f88f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+                "file": "docs/de/Liste aller Spiele.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Grundlagen Wurfjonglage - Kaskade"
-            }
-          },
-          {
-            "id": "8b4d04c2122c24bf",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "_bases/Spiele-Base.base",
-                "viewName": "Aufwärmspiele MOC"
-              },
-              "icon": "lucide-table",
-              "title": "Spiele-Base"
+              "title": "Liste aller Spiele"
             }
           }
         ],
@@ -156,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 605.504997253418
+    "width": 605.504997253418,
+    "collapsed": true
   },
   "right": {
     "id": "6695d9278e344b32",
@@ -172,10 +148,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/de/release notes.md"
+                "file": "docs/de/Liste aller Spiele.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von release notes"
+              "title": "Dateieigenschaften von Liste aller Spiele"
             }
           },
           {
@@ -259,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 551.5,
-    "collapsed": true
+    "width": 551.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,36 +252,44 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "c21c7c7654ab681c",
+  "active": "4ee0bb048481f88f",
   "lastOpenFiles": [
-    "site/cs/Ägyptisches Wurfspiel",
-    "site/cs/Zuzwinkern",
-    "site/cs/Zungenmörder",
-    "site/cs/Zuckerwasserschießen",
-    "site/cs/Zonglowanie w parach z hula hoop",
-    "site/cs/Zonglowanie w 5 krokach",
-    "site/cs/Zombieball",
-    "site/cs/Zombie Hasche mit Namen",
-    "site/cs/Zombie - Hasche",
-    "site/cs/Zombie",
-    "site/cs/Zirkusfangen",
-    "site/uk/assets/images/favicon.png",
-    "site/sk/assets/images/favicon.png",
-    "site/pt/assets/images/favicon.png",
-    "site/pl/assets/images/favicon.png",
-    "site/nl/assets/images/favicon.png",
-    "site/it/assets/images/favicon.png",
-    "site/hu/assets/images/favicon.png",
-    "site/en/assets/images/favicon.png",
-    "site/el/assets/images/favicon.png",
-    "site/cs/assets/images/favicon.png",
+    "docs/es/Liste aller Spiele.md",
+    "docs/de/Liste aller Spiele.md",
     "docs/de/index.md",
-    "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/cs/index.md",
+    "docs/it/Liste aller Spiele.md",
+    "tools/translation/__pycache__/dynamic_link_labels.cpython-313.pyc",
+    "tools/translation/dynamic_link_labels.py",
+    "docs/it/Aufmerksamkeits-Spiel mit Bällen.md",
+    "docs/it/1-2-3.md",
+    "docs/nl/Alle_gegen_einen.md",
+    "site/el/search.json",
+    "site/el/objects.inv",
+    "site/el/index.html",
+    "site/el/404.html",
+    "site/el/Ägyptisches Wurfspiel/index.html",
+    "site/el/Ägyptisches Wurfspiel",
+    "site/el/Zuzwinkern/index.html",
+    "site/el/Zuzwinkern",
+    "README.md",
+    "site/el/assets/images/favicon.png",
+    "site/el/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/el/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/el/img/poland-03.jpg",
+    "site/el/img/poland-02.jpg",
+    "site/el/img/poland-01.jpg",
+    "site/el/img/nica-logo-simple-small-150x150.png",
+    "site/el/img/nica-background.jpg",
+    "site/el/img/monokyklo_feelingsafe_autism.jpg",
+    "site/el/img/monokyklo_colours_and_patterns.jpg",
+    "_system/translation-architecture.md",
     "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/de/release notes.md",
+    "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
     "docs/de/blog/posts/Games - The Data Side.md",
     "docs/de/blog/index.md",
     "docs/de/Aufwärmspiele MOC.md",
-    "_system/translation-architecture.md",
     "_system/liste spiele dateien.md",
     "_dataview/dataview serializer.md",
     "__project/tasks.md",
@@ -317,14 +300,6 @@
     "docs/pt/Verheiratet-Geschieden.md",
     "docs/uk/Verheiratet-Geschieden.md",
     "docs/es/Verheiratet-Geschieden.md",
-    "docs/el/Verheiratet-Geschieden.md",
-    "docs/nl/Verheiratet-Geschieden.md",
-    "docs/it/Verheiratet-Geschieden.md",
-    "docs/hu/Verheiratet-Geschieden.md",
-    "docs/pl/Verheiratet-Geschieden.md",
-    "docs/en/Verheiratet-Geschieden.md",
-    "docs/sk/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
-    "docs/cs/Peng-Peng-Knall-Wir-fliegen-in-das-All.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

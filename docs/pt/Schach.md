@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 03:02:29
-title: Schach
-description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen wie Spielfiguren springen, schlagen und die Grundlinie erreichen.
+title: Xadrez
+description: Um jogo de tática silenciosa em duas equipes, onde pessoas saltam, atacam e alcançam a linha de base como peças de jogo.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schach.md
-translation_source_hash: 273d006d73852a3fbe07e657d5d5819a2f5e471e652c6f532fcfb3119661e702
+translation_source_hash: 8e7b2ee7ada6ba904fa34bd828b5e39fd1f264d7a1c76f87e56e8b986148b2a1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:13:57+00:00
+translation_source_body_hash: 8e7b2ee7ada6ba904fa34bd828b5e39fd1f264d7a1c76f87e56e8b986148b2a1
+translation_source_metadata_hash: ad1e267fbc41c1758383d61d6b740e36327c4eaaae6b0c4ffda15d96599ac77e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:04:41+00:00
 ---
 > [!info] Descrição Curta
 > Um jogo tático silencioso em duas equipas, onde as pessoas saltam, batem e alcançam a linha de fundo como peças de jogo.

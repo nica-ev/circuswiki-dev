@@ -14,9 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: 4978c8e6e6432eac26cf97bb3395dc968b9355afa14e29d1657d34f25a832bc9
+translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:29:23+00:00
+translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:59+00:00
 ---
 Introduction to the Game "Tag Match Tournament"
 This game is perfect for a group of participants with a wide range of experience levels. By pairing up with experienced players, beginners are less likely to be defeated. Especially since you'll be fighting together, you'll be much happier when you win!

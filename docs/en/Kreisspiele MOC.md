@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Circle Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:55+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:33+00:00
 ---
 # Circle Games MOC
 
@@ -35,9 +40,9 @@ columns: file, group-min, group-max, Difficulty, Material, Playtime
 
 | file                                                                                                  | group-min | group-max | Difficulty       | Material           | Playtime |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ------------------ | -------- |
-| [Ball Toss in the Star](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | easy             | Balls              | 5-10     |
+| [Throwing a Ball in a Star Pattern](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | easy             | Balls              | 5-10     |
 | [Protect Your Friend](<Besch%C3%BCtze%20deinen%20Freund.md>)                                      | 8         | 30        | easy             | none               | 4-9      |
-| [Circus Audition](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | easy             | none               | 5-10     |
+| [Circus Application](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | easy             | none               | 5-10     |
 | [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6         | 25        | medium           | none               | 10-15    |
 | [Bomb](<Bombe.md>)                                                                                   | 7         | 30        | easy             | Ball               | 3-6      |
 | [Crossed Hands](<Crossed%20Hands.md>)                                                                 | 5         | 20        | easy             | none               | 5-10     |
@@ -45,24 +50,24 @@ columns: file, group-min, group-max, Difficulty, Material, Playtime
 | [Shedding the Snake](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | easy             | none               | 5-10     |
 | [Over and Under](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | easy             | Objects            | 5-10     |
 | [Energy Clap Circle](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | easy             | none               | 2-5      |
-| [Hello, I Am](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | easy             | none               | 2-10     |
+| [Hello, I am](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | easy             | none               | 2-10     |
 | [Hello, I Am - With Balls](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | easy             | Balls              | 10 -  15 |
-| [Getting to Know You with Balls](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | easy             | Balls              | 2-10     |
-| [Getting to Know You with Chasing Balls](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | easy - medium | Balls              | 10 -  15 |
-| [Clap with Eye Contact](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | easy             | none               | 5-10     |
+| [Getting to Know Each Other with Balls](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | easy             | Balls              | 2-10     |
+| [Getting to know each other with balls, chasing](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | easy - medium | Balls              | 10 -  15 |
+| [Clapping with Eye Contact](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | easy             | none               | 5-10     |
 | [Massage Game - Farmer and Potato Field](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)         | 4         | 20        | easy             | none               | 5-10     |
 | [Medusa](<Medusa.md>)                                                                                 | 5         | 25        | easy             | none               | 5-10     |
 | [Needle's Eye](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | easy             | none               | 5-10     |
-| [Bang-Bang-Boom-We're-Flying-to-Space](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | easy             | none               | 5-10     |
-| [Bang!](<Peng%21.md>)                                                                                 | 5         | 25        | easy             | none               | 5-10     |
-| [Musical Chairs by Eye Contact](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | easy             | none               | 5-10     |
+| [Bang, Bang, Boom - We Fly to Space](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | easy             | none               | 5-10     |
+| [Peng](<Peng%21.md>)                                                                                 | 5         | 25        | easy             | none               | 5-10     |
+| [Seat Swap Through Eye Contact](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | easy             | none               | 5-10     |
 | [Introducing Each Other](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | medium           | none               | 10 -  15 |
 | [Sorting in the Group](<Sortieren%20in%20der%20Gruppe.md>)                                         | 5         | 25        | medium           | Chairs or Stools | 5-15     |
-| [Bullfight - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | easy             | Rope               | 5-10     |
-| [Married-Divorced](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | easy             | none               | 5-10     |
-| [Introduction Round - Life Story - Symbolic](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medium           | various            | 30-45    |
+| [Bullfighting - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | easy             | Rope               | 5-10     |
+| [Married, Divorced](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | easy             | none               | 5-10     |
+| [Introduction Round - Career Path - Symbolic](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medium           | various            | 30-45    |
 | [Zah](<Zah.md>)                                                                                       | 6         | 30        | easy             | none               | 5        |
-| [Tongue Twister Killer](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | medium           | none               | 5 - 10     |
+| [Tongue Murderer](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | medium           | none               | 5 - 10     |
 | [Winking](<Zuzwinkern.md>)                                                                         | 9         | 99        | medium           | none               | 7        |
 
 <!-- dynamic:end -->

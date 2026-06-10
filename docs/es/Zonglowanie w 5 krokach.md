@@ -8,8 +8,8 @@ tags:
   - functional-juggling
   - zonglerka
   - metodyka
-title: Żonglowanie w 5 krokach
-description: Polski materiał warsztatowy opisujący nielinearny model nauki kaskady na trzy piłki według 5-Step Juggling Craiga Quata.
+title: Malabarismo en 5 pasos
+description: Material de taller polaco que describe el modelo de aprendizaje no lineal de cascada de tres bolas según los 5 pasos de malabarismo de Craig Quat.
 authors:
   - Wiktoria Witenberg
 source: KPC
@@ -17,9 +17,14 @@ source_file: _inbox/KPC - żonglerka 5 kroków.pdf
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Zonglowanie w 5 krokach.md
-translation_source_hash: 931d57e6a18d3cacc6039143402341ee4ee3794e2208048c2f91955feff40287
+translation_source_hash: 9745e883ea4d1e5ff8fb8e9e3851133216719fd21675f46d529868b486963e8d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:32:48+00:00
+translation_source_body_hash: 9745e883ea4d1e5ff8fb8e9e3851133216719fd21675f46d529868b486963e8d
+translation_source_metadata_hash: 236a09064874bbaddbef50263e116b0876365312a7a2ed16f04bfe21d724b96f
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:17+00:00
 ---
 # Taller: Malabares en 5 pasos
 

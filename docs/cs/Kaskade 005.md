@@ -6,17 +6,22 @@ update: 2025-02-09 20:53:21
 publish: draft
 tags:
   - kaskade
-title: Kaskade 005 - 1985
-description: Transkript des Magazines "Kaskade 005" von 1985
+title: Kaskáda 005 - 1985
+description: "Přepis časopisu \"Kaskáda 005\" z roku 1985"
 authors:
   - Marc Bielert
 type: Magazin
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade 005.md
-translation_source_hash: 96ddac6e2607c016d4cb6ca3f5329a61429ea3a6d7638b1e41257e7461b81c2f
+translation_source_hash: b6af3934388fa433d6d3c6470319d74471f23a3c34887e28cc36dd5559c8c01e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:57:38+00:00
+translation_source_body_hash: b6af3934388fa433d6d3c6470319d74471f23a3c34887e28cc36dd5559c8c01e
+translation_source_metadata_hash: 1d75cfe8922a7922b966d37322e5da529a141b69982a15e63cccae5818af719c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:52:52+00:00
 ---
 ## LOUVAIN LA NEUVE
 ### Infračervené proti ultrafialovému

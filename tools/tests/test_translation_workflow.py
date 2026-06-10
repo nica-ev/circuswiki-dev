@@ -11,10 +11,14 @@ from translation.markdown import join_markdown, split_markdown  # noqa: E402
 from translation.metadata import ensure_scalars, read_scalar  # noqa: E402
 from translation.workflow import (  # noqa: E402
     VaultPage,
+    apply_translated_metadata,
     batch_translation_plan,
     find_group_source_language,
+    merge_source_metadata,
     restore_markdown_link_targets,
     restore_wikilink_targets,
+    source_body_hash,
+    source_metadata_hash,
 )
 
 
@@ -63,6 +67,31 @@ class TranslationWorkflowTests(unittest.TestCase):
         result = split_markdown(output)
         self.assertEqual(read_scalar(result.frontmatter, "custom_field"), "keep me")
         self.assertEqual(read_scalar(result.frontmatter, "lang"), "en")
+
+    def test_body_hash_ignores_metadata_changes(self) -> None:
+        self.assertEqual(source_body_hash("Body\n"), source_body_hash("Body\n"))
+        self.assertNotEqual(source_body_hash("Body\n"), source_body_hash("Changed\n"))
+
+    def test_metadata_hash_tracks_title_and_description(self) -> None:
+        first = "title: Test\ndescription: One\ncustom: ignored\n"
+        second = "title: Test\ndescription: Two\ncustom: ignored\n"
+        third = "title: Test\ndescription: One\ncustom: changed\n"
+        self.assertNotEqual(source_metadata_hash(first), source_metadata_hash(second))
+        self.assertEqual(source_metadata_hash(first), source_metadata_hash(third))
+
+    def test_metadata_merge_preserves_target_translated_fields(self) -> None:
+        source = "title: Quelle\ndescription: Deutsch\ntags:\n  - spiel\nauthors:\n  - Marc\n"
+        target = "title: Existing English\ndescription: Existing description\nlocal_note: keep\n"
+        merged = merge_source_metadata(target, source)
+        translated = apply_translated_metadata(
+            merged,
+            {"title": "Source", "description": "English description"},
+        )
+        self.assertEqual(read_scalar(translated, "title"), "Source")
+        self.assertEqual(read_scalar(translated, "description"), "English description")
+        self.assertEqual(read_scalar(translated, "local_note"), "keep")
+        self.assertIn("tags:\n  - spiel", translated)
+        self.assertIn("authors:\n  - Marc", translated)
 
     def test_markdown_link_targets_are_restored_without_touching_external_links(self) -> None:
         source = "See [Spiel](spiele/original.md#regeln) and [Site](https://example.org).\n"

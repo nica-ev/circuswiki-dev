@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Ігри в квача
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:39+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:14+00:00
 ---
 # Ігри в квача
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | файл                                                                                  | мін. група | макс. група | складність    | матеріал              | тривалість гри |
 | ------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | --------------------- | ---------- |
-| [5 Драконів та гномів](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | легко          | хустки                | 5-10       |
+| [Дракони та гноми](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | легко          | хустки                | 5-10       |
 | [Гра з бомбою](<Bombenspiel.md>)                                                       | 8         | 30        | легко          | немає                | 15-20      |
-| [Кольоровий квач](<Farbenhasche.md>)                                                     | 9         | 30        | середньо           | хустки                | 15-20      |
+| [Кольорова гра](<Farbenhasche.md>)                                                     | 9         | 30        | середньо           | хустки                | 15-20      |
 | [Прибити](<Festnageln.md>)                                                         | 5         | 25        | середньо           | немає                | 15-20      |
-| [Лис і заєць](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | середньо           | немає                | 10 -  15   |
-| [Полювання на лиса](<Fuchsjagd.md>)                                                           | 5         | 25        | легко          | хустки                | 10 -  15   |
+| [Лис і Заєць](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | середньо           | немає                | 10 -  15   |
+| [Полювання на лисиць](<Fuchsjagd.md>)                                                           | 5         | 25        | легко          | хустки                | 10 -  15   |
 | [Золотий олень](<Goldener%20Hirsch.md>)                                             | 10        | 99        | легко          | немає                | 5 - 15     |
 | [Мені щастить](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | легко          | немає                | 5 - 10     |
-| [Йди-но сюди, біжи-но геть](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | легко          | немає                | 5 - 15     |
-| [Квач з повітряною кулькою](<Luftballon%20Hasche.md>)                                         | 6         | 25        | середньо           | немає                | 5 - 15     |
-| [Середньовічний "Камінь-ножиці-папір"](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | легко          | немає                | 5 - 15     |
-| [Морква, заєць, лис](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | легко          | немає                | 10         |
+| [Йди зі мною, тікай](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | легко          | немає                | 5 - 15     |
+| [Повітряна куля Хаше](<Luftballon%20Hasche.md>)                                         | 6         | 25        | середньо           | немає                | 5 - 15     |
+| [Середньовічний Камінь-Ножиці-Папір](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | легко          | немає                | 5 - 15     |
+| [Морква Заєць Лисиця](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | легко          | немає                | 10         |
 | [Пінгвіни та білі ведмеді](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | легко - середньо | килимок для м'яких підлог       | 5 - 15     |
 | [Пінгвіни та фламінго-вбивці](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | легко          | немає                | 5 - 10     |
 | [Попкорн](<Popcorn.md>)                                                               | 5         | 99        | легко          | немає                | 5 - 15     |
-| [Тюлень та білі ведмеді](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | середньо           | немає                | 10 -  15   |
-| [Зміїний квач](<Schlangen%20Hasche.md>)                                           | 6         | 99        | легко          | немає                | 5-10       |
-| [Квач з хвостиком](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | легко          | хустки                | 10 -  15   |
+| [Тюлені та білі ведмеді](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | середньо           | немає                | 10 -  15   |
+| [Зміїна ловитва](<Schlangen%20Hasche.md>)                                           | 6         | 99        | легко          | немає                | 5-10       |
+| [Хвостики-лови](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | легко          | хустки                | 10 -  15   |
 | [Ловець тарілок](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | легко          | тарілка, хустка, діаболо | 5-10       |
-| [Часовий квач](<Zeithasche.md>)                                                         | 6         | 30        | середньо           | немає                | 15-20      |
-| [Зомбі-квач](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | легко          | немає                | 10 -  15   |
-| [Зомбі-квач з іменами](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | середньо           | немає                | 15-20      |
+| [Часова сумка](<Zeithasche.md>)                                                         | 6         | 30        | середньо           | немає                | 15-20      |
+| [Зомбі - Хаше](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | легко          | немає                | 10 -  15   |
+| [Зомбі-хеш з іменем](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | середньо           | немає                | 15-20      |
 
 <!-- dynamic:end -->

@@ -6,17 +6,22 @@ update: 2025-08-29 19:48:21
 publish: draft
 tags:
   - kaskade
-title: Kaskade 001 - 1984
-description: Transkript der Artikel der Kaskade 001 von 1984
+title: Kaskáda 001 - 1984
+description: Přepis článků z Kaskády 001 z roku 1984
 authors:
   - Marc Bielert
 type: Magazin
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade 001.md
-translation_source_hash: 361b3489d6528c91b0f57b32683a0c733d627434dd9990dbc13c7b5297973a66
+translation_source_hash: 0c65f4a229dd321c0a36cc325e3669eab1983cb64d11268b9e598a5ee0e3ff73
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:49:10+00:00
+translation_source_body_hash: 0c65f4a229dd321c0a36cc325e3669eab1983cb64d11268b9e598a5ee0e3ff73
+translation_source_metadata_hash: e5858370514bfba2de1affaedd067b550a13d5800d58c025ac905f524c085c48
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:52:17+00:00
 ---
 ## Nový časopis pro Evropu
 [Nový časopis pro Evropu](Eine%20neue%20Zeitschrift%20für%20Europa.md)

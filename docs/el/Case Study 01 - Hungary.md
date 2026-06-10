@@ -6,7 +6,7 @@ update: 2026-06-06 21:47:56
 publish: false
 tags:
   - case-study
-title: Supporting Wrist Fracture Rehabilitation
+title: Υποστήριξη Αποκατάστασης Κατάγματος Καρπού
 description:
 authors:
   - Gallyas Veronika
@@ -15,9 +15,14 @@ land: Hungary
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 01 - Hungary.md
-translation_source_hash: b7ae1b2bbc2fae2706eaa1c4e1d125d92eab0550863e2daeca026dd41cfe9274
+translation_source_hash: 07e25f019eae12d3c8d7cb53d9ede4bc643f2babb277a567a3ce4ec505668a12
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:33:15+00:00
+translation_source_body_hash: 07e25f019eae12d3c8d7cb53d9ede4bc643f2babb277a567a3ce4ec505668a12
+translation_source_metadata_hash: 7bbb8c1b1c242efa80628663e150ec862c1b5f6cf627cca2f403596287ae0f9d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:16+00:00
 ---
 # **Υποστήριξη Αποκατάστασης Κατάγματος Καρπού με Λειτουργικά Εργαλεία Ζογκλερικής**
 

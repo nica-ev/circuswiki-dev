@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:43:00
-title: Spiele zum Kennenlernen / Vorstellen
+title: Παιχνίδια γνωριμίας / παρουσίασης
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 889ccbb3992353ba3a414ee00c88fcf38db692dbeac2ed61f6b3c2ba6d49a74a
+translation_source_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:27:54+00:00
+translation_source_body_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
+translation_source_metadata_hash: 7b9b10b9f39a10e7ceda15394b2acd63ae993b594e7a5d7f6712fb93e1819ed7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:11+00:00
 ---
 # Παιχνίδια γνωριμίας / παρουσίασης
 
@@ -35,22 +40,22 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                  | group-min | group-max | Δυσκολία         | Υλικό       | Διάρκεια παιχνιδιού |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------------- | ---------- |
-| [Μπαλο-χαμός](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | εύκολο - δύσκολο | Μπάλες          | 10         |
-| [Καλές πλευρές](<Gute%20Seiten.md>)                                                                     | 6         | 30        | εύκολο          | Χαρτιά, στυλό | 10 -  30   |
-| [Γεια σου, είμαι](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | εύκολο          | κανένα         | 2-10       |
-| [Γεια σου, είμαι - με μπάλες](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | εύκολο          | Μπάλες          | 10 -  15   |
+| [Σύγχυση με μπάλες](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | εύκολο - δύσκολο | Μπάλες          | 10         |
+| [Καλές Πλευρές](<Gute%20Seiten.md>)                                                                     | 6         | 30        | εύκολο          | Χαρτιά, στυλό | 10 -  30   |
+| [Γεια, είμαι](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | εύκολο          | κανένα         | 2-10       |
+| [Γεια, είμαι - με μπάλες](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | εύκολο          | Μπάλες          | 10 -  15   |
 | [Ταξιδεύω με τρένο](<Ich%20fahre%20Zug.md>)                                                               | 10        | 30        | μέτριο           | Καρέκλες         | οποιαδήποτε   |
 | [Γνωριμία με μπάλες](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | εύκολο          | Μπάλες          | 2-10       |
-| [Γνωριμία με μπάλες - τρέξιμο](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | εύκολο - μέτριο | Μπάλες          | 10 -  15   |
-| [Μάχη ονομάτων](<Namenkampf.md>)                                                                         | 10        | 30        | εύκολο          | Μεγάλο πανί    | 10 -  15   |
+| [Γνωριμία με μπάλες, τρέξιμο](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | εύκολο - μέτριο | Μπάλες          | 10 -  15   |
+| [Ναμπενκάμπφ](<Namenkampf.md>)                                                                         | 10        | 30        | εύκολο          | Μεγάλο πανί    | 10 -  15   |
 | [Κανείς δεν θέλει να είναι μόνος](<Niemand%20ist%20gern%20allein.md>)                                         | 8         | 99        | εύκολο          | κανένα         | οποιαδήποτε   |
-| [Φιλιά και χαστούκια](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | μέτριο           | κανένα         | 10 -  15   |
+| [Φάπες και Φιλιά](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | μέτριο           | κανένα         | 10 -  15   |
 | [Ρόμπερτ η τρέχουσα φώκια](<Robert%20die%20rennende%20Robbe.md>)                                     | 4         | 12        | εύκολο          | κανένα         | 3 - 10     |
-| [Αμοιβαία παρουσίαση](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | μέτριο           | κανένα         | 10 -  15   |
-| [Παιδί προς αναζήτηση](<Suchkind.md>)                                                                             | 5         | 20        | μέτριο           | κανένα         | 20 -  30   |
+| [Αμοιβαία γνωριμία](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | μέτριο           | κανένα         | 10 -  15   |
+| [Παιχνίδι Αναζήτησης](<Suchkind.md>)                                                                             | 5         | 20        | μέτριο           | κανένα         | 20 -  30   |
 | [Κουτσομπολιό παρουσίας](<Tratschen%20in%20Anwesenheit.md>)                                         | 3         | 6         | εύκολο          | κανένα         | 10-15      |
-| [Γύρος παρουσίασης - Πορεία - Συμβολικά](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | μέτριο           | διάφορα        | 30-45      |
+| [Παρουσίαση - Ιστορικό - Συμβολικό](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | μέτριο           | διάφορα        | 30-45      |
 | [Ζόμπι](<Zombie.md>)                                                                                 | 6         | 18        | μέτριο           | κανένα         | 5-10       |
-| [Σουτ με ζαχαρόνερο](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | λίγο πιο δύσκολο   | κανένα         | 7          |
+| [Παιχνίδι με Σουγιάδες Ζάχαρης](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | λίγο πιο δύσκολο   | κανένα         | 7          |
 
 <!-- dynamic:end -->

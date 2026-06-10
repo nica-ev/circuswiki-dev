@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:14
 publish: false
 tags:
   - case-study
-title: Juggleboard in Kindergarten
+title: Juggleboard all'asilo
 description:
 authors:
   - Zsuzsa Székely
@@ -17,9 +17,14 @@ organisation:
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 02 - Hungary.md
-translation_source_hash: 752e31b06de9f7996ecc9a45055576a185e16c5778af42f6de8708caea2f6748
+translation_source_hash: f9257c5b5ab8683db46ddf6f2e8dc6050b6a9f263999263c6eecec0257c8f8e1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:58:41+00:00
+translation_source_body_hash: f9257c5b5ab8683db46ddf6f2e8dc6050b6a9f263999263c6eecec0257c8f8e1
+translation_source_metadata_hash: 6e42c7aaaaddfdb5588f97054a77cae1675badb7d77ded1ef6beabf40ffc4e8d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:24+00:00
 ---
 # **La tavola da giocoleria all'asilo**
 

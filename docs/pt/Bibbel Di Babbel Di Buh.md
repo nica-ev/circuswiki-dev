@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:28
 title: Bibbel Di Babbel Di Buh
-description: Ein Reaktionsspiel im Kreis, bei dem Kommandos schnell mit Worten, Bewegungen und kleinen Figuren beantwortet werden.
+description: Um jogo de reação em círculo onde comandos são respondidos rapidamente com palavras, movimentos e pequenas figuras.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bibbel Di Babbel Di Buh.md
-translation_source_hash: 6c397f22039416473e532257c66f97dff1abe9c28c8b5499f53a3ec513cdd00e
+translation_source_hash: 81eb2e7f78d60947724df79bcc9c60884142cf375d564195a4ca559597d61cb2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:26:55+00:00
+translation_source_body_hash: 81eb2e7f78d60947724df79bcc9c60884142cf375d564195a4ca559597d61cb2
+translation_source_metadata_hash: 604d1c3b90e5cca7864e13a87bb674cfffbf129f464a620567b59f94f8262635
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:44+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de reação em círculo, onde comandos são rapidamente respondidos com palavras, movimentos e pequenas figuras.

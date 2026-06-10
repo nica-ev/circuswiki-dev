@@ -6,8 +6,8 @@ update: 2025-03-18 02:51:28
 publish: true
 tags:
   - spiele
-title: Ich habe Glück
-description: Ein Fangspiel mit Zweierteams, bei dem ein Stein-Schere-Papier-Moment entscheidet, wer weiter fängt.
+title: Eu Tenho Sorte
+description: Um jogo de perseguição em duplas onde um momento de pedra-papel-tesoura decide quem continua a perseguir.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ich habe Glück.md
-translation_source_hash: 13c970eb630ddc5dba3607f14160f6ea673632cddde9a035cb0cb00d5cb4a008
+translation_source_hash: 62727bcde4ee924ddc1ad058f40fd6e91be8e2445472b20bde529bd78b89d765
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:44:50+00:00
+translation_source_body_hash: 62727bcde4ee924ddc1ad058f40fd6e91be8e2445472b20bde529bd78b89d765
+translation_source_metadata_hash: b3b209e10f2f83c68acc23c4ffe34b3fa892954daaedfcf87ce9257c0fc16af7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:50:55+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de apanhada com equipas de dois, onde um momento de "pedra, papel, tesoura" decide quem continua a apanhar.

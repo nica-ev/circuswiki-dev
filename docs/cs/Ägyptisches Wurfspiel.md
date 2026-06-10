@@ -6,8 +6,8 @@ update: 2026-06-07 00:02:02
 publish: true
 tags:
   - spiele
-title: Ägyptisches Wurfspiel
-description: Ein Wurfspiel für kleine Teams, bei dem auf die nicht klatschende Person geworfen werden muss.
+title: Egyptská vrhací hra
+description: Vrhací hra pro malé týmy, kde je třeba házet na osobu, která neplácne.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ todo: fertig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ägyptisches Wurfspiel.md
-translation_source_hash: 330dc15d2b177ebd85455417a7bdc18477ed7a3349594bf0f785b88018f95d87
+translation_source_hash: 0600f516e559831bf62c9ae6492657f63f5321a280b381419d354e45dc361942
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:20:28+00:00
+translation_source_body_hash: 0600f516e559831bf62c9ae6492657f63f5321a280b381419d354e45dc361942
+translation_source_metadata_hash: 3eec85c092dc081bc0f78ce092232ef046e421aa3d4bff6d998f5b762ba4481e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:01:18+00:00
 ---
 > [!info] Stručný popis
 > Hodová hra pro malé týmy, při které se musí házet na osobu, která nezatleskala.

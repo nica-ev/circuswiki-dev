@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:15:56
-title: Katz und Maus
-description: Ein anspruchsvolles Kreisspiel, bei dem Katze und Maus durch wechselnde Kreispositionen jagen und fliehen.
+title: Cat and Mouse
+description: A challenging circle game where the cat chases the mouse through changing circle positions.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Katz und Maus.md
-translation_source_hash: fa05a7be670feb336f22c9810f8d80c731c53a75f25ee596d54c3bb5bb2be0ed
+translation_source_hash: 48db9fef26e9b65614d1fc36afd317e2ed04ff6795aded11e5d6625732a3a4ab
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:47:23+00:00
+translation_source_body_hash: 48db9fef26e9b65614d1fc36afd317e2ed04ff6795aded11e5d6625732a3a4ab
+translation_source_metadata_hash: a519c6614951a5b2798de86772612f6a597177dd3ffa03f11671b76b50ca43d8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:53:10+00:00
 ---
 > [!info] Brief Description
 > A challenging circle game where the cat and mouse chase and flee through changing circle positions.

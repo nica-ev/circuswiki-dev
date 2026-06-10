@@ -8,8 +8,8 @@ tags:
   - cwiczenie
   - hula-hoop
   - zonglerka
-title: Żonglowanie w parach z hula hoop
-description: Ćwiczenie partnerskie z toczeniem i rzucaniem hula hoop w trybie synchronicznym i asynchronicznym.
+title: Partner-Hula-Hoop-Jonglage
+description: Partnerübung mit Rollen und Werfen des Hula Hoops im synchronen und asynchronen Modus.
 authors:
   - Wiktoria Witenberg
 category:
@@ -22,9 +22,14 @@ source_file: _inbox/Hula hoop - materiały KPC.pdf
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Zonglowanie w parach z hula hoop.md
-translation_source_hash: 59b024106d1d0bc61ff019209522987f7bdf90be58f1abbb8528e6d8b9f22075
+translation_source_hash: 383277385d2b4ad2d39e5382a1344c1aef9740cb0e8c565d6a26ac648d93f6d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:01:40+00:00
+translation_source_body_hash: 383277385d2b4ad2d39e5382a1344c1aef9740cb0e8c565d6a26ac648d93f6d7
+translation_source_metadata_hash: 7532e3864978ab8d0a75e39ab79eaad04d1ed37f4d3f01df4918ea49b774dad5
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:22+00:00
 ---
 # Partner-Jonglage mit Hula Hoop
 

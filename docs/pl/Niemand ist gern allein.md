@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:49
-title: Niemand ist gern allein
-description: Ein Namens- und Paarspiel im Kreis, bei dem eine alleinstehende Person durch Zuruf einen neuen Partner sucht.
+title: Nikt nie lubi być sam
+description: Gra w parach i imionach w kółku, w której samotna osoba szuka nowego partnera przez zawołanie.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Niemand ist gern allein.md
-translation_source_hash: 2479df19d9b2285fa4bb8104ade732a1c35b67b0927cc090255bc118455e5d75
+translation_source_hash: cd27a5595d633139026e45dad113d8694dca643ebd8199d428a838f6a67c0827
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:09:04+00:00
+translation_source_body_hash: cd27a5595d633139026e45dad113d8694dca643ebd8199d428a838f6a67c0827
+translation_source_metadata_hash: 23ff03d83ed5461e0654a29f34b6be11aa774bab081580656274926f4b165465
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:00:43+00:00
 ---
 > [!info] Krótki opis
 > Gra w parach i na imię w kręgu, w której jedna osoba szuka nowego partnera, wołając jego imię.

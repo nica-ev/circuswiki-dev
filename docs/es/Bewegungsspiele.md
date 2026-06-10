@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Juegos de movimiento
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:50+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:26+00:00
 ---
 # Juegos de Movimiento
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                      | group-min | group-max | Dificultad | Material                                        | Duración del juego |
 | ------------------------------------------------------------------------- | --------- | --------- | ---------- | ----------------------------------------------- | ------------------ |
-| [3 en raya](<3%20gewinnt.md>)                                             | 4         | 30        | media      | 9 aros, 6 objetos de colores, marca de inicio   | 5-20               |
-| [Águila, liebre, repollo](<Adler%20Hase%20Kohlkopf.md>)                   | 8         | 30        | media      | ninguno                                         | 5-15               |
-| [Fuego, agua, arena](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | fácil      | elevaciones, tambor opcional                    | 5-15               |
-| [Pilla figuras](<Figurenfangen.md>)                                       | 6         | 30        | media      | ninguno                                         | 6                  |
-| [Pisar con los pies](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | fácil      | ninguno                                         | 5-10               |
-| [Tiburón](<Haifisch.md>)                                                 | 10        | 30        | fácil      | ninguno                                         | 5                  |
+| [Tres en raya](<3%20gewinnt.md>)                                             | 4         | 30        | media      | 9 aros, 6 objetos de colores, marca de inicio   | 5-20               |
+| [Águila - Conejo - Repollo](<Adler%20Hase%20Kohlkopf.md>)                   | 8         | 30        | media      | ninguno                                         | 5-15               |
+| [Fuego Agua Arena](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | fácil      | elevaciones, tambor opcional                    | 5-15               |
+| [Captura de Figuras](<Figurenfangen.md>)                                       | 6         | 30        | media      | ninguno                                         | 6                  |
+| [Uñas de los pies](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | fácil      | ninguno                                         | 5-10               |
+| [Tiburón y pez](<Haifisch.md>)                                                 | 10        | 30        | fácil      | ninguno                                         | 5                  |
 | [Todos atrapan a todos](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | fácil      | ninguno                                         | 3                  |
-| [Gato y ratón](<Katz%20und%20Maus.md>)                                   | 10        | 30        | difícil    | ninguno                                         | 5-10               |
+| [Gato y Ratón](<Katz%20und%20Maus.md>)                                   | 10        | 30        | difícil    | ninguno                                         | 5-10               |
 | [Atrapar pinzas](<Klammern%20haschen.md>)                               | 5         | 30        | fácil      | pinzas de ropa                                  | 4-6                |
 | [Hospital](<Krankenhaus.md>)                                           | 8         | 30        | fácil      | colchonetas                                     | 5-10               |
-| [El hombre se enfada](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | fácil      | aros o hula hoops                               | 20-30              |
-| [Zanahoria, liebre, zorro](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | fácil      | ninguno                                         | 10                 |
+| [No te enfades, hombre](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | fácil      | aros o hula hoops                               | 20-30              |
+| [Zanahoria Conejo Zorro](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | fácil      | ninguno                                         | 10                 |
 | [Atrapar en pareja y en cadena](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | fácil      | ninguno                                         | 5                  |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | media      | ninguno                                         | 7                  |
-| [Desgarrar ovejas](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | fácil      | ninguno                                         | 3-5                |
+| [Lobos y ovejas](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | fácil      | ninguno                                         | 3-5                |
 | [Hermanita, ayúdame](<Schwesterchen%20hilf.md>)                           | 8         | 30        | fácil      | ninguno                                         | 5                  |
-| [Camiseta en el pantalón](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | media      | balón                                           | 5-15               |
-| [Atrapar de cuatro colores](<Vierfarbenfangen.md>)                                 | 20        | 40        | media      | petos de colores opcionales                     | 10                 |
+| [Camiseta en los pantalones](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | media      | balón                                           | 5-15               |
+| [Atrapa Cuatro Colores](<Vierfarbenfangen.md>)                                 | 20        | 40        | media      | petos de colores opcionales                     | 10                 |
 | [Bomba de tiempo](<Zeitbombe.md>)                                               | 8         | 30        | fácil      | marca para el que pilla                         | 5-10               |
-| [Balón zombie](<Zombieball.md>)                                             | 5         | 30        | media      | balones                                         | 10                 |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | media      | balones                                         | 10                 |
 
 <!-- dynamic:end -->

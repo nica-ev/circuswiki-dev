@@ -2,11 +2,11 @@
 lang: de
 translation_id: case-study-15-united-states
 created: 2025-08-30 23:50:47
-update: 2026-06-07 00:08:41
+update: 2026-06-06 21:49:43
 publish: false
 tags:
   - case-study
-title: Social Integration in a Job Training Context
+title: Soziale Integration im Kontext der Berufsausbildung
 description:
 authors:
   - Craig Quat
@@ -14,11 +14,15 @@ land: United States
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 15 - United States.md
-translation_source_hash: a055f401dfb12665e9a8b425aa4bb81ca920907e7498971d9afd197fc88fd82d
+translation_source_hash: 4302360b6710feef9d9f62c7df64118b591b6af04102cbb9a78db07ab83dd27e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:47+00:00
+translation_source_body_hash: 4302360b6710feef9d9f62c7df64118b591b6af04102cbb9a78db07ab83dd27e
+translation_source_metadata_hash: d21ce88f36dcb00f5e10e55b31ef0b884c702df3a12fec6c18ac952cfeb71137
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:04+00:00
 ---
-
 # **Funktionelles Jonglieren als Werkzeug für motorische Entwicklung und soziale Integration im Rahmen einer Berufsausbildung**
 
 [Quat Props](Quat%20Props.md) - Vereinigte Staaten

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Cooperative Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:51:54+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:16+00:00
 ---
 # Cooperative Games
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, difficulty, material, duration
 
 | file                                                                                                   | group-min | group-max | difficulty    | material                                      | duration |
 | ------------------------------------------------------------------------------------------------------ | --------- | --------- | ------------- | --------------------------------------------- | -------- |
-| [Everyone_Against_One](<Alle_gegen_einen.md>)                                                              | 8         | 30        | medium           | hoops                                        | 10-15      |
-| [The_Tricky_Water_Transport](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | difficult           | pot, string, water, second container           | 5-20       |
-| [The_Hurdle](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | medium           | rope                                          | 5-10       |
-| [Squaring_the_Circle](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | medium           | rope, optional blindfolds                    | 5-60       |
-| [Ice_Queen_Giant_and_Dwarves](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | easy          | small object                            | 5-10       |
-| [Flying_Carpet](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | easy          | tarp                                         | 3-10       |
-| [Nine_People_8_Legs_4_Hands](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | easy          | none                                        | 10         |
-| [Space_Station](<Raumstation.md>)                                                                        | 6         | 25        | medium           | marked area, objects                 | 10-15       |
-| [Crossing_the_Lake](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | medium           | paper, mat, optional objects | 15-20       |
-| [Group_Sorting](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | medium           | chairs or stools                            | 5-15       |
-| [Spider_Web](<Spinnennetz.md>)                                                                        | 6         | 14        | easy - difficult | ropes                                         | 5 - 15     |
+| [All Against One](<Alle_gegen_einen.md>)                                                              | 8         | 30        | medium           | hoops                                        | 10-15      |
+| [The Tricky Water Transport](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | difficult           | pot, string, water, second container           | 5-20       |
+| [The Hurdle](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | medium           | rope                                          | 5-10       |
+| [Squaring the Circle](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | medium           | rope, optional blindfolds                    | 5-60       |
+| [Ice Queen - Giant and Dwarves](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | easy          | small object                            | 5-10       |
+| [Flying Carpet](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | easy          | tarp                                         | 3-10       |
+| [Nine People – 8 Legs - 4 Hands](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | easy          | none                                        | 10         |
+| [Space Station](<Raumstation.md>)                                                                        | 6         | 25        | medium           | marked area, objects                 | 10-15       |
+| [Lake Crossing](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | medium           | paper, mat, optional objects | 15-20       |
+| [Sorting in the Group](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | medium           | chairs or stools                            | 5-15       |
+| [Spiderweb](<Spinnennetz.md>)                                                                        | 6         | 14        | easy - difficult | ropes                                         | 5 - 15     |
 
 <!-- dynamic:end -->

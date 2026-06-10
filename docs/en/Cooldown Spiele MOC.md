@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:41:05
-title: Cooldown Spiele
+title: Cooldown Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 6dd4e1da674b4118b17220dd318fee9e76aa5b49ed024b7758f2164fcff4ee11
+translation_source_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:28:45+00:00
+translation_source_body_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
+translation_source_metadata_hash: 8d77c7b7ddeaea581e3e2ce39008eddd97c82a6ba03b3cc0e0067c525783d000
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:18+00:00
 ---
 # Cooldown Games MOC
 <!-- dynamic:start
@@ -34,8 +39,8 @@ columns: file, group-min, group-max, difficulty, material, duration
 | ------------------------------------------------------------------------------------------------ | --------- | --------- | ---------- | -------- | -------- |
 | [Circus Application](<Bewerbung%20im%20Zirkus.md>)                                                  | 8         | 99        | easy       | none     | 5-10     |
 | [Book Balance](<B%C3%BCcherbalance.md>)                                                              | 3         | 20        | easy       | Books    | 5-10     |
-| [Feeling with Hands](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | easy       | none     | 5-10     |
-| [Potato Potato](<Kartoffel%20Kartoffel.md>)                                                            | 5         | 20        | easy       | none     | 5-10     |
+| [Feeling Hands](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | easy       | none     | 5-10     |
+| [Potato, Potato](<Kartoffel%20Kartoffel.md>)                                                            | 5         | 20        | easy       | none     | 5-10     |
 | [Clapping with Eye Contact](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5         | 99        | easy       | none     | 5-10     |
 | [Massage Game - Farmer and Potato Field](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4         | 20        | easy       | none     | 5-10     |
 | [Medusa](<Medusa.md>)                                                                            | 5         | 25        | easy       | none     | 5-10     |

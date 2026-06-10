@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:03:08
 title: Zombieball
-description: Ein Abwurfspiel, bei dem getroffene Personen zurückkehren können, sobald die Person abgeworfen wird, die sie getroffen hat.
+description: Un juego de lanzamiento en el que los jugadores eliminados pueden regresar si el jugador que los eliminó es eliminado.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ todo: Text überarbeiten
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombieball.md
-translation_source_hash: a3bfe9f918871b1f4656bc201e6a960d132980912dcb2ab80f678c66271404d9
+translation_source_hash: 35799b651ed9ca7467b41cee02bed6c2cae6ed000b0ceaad2d4b3d74f13e712f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:39:17+00:00
+translation_source_body_hash: 35799b651ed9ca7467b41cee02bed6c2cae6ed000b0ceaad2d4b3d74f13e712f
+translation_source_metadata_hash: 1bac0706a8a761446ec54e1b1ca69f662b117b07f1bd37982952a9f58cdb8c99
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:09+00:00
 ---
 > [!info] Breve descripción
 > Un juego de lanzar, en el que las personas alcanzadas pueden volver a entrar en juego en cuanto la persona que las alcanzó es eliminada.

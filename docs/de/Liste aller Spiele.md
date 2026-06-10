@@ -2,7 +2,7 @@
 lang: de
 translation_id: liste-aller-spiele
 created: 2025-01-21 18:09:55
-update: 2026-06-09 02:55:04
+update: 2026-06-10 22:15:37
 publish: true
 tags:
   - spiele

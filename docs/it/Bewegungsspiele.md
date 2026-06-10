@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Giochi di movimento
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:36+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:24+00:00
 ---
 # Giochi di movimento
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                      | group-min | group-max | Difficoltà | Materiale                                        | Durata gioco |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------------------- | ---------- |
-| [3 gewinnt](<3%20gewinnt.md>)                                             | 4         | 30        | media        | 9 anelli, 6 oggetti colorati, marcatura di partenza | 5-20       |
-| [Aquila Lepre Cavolo](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | media        | nessuno                                          | 5-15       |
+| [Tira e molla](<3%20gewinnt.md>)                                             | 4         | 30        | media        | 9 anelli, 6 oggetti colorati, marcatura di partenza | 5-20       |
+| [Aquila - Coniglio - Cavolo](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | media        | nessuno                                          | 5-15       |
 | [Fuoco Acqua Sabbia](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | facile       | Rialzi, opzionale tamburo                    | 5-15       |
-| [Acchiappa figure](<Figurenfangen.md>)                                       | 6         | 30        | media        | nessuno                                          | 6          |
+| [Cattura di figure](<Figurenfangen.md>)                                       | 6         | 30        | media        | nessuno                                          | 6          |
 | [Unghie dei piedi](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | facile       | nessuno                                          | 5-10       |
-| [Squalo](<Haifisch.md>)                                                 | 10        | 30        | facile       | nessuno                                          | 5          |
-| [Ognuno acchiappa ognuno](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | facile       | nessuno                                          | 3          |
+| [Hai e Pesci](<Haifisch.md>)                                                 | 10        | 30        | facile       | nessuno                                          | 5          |
+| [Tutti prendono tutti](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | facile       | nessuno                                          | 3          |
 | [Gatto e topo](<Katz%20und%20Maus.md>)                                   | 10        | 30        | difficile        | nessuno                                          | 5-10       |
-| [Acchiappa mollette](<Klammern%20haschen.md>)                               | 5         | 30        | facile       | Mollette per bucato                                  | 4-6        |
+| [Afferrare le mollette](<Klammern%20haschen.md>)                               | 5         | 30        | facile       | Mollette per bucato                                  | 4-6        |
 | [Ospedale](<Krankenhaus.md>)                                           | 8         | 30        | facile       | Materassini                                          | 5-10       |
 | [Non ti arrabbiare](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | facile       | Anelli o Hula Hoop                           | 20-30      |
-| [Carota Lepre Volpe](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | facile       | nessuno                                          | 10         |
-| [Acchiappa in coppia & Acchiappa a catena](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | facile       | nessuno                                          | 5          |
+| [Carota Coniglio Volpe](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | facile       | nessuno                                          | 10         |
+| [Caccia in coppia e in catena](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | facile       | nessuno                                          | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | media        | nessuno                                          | 7          |
-| [Strappa pecore](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | facile       | nessuno                                          | 3-5        |
-| [Sorellina aiutami](<Schwesterchen%20hilf.md>)                           | 8         | 30        | facile       | nessuno                                          | 5          |
-| [Maglietta nei pantaloni](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | media        | Palla                                            | 5-15       |
-| [Acchiappa a quattro colori](<Vierfarbenfangen.md>)                                 | 20        | 40        | media        | opzionale pettorine colorate                        | 10         |
+| [Lupi e pecore](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | facile       | nessuno                                          | 3-5        |
+| [Sorellina, aiutami](<Schwesterchen%20hilf.md>)                           | 8         | 30        | facile       | nessuno                                          | 5          |
+| [T-shirt nei pantaloni](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | media        | Palla                                            | 5-15       |
+| [Quattro colori acchiapparella](<Vierfarbenfangen.md>)                                 | 20        | 40        | media        | opzionale pettorine colorate                        | 10         |
 | [Bomba a tempo](<Zeitbombe.md>)                                               | 8         | 30        | facile       | Marcatura per chi insegue                           | 5-10       |
-| [Palla zombie](<Zombieball.md>)                                             | 5         | 30        | media        | Palle                                           | 10         |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | media        | Palle                                           | 10         |
 
 <!-- dynamic:end -->

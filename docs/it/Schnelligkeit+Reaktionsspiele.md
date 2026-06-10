@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Velocità+Giochi di reazione
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:37+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:33+00:00
 ---
 # Velocità+Giochi di reazione
 
@@ -37,15 +42,15 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | medio      | nessuno                            | 8            |
 | [Bomba](<Bombe.md>)                                                 | 7         | 30        | facile     | Palla                              | 3-6          |
 | [La banca che batte](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | medio      | nessuno                            | 2-8          |
-| [Battiti di mani](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | medio      | nessuno                            | 6            |
-| [Corsa con i cuscini](<Kissenrennen.md>)                                   | 10        | 40        | medio      | Cuscino                            | 3            |
-| [vieni-con-me-corri-via](<komm-mit-lauf-weg.md>)                         | 5         | 99        | facile     | nessuno                            | 5 - 15       |
+| [Battimano](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | medio      | nessuno                            | 6            |
+| [Corsa dei cuscini](<Kissenrennen.md>)                                   | 10        | 40        | medio      | Cuscino                            | 3            |
+| [Vieni, scappa](<komm-mit-lauf-weg.md>)                         | 5         | 99        | facile     | nessuno                            | 5 - 15       |
 | [Comando](<Kommando.md>)                                           | 6         | 25        | facile     | Tappetini o segnaposti per sedersi | 4-7          |
-| [Corsa in quadrupedia](<Stehbock-Laufbock.md>)                         | 6         | 30        | facile     | nessuno                            | 3            |
-| [Toro - Tatonga](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | facile     | Corda                              | 5-10         |
-| [Team Morra Cinese](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | facile     | nessuno                            | 10           |
+| [Capra in piedi, capra da corsa](<Stehbock-Laufbock.md>)                         | 6         | 30        | facile     | nessuno                            | 3            |
+| [Corrida - Tatonga](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | facile     | Corda                              | 5-10         |
+| [Team Sasso-Carta-Forbice](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | facile     | nessuno                            | 10           |
 | [Ultimate Ninja](<Ultimate%20Ninja.md>)                             | 5         | 20        | medio      | nessuno                            | 10           |
 | [Zah](<Zah.md>)                                                     | 6         | 30        | facile     | nessuno                            | 5            |
-| [Strofinare gli occhi](<Zuzwinkern.md>)                                       | 9         | 99        | medio      | nessuno                            | 7            |
+| [Occhiolino](<Zuzwinkern.md>)                                       | 9         | 99        | medio      | nessuno                            | 7            |
 
 <!-- dynamic:end -->

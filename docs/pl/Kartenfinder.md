@@ -6,8 +6,8 @@ update: 2025-03-17 01:40:15
 publish: true
 tags:
   - spiele
-title: Kartenfinder
-description: Ein Staffelspiel mit Spielkarten, bei dem Teams ihre eigene Kartenfarbe finden und möglichst schnell sammeln.
+title: Znajdź Kartę
+description: Gra zespołowa z kartami, w której drużyny muszą znaleźć i zebrać jak najwięcej kart w swoim kolorze.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kartenfinder.md
-translation_source_hash: a2192aa88e300790e7f1c73560437d02c85335dc92c6c7ab7932ea9be46c47fc
+translation_source_hash: f39dcb4ebeb3c7ca469d4caef7d3208686dd5782cd26ae15548029199bf70afd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:46:19+00:00
+translation_source_body_hash: f39dcb4ebeb3c7ca469d4caef7d3208686dd5782cd26ae15548029199bf70afd
+translation_source_metadata_hash: c05f74bc5b361bb87eaebc01ca1168832b4dac39afe1ad15580113000e9e845c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:51:53+00:00
 ---
 > [!info] Krótki opis
 > Bieg sztafetowy z kartami do gry, w którym drużyny odnajdują swój kolor kart i zbierają je jak najszybciej.

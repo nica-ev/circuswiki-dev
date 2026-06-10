@@ -5,16 +5,21 @@ publish: true
 tags: 
 created: 2025-01-25 18:59:24
 update: 2025-03-11 02:29:22
-title: Grundsätze für die Vermittlung von Bewegungsspielen
+title: Zásady pro zprostředkování pohybových her
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Grundsätze für die Vermittlung von Bewegungsspielen.md
-translation_source_hash: 87c46360a1a9c7ddce394fe23b063c6eb659cd4fe1244b9e289369032d90cc74
+translation_source_hash: 25c0e285040dc876b7247bddaec06aab15cfeebdc118c18f677cb00fd48ff705
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:46:40+00:00
+translation_source_body_hash: 25c0e285040dc876b7247bddaec06aab15cfeebdc118c18f677cb00fd48ff705
+translation_source_metadata_hash: 9be525466be30344cff8145f0753af73097113f7947004269f1ee1432f7375b6
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:49:20+00:00
 ---
 # Zásady pro vedení pohybových her
 

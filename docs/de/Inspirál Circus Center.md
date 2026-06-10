@@ -19,9 +19,14 @@ land: Hungary
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Inspirál Circus Center.md
-translation_source_hash: 352633a49e2186645a5d0a1773c118f7bf54baf75ca7e203bc4bdb5c0ae5236c
+translation_source_hash: de104a210bbedadd4bf9a04e2eff5c709d1dc88f247f2b19dd73f2980ba0d449
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:27:43+00:00
+translation_source_body_hash: de104a210bbedadd4bf9a04e2eff5c709d1dc88f247f2b19dd73f2980ba0d449
+translation_source_metadata_hash: f89f70d68ff83be4d378d7860d5805d342cb8a548357ec3105aec59a320c0265
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:51:22+00:00
 ---
 ### **Inspirál Circus Center (Budapest, Ungarn)**
 

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Παιχνίδια Κύκλου
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:22+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:37+00:00
 ---
 # Παιχνίδια σε Κύκλο MOC
 
@@ -35,34 +40,34 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                  | group-min | group-max | Δυσκολία         | Υλικά           | Διάρκεια Παιχνιδιού |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ------------------ | -------------------- |
-| [Ρίξιμο μπάλας στο αστέρι](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | εύκολο           | Μπάλες             | 5-10                 |
+| [Ρίψη μπάλας στο αστέρι](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | εύκολο           | Μπάλες             | 5-10                 |
 | [Προστάτεψε τον φίλο σου](<Besch%C3%BCtze%20deinen%20Freund.md>)                                      | 8         | 30        | εύκολο           | κανένα             | 4-9                  |
-| [Αίτηση στο τσίρκο](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | εύκολο           | κανένα             | 5-10                 |
+| [Αίτηση στον τσίρκο](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | εύκολο           | κανένα             | 5-10                 |
 | [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6         | 25        | μέτριο           | κανένα             | 10-15                |
 | [Βόμβα](<Bombe.md>)                                                                                   | 7         | 30        | εύκολο           | Μπάλα              | 3-6                  |
-| [Σταυρωμένα χέρια](<Crossed%20Hands.md>)                                                                 | 5         | 20        | εύκολο           | κανένα             | 5-10                 |
-| [Η βόμβα](<Die%20Bombe.md>)                                                                         | 6         | 30        | εύκολο           | Μπάλα              | 5-10                 |
-| [Ξεφλούδισμα του φιδιού](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | εύκολο           | κανένα             | 5-10                 |
-| [Πάνω και κάτω](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | εύκολο           | Αντικείμενα        | 5-10                 |
-| [Κύκλος χειροκροτήματος ενέργειας](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | εύκολο           | κανένα             | 2-5                  |
-| [Γεια σου, είμαι](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | εύκολο           | κανένα             | 2-10                 |
-| [Γεια σου, είμαι - με μπάλες](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | εύκολο           | Μπάλες             | 10 -  15             |
+| [Σταυρωμένα Χέρια](<Crossed%20Hands.md>)                                                                 | 5         | 20        | εύκολο           | κανένα             | 5-10                 |
+| [Η Βόμβα](<Die%20Bombe.md>)                                                                         | 6         | 30        | εύκολο           | Μπάλα              | 5-10                 |
+| [Το φίδι γδύνεται](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | εύκολο           | κανένα             | 5-10                 |
+| [Πάνω και Κάτω](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | εύκολο           | Αντικείμενα        | 5-10                 |
+| [Κύκλος Ενέργειας](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | εύκολο           | κανένα             | 2-5                  |
+| [Γεια, είμαι](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | εύκολο           | κανένα             | 2-10                 |
+| [Γεια, είμαι - με μπάλες](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | εύκολο           | Μπάλες             | 10 -  15             |
 | [Γνωριμία με μπάλες](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | εύκολο           | Μπάλες             | 2-10                 |
-| [Γνωριμία με μπάλες που τρέχουν από πίσω](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | εύκολο - μέτριο | Μπάλες             | 10 -  15             |
-| [Χειροκρότημα με οπτική επαφή](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | εύκολο           | κανένα             | 5-10                 |
+| [Γνωριμία με μπάλες, τρέξιμο](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | εύκολο - μέτριο | Μπάλες             | 10 -  15             |
+| [Κουτσομπολιό με οπτική επαφή](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | εύκολο           | κανένα             | 5-10                 |
 | [Παιχνίδι μασάζ - Αγρότης και χωράφι με πατάτες](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)         | 4         | 20        | εύκολο           | κανένα             | 5-10                 |
 | [Μέδουσα](<Medusa.md>)                                                                                 | 5         | 25        | εύκολο           | κανένα             | 5-10                 |
-| [Στο αυλάκι της βελόνας](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | εύκολο           | κανένα             | 5-10                 |
-| [Ποπ-Ποπ-Κρατς-Πετάμε στο διάστημα](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | εύκολο           | κανένα             | 5-10                 |
-| [Ποπ!](<Peng%21.md>)                                                                                 | 5         | 25        | εύκολο           | κανένα             | 5-10                 |
-| [Αλλαγή θέσης με οπτική επαφή](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | εύκολο           | κανένα             | 5-10                 |
+| [Μπουκαλάκι](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | εύκολο           | κανένα             | 5-10                 |
+| [Πενγκ, Πενγκ, Μπαμ - Πετάμε στο διάστημα](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | εύκολο           | κανένα             | 5-10                 |
+| [Peng](<Peng%21.md>)                                                                                 | 5         | 25        | εύκολο           | κανένα             | 5-10                 |
+| [Αλλαγή θέσεων μέσω οπτικής επαφής](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | εύκολο           | κανένα             | 5-10                 |
 | [Αμοιβαία γνωριμία](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | μέτριο           | κανένα             | 10 -  15             |
 | [Ταξινόμηση στην ομάδα](<Sortieren%20in%20der%20Gruppe.md>)                                         | 5         | 25        | μέτριο           | Καρέκλες ή σκαμπό | 5-15                 |
-| [Ταυρομαχία - Τατόνγκα](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | εύκολο           | Σχοινί             | 5-10                 |
-| [Παντρεμένοι-Χωρισμένοι](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | εύκολο           | κανένα             | 5-10                 |
-| [Γύρος γνωριμίας - Πορεία - Συμβολικά](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | μέτριο           | διάφορα            | 30-45                |
-| [Ζαχ](<Zah.md>)                                                                                       | 6         | 30        | εύκολο           | κανένα             | 5                    |
-| [Φονιάς γλώσσας](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | μέτριο           | κανένα             | 5 - 10               |
-| [Σβήσιμο ματιών](<Zuzwinkern.md>)                                                                         | 9         | 99        | μέτριο           | κανένα             | 7                    |
+| [Ταύρος - Τατόνγκα](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | εύκολο           | Σχοινί             | 5-10                 |
+| [Παντρεμένοι, Χωρισμένοι](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | εύκολο           | κανένα             | 5-10                 |
+| [Παρουσίαση - Ιστορικό - Συμβολικό](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | μέτριο           | διάφορα            | 30-45                |
+| [Zah](<Zah.md>)                                                                                       | 6         | 30        | εύκολο           | κανένα             | 5                    |
+| [Δολοφόνος της Γλώσσας](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | μέτριο           | κανένα             | 5 - 10               |
+| [Κλείσιμο ματιού](<Zuzwinkern.md>)                                                                         | 9         | 99        | μέτριο           | κανένα             | 7                    |
 
 <!-- dynamic:end -->

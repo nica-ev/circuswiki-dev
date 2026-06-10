@@ -6,16 +6,21 @@ update: 2025-05-03 22:24:12
 publish: true
 tags:
   - tutorial
-title: Translating PDF Documents Using Large Language Models
+title: Переклад PDF-документів за допомогою великих мовних моделей
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Translating PDF Documents.md
-translation_source_hash: 4849cf89eb1f892ccf60ffc3f331b78085348fbe32944fb3e887c2a340a7c7c2
+translation_source_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:32:55+00:00
+translation_source_body_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
+translation_source_metadata_hash: a530aa8d544a977714beb1b4a853dc52b784bd5b26686255177e83d93a8ba7b4
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:59+00:00
 ---
 # Посібник: Переклад PDF-документів за допомогою великих мовних моделей
 

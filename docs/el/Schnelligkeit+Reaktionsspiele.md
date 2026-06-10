@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Ταχύτητα+Παιχνίδια Αντίδρασης
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:42+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:35+00:00
 ---
 # Παιχνίδια Ταχύτητας & Αντίδρασης
 
@@ -34,18 +39,18 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | file                                                                | group-min | group-max | Δυσκολία | Υλικά                          | Διάρκεια Παιχνιδιού |
 | ------------------------------------------------------------------- | --------- | --------- | ------------- | --------------------------------- | ---------- |
 | [Προστάτεψε τον φίλο σου](<Besch%C3%BCtze%20deinen%20Freund.md>)    | 8         | 30        | εύκολο       | κανένα                            | 4-9        |
-| [Μπίλλε Μπίλλε Μπο](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | μέτριο        | κανένα                            | 8          |
+| [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | μέτριο        | κανένα                            | 8          |
 | [Βόμβα](<Bombe.md>)                                                 | 7         | 30        | εύκολο       | Μπάλα                              | 3-6        |
-| [Η τσακισμένη τράπεζα](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | μέτριο        | κανένα                            | 2-8        |
+| [Το Βροντερό Παιχνίδι](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | μέτριο        | κανένα                            | 2-8        |
 | [Χτυπήματα χεριών](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | μέτριο        | κανένα                            | 6          |
 | [Κούρσα με μαξιλάρια](<Kissenrennen.md>)                                   | 10        | 40        | μέτριο        | Μαξιλάρια                            | 3          |
-| [έλα-έλα-τρέχα-φύγε](<komm-mit-lauf-weg.md>)                         | 5         | 99        | εύκολο       | κανένα                            | 5 - 15     |
-| [Διοίκηση](<Kommando.md>)                                           | 6         | 25        | εύκολο       | Χαλάκια ή σημάδια θέσης για κάθισμα | 4-7        |
-| [Τρέξιμο με στήριξη](<Stehbock-Laufbock.md>)                         | 6         | 30        | εύκολο       | κανένα                            | 3          |
-| [Ταυρομαχία - Τατόνγκα](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | εύκολο       | Σχοινί                              | 5-10       |
-| [Ομάδα Πέτρα-Ψαλίδι-Ψαλίδι](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | εύκολο       | κανένα                            | 10         |
+| [Έλα μαζί, τρέξε μακριά](<komm-mit-lauf-weg.md>)                         | 5         | 99        | εύκολο       | κανένα                            | 5 - 15     |
+| [Εντολή](<Kommando.md>)                                           | 6         | 25        | εύκολο       | Χαλάκια ή σημάδια θέσης για κάθισμα | 4-7        |
+| [Laufbock](<Stehbock-Laufbock.md>)                         | 6         | 30        | εύκολο       | κανένα                            | 3          |
+| [Ταύρος - Τατόνγκα](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | εύκολο       | Σχοινί                              | 5-10       |
+| [Ομάδα Σνικ-Σνάκ-Σνουκ](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | εύκολο       | κανένα                            | 10         |
 | [Ultimate Ninja](<Ultimate%20Ninja.md>)                             | 5         | 20        | μέτριο        | κανένα                            | 10         |
-| [Ζα](<Zah.md>)                                                     | 6         | 30        | εύκολο       | κανένα                            | 5          |
-| [Μάτι νεύμα](<Zuzwinkern.md>)                                       | 9         | 99        | μέτριο        | κανένα                            | 7          |
+| [Zah](<Zah.md>)                                                     | 6         | 30        | εύκολο       | κανένα                            | 5          |
+| [Κλείσιμο ματιού](<Zuzwinkern.md>)                                       | 9         | 99        | μέτριο        | κανένα                            | 7          |
 
 <!-- dynamic:end -->

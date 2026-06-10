@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:55
 publish: false
 tags:
   - case-study
-title: Hidden Therapy Through Play
+title: Terapia Oculta Através do Brincar
 description:
 authors:
   - Paulina Chodnicka
@@ -14,9 +14,14 @@ land: Poland
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 07 - Poland.md
-translation_source_hash: 9ad6e4ab40cc343b3116894e14d2d961c10a37ccc26f0549208c3c328b284639
+translation_source_hash: 997d51265674314af97db198af37abcb43c8a4348913c45aaabcb8981b5c5f0f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:33:07+00:00
+translation_source_body_hash: 997d51265674314af97db198af37abcb43c8a4348913c45aaabcb8981b5c5f0f
+translation_source_metadata_hash: b782b4432251768766744a46bf4a7dc90ec32ccbc0d8df373b3c41b17f7d0025
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:06+00:00
 ---
 # **Terapia Oculta Através da Brincadeira: Malabarismo Funcional com Crianças Autistas e Seus Cuidadores**
 

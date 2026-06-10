@@ -5,16 +5,21 @@ publish: true
 tags: 
 created: 2025-01-20 02:58:43
 update: 2025-04-13 21:47:35
-title: Dokumentations-System
+title: Σύστημα Τεκμηρίωσης
 authors:
   - Marc Bielert
 description:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/doc-sys-2.md
-translation_source_hash: 5add592129044367ab6dca6e0b40c75b8fc9f2fddde27ef5e14a267cf91424e9
+translation_source_hash: abdfb6fee5c5acdbc79aba5e10b9842bc9bded85e1122eb2b3ee32e88e92a418
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:36:15+00:00
+translation_source_body_hash: abdfb6fee5c5acdbc79aba5e10b9842bc9bded85e1122eb2b3ee32e88e92a418
+translation_source_metadata_hash: f30189f3dab0fb2281c175d254c634ca9d3bcf79a75afc871ab1e3a8ad586280
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:10:26+00:00
 ---
 [Εκδήλωση](doc-sys-manifest.md){ .md-button }
 [Ρύθμιση Obsidian](Obsidian%20Setup.md){ .md-button }

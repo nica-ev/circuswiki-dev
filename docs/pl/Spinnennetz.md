@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
-title: Spinnennetz
-description: Eine Kooperationsaufgabe, bei der die Gruppe durch ein Seilnetz gelangen muss, ohne Felder doppelt zu nutzen oder Seile zu berühren.
+title: Sieć pająka
+description: Zadanie kooperacyjne, w którym grupa musi przejść przez sieć lin, nie dotykając lin ani nie wchodząc dwukrotnie na te same pola.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 14
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spinnennetz.md
-translation_source_hash: fa2a83e65ff6903cd72f15f2fef87b365865728084bb7f20d6436b0eacd586bd
+translation_source_hash: 4f3d43bfcee9e49c45b1d1bb7d5e29a172d92979558cb97080ead2366c13951d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:28:12+00:00
+translation_source_body_hash: 4f3d43bfcee9e49c45b1d1bb7d5e29a172d92979558cb97080ead2366c13951d
+translation_source_metadata_hash: 547c9b948b0a38f0c179db63c9148c548270c95bfd9aeba1aff7d6ee81b29d4c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:16+00:00
 ---
 > [!info] Krótki opis
 > Zadanie kooperacyjne, w którym grupa musi przejść przez sieć lin, nie wykorzystując pól dwukrotnie ani nie dotykając lin.

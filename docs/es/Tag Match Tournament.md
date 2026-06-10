@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:51
 update: 2025-01-25 01:13:07
-title: Tag Match Tournament
+title: Torneo de Combate por Parejas
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: 4978c8e6e6432eac26cf97bb3395dc968b9355afa14e29d1657d34f25a832bc9
+translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:11:10+00:00
+translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:04+00:00
 ---
 Introducción al juego "Tag Match Tournament"
 Este juego es ideal para un grupo de participantes con una gran diferencia de experiencia. Al unirse a jugadores experimentados, es menos probable que los principiantes sean derrotados. Sobre todo, como luchan juntos, ¡serán mucho más felices si ganan!

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:22
-title: Stierkampf - Tatonga
-description: Ein Kreisspiel mit Seil, bei dem ein Stier in der Mitte Hände antippt oder versucht, das Seil zu Boden zu bringen.
+title: Toreo - Tatonga
+description: Un juego circular con una cuerda donde un toro en el centro toca manos o intenta bajar la cuerda al suelo.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Stierkampf - Tatonga.md
-translation_source_hash: 4f0feff33035394064f6cf86217b1bf68b1587b5beef5815dbd5ca8d1707b5ad
+translation_source_hash: c3b926357f20f7229afcd955aa224e39cab76b358f5b61d3eb50859ed4c53771
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:29:06+00:00
+translation_source_body_hash: c3b926357f20f7229afcd955aa224e39cab76b358f5b61d3eb50859ed4c53771
+translation_source_metadata_hash: 8eb4fb73b7fa8f650dae9409f64c63454762b1f3a59fa1d5aa3d9fb0020b40ff
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:37+00:00
 ---
 > [!info] Breve descripción
 > Un juego de círculo con una cuerda, en el que un toro intenta escapar desde el centro.

@@ -6,7 +6,7 @@ update: 2025-02-09 20:55:04
 publish: draft
 tags:
   - kaskade
-title: Lächeln überwindet Schwerkraft
+title: Úsměv překonává gravitaci
 description: 
 authors:
   - Toby Philpott
@@ -15,9 +15,14 @@ source: Kaskade 001
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Lächeln überwindet Schwerkraft.md
-translation_source_hash: 823267bb5c6bc789be189d1acb8c0bca9057400f3189e4f966fc31152bd741eb
+translation_source_hash: 8f37b521ddd75bd04e37f4cc39cb7eac57cb14e7bf75bab60ab1e5e23c4458da
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:01:47+00:00
+translation_source_body_hash: 8f37b521ddd75bd04e37f4cc39cb7eac57cb14e7bf75bab60ab1e5e23c4458da
+translation_source_metadata_hash: 45c7fbcfbdd1a344bf7465d5257f499bb575e34b078d4468f9db56751b18faf1
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:56:05+00:00
 ---
 ## **Úsměv překonává gravitaci**
 **Dopis Tobyho Philpotta, evropského ředitele IJA**
@@ -25,7 +30,7 @@ translation_updated: 2026-06-07T19:01:47+00:00
 
 Dva roky už nosím titul „Evropský ředitel International Jugglers Association“ (IJA). Je to titul, který by se líbil W.C. Fieldsovi, protože zní důležitě a tajemně (a neznamená skoro nic). Nikoho „neřídím“ a většinu času trávím v Anglii.
 
-![Kaskáda00104](../img/Kaskáda-001-04.png){ align=left }
+![Kaskáda00104](../img/Kaskade-001-04.png){ align=left }
 
 IJA začala jako malá skupina přátel a dnes je to velká organizace se stovkami členů v Americe. První evropské setkání žonglérů bylo také jen malou skupinkou přátel v Anglii, ale byl to první krok k tomu, aby se slovo „mezinárodní“ ospravedlnilo. Dnes se tohoto setkání účastní lidé z více než deseti různých zemí.
 

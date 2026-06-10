@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Vangspelletjes
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:25+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:12+00:00
 ---
 # Vangspelen
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                  | group-min | group-max | Moeilijkheidsgraad | Materiaal              | Speelduur |
 | ------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | --------------------- | ---------- |
-| [5 Draken en Dwergen](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | makkelijk          | doeken                | 5-10       |
-| [Bommetje](<Bombenspiel.md>)                                                       | 8         | 30        | makkelijk          | geen                  | 15-20      |
-| [Kleuren Vangen](<Farbenhasche.md>)                                                     | 9         | 30        | gemiddeld           | doeken                | 15-20      |
+| [Draken en Dwergen](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | makkelijk          | doeken                | 5-10       |
+| [Bommenspel](<Bombenspiel.md>)                                                       | 8         | 30        | makkelijk          | geen                  | 15-20      |
+| [Kleurenjacht](<Farbenhasche.md>)                                                     | 9         | 30        | gemiddeld           | doeken                | 15-20      |
 | [Vastpinnen](<Festnageln.md>)                                                         | 5         | 25        | gemiddeld           | geen                  | 15-20      |
 | [Vos en Haas](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | gemiddeld           | geen                  | 10 -  15   |
-| [Vossenjacht](<Fuchsjagd.md>)                                                           | 5         | 25        | makkelijk          | doeken                | 10 -  15   |
+| [Jacht op de vos](<Fuchsjagd.md>)                                                           | 5         | 25        | makkelijk          | doeken                | 10 -  15   |
 | [Gouden Hert](<Goldener%20Hirsch.md>)                                             | 10        | 99        | makkelijk          | geen                  | 5 - 15     |
 | [Ik heb geluk](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | makkelijk          | geen                  | 5 - 10     |
-| [Kom mee, loop weg](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | makkelijk          | geen                  | 5 - 15     |
-| [Ballon Vangen](<Luftballon%20Hasche.md>)                                         | 6         | 25        | gemiddeld           | geen                  | 5 - 15     |
-| [Middeleeuwse Steen, Papier, Schaar](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | makkelijk          | geen                  | 5 - 15     |
+| [Kom mee, ren weg](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | makkelijk          | geen                  | 5 - 15     |
+| [Ballon Hasche](<Luftballon%20Hasche.md>)                                         | 6         | 25        | gemiddeld           | geen                  | 5 - 15     |
+| [Middeleeuws Steen-papier-schaar](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | makkelijk          | geen                  | 5 - 15     |
 | [Wortel Haas Vos](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | makkelijk          | geen                  | 10         |
 | [Pinguïns en IJsberen](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | makkelijk - gemiddeld | valmat                | 5 - 15     |
 | [Pinguïns en Killer Flamingo's](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | makkelijk          | geen                  | 5 - 10     |
 | [Popcorn](<Popcorn.md>)                                                               | 5         | 99        | makkelijk          | geen                  | 5 - 15     |
-| [Zeehond en IJsberen](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | gemiddeld           | geen                  | 10 -  15   |
+| [Robben en ijsberen](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | gemiddeld           | geen                  | 10 -  15   |
 | [Slangen Vangen](<Schlangen%20Hasche.md>)                                           | 6         | 99        | makkelijk          | geen                  | 5-10       |
-| [Staartjes Vangen](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | makkelijk          | doeken                | 10 -  15   |
-| [Schotel Vanger](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | makkelijk          | Schotel, doek, diabolo | 5-10       |
-| [Tijd Vangen](<Zeithasche.md>)                                                         | 6         | 30        | gemiddeld           | geen                  | 15-20      |
-| [Zombie - Vangen](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | makkelijk          | geen                  | 10 -  15   |
-| [Zombie Vangen met Namen](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | gemiddeld           | geen                  | 15-20      |
+| [Staartje Pakken](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | makkelijk          | doeken                | 10 -  15   |
+| [Tellerfänger](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | makkelijk          | Schotel, doek, diabolo | 5-10       |
+| [Tijdhaas](<Zeithasche.md>)                                                         | 6         | 30        | gemiddeld           | geen                  | 15-20      |
+| [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | makkelijk          | geen                  | 10 -  15   |
+| [Zombie Hasch mit Namen](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | gemiddeld           | geen                  | 15-20      |
 
 <!-- dynamic:end -->

@@ -6,8 +6,8 @@ update: 2025-03-17 02:05:30
 publish: true
 tags:
   - spiele
-title: Nadelöhr
-description: Ein langsames Wahrnehmungsspiel im Kreis, bei dem alle mit geschlossenen Augen vorsichtig die gegenüberliegende Seite suchen.
+title: Вузьке місце
+description: Повільна гра на сприйняття в колі, де всі із заплющеними очима обережно шукають протилежний бік.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Nadelöhr.md
-translation_source_hash: e5631ab3e18d733dc15d215615ef406d505b602aef77986b21fdb89bb98f4ea6
+translation_source_hash: 26a442e42ed81cefb8c5c8cd6e768ae1675f90a6b69c7fbc7eabdf4d6cedb545
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:19+00:00
+translation_source_body_hash: 26a442e42ed81cefb8c5c8cd6e768ae1675f90a6b69c7fbc7eabdf4d6cedb545
+translation_source_metadata_hash: 068e4f1a33f3a8309c3d4e7a6069b54f1ec1a97070ae4b0279e13b11dcc7ac5b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:00:02+00:00
 ---
 > [!info] Короткий опис
 > Повільна гра на сприйняття в колі, під час якої всі із заплющеними очима обережно шукають протилежний бік.

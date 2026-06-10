@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Jogos de Movimento
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:57+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:27+00:00
 ---
 # Jogos de Movimento
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | ficheiro                                                                      | grupo-mín | grupo-máx | Dificuldade | Material                                        | Duração do jogo |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------------------- | ---------- |
-| [Jogo do 3](<3%20gewinnt.md>)                                             | 4         | 30        | médio        | 9 argolas, 6 objetos coloridos, marcação de partida | 5-20       |
-| [Águia Lebre Couve](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | médio        | nenhum                                          | 5-15       |
+| [Três em Linha](<3%20gewinnt.md>)                                             | 4         | 30        | médio        | 9 argolas, 6 objetos coloridos, marcação de partida | 5-20       |
+| [Águia - Coelho - Repolho](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | médio        | nenhum                                          | 5-15       |
 | [Fogo Água Areia](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | fácil       | elevações, opcionalmente um tambor                    | 5-15       |
-| [Perseguição de Figuras](<Figurenfangen.md>)                                       | 6         | 30        | médio        | nenhum                                          | 6          |
-| [Pregos nos Pés](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | fácil       | nenhum                                          | 5-10       |
-| [Tubarão](<Haifisch.md>)                                                 | 10        | 30        | fácil       | nenhum                                          | 5          |
-| [Todos Capturam Todos](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | fácil       | nenhum                                          | 3          |
+| [Pegar Figuras](<Figurenfangen.md>)                                       | 6         | 30        | médio        | nenhum                                          | 6          |
+| [Unha do pé](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | fácil       | nenhum                                          | 5-10       |
+| [Tubarão e Peixe](<Haifisch.md>)                                                 | 10        | 30        | fácil       | nenhum                                          | 5          |
+| [Todos Pegam Todos](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | fácil       | nenhum                                          | 3          |
 | [Gato e Rato](<Katz%20und%20Maus.md>)                                   | 10        | 30        | difícil        | nenhum                                          | 5-10       |
-| [Perseguição de Pregadores](<Klammern%20haschen.md>)                               | 5         | 30        | fácil       | pregadores de roupa                                  | 4-6        |
+| [Pegar pregadores](<Klammern%20haschen.md>)                               | 5         | 30        | fácil       | pregadores de roupa                                  | 4-6        |
 | [Hospital](<Krankenhaus.md>)                                           | 8         | 30        | fácil       | tapetes                                          | 5-10       |
-| [Jogo da Vida](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | fácil       | argolas ou hula hoops                           | 20-30      |
-| [Cenoura Lebre Raposa](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | fácil       | nenhum                                          | 10         |
-| [Perseguição em Pares e em Corrente](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | fácil       | nenhum                                          | 5          |
+| [Não se irrite](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | fácil       | argolas ou hula hoops                           | 20-30      |
+| [Cenoura Coelho Raposa](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | fácil       | nenhum                                          | 10         |
+| [Pegar em Par & Corrente](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | fácil       | nenhum                                          | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | médio        | nenhum                                          | 7          |
-| [Rasgar Ovelhas](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | fácil       | nenhum                                          | 3-5        |
-| [Maninha Ajuda](<Schwesterchen%20hilf.md>)                           | 8         | 30        | fácil       | nenhum                                          | 5          |
-| [T-Shirt na Calça](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | médio        | bola                                            | 5-15       |
-| [Perseguição de Quatro Cores](<Vierfarbenfangen.md>)                                 | 20        | 40        | médio        | opcionalmente coletes coloridos                        | 10         |
+| [Ovelhas a Rasgar](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | fácil       | nenhum                                          | 3-5        |
+| [Irmãzinha, ajude](<Schwesterchen%20hilf.md>)                           | 8         | 30        | fácil       | nenhum                                          | 5          |
+| [Camiseta na Calça](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | médio        | bola                                            | 5-15       |
+| [Quatro Cores Pegando](<Vierfarbenfangen.md>)                                 | 20        | 40        | médio        | opcionalmente coletes coloridos                        | 10         |
 | [Bomba Relógio](<Zeitbombe.md>)                                               | 8         | 30        | fácil       | marcação para o apanhador                           | 5-10       |
-| [Bola Zumbi](<Zombieball.md>)                                             | 5         | 30        | médio        | bolas                                           | 10         |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | médio        | bolas                                           | 10         |
 
 <!-- dynamic:end -->

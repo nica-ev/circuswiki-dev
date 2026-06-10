@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:25
 publish: false
 tags:
   - case-study
-title: More Than Movement
+title: Viac než pohyb
 description:
 authors:
   - Sara Papadato*
@@ -15,9 +15,14 @@ land: Italy
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 03 - Italy.md
-translation_source_hash: cc535b6a3f89ac46b4e89e447fbcd33f66710fcb5d805d77a97399e58530ce17
+translation_source_hash: 3cabfed74e25de5c3e303b200dda080ef92ddfed8788b58ff5e601dbbc111eac
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:32:07+00:00
+translation_source_body_hash: 3cabfed74e25de5c3e303b200dda080ef92ddfed8788b58ff5e601dbbc111eac
+translation_source_metadata_hash: af5eeeaa855e273ec458a25bf7227407ef5ae6fa149df8f89452795906403787
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:36+00:00
 ---
 # **Viac než pohyb: Dlhodobá cesta s funkčným žonglovaním**
 

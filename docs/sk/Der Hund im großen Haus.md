@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-02-01 02:23:23
 update: 2026-06-09 01:12:29
-title: Der Hund im großen Haus
-description: Ein erzählerisches Aufwärmspiel, bei dem die Gruppe eine kurze Geschichte mit passenden Bewegungen nachspielt.
+title: Pes vo veľkom dome
+description: Rozprávková zahrievacia hra, kde skupina prehrá krátky príbeh s vhodnými pohybmi.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Hund im großen Haus.md
-translation_source_hash: cb0fafc2594ffe50f96b5fa3c9d2543893841b9cd06df5d9e892c9a676b8c474
+translation_source_hash: 194fbebc1ad54f0db5614f5b02957d5d1b963ee3a38f8a7740f5dfa756119126
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:30:40+00:00
+translation_source_body_hash: 194fbebc1ad54f0db5614f5b02957d5d1b963ee3a38f8a7740f5dfa756119126
+translation_source_metadata_hash: 816d00b214acaf71eeb2797ff9c4a3de582be74be41ff39b9c93a9f8bcbea85f
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:08:10+00:00
 ---
 > [!info] Stručný popis
 > Rozprávková zahrievacia hra, pri ktorej skupina predvedie krátky príbeh s príslušnými pohybmi.

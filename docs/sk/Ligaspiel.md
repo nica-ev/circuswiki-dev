@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:50
 update: 2025-01-24 23:21:13
-title: Ligaspiel
+title: Ligový zápas
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ligaspiel.md
-translation_source_hash: 753ba3d316cc753c50859d857876d432394044b5ae11740116378835581890c1
+translation_source_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:02:24+00:00
+translation_source_body_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
+translation_source_metadata_hash: 75474f004677e78faa13d948a117a966a8850e2b7b2b0a442a4bc41f8676019c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:56:31+00:00
 ---
 # Úvod do hry "Ligový zápas"
 

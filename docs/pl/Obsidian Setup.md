@@ -3,7 +3,7 @@ lang: pl
 translation_id: obsidian-setup
 publish: true
 tags: 
-title: Obsidian Setup
+title: Konfiguracja Obsidian
 created: 2025-01-23 01:38:52
 update: 2026-06-06 21:43:04
 authors:
@@ -11,9 +11,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Obsidian Setup.md
-translation_source_hash: 12599e90e70b1c7a59227815d654a7076285e589ef224bbe86222277b9b386e6
+translation_source_hash: bf9ce19d8ada1591527eaab93d628ac5f52f6502ff79e986249b1b03be05d9b0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:21:46+00:00
+translation_source_body_hash: bf9ce19d8ada1591527eaab93d628ac5f52f6502ff79e986249b1b03be05d9b0
+translation_source_metadata_hash: 619a6953727d9e5aa408066d3e18868e9afcf59dd5179abedfb71844a72e480e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:01:01+00:00
 ---
 Obsidian jest niezwykle konfigurowalny, co może stanowić wyzwanie dla nowych użytkowników.
 Dostarczamy gotowy zestaw, który można od razu wykorzystać, zawierający wtyczki i motywy, a także ich dopracowane ustawienia.

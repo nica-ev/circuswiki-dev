@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:25:39
 title: Speed Dating
-description: Ein Kennenlernformat mit Innen- und Außenkreis, bei dem kurze Gespräche rotierend wiederholt und später erinnert werden.
+description: A get-to-know-you format with an inner and outer circle, where short conversations are repeated rotationally and recalled later.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Speed Dating.md
-translation_source_hash: 540cd2b8e27f9c7998b4170e3c14cdf4d2afc56aa0c9b3bf74d5a69a6fede19c
+translation_source_hash: ef472f0e6321c0d0d5406b95675cb04734f3ebd1b4436859d8178dc91aa9db5a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:01+00:00
+translation_source_body_hash: ef472f0e6321c0d0d5406b95675cb04734f3ebd1b4436859d8178dc91aa9db5a
+translation_source_metadata_hash: 1b0564a839ab0d3f8bc4c10874cafe5b20e55115ffa68fa5fb1e5ced6d7d2c30
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:43+00:00
 ---
 > [!info] Brief Description
 > An introductory activity with an inner and outer circle, where short conversations are repeated in rotation and later recalled.

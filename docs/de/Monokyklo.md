@@ -18,9 +18,14 @@ website: circustogether.eu
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Monokyklo.md
-translation_source_hash: 712d0a44765d7c171df771eabcb6dcfb1bc46b9473321e54652afe0a1b8e96ec
+translation_source_hash: 3001eb3328c782c6cbe5de46e17a524a805e41247389021804d3652bae9bdd42
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T16:35:37+00:00
+translation_source_body_hash: 3001eb3328c782c6cbe5de46e17a524a805e41247389021804d3652bae9bdd42
+translation_source_metadata_hash: e28d53f226ca407b253c2bcde9d2bd1cc39a923d5a6e25e2893018a4d9e14ca3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:59:35+00:00
 ---
 # Monokyklo
 

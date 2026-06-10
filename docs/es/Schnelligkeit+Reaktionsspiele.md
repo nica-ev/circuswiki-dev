@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Velocidad+Juegos de reacción
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:46+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:35+00:00
 ---
 # Velocidad + Juegos de Reacción
 
@@ -36,16 +41,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Protege a tu amigo](<Besch%C3%BCtze%20deinen%20Freund.md>)    | 8         | 30        | fácil      | ninguno                           | 4-9                |
 | [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | medio      | ninguno                           | 8                  |
 | [Bomba](<Bombe.md>)                                                 | 7         | 30        | fácil      | Pelota                            | 3-6                |
-| [El banco que golpea](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | medio      | ninguno                           | 2-8                |
-| [Chocar manos](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | medio      | ninguno                           | 6                  |
+| [El Banco Pisoteador](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | medio      | ninguno                           | 2-8                |
+| [Chocar las manos](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | medio      | ninguno                           | 6                  |
 | [Carrera de almohadas](<Kissenrennen.md>)                                   | 10        | 40        | medio      | Almohada                            | 3                  |
-| [ven-corre-huye](<komm-mit-lauf-weg.md>)                         | 5         | 99        | fácil      | ninguno                           | 5 - 15     |
+| [Ven, corre](<komm-mit-lauf-weg.md>)                         | 5         | 99        | fácil      | ninguno                           | 5 - 15     |
 | [Comando](<Kommando.md>)                                           | 6         | 25        | fácil      | Esterillas o marcas de asiento | 4-7                |
-| [Correr en posición de cuadrupedia](<Stehbock-Laufbock.md>)                         | 6         | 30        | fácil      | ninguno                           | 3                  |
-| [Toro - Tatonga](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | fácil      | Cuerda                              | 5-10       |
-| [Piedra, papel o tijera en equipo](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | fácil      | ninguno                           | 10         |
-| [Ninja Definitivo](<Ultimate%20Ninja.md>)                             | 5         | 20        | medio      | ninguno                           | 10         |
+| [Caballo de pie, caballo corredor](<Stehbock-Laufbock.md>)                         | 6         | 30        | fácil      | ninguno                           | 3                  |
+| [Toreo - Tatonga](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | fácil      | Cuerda                              | 5-10       |
+| [Equipo Piedra, Papel y Tijera](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | fácil      | ninguno                           | 10         |
+| [Ultimate Ninja](<Ultimate%20Ninja.md>)                             | 5         | 20        | medio      | ninguno                           | 10         |
 | [Zah](<Zah.md>)                                                     | 6         | 30        | fácil      | ninguno                           | 5                  |
-| [Guiñar un ojo](<Zuzwinkern.md>)                                       | 9         | 99        | medio      | ninguno                           | 7          |
+| [Guiño](<Zuzwinkern.md>)                                       | 9         | 99        | medio      | ninguno                           | 7          |
 
 <!-- dynamic:end -->

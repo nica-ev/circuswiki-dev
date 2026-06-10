@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:20
 publish: false
 tags:
   - case-study
-title: Circus Workshop for Children with Special Needs
+title: Cirkusový workshop pre deti so špeciálnymi potrebami
 description:
 authors:
   - Marc Bielert
@@ -15,9 +15,14 @@ land: Germany
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 11 - Germany.md
-translation_source_hash: d8b3578aecc1b616c4633c620911949563c986b552b755458af28bfcac68f511
+translation_source_hash: 7e2b9cddc494d45010d34ddb2f4cd4cd27c5f77200013319e6cc08d37c6ef06e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:34:53+00:00
+translation_source_body_hash: 7e2b9cddc494d45010d34ddb2f4cd4cd27c5f77200013319e6cc08d37c6ef06e
+translation_source_metadata_hash: 11cde3819fc972318d831c9847c10d5177c9a95d55075a04e5b85b8b6d9fe702
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:39+00:00
 ---
 # **Adaptívny workshop cirkusovej pedagogiky pre deti so špeciálnymi potrebami**
 [NICA-EV](NICA-EV.md) - Halle, Nemecko

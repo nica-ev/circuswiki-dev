@@ -6,9 +6,14 @@ update: 2025-02-26 05:52:07
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Test.md
-translation_source_hash: fadd60fc734390110758dd7830582055e4c673510ebd3be5fbf3d68911d0414c
+translation_source_hash: 8402c58d616ce7f6b5ad40be50170377d0a7bff15644855b2d4ef2e33c7c900c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:11:20+00:00
+translation_source_body_hash: 8402c58d616ce7f6b5ad40be50170377d0a7bff15644855b2d4ef2e33c7c900c
+translation_source_metadata_hash: 8a69138cb2e3409b9e45ac70ac7550fbf5f1a4a6a471fbb7b38bec43cb380037
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:42+00:00
 ---
 # Cuadrículas y Pestañas
 

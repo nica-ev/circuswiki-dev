@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:39:47
-title: Schlangen Hasche
-description: Ein Fangspiel am Boden, bei dem gefangene Personen selbst zu Schlangen werden und die übrigen Mitspielenden fangen.
+title: Зміїна ловитва
+description: Гра в наздоганялки на землі, де спіймані гравці самі стають зміями і ловлять інших учасників.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ group-max: "99"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schlangen Hasche.md
-translation_source_hash: b8e2fc0ad86afa535a4997f9fafec95de4c8d57ee454c8c7bc74849093ba9234
+translation_source_hash: 99b6dbb7973df534858e31efbcb7b6f115bfcd4d1050dd25f8ce7634d8e7ccd7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:05+00:00
+translation_source_body_hash: 99b6dbb7973df534858e31efbcb7b6f115bfcd4d1050dd25f8ce7634d8e7ccd7
+translation_source_metadata_hash: 520d8690633aaf4cd6b21499f4ee01ada7834e425654f9b4d8e2cef28009adf0
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:18+00:00
 ---
 > [!info] Короткий опис
 > Гра в квача на підлозі, де спіймані учасники самі стають зміями і ловлять інших гравців.

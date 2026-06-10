@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Hry na honěnou
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:46+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:15+00:00
 ---
 # Honičky
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | soubor                                                                                | min. skupina | max. skupina | Obtížnost        | Materiál              | Délka hry |
 | ------------------------------------------------------------------------------------- | ------------ | ------------ | ---------------- | --------------------- | --------- |
-| [5 Drachen und Zwerge](<5%20Drachen%20und%20Zwerge.md>)                               | 8            | 20           | snadná           | šátky                 | 5-10      |
-| [Bombenspiel](<Bombenspiel.md>)                                                       | 8            | 30           | snadná           | žádný                 | 15-20     |
-| [Farbenhasche](<Farbenhasche.md>)                                                     | 9            | 30           | střední          | šátky                 | 15-20     |
-| [Festnageln](<Festnageln.md>)                                                         | 5            | 25           | střední          | žádný                 | 15-20     |
-| [Fuchs und Hase](<Fuchs%20und%20Hase.md>)                                             | 8            | 25           | střední          | žádný                 | 10 -  15  |
-| [Fuchsjagd](<Fuchsjagd.md>)                                                           | 5            | 25           | snadná           | šátky                 | 10 -  15  |
-| [Goldener Hirsch](<Goldener%20Hirsch.md>)                                             | 10           | 99           | snadná           | žádný                 | 5 - 15    |
-| [Ich habe Glück](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6            | 28           | snadná           | žádný                 | 5 - 10    |
-| [komm-mit-lauf-weg](<komm-mit-lauf-weg.md>)                                           | 5            | 99           | snadná           | žádný                 | 5 - 15    |
-| [Luftballon Hasche](<Luftballon%20Hasche.md>)                                         | 6            | 25           | střední          | žádný                 | 5 - 15    |
-| [Mittelalter Schnick Schnack Schnuck](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6            | 20           | snadná           | žádný                 | 5 - 15    |
-| [Möhre Hase Fuchs](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15           | 99           | snadná           | žádný                 | 10        |
-| [Pinguine und Eisbären](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6            | 31           | snadná - střední | měkká podložka        | 5 - 15    |
-| [Pinguine und Killer-Flamingos](<Pinguine%20und%20Killer-Flamingos.md>)               | 5            | 99           | snadná           | žádný                 | 5 - 10    |
+| [Draci a trpaslíci](<5%20Drachen%20und%20Zwerge.md>)                               | 8            | 20           | snadná           | šátky                 | 5-10      |
+| [Hra s bombou](<Bombenspiel.md>)                                                       | 8            | 30           | snadná           | žádný                 | 15-20     |
+| [Hra na barvy](<Farbenhasche.md>)                                                     | 9            | 30           | střední          | šátky                 | 15-20     |
+| [Přibití](<Festnageln.md>)                                                         | 5            | 25           | střední          | žádný                 | 15-20     |
+| [Liška a zajíc](<Fuchs%20und%20Hase.md>)                                             | 8            | 25           | střední          | žádný                 | 10 -  15  |
+| [Hon na lišku](<Fuchsjagd.md>)                                                           | 5            | 25           | snadná           | šátky                 | 10 -  15  |
+| [Zlatý jelen](<Goldener%20Hirsch.md>)                                             | 10           | 99           | snadná           | žádný                 | 5 - 15    |
+| [Mám štěstí](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6            | 28           | snadná           | žádný                 | 5 - 10    |
+| [Pojď se mnou, uteč](<komm-mit-lauf-weg.md>)                                           | 5            | 99           | snadná           | žádný                 | 5 - 15    |
+| [Balónová honička](<Luftballon%20Hasche.md>)                                         | 6            | 25           | střední          | žádný                 | 5 - 15    |
+| [Středověký kámen, nůžky, papír](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6            | 20           | snadná           | žádný                 | 5 - 15    |
+| [Mrkev Králík Liška](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15           | 99           | snadná           | žádný                 | 10        |
+| [Tučňáci a lední medvědi](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6            | 31           | snadná - střední | měkká podložka        | 5 - 15    |
+| [Tučňáci a plameňáci zabijáci](<Pinguine%20und%20Killer-Flamingos.md>)               | 5            | 99           | snadná           | žádný                 | 5 - 10    |
 | [Popcorn](<Popcorn.md>)                                                               | 5            | 99           | snadná           | žádný                 | 5 - 15    |
-| [Robbe und Eisbären](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5            | 30           | střední          | žádný                 | 10 -  15  |
-| [Schlangen Hasche](<Schlangen%20Hasche.md>)                                           | 6            | 99           | snadná           | žádný                 | 5-10      |
-| [Schwänzchen-Hasche](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5            | 30           | snadná           | šátky                 | 10 -  15  |
-| [Tellerfänger](<Tellerf%C3%A4nger.md>)                                                | 6            | 30           | snadná           | talíř, šátek, diabolo | 5-10      |
-| [Zeithasche](<Zeithasche.md>)                                                         | 6            | 30           | střední          | žádný                 | 15-20     |
+| [Tuleň a lední medvěd](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5            | 30           | střední          | žádný                 | 10 -  15  |
+| [Hra na honěnou s hady](<Schlangen%20Hasche.md>)                                           | 6            | 99           | snadná           | žádný                 | 5-10      |
+| [Honička s ocásky](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5            | 30           | snadná           | šátky                 | 10 -  15  |
+| [Chytání talířů](<Tellerf%C3%A4nger.md>)                                                | 6            | 30           | snadná           | talíř, šátek, diabolo | 5-10      |
+| [Časová kapsa](<Zeithasche.md>)                                                         | 6            | 30           | střední          | žádný                 | 15-20     |
 | [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10           | 98           | snadná           | žádný                 | 10 -  15  |
-| [Zombie Hasche mit Namen](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6            | 30           | střední          | žádný                 | 15-20     |
+| [Zombie Ragú se jménem](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6            | 30           | střední          | žádný                 | 15-20     |
 
 <!-- dynamic:end -->

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:41
 title: Pitbull
-description: Ein kraftvolles Teamspiel, bei dem zwei Mannschaften Linien wechseln und gehobene Personen ins eigene Team übernehmen.
+description: A powerful team game where two teams switch lines and take over lifted individuals into their own team.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pitbull.md
-translation_source_hash: 1acde77ba7449b115a99887947f90d50de43c0765b27cec8bf01b0cac674a4cc
+translation_source_hash: 01e466e8034ea721903fc911689e466d484627ba6b6fc1a5fdae59f0399f1c07
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:11:24+00:00
+translation_source_body_hash: 01e466e8034ea721903fc911689e466d484627ba6b6fc1a5fdae59f0399f1c07
+translation_source_metadata_hash: 22a76f152c0d351ec9793f03ccdeefc43347d0932f7f5d22f2f0f5e76a5a429d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:02:46+00:00
 ---
 > [!info] Brief Description
 > A powerful team game where two teams switch sides and recruit lifted players into their own team.

@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:33
 publish: false
 tags:
   - case-study
-title: Rebuilding Grasp
+title: Reconstruindo o Agarrar
 description:
 authors:
   - Lapo Botteri
@@ -15,9 +15,14 @@ land: Italy
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 04 - Italy.md
-translation_source_hash: 1ec7dfd6c668e0230c4b9c3b2c14785110b591aefab27e0a9decfe188e53d47d
+translation_source_hash: 54c996df3e97594ef3a9cbd9671c05ca36af2fe62c2a28b1ca0ac4e38aecf932
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:32:13+00:00
+translation_source_body_hash: 54c996df3e97594ef3a9cbd9671c05ca36af2fe62c2a28b1ca0ac4e38aecf932
+translation_source_metadata_hash: 77907e02e6f6e10084bc09f03121754b4bb52c0bb5ebc94064b34a0a335ae901
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:43+00:00
 ---
 # **Reconstruindo o Agarre — Malabarismo Funcional e Reabilitação das Mãos em Florença, Itália**
 

@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-18 02:15:58
-title: Farbenhasche
+title: Hra s farbami
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Farbenhasche.md
-translation_source_hash: 5c6615628f73927c1cc08c79997aca9c02a85be6b207d91b558d606773229b39
+translation_source_hash: 4bb62c15e0f5aecd5784d8ccb78bb290c5066b9fc0c2cd0d5e08f765c5ad150d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:41:10+00:00
+translation_source_body_hash: 4bb62c15e0f5aecd5784d8ccb78bb290c5066b9fc0c2cd0d5e08f765c5ad150d
+translation_source_metadata_hash: eb50807ca8b36526eb6f1f68bfa6cb219bf24294433a3a8462720a995d2bceb1
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:24+00:00
 ---
 # Farbovisko
 

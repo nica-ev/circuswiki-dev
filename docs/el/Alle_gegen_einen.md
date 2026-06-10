@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:08
-title: Alle gegen einen
-description: Ein strategisches Kooperationsspiel, bei dem eine Gruppe durch schnelles Besetzen freier Reifen eine einzelne Person aufhalten muss.
+title: Όλοι εναντίον ενός
+description: Ένα στρατηγικό παιχνίδι συνεργασίας όπου μια ομάδα πρέπει να σταματήσει ένα άτομο καταλαμβάνοντας γρήγορα ελεύθερα λάστιχα.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Alle_gegen_einen.md
-translation_source_hash: 45847c3e2d0f4a159f9c05e18bf8fb12babe89a08537094a16ffca9b69b35cc5
+translation_source_hash: 19d7a00f54d541d268a23e462535053d0f74afc6c77b5bcb1ae4f99569ea71ad
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:21:07+00:00
+translation_source_body_hash: 19d7a00f54d541d268a23e462535053d0f74afc6c77b5bcb1ae4f99569ea71ad
+translation_source_metadata_hash: 917ff786b887268a1e78f657d3228badca6adb9c479468a92636c8b42cbc4f4a
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:01:34+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα στρατηγικό παιχνίδι συνεργασίας, στο οποίο μια ομάδα πρέπει να σταματήσει ένα άτομο, καταλαμβάνοντας γρήγορα ελεύθερους κρίκους.

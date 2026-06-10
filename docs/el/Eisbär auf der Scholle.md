@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-02-01 02:29:50
 update: 2025-03-25 23:32:41
-title: Eisbär auf der Scholle
-description: Ein Bewegungsspiel, bei dem die Gruppe eine Matte als Eisscholle voranschiebt, während ein Eisbär sie zu stoppen versucht.
+title: Πολική αρκούδα σε παγόβουνο
+description: Ένα παιχνίδι κίνησης όπου η ομάδα σπρώχνει ένα χαλάκι ως παγόβουνο, ενώ μια πολική αρκούδα προσπαθεί να τους σταματήσει.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eisbär auf der Scholle.md
-translation_source_hash: 40b1f156692a45237de5c0f050a876ce1875d709e7982c01fc413932302b2b10
+translation_source_hash: 26fcc835f6989e6e0924cc7077dd66e5e138c8235c128a027e62f2fe2df57118
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:35:40+00:00
+translation_source_body_hash: 26fcc835f6989e6e0924cc7077dd66e5e138c8235c128a027e62f2fe2df57118
+translation_source_metadata_hash: 42fe905993d4ec300870a18ccaa2d6e4bdbf5310ec9080cb31ecb0407fa44bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:12:20+00:00
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα παιχνίδι κίνησης, στο οποίο η ομάδα σπρώχνει ένα στρώμα ως παγόβουνο προς τα εμπρός, ενώ μια πολική αρκούδα προσπαθεί να τους σταματήσει.

@@ -7,7 +7,7 @@ publish: draft
 tags:
   - tutorial
   - kaskade
-title: Kaskade Workshop - Die Säulenseite
+title: Cascade Workshop - The Pillar Page
 description: 
 authors:
   - Dr. P. Luftiko
@@ -17,9 +17,14 @@ sub-type: Bälle
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Säulen-Seite.md
-translation_source_hash: 8bc484332291e6cd34fa9e0b657068a334364c54f2e307627c810c7fe3f1e71d
+translation_source_hash: b03c66086dd523e662d48ae655f9405ebc4b1760773b89c3e4528eeb70d9af4d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:22:01+00:00
+translation_source_body_hash: b03c66086dd523e662d48ae655f9405ebc4b1760773b89c3e4528eeb70d9af4d
+translation_source_metadata_hash: 51814096618e8dd23c2e61b2f9008bed308ae512fcf0171aa0f09c4715685fe7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:09:22+00:00
 ---
 ### The Columns Pattern
 Source: [Cascade 001](Kaskade%20001.md#Die%20Säulen-Seite)

@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:50
 update: 2025-01-24 04:26:50
-title: Blockspiel
+title: Block Game
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Blockspiel.md
-translation_source_hash: c3658801d587e6ed37d5caae300406b0e4b6f64b0664b50abcd5e151b5dbf934
+translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:19:39+00:00
+translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:55+00:00
 ---
 # Game Introduction: "Block Game"
 

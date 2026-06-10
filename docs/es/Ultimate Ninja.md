@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:50
 title: Ultimate Ninja
-description: Ein Reaktionsspiel im Kreis, bei dem Ninjas mit schnellen Bewegungen Hände abschlagen und ausweichen.
+description: Un juego de reacción en círculo donde los ninjas se cortan las manos y esquivan con movimientos rápidos.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ultimate Ninja.md
-translation_source_hash: ef460f0f0c1721938cf90bc662897b2ee6a5d178d4663ebd0891eb2c3f3159e4
+translation_source_hash: 9d0fbd161c3de128567b76865dc3d6ec766122f858f036fffcba6a0c817190a8
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:32:53+00:00
+translation_source_body_hash: 9d0fbd161c3de128567b76865dc3d6ec766122f858f036fffcba6a0c817190a8
+translation_source_metadata_hash: 9c7c05adbdbafe077ad2e0d97dea6355073fb2734d9adeaa6005f8821db04c15
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:10:22+00:00
 ---
 > [!info] Breve descripción
 > Un juego de reacción en círculo en el que los ninjas se golpean las manos y esquivan con movimientos rápidos.

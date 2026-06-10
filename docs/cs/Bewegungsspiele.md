@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Pohybové hry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:26:01+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:28+00:00
 ---
 # Pohybové hry
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | soubor                                                                      | min. skupina | max. skupina | obtížnost | materiál                                        | délka hry |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------------------- | ---------- |
-| [3 v řadě](<3%20gewinnt.md>)                                             | 4         | 30        | střední        | 9 kruhů, 6 barevných předmětů, startovní značka | 5-20       |
-| [Orel, zajíc, zelí](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | střední        | žádné                                          | 5-15       |
-| [Oheň, voda, písek](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | snadná       | vyvýšeniny, volitelně buben                    | 5-15       |
-| [Chytání figur](<Figurenfangen.md>)                                       | 6         | 30        | střední        | žádné                                          | 6          |
-| [Chytání nohama](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | snadná       | žádné                                          | 5-10       |
-| [Žralok](<Haifisch.md>)                                                 | 10        | 30        | snadná       | žádné                                          | 5          |
+| [Tři v řadě](<3%20gewinnt.md>)                                             | 4         | 30        | střední        | 9 kruhů, 6 barevných předmětů, startovní značka | 5-20       |
+| [Orel - Zajíček - Hlávka zelí](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | střední        | žádné                                          | 5-15       |
+| [Oheň Voda Písek](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | snadná       | vyvýšeniny, volitelně buben                    | 5-15       |
+| [Chytání postav](<Figurenfangen.md>)                                       | 6         | 30        | střední        | žádné                                          | 6          |
+| [Přibití nohou](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | snadná       | žádné                                          | 5-10       |
+| [Žralok a ryba](<Haifisch.md>)                                                 | 10        | 30        | snadná       | žádné                                          | 5          |
 | [Každý chytá každého](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | snadná       | žádné                                          | 3          |
 | [Kočka a myš](<Katz%20und%20Maus.md>)                                   | 10        | 30        | těžká        | žádné                                          | 5-10       |
-| [Chytání se sponkami](<Klammern%20haschen.md>)                               | 5         | 30        | snadná       | kolíčky na prádlo                                  | 4-6        |
+| [Chytání kolíčků](<Klammern%20haschen.md>)                               | 5         | 30        | snadná       | kolíčky na prádlo                                  | 4-6        |
 | [Nemocnice](<Krankenhaus.md>)                                           | 8         | 30        | snadná       | žíněnky                                          | 5-10       |
 | [Člověče, nezlob se](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | snadná       | kruhy nebo obruče                                                          | 20-30      |
-| [Mrkev, zajíc, liška](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | snadná       | žádné                                          | 10         |
-| [Chytání v párech a řetězech](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | snadná       | žádné                                          | 5          |
+| [Mrkev Králík Liška](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | snadná       | žádné                                          | 10         |
+| [Párové chytání a řetězové chytání](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | snadná       | žádné                                          | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | střední        | žádné                                          | 7          |
-| [Trhání ovcí](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | snadná       | žádné                                          | 3-5        |
-| [Sestřičko, pomoz](<Schwesterchen%20hilf.md>)                           | 8         | 30        | snadná       | žádné                                          | 5          |
+| [Ovce trhají](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | snadná       | žádné                                          | 3-5        |
+| [Pomoz mi, sestřičko](<Schwesterchen%20hilf.md>)                           | 8         | 30        | snadná       | žádné                                          | 5          |
 | [Tričko v kalhotách](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | střední        | míč                                            | 5-15       |
-| [Chytání na čtyři barvy](<Vierfarbenfangen.md>)                                 | 20        | 40        | střední        | volitelně barevné dresy                        | 10         |
+| [Chytání čtyř barev](<Vierfarbenfangen.md>)                                 | 20        | 40        | střední        | volitelně barevné dresy                        | 10         |
 | [Časovaná bomba](<Zeitbombe.md>)                                               | 8         | 30        | snadná       | značka pro chytače                           | 5-10       |
-| [Zombie míč](<Zombieball.md>)                                             | 5         | 30        | střední        | míče                                           | 10         |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | střední        | míče                                           | 10         |
 
 <!-- dynamic:end -->

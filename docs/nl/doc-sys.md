@@ -7,13 +7,18 @@ created: 2025-01-18 21:15:11
 update: 2025-01-24 03:19:38
 authors:
   - Marc Bielert
-title: Dokumentations-System
+title: Documentatiesysteem
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/doc-sys.md
-translation_source_hash: 50ce419648338f499062d463975abf0bb12d0b97d764564e037f697a564c3b59
+translation_source_hash: f9fdb4da5122606df60bd40bdaf3117ed6ca028c5c2eaeb24c3d2005195bf4a6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:14:51+00:00
+translation_source_body_hash: f9fdb4da5122606df60bd40bdaf3117ed6ca028c5c2eaeb24c3d2005195bf4a6
+translation_source_metadata_hash: f30189f3dab0fb2281c175d254c634ca9d3bcf79a75afc871ab1e3a8ad586280
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:10:18+00:00
 ---
 We gebruiken MkDocs als systeem om onze processen, werkwijzen en procedures te documenteren en online beschikbaar te stellen.
 

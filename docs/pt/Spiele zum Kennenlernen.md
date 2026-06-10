@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:43:00
-title: Spiele zum Kennenlernen / Vorstellen
+title: Jogos para Conhecer / Apresentar
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 889ccbb3992353ba3a414ee00c88fcf38db692dbeac2ed61f6b3c2ba6d49a74a
+translation_source_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:28:04+00:00
+translation_source_body_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
+translation_source_metadata_hash: 7b9b10b9f39a10e7ceda15394b2acd63ae993b594e7a5d7f6712fb93e1819ed7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:13+00:00
 ---
 # Jogos para Conhecer / Apresentar
 
@@ -36,21 +41,21 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | ficheiro                                                                                                  | min. grupo | máx. grupo | Dificuldade    | Material       | Duração do jogo |
 | --------------------------------------------------------------------------------------------------------- | ---------- | ---------- | -------------- | -------------- | --------------- |
 | [Confusão de Bolas](<B%C3%A4llewirrwarr.md>)                                                              | 5          | 15         | fácil - difícil | Bolas          | 10              |
-| [Lados Bons](<Gute%20Seiten.md>)                                                                           | 6          | 30         | fácil          | Papel, canetas | 10 - 30         |
+| [Bons Lados](<Gute%20Seiten.md>)                                                                           | 6          | 30         | fácil          | Papel, canetas | 10 - 30         |
 | [Olá, eu sou](<Hallo%20ich%20bin.md>)                                                                     | 4          | 25         | fácil          | nenhum         | 2-10            |
 | [Olá, eu sou - com bolas](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                                 | 3          | 30         | fácil          | Bolas          | 10 - 15         |
-| [Eu viajo de comboio](<Ich%20fahre%20Zug.md>)                                                              | 10         | 30         | médio          | Cadeiras       | a combinar      |
-| [Conhecer com bolas](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                                | 4          | 20         | fácil          | Bolas          | 2-10            |
-| [Conhecer com bolas a correr atrás](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)              | 5          | 25         | fácil - médio  | Bolas          | 10 - 15         |
-| [Luta de nomes](<Namenkampf.md>)                                                                          | 10         | 30         | fácil          | pano grande    | 10 - 15         |
-| [Ninguém gosta de estar sozinho](<Niemand%20ist%20gern%20allein.md>)                                      | 8          | 99         | fácil          | nenhum         | a combinar      |
-| [Bofetadas e beijos](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                                    | 5          | 30         | médio          | nenhum         | 10 - 15         |
-| [Robert a foca corredora](<Robert%20die%20rennende%20Robbe.md>)                                            | 4          | 12         | fácil          | nenhum         | 3 - 10          |
-| [Apresentar-se mutuamente](<Sich%20gegenseitig%20vorstellen.md>)                                          | 5          | 15         | médio          | nenhum         | 10 - 15         |
-| [Criança perdida](<Suchkind.md>)                                                                          | 5          | 20         | médio          | nenhum         | 20 - 30         |
-| [Conversas na presença](<Tratschen%20in%20Anwesenheit.md>)                                                | 3          | 6          | fácil          | nenhum         | 10-15           |
-| [Rodada de apresentações - Trajetória - Simbólica](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2          | 10         | médio          | vários         | 30-45           |
+| [Eu vou de trem](<Ich%20fahre%20Zug.md>)                                                              | 10         | 30         | médio          | Cadeiras       | a combinar      |
+| [Conhecendo com Bolas](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                                | 4          | 20         | fácil          | Bolas          | 2-10            |
+| [Conhecendo com bolas, correr atrás](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)              | 5          | 25         | fácil - médio  | Bolas          | 10 - 15         |
+| [Disputa de Nomes](<Namenkampf.md>)                                                                          | 10         | 30         | fácil          | pano grande    | 10 - 15         |
+| [Ninguém gosta de ficar sozinho](<Niemand%20ist%20gern%20allein.md>)                                      | 8          | 99         | fácil          | nenhum         | a combinar      |
+| [Tapas e Beijos](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                                    | 5          | 30         | médio          | nenhum         | 10 - 15         |
+| [Robert a Foca Corredora](<Robert%20die%20rennende%20Robbe.md>)                                            | 4          | 12         | fácil          | nenhum         | 3 - 10          |
+| [Apresentar uns aos outros](<Sich%20gegenseitig%20vorstellen.md>)                                          | 5          | 15         | médio          | nenhum         | 10 - 15         |
+| [Criança Procurada](<Suchkind.md>)                                                                          | 5          | 20         | médio          | nenhum         | 20 - 30         |
+| [Fofoca na Presença](<Tratschen%20in%20Anwesenheit.md>)                                                | 3          | 6          | fácil          | nenhum         | 10-15           |
+| [Apresentação - Trajetória - Simbólica](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2          | 10         | médio          | vários         | 30-45           |
 | [Zombie](<Zombie.md>)                                                                                     | 6          | 18         | médio          | nenhum         | 5-10            |
-| [Disparo de água com açúcar](<Zuckerwasserschie%C3%9Fen.md>)                                               | 6          | 20         | um pouco mais difícil | nenhum         | 7               |
+| [Tiro de Água com Açúcar](<Zuckerwasserschie%C3%9Fen.md>)                                               | 6          | 20         | um pouco mais difícil | nenhum         | 7               |
 
 <!-- dynamic:end -->

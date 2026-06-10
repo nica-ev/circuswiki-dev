@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:06:17
 title: Bille Bille Bob
-description: Ein schnelles Reaktionsspiel, bei dem Kommandos im Kreis mit Worten, Gesten und Gruppenfiguren beantwortet werden.
+description: Ένα γρήγορο παιχνίδι αντίδρασης όπου εντολές απαντώνται σε κύκλο με λέξεις, χειρονομίες και ομαδικές φιγούρες.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bille Bille Bob.md
-translation_source_hash: fe311adf40a3da6799536de160fbf8cf167ea556abaa04b9e36992fe9c45979e
+translation_source_hash: 7ab9fa8dfb2baf9bbc03fd7112ca9709def1fc8280ff926d25c8548581cf6fa4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:27:35+00:00
+translation_source_body_hash: 7ab9fa8dfb2baf9bbc03fd7112ca9709def1fc8280ff926d25c8548581cf6fa4
+translation_source_metadata_hash: 22232ebdfdd191888bca0390d265d3bd356cc70749c23554774f4c9252713041
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:51+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα γρήγορο παιχνίδι αντίδρασης, όπου οι εντολές απαντώνται σε κύκλο με λέξεις, χειρονομίες και ομαδικές φιγούρες.

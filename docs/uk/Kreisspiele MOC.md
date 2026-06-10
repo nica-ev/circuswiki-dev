@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Ігри в колі
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:31+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:38+00:00
 ---
 # Ігри в колі MOC
 
@@ -37,32 +42,32 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ------------------ | ---------- |
 | [Кидання м'яча у зірку](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | легко          | м'ячі              | 5-10       |
 | [Захисти свого друга](<Besch%C3%BCtze%20deinen%20Freund.md>)                                      | 8         | 30        | легко          | нічого             | 4-9        |
-| [Співбесіда в цирку](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | легко          | нічого             | 5-10       |
-| [Бібель Ді Бабель Ді Бу](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6         | 25        | середньо           | нічого             | 10-15      |
+| [Заявка в цирку](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | легко          | нічого             | 5-10       |
+| [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6         | 25        | середньо           | нічого             | 10-15      |
 | [Бомба](<Bombe.md>)                                                                                   | 7         | 30        | легко          | м'яч               | 3-6        |
 | [Схрещені руки](<Crossed%20Hands.md>)                                                                 | 5         | 20        | легко          | нічого             | 5-10       |
 | [Бомба](<Die%20Bombe.md>)                                                                         | 6         | 30        | легко          | м'яч               | 5-10       |
-| [Змінити шкіру змії](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | легко          | нічого             | 5-10       |
-| [Знизу і зверху](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | легко          | предмети        | 5-10       |
-| [Енергетичний плескаючий круг](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | легко          | нічого             | 2-5        |
+| [Змійка скидає шкіру](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | легко          | нічого             | 5-10       |
+| [Вниз і вгору](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | легко          | предмети        | 5-10       |
+| [Коло енергії](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | легко          | нічого             | 2-5        |
 | [Привіт, я](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | легко          | нічого             | 2-10       |
 | [Привіт, я - з м'ячами](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | легко          | м'ячі              | 10 -  15   |
 | [Знайомство з м'ячами](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | легко          | м'ячі              | 2-10       |
-| [Знайомство з м'ячами, що біжать за ними](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | легко - середньо | м'ячі              | 10 -  15   |
-| [Плескання з зоровим контактом](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | легко          | нічого             | 5-10       |
+| [Знайомство з м'ячами, біг навздогін](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | легко - середньо | м'ячі              | 10 -  15   |
+| [Плітки з зоровим контактом](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | легко          | нічого             | 5-10       |
 | [Масажна гра - Фермер і картопляне поле](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)         | 4         | 20        | легко          | нічого             | 5-10       |
 | [Медуза](<Medusa.md>)                                                                                 | 5         | 25        | легко          | нічого             | 5-10       |
-| [Вушко голки](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | легко          | нічого             | 5-10       |
-| [Пенг-Пенг-Бух-Ми-летимо-в-космос](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | легко          | нічого             | 5-10       |
-| [Пенг!](<Peng%21.md>)                                                                                 | 5         | 25        | легко          | нічого             | 5-10       |
+| [Вузьке місце](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | легко          | нічого             | 5-10       |
+| [Пен, пен, бах - летимо в космос](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | легко          | нічого             | 5-10       |
+| [Peng](<Peng%21.md>)                                                                                 | 5         | 25        | легко          | нічого             | 5-10       |
 | [Обмін місцями через зоровий контакт](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | легко          | нічого             | 5-10       |
-| [Представити один одного](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | середньо           | нічого             | 10 -  15   |
+| [Представитися один одному](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | середньо           | нічого             | 10 -  15   |
 | [Сортування в групі](<Sortieren%20in%20der%20Gruppe.md>)                                         | 5         | 25        | середньо           | стільці або табурети | 5-15       |
-| [Бій биків - Татонга](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | легко          | мотузка               | 5-10       |
-| [Одружені-Розлучені](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | легко          | нічого             | 5-10       |
-| [Коло представлення - Шлях - Символічно](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | середньо           | різне      | 30-45      |
+| [Корида - Татонга](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | легко          | мотузка               | 5-10       |
+| [Одружені, Розлучені](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | легко          | нічого             | 5-10       |
+| [Представлення - Шлях - Символічно](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | середньо           | різне      | 30-45      |
 | [Зах](<Zah.md>)                                                                                       | 6         | 30        | легко          | нічого             | 5          |
-| [Вбивця язика](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | середньо           | нічого             | 5 - 10     |
+| [Убивця язиком](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | середньо           | нічого             | 5 - 10     |
 | [Підморгування](<Zuzwinkern.md>)                                                                         | 9         | 99        | середньо           | нічого             | 7          |
 
 <!-- dynamic:end -->

@@ -7,7 +7,7 @@ publish: draft
 tags:
   - tutorial
   - kaskade
-title: Kaskade Workshop - Schummeln!
+title: Kaskade Workshop - Csalás!
 description: 
 authors:
   - Dr. P. Luftiko
@@ -17,9 +17,14 @@ sub-type: Bälle
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schummeln!.md
-translation_source_hash: 7e01a5bf115fec1690505f11cfbf70afcd2135980b36d1285c7d308bc0432e01
+translation_source_hash: 51da123493f3cd6c4f75bdf53185b294ba32b8d8f50bb215b5db0189f99c4ad1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:49:09+00:00
+translation_source_body_hash: 51da123493f3cd6c4f75bdf53185b294ba32b8d8f50bb215b5db0189f99c4ad1
+translation_source_metadata_hash: caa9d864d0b3f161e86c02114b47388bebaca9dcda618ac37589014c01070525
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:06:02+00:00
 ---
 ### Csalás!
 Forrás: [Kaskade 001](Kaskade%20001.md#Schummeln!)

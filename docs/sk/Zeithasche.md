@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 22:51:48
-title: Zeithasche
+title: Časová kapsa
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zeithasche.md
-translation_source_hash: a5fd5c03c602878f850c73b626b36010fa6588151db7a926c9a5e8d96697be1a
+translation_source_hash: 3d275194aa01b8147dec89f3849fa2016d5a857d7f54a8be95c569715829d982
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:33:29+00:00
+translation_source_body_hash: 3d275194aa01b8147dec89f3849fa2016d5a857d7f54a8be95c569715829d982
+translation_source_metadata_hash: 2a2a66a2f7ab22c212ca9034304193b64c28eb3916a3429db5d4a7b17b365f98
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:13:16+00:00
 ---
 > [!info] Stručný popis
 > Rýchla naháňačka pre malé až stredne veľké skupiny, v ktorej dva tímy súťažia o najlepší čas na chytenie.

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:07
-title: Alaska Baseball
-description: Ein laufintensives Teamspiel, bei dem Werfen, Sammeln und schnelle Gruppenkoordination über möglichst viele Runden entscheiden.
+title: Béisbol de Alaska
+description: Un juego de equipo basado en carreras donde lanzar, atrapar y la coordinación rápida del grupo deciden la mayor cantidad de rondas posible.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: "100"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Alaska Baseball.md
-translation_source_hash: 04713aafd85e0c626e7250a1987f47d9c4adc42fcc1a3afaa9beb19174660412
+translation_source_hash: 7248555137ddab94b3e2c43cbbca2bb8f665e557893775c7f749711d4d6564d1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:20:45+00:00
+translation_source_body_hash: 7248555137ddab94b3e2c43cbbca2bb8f665e557893775c7f749711d4d6564d1
+translation_source_metadata_hash: dce180ed34eb06d00494c4f13510426d77197bc93c4c468eca18d02863a13820
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:01:27+00:00
 ---
 > [!info] Breve descripción
 > Un juego de equipo que requiere mucha carrera, donde lanzar, recoger y una rápida coordinación grupal deciden cuántas rondas se pueden completar.

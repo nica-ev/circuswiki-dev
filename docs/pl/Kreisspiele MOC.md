@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Gry w kręgu
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:00+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:34+00:00
 ---
 # Gry w kręgu MOC
 
@@ -35,34 +40,34 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | plik                                                                                                  | min. gr. | maks. gr. | trudność         | materiały          | czas gry |
 | ----------------------------------------------------------------------------------------------------- | -------- | --------- | ---------------- | ------------------ | -------- |
-| [Rzucanie piłką w gwiazdę](<Ball%20werfen%20im%20Stern.md>)                                         | 5        | 15        | łatwa            | piłki              | 5-10     |
+| [Rzut piłką w gwiazdę](<Ball%20werfen%20im%20Stern.md>)                                         | 5        | 15        | łatwa            | piłki              | 5-10     |
 | [Chroń swojego przyjaciela](<Besch%C3%BCtze%20deinen%20Freund.md>)                                       | 8        | 30        | łatwa            | brak               | 4-9      |
-| [Rekrutacja do cyrku](<Bewerbung%20im%20Zirkus.md>)                                                   | 8        | 99        | łatwa            | brak               | 5-10     |
+| [Aplikacja w cyrku](<Bewerbung%20im%20Zirkus.md>)                                                   | 8        | 99        | łatwa            | brak               | 5-10     |
 | [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6        | 25        | średnia          | brak               | 10-15    |
 | [Bomba](<Bombe.md>)                                                                                   | 7        | 30        | łatwa            | piłka              | 3-6      |
-| [Skrzyżowane ręce](<Crossed%20Hands.md>)                                                            | 5        | 20        | łatwa            | brak               | 5-10     |
+| [Skrzyżowane dłonie](<Crossed%20Hands.md>)                                                            | 5        | 20        | łatwa            | brak               | 5-10     |
 | [Bomba](<Die%20Bombe.md>)                                                                                   | 6        | 30        | łatwa            | piłka              | 5-10     |
 | [Zrzucanie skóry przez węża](<Die%20Schlange%20h%C3%A4uten.md>)                                    | 5        | 20        | łatwa            | brak               | 5-10     |
-| [Góra i dół](<Drunter%20und%20Dr%C3%BCber.md>)                                                                     | 5        | 20        | łatwa            | przedmioty         | 5-10     |
-| [Krąg klaskania energią](<Energie%20Klatschkreis.md>)                                              | 5        | 99        | łatwa            | brak               | 2-5      |
+| [Drunter und Drüber](<Drunter%20und%20Dr%C3%BCber.md>)                                                                     | 5        | 20        | łatwa            | przedmioty         | 5-10     |
+| [Krąg Energii](<Energie%20Klatschkreis.md>)                                              | 5        | 99        | łatwa            | brak               | 2-5      |
 | [Cześć, jestem](<Hallo%20ich%20bin.md>)                                                                 | 4        | 25        | łatwa            | brak               | 2-10     |
 | [Cześć, jestem - z piłkami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                                   | 3        | 30        | łatwa            | piłki              | 10 -  15 |
 | [Poznawanie się z piłkami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                       | 4        | 20        | łatwa            | piłki              | 2-10     |
-| [Poznawanie się z piłkami w biegu](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)                   | 5        | 25        | łatwa - średnia  | piłki              | 10 -  15 |
-| [Klaskanie z kontaktem wzrokowym](<Klatsch%20mit%20Augenkontakt.md>)                          | 5        | 99        | łatwa            | brak               | 5-10     |
+| [Poznawanie się z piłkami, gonitwa](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)                   | 5        | 25        | łatwa - średnia  | piłki              | 10 -  15 |
+| [Plotka z kontaktem wzrokowym](<Klatsch%20mit%20Augenkontakt.md>)                          | 5        | 99        | łatwa            | brak               | 5-10     |
 | [Gra w masaż - Rolnik i pole ziemniaków](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)     | 4        | 20        | łatwa            | brak               | 5-10     |
-| [Medusa](<Medusa.md>)                                                                                 | 5        | 25        | łatwa            | brak               | 5-10     |
-| [Dziurka od igły](<Nadel%C3%B6hr.md>)                                                          | 5        | 30        | łatwa            | brak               | 5-10     |
-| [Peng-Peng-Knall-Wir-fliegen-in-das-All](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4        | 20        | łatwa            | brak               | 5-10     |
-| [Peng!](<Peng%21.md>)                                                                                 | 5        | 25        | łatwa            | brak               | 5-10     |
+| [Meduza](<Medusa.md>)                                                                                 | 5        | 25        | łatwa            | brak               | 5-10     |
+| [Długa kolejka](<Nadel%C3%B6hr.md>)                                                          | 5        | 30        | łatwa            | brak               | 5-10     |
+| [Puk, puk, bum – lecimy w kosmos](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4        | 20        | łatwa            | brak               | 5-10     |
+| [Peng](<Peng%21.md>)                                                                                 | 5        | 25        | łatwa            | brak               | 5-10     |
 | [Zamiana miejsc przez kontakt wzrokowy](<Platztausch%20durch%20Augenkontakt.md>)           | 5        | 25        | łatwa            | brak               | 5-10     |
-| [Wzajemne przedstawianie się](<Sich%20gegenseitig%20vorstellen.md>)                                    | 5        | 15        | średnia          | brak               | 10 -  15 |
+| [Przedstawianie się nawzajem](<Sich%20gegenseitig%20vorstellen.md>)                                    | 5        | 15        | średnia          | brak               | 10 -  15 |
 | [Sortowanie w grupie](<Sortieren%20in%20der%20Gruppe.md>)                                                  | 5        | 25        | średnia          | krzesła lub stołki | 5-15     |
-| [Walka byków - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                             | 5        | 20        | łatwa            | lina               | 5-10     |
-| [Zamężna-Rozwiedziona](<Verheiratet-Geschieden.md>)                                                    | 8        | 99        | łatwa            | brak               | 5-10     |
-| [Runda przedstawiania - Ścieżka kariery - Symbolicznie](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2        | 10        | średnia          | różne              | 30-45    |
+| [Taniec z bykiem - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                             | 5        | 20        | łatwa            | lina               | 5-10     |
+| [Małżeństwo, Rozwód](<Verheiratet-Geschieden.md>)                                                    | 8        | 99        | łatwa            | brak               | 5-10     |
+| [Runda przedstawień - Ścieżka kariery - Symboliczna](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2        | 10        | średnia          | różne              | 30-45    |
 | [Zah](<Zah.md>)                                                                                       | 6        | 30        | łatwa            | brak               | 5        |
-| [Zabójca języka](<Zungenm%C3%B6rder.md>)                                                              | 10        | 30        | średnia          | brak               | 5 - 10   |
+| [Zabójca Języków](<Zungenm%C3%B6rder.md>)                                                              | 10        | 30        | średnia          | brak               | 5 - 10   |
 | [Mrugnięcie](<Zuzwinkern.md>)                                                                         | 9        | 99        | średnia          | brak               | 7        |
 
 <!-- dynamic:end -->

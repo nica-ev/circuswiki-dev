@@ -2,11 +2,11 @@
 lang: de
 translation_id: case-study-14-united-states
 created: 2025-08-30 21:35:00
-update: 2026-06-07 00:08:37
+update: 2026-06-06 21:49:38
 publish: false
 tags:
   - case-study
-title: Supporting Writing Tool Proficiency
+title: Unterstützung der Beherrschung von Schreibwerkzeugen
 description:
 authors:
   - Craig Quat
@@ -14,11 +14,15 @@ land: United States
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 14 - United States.md
-translation_source_hash: 443f002e7947cf39f860a4c596a7e62a780f63d6f19fa04f58e2516a925104df
+translation_source_hash: 6dee4135dc43dae1b8a0a64c869137be3d5839122b892e21bfa1d4cb0971620b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:43+00:00
+translation_source_body_hash: 6dee4135dc43dae1b8a0a64c869137be3d5839122b892e21bfa1d4cb0971620b
+translation_source_metadata_hash: a26c283eceeaf69efa2efebf77b2f4b3e61f2381c56f2d93ea98ecce91d4bc40
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:56+00:00
 ---
-
 # **Funktionelles Jonglieren zur Förderung der Schreibwerkzeugkompetenz bei einem Kind mit ADHS**
 
 [Quat Props](Quat%20Props.md) - Vereinigte Staaten

@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Popcorn.md
-translation_source_hash: ce88bf572e08ca2b7b2061b6cc9b10be76f5a0a1facb1aa75f4cb8fbcc905019
+translation_source_hash: fe993d67b3c45d673aa584e58d6d8591666db47afbcc7fc8205b7dcdad0ea696
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:27:54+00:00
+translation_source_body_hash: fe993d67b3c45d673aa584e58d6d8591666db47afbcc7fc8205b7dcdad0ea696
+translation_source_metadata_hash: f65f305fc1c3a3325ab854f8c86166c8d47ad3cdbb35ef4c878e01714c95f4b8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:03:05+00:00
 ---
 > [!info] Short Description
 > A dynamic tag game for any group size, ideal as a warm-up activity, where participants transform from "corn kernels" into bouncing "popcorn."

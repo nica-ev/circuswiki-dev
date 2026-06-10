@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:16:29
-title: Call & Response - Spiele
+title: Call & Response - Gry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/MOC Call & Response Spiele.md
-translation_source_hash: d0f0634536a9097ba8d8c2c38c1b2a0316eed5ebb55db85f6e5c8d87f6ab7517
+translation_source_hash: 5245f958eb5f21dd3d7078feb12dca90ba6b4d9aac84072ddf787dbb26cd16a9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:06:58+00:00
+translation_source_body_hash: 5245f958eb5f21dd3d7078feb12dca90ba6b4d9aac84072ddf787dbb26cd16a9
+translation_source_metadata_hash: 449164b1c37695bc31b9532b6016386cbc7f7a56ee182c78c01f51f939bc8e2c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:59:19+00:00
 ---
 # Wywołanie i Odpowiedź
 
@@ -34,6 +39,6 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | plik                                                              | min. gr. | maks. gr. | Trudność | Materiał | Czas gry |
 | ----------------------------------------------------------------- | -------- | --------- | -------- | -------- | -------- |
 | [Historia banana](<Die%20Geschichte%20der%20Banane.md>)           | 4        | 99        | łatwy    | brak     | 5-10     |
-| [Polowanie na lwa](<L%C3%B6wenjagd.md>)                            | 4        | 99        | łatwy    | brak     | 5-10     |
+| [Polowanie na lwy](<L%C3%B6wenjagd.md>)                            | 4        | 99        | łatwy    | brak     | 5-10     |
 
 <!-- dynamic:end -->

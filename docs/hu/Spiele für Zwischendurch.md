@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Játékok menet közben
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:41+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:01+00:00
 ---
 # Rövid játékok
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                      | group-min | group-max | Nehézség      | Anyag                  | Játékidő |
 | ----------------------------------------------------------------------------------------- | --------- | --------- | ------------- | ---------------------- | -------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2         | 99        | könnyű         | semmi                  | 5-10     |
+| [Egy, kettő, három](<1-2-3.md>)                                                                       | 2         | 99        | könnyű         | semmi                  | 5-10     |
 | [Egyiptomi dobójáték](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | közepes       | labdák                 | 5 - 10   |
 | [Feladatjáték](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | közepes       | semmi                  | 5-15     |
 | [Figyelemjáték labdákkal](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | könnyű         | labdák                 | 5-10     |
 | [Avatar](<Avatar.md>)                                                                     | 2         | 30        | könnyű         | semmi                  | 5-10     |
-| [Igen játék](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | könnyű         | semmi                  | 5-10     |
+| [Az Igen Játék](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | könnyű         | semmi                  | 5-10     |
 | [A fényképész](<Der%20Photograph.md>)                                                   | 5         | 25        | könnyű         | semmi                  | 10-20    |
 | [A cirkusz a városban van](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | könnyű         | semmi                  | 5-15     |
-| [A cirkusz a városba jön](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | könnyű         | szőnyeg, kijelölt területek | 5-15     |
+| [A cirkusz a városba érkezik](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | könnyű         | szőnyeg, kijelölt területek | 5-15     |
 | [Evolúció](<Evolution.md>)                                                               | 12        | 40        | könnyű         | semmi                  | 10       |
 | [Kő-papír-olló Fan](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | könnyű         | semmi                  | 8        |
 | [Ujjvívás](<Finger-Fechten.md>)                                                     | 2         | 99        | könnyű         | semmi                  | 2-5      |
 | [Barát és ellenség](<Freund%20und%20Feind.md>)                                             | 5         | 20        | könnyű         | semmi                  | 2-5      |
-| [Hasonmás](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | könnyű         | opcionális zene            | 5-15     |
-| [Nagyok kicsik ellen](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | közepes       | szőnyeg                | 1-5      |
+| [Hasonmások](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | könnyű         | opcionális zene            | 5-15     |
+| [Nagy ellen kicsi](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | közepes       | szőnyeg                | 1-5      |
 | [Jó napot, szomszéd!](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | közepes       | semmi                  | 5-10     |
 | [Emberi memória](<Human%20Memory.md>)                                                       | 8         | 40        | könnyű         | semmi                  | 10-15    |
-| [Gyilkos rádióautó](<Killerfunkwagen.md>)                                                   | 2         | 30        | könnyű         | semmi                  | 5-10     |
-| [Csevegő színház](<Klatsch%20Theater.md>)                                                 | 4         | 20        | könnyű         | semmi                  | 7        |
-| [Az ég királya](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | közepes       | semmi                  | 5-10     |
-| [Az istálló](<Kuhstall.md>)                                                                 | 7         | 40        | könnyű         | semmi                  | 5-10     |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2         | 30        | könnyű         | semmi                  | 5-10     |
+| [Pletyka Színház](<Klatsch%20Theater.md>)                                                 | 4         | 20        | könnyű         | semmi                  | 7        |
+| [A levegő királya](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | közepes       | semmi                  | 5-10     |
+| [Tehénistálló](<Kuhstall.md>)                                                                 | 7         | 40        | könnyű         | semmi                  | 5-10     |
 | [Nevető medve](<Lachb%C3%A4r.md>)                                                              | 6         | 30        | könnyű         | semmi                  | 4        |
 | [Lézerkard](<Laserschwert.md>)                                                         | 5         | 25        | könnyű         | semmi                  | 5-10     |
-| [Lufi egyensúlyozás](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | könnyű         | léggömbök              | 5-10     |
+| [Léggömbök Egyensúlyozása](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | könnyű         | léggömbök              | 5-10     |
 | [Mészárlás](<Massaker.md>)                                                                 | 2         | 30        | könnyű         | semmi                  | 5-10     |
 | [Névharc](<Namenkampf.md>)                                                             | 10        | 30        | könnyű         | nagy kendő             | 10 -  15   |
-| [Kalóz üdvözlőjáték](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | könnyű         | semmi                  | 5-10     |
+| [Kalóz köszöntő játék](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | könnyű         | semmi                  | 5-10     |
 | [Kalózkapitány](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | könnyű         | szőnyeg                | 5-15     |
-| [Karikák átadása körben](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | könnyű         | karikák                | 5-10     |
-| [Árnyékfutás](<Schattenlauf.md>)                                                         | 2         | 99        | könnyű         | semmi                  | 5 - 15     |
-| [Teknősök megfordítása](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6         | 30        | közepes       | semmi                  | 5 - 10     |
-| [Gyorsan, gyorsan – Helyben!](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | közepes       | semmi                  | 5-10     |
-| [Kő-papír-olló](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | könnyű         | semmi                  | 5-10     |
+| [Karikák átdadása körben](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | könnyű         | karikák                | 5-10     |
+| [Árnyjáték](<Schattenlauf.md>)                                                         | 2         | 99        | könnyű         | semmi                  | 5 - 15     |
+| [Teknősök felborítása](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6         | 30        | közepes       | semmi                  | 5 - 10     |
+| [Gyorsan, gyorsan - a helyükön](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | közepes       | semmi                  | 5-10     |
+| [Kő, papír, olló](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | könnyű         | semmi                  | 5-10     |
 | [Speed Dating](<Speed%20Dating.md>)                                                       | 6         | 40        | könnyű         | papírfecnik, tollak            | 10-20    |
-| [Halott bámulás](<Totblicken.md>)                                                             | 7         | 30        | könnyű         | semmi                  | 3-9        |
+| [Halálpillantás](<Totblicken.md>)                                                             | 7         | 30        | könnyű         | semmi                  | 3-9        |
 | [Vámpír](<Vampir.md>)                                                                     | 6         | 30        | közepes       | semmi                  | 5-10     |
 | [Vírus](<Virus.md>)                                                                       | 5         | 30        | könnyű         | semmi                  | 5-10     |
-| [Mit csinálsz ott?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | közepes       | semmi                  | 10-15    |
-| [Ha király lennék](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | könnyű         | emelvény               | 5-10     |
-| [Whiskey mixer](<Whiskeymixer.md>)                                                         | 5         | 30        | közepes       | semmi                  | 3-10       |
+| [Mit csinálsz?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | közepes       | semmi                  | 10-15    |
+| [Ha király lennék...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | könnyű         | emelvény               | 5-10     |
+| [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5         | 30        | közepes       | semmi                  | 3-10       |
 
 <!-- dynamic:end -->

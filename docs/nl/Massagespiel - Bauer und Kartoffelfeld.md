@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:05:08
-title: Massagespiel - Bauer und Kartoffelfeld
-description: Ein Massage-Spiel im Kreis, bei dem Paare gemeinsam eine ruhige Bauer-und-Kartoffelfeld-Situation umsetzen.
+title: Massage spel - Boer en aardappelveld
+description: Een massage spel in een cirkel waarbij koppels samen een rustige boer-en-aardappelveld-situatie uitbeelden.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Massagespiel - Bauer und Kartoffelfeld.md
-translation_source_hash: 33b6236a3a9c0d8c4a6540b15cbabf4633ad4bc350bba32c86e5bb14b42b8d24
+translation_source_hash: b2ae86ce3f22e9c6dfc2bb103db2c32d127489a1381ab2c666f06bdca9921ae5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:05:04+00:00
+translation_source_body_hash: b2ae86ce3f22e9c6dfc2bb103db2c32d127489a1381ab2c666f06bdca9921ae5
+translation_source_metadata_hash: 1c4a5504d29d7769cbae8f281815cc8965080a16fb975107389406cce036f866
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:57:14+00:00
 ---
 > [!info] Korte beschrijving
 > Een massage-spel in een kring, waarbij koppels samen een rustige boer-en-aardappelveld-situatie uitbeelden.

@@ -6,8 +6,8 @@ update: 2025-03-18 01:52:14
 publish: true
 tags:
   - spiele
-title: Ohrfeigen und Küsse
-description: Ein sensibles Interaktionsspiel, bei dem Begrüßung, freundliche Gesten und angedeutete Konfliktgesten bewusst gespielt werden.
+title: Policzki i Pocałunki
+description: Delikatna gra interakcji, w której świadomie odgrywane są powitania, przyjazne gesty i sugestywne gesty konfliktu.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ohrfeigen und Küsse.md
-translation_source_hash: 52349702f8b552b2a01f27dab281148d7e7f3048cb48badfc077eebf72ccb21b
+translation_source_hash: ecb6958f98780fd7b6a10da753ab775886117216eeda597b454cc874bf70ad41
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:09:22+00:00
+translation_source_body_hash: ecb6958f98780fd7b6a10da753ab775886117216eeda597b454cc874bf70ad41
+translation_source_metadata_hash: 49dbe7718283b41e2a00ecf8694d6f081d1e9cf132bf0b53bcc238a1ba2ed95e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:01:18+00:00
 ---
 > [!info] Krótki opis
 > Wrażliwa gra interakcyjna, w której świadomie odgrywane są powitania, przyjazne gesty i zasygnalizowane gesty konfliktowe.

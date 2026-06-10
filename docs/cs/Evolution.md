@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:57
-title: Evolution
-description: Ein Bewegungsspiel mit Schnick-Schnack-Schnuck, bei dem Personen durch Evolutionsstufen auf- und absteigen.
+title: Evoluce
+description: Pohybová hra s kámen, nůžky, papír, ve které hráči postupují a sestupují evolučními stupni.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Evolution.md
-translation_source_hash: 0fb09a29fa397cff21d85b0c524e893c14efc9d6fb5e77a9bdb0310138911098
+translation_source_hash: 3d2da63c5fc6fca6873d46ff40837beeea3229ab05bc844cb7ccbe8ed2dc99b0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:36:56+00:00
+translation_source_body_hash: 3d2da63c5fc6fca6873d46ff40837beeea3229ab05bc844cb7ccbe8ed2dc99b0
+translation_source_metadata_hash: 0482ec5a7495b5a955372ad0145a09f3738f32162ce111193f7d33e006c9f845
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:45:59+00:00
 ---
 > [!info] Stručný popis
 > Pohybová hra s kámen-nůžky-papír, při které postavy stoupají a klesají evolučními stupni.

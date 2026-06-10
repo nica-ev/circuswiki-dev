@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:28
-title: Team Schnick-Schnack-Schnuck
-description: Ein Team-Reaktionsspiel, bei dem Gruppen Figuren wählen und nach dem Aufdecken fangen oder fliehen.
+title: "Команда \"Камінь-ножиці-папір\""
+description: Командна гра на реакцію, де групи вибирають фігури, а потім ловлять або тікають після розкриття.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Team Schnick-Schnack-Schnuck.md
-translation_source_hash: 7fbcc80cc52bc0bb95abc28412b679168cc17e41f8e54b76b4c4179acbbd68c8
+translation_source_hash: af099db831d8661edf4b8d82e331a316241491b27136203e28996b6a0acf7827
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:30:39+00:00
+translation_source_body_hash: af099db831d8661edf4b8d82e331a316241491b27136203e28996b6a0acf7827
+translation_source_metadata_hash: 54f8faa45c90daa4f431e95f58d1e7e1bf27a23f0feb0893d36a781551503f14
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:29+00:00
 ---
 > [!info] Короткий опис
 > Командна гра на реакцію, в якій групи обирають персонажів, а після оголошення — ловлять або тікають.

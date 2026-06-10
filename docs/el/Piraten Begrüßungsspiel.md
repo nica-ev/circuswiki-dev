@@ -6,8 +6,8 @@ update: 2025-03-17 02:29:27
 publish: true
 tags:
   - spiele
-title: Piraten Begrüßungsspiel
-description: Ein thematisches Begrüßungsspiel, bei dem ein Piratenlied mit Gesten und Partneraktionen begleitet wird.
+title: Παιχνίδι Καλωσορίσματος Πειρατών
+description: Ένα θεματικό παιχνίδι καλωσορίσματος που συνδυάζει ένα πειρατικό τραγούδι με χειρονομίες και συνεργατικές δράσεις.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Begrüßungsspiel.md
-translation_source_hash: 16d375f0b3c6af66d609f9a984e4c1d3e305c281cd8ced4ea7daefc819f5920d
+translation_source_hash: d922946f8d2aa168b25af0b3f98fbd27f820b75cd709abbd3cf55b61d2839e34
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:10:48+00:00
+translation_source_body_hash: d922946f8d2aa168b25af0b3f98fbd27f820b75cd709abbd3cf55b61d2839e34
+translation_source_metadata_hash: d00c4a196dabad94c487696103d6b22e7c8cefc89db63febf9ac58351b8eafac
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:02:33+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα θεματικό παιχνίδι καλωσορίσματος, στο οποίο ένα τραγούδι πειρατών συνοδεύεται από χειρονομίες και συνεργατικές δράσεις.

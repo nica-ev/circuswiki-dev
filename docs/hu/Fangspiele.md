@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Fogócskák
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:18+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:10+00:00
 ---
 # Fogócskák
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                  | group-min | group-max | Nehézség         | Anyag              | Játékidő |
 | ------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ------------------ | -------- |
-| [5 Sárkány és törpék](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | könnyű            | Kendők             | 5-10     |
-| [Bombajáték](<Bombenspiel.md>)                                                       | 8         | 30        | könnyű            | semmi              | 15-20    |
-| [Színfogó](<Farbenhasche.md>)                                                     | 9         | 30        | közepes          | Kendők             | 15-20    |
-| [Szögelő játék](<Festnageln.md>)                                                         | 5         | 25        | közepes          | semmi              | 15-20    |
-| [Róka és a nyúl](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | közepes          | semmi              | 10 -  15   |
-| [Rókavadászat](<Fuchsjagd.md>)                                                           | 5         | 25        | könnyű            | Kendők             | 10 -  15   |
-| [Arany szarvas](<Goldener%20Hirsch.md>)                                             | 10        | 99        | könnyű            | semmi              | 5 - 15     |
-| [Szerencsém van](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | könnyű            | semmi              | 5 - 10     |
-| [gyere-gyere-menj](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | könnyű            | semmi              | 5 - 15     |
-| [Lufifogó](<Luftballon%20Hasche.md>)                                         | 6         | 25        | közepes          | semmi              | 5 - 15     |
-| [Középkori kő-papír-olló](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | könnyű            | semmi              | 5 - 15     |
-| [Répa, nyúl, róka](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | könnyű            | semmi              | 10         |
+| [Sárkányok és törpék](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | könnyű            | Kendők             | 5-10     |
+| [Bombalagjáték](<Bombenspiel.md>)                                                       | 8         | 30        | könnyű            | semmi              | 15-20    |
+| [Színes nyúl](<Farbenhasche.md>)                                                     | 9         | 30        | közepes          | Kendők             | 15-20    |
+| [Belekapaszkodás](<Festnageln.md>)                                                         | 5         | 25        | közepes          | semmi              | 15-20    |
+| [Róka és nyúl](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | közepes          | semmi              | 10 -  15   |
+| [Róka üldözés](<Fuchsjagd.md>)                                                           | 5         | 25        | könnyű            | Kendők             | 10 -  15   |
+| [Arany Szarvas](<Goldener%20Hirsch.md>)                                             | 10        | 99        | könnyű            | semmi              | 5 - 15     |
+| [Szerencsés vagyok](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | könnyű            | semmi              | 5 - 10     |
+| [Gyere, fuss el](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | könnyű            | semmi              | 5 - 15     |
+| [Lufi Hacse](<Luftballon%20Hasche.md>)                                         | 6         | 25        | közepes          | semmi              | 5 - 15     |
+| [Középkori Kő-papír-olló](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | könnyű            | semmi              | 5 - 15     |
+| [Sárgarépa Nyúl Róka](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | könnyű            | semmi              | 10         |
 | [Pingvinek és jegesmedvék](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | könnyű - közepes | Puha talaj szőnyeg | 5 - 15     |
 | [Pingvinek és gyilkos flamingók](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | könnyű            | semmi              | 5 - 10     |
-| [Pattogatott kukorica](<Popcorn.md>)                                                               | 5         | 99        | könnyű            | semmi              | 5 - 15     |
-| [Fóka és jegesmedvék](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | közepes          | semmi              | 10 -  15   |
-| [Farokfogó](<Schlangen%20Hasche.md>)                                           | 6         | 99        | könnyű            | semmi              | 5-10       |
-| [Csókafogó](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | könnyű            | Kendők             | 10 -  15   |
+| [Popcorn](<Popcorn.md>)                                                               | 5         | 99        | könnyű            | semmi              | 5 - 15     |
+| [Fókák és jegesmedvék](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | közepes          | semmi              | 10 -  15   |
+| [Kígyófogó](<Schlangen%20Hasche.md>)                                           | 6         | 99        | könnyű            | semmi              | 5-10       |
+| [Farokfogó](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | könnyű            | Kendők             | 10 -  15   |
 | [Tányérfogó](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | könnyű            | Tányér, kendő, diabolo | 5-10       |
-| [Időfogó](<Zeithasche.md>)                                                         | 6         | 30        | közepes          | semmi              | 15-20    |
-| [Zombi - Fogó](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | könnyű            | semmi              | 10 -  15   |
-| [Zombifogó névvel](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | közepes          | semmi              | 15-20    |
+| [Időzsák](<Zeithasche.md>)                                                         | 6         | 30        | közepes          | semmi              | 15-20    |
+| [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | könnyű            | semmi              | 10 -  15   |
+| [Zombi Hús darálva](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | közepes          | semmi              | 15-20    |
 
 <!-- dynamic:end -->

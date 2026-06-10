@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:27:03
-title: Kuhstall
-description: Ein Gruppenwechselspiel, bei dem Kühe und Ställe auf Kommandos schnell neue Dreiergruppen bilden.
+title: Stalla delle mucche
+description: Un gioco di cambio di gruppo in cui mucche e stalle formano rapidamente nuovi gruppi di tre su comando.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kuhstall.md
-translation_source_hash: a8ed42a74f94e57bb9cfdbd5e8e889d48d2a6bb2e381745396f7a7ed9befcf90
+translation_source_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d78fcf1e517
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:58+00:00
+translation_source_body_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d78fcf1e517
+translation_source_metadata_hash: 1b289d0e88ab3e4ffdcae103653c48e2df80e449ab9ae2fd9affefb4d1dd0464
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:46+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di cambio gruppo in cui mucche e stalle formano rapidamente nuovi gruppi di tre su comando.

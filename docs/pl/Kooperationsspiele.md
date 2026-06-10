@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Gry kooperacyjne
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:51:59+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:16+00:00
 ---
 # Gry kooperacyjne
 
@@ -34,10 +39,10 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | plik                                                                                                   | min. gr. | maks. gr. | Poziom trudności | Materiały                                      | Czas gry |
 | ------------------------------------------------------------------------------------------------------ | -------- | --------- | ---------------- | --------------------------------------------- | -------- |
 | [Wszyscy przeciwko jednemu](<Alle_gegen_einen.md>)                                                              | 8         | 30        | średni           | obręcze                                        | 10-15      |
-| [Ryzykowny transport wody](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | trudny           | garnek, sznurek, woda, drugie naczynie           | 5-20       |
+| [Delikatny transport wody](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | trudny           | garnek, sznurek, woda, drugie naczynie           | 5-20       |
 | [Przeszkoda](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | średni           | lina                                          | 5-10       |
 | [Kwadratura koła](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | średni           | lina, opcjonalnie opaski na oczy                    | 5-60       |
-| [Królowa Śniegu – Olbrzym i krasnoludki](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | łatwy          | mały przedmiot                            | 5-10       |
+| [Królowa Lodu - Olbrzym i Krasnoludy](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | łatwy          | mały przedmiot                            | 5-10       |
 | [Latający dywan](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | łatwy          | płachta                                         | 3-10       |
 | [Dziewięć osób – 8 nóg – 4 ręce](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | łatwy          | brak                                        | 10         |
 | [Stacja kosmiczna](<Raumstation.md>)                                                                        | 6         | 25        | średni           | wyznaczone pole, przedmioty                 | 10-15      |

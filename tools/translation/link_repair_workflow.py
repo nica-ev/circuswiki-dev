@@ -4,6 +4,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
+from translation.dynamic_link_labels import repair_dynamic_link_labels
 from translation.link_repair import LinkRepairResult, repair_link_targets
 from translation.markdown import join_markdown, split_markdown
 from translation.metadata import read_scalar
@@ -19,6 +20,7 @@ class LinkRepairItem:
     source: str
     source_exists: bool
     repair_count: int
+    label_repair_count: int
     diagnostic_count: int
     safe_repair: bool
     reasons: list[str]
@@ -31,6 +33,7 @@ def scan_link_repairs(language: str = "") -> dict[str, Any]:
         "total": len(items),
         "safe_count": sum(1 for item in items if item.safe_repair),
         "repair_count": sum(item.repair_count for item in items),
+        "label_repair_count": sum(item.label_repair_count for item in items),
         "items": [asdict(item) for item in items],
     }
 
@@ -44,6 +47,7 @@ def preview_link_repair(path: str) -> dict[str, Any]:
         "source": rel(source),
         "safe_repair": is_safe_repair(result),
         "repair_count": result.repair_count,
+        "label_repair_count": dynamic_label_repair_count(result),
         "diagnostics": [asdict(item) for item in result.diagnostics],
         "current_body": document.body,
         "repaired_body": result.body,
@@ -79,6 +83,7 @@ def repair_link_files(paths: list[str]) -> dict[str, Any]:
                 "path": rel(target),
                 "source": rel(source),
                 "repair_count": result.repair_count,
+                "label_repair_count": dynamic_label_repair_count(result),
             }
         )
 
@@ -142,6 +147,7 @@ def inspect_link_repair_file(path: Path) -> LinkRepairItem | None:
             source=source,
             source_exists=False,
             repair_count=0,
+            label_repair_count=0,
             diagnostic_count=1,
             safe_repair=False,
             reasons=["missing_translation_source_file"],
@@ -151,7 +157,7 @@ def inspect_link_repair_file(path: Path) -> LinkRepairItem | None:
         return None
 
     source_document = split_markdown(source_path.read_text(encoding="utf-8"))
-    result = repair_link_targets(source_document.body, document.body)
+    result = combined_link_repair(path, document.frontmatter, source_document.body, document.body)
     reasons = sorted({item.kind for item in result.diagnostics})
     if not result.repair_count and not reasons:
         return None
@@ -164,6 +170,7 @@ def inspect_link_repair_file(path: Path) -> LinkRepairItem | None:
         source=source,
         source_exists=True,
         repair_count=result.repair_count,
+        label_repair_count=dynamic_label_repair_count(result),
         diagnostic_count=len(result.diagnostics),
         safe_repair=is_safe_repair(result),
         reasons=reasons,
@@ -191,7 +198,27 @@ def repair_context(path: Path) -> tuple[Path, Any, LinkRepairResult]:
         raise ValueError("translation_source is not under docs/<lang>/")
 
     source_document = split_markdown(source_path.read_text(encoding="utf-8"))
-    return source_path, document, repair_link_targets(source_document.body, document.body)
+    return source_path, document, combined_link_repair(path, document.frontmatter, source_document.body, document.body)
+
+
+def combined_link_repair(
+    target_path: Path,
+    target_frontmatter: str,
+    source_body: str,
+    target_body: str,
+) -> LinkRepairResult:
+    target_result = repair_link_targets(source_body, target_body)
+    label_result = repair_dynamic_link_labels(
+        page_path=target_path,
+        frontmatter=target_frontmatter,
+        body=target_result.body,
+        docs_root=DOCS,
+    )
+    return label_result.to_result(target_result)
+
+
+def dynamic_label_repair_count(result: LinkRepairResult) -> int:
+    return sum(1 for item in result.diagnostics if item.kind == "dynamic_label_repaired")
 
 
 def is_safe_repair(result: LinkRepairResult) -> bool:

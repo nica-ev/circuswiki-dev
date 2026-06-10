@@ -6,8 +6,8 @@ update: 2025-03-17 01:48:53
 publish: true
 tags:
   - spiele
-title: Hände spüren
-description: Ein ruhiges Wahrnehmungsspiel, bei dem eine liegende Person mit geschlossenen Augen die Anzahl aufgelegter Hände errät.
+title: Cítění rukou
+description: Klidná hra vnímání, kde ležící osoba se zavřenýma očima hádá počet přiložených rukou.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände spüren.md
-translation_source_hash: 7e39cd5769c6a015008e15e3fdad24a8fb606cef67af9b4fe99ef6f15bfdc75b
+translation_source_hash: ec19b5409d017bc2ec504e18909757ba148719ef9ab759a9c6d584fc6ec752a6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:43:50+00:00
+translation_source_body_hash: ec19b5409d017bc2ec504e18909757ba148719ef9ab759a9c6d584fc6ec752a6
+translation_source_metadata_hash: 7b51c8f8f791c1dc7a0fac620eb6f89113432992e66a8a829fb8e2394b58c897
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:50:22+00:00
 ---
 > [!info] Stručný popis
 > Klidná vnímavá hra, při níž ležící osoba se zavřenýma očima hádá počet položených rukou.

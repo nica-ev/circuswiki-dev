@@ -9,6 +9,7 @@ let state = {
   vaultHealth: null,
   activeTab: "file-test",
   batchPlan: null,
+  metadataPlan: null,
   originalGraph: null,
   originalGraphChart: null,
   originalGraphResizeObserver: null,
@@ -79,6 +80,7 @@ async function loadVaultHealth() {
   state.vaultHealth = health;
   $("metric-matrix").textContent = `${health.totals.green}/${health.totals.yellow}/${health.totals.red}`;
   renderBatchLanguageOptions();
+  renderMetadataLanguageOptions();
   renderVaultHealth();
 }
 
@@ -151,6 +153,36 @@ async function runTranslation(dryRun) {
         target_lang: fileTargetLang(),
         model: $("model").value.trim(),
         prompt: $("prompt").value.trim(),
+        dry_run: dryRun,
+      }),
+    });
+    log(result);
+    await loadHealth();
+    await loadVaultHealth();
+    await selectPage(state.selected);
+  } catch (error) {
+    log(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function runMetadataTranslation(dryRun) {
+  if (!state.selected) {
+    log("Select a source page first.");
+    return;
+  }
+
+  setBusy(true);
+  log(dryRun ? "Running metadata dry run..." : "Translating metadata...");
+  try {
+    const result = await api("/api/translate-metadata", {
+      method: "POST",
+      body: JSON.stringify({
+        path: state.selected,
+        source_lang: fileSourceLang(),
+        target_lang: fileTargetLang(),
+        model: $("model").value.trim(),
         dry_run: dryRun,
       }),
     });
@@ -319,6 +351,113 @@ async function runBatchTranslation() {
   }
 }
 
+async function createMetadataPlan() {
+  const targetLang = $("metadata-target").value;
+  const maxFiles = Number($("metadata-max-files").value);
+  if (!targetLang) {
+    metadataLog("Select a target language.");
+    return;
+  }
+  if (!Number.isInteger(maxFiles) || maxFiles < 1) {
+    metadataLog("max_files must be at least 1.");
+    return;
+  }
+
+  setBusy(true);
+  $("metadata-run").disabled = true;
+  $("metadata-status").textContent = "Planning...";
+  try {
+    const plan = await api("/api/metadata-batch-plan", {
+      method: "POST",
+      body: JSON.stringify({
+        target_lang: targetLang,
+        source_lang: $("metadata-source").value,
+        reason: $("metadata-reason").value,
+        path_filter: $("metadata-path-filter").value.trim(),
+        max_files: maxFiles,
+      }),
+    });
+    state.metadataPlan = plan;
+    renderMetadataPlan();
+    $("metadata-run").disabled = plan.candidates.length === 0;
+    $("metadata-status").textContent = `Plan ready: ${plan.planned_count}/${plan.total_candidates} candidates selected.`;
+  } catch (error) {
+    state.metadataPlan = null;
+    metadataLog(error.message);
+    $("metadata-status").textContent = "Planning failed.";
+  } finally {
+    setBusy(false);
+    $("metadata-run").disabled = !state.metadataPlan || state.metadataPlan.candidates.length === 0;
+  }
+}
+
+async function runMetadataBatch() {
+  const plan = state.metadataPlan;
+  if (!plan || !plan.candidates.length) {
+    metadataLog("Create a non-empty metadata plan first.");
+    return;
+  }
+
+  const progress = $("metadata-progress");
+  progress.max = plan.candidates.length;
+  progress.value = 0;
+  setBusy(true);
+  const results = [];
+  const startedAt = performance.now();
+
+  try {
+    for (let index = 0; index < plan.candidates.length; index += 1) {
+      const item = plan.candidates[index];
+      $("metadata-status").textContent = batchProgressLabel(
+        "Translating metadata",
+        index + 1,
+        plan.candidates.length,
+        item.translation_id,
+        startedAt,
+        results.length
+      );
+      const result = await api("/api/metadata-batch-translate-file", {
+        method: "POST",
+        body: JSON.stringify({
+          source_path: item.source_path,
+          source_lang: item.source_lang,
+          target_lang: item.target_lang,
+          model: $("model").value.trim(),
+        }),
+      });
+      results.push(result);
+      progress.value = index + 1;
+      $("metadata-status").textContent = batchProgressLabel(
+        "Translated metadata",
+        results.length,
+        plan.candidates.length,
+        item.translation_id,
+        startedAt,
+        results.length
+      );
+      metadataLog(results);
+    }
+    $("metadata-status").textContent = `Metadata batch complete: ${results.length} translated (time left: 00:00 min).`;
+    await loadHealth();
+    await loadVaultHealth();
+  } catch (error) {
+    $("metadata-status").textContent = `Metadata batch stopped after ${results.length}/${plan.candidates.length} (${batchTimeLeftLabel(
+      startedAt,
+      results.length,
+      plan.candidates.length
+    )}).`;
+    metadataLog({
+      error: error.message,
+      completed: results.length,
+      total: plan.candidates.length,
+      results,
+    });
+  } finally {
+    setBusy(false);
+    $("metadata-run").disabled = !state.metadataPlan || state.metadataPlan.candidates.length === 0;
+  }
+}
+
 function renderBatchLanguageOptions() {
   const targetSelect = $("batch-target");
   const sourceSelect = $("batch-source");
@@ -349,6 +488,43 @@ function renderBatchLanguageOptions() {
     sourceSelect.value = currentSource;
   }
   if (batchReasonOptions().includes(currentReason)) {
+    reasonSelect.value = currentReason;
+  }
+}
+
+function renderMetadataLanguageOptions() {
+  const targetSelect = $("metadata-target");
+  const sourceSelect = $("metadata-source");
+  const reasonSelect = $("metadata-reason");
+  if (!targetSelect || !sourceSelect || !reasonSelect) {
+    return;
+  }
+  const currentTarget = targetSelect.value || state.config?.default_target_lang || "all";
+  const currentSource = sourceSelect.value || "all";
+  const currentReason = reasonSelect.value || "all";
+  const languages = state.vaultHealth?.languages || [];
+  const languageNames = state.vaultHealth?.language_names || {};
+  const targetOptions = [
+    '<option value="all">All target languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`),
+  ];
+  const sourceOptions = [
+    '<option value="all">All source languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language)}">${escapeHtml(languageLabel(language, languageNames[language]))}</option>`),
+  ];
+  const reasonOptions = metadataReasonOptions().map(
+    (reason) => `<option value="${escapeHtml(reason)}">${escapeHtml(metadataReasonLabel(reason))}</option>`
+  );
+  targetSelect.innerHTML = targetOptions.join("");
+  sourceSelect.innerHTML = sourceOptions.join("");
+  reasonSelect.innerHTML = reasonOptions.join("");
+  if (currentTarget === "all" || languages.includes(currentTarget)) {
+    targetSelect.value = currentTarget;
+  }
+  if (currentSource === "all" || languages.includes(currentSource)) {
+    sourceSelect.value = currentSource;
+  }
+  if (metadataReasonOptions().includes(currentReason)) {
     reasonSelect.value = currentReason;
   }
 }
@@ -444,6 +620,60 @@ function renderBatchPlan() {
   batchLog(plan);
 }
 
+function renderMetadataPlan() {
+  const plan = state.metadataPlan;
+  if (!plan) {
+    $("metadata-summary").innerHTML = "";
+    $("metadata-list").innerHTML = "";
+    return;
+  }
+
+  $("metadata-summary").innerHTML = `
+    <span class="pill">Target: <strong>${escapeHtml(languageLabel(plan.target_lang, plan.target_language))}</strong></span>
+    <span class="pill">Planned: <strong>${plan.planned_count}</strong></span>
+    <span class="pill">Candidates: <strong>${plan.total_candidates}</strong></span>
+    <span class="pill">Metadata chars: <strong>${plan.total_metadata_chars}</strong></span>
+    <span class="pill">Limit: <strong>${plan.max_files}</strong></span>
+    <span class="pill">Source policy: <strong>${escapeHtml(formatSourcePolicy(plan.source_policy))}</strong></span>
+    <span class="pill">Filters: <strong>${escapeHtml(formatMetadataFilters(plan.filters || {}))}</strong></span>
+    ${plan.source_counts ? `<span class="pill">By source: <strong>${escapeHtml(formatLanguageCounts(plan.source_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
+    ${plan.target_counts ? `<span class="pill">By language: <strong>${escapeHtml(formatTargetCounts(plan.target_counts, state.vaultHealth?.language_names || {}))}</strong></span>` : ""}
+  `;
+
+  const table = $("metadata-list");
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>ID</th>
+        <th>Source</th>
+        <th>Target</th>
+        <th>Source Title</th>
+        <th>Target Title</th>
+        <th>Desc</th>
+        <th>Chars</th>
+        <th>Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${plan.candidates.map((item, index) => `
+        <tr>
+          <td>${index + 1}</td>
+          <td>${escapeHtml(item.translation_id)}</td>
+          <td>${escapeHtml(languageLabel(item.source_lang, item.source_language))}</td>
+          <td>${escapeHtml(languageLabel(item.target_lang, item.target_language))}</td>
+          <td>${escapeHtml(item.source_title || "")}</td>
+          <td>${escapeHtml(item.target_title || "")}</td>
+          <td>${item.source_has_description ? "source" : "-"} / ${item.target_has_description ? "target" : "-"}</td>
+          <td>${item.metadata_chars}</td>
+          <td>${escapeHtml(metadataReasonLabel(item.reason))}</td>
+        </tr>
+      `).join("")}
+    </tbody>
+  `;
+  metadataLog(plan);
+}
+
 function formatBatchTimeLeft(milliseconds) {
   const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -476,6 +706,11 @@ function batchLog(value) {
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
 }
 
+function metadataLog(value) {
+  $("metadata-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
 function formatTargetCounts(counts, languageNames) {
   return formatLanguageCounts(counts, languageNames);
 }
@@ -498,8 +733,8 @@ function batchReasonOptions() {
     "all",
     "missing_file",
     "fallback_page",
-    "source_hash_mismatch",
-    "missing_source_hash",
+    "source_body_hash_mismatch",
+    "missing_body_hash",
     "translation_source_lang_mismatch",
   ];
 }
@@ -509,9 +744,29 @@ function batchReasonLabel(reason) {
     all: "All reasons",
     missing_file: "Missing file",
     fallback_page: "Fallback page",
-    source_hash_mismatch: "Source hash mismatch",
-    missing_source_hash: "Missing source hash",
+    source_body_hash_mismatch: "Body hash mismatch",
+    missing_body_hash: "Missing body hash",
     translation_source_lang_mismatch: "Source language mismatch",
+  }[reason] || reason;
+}
+
+function metadataReasonOptions() {
+  return [
+    "all",
+    "missing_metadata_hash",
+    "metadata_hash_mismatch",
+    "missing_title",
+    "missing_description",
+  ];
+}
+
+function metadataReasonLabel(reason) {
+  return {
+    all: "All reasons",
+    missing_metadata_hash: "Missing metadata hash",
+    metadata_hash_mismatch: "Metadata hash mismatch",
+    missing_title: "Missing title",
+    missing_description: "Missing description",
   }[reason] || reason;
 }
 
@@ -524,6 +779,18 @@ function formatBatchFilters(filters) {
   if (filters.max_source_chars) {
     parts.push(`max chars=${filters.max_source_chars}`);
   }
+  if (filters.path_filter) {
+    parts.push(`text="${filters.path_filter}"`);
+  }
+  return parts.join(", ");
+}
+
+function formatMetadataFilters(filters) {
+  const names = state.vaultHealth?.language_names || {};
+  const parts = [
+    `source=${languageLabel(filters.source_lang || "all", filters.source_lang === "all" ? "All source languages" : names[filters.source_lang])}`,
+    `reason=${metadataReasonLabel(filters.reason || "all")}`,
+  ];
   if (filters.path_filter) {
     parts.push(`text="${filters.path_filter}"`);
   }
@@ -565,6 +832,7 @@ function activeLog(value) {
     "file-test": log,
     "vault-health": healthLog,
     "batch-translate": batchLog,
+    "batch-metadata": metadataLog,
     "original-graph": graphLog,
     navigation: navLog,
     dynamic: dynamicLog,
@@ -1090,7 +1358,7 @@ async function repairAllSafeLinkItems() {
     return;
   }
   setBusy(true);
-  linkRepairLog("Repairing all safe link targets...");
+  linkRepairLog("Repairing all safe link targets and dynamic labels...");
   try {
     const result = await api("/api/link-repair/repair-all", {
       method: "POST",
@@ -1118,7 +1386,8 @@ function renderLinkRepairScan() {
   $("link-repair-summary").innerHTML = `
     <span class="pill">Items: <strong>${scan.total}</strong></span>
     <span class="pill ${scan.safe_count ? "yellow" : "green"}">Safe files: <strong>${scan.safe_count}</strong></span>
-    <span class="pill">Target repairs: <strong>${scan.repair_count}</strong></span>
+    <span class="pill">Total repairs: <strong>${scan.repair_count}</strong></span>
+    <span class="pill">Dynamic labels: <strong>${scan.label_repair_count || 0}</strong></span>
   `;
 
   const filter = $("link-repair-filter").value.toLowerCase();
@@ -1152,7 +1421,7 @@ function renderLinkRepairScan() {
     button.className = "cleanup-item-main";
     button.innerHTML = `
       <strong>${escapeHtml(item.path)}</strong>
-      <span>${escapeHtml(item.reasons.join(", ") || "target_repaired")} | repairs: ${item.repair_count} | ${escapeHtml(item.translation_id || "-")}</span>
+      <span>${escapeHtml(item.reasons.join(", ") || "target_repaired")} | repairs: ${item.repair_count} | labels: ${item.label_repair_count || 0} | ${escapeHtml(item.translation_id || "-")}</span>
     `;
     button.addEventListener("click", () => {
       state.linkRepairSelected = item.path;
@@ -1181,6 +1450,7 @@ function renderLinkRepairDetails() {
     <dt>ID</dt><dd>${escapeHtml(selected.translation_id || "-")}</dd>
     <dt>Source</dt><dd>${pathWithObsidianButton(selected.source)}</dd>
     <dt>Repairs</dt><dd>${selected.repair_count}</dd>
+    <dt>Dynamic Labels</dt><dd>${selected.label_repair_count || 0}</dd>
     <dt>Diagnostics</dt><dd>${selected.diagnostic_count}</dd>
     <dt>Safe</dt><dd><span class="pill ${selected.safe_repair ? "yellow" : "red"}">${selected.safe_repair ? "yes" : "no"}</span></dd>
     <dt>Reasons</dt><dd>${escapeHtml(selected.reasons.join(", ") || "-")}</dd>
@@ -1854,10 +2124,12 @@ function switchTab(tabName) {
 function setBusy(isBusy) {
   $("dry-run").disabled = isBusy;
   $("translate").disabled = isBusy;
+  $("translate-metadata").disabled = isBusy;
   $("refresh").disabled = isBusy;
   $("refresh-health").disabled = isBusy;
   $("repair-health").disabled = isBusy;
   $("batch-plan").disabled = isBusy;
+  $("metadata-plan").disabled = isBusy;
   $("graph-refresh").disabled = isBusy;
   $("graph-fit").disabled = isBusy;
   $("graph-zoom-in").disabled = isBusy;
@@ -1881,6 +2153,7 @@ function setBusy(isBusy) {
   $("cleanup-delete-all").disabled = isBusy;
   if (isBusy) {
     $("batch-run").disabled = true;
+    $("metadata-run").disabled = true;
   }
 }
 
@@ -1937,6 +2210,12 @@ $("batch-plan").addEventListener("click", () => {
 });
 $("batch-run").addEventListener("click", () => {
   runBatchTranslation().catch((error) => batchLog(error.message));
+});
+$("metadata-plan").addEventListener("click", () => {
+  createMetadataPlan().catch((error) => metadataLog(error.message));
+});
+$("metadata-run").addEventListener("click", () => {
+  runMetadataBatch().catch((error) => metadataLog(error.message));
 });
 $("graph-refresh").addEventListener("click", () => {
   loadOriginalGraph().catch((error) => graphLog(error.message));
@@ -2036,6 +2315,7 @@ window.addEventListener("resize", () => {
   }
 });
 $("dry-run").addEventListener("click", () => runTranslation(true));
+$("translate-metadata").addEventListener("click", () => runMetadataTranslation(false));
 $("translate").addEventListener("click", () => runTranslation(false));
 
 loadConfig()

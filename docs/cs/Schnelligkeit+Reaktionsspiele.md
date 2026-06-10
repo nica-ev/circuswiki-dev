@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Rychlost+Reakční hry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:54+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:38+00:00
 ---
 # Rychlost a reakční hry
 
@@ -36,14 +41,14 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Chraň svého přítele](<Besch%C3%BCtze%20deinen%20Freund.md>)                  | 8            | 30           | snadná    | žádný                             | 4-9       |
 | [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                         | 6            | 30           | střední   | žádný                             | 8         |
 | [Bomba](<Bombe.md>)                                                 | 7            | 30           | snadná    | míč                               | 3-6       |
-| [Šlapající banka](<Die%20stampfende%20Bank.md>)                           | 4            | 20           | střední   | žádný                             | 2-8       |
-| [Tleskání do dlaní](<H%C3%A4nde%20abklatschen.md>)                      | 5            | 25           | střední   | žádný                             | 6         |
+| [Bubnající banka](<Die%20stampfende%20Bank.md>)                           | 4            | 20           | střední   | žádný                             | 2-8       |
+| [Tleskání rukou](<H%C3%A4nde%20abklatschen.md>)                      | 5            | 25           | střední   | žádný                             | 6         |
 | [Závod s polštáři](<Kissenrennen.md>)                       | 10           | 40           | střední   | polštář                           | 3         |
-| [pojď-se-mnou-běž-pryč](<komm-mit-lauf-weg.md>)                 | 5            | 99           | snadná    | žádný                             | 5 - 15    |
+| [Pojď se mnou, uteč](<komm-mit-lauf-weg.md>)                 | 5            | 99           | snadná    | žádný                             | 5 - 15    |
 | [Povel](<Kommando.md>)                                                 | 6            | 25           | snadná    | podložky nebo značky na sezení    | 4-7       |
-| [Vztyk-běž](<Stehbock-Laufbock.md>)                                          | 6            | 30           | snadná    | žádný                             | 3         |
+| [Běh s oporou](<Stehbock-Laufbock.md>)                                          | 6            | 30           | snadná    | žádný                             | 3         |
 | [Býčí zápas - Tatonga](<Stierkampf%20-%20Tatonga.md>)             | 5            | 20           | snadná    | lano                              | 5-10      |
-| [Týmová kámen-nůžky-papír](<Team%20Schnick-Schnack-Schnuck.md>)          | 14           | 40           | snadná    | žádný                             | 10        |
+| [Tým Kámen-Nůžky-Papír](<Team%20Schnick-Schnack-Schnuck.md>)          | 14           | 40           | snadná    | žádný                             | 10        |
 | [Ultimate Ninja](<Ultimate%20Ninja.md>)                             | 5            | 20           | střední   | žádný                             | 10        |
 | [Zah](<Zah.md>)                                                     | 6            | 30           | snadná    | žádný                             | 5         |
 | [Mrknutí](<Zuzwinkern.md>)                                             | 9            | 99           | střední   | žádný                             | 7         |

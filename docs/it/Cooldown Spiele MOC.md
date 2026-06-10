@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:41:05
-title: Cooldown Spiele
+title: Giochi di Cooldown
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 6dd4e1da674b4118b17220dd318fee9e76aa5b49ed024b7758f2164fcff4ee11
+translation_source_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:28:52+00:00
+translation_source_body_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
+translation_source_metadata_hash: 8d77c7b7ddeaea581e3e2ce39008eddd97c82a6ba03b3cc0e0067c525783d000
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:20+00:00
 ---
 # MOC Giochi di Defaticamento
 <!-- dynamic:start
@@ -32,19 +37,19 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                          | group-min | group-max | Difficoltà | Materiale | Durata gioco |
 | --------------------------------------------------------------------------------------------- | --------- | --------- | ---------- | -------- | ---------- |
-| [Bewerbung im Zirkus](<Bewerbung%20im%20Zirkus.md>)                                           | 8         | 99        | facile       | nessuno   | 5-10       |
-| [Bücherbalance](<B%C3%BCcherbalance.md>)                                                      | 3         | 20        | facile       | Libri   | 5-10       |
-| [Hände spüren](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | facile       | nessuno   | 5-10       |
-| [Kartoffel Kartoffel](<Kartoffel%20Kartoffel.md>)                                             | 5         | 20        | facile       | nessuno   | 5-10       |
-| [Klatsch mit Augenkontakt](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5         | 99        | facile       | nessuno   | 5-10       |
-| [Massagespiel - Bauer und Kartoffelfeld](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4         | 20        | facile       | nessuno   | 5-10       |
+| [Candidatura al circo](<Bewerbung%20im%20Zirkus.md>)                                           | 8         | 99        | facile       | nessuno   | 5-10       |
+| [Equilibrio con i libri](<B%C3%BCcherbalance.md>)                                                      | 3         | 20        | facile       | Libri   | 5-10       |
+| [Sentire le mani](<H%C3%A4nde%20sp%C3%BCren.md>)                                                 | 4         | 25        | facile       | nessuno   | 5-10       |
+| [Patata, Patata](<Kartoffel%20Kartoffel.md>)                                             | 5         | 20        | facile       | nessuno   | 5-10       |
+| [Bacio con contatto visivo](<Klatsch%20mit%20Augenkontakt.md>)                                 | 5         | 99        | facile       | nessuno   | 5-10       |
+| [Gioco di massaggio - Contadino e campo di patate](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4         | 20        | facile       | nessuno   | 5-10       |
 | [Medusa](<Medusa.md>)                                                                         | 5         | 25        | facile       | nessuno   | 5-10       |
-| [Menschenhalma](<Menschenhalma.md>)                                                           | 8         | 20        | facile       | nessuno   | 4          |
-| [Mörderspiel](<M%C3%B6rderspiel.md>)                                                          | 8         | 30        | medio        | nessuno   | 6          |
-| [Nadelöhr](<Nadel%C3%B6hr.md>)                                                                | 5         | 30        | facile       | nessuno   | 5-10       |
-| [Roboter](<Roboter.md>)                                                                       | 2         | 30        | facile       | nessuno   | 5-10       |
-| [Schach](<Schach.md>)                                                                         | 6         | 20        | medio        | nessuno   | 5-10       |
+| [Dama umana](<Menschenhalma.md>)                                                           | 8         | 20        | facile       | nessuno   | 4          |
+| [Gioco dell'assassino](<M%C3%B6rderspiel.md>)                                                          | 8         | 30        | medio        | nessuno   | 6          |
+| [Il buco dell'ago](<Nadel%C3%B6hr.md>)                                                                | 5         | 30        | facile       | nessuno   | 5-10       |
+| [Robot](<Roboter.md>)                                                                       | 2         | 30        | facile       | nessuno   | 5-10       |
+| [Scacchi](<Schach.md>)                                                                         | 6         | 20        | medio        | nessuno   | 5-10       |
 | [Zip Zap](<Zip%20Zap.md>)                                                                     | 5         | 99        | facile       | nessuno   | 5-10       |
-| [Zungenmörder](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | medio        | nessuno   | 5 - 10     |
+| [Assassino con la Lingua](<Zungenm%C3%B6rder.md>)                                                        | 10        | 30        | medio        | nessuno   | 5 - 10     |
 
 <!-- dynamic:end -->
