@@ -32,7 +32,14 @@
   --cw-header-fg: #fffaf0;
   --md-default-fg-color: var(--cw-ink);
   --md-default-fg-color--light: var(--cw-muted);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--cw-muted) 68%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--cw-muted) 34%, transparent);
   --md-default-bg-color: var(--cw-paper);
+  --md-default-bg-color--light: color-mix(in srgb, var(--cw-paper) 82%, transparent);
+  --md-default-bg-color--lighter: color-mix(in srgb, var(--cw-paper) 56%, transparent);
+  --md-default-bg-color--lightest: color-mix(in srgb, var(--cw-paper) 24%, transparent);
+  --md-primary-fg-color: var(--cw-header-bg);
+  --md-primary-bg-color: var(--cw-header-fg);
   --md-typeset-color: var(--cw-ink);
   --md-typeset-a-color: var(--cw-link);
   --md-accent-fg-color: var(--cw-link-hover);
@@ -75,7 +82,14 @@ html[data-cw-theme="dark"] {
   --cw-header-fg: #fffaf0;
   --md-default-fg-color: var(--cw-ink);
   --md-default-fg-color--light: var(--cw-muted);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--cw-muted) 68%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--cw-muted) 34%, transparent);
   --md-default-bg-color: var(--cw-paper);
+  --md-default-bg-color--light: color-mix(in srgb, var(--cw-paper) 82%, transparent);
+  --md-default-bg-color--lighter: color-mix(in srgb, var(--cw-paper) 56%, transparent);
+  --md-default-bg-color--lightest: color-mix(in srgb, var(--cw-paper) 24%, transparent);
+  --md-primary-fg-color: var(--cw-header-bg);
+  --md-primary-bg-color: var(--cw-header-fg);
   --md-typeset-color: var(--cw-ink);
   --md-typeset-a-color: var(--cw-link);
   --md-accent-fg-color: var(--cw-link-hover);
@@ -119,7 +133,14 @@ html[data-cw-theme="contrast"] {
   --cw-header-fg: #ffffff;
   --md-default-fg-color: var(--cw-ink);
   --md-default-fg-color--light: var(--cw-muted);
+  --md-default-fg-color--lighter: #ffffff;
+  --md-default-fg-color--lightest: #ffffff;
   --md-default-bg-color: var(--cw-paper);
+  --md-default-bg-color--light: var(--cw-paper);
+  --md-default-bg-color--lighter: var(--cw-paper);
+  --md-default-bg-color--lightest: var(--cw-paper);
+  --md-primary-fg-color: var(--cw-header-bg);
+  --md-primary-bg-color: var(--cw-header-fg);
   --md-typeset-color: var(--cw-ink);
   --md-typeset-a-color: var(--cw-link);
   --md-accent-fg-color: var(--cw-link-hover);
@@ -162,8 +183,24 @@ body {
 .md-main,
 .md-content,
 .md-sidebar,
-.md-nav {
+.md-sidebar__scrollwrap,
+.md-sidebar__inner,
+.md-drawer,
+.md-nav,
+.md-nav__list,
+.md-nav__item {
+  background-color: transparent;
   color: var(--cw-ink);
+}
+
+.md-sidebar__scrollwrap,
+.md-sidebar__inner,
+.md-drawer {
+  scrollbar-color: color-mix(in srgb, var(--cw-muted) 58%, transparent) transparent;
+}
+
+.md-drawer {
+  background-color: var(--cw-panel-solid);
 }
 
 .md-nav__link {
@@ -176,22 +213,88 @@ body {
   color: var(--cw-link);
 }
 
+.md-nav__icon,
+.md-nav__button,
+.md-nav__toggle ~ .md-nav__link,
+.md-nav__title .md-nav__button {
+  color: var(--cw-ink);
+}
+
 .md-nav__title,
+.md-nav__source,
 .md-select__inner,
 .md-search__form,
+.md-search__inner,
+.md-search__scrollwrap,
 .md-search__output,
+.md-search__result,
 .md-tooltip,
 .md-typeset .md-tag {
   background-color: var(--cw-panel-solid);
   color: var(--cw-ink);
 }
 
+.md-search__form {
+  border: 1px solid var(--cw-line);
+}
+
+.md-search__input,
+.md-search__suggest {
+  background-color: transparent;
+}
+
 .md-search__input {
   color: var(--cw-ink);
+  caret-color: var(--cw-link);
 }
 
 .md-search__input::placeholder {
   color: var(--cw-muted);
+}
+
+.md-search__icon,
+.md-search__options,
+.md-search__button {
+  color: var(--cw-muted);
+}
+
+.md-search__output {
+  border: 1px solid var(--cw-line);
+  box-shadow: 0 0.7rem 1.8rem color-mix(in srgb, var(--cw-ink) 18%, transparent);
+}
+
+.md-search__result-meta,
+.md-search__result-more {
+  background-color: var(--cw-paper-soft);
+  color: var(--cw-muted);
+}
+
+.md-search__result-title {
+  color: var(--cw-ink);
+}
+
+.md-search__result-teaser,
+.md-search__result-term {
+  color: var(--cw-muted);
+}
+
+.md-search__result a {
+  color: var(--cw-ink);
+}
+
+.md-search__result a:hover,
+.md-search__result a:focus {
+  background-color: color-mix(in srgb, var(--cw-link) 12%, transparent);
+  color: var(--cw-link);
+}
+
+.md-search__result mark {
+  background-color: color-mix(in srgb, var(--cw-accent) 38%, transparent);
+  color: var(--cw-ink);
+}
+
+.md-overlay {
+  background-color: color-mix(in srgb, var(--cw-paper) 72%, transparent);
 }
 
 .md-typeset code,
