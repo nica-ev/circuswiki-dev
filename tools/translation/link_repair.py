@@ -15,6 +15,12 @@ LOCAL_MARKDOWN_TARGET_RE = re.compile(
     r"^(?![a-z][a-z0-9+.-]*:|#|/|mailto:)(?P<path>[^#?]+?\.md)(?P<suffix>[#?].*)?$",
     re.IGNORECASE,
 )
+LOCAL_REPAIRABLE_TARGET_RE = re.compile(
+    r"^(?![a-z][a-z0-9+.-]*:|#|/|mailto:)"
+    r"(?P<path>[^#?]+?\.(?:md|png|jpe?g|gif|svg|webp|avif|pdf|mp3|mp4|wav|ogg))"
+    r"(?P<suffix>[#?].*)?$",
+    re.IGNORECASE,
+)
 FENCE_RE = re.compile(r"^\s*(```|~~~)")
 
 
@@ -131,7 +137,7 @@ def extract_markdown_links(body: str) -> list[MarkdownLink]:
             continue
         raw_target, target_start, target_end = parsed
         normalized = normalize_markdown_target(raw_target)
-        if not is_local_markdown_target(raw_target):
+        if not is_local_repairable_target(raw_target):
             continue
         links.append(
             MarkdownLink(
@@ -245,6 +251,10 @@ def restore_wikilink_targets(source_body: str, translated_body: str) -> str:
 
 def is_local_markdown_target(target: str) -> bool:
     return bool(LOCAL_MARKDOWN_TARGET_RE.match(normalize_markdown_target(target)))
+
+
+def is_local_repairable_target(target: str) -> bool:
+    return bool(LOCAL_REPAIRABLE_TARGET_RE.match(normalize_markdown_target(target)))
 
 
 def markdown_target_span(inner: str, inner_start: int) -> tuple[str, int, int] | None:

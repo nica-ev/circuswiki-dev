@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: "Feeling Safe: A Key for Autism"
+title: Poczucie Bezpieczeństwa: Klucz dla Autyzmu
 description:
 authors:
   - Eva Parlani
@@ -15,9 +15,14 @@ land: Greece
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 06 - Greece.md
-translation_source_hash: 1ac37738b97cff774864829b5fc2a5f29ea44bba0cd44d9bd3f1b0af0964ff7a
+translation_source_hash: 04d1bdc34e3bc576d5b9cc5aa4f7e5bb5bef4bbacb39205f3cb940ad1f291ed5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:09:36+00:00
+translation_source_body_hash: 04d1bdc34e3bc576d5b9cc5aa4f7e5bb5bef4bbacb39205f3cb940ad1f291ed5
+translation_source_metadata_hash: 8055491ece01f2109e9dc414b5a6a7a16abe970283d6e4c77904cb36db3a6cd4
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:53+00:00
 ---
 # **Poczucie Bezpieczeństwa: Klucz dla Autyzmu**
 

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:30:36
-title: Der Photograph
-description: Ein theaterpädagogisches Spiel, bei dem die Gruppe eingefrorene Bilder zu vorgegebenen Themen gestaltet und auswertet.
+title: De Fotograaf
+description: Een theaterpedagogisch spel waarbij de groep bevroren beelden maakt en analyseert rondom gegeven thema's.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Photograph.md
-translation_source_hash: b8e57863e76290f36588e0363591752b3c2f32aa9568fb106b033dd31033d4ad
+translation_source_hash: e8930fc6285b3738319e82402997431b82cff2ca512364e3d5aa60c16af6b4ed
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:30:46+00:00
+translation_source_body_hash: e8930fc6285b3738319e82402997431b82cff2ca512364e3d5aa60c16af6b4ed
+translation_source_metadata_hash: ab1ce242ef6f40d41c9df1327023e09bfc7585054164f629f4fc24c369d95735
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:08:14+00:00
 ---
 > [!info] Korte beschrijving
 > Een theaterpedagogisch spel waarbij de groep bevroren beelden vormt en evalueert rondom vooraf bepaalde thema's.

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:19
-title: Ball werfen im Stern
-description: Ein Ballspiel im Kreis, bei dem ein festes Wurfmuster entsteht und mit mehreren Bällen trainiert werden kann.
+title: Bal gooien in de ster
+description: Een balspel in een cirkel waarbij een vast gooi-patroon ontstaat en met meerdere ballen getraind kan worden.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 15
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ball werfen im Stern.md
-translation_source_hash: 59b229bf1eb08e74e350864d931d24ca2167165dfb7c828287a0534f1af70883
+translation_source_hash: 93982ffac323ad0c6017929a0afc252a3bd040134fafc9af00a22ba4b5a33e7f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:23:37+00:00
+translation_source_body_hash: 93982ffac323ad0c6017929a0afc252a3bd040134fafc9af00a22ba4b5a33e7f
+translation_source_metadata_hash: 5f65a7ddb2cde97cf661535eca2bca781c2da6b3e4024a78ca319e73c9d36b8c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:02:23+00:00
 ---
 > [!info] Korte beschrijving
 > Een balspel in een kring, waarbij een vast gooi-patroon ontstaat en er met meerdere ballen getraind kan worden.

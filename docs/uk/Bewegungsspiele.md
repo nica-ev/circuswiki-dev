@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Ігри з рухом
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:53+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:27+00:00
 ---
 # Рухливі ігри
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | файл                                                                      | мін. група | макс. група | складність | матеріал                                        | тривалість |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------------------- | ---------- |
-| [3 в ряд](<3%20gewinnt.md>)                                             | 4         | 30        | середня        | 9 кілець, 6 кольорових предметів, стартова позначка | 5-20       |
-| [Орел, заєць, капуста](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | середня        | немає                                          | 5-15       |
-| [Вогонь, вода, пісок](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | легка       | підвищення, опціонально барабан                    | 5-15       |
+| [Три в ряд](<3%20gewinnt.md>)                                             | 4         | 30        | середня        | 9 кілець, 6 кольорових предметів, стартова позначка | 5-20       |
+| [Орел - Заєць - Капуста](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | середня        | немає                                          | 5-15       |
+| [Вогонь Вода Пісок](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | легка       | підвищення, опціонально барабан                    | 5-15       |
 | [Лови фігури](<Figurenfangen.md>)                                       | 6         | 30        | середня        | немає                                          | 6          |
-| [Лови п'ятками](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | легка       | немає                                          | 5-10       |
-| [Акула](<Haifisch.md>)                                                 | 10        | 30        | легка       | немає                                          | 5          |
+| [Цвяхи на ногах](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | легка       | немає                                          | 5-10       |
+| [Акула та риба](<Haifisch.md>)                                                 | 10        | 30        | легка       | немає                                          | 5          |
 | [Кожен ловить кожного](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | легка       | немає                                          | 3          |
 | [Кіт і миша](<Katz%20und%20Maus.md>)                                   | 10        | 30        | складна        | немає                                          | 5-10       |
 | [Лови прищіпки](<Klammern%20haschen.md>)                               | 5         | 30        | легка       | прищіпки для білизни                                  | 4-6        |
 | [Лікарня](<Krankenhaus.md>)                                           | 8         | 30        | легка       | мати                                          | 5-10       |
-| [Лють](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | легка       | кільця або хулахупи                           | 20-30      |
-| [Морква, заєць, лисиця](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | легка       | немає                                          | 10         |
-| [Парні лови та ланцюгові лови](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | легка       | немає                                          | 5          |
+| [Людська гра](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | легка       | кільця або хулахупи                           | 20-30      |
+| [Морква Заєць Лисиця](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | легка       | немає                                          | 10         |
+| [Парне та ланцюгове ловіння](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | легка       | немає                                          | 5          |
 | [Пітбуль](<Pitbull.md>)                                                   | 10        | 40        | середня        | немає                                          | 7          |
-| [Розривання овець](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | легка       | немає                                          | 3-5        |
+| [Вовки та вівці](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | легка       | немає                                          | 3-5        |
 | [Сестричко, допоможи](<Schwesterchen%20hilf.md>)                           | 8         | 30        | легка       | немає                                          | 5          |
-| [Футболка в штанях](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | середня        | м'яч                                            | 5-15       |
-| [Лови чотирма кольорами](<Vierfarbenfangen.md>)                                 | 20        | 40        | середня        | опціонально кольорові футболки                        | 10         |
-| [Бомба з таймером](<Zeitbombe.md>)                                               | 8         | 30        | легка       | позначка для того, хто ловить                                  | 5-10       |
-| [Зомбі-бол](<Zombieball.md>)                                             | 5         | 30        | середня        | м'ячі                                           | 10         |
+| [Футболка в штанах](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | середня        | м'яч                                            | 5-15       |
+| [Гра в чотири кольори](<Vierfarbenfangen.md>)                                 | 20        | 40        | середня        | опціонально кольорові футболки                        | 10         |
+| [Часова бомба](<Zeitbombe.md>)                                               | 8         | 30        | легка       | позначка для того, хто ловить                                  | 5-10       |
+| [Зомбібол](<Zombieball.md>)                                             | 5         | 30        | середня        | м'ячі                                           | 10         |
 
 <!-- dynamic:end -->

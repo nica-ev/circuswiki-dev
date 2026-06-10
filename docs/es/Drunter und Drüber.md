@@ -6,8 +6,8 @@ update: 2026-06-07 22:47:15
 publish: true
 tags:
   - spiele
-title: Drunter und Drüber
-description: Ein einfaches Weitergabespiel, bei dem Gegenstände abwechselnd über den Kopf und durch die Beine transportiert werden.
+title: Arriba y Abajo
+description: Un sencillo juego de pases donde los objetos se pasan alternativamente por encima de la cabeza y entre las piernas.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Drunter und Drüber.md
-translation_source_hash: f598a8650d53aaba33c71d953056698a9921103ccf93d29cc619e74f2aea1edd
+translation_source_hash: 6a8475753c9fe7f7c20980d10dcdaed20c89df9c568e93a82f28f98dca789069
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:35:23+00:00
+translation_source_body_hash: 6a8475753c9fe7f7c20980d10dcdaed20c89df9c568e93a82f28f98dca789069
+translation_source_metadata_hash: e49a8bc5b2340674b9960e8944cbc684975d6a2e5806e71de9adc507a636e4bc
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:12:04+00:00
 ---
 > [!info] Breve descripción
 > Un sencillo juego de pases en el que los objetos se transportan alternativamente por encima de la cabeza y entre las piernas.

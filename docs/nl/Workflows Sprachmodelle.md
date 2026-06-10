@@ -5,16 +5,21 @@ created: 2025-01-21 18:09:55
 update: 2025-03-10 23:07:38
 publish: true
 tags: 
-title: Workflows Sprachmodelle
+title: Workflows voor taalmodellen
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Workflows Sprachmodelle.md
-translation_source_hash: 05494d41fe6ca6975866581ef7812931e5bdce27c0c3a34f0da3a9df4622a4af
+translation_source_hash: f29637995eb7abf2230ea93ecf6f6b5bcb9e58876dd94b41aff9b588fc9d9d6a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:25:43+00:00
+translation_source_body_hash: f29637995eb7abf2230ea93ecf6f6b5bcb9e58876dd94b41aff9b588fc9d9d6a
+translation_source_metadata_hash: 397d228717dfb628a6fcb30cf79b36494aea2cec877196305d789f95f7293f3a
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:12:27+00:00
 ---
 ## Frontend: Msty
 Als Frontend gebruik ik de app [Msty](https://msty.app).

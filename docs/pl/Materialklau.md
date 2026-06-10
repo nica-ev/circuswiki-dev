@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:39:30
-title: Materialklau
-description: Ein Teamspiel, bei dem Gruppen Material aus der Mitte und voneinander holen, um angesagte Aufgaben zuerst zu erfüllen.
+title: Kradzież materiałów
+description: Gra zespołowa, w której grupy pobierają materiały ze środka i od siebie nawzajem, aby jako pierwsze wykonać zadane zadania.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 32
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Materialklau.md
-translation_source_hash: 80f6b941eab850dbd7383d73ecaa19e66cf1fff65eae774b9164bff4101ef9b7
+translation_source_hash: 82271a760297368bef9d3546f59d66f605460ef2a0b0d60004dd94f3a6e2d494
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:05:23+00:00
+translation_source_body_hash: 82271a760297368bef9d3546f59d66f605460ef2a0b0d60004dd94f3a6e2d494
+translation_source_metadata_hash: 1c195baff4b6da0d843222bb52567602d3503e154e319695097e5ec1e8799234
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:57:28+00:00
 ---
 > [!info] Krótki opis
 > Gra zespołowa, w której grupy pobierają materiały ze środka i od siebie nawzajem, aby jako pierwsze wykonać zadane polecenia.

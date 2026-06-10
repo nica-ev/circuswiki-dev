@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:27:13
-title: Was tust Du da?
-description: Ein Theater-Spiel, bei dem dargestellte Tätigkeiten durch bewusst unpassende Antworten weitergegeben werden.
+title: Mit csinálsz?
+description: Színházi játék, ahol az előadott tevékenységeket tudatosan nem illő válaszokkal adják tovább.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Was tust Du da.md
-translation_source_hash: a1e6cd66c46069b1c5317dfe1beb87a8d5d1e578c583dd2fdbb085ed725ac51c
+translation_source_hash: 717cc749b6981e163ce2860172a007fa7bbe441a9511ac6a39b5716eb59ad666
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:36:21+00:00
+translation_source_body_hash: 717cc749b6981e163ce2860172a007fa7bbe441a9511ac6a39b5716eb59ad666
+translation_source_metadata_hash: 025cdb6fbdca06e0d0d1d40b9adb85fd7424fdedb3eb11f3c91d1cb586df7aca
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:37+00:00
 ---
 > [!info] Rövid leírás
 > Egy színházi játék, amelyben a bemutatott tevékenységeket szándékosan nem illő válaszokkal adják tovább.

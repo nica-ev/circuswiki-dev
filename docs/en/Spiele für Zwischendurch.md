@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Games for in-between
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:25+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:59+00:00
 ---
 # Quick Games
 
@@ -33,7 +38,7 @@ columns: file, group-min, group-max, difficulty, material, duration
 
 | file                                                                                      | group-min | group-max | difficulty | material                  | duration |
 | ----------------------------------------------------------------------------------------- | --------- | --------- | ---------- | ------------------------- | -------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2         | 99        | easy       | none                      | 5-10     |
+| [One, Two, Three](<1-2-3.md>)                                                                       | 2         | 99        | easy       | none                      | 5-10     |
 | [Egyptian Throwing Game](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | medium     | balls                     | 5 - 10   |
 | [Task Game](<Aufgaben%20Spiel.md>)                                                        | 4         | 30        | medium     | none                      | 5-15     |
 | [Ball Attention Game](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)                     | 5         | 25        | easy       | balls                     | 5-10     |
@@ -41,37 +46,37 @@ columns: file, group-min, group-max, difficulty, material, duration
 | [The Yes Game](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | easy       | none                      | 5-10     |
 | [The Photographer](<Der%20Photograph.md>)                                                 | 5         | 25        | easy       | none                      | 10-20    |
 | [The Circus is in Town](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                        | 10        | 40        | easy       | none                      | 5-15     |
-| [The Circus is Coming to Town](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)              | 10        | 40        | easy       | mat, marked areas         | 5-15     |
+| [The Circus Comes to Town](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)              | 10        | 40        | easy       | mat, marked areas         | 5-15     |
 | [Evolution](<Evolution.md>)                                                               | 12        | 40        | easy       | none                      | 10       |
-| [Rock Paper Scissors Fan](<Fan%20Schnick-Schnack-Schnuck.md>)                             | 20        | 60        | easy       | none                      | 8        |
-| [Finger Fencing](<Finger-Fechten.md>)                                                     | 2         | 99        | easy       | none                      | 2-5      |
+| [Fan Rock-Paper-Scissors](<Fan%20Schnick-Schnack-Schnuck.md>)                             | 20        | 60        | easy       | none                      | 8        |
+| [Finger Fighting](<Finger-Fechten.md>)                                                     | 2         | 99        | easy       | none                      | 2-5      |
 | [Friend and Foe](<Freund%20und%20Feind.md>)                                               | 5         | 20        | easy       | none                      | 2-5      |
 | [Like Likes Like](<Gleich%20und%20gleich.md>)                                             | 6         | 30        | easy       | optional music            | 5-15     |
 | [Big vs. Small](<Gro%C3%9F%20gegen%20Klein.md>)                                           | 3         | 10        | medium     | mat                       | 1-5      |
-| [Good Day, Neighbor](<Guten%20Tag%20Herr%20Nachbar.md>)                                   | 10        | 30        | medium     | none                      | 5-10     |
+| [Hello Neighbor](<Guten%20Tag%20Herr%20Nachbar.md>)                                   | 10        | 30        | medium     | none                      | 5-10     |
 | [Human Memory](<Human%20Memory.md>)                                                       | 8         | 40        | easy       | none                      | 10-15    |
-| [Killer Radio Car](<Killerfunkwagen.md>)                                                  | 2         | 30        | easy       | none                      | 5-10     |
-| [Gossip Theater](<Klatsch%20Theater.md>)                                                  | 4         | 20        | easy       | none                      | 7        |
-| [King of the Skies](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                    | 6         | 20        | medium     | none                      | 5-10     |
-| [Cow Barn](<Kuhstall.md>)                                                                 | 7         | 40        | easy       | none                      | 5-10     |
+| [Killer Funk Car](<Killerfunkwagen.md>)                                                  | 2         | 30        | easy       | none                      | 5-10     |
+| [Clap Theatre](<Klatsch%20Theater.md>)                                                  | 4         | 20        | easy       | none                      | 7        |
+| [King of the Air](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                    | 6         | 20        | medium     | none                      | 5-10     |
+| [Cow Shed](<Kuhstall.md>)                                                                 | 7         | 40        | easy       | none                      | 5-10     |
 | [Laughing Bear](<Lachb%C3%A4r.md>)                                                        | 6         | 30        | easy       | none                      | 4        |
 | [Lightsaber](<Laserschwert.md>)                                                           | 5         | 25        | easy       | none                      | 5-10     |
-| [Balancing Balloons](<Luftballons%20Balancieren.md>)                                     | 2         | 99        | easy       | balloons                  | 5-10     |
+| [Balloon Balancing](<Luftballons%20Balancieren.md>)                                     | 2         | 99        | easy       | balloons                  | 5-10     |
 | [Massacre](<Massaker.md>)                                                                 | 2         | 30        | easy       | none                      | 5-10     |
 | [Name Fight](<Namenkampf.md>)                                                             | 10        | 30        | easy       | large cloth               | 10 -  15 |
-| [Pirate Greeting Game](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                           | 4         | 99        | easy       | none                      | 5-10     |
+| [Pirate Welcome Game](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                           | 4         | 99        | easy       | none                      | 5-10     |
 | [Pirate Captain](<Piraten%20Kapit%C3%A4n.md>)                                             | 5         | 25        | easy       | mat                       | 5-15     |
-| [Passing Hoop in a Circle](<Reifen%20durchgeben%20im%20Kreis.md>)                         | 5         | 30        | easy       | hoop                      | 5-10     |
+| [Passing Rings in a Circle](<Reifen%20durchgeben%20im%20Kreis.md>)                         | 5         | 30        | easy       | hoop                      | 5-10     |
 | [Shadow Run](<Schattenlauf.md>)                                                           | 2         | 99        | easy       | none                      | 5 - 15   |
 | [Flipping Turtles](<Schildkr%C3%B6ten%20umdrehen.md>)                                     | 6         | 30        | medium     | none                      | 5 - 10   |
-| [Quick Quick - Freeze!](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>)               | 8         | 30        | medium     | none                      | 5-10     |
+| [Quick, Quick - In Place](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>)               | 8         | 30        | medium     | none                      | 5-10     |
 | [Rock Paper Scissors](<Schnick_Schnack_Schnuck.md>)                                       | 4         | 99        | easy       | none                      | 5-10     |
 | [Speed Dating](<Speed%20Dating.md>)                                                       | 6         | 40        | easy       | paper, pens               | 10-20    |
-| [Staring Contest](<Totblicken.md>)                                                        | 7         | 30        | easy       | none                      | 3-9      |
+| [Death Gaze](<Totblicken.md>)                                                        | 7         | 30        | easy       | none                      | 3-9      |
 | [Vampire](<Vampir.md>)                                                                    | 6         | 30        | medium     | none                      | 5-10     |
 | [Virus](<Virus.md>)                                                                       | 5         | 30        | easy       | none                      | 5-10     |
 | [What Are You Doing?](<Was%20tust%20Du%20da.md>)                                           | 4         | 20        | medium     | none                      | 10-15    |
-| [If I Were King](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                                  | 4         | 30        | easy       | podium                    | 5-10     |
+| [If I Were King...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                                  | 4         | 30        | easy       | podium                    | 5-10     |
 | [Whiskey Mixer](<Whiskeymixer.md>)                                                        | 5         | 30        | medium     | none                      | 3-10     |
 
 <!-- dynamic:end -->

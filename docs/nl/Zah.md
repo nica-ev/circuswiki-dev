@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2026-06-09 01:58:49
 title: Zah
-description: Ein schnelles Energie-Kreisspiel, bei dem Impulse mit klaren Bewegungen angenommen und weitergegeben werden.
+description: Een snel energiekringspel waarbij impulsen met duidelijke bewegingen worden aangenomen en doorgegeven.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zah.md
-translation_source_hash: 9ca053a5b13a54862d3760f5c647a1cf29a0e5721b8f61933f801c4a43ebb00d
+translation_source_hash: e2f81094cfbd641f760a74b9de1e368a91a75a6c61847fedde11165230ec124a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:37:22+00:00
+translation_source_body_hash: e2f81094cfbd641f760a74b9de1e368a91a75a6c61847fedde11165230ec124a
+translation_source_metadata_hash: 7dda2624c27e8b1a778efa27a4832d9b1a865c58af45cea56c6fec0b8cc48a2e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:12:53+00:00
 ---
 > [!info] Korte beschrijving
 > Een snel cirkelspel vol energie, waarbij impulsen met duidelijke bewegingen worden aangenomen en doorgegeven.

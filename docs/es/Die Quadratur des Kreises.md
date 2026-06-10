@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:56:02
-title: Die Quadratur des Kreises
-description: Eine Kooperationsaufgabe, bei der die Gruppe mit geschlossenen Augen aus einem gehaltenen Seil ein Quadrat bilden soll.
+title: La cuadratura del círculo
+description: Una tarea de cooperación en la que el grupo debe formar un cuadrado con una cuerda sostenida, con los ojos vendados.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Quadratur des Kreises.md
-translation_source_hash: 3ed053f9a0353e21c94abe9a168b4be0d7ac3512059ac8df77fb96a6706d2caa
+translation_source_hash: 75ec9993b36c297cf1e02ad5d279fe4d8ed17f67ea19b492ca0e042deb6142c4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:33:27+00:00
+translation_source_body_hash: 75ec9993b36c297cf1e02ad5d279fe4d8ed17f67ea19b492ca0e042deb6142c4
+translation_source_metadata_hash: 37041a056207e7b6680e47f6ab56e69ebc32fad3b0e7bdee8ab7c834cd0ac616
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:09:17+00:00
 ---
 > [!info] Breve descripción
 > Una tarea de cooperación en la que el grupo debe formar un cuadrado con una cuerda sujeta, con los ojos cerrados.

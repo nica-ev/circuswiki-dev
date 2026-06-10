@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:10:29
-title: Guten Tag Herr Nachbar
-description: Ein Laufspiel im Kreis, bei dem zwei Personen sich höflich begrüßen und um den freien Platz rennen.
+title: Jó napot, szomszéd!
+description: Körben futó játék, ahol két ember udvariasan köszön egymásnak, és a szabad helyért versenyeznek.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Guten Tag Herr Nachbar.md
-translation_source_hash: ce434fb263ef96c61e174121e23dac7a459888fde1d9bdfa5fab5241f9cd766d
+translation_source_hash: a814f92545a20c16f72e5ec94e630467430ad28507671b644f8b636fa178db1b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:58+00:00
+translation_source_body_hash: a814f92545a20c16f72e5ec94e630467430ad28507671b644f8b636fa178db1b
+translation_source_metadata_hash: 39a2a18a80c2ea5aee82bc83e32d0d4a6182443e919a64f83007b3f6f313cd80
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:49:33+00:00
 ---
 > [!info] Rövid leírás
 > Körben állva végzett futójáték, ahol két személy udvariasan köszön egymásnak, és a szabad hely felé futnak.

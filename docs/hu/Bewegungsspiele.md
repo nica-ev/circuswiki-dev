@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Mozgásjátékok
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:29+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:23+00:00
 ---
 # Mozgásjátékok
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                      | group-min | group-max | Nehézség | Anyag                                           | Játékidő |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------------------- | ---------- |
-| [3 nyer](<3%20gewinnt.md>)                                             | 4         | 30        | közepes        | 9 karika, 6 színes tárgy, startjelölés | 5-20       |
-| [Sas Nyúl Káposzta](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | közepes        | nincs                                          | 5-15       |
+| [Három az egyben](<3%20gewinnt.md>)                                             | 4         | 30        | közepes        | 9 karika, 6 színes tárgy, startjelölés | 5-20       |
+| [Sas - Nyúl - Káposzta](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | közepes        | nincs                                          | 5-15       |
 | [Tűz Víz Homok](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | könnyű       | Emelvények, opcionálisan dob                                                   | 5-15       |
-| [Szobor fogó](<Figurenfangen.md>)                                       | 6         | 30        | közepes        | nincs                                          | 6          |
-| [Lábazás](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | könnyű       | nincs                                          | 5-10       |
-| [Cápa](<Haifisch.md>)                                                 | 10        | 30        | könnyű       | nincs                                          | 5          |
-| [Mindenki mindenkit fog](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | könnyű       | nincs                                          | 3          |
+| [Figurák fogása](<Figurenfangen.md>)                                       | 6         | 30        | közepes        | nincs                                          | 6          |
+| [Lábkörmök](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | könnyű       | nincs                                          | 5-10       |
+| [Cápa és hal](<Haifisch.md>)                                                 | 10        | 30        | könnyű       | nincs                                          | 5          |
+| [Mindenki fog mindenkit](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | könnyű       | nincs                                          | 3          |
 | [Macska és egér](<Katz%20und%20Maus.md>)                                   | 10        | 30        | nehéz        | nincs                                          | 5-10       |
-| [Csipesz fogó](<Klammern%20haschen.md>)                               | 5         | 30        | könnyű       | ruhacsipeszek                                  | 4-6        |
+| [Csipeszfogó](<Klammern%20haschen.md>)                               | 5         | 30        | könnyű       | ruhacsipeszek                                  | 4-6        |
 | [Kórház](<Krankenhaus.md>)                                           | 8         | 30        | könnyű       | szőnyegek                                          | 5-10       |
-| [Mensch ärgere dich nicht](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | könnyű       | karikák vagy hula hoopok                           | 20-30      |
-| [Répa Nyúl Róka](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | könnyű       | nincs                                          | 10         |
-| [Pár fogó és Lánc fogó](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | könnyű       | nincs                                          | 5          |
+| [Ne haragudj rám](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | könnyű       | karikák vagy hula hoopok                           | 20-30      |
+| [Sárgarépa Nyúl Róka](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | könnyű       | nincs                                          | 10         |
+| [Pár fogás & Lánc fogás](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | könnyű       | nincs                                          | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | közepes        | nincs                                          | 7          |
-| [Bárányok tépése](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | könnyű       | nincs                                          | 3-5        |
-| [Kishúgom, segíts](<Schwesterchen%20hilf.md>)                           | 8         | 30        | könnyű       | nincs                                          | 5          |
+| [Bárányok elragadása](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | könnyű       | nincs                                          | 3-5        |
+| [Kishúgom, segíts!](<Schwesterchen%20hilf.md>)                           | 8         | 30        | könnyű       | nincs                                          | 5          |
 | [Póló a nadrágban](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | közepes        | labda                                            | 5-15       |
-| [Négy szín fogó](<Vierfarbenfangen.md>)                                 | 20        | 40        | közepes        | opcionálisan színes trikók                        | 10         |
+| [Négy Szín Fogócska](<Vierfarbenfangen.md>)                                 | 20        | 40        | közepes        | opcionálisan színes trikók                        | 10         |
 | [Időzített bomba](<Zeitbombe.md>)                                               | 8         | 30        | könnyű       | jelölés a fogónak                               | 5-10       |
-| [Zombi labda](<Zombieball.md>)                                             | 5         | 30        | közepes        | labdák                                           | 10         |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | közepes        | labdák                                           | 10         |
 
 <!-- dynamic:end -->

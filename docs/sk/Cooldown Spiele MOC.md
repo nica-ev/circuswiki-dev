@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:41:05
-title: Cooldown Spiele
+title: Cooldown hry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Cooldown Spiele MOC.md
-translation_source_hash: 6dd4e1da674b4118b17220dd318fee9e76aa5b49ed024b7758f2164fcff4ee11
+translation_source_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:29:13+00:00
+translation_source_body_hash: 36ad8538a3ee687b61e830abdba086c0d9326f0f16b428aeafdfa9b8a18c4bf1
+translation_source_metadata_hash: 8d77c7b7ddeaea581e3e2ce39008eddd97c82a6ba03b3cc0e0067c525783d000
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:24+00:00
 ---
 # Hry na upokojenie MOC
 <!-- dynamic:start
@@ -32,16 +37,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | súbor                                                                                         | min. skupina | max. skupina | Obtiažnosť | Materiál | Dĺžka hry |
 | --------------------------------------------------------------------------------------------- | ----------- | ----------- | ---------- | -------- | --------- |
-| [Prihláška v cirkuse](<Bewerbung%20im%20Zirkus.md>)                                           | 8           | 99          | ľahká      | žiadny   | 5-10      |
-| [Balansovanie s knihami](<B%C3%BCcherbalance.md>)                                             | 3           | 20          | ľahká      | knihy    | 5-10      |
+| [Prihláška do cirkusu](<Bewerbung%20im%20Zirkus.md>)                                           | 8           | 99          | ľahká      | žiadny   | 5-10      |
+| [Knižná rovnováha](<B%C3%BCcherbalance.md>)                                             | 3           | 20          | ľahká      | knihy    | 5-10      |
 | [Cítiť ruky](<H%C3%A4nde%20sp%C3%BCren.md>)                                                    | 4           | 25          | ľahká      | žiadny   | 5-10      |
-| [Zemiak Zemiak](<Kartoffel%20Kartoffel.md>)                                                   | 5           | 20          | ľahká      | žiadny   | 5-10      |
-| [Tlieskanie s očným kontaktom](<Klatsch%20mit%20Augenkontakt.md>)                              | 5           | 99          | ľahká      | žiadny   | 5-10      |
+| [Zemiak, zemiak](<Kartoffel%20Kartoffel.md>)                                                   | 5           | 20          | ľahká      | žiadny   | 5-10      |
+| [Šepot s očným kontaktom](<Klatsch%20mit%20Augenkontakt.md>)                              | 5           | 99          | ľahká      | žiadny   | 5-10      |
 | [Masážna hra - Farmár a zemiakové pole](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>) | 4           | 20          | ľahká      | žiadny   | 5-10      |
 | [Medúza](<Medusa.md>)                                                                         | 5           | 25          | ľahká      | žiadny   | 5-10      |
 | [Ľudské dáma](<Menschenhalma.md>)                                                             | 8           | 20          | ľahká      | žiadny   | 4         |
-| [Vrah](<M%C3%B6rderspiel.md>)                                                                 | 8           | 30          | stredná    | žiadny   | 6         |
-| [Ušičko ihly](<Nadel%C3%B6hr.md>)                                                              | 5           | 30          | ľahká      | žiadny   | 5-10      |
+| [Hra na vraha](<M%C3%B6rderspiel.md>)                                                                 | 8           | 30          | stredná    | žiadny   | 6         |
+| [Ihla v oku](<Nadel%C3%B6hr.md>)                                                              | 5           | 30          | ľahká      | žiadny   | 5-10      |
 | [Robot](<Roboter.md>)                                                                         | 2           | 30          | ľahká      | žiadny   | 5-10      |
 | [Šach](<Schach.md>)                                                                           | 6           | 20          | stredná    | žiadny   | 5-10      |
 | [Zip Zap](<Zip%20Zap.md>)                                                                     | 5           | 99          | ľahká      | žiadny   | 5-10      |

@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:51
 update: 2025-01-25 01:08:46
-title: Geschwindigkeit
+title: Sebesség
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiel Geschwindigkeit.md
-translation_source_hash: a7b20cd8b0132770a2dd7337294442aa8eced2c220778ecd12f835d9ba839e74
+translation_source_hash: 39dd97fb4ac94f0b0c3b421bb093900e2986015be2342404e901392177c14fcf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:53:43+00:00
+translation_source_body_hash: 39dd97fb4ac94f0b0c3b421bb093900e2986015be2342404e901392177c14fcf
+translation_source_metadata_hash: 3acf009deeb5ba23cc1e690b03f6c0a46aa2074987ea582cb1555ba59e641066
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:53+00:00
 ---
 # Játékinformáció: "Sebesség"
 

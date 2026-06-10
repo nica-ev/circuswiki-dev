@@ -8,16 +8,21 @@ tags:
   - spiele
   - moc
   - dynamic
-title: Taktik und Konzentrationsspiele
+title: Táticas e Jogos de Concentração
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Taktik und Konzentrationsspiele.md
-translation_source_hash: 56e419f3365c661180b55266b15f7dd4a80054a1ca85595295cf9a517f2a289b
+translation_source_hash: 3fe02d1dd649274decda4e070592d67ea086414dced5d3bf0400b1db1916c9e1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:30:18+00:00
+translation_source_body_hash: 3fe02d1dd649274decda4e070592d67ea086414dced5d3bf0400b1db1916c9e1
+translation_source_metadata_hash: 2558e853ec27c9f455bb4c7d066cf96a60374a7dec8e073d1f7ed01a80d576f2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:22+00:00
 ---
 ## Táticas e Jogos de Concentração
 
@@ -33,7 +38,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | ficheiro                                                                      | min. grupo | máx. grupo | Dificuldade | Material    | Duração do jogo |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------- | ---------- |
-| [Ás Dois Três - Captura de Cartas](<Ass%20Zwei%20Drei%20-%20Kartenfangen.md>) | 20        | 60        | médio        | Baralho de cartas | 10-15      |
+| [Ass Zwei Drei - Captura de Cartas](<Ass%20Zwei%20Drei%20-%20Kartenfangen.md>) | 20        | 60        | médio        | Baralho de cartas | 10-15      |
 | [Damas Humanas](<Menschenhalma.md>)                                       | 8         | 20        | fácil       | nenhum      | 4          |
 | [Puxar Pessoas](<Menschenziehen.md>)                                     | 12        | 40        | médio        | nenhum      | 5-9        |
 | [Jogo do Assassino](<M%C3%B6rderspiel.md>)                                      | 8         | 30        | médio        | nenhum      | 6          |

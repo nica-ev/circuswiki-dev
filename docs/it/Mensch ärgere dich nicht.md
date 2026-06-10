@@ -6,8 +6,8 @@ update: 2025-03-17 03:02:10
 publish: true
 tags:
   - spiele
-title: Mensch ärgere dich nicht
-description: Ein Laufduell entlang einer Ringbahn, bei dem Teams mit Schnick-Schnack-Schnuck um Fortschritt kämpfen.
+title: Non ti arrabbiare
+description: Una gara di corsa lungo un percorso circolare, dove le squadre si sfidano con sasso-carta-forbice per avanzare.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mensch ärgere dich nicht.md
-translation_source_hash: bce928bbbebf1552cbc6d0a541165e9c7f039ecc4a5657e47b563f8b36b1ba68
+translation_source_hash: f2e69d2fb22eff75cac23bde3cc0f5f85f53e05eea68aa0c303144820e09f1ff
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:06:02+00:00
+translation_source_body_hash: f2e69d2fb22eff75cac23bde3cc0f5f85f53e05eea68aa0c303144820e09f1ff
+translation_source_metadata_hash: 782d6f724a3e08443601dd493d7d80bcfed01e7189f38a6bbfb7d4e1f9e48dd2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:58:12+00:00
 ---
 > [!info] Breve descrizione
 > Un duello di corsa lungo una pista di anelli, in cui le squadre si contendono il progresso con sasso, carta, forbici.

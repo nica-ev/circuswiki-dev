@@ -8,8 +8,8 @@ tags:
   - gry
   - hula-hoop
   - kooperacja
-title: Kółka trzy
-description: Trzyosobowa gra z hula hoop, w której grupa przesuwa się do mety, przekładając obręcz przed osobę środkową.
+title: Три обручі
+description: Гра для трьох осіб з обручем, де група просувається до фінішу, передаючи обруч передній людині.
 authors:
   - Wiktoria Witenberg
 category:
@@ -22,9 +22,14 @@ source_file: _inbox/Hula hoop - materiały KPC.pdf
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Kolka trzy.md
-translation_source_hash: 5a2620807e81262702154d0dfc5ee4192fbcb6a020b0fb775b8a0ce116e2b4f9
+translation_source_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe10d527e9be
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:33:05+00:00
+translation_source_body_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe10d527e9be
+translation_source_metadata_hash: 3c18cd22f5af5cbae13d6066f73322a6d805deef9e818ab169af242bfa30b987
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:54:39+00:00
 ---
 # Три кола
 

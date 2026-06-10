@@ -6,8 +6,8 @@ update: 2025-03-17 02:23:47
 publish: true
 tags:
   - spiele
-title: Mörderspiel
-description: Ein stilles Rollenspiel, bei dem ein Mörder durch Blinzeln tötet und die Gruppe ihn gemeinsam entlarven muss.
+title: Gyilkos játék
+description: Egy csendes szerepjáték, ahol egy gyilkos pislogással öl, és a csoportnak közösen kell lelepleznie őt.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mörderspiel.md
-translation_source_hash: 442a3eb63e2f809aaef640d854bc67c95505a8e01080886cc669b9b1f76b5c4f
+translation_source_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5aab736467d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:07:42+00:00
+translation_source_body_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5aab736467d
+translation_source_metadata_hash: a48c3576818751341c9fa383c87a19c951345b1ddf31205629e6bc4730880e61
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:59:45+00:00
 ---
 > [!info] Rövid leírás
 > Egy csendes szerepjáték, ahol a gyilkos pislogással öl, és a csoportnak közösen kell lelepleznie őt.

@@ -5,16 +5,21 @@ created: 2025-01-21 18:09:55
 update: 2025-01-25 02:06:00
 publish: true
 tags: 
-title: Vault File System
+title: Sistema de archivos Vault
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vault File System.md
-translation_source_hash: d418e7c5944943e87dc15e652b5d223265fb03145f2906ae04de273b545ebae4
+translation_source_hash: 3bc0110134e109236bc99536708bc16f7b492cf3d0fbb5e05bf12deef33d3de2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:11:33+00:00
+translation_source_body_hash: 3bc0110134e109236bc99536708bc16f7b492cf3d0fbb5e05bf12deef33d3de2
+translation_source_metadata_hash: 13ffbb1a33178e1e6ce6e25ff0b126ea5894fe439a76f260c0dca0356812d043
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:10:39+00:00
 ---
 ```code
 /_attachments/        

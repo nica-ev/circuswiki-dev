@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Παιχνίδια συνεργασίας
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:11+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:19+00:00
 ---
 # Παιχνίδια Συνεργασίας
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                   | group-min | group-max | Δυσκολία    | Υλικά                                      | Διάρκεια Παιχνιδιού |
 | ------------------------------------------------------------------------------------------------------ | --------- | --------- | ---------------- | --------------------------------------------- | ---------- |
-| [Όλοι_εναντίον_ενός](<Alle_gegen_einen.md>)                                                              | 8         | 30        | μέτρια           | Κρίκοι                                        | 10-15      |
-| [Ο_λεπτός_μεταφορέας_νερού](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | δύσκολη           | Κατσαρόλα, σχοινί, νερό, δεύτερο δοχείο           | 5-20       |
-| [Το_εμπόδιο](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | μέτρια           | Σχοινί                                          | 5-10       |
-| [Η_τετραγωνική_του_κύκλου](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | μέτρια           | Σχοινί, προαιρετικά μαντίλες ματιών                    | 5-60       |
-| [Βασίλισσα_του_πάγου_–_Γίγαντες_και_νάνοι](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | εύκολη          | μικρό αντικείμενο                            | 5-10       |
-| [Ιπτάμενο_χαλί](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | εύκολη          | Ταρνάς                                         | 3-10       |
-| [Εννέα_άνθρωποι_–_8_πόδια_–_4_χέρια](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | εύκολη          | κανένα                                        | 10         |
-| [Διαστημικός_σταθμός](<Raumstation.md>)                                                                        | 6         | 25        | μέτρια           | Σημαδεμένη περιοχή, αντικείμενα                 | 10-15      |
-| [Διάσχιση_λίμνης](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | μέτρια           | Χαρτί, στρώμα μαλακού εδάφους, προαιρετικά αντικείμενα | 15-20       |
-| [Ταξινόμηση_στην_ομάδα](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | μέτρια           | Καρέκλες ή σκαμπό                            | 5-15       |
-| [Ιστός_αράχνης](<Spinnennetz.md>)                                                                        | 6         | 14        | εύκολη - δύσκολη | Σχοινιά                                         | 5 - 15     |
+| [Όλοι εναντίον ενός](<Alle_gegen_einen.md>)                                                              | 8         | 30        | μέτρια           | Κρίκοι                                        | 10-15      |
+| [Η λεπτή μεταφορά νερού](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | δύσκολη           | Κατσαρόλα, σχοινί, νερό, δεύτερο δοχείο           | 5-20       |
+| [Το Εμπόδιο](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | μέτρια           | Σχοινί                                          | 5-10       |
+| [Η Τετραγωνική Λύση του Κύκλου](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | μέτρια           | Σχοινί, προαιρετικά μαντίλες ματιών                    | 5-60       |
+| [Βασίλισσα του Πάγου - Γίγαντας και Νάνοι](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | εύκολη          | μικρό αντικείμενο                            | 5-10       |
+| [Ιπτάμενο χαλί](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | εύκολη          | Ταρνάς                                         | 3-10       |
+| [Εννέα άνθρωποι – 8 πόδια - 4 χέρια](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | εύκολη          | κανένα                                        | 10         |
+| [Διαστημικός Σταθμός](<Raumstation.md>)                                                                        | 6         | 25        | μέτρια           | Σημαδεμένη περιοχή, αντικείμενα                 | 10-15      |
+| [Διάσχιση Λίμνης](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | μέτρια           | Χαρτί, στρώμα μαλακού εδάφους, προαιρετικά αντικείμενα | 15-20       |
+| [Ταξινόμηση στην ομάδα](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | μέτρια           | Καρέκλες ή σκαμπό                            | 5-15       |
+| [Ιστός αράχνης](<Spinnennetz.md>)                                                                        | 6         | 14        | εύκολη - δύσκολη | Σχοινιά                                         | 5 - 15     |
 
 <!-- dynamic:end -->

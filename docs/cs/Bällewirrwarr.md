@@ -6,8 +6,8 @@ update: 2026-06-07 00:02:54
 publish: true
 tags:
   - spiele
-title: Bällewirrwarr
-description: Ein Namens- und Ballspiel, bei dem feste Wurfreihenfolgen mit mehreren Ballfarben immer komplexer werden.
+title: Zmatek s míčky
+description: Hra se jmény a míčky, kde pevné sekvence házení s více barvami míčků jsou stále složitější.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: "15"
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bällewirrwarr.md
-translation_source_hash: 9fb9ac30105207a2f62e66d99c130c1f089754da57936540b5dfb0f39cfd8901
+translation_source_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36940620c19
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:24:16+00:00
+translation_source_body_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36940620c19
+translation_source_metadata_hash: 65d67e2c5c8722fdc832ac6f60001d264b32a96c7def8048eca90106f730c533
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:02:37+00:00
 ---
 > [!info] Stručný popis
 > Jmenná a míčová hra, kde se pevné pořadí házení s několika barvami míčů stává stále složitějším.

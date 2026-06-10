@@ -6,8 +6,8 @@ update: 2025-03-17 01:56:36
 publish: true
 tags:
   - spiele
-title: Eiskönigin - Riese und Zwerge
-description: Ein Anschleich- und Kooperationsspiel, bei dem eine Gruppe einen Gegenstand heimlich stiehlt und zurückbringt.
+title: Ice Queen - Giant and Dwarves
+description: A stealth and cooperation game where a group secretly steals and returns an item.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eiskönigin - Riese und Zwerge.md
-translation_source_hash: 2901ffa399b292b9ddbf0c5873085bcdd6f46c0c9980c9c69ecae2e2b294246f
+translation_source_hash: d35b633799b3976e1583a965c313c4898392774bddc9fd5702617e2e525eab5b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:35:53+00:00
+translation_source_body_hash: d35b633799b3976e1583a965c313c4898392774bddc9fd5702617e2e525eab5b
+translation_source_metadata_hash: 2adf3968f0fc35fa20c61f3f99f6638bfc27cca7a9470fb42987c5d336b88d11
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:12:25+00:00
 ---
 > [!info] Brief Description
 > A sneaking and cooperation game where a group secretly steals and returns an object.

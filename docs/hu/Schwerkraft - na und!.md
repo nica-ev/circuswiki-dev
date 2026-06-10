@@ -6,7 +6,7 @@ update: 2025-02-09 20:55:15
 publish: draft
 tags:
   - kaskade
-title: Schwerkraft - na und!
+title: Gravitáció - és akkor mi van!
 description: 
 authors:
   - Christoph Schmitt
@@ -15,9 +15,14 @@ source: Kaskade 001
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schwerkraft - na und!.md
-translation_source_hash: c472955e10568c672db542d0f0e458f56e94e850659f8bf476cbb858776cd4f7
+translation_source_hash: 26a39b2d4ee4ff6aec0d58b3d88d91a7d05c85e2583fc65f5b257009bdae8b84
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:53:26+00:00
+translation_source_body_hash: 26a39b2d4ee4ff6aec0d58b3d88d91a7d05c85e2583fc65f5b257009bdae8b84
+translation_source_metadata_hash: 3fbfc8e4f4b8cc1cb5afe37f0f66985e4ca847bba40f9baffbb53846266c5fd6
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:06:33+00:00
 ---
 ## Autonóm Zsonglőr Csoport Wiesbaden és a 7. Európai Zsonglőr Hét
 **Gravitáció – és akkor mi van!**

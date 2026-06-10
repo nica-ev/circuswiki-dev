@@ -2,14 +2,14 @@
 lang: de
 translation_id: warsztat-hula-hoop-kpc
 created: 2026-06-07 18:55:00
-update: 2026-06-07 19:04:00
+update: 2026-06-07 19:19:32
 publish: true
 tags:
   - warsztat
   - hula-hoop
   - pedagogika-cyrku
-title: Warsztat Hula hoop
-description: Materiały warsztatowe o pracy z hula hoop, obejmujące kwestie techniczne, rozgrzewkę, gry i ćwiczenia grupowe.
+title: Hula-Hoop-Workshop
+description: Workshop-Materialien zur Arbeit mit dem Hula-Hoop, einschließlich technischer Aspekte, Aufwärmübungen, Spielen und Gruppenübungen.
 authors:
   - Wiktoria Witenberg
 source: KPC
@@ -19,11 +19,15 @@ facebook: "@wyhulana"
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Warsztat Hula hoop.md
-translation_source_hash: d4e67ce1b2163ab65e6135f11c07979cdb9a921d7a61e486ec94c8fe73c8435b
+translation_source_hash: 851968ce774a7501ea2b597c3f283960b849ae51f46d30479e76556a4d60ddc6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:01:32+00:00
+translation_source_body_hash: 851968ce774a7501ea2b597c3f283960b849ae51f46d30479e76556a4d60ddc6
+translation_source_metadata_hash: 08783ac089fdf7dbe04d63f0a988e90e088c33edad1266d522ae10b1c77cd132
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:25+00:00
 ---
-
 # Workshop: Hula Hoop
 
 Eine Zusammenfassung der Tricks findest du im Video, das neben der Originaldatei verlinkt ist.

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Jogos rápidos
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:27:17+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:05+00:00
 ---
 # Jogos Rápidos
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | ficheiro                                                                                      | min. grupo | máx. grupo | Dificuldade | Material                  | Duração do jogo |
 | ----------------------------------------------------------------------------------------- | --------- | --------- | ------------- | ------------------------- | ---------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2         | 99        | fácil       | nenhum                    | 5-10       |
+| [Um, dois, três](<1-2-3.md>)                                                                       | 2         | 99        | fácil       | nenhum                    | 5-10       |
 | [Jogo de Arremesso Egípcio](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | médio        | Bolas                     | 5 - 10     |
 | [Jogo de Tarefas](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | médio        | nenhum                    | 5-15       |
 | [Jogo de Atenção com Bolas](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | fácil       | Bolas                     | 5-10       |
 | [Avatar](<Avatar.md>)                                                                     | 2         | 30        | fácil       | nenhum                    | 5-10       |
 | [O Jogo do Sim](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | fácil       | nenhum                    | 5-10       |
 | [O Fotógrafo](<Der%20Photograph.md>)                                                   | 5         | 25        | fácil       | nenhum                    | 10-20      |
-| [O Circo Chegou à Cidade](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | fácil       | nenhum                    | 5-15       |
-| [O Circo Vem à Cidade](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | fácil       | Tapete, áreas marcadas | 5-15       |
+| [O circo chegou à cidade](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | fácil       | nenhum                    | 5-15       |
+| [O Circo Chega à Cidade](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | fácil       | Tapete, áreas marcadas | 5-15       |
 | [Evolução](<Evolution.md>)                                                               | 12        | 40        | fácil       | nenhum                    | 10         |
-| [Pedra, Papel, Tesoura Fan](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | fácil       | nenhum                    | 8          |
-| [Esgrima de Dedos](<Finger-Fechten.md>)                                                     | 2         | 99        | fácil       | nenhum                    | 2-5        |
+| [Fan Schnick-Schnack-Schnuck](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | fácil       | nenhum                    | 8          |
+| [Luta de Dedos](<Finger-Fechten.md>)                                                     | 2         | 99        | fácil       | nenhum                    | 2-5        |
 | [Amigo e Inimigo](<Freund%20und%20Feind.md>)                                             | 5         | 20        | fácil       | nenhum                    | 2-5        |
-| [Semelhantes se Juntam](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | fácil       | Música opcional            | 5-15       |
+| [Semelhantes se atraem](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | fácil       | Música opcional            | 5-15       |
 | [Grande contra Pequeno](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | médio        | Tapete                     | 1-5        |
-| [Bom Dia, Vizinho](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | médio        | nenhum                    | 5-10       |
+| [Olá, vizinho](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | médio        | nenhum                    | 5-10       |
 | [Memória Humana](<Human%20Memory.md>)                                                       | 8         | 40        | fácil       | nenhum                    | 10-15      |
-| [Carro de Polícia Assassino](<Killerfunkwagen.md>)                                                   | 2         | 30        | fácil       | nenhum                    | 5-10       |
-| [Teatro de Fofocas](<Klatsch%20Theater.md>)                                                 | 4         | 20        | fácil       | nenhum                    | 7          |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2         | 30        | fácil       | nenhum                    | 5-10       |
+| [Teatro de Palmas](<Klatsch%20Theater.md>)                                                 | 4         | 20        | fácil       | nenhum                    | 7          |
 | [Rei dos Ares](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | médio        | nenhum                    | 5-10       |
-| [Cercado de Vacas](<Kuhstall.md>)                                                                 | 7         | 40        | fácil       | nenhum                    | 5-10       |
+| [Curral](<Kuhstall.md>)                                                                 | 7         | 40        | fácil       | nenhum                    | 5-10       |
 | [Urso Risonho](<Lachb%C3%A4r.md>)                                                              | 6         | 30        | fácil       | nenhum                    | 4          |
 | [Sabre de Luz](<Laserschwert.md>)                                                         | 5         | 25        | fácil       | nenhum                    | 5-10       |
-| [Equilibrar Balões](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | fácil       | Balões               | 5-10       |
+| [Equilibrismo de Balões](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | fácil       | Balões               | 5-10       |
 | [Massacre](<Massaker.md>)                                                                 | 2         | 30        | fácil       | nenhum                    | 5-10       |
-| [Luta de Nomes](<Namenkampf.md>)                                                             | 10        | 30        | fácil       | Pano grande               | 10 -  15   |
+| [Disputa de Nomes](<Namenkampf.md>)                                                             | 10        | 30        | fácil       | Pano grande               | 10 -  15   |
 | [Jogo de Boas-Vindas Pirata](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | fácil       | nenhum                    | 5-10       |
 | [Capitão Pirata](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | fácil       | Tapete                     | 5-15       |
-| [Passar o Aro em Círculo](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | fácil       | Aro                    | 5-10       |
-| [Corrida de Sombras](<Schattenlauf.md>)                                                         | 2         | 99        | fácil       | nenhum                    | 5 - 15     |
+| [Passar o aro em círculo](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | fácil       | Aro                    | 5-10       |
+| [Corrida das Sombras](<Schattenlauf.md>)                                                         | 2         | 99        | fácil       | nenhum                    | 5 - 15     |
 | [Virar Tartarugas](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6         | 30        | médio        | nenhum                    | 5 - 10     |
-| [Rápido, Rápido - Parado!](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | médio        | nenhum                    | 5-10       |
-| [Pedra, Papel, Tesoura](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | fácil       | nenhum                    | 5-10       |
+| [Rápido, rápido - no lugar](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | médio        | nenhum                    | 5-10       |
+| [Schnick Schnack Schnuck](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | fácil       | nenhum                    | 5-10       |
 | [Speed Dating](<Speed%20Dating.md>)                                                       | 6         | 40        | fácil       | Papel, canetas            | 10-20      |
-| [Olhar de Cadáver](<Totblicken.md>)                                                             | 7         | 30        | fácil       | nenhum                    | 3-9        |
+| [Olhar Mortal](<Totblicken.md>)                                                             | 7         | 30        | fácil       | nenhum                    | 3-9        |
 | [Vampiro](<Vampir.md>)                                                                     | 6         | 30        | médio        | nenhum                    | 5-10       |
 | [Vírus](<Virus.md>)                                                                       | 5         | 30        | fácil       | nenhum                    | 5-10       |
-| [O Que Estás a Fazer?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | médio        | nenhum                    | 10-15      |
-| [Se Eu Fosse Rei](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | fácil       | Pódio                    | 5-10       |
-| [Misturador de Whiskey](<Whiskeymixer.md>)                                                         | 5         | 30        | médio        | nenhum                    | 3-10       |
+| [O que você está fazendo?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | médio        | nenhum                    | 10-15      |
+| [Se eu fosse rei...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | fácil       | Pódio                    | 5-10       |
+| [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5         | 30        | médio        | nenhum                    | 3-10       |
 
 <!-- dynamic:end -->

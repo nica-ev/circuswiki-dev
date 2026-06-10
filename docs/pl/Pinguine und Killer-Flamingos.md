@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 22:32:33
-title: Pinguine und Killer-Flamingos
+title: Pingwiny i flamingi zabójcy
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Pinguine und Killer-Flamingos.md
-translation_source_hash: 3ad9d50bc66da9e901aa5a68fa184bfb8e8eabe62c09fce48388466467777602
+translation_source_hash: 1df029f60561e63e3583fe82d8fcd6687cc0522eaf0b090e5cb679263ee74837
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:22:02+00:00
+translation_source_body_hash: 1df029f60561e63e3583fe82d8fcd6687cc0522eaf0b090e5cb679263ee74837
+translation_source_metadata_hash: 28423cc5c87b520c5c9a14d749ab3ff97a8cc717760a657da854904ef850419f
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:02:21+00:00
 ---
 # Pingwiny i Flamingi-Zabójcy
 

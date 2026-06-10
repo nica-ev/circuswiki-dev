@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:57:15
-title: Fliegender Teppich
-description: Eine Kooperationsaufgabe, bei der die Gruppe eine Plane wenden muss, ohne den Boden zu berühren.
+title: Літаючий килим
+description: Кооперативне завдання, де група повинна перевернути покривало, не торкаючись землі.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fliegender Teppich.md
-translation_source_hash: ed893c58c846b2ccaea90bc1a7df580a2726296f76d58a3c9473e4167d34b7b4
+translation_source_hash: 950687c81cb5d5aacb251511ef1d5f93fece6d4e1c375a6981d468a3559dcfb5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:38:58+00:00
+translation_source_body_hash: 950687c81cb5d5aacb251511ef1d5f93fece6d4e1c375a6981d468a3559dcfb5
+translation_source_metadata_hash: 509ed896bedca9b7ca8e897158250cb57e8bc52780f799d1e090170dc173b29a
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:47:09+00:00
 ---
 > [!info] Короткий опис
 > Кооперативне завдання, під час якого група має перевернути полотно, не торкаючись землі.

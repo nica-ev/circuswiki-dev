@@ -6,8 +6,8 @@ update: 2025-03-18 01:15:32
 publish: true
 tags:
   - spiele
-title: Zungenmörder
-description: Ein Kreisspiel, bei dem ein Mörder heimlich durch Zungenzeigen mordet und ein Detektiv ihn entlarven muss.
+title: Assassino con la Lingua
+description: Un gioco di cerchio in cui un assassino uccide segretamente mostrando la lingua e un detective deve smascherarlo.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zungenmörder.md
-translation_source_hash: 9214e7f4aa5f97ec20764de198a3ddc664353461aba1ae07ebdf79e74a373e97
+translation_source_hash: 0bf0e4527907297f7796b264512e7926af2c2ea2cede37c0b349db920c8e7973
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:39:55+00:00
+translation_source_body_hash: 0bf0e4527907297f7796b264512e7926af2c2ea2cede37c0b349db920c8e7973
+translation_source_metadata_hash: 2fde513c32d9e8ab993e0217c5fc869ac97ed8ae585e0c012df005cd63c00358
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:41+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di cerchio in cui un assassino uccide segretamente mostrando la lingua e un detective deve smascherarlo.

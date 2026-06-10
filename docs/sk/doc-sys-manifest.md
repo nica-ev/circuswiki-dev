@@ -5,15 +5,20 @@ publish: true
 tags: 
 created: 2025-01-23 01:13:42
 update: 2025-01-24 03:18:42
-title: Dokumentation - Manifest
+title: Dokumentácia - Manifest
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/doc-sys-manifest.md
-translation_source_hash: fd1b5b02c357a16a7159600e56f833a77d1c6bb3efc9f1fb58c12aa3d29bd068
+translation_source_hash: d2dcf87719eb9c54ea369b333620af414fdc4b19cd582813e597d1b3d01aa320
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:38:49+00:00
+translation_source_body_hash: d2dcf87719eb9c54ea369b333620af414fdc4b19cd582813e597d1b3d01aa320
+translation_source_metadata_hash: 0f4acd5e1498726f8e7993f3d4aa8b6e5b2ec848dd1958682b0472b7c51582b9
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:10:34+00:00
 ---
 # Manifest: Moje princípy pre správu vedomostí
 

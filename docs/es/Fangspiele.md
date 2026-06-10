@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Juegos de persecución
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:35+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:13+00:00
 ---
 # Juegos de persecución
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                  | group-min | group-max | Dificultad       | Material              | Duración del juego |
 | ------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | --------------------- | ------------------ |
-| [5 Drachen und Zwerge](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | fácil            | Pañuelos              | 5-10               |
-| [Bombenspiel](<Bombenspiel.md>)                                                       | 8         | 30        | fácil            | ninguno               | 15-20              |
-| [Farbenhasche](<Farbenhasche.md>)                                                     | 9         | 30        | medio            | Pañuelos              | 15-20              |
-| [Festnageln](<Festnageln.md>)                                                         | 5         | 25        | medio            | ninguno               | 15-20              |
-| [Fuchs und Hase](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | medio            | ninguno               | 10 -  15           |
-| [Fuchsjagd](<Fuchsjagd.md>)                                                           | 5         | 25        | fácil            | Pañuelos              | 10 -  15           |
-| [Goldener Hirsch](<Goldener%20Hirsch.md>)                                             | 10        | 99        | fácil            | ninguno               | 5 - 15             |
-| [Ich habe Glück](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | fácil            | ninguno               | 5 - 10             |
-| [komm-mit-lauf-weg](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | fácil            | ninguno               | 5 - 15             |
+| [Dragones y Enanos](<5%20Drachen%20und%20Zwerge.md>)                               | 8         | 20        | fácil            | Pañuelos              | 5-10               |
+| [Juego de la bomba](<Bombenspiel.md>)                                                       | 8         | 30        | fácil            | ninguno               | 15-20              |
+| [Persecución de colores](<Farbenhasche.md>)                                                     | 9         | 30        | medio            | Pañuelos              | 15-20              |
+| [Clavar](<Festnageln.md>)                                                         | 5         | 25        | medio            | ninguno               | 15-20              |
+| [Zorro y liebre](<Fuchs%20und%20Hase.md>)                                             | 8         | 25        | medio            | ninguno               | 10 -  15           |
+| [Caza del zorro](<Fuchsjagd.md>)                                                           | 5         | 25        | fácil            | Pañuelos              | 10 -  15           |
+| [Ciervo Dorado](<Goldener%20Hirsch.md>)                                             | 10        | 99        | fácil            | ninguno               | 5 - 15             |
+| [Tengo suerte](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6         | 28        | fácil            | ninguno               | 5 - 10             |
+| [Ven, corre](<komm-mit-lauf-weg.md>)                                           | 5         | 99        | fácil            | ninguno               | 5 - 15             |
 | [Luftballon Hasche](<Luftballon%20Hasche.md>)                                         | 6         | 25        | medio            | ninguno               | 5 - 15             |
-| [Mittelalter Schnick Schnack Schnuck](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | fácil            | ninguno               | 5 - 15             |
-| [Möhre Hase Fuchs](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | fácil            | ninguno               | 10                 |
-| [Pinguine und Eisbären](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | fácil - medio    | Colchoneta blanda     | 5 - 15             |
-| [Pinguine und Killer-Flamingos](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | fácil            | ninguno               | 5 - 10             |
-| [Popcorn](<Popcorn.md>)                                                               | 5         | 99        | fácil            | ninguno               | 5 - 15             |
-| [Robbe und Eisbären](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | medio            | ninguno               | 10 -  15           |
-| [Schlangen Hasche](<Schlangen%20Hasche.md>)                                           | 6         | 99        | fácil            | ninguno               | 5-10               |
-| [Schwänzchen-Hasche](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | fácil            | Pañuelos              | 10 -  15           |
-| [Tellerfänger](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | fácil            | Plato, pañuelo, diábolo | 5-10               |
-| [Zeithasche](<Zeithasche.md>)                                                         | 6         | 30        | medio            | ninguno               | 15-20              |
+| [Piedra, Papel, Tijera Medieval](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6         | 20        | fácil            | ninguno               | 5 - 15             |
+| [Zanahoria Conejo Zorro](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15        | 99        | fácil            | ninguno               | 10                 |
+| [Pingüinos y osos polares](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6         | 31        | fácil - medio    | Colchoneta blanda     | 5 - 15             |
+| [Pingüinos y Flamencos Asesinos](<Pinguine%20und%20Killer-Flamingos.md>)               | 5         | 99        | fácil            | ninguno               | 5 - 10             |
+| [Palomitas de maíz](<Popcorn.md>)                                                               | 5         | 99        | fácil            | ninguno               | 5 - 15             |
+| [Focas y osos polares](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5         | 30        | medio            | ninguno               | 10 -  15           |
+| [Serpiente Atrapa](<Schlangen%20Hasche.md>)                                           | 6         | 99        | fácil            | ninguno               | 5-10               |
+| [Cola de zorro](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5         | 30        | fácil            | Pañuelos              | 10 -  15           |
+| [Atrapador de platos](<Tellerf%C3%A4nger.md>)                                                | 6         | 30        | fácil            | Plato, pañuelo, diábolo | 5-10               |
+| [Bolsa de tiempo](<Zeithasche.md>)                                                         | 6         | 30        | medio            | ninguno               | 15-20              |
 | [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10        | 98        | fácil            | ninguno               | 10 -  15           |
-| [Zombie Hasche mit Namen](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | medio            | ninguno               | 15-20              |
+| [Hasch de Zombis con Nombre](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6         | 30        | medio            | ninguno               | 15-20              |
 
 <!-- dynamic:end -->

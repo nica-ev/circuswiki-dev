@@ -2,19 +2,24 @@
 lang: el
 translation_id: blog/index
 created: 2025-01-21 18:09:55
-update: 2025-03-11 00:25:49
+update: 2026-06-09 17:05:00
 publish: true
 tags: 
-title: Blog
+title: Ιστολόγιο
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/blog/index.md
-translation_source_hash: 29d29c9530fbc1975628f9dde60984e2a26ba24987f03d06f49a56d76014c5f8
+translation_source_hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:32:29+00:00
+translation_source_body_hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+translation_source_metadata_hash: 78d30b4906940e1cc2a790dc9beaac81d2031d6c241612df9ec396117cae7d6d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:04:06+00:00
 ---
 Η εκπαίδευση στο τσίρκο ως παιδαγωγική μέθοδος
 

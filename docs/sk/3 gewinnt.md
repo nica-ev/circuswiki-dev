@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:01:34
-title: Drei gewinnt
-description: Ein Lauf- und Taktikspiel, bei dem zwei Teams Gegenstände in ein 3x3-Feld legen und verschieben.
+title: Tri v rade
+description: Behová a taktická hra, v ktorej dva tímy umiestňujú a presúvajú predmety na pole 3x3.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/3 gewinnt.md
-translation_source_hash: 7883c933a716c5797718b4050bf04bb2cb9fdedf9048b5ca9df3bea0411c489e
+translation_source_hash: 9f05e768ef33a6782d315acfcf64eede446f5a3a2e8f2668298376080ec01ef7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:19:51+00:00
+translation_source_body_hash: 9f05e768ef33a6782d315acfcf64eede446f5a3a2e8f2668298376080ec01ef7
+translation_source_metadata_hash: 38ddb2111845d2227aed5f521ebf165290629638aab1fd37241d7429f7ce8d22
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:00:48+00:00
 ---
 > [!info] Stručný popis
 > Bežecká a taktická hra, v ktorej dva tímy umiestňujú a presúvajú predmety na pole 3x3.

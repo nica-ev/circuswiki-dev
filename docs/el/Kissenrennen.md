@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:20:36
-title: Kissenrennen
-description: Ein schnelles Teamspiel im Kreis, bei dem zwei Kissen innerhalb der Teams weitergegeben werden und einander einholen sollen.
+title: Κούρσα με μαξιλάρια
+description: Ένα γρήγορο ομαδικό παιχνίδι σε κύκλο, όπου δύο μαξιλάρια δίνονται μέσα στις ομάδες και πρέπει να προφτάσουν το ένα το άλλο.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kissenrennen.md
-translation_source_hash: de266aef01ff51ce3aa8153bbe279df92ccf992c296d13b47d7df3f085952b74
+translation_source_hash: 4e3e880998897cca69bef6acaa8f91240aa414857dc192752aa9dce3e5b81cbb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:48:43+00:00
+translation_source_body_hash: 4e3e880998897cca69bef6acaa8f91240aa414857dc192752aa9dce3e5b81cbb
+translation_source_metadata_hash: eb096e6bbe2b2336bb7133128c0c9250f201d3633a92c39df16bd40a25a5c8a2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:53:52+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα γρήγορο ομαδικό παιχνίδι σε κύκλο, όπου δύο μαξιλάρια δίνονται μέσα στις ομάδες και πρέπει να προφτάσουν το ένα το άλλο.

@@ -6,7 +6,7 @@ update: 2025-02-09 20:54:56
 publish: draft
 tags:
   - kaskade
-title: Eine neue Zeitschrift für Europa
+title: Nový časopis pre Európu
 description: 
 authors:
   - Gabi Keaton
@@ -16,9 +16,14 @@ source: Kaskade 001
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Eine neue Zeitschrift für Europa.md
-translation_source_hash: 6e9f8170d92e6346bf837bf553eb053a64d3f8858c8b68689c8412f85fd4a6f4
+translation_source_hash: d8c1528fa60d4b4fb63ebf8c88fe792e251d7e661895eefbe45d1e1bf72c31b0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:40:10+00:00
+translation_source_body_hash: d8c1528fa60d4b4fb63ebf8c88fe792e251d7e661895eefbe45d1e1bf72c31b0
+translation_source_metadata_hash: 61f0d1eda29a427a00759ff1d2e30419dff34e459e32cdb44ad0d95e62871299
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:12:15+00:00
 ---
 ## Nový časopis pre Európu
 [Kaskáda 001](Kaskade%20001.md#Eine%20neue%20Zeitschrift%20für%20Europas)

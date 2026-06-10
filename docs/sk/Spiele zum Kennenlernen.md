@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:43:00
-title: Spiele zum Kennenlernen / Vorstellen
+title: Hry na zoznámenie / predstavenie
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 889ccbb3992353ba3a414ee00c88fcf38db692dbeac2ed61f6b3c2ba6d49a74a
+translation_source_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:28:10+00:00
+translation_source_body_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
+translation_source_metadata_hash: 7b9b10b9f39a10e7ceda15394b2acd63ae993b594e7a5d7f6712fb93e1819ed7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:15+00:00
 ---
 # Hry na zoznámenie / Predstavenie
 
@@ -35,22 +40,22 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | súbor                                                                                                 | min. os. | max. os. | Obtiažnosť       | Materiál       | Dĺžka hry |
 | ----------------------------------------------------------------------------------------------------- | -------- | -------- | ---------------- | -------------- | --------- |
-| [Bällewirrwarr](<B%C3%A4llewirrwarr.md>)                                                              | 5        | 15       | ľahká - ťažká    | lopty          | 10        |
-| [Gute Seiten](<Gute%20Seiten.md>)                                                                     | 6        | 30       | ľahká            | papiere, perá  | 10 - 30   |
-| [Hallo ich bin](<Hallo%20ich%20bin.md>)                                                               | 4        | 25       | ľahká            | žiadny         | 2-10      |
-| [Hallo ich bin - mit Bällen](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3        | 30       | ľahká            | lopty          | 10 - 15   |
-| [Ich fahre Zug](<Ich%20fahre%20Zug.md>)                                                               | 10       | 30       | stredná          | stoličky       | ľubovoľná |
-| [Kennenlernen mit Bällen](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4        | 20       | ľahká            | lopty          | 2-10      |
-| [Kennenlernen mit Bällen hinterherlaufen](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5        | 25       | ľahká - stredná  | lopty          | 10 - 15   |
-| [Namenkampf](<Namenkampf.md>)                                                                         | 10       | 30       | ľahká            | veľká látka    | 10 - 15   |
-| [Niemand ist gern allein](<Niemand%20ist%20gern%20allein.md>)                                         | 8        | 99       | ľahká            | žiadny         | ľubovoľná |
-| [Ohrfeigen und Küsse](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5        | 30       | stredná          | žiadny         | 10 - 15   |
-| [Robert die rennende Robbe](<Robert%20die%20rennende%20Robbe.md>)                                     | 4        | 12       | ľahká            | žiadny         | 3 - 10    |
-| [Sich gegenseitig vorstellen](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5        | 15       | stredná          | žiadny         | 10 - 15   |
-| [Suchkind](<Suchkind.md>)                                                                             | 5        | 20       | stredná          | žiadny         | 20 - 30   |
-| [Tratschen in Anwesenheit](<Tratschen%20in%20Anwesenheit.md>)                                         | 3        | 6        | ľahká            | žiadny         | 10-15     |
-| [Vorstellungsrunde - Werdegang - Symbolisch](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2        | 10       | stredná          | rôzne          | 30-45     |
+| [Zmätené lopty](<B%C3%A4llewirrwarr.md>)                                                              | 5        | 15       | ľahká - ťažká    | lopty          | 10        |
+| [Dobré stránky](<Gute%20Seiten.md>)                                                                     | 6        | 30       | ľahká            | papiere, perá  | 10 - 30   |
+| [Ahoj, som](<Hallo%20ich%20bin.md>)                                                               | 4        | 25       | ľahká            | žiadny         | 2-10      |
+| [Ahoj, som - s loptičkami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3        | 30       | ľahká            | lopty          | 10 - 15   |
+| [Cestujem vlakom](<Ich%20fahre%20Zug.md>)                                                               | 10       | 30       | stredná          | stoličky       | ľubovoľná |
+| [Zoznámenie s loptičkami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4        | 20       | ľahká            | lopty          | 2-10      |
+| [Zoznamovanie sa s loptami, naháňanie](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5        | 25       | ľahká - stredná  | lopty          | 10 - 15   |
+| [Súboj mien](<Namenkampf.md>)                                                                         | 10       | 30       | ľahká            | veľká látka    | 10 - 15   |
+| [Nikto nechce byť sám](<Niemand%20ist%20gern%20allein.md>)                                         | 8        | 99       | ľahká            | žiadny         | ľubovoľná |
+| [Facky a bozky](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5        | 30       | stredná          | žiadny         | 10 - 15   |
+| [Robert, tuleň na úteku](<Robert%20die%20rennende%20Robbe.md>)                                     | 4        | 12       | ľahká            | žiadny         | 3 - 10    |
+| [Predstavenie sa navzájom](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5        | 15       | stredná          | žiadny         | 10 - 15   |
+| [Hľadajúce dieťa](<Suchkind.md>)                                                                             | 5        | 20       | stredná          | žiadny         | 20 - 30   |
+| [Šepkanie v prítomnosti](<Tratschen%20in%20Anwesenheit.md>)                                         | 3        | 6        | ľahká            | žiadny         | 10-15     |
+| [Predstavenie - Kariérny postup - Symbolické](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2        | 10       | stredná          | rôzne          | 30-45     |
 | [Zombie](<Zombie.md>)                                                                                 | 6        | 18       | stredná          | žiadny         | 5-10      |
-| [Zuckerwasserschießen](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6        | 20       | trochu ťažšia     | žiadny         | 7         |
+| [Streľba cukrovou vodou](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6        | 20       | trochu ťažšia     | žiadny         | 7         |
 
 <!-- dynamic:end -->

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:43:00
-title: Spiele zum Kennenlernen / Vorstellen
+title: Gry do poznania / przedstawienia się
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 889ccbb3992353ba3a414ee00c88fcf38db692dbeac2ed61f6b3c2ba6d49a74a
+translation_source_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:27:39+00:00
+translation_source_body_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
+translation_source_metadata_hash: 7b9b10b9f39a10e7ceda15394b2acd63ae993b594e7a5d7f6712fb93e1819ed7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:08+00:00
 ---
 # Gry integracyjne / zapoznawcze
 
@@ -35,22 +40,22 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                  | group-min | group-max | Poziom trudności | Materiały       | Czas gry |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------------- | ---------- |
-| [Wirujący Krąg Piłek](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | łatwy - trudny | Piłki          | 10         |
-| [Dobre Strony](<Gute%20Seiten.md>)                                                                     | 6         | 30        | łatwy          | Kartki, długopisy | 10 -  30   |
-| [Cześć, jestem...](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | łatwy          | brak         | 2-10       |
-| [Cześć, jestem... z piłkami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | łatwy          | Piłki          | 10 -  15   |
+| [Wirujący Kłębek](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | łatwy - trudny | Piłki          | 10         |
+| [Dobre strony](<Gute%20Seiten.md>)                                                                     | 6         | 30        | łatwy          | Kartki, długopisy | 10 -  30   |
+| [Cześć, jestem](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | łatwy          | brak         | 2-10       |
+| [Cześć, jestem - z piłkami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | łatwy          | Piłki          | 10 -  15   |
 | [Jadę pociągiem](<Ich%20fahre%20Zug.md>)                                                               | 10        | 30        | średni           | Krzesła         | dowolny   |
-| [Poznawanie z piłkami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | łatwy          | Piłki          | 2-10       |
-| [Poznawanie z piłkami w biegu](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | łatwy - średni | Piłki          | 10 -  15   |
-| [Bitwa na imiona](<Namenkampf.md>)                                                                         | 10        | 30        | łatwy          | duża chusta    | 10 -  15   |
+| [Poznawanie się z piłkami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | łatwy          | Piłki          | 2-10       |
+| [Poznawanie się z piłkami, gonitwa](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | łatwy - średni | Piłki          | 10 -  15   |
+| [Walka na imiona](<Namenkampf.md>)                                                                         | 10        | 30        | łatwy          | duża chusta    | 10 -  15   |
 | [Nikt nie lubi być sam](<Niemand%20ist%20gern%20allein.md>)                                         | 8         | 99        | łatwy          | brak         | dowolny   |
-| [Policzki i pocałunki](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | średni           | brak         | 10 -  15   |
-| [Robert, biegnąca foka](<Robert%20die%20rennende%20Robbe.md>)                                     | 4         | 12        | łatwy          | brak         | 3 - 10     |
-| [Wzajemne przedstawianie się](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | średni           | brak         | 10 -  15   |
-| [Zagubione dziecko](<Suchkind.md>)                                                                             | 5         | 20        | średni           | brak         | 20 -  30   |
-| [Plotkowanie na obecność](<Tratschen%20in%20Anwesenheit.md>)                                         | 3         | 6         | łatwy          | brak         | 10-15      |
-| [Runda przedstawiania - Ścieżka kariery - Symbolicznie](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | średni           | różne  | 30-45      |
+| [Policzki i Pocałunki](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | średni           | brak         | 10 -  15   |
+| [Robert biegnąca foka](<Robert%20die%20rennende%20Robbe.md>)                                     | 4         | 12        | łatwy          | brak         | 3 - 10     |
+| [Przedstawianie się nawzajem](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | średni           | brak         | 10 -  15   |
+| [Dziecko do odnalezienia](<Suchkind.md>)                                                                             | 5         | 20        | średni           | brak         | 20 -  30   |
+| [Plotkowanie na żywo](<Tratschen%20in%20Anwesenheit.md>)                                         | 3         | 6         | łatwy          | brak         | 10-15      |
+| [Runda przedstawień - Ścieżka kariery - Symboliczna](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | średni           | różne  | 30-45      |
 | [Zombie](<Zombie.md>)                                                                                 | 6         | 18        | średni           | brak         | 5-10       |
-| [Strzelanie wodą z cukrem](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | nieco trudniejszy   | brak         | 7          |
+| [Strzelanie wodą z cukru](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | nieco trudniejszy   | brak         | 7          |
 
 <!-- dynamic:end -->

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:06:01
-title: Sortieren in der Gruppe
-description: Eine Kooperationsaufgabe, bei der sich die Gruppe auf Stühlen nach Kriterien sortiert, ohne den Boden zu berühren.
+title: Csoportos rendezés
+description: Együttműködésen alapuló feladat, ahol a csoport székekre ülve, a padlót érintés nélkül rendezi magát kritériumok szerint.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Sortieren in der Gruppe.md
-translation_source_hash: 3b7b881ab36a953eb401d2de1971fcf85832853dcf09da25c65d71594eae3b93
+translation_source_hash: b7b7dbb508f3f466e1666dac60277e22cf0ff9c853b2368c05e49bc1bcfa3416
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:25:47+00:00
+translation_source_body_hash: b7b7dbb508f3f466e1666dac60277e22cf0ff9c853b2368c05e49bc1bcfa3416
+translation_source_metadata_hash: fc7a66a25a473598c4890cc861b6468e49312ee979838b6c6191d9f79d577616
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:35+00:00
 ---
 > [!info] Rövid leírás
 > Együttműködésen alapuló feladat, amelyben a csoport székekre állva, a talajt érintés nélkül rendezi át magát bizonyos kritériumok szerint.

@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 03:09:21
-title: Mittelalter Schnick Schnack Schnuck
+title: Середньовічний Камінь-Ножиці-Папір
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Mittelalter Schnick Schnack Schnuck.md
-translation_source_hash: 0a7cb199d0922ed5be20eb2a775e41ddc0d77d77d4d109af0c90755b319a72ba
+translation_source_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd43ef6b7969
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:30:13+00:00
+translation_source_body_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd43ef6b7969
+translation_source_metadata_hash: 93c794f92c3d5e8b4e09e2f32b2143b707a24d1d778daebcea84a7ad73ae9570
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:59:15+00:00
 ---
 # Середньовічний "Камінь, ножиці, папір"
 

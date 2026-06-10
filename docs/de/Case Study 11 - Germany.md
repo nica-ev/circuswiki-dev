@@ -2,11 +2,11 @@
 lang: de
 translation_id: case-study-11-germany
 created: 2025-08-29 19:33:58
-update: 2026-06-07 00:08:17
+update: 2026-06-06 21:49:20
 publish: false
 tags:
   - case-study
-title: Circus Workshop for Children with Special Needs
+title: Circus-Workshop für Kinder mit besonderen Bedürfnissen
 description:
 authors:
   - Marc Bielert
@@ -15,11 +15,15 @@ land: Germany
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 11 - Germany.md
-translation_source_hash: d8b3578aecc1b616c4633c620911949563c986b552b755458af28bfcac68f511
+translation_source_hash: 7e2b9cddc494d45010d34ddb2f4cd4cd27c5f77200013319e6cc08d37c6ef06e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:29+00:00
+translation_source_body_hash: 7e2b9cddc494d45010d34ddb2f4cd4cd27c5f77200013319e6cc08d37c6ef06e
+translation_source_metadata_hash: 11cde3819fc972318d831c9847c10d5177c9a95d55075a04e5b85b8b6d9fe702
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:32+00:00
 ---
-
 # **Ein adaptiver Zirkuspädagogik-Workshop für Kinder mit besonderen Bedürfnissen**
 [NICA-EV](NICA-EV.md) - Halle, Deutschland
 *Geschrieben von Marc Bielert*

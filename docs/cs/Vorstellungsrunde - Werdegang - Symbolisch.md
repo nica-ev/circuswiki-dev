@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 02:01:47
-title: Vorstellungsrunde - Werdegang - Symbolisch
-description: Eine symbolische Vorstellungsrunde, bei der persönliche Wege mit Objekten als Zeitlinie ausgelegt und vorgestellt werden.
+title: Představení - Kariérní cesta - Symbolické
+description: Symbolické představení, kde jsou osobní cesty vyloženy a prezentovány pomocí objektů jako časové osy.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vorstellungsrunde - Werdegang - Symbolisch.md
-translation_source_hash: 5fac14ef4bc249a22a8cc484d0c6d716c37bba82715d1708bdc7dd36ed1e052a
+translation_source_hash: e25f482caf815b5ebe6c134e37c50eac886dfca07cf963e7c3bff8ef07db226e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:36:13+00:00
+translation_source_body_hash: e25f482caf815b5ebe6c134e37c50eac886dfca07cf963e7c3bff8ef07db226e
+translation_source_metadata_hash: d083234b44995216257dbaa1c229d36b99c293c9f2d127cb81b3671014745f17
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:24+00:00
 ---
 > [!info] Stručný popis
 > Symbolické představení, při kterém se osobní životní dráhy vykládají a prezentují pomocí předmětů jako časová osa.

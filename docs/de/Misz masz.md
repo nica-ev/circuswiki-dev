@@ -8,8 +8,8 @@ tags:
   - gry
   - zonglerka
   - kooperacja
-title: Misz masz
-description: Grupowa gra z piłkami i innymi rekwizytami, rozwijająca integrację, pamięć imion, koordynację i współpracę.
+title: Durcheinander
+description: Gruppenspiel mit Bällen und anderen Requisiten, das die Integration, Namensgedächtnis, Koordination und Zusammenarbeit fördert.
 authors:
   - Wiktoria Witenberg
 category:
@@ -24,9 +24,14 @@ source_file: _inbox/KPC - żonglerka 5 kroków.pdf
 translation_status: machine-translated
 translation_source_lang: pl
 translation_source: docs/pl/Misz masz.md
-translation_source_hash: 44c70f296059476a8bbcf223ecdb3a90fe86fe413cb05ac6a1f505e2b70481b0
+translation_source_hash: bf6513b8bce6c9a2656eee8f51855e7f13faecafeb6d4eead9266a585ed51906
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:01:25+00:00
+translation_source_body_hash: bf6513b8bce6c9a2656eee8f51855e7f13faecafeb6d4eead9266a585ed51906
+translation_source_metadata_hash: 2a563994eb6a84199e9a6f0e0c61aa40d3c9ef515ab4be7ec8fbc83e904a73e3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:58:53+00:00
 ---
 # Durcheinander
 

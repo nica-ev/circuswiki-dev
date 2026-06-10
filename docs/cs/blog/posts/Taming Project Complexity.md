@@ -6,8 +6,8 @@ update: 2025-05-03 22:54:32
 date: 2025-05-03T11:00:00
 publish: true
 tags: 
-title: Taming Project Complexity - The Saga
-description: The journey to effectively version a complex dev environment without polluting the main project repository.
+title: Krocení složitosti projektu - Sága
+description: Cesta k efektivní správě verzí složitého vývojového prostředí bez znečištění hlavního repozitáře projektu.
 authors:
   - Marc Bielert
 categories: 
@@ -15,9 +15,14 @@ categories:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/blog/posts/Taming Project Complexity.md
-translation_source_hash: 336018b8ca8b83bd3ca87266a6522c4076387bcb34579014a764844a32af84e1
+translation_source_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adba7cee476a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:30:16+00:00
+translation_source_body_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adba7cee476a
+translation_source_metadata_hash: cde5454e151683f226e749e3b47c96a603e443051b6d2d3c3dd3035878254b49
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:04:24+00:00
 ---
 # Zkrocení složitosti projektu – Sága
 **Správa verzí vývojového prostředí bez znečištění vašeho hlavního repozitáře**

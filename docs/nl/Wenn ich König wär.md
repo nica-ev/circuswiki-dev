@@ -6,8 +6,8 @@ update: 2025-03-17 02:29:42
 publish: true
 tags:
   - spiele
-title: Wenn ich König wär...
-description: Ein darstellendes Spiel, bei dem Personen als König Tätigkeiten vorschlagen, die die Gruppe sofort spielt.
+title: Als ik koning was...
+description: Een rollenspel waarbij personen als koning activiteiten voorstellen die de groep onmiddellijk naspeelt.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Wenn ich König wär.md
-translation_source_hash: e2de6ed19a0c36666756aa19d6ad5323abe848a77c1ef5f0a30b6c963dca382c
+translation_source_hash: fbbb6065688dc8acf2b0084e52b54864a310bd055bcd29f3877e70e131f19ffb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:36:43+00:00
+translation_source_body_hash: fbbb6065688dc8acf2b0084e52b54864a310bd055bcd29f3877e70e131f19ffb
+translation_source_metadata_hash: 2fb6eb06736761355f89d2d24143fb3710faee1b47ff55b52fd509431ea70561
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:45+00:00
 ---
 > [!info] Korte beschrijving
 > Een rollenspel waarbij personen als koning activiteiten voorstellen die de groep vervolgens direct uitvoert.

@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2026-06-09 01:55:29
-title: Peng, Peng, Knall - Wir fliegen in das All
-description: Ein rhythmisches Kreisspiel mit Raketenvers, Tierverwandlungen und gemeinsamer Rückkehr in die Rakete.
+title: Peng, Peng, Knall - We vliegen de ruimte in
+description: Een ritmisch kringspel met raketvers, dierlijke transformaties en gezamenlijke terugkeer in de raket.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Peng-Peng-Knall-Wir-fliegen-in-das-All.md
-translation_source_hash: a97c4c4b6259050e758c8ae18c23ef8573af8cb8a1c8efa12b7925a267f213b9
+translation_source_hash: 5d5b8f9b3c0f915daa4192b3b785895deb5e6bdf0a5470ad779ee11b62358331
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:35:42+00:00
+translation_source_body_hash: 5d5b8f9b3c0f915daa4192b3b785895deb5e6bdf0a5470ad779ee11b62358331
+translation_source_metadata_hash: 73c133e5d84ca3d39b606cc959ccbbddce620b18f6e11e322aa8f3d13184bdcc
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:02:04+00:00
 ---
 > [!info] Korte beschrijving
 > Een ritmisch cirkelspel met raketversjes, dierlijke transformaties en een gezamenlijke terugkeer naar de raket.

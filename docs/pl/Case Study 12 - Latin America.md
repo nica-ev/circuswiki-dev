@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:25
 publish: false
 tags:
   - case-study
-title: Where Movement Finds Us
+title: Gdzie Ruch Nas Odnajduje
 description:
 authors:
   - Jael Rodriguez
@@ -15,9 +15,14 @@ land: Argentina
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 12 - Latin America.md
-translation_source_hash: 6df2bcd4b9641d8eafdbbedbb7184e981c33dd016072ff4f28ff36c1e503b465
+translation_source_hash: c74f8a0aa998fbf8544b8919c4c28f0552f8c723c8fb3c6414ff50ed51df7c05
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:10:20+00:00
+translation_source_body_hash: c74f8a0aa998fbf8544b8919c4c28f0552f8c723c8fb3c6414ff50ed51df7c05
+translation_source_metadata_hash: e4c44982983934e4fd5ae56cedfd403efa8427171856a518e1e27559826d3d3e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:40+00:00
 ---
 # Tam, gdzie ruch nas odnajduje – Cyrk inkluzywny w kontekście grupy terapeutycznej
 

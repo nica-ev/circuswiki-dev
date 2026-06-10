@@ -1,6 +1,6 @@
 ---
 created: 2025-05-02 21:56:19
-update: 2026-06-08 20:35:58
+update: 2026-06-10 21:32:19
 ---
 
 # CircusWiki
@@ -296,18 +296,29 @@ python tools/translation_cli.py health --source-lang de --target-lang en
 python tools/translation_cli.py inspect "docs/de/index.md" --source-lang de --target-lang en
 python tools/translation_cli.py translate "docs/de/index.md" --source-lang de --target-lang en --dry-run
 python tools/translation_cli.py translate "docs/de/index.md" --source-lang de --target-lang en
+python tools/translation_cli.py translate-metadata "docs/de/index.md" --source-lang de --target-lang en --dry-run
+python tools/translation_cli.py metadata-plan --target-lang en --source-lang all --reason metadata_hash_mismatch --max-files 25
 ```
 
-Translation writes only target files. It splits Markdown into frontmatter and body, sends only the body to the model, then updates these target frontmatter properties deterministically:
+Translation writes only target files. It splits Markdown into frontmatter and body. Full translation translates the Markdown body, repairs local link targets, translates frontmatter `title` and `description`, copies non-translation source metadata, and preserves target-local fields where possible.
+
+Body and metadata freshness are tracked separately:
 
 ```yaml
 lang: en
+title: Translated title
+description: Translated description
 translation_id: ...
 translation_source: docs/de/example.md
-translation_source_hash: ...
+translation_source_body_hash: ...
+translation_source_metadata_hash: ...
+translation_source_hash: ... # legacy body-hash alias during migration
 translation_model: ...
 translation_status: machine-translated
 translation_updated: ...
+translation_metadata_model: ...
+translation_metadata_status: machine-translated
+translation_metadata_updated: ...
 ```
 
 Unknown frontmatter fields are preserved instead of re-dumped.

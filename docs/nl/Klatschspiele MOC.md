@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:23:41
-title: Klatschpiele
+title: Roddelspellen
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Klatschspiele MOC.md
-translation_source_hash: f4da85806967674323caecf2d8e311d67be09ca9e340ff3c193e0759fa2db2d4
+translation_source_hash: d80e9c8e797370030c08312b0ba20fbbd228838742a7669c2c2549a38a7f5ea1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:50:08+00:00
+translation_source_body_hash: d80e9c8e797370030c08312b0ba20fbbd228838742a7669c2c2549a38a7f5ea1
+translation_source_metadata_hash: 34ee341149a07d72bdce500feb4a34261024da794e3e24c298fac67c93400704
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:54:28+00:00
 ---
 # Klapspelletjes
 
@@ -34,6 +39,6 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | file                                                  | group-min | group-max | Moeilijkheidsgraad | Materiaal | Speelduur |
 | ----------------------------------------------------- | --------- | --------- | ------------------ | --------- | --------- |
 | [Ding Dang Dong](<Ding%20Dang%20Dong.md>)             | 2         | 2         | makkelijk          | geen      | 2-5       |
-| [Schoko Schoko La La](<Schoko%20Schoko%20La%20La.md>) | 2         | 2         | makkelijk          | geen      | 2-5       |
+| [Choco Choco La La](<Schoko%20Schoko%20La%20La.md>) | 2         | 2         | makkelijk          | geen      | 2-5       |
 
 <!-- dynamic:end -->

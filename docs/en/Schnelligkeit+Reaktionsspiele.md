@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Speed+Reaction Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:28+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:32+00:00
 ---
 # Speed & Reaction Games
 
@@ -37,15 +42,15 @@ columns: file, group-min, group-max, Difficulty, Material, Duration
 | [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                        | 6         | 30        | medium     | none                              | 8        |
 | [Bomb](<Bombe.md>)                                                 | 7         | 30        | easy       | Ball                              | 3-6      |
 | [The Stomping Bank](<Die%20stampfende%20Bank.md>)                   | 4         | 20        | medium     | none                              | 2-8      |
-| [High Five](<H%C3%A4nde%20abklatschen.md>)                                     | 5         | 25        | medium     | none                              | 6        |
+| [Clapping Hands](<H%C3%A4nde%20abklatschen.md>)                                     | 5         | 25        | medium     | none                              | 6        |
 | [Pillow Race](<Kissenrennen.md>)                                 | 10        | 40        | medium     | Pillow                            | 3        |
-| [Come-Follow-Run-Away](<komm-mit-lauf-weg.md>)                  | 5         | 99        | easy       | none                              | 5 - 15   |
+| [Come Along, Run Away](<komm-mit-lauf-weg.md>)                  | 5         | 99        | easy       | none                              | 5 - 15   |
 | [Command](<Kommando.md>)                                           | 6         | 25        | easy       | Mats or seating markers           | 4-7      |
-| [Stand-Leap-Run](<Stehbock-Laufbock.md>)                             | 6         | 30        | easy       | none                              | 3        |
+| [Standing Buck-Running Buck](<Stehbock-Laufbock.md>)                             | 6         | 30        | easy       | none                              | 3        |
 | [Bullfighting - Tatonga](<Stierkampf%20-%20Tatonga.md>)        | 5         | 20        | easy       | Rope                              | 5-10     |
-| [Team Rock Paper Scissors](<Team%20Schnick-Schnack-Schnuck.md>)   | 14        | 40        | easy       | none                              | 10       |
+| [Team Rock-Paper-Scissors](<Team%20Schnick-Schnack-Schnuck.md>)   | 14        | 40        | easy       | none                              | 10       |
 | [Ultimate Ninja](<Ultimate%20Ninja.md>)                          | 5         | 20        | medium     | none                              | 10       |
 | [Zah](<Zah.md>)                                                    | 6         | 30        | easy       | none                              | 5        |
-| [Wink](<Zuzwinkern.md>)                                                  | 9         | 99        | medium     | none                              | 7        |
+| [Winking](<Zuzwinkern.md>)                                                  | 9         | 99        | medium     | none                              | 7        |
 
 <!-- dynamic:end -->

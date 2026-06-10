@@ -6,8 +6,8 @@ update: 2025-03-17 02:18:34
 publish: true
 tags:
   - spiele
-title: Hände abklatschen
-description: Ein Reaktionsspiel im Kreis, bei dem Hände im Rhythmus abgeklatscht und im richtigen Moment weggezogen werden.
+title: Tleskání rukou
+description: Reakční hra v kruhu, kde se tleská do rytmu a v pravý okamžik se ruce odstrčí.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Hände abklatschen.md
-translation_source_hash: 56b768e4b336b0f1d3d40b4c1091839405438364c43f2a75a22145b8a0f20d1d
+translation_source_hash: 505958fb1bc718bfb475df1a7a31bfd332d5c2bddfc7e21c82525f0eba1b647f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:43:33+00:00
+translation_source_body_hash: 505958fb1bc718bfb475df1a7a31bfd332d5c2bddfc7e21c82525f0eba1b647f
+translation_source_metadata_hash: 8a943359a4596b9dc94b418c26df9a4e00d97dfc704756239ce19a5e8859dd76
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:50:13+00:00
 ---
 > [!info] Stručný popis
 > Reakční hra v kruhu, při které se rytmicky tleská a ve správný moment se ruce odtahují.

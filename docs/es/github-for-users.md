@@ -7,15 +7,20 @@ tags:
   - tutorial
 created: 2025-01-18 23:14:04
 update: 2025-01-23 05:45:14
-title: Github - Einführung
+title: Github - Introducción
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/github-for-users.md
-translation_source_hash: fdfb0b691783db26d44c84d76d1223d58f877be5bd2c0004c05918e62a34193d
+translation_source_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:03:20+00:00
+translation_source_body_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
+translation_source_metadata_hash: 78994f99738d76f1df766c8842cbf9662fdb1353ef706cd6b4bf4a05effff0ae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:48:34+00:00
 ---
 # ¡Participa en la documentación – ¡Así de fácil!
 

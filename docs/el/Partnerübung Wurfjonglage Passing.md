@@ -6,16 +6,21 @@ update: 2025-03-17 00:17:15
 publish: true
 tags:
   - jonglage
-title: Partnerübung Wurfjonglage Passing
+title: Άσκηση συνεργασίας ρίψης αντικειμένων
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Partnerübung Wurfjonglage Passing.md
-translation_source_hash: fd16cc560f3d99f982baf43738ffac52355d589ec8963bc6551f79b30639d7b7
+translation_source_hash: 309d60369a4efe85ec4ee6caf24dee2e27f78c181a6ed28aa88d9a2232924a0b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:50:31+00:00
+translation_source_body_hash: 309d60369a4efe85ec4ee6caf24dee2e27f78c181a6ed28aa88d9a2232924a0b
+translation_source_metadata_hash: 51d5525fda1cb56f4722be166f0e9fe2681b5de7ea800aee2189c210aa2dbd6e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:01:40+00:00
 ---
 # Άσκηση Συνεργασίας Ρίψης Ζογκλερικών Αντικειμένων - Πασάρισμα
 

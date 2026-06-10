@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
-title: Slalom in Reihe
-description: Ein Aufwärmspiel in Kleingruppen, bei dem Personen nacheinander durch eine Reihe laufen, kriechen oder steigen.
+title: Slalom en fila
+description: Un juego de calentamiento en grupos pequeños donde las personas corren, gatean o trepan en fila, una tras otra.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Slalom in Reihe.md
-translation_source_hash: a2f5e670c4637b1f2308771017ec9c090e03cc6aac8dadc91807756a38c67e45
+translation_source_hash: ec600d83c17f012e5673e931c37fc87e458f579e90a584a3355e9f5fda50fdd0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:25:29+00:00
+translation_source_body_hash: ec600d83c17f012e5673e931c37fc87e458f579e90a584a3355e9f5fda50fdd0
+translation_source_metadata_hash: e5b660480a91b78006b5ad0540c11ce669c22cc0177b83c496876cc80edd9fe0
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:07:22+00:00
 ---
 > [!info] Breve descripción
 > Un juego de calentamiento en grupos pequeños en el que las personas corren, gatean o trepan en fila, una tras otra.

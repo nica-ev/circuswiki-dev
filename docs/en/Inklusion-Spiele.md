@@ -8,16 +8,21 @@ tags:
   - spiele
   - moc
   - dynamic
-title: Inklusions-Spiele
+title: Inclusion Games
 description:
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Inklusion-Spiele.md
-translation_source_hash: 56e09e408e8797f272df4a1c59e6d05670ad531ac3e6ab67a12164fc34c7b740
+translation_source_hash: 4a02ee2866868e6e327bc6ca3bf87f52e95d14cbdebe3eb294affa3f19828da9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:45:29+00:00
+translation_source_body_hash: 4a02ee2866868e6e327bc6ca3bf87f52e95d14cbdebe3eb294affa3f19828da9
+translation_source_metadata_hash: 7231b9f1ac2643cf060ce9f5ded098e53126b75c1ee3c5f497585c91e626317c
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:51:13+00:00
 ---
 ## Games on the Theme of Inclusion
 

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Juegos cooperativos
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:14+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:19+00:00
 ---
 # Juegos Cooperativos
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                   | group-min | group-max | Dificultad       | Material                                      | Duración del juego |
 | ------------------------------------------------------------------------------------------------------ | --------- | --------- | ---------------- | --------------------------------------------- | ------------------ |
-| [Todos_contra_uno](<Alle_gegen_einen.md>)                                                              | 8         | 30        | media            | Aros                                          | 10-15              |
+| [Todos contra uno](<Alle_gegen_einen.md>)                                                              | 8         | 30        | media            | Aros                                          | 10-15              |
 | [El delicado transporte de agua](<Der%20heikle%20Wassertransport.md>)                           | 5         | 15        | difícil          | Olla, cuerda, agua, segundo recipiente        | 5-20               |
-| [La valla](<Die%20H%C3%BCrde.md>)                                                                            | 4         | 20        | media            | Cuerda                                        | 5-10               |
+| [La Valla](<Die%20H%C3%BCrde.md>)                                                                            | 4         | 20        | media            | Cuerda                                        | 5-10               |
 | [La cuadratura del círculo](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | media            | Cuerda, opcionalmente antifaces               | 5-60               |
-| [La reina de las nieves - Gigante y enanos](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>) | 5         | 25        | fácil            | Objeto pequeño                                | 5-10               |
-| [Alfombra voladora](<Fliegender%20Teppich.md>)                                                          | 4         | 20        | fácil            | Lona                                          | 3-10               |
+| [Reina de Hielo - Gigante y Enanos](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>) | 5         | 25        | fácil            | Objeto pequeño                                | 5-10               |
+| [Alfombra Voladora](<Fliegender%20Teppich.md>)                                                          | 4         | 20        | fácil            | Lona                                          | 3-10               |
 | [Nueve personas – 8 piernas - 4 manos](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | fácil            | Ninguno                                       | 10                 |
-| [Estación espacial](<Raumstation.md>)                                                          | 6         | 25        | media            | Área delimitada, objetos                      | 10-15              |
+| [Estación Espacial](<Raumstation.md>)                                                          | 6         | 25        | media            | Área delimitada, objetos                      | 10-15              |
 | [Cruzar el lago](<See%C3%BCberquerung.md>)                                                              | 5         | 30        | media            | Papel, colchoneta de suelo blando, opcionalmente objetos | 15-20              |
-| [Clasificar en grupo](<Sortieren%20in%20der%20Gruppe.md>)                                                    | 5         | 25        | media            | Sillas o taburetes                            | 5-15               |
+| [Ordenar en grupo](<Sortieren%20in%20der%20Gruppe.md>)                                                    | 5         | 25        | media            | Sillas o taburetes                            | 5-15               |
 | [Telaraña](<Spinnennetz.md>)                                                                              | 6         | 14        | fácil - difícil  | Cuerdas                                       | 5 - 15             |
 
 <!-- dynamic:end -->

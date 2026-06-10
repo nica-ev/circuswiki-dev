@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:37
-title: Kommando
-description: Ein Reaktionsspiel mit Platzwechseln, bei dem Personen auf passende Kommandos schnell neue Plätze suchen.
+title: Command
+description: A reaction game involving changing places, where participants quickly find new spots based on matching commands.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kommando.md
-translation_source_hash: 12499e7ccff550bf5a46ede3b613d0748555365dac4c1454509fbe2ef58d4c86
+translation_source_hash: 5f5ed834f8a5d0e0c842238a3d2f39b423343b2fad5e5178371306e7ee3c36cd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:50:45+00:00
+translation_source_body_hash: 5f5ed834f8a5d0e0c842238a3d2f39b423343b2fad5e5178371306e7ee3c36cd
+translation_source_metadata_hash: c8f81c682514642f72204860fbc3c333e5168f7ceca88940dd601e9216ce4362
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:54:50+00:00
 ---
 > [!info] Brief Description
 > A reaction game involving changing places, where participants quickly find new spots based on matching commands.

@@ -12,9 +12,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/nextcloud.md
-translation_source_hash: 5721973c58b55639282e322b83fc6fb879c18983f3311a4d5d19fbafdd888487
+translation_source_hash: 0b326f5a773b4ecd06f90f5149e79dc27c5203be251278b541739468c7b52bcb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:22:55+00:00
+translation_source_body_hash: 0b326f5a773b4ecd06f90f5149e79dc27c5203be251278b541739468c7b52bcb
+translation_source_metadata_hash: eed706c79fd6ea90a76ba2b51361c863c6912b95f935cd11d779c1918551b7bd
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:00:29+00:00
 ---
 # Backups
 Wie worden de backups beheerd --> Vraag het aan Trebor. #todo

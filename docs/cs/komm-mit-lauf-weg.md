@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-08 22:39:10
-title: Komm mit, lauf weg
-description: Ein Laufspiel im Kreis, bei dem angetippte Personen auf Kommando mitlaufen oder in die Gegenrichtung starten.
+title: Pojď se mnou, uteč
+description: Kruhová běžecká hra, kde běžci na pokyn buď běží s vámi, nebo se rozběhnou opačným směrem.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/komm-mit-lauf-weg.md
-translation_source_hash: 3b3ff4fdeb624f1a1ea118f1c01c4a8fb12c7ca75e47b143ccb505edda45c758
+translation_source_hash: 2476b7a61ee23ef8116254bff1c16af25a10fc53f3052f117594a63ea17e5c06
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:50:41+00:00
+translation_source_body_hash: 2476b7a61ee23ef8116254bff1c16af25a10fc53f3052f117594a63ea17e5c06
+translation_source_metadata_hash: d42976c184bab7eed57911599b8a629b4094ebb91ec9f141393cb38d683f7492
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:54:49+00:00
 ---
 > [!info] Stručný popis
 > Běhací hra v kruhu, při které se dotknuté osoby na povel rozběhnou s pronásledujícím nebo opačným směrem.

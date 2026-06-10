@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:47
-title: Der Zirkus ist in der Stadt
-description: Ein interaktives Zirkus-Erzählspiel, bei dem Kommandos, Bewegungen und kurze Fangmomente in eine Geschichte eingebettet werden.
+title: De circusz is in de stad
+description: Een interactief circus-verhaalspel waarbij commando's, bewegingen en korte vangmomenten in een verhaal worden verweven.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Der Zirkus ist in der Stadt.md
-translation_source_hash: e0231e6b46e5f0bec69042e64c25dc9ba3ac324b6b7f0247e3d344808301b949
+translation_source_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c75b787861
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:31:15+00:00
+translation_source_body_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c75b787861
+translation_source_metadata_hash: 2292a3574d035acf01949a1021168f1edcb113f7e954a71545dab85dc874077e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:08:26+00:00
 ---
 > [!info] Korte beschrijving
 > Een interactief circus-verhaalspel waarbij commando's, bewegingen en korte vangmomenten in een verhaal worden verweven.

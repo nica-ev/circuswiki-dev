@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:26:12
-title: Schnell, schnell - an Ort und Stell
-description: Ein Reaktionsspiel, bei dem Gruppen nach Drehungen des Spielleiters schnell ihre ursprüngliche Position wiederherstellen.
+title: Rápido, rápido - no lugar
+description: Um jogo de reação onde os grupos devem retornar rapidamente às suas posições originais após as instruções do líder.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnell schnell - an Ort und Stell.md
-translation_source_hash: 4df0e01552ae9118851076c88a09dbd57ac7063bfef7c6dac9ec8f639acbca4e
+translation_source_hash: 5ba91e852ac29366b81b31f99b63c3c5ef84d653057d5ddb01999c1230cfd02d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:22+00:00
+translation_source_body_hash: 5ba91e852ac29366b81b31f99b63c3c5ef84d653057d5ddb01999c1230cfd02d
+translation_source_metadata_hash: 54f3266e0c2c0c08adbec1e6d6c7708a81aa88be66ab08f075abba696670faf0
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:30+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de reação em que os grupos devem restaurar rapidamente a sua posição original após as rotações do(a) animador(a).

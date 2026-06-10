@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:03:14
-title: Platztausch durch Augenkontakt
-description: Ein ruhiges Kreisspiel, bei dem Personen über Blickkontakt einen Platztausch vereinbaren und gleichzeitig aufmerksam bleiben.
+title: Výměna miest cez očný kontakt
+description: Pokojná kruhová hra, kde si ľudia dohodnú výmenu miest cez pohľad a zároveň zostanú pozorní.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Platztausch durch Augenkontakt.md
-translation_source_hash: ec81ff04aa610fd69df526ef7767f0d6e3cb14e0bf96df026e7f66c4de00aa7f
+translation_source_hash: b0d2f83e72ef53f355510fd756340f24783f56e277049f1f28985bed7e39e6e7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:12:05+00:00
+translation_source_body_hash: b0d2f83e72ef53f355510fd756340f24783f56e277049f1f28985bed7e39e6e7
+translation_source_metadata_hash: f96b42e4ad8ef541c87a8f4c598d3e7ca4e3644e40479a078a761c1fe20a3de8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:03:04+00:00
 ---
 > [!info] Stručný popis
 > Pokojná kruhová hra, pri ktorej si ľudia dohodnú výmenu miest pohľadom a zároveň zostávajú pozorní.

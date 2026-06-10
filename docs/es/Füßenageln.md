@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-25 01:57:09
 update: 2026-06-07 01:14:58
-title: Füßenageln
-description: Ein Bewegungsspiel, bei dem alle versuchen, die Füße anderer Personen festzunageln und selbst beweglich zu bleiben.
+title: Uñas de los pies
+description: Un juego de movimiento en el que todos intentan clavar los pies de otras personas mientras permanecen móviles.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Füßenageln.md
-translation_source_hash: 5f6f2334066fbb0a9cf90f04b4c89b3ea2f3fb58daac5252408a87e3217061ae
+translation_source_hash: e4f89679f44090b3b2c1e977779d02233459dfa5af50237e46ef713d9f86363c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:39:54+00:00
+translation_source_body_hash: e4f89679f44090b3b2c1e977779d02233459dfa5af50237e46ef713d9f86363c
+translation_source_metadata_hash: 57d30060e37291f89e931c7e19b33ae48c267fc055dd5ab4e62f9a532cc1eabb
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:47:52+00:00
 ---
 > [!info] Breve descripción
 > Un juego de movimiento en el que todos intentan "clavar" los pies de otras personas y permanecer móviles ellos mismos.

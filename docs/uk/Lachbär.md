@@ -6,8 +6,8 @@ update: 2025-03-17 02:11:23
 publish: true
 tags:
   - spiele
-title: Lachbär
-description: Ein ruhiges Spiel, bei dem der Lachbär liegende Personen ohne Berührung zum Lachen bringen muss.
+title: Ведмідь, що смішить
+description: Спокійна гра, в якій ведмідь, що смішить, має змусити лежачих людей засміятися без дотику.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Lachbär.md
-translation_source_hash: 2b5a6d4f333b8821b559dc7fd08d7109370b6f37f69d8d411c26ea798bf2d1c7
+translation_source_hash: 89b79fc7a0682fa83ffde155ebcbfa0597682bcea2d2dd7adad067ff3c3832ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:54:28+00:00
+translation_source_body_hash: 89b79fc7a0682fa83ffde155ebcbfa0597682bcea2d2dd7adad067ff3c3832ec
+translation_source_metadata_hash: b040f6fb252bf08edaf8f341e1fea5ae8e54f0e1d847ef2ad46fb2d310f10747
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:57+00:00
 ---
 > [!info] Короткий опис
 > Спокійна гра, в якій Ведмідь-реготун має розсмішити людей, що лежать, не торкаючись їх.

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Coöperatieve spellen
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:07+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:18+00:00
 ---
 # Samenwerkingsspellen
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                   | min. groepsgrootte | max. groepsgrootte | Moeilijkheidsgraad | Materiaal                                      | Speelduur |
 | ------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ | --------------------------------------------- | --------- |
-| [Alle_gegen_einen](<Alle_gegen_einen.md>)                                                              | 8                  | 30                 | gemiddeld          | Banden                                        | 10-15     |
-| [Der heikle Wassertransport](<Der%20heikle%20Wassertransport.md>)                                      | 5                  | 15                 | moeilijk           | Pot, touw, water, tweede bakje                  | 5-20      |
-| [Die Hürde](<Die%20H%C3%BCrde.md>)                                                                     | 4                  | 20                 | gemiddeld          | Touw                                          | 5-10      |
-| [Die Quadratur des Kreises](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8                  | 20                 | gemiddeld          | Touw, optioneel blinddoeken                   | 5-60      |
-| [Eiskönigin - Riese und Zwerge](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5                  | 25                 | makkelijk          | Klein voorwerp                                | 5-10      |
-| [Fliegender Teppich](<Fliegender%20Teppich.md>)                                                        | 4                  | 20                 | makkelijk          | Zeil                                          | 3-10      |
-| [Neun Menschen – 8 Beine - 4 Hände](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10                 | 30                 | makkelijk          | Geen                                          | 10        |
-| [Raumstation](<Raumstation.md>)                                                                        | 6                  | 25                 | gemiddeld          | Afgebakende ruimte, voorwerpen                | 10-15     |
-| [Seeüberquerung](<See%C3%BCberquerung.md>)                                                             | 5                  | 30                 | gemiddeld          | Papier, mat, optioneel voorwerpen             | 15-20     |
-| [Sortieren in der Gruppe](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5                  | 25                 | gemiddeld          | Stoelen of krukjes                            | 5-15      |
-| [Spinnennetz](<Spinnennetz.md>)                                                                        | 6                  | 14                 | makkelijk - moeilijk | Touwen                                        | 5 - 15    |
+| [Allen tegen één](<Alle_gegen_einen.md>)                                                              | 8                  | 30                 | gemiddeld          | Banden                                        | 10-15     |
+| [Het lastige watertransport](<Der%20heikle%20Wassertransport.md>)                                      | 5                  | 15                 | moeilijk           | Pot, touw, water, tweede bakje                  | 5-20      |
+| [De Horden](<Die%20H%C3%BCrde.md>)                                                                     | 4                  | 20                 | gemiddeld          | Touw                                          | 5-10      |
+| [De cirkel kwadrateren](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8                  | 20                 | gemiddeld          | Touw, optioneel blinddoeken                   | 5-60      |
+| [IJskoningin - Reus en Dwergen](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5                  | 25                 | makkelijk          | Klein voorwerp                                | 5-10      |
+| [Vliegend tapijt](<Fliegender%20Teppich.md>)                                                        | 4                  | 20                 | makkelijk          | Zeil                                          | 3-10      |
+| [Negen mensen – 8 benen - 4 handen](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10                 | 30                 | makkelijk          | Geen                                          | 10        |
+| [Ruimtestation](<Raumstation.md>)                                                                        | 6                  | 25                 | gemiddeld          | Afgebakende ruimte, voorwerpen                | 10-15     |
+| [Oversteek over het meer](<See%C3%BCberquerung.md>)                                                             | 5                  | 30                 | gemiddeld          | Papier, mat, optioneel voorwerpen             | 15-20     |
+| [Sorteren in de groep](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5                  | 25                 | gemiddeld          | Stoelen of krukjes                            | 5-15      |
+| [Spinnenweb](<Spinnennetz.md>)                                                                        | 6                  | 14                 | makkelijk - moeilijk | Touwen                                        | 5 - 15    |
 
 <!-- dynamic:end -->

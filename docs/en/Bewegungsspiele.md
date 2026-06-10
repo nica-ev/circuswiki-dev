@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Movement Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:22+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:22+00:00
 ---
 # Movement Games
 
@@ -33,25 +38,25 @@ columns: file, group-min, group-max, Difficulty, Material, Duration
 
 | file                                                                      | group-min | group-max | Difficulty | Material                                        | Duration |
 | ------------------------------------------------------------------------- | --------- | --------- | ---------- | ----------------------------------------------- | -------- |
-| [Tic-Tac-Toe](<3%20gewinnt.md>)                                             | 4         | 30        | medium     | 9 rings, 6 colored objects, starting marker     | 5-20     |
-| [Eagle, Rabbit, Cabbage](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | medium     | none                                            | 5-15     |
+| [Connect Three](<3%20gewinnt.md>)                                             | 4         | 30        | medium     | 9 rings, 6 colored objects, starting marker     | 5-20     |
+| [Fox - Goose - Beans](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | medium     | none                                            | 5-15     |
 | [Fire Water Sand](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | easy       | Elevated surfaces, optional drum                | 5-15     |
-| [Statue Tag](<Figurenfangen.md>)                                       | 6         | 30        | medium     | none                                            | 6        |
-| [Toe Tapping](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | easy       | none                                            | 5-10     |
-| [Shark](<Haifisch.md>)                                                 | 10        | 30        | easy       | none                                            | 5        |
+| [Figure Catch](<Figurenfangen.md>)                                       | 6         | 30        | medium     | none                                            | 6        |
+| [Foot Nailing](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | easy       | none                                            | 5-10     |
+| [Shark and Fish](<Haifisch.md>)                                                 | 10        | 30        | easy       | none                                            | 5        |
 | [Everyone Catches Everyone](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | easy       | none                                            | 3        |
 | [Cat and Mouse](<Katz%20und%20Maus.md>)                                   | 10        | 30        | difficult  | none                                            | 5-10     |
-| [Clothespin Tag](<Klammern%20haschen.md>)                               | 5         | 30        | easy       | Clothespins                                     | 4-6        |
+| [Catching Clothes Pegs](<Klammern%20haschen.md>)                               | 5         | 30        | easy       | Clothespins                                     | 4-6        |
 | [Hospital](<Krankenhaus.md>)                                           | 8         | 30        | easy       | Mats                                            | 5-10     |
 | [Ludo](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | easy       | Rings or hula hoops                           | 20-30      |
-| [Carrot, Rabbit, Fox](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | easy       | none                                            | 10         |
-| [Partner Tag & Chain Tag](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | easy       | none                                            | 5          |
+| [Carrot Rabbit Fox](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | easy       | none                                            | 10         |
+| [Couple Tag & Chain Tag](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | easy       | none                                            | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | medium     | none                                            | 7          |
-| [Wolf and Sheep](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | easy       | none                                            | 3-5        |
-| [Little Sister, Help Me](<Schwesterchen%20hilf.md>)                           | 8         | 30        | easy       | none                                            | 5          |
+| [Sheep Chase](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | easy       | none                                            | 3-5        |
+| [Little Sister Help](<Schwesterchen%20hilf.md>)                           | 8         | 30        | easy       | none                                            | 5          |
 | [T-Shirt in Pants](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | medium     | Ball                                            | 5-15     |
 | [Four-Color Tag](<Vierfarbenfangen.md>)                                 | 20        | 40        | medium     | Optional colored bibs                        | 10         |
 | [Time Bomb](<Zeitbombe.md>)                                               | 8         | 30        | easy       | Marker for the chaser                           | 5-10       |
-| [Zombie Ball](<Zombieball.md>)                                             | 5         | 30        | medium     | Balls                                           | 10         |
+| [Zombieball](<Zombieball.md>)                                             | 5         | 30        | medium     | Balls                                           | 10         |
 
 <!-- dynamic:end -->

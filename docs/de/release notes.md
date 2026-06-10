@@ -2,7 +2,7 @@
 lang: de
 translation_id: release-notes
 created: 2025-01-21 18:09:55
-update: 2025-03-11 02:46:28
+update: 2026-06-10 03:32:50
 publish: true
 tags: 
 title: Release Notes
@@ -12,6 +12,7 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
+
 >[!info]
 >Diese Release Notes geben nur einen groben Überblick, kleine Änderungen (wie z.b. einzelne neue Seiten, Änderungen an bestehendem Content) werden nicht alle aufgeführt. Diese können aber in der Historie des Repositories genau nachvollzogen werden.
 

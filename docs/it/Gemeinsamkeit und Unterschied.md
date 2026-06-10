@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:33:59
-title: Gemeinsamkeit und Unterschied
-description: Ein kurzes Inklusionsspiel, bei dem Paare im Gespräch jeweils eine Gemeinsamkeit und einen Unterschied finden.
+title: Somiglianza e Differenza
+description: Un breve gioco di inclusione in cui le coppie trovano una somiglianza e una differenza durante una conversazione.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Gemeinsamkeit und Unterschied.md
-translation_source_hash: c2c4add47947c504a4e430f19526a3fc4c599687be142f756b4223c7161f3540
+translation_source_hash: f9e6ad58f2b885b0c3a3a29c267dd97083a51e77bc5fc06c95a7448de883f274
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:40:25+00:00
+translation_source_body_hash: f9e6ad58f2b885b0c3a3a29c267dd97083a51e77bc5fc06c95a7448de883f274
+translation_source_metadata_hash: ee984919d45a6f7440723185b20f02bbc9a3cfada2d3801c6448fb21466b94cb
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:48:25+00:00
 ---
 > [!info] Breve descrizione
 > Un breve gioco di inclusione in cui le coppie, durante una conversazione, trovano un punto in comune e una differenza.

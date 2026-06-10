@@ -6,8 +6,8 @@ update: 2025-03-17 01:57:33
 publish: true
 tags:
   - spiele
-title: Seeüberquerung
-description: Eine Teamaufgabe, bei der Kleingruppen mit Papierinseln gemeinsam einen See überqueren und eine Insel erreichen.
+title: Przeprawa przez jezioro
+description: Zadanie zespołowe, w którym małe grupy z papierowymi wyspami wspólnie przeprawiają się przez jezioro i docierają na wyspę.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Seeüberquerung.md
-translation_source_hash: c9516fa2d5a5c211a78830258ce1e4297680dd98d1b99e5aeea69563cc182e9a
+translation_source_hash: 8dd108338ff1a7d968f0e7cc58eb555986fab06c13ff9902accba1b92815c734
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:24:35+00:00
+translation_source_body_hash: 8dd108338ff1a7d968f0e7cc58eb555986fab06c13ff9902accba1b92815c734
+translation_source_metadata_hash: fa678ff814243efa1bd33796cd7757644a5d52caedc8e4a58903daf0e913dc5a
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:06:50+00:00
 ---
 > [!info] Krótki opis
 > Zadanie zespołowe, w którym małe grupy wspólnie pokonują jezioro za pomocą papierowych wysp i docierają na wyspę.

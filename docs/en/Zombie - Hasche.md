@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 23:06:35
-title: Zombie - Hasche
+title: Zombie - Tag
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombie - Hasche.md
-translation_source_hash: c08c40dad9449a850a39c29b7964f15b38855af399dbb6da76696792ced2e928
+translation_source_hash: 487317e4348a35d7b2d1e03f76fa26561a60662aa030dbc5972fd56360aeec48
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:30:27+00:00
+translation_source_body_hash: 487317e4348a35d7b2d1e03f76fa26561a60662aa030dbc5972fd56360aeec48
+translation_source_metadata_hash: d315059938828deccebcc00b8bd5ddcd0df889731fcda6a3f5d9d3055ed01ae8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:13:49+00:00
 ---
 # Zombie Tag
 

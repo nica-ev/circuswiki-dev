@@ -6,16 +6,21 @@ update: 2025-02-25 00:18:42
 publish: true
 tags:
   - jonglage
-title: Partnerübungen Wurfjonglage Kaskade
+title: Partneroefeningen Werppuzzel Cascade
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Partnerübungen Wurfjonglage Kaskade.md
-translation_source_hash: bfca1fc7525736bd82a66ea192cf2d55fb3d6bc3b097bba7fbd98b6961d228c2
+translation_source_hash: 17663e0b0a46b1ba7cf9f49c3bdbc0b58a5ed173c855a48e655c80400981144e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:23:08+00:00
+translation_source_body_hash: 17663e0b0a46b1ba7cf9f49c3bdbc0b58a5ed173c855a48e655c80400981144e
+translation_source_metadata_hash: 49ecdbd2d464c40c7c6887e41a6ed553f7be320f7baf7583c36eb38364fea6cb
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:01:47+00:00
 ---
 # Partneroefeningen Werpjongleren Cascade
 

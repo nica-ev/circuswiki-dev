@@ -149,9 +149,22 @@ The canonical source language for the translation group. This should match the `
 
 Path to the exact source file used for translation. For translated pages this should point to the canonical original whenever possible.
 
+`translation_source_body_hash`
+
+Hash of the canonical source Markdown body used to determine whether the body
+translation is outdated.
+
+`translation_source_metadata_hash`
+
+Hash of the translatable source metadata fields used to determine whether
+localized frontmatter is outdated. The current translatable metadata fields are
+`title` and `description`.
+
 `translation_source_hash`
 
-Hash of the source content used to determine whether a translation is outdated.
+Legacy body-hash field kept for migration compatibility. New tooling should
+write `translation_source_body_hash` and may update `translation_source_hash` as
+a backward-compatible alias.
 
 ## Tags Are Not Enough
 
@@ -164,6 +177,15 @@ Tags are content classification. Source language is structural translation metad
 The translation console and CLI require explicit source and target languages for
 single-file operations. The UI may initialize selections from the registry, but
 backend translation operations should not silently assume a fixed language pair.
+
+Full page translation now has two explicit translation parts:
+
+1. translate the Markdown body and repair local link targets
+2. translate frontmatter `title` and `description`
+
+Metadata-only translation is available separately for existing target files. It
+updates only localized metadata and metadata provenance, preserving the target
+body.
 
 Batch translation works from translation groups:
 
@@ -187,7 +209,7 @@ Expected behavior:
 4. If the target is missing or outdated, translate from the original source page.
 5. Write the translated file to the matching target language folder.
 6. Preserve relative path parity where possible.
-7. Record the source file, source hash, model, status, and update timestamp.
+7. Record the source file, body hash, metadata hash, model, status, and update timestamps.
 
 If more than one page claims to be the original for a `translation_id`, tooling should flag the group for manual review.
 
@@ -244,7 +266,8 @@ When extending translation tooling:
 - make source and target languages explicit parameters
 - derive source candidates from metadata, not only folders
 - validate `lang`, `translation_id`, `translation_status`, and `translation_source_lang`
-- keep translating only Markdown body content unless there is a deliberate metadata translation feature
+- keep body translation and metadata translation separate internally
+- translate only deliberate localized metadata fields, currently `title` and `description`
 - preserve Obsidian syntax, links, image paths, code blocks, and unknown frontmatter fields
 
 ## Deterministic Repair

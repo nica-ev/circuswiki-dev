@@ -7,15 +7,20 @@ tags:
   - tutorial
 created: 2025-01-18 21:15:11
 update: 2025-01-23 05:46:07
-title: Eine neue Seite in Wordpress bauen
+title: Tworzenie nowej strony w WordPressie
 authors:
   - Piiit
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/wordpress-pages.md
-translation_source_hash: a4d39020a27a14792f080f8254761328ac4a7497361c86711393e86eaf0fd7ae
+translation_source_hash: 172db702654e913f2b641fffd126e0ccdbae876825b67644c7eb14cb3a45b2b6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:25:07+00:00
+translation_source_body_hash: 172db702654e913f2b641fffd126e0ccdbae876825b67644c7eb14cb3a45b2b6
+translation_source_metadata_hash: b7b14e2dc89acdda1afc01caef09e617744445a2faee86b0f4b3d52ffa1e523d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:12:19+00:00
 ---
 # Tworzenie nowej strony w WordPress
 

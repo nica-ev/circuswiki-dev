@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Kruhové hry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:51+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:42+00:00
 ---
 # Kruhové hry MOC
 
@@ -35,34 +40,34 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | súbor                                                                                                 | min. skupina | max. skupina | Obtiažnosť       | Materiál          | Dĺžka hry |
 | ----------------------------------------------------------------------------------------------------- | ------------ | ------------ | ---------------- | ----------------- | --------- |
-| [Hádzanie lopty v hviezde](<Ball%20werfen%20im%20Stern.md>)                                            | 5            | 15           | jednoduchá       | lopty             | 5-10      |
+| [Hádzanie lopty v kruhu](<Ball%20werfen%20im%20Stern.md>)                                            | 5            | 15           | jednoduchá       | lopty             | 5-10      |
 | [Chráň svojho priateľa](<Besch%C3%BCtze%20deinen%20Freund.md>)                                         | 8            | 30           | jednoduchá       | žiadny            | 4-9       |
-| [Cirkusová prihláška](<Bewerbung%20im%20Zirkus.md>)                                                    | 8            | 99           | jednoduchá       | žiadny            | 5-10      |
+| [Prihláška do cirkusu](<Bewerbung%20im%20Zirkus.md>)                                                    | 8            | 99           | jednoduchá       | žiadny            | 5-10      |
 | [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                        | 6            | 25           | stredná          | žiadny            | 10-15     |
 | [Bomba](<Bombe.md>)                                                                                   | 7            | 30           | jednoduchá       | lopta             | 3-6       |
 | [Skrížené ruky](<Crossed%20Hands.md>)                                                                  | 5            | 20           | jednoduchá       | žiadny            | 5-10      |
 | [Bomba](<Die%20Bombe.md>)                                                                             | 6            | 30           | jednoduchá       | lopta             | 5-10      |
-| [Zliezť z hada](<Die%20Schlange%20h%C3%A4uten.md>)                                                     | 5            | 20           | jednoduchá       | žiadny            | 5-10      |
-| [Hore a dole](<Drunter%20und%20Dr%C3%BCber.md>)                                                        | 5            | 20           | jednoduchá       | predmety          | 5-10      |
-| [Energetický kruh tlieskania](<Energie%20Klatschkreis.md>)                                            | 5            | 99           | jednoduchá       | žiadny            | 2-5       |
-| [Ahoj, ja som](<Hallo%20ich%20bin.md>)                                                                | 4            | 25           | jednoduchá       | žiadny            | 2-10      |
-| [Ahoj, ja som - s loptami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                           | 3            | 30           | jednoduchá       | lopty             | 10 - 15   |
-| [Zoznámenie s loptami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                         | 4            | 20           | jednoduchá       | lopty             | 2-10      |
-| [Zoznámenie s loptami, naháňanie](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)           | 5            | 25           | jednoduchá - stredná | lopty             | 10 - 15   |
-| [Tlieskanie s očným kontaktom](<Klatsch%20mit%20Augenkontakt.md>)                                     | 5            | 99           | jednoduchá       | žiadny            | 5-10      |
+| [Zhadnutie hada](<Die%20Schlange%20h%C3%A4uten.md>)                                                     | 5            | 20           | jednoduchá       | žiadny            | 5-10      |
+| [Dole a hore](<Drunter%20und%20Dr%C3%BCber.md>)                                                        | 5            | 20           | jednoduchá       | predmety          | 5-10      |
+| [Energetický kruh](<Energie%20Klatschkreis.md>)                                            | 5            | 99           | jednoduchá       | žiadny            | 2-5       |
+| [Ahoj, som](<Hallo%20ich%20bin.md>)                                                                | 4            | 25           | jednoduchá       | žiadny            | 2-10      |
+| [Ahoj, som - s loptičkami](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                           | 3            | 30           | jednoduchá       | lopty             | 10 - 15   |
+| [Zoznámenie s loptičkami](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                         | 4            | 20           | jednoduchá       | lopty             | 2-10      |
+| [Zoznamovanie sa s loptami, naháňanie](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)           | 5            | 25           | jednoduchá - stredná | lopty             | 10 - 15   |
+| [Šepot s očným kontaktom](<Klatsch%20mit%20Augenkontakt.md>)                                     | 5            | 99           | jednoduchá       | žiadny            | 5-10      |
 | [Masážna hra - Farmár a zemiakové pole](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)          | 4            | 20           | jednoduchá       | žiadny            | 5-10      |
 | [Medúza](<Medusa.md>)                                                                                 | 5            | 25           | jednoduchá       | žiadny            | 5-10      |
-| [Ihlové ucho](<Nadel%C3%B6hr.md>)                                                                     | 5            | 30           | jednoduchá       | žiadny            | 5-10      |
-| [Bum-Bum-Prásk-Letíme-do-Vesmiru](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                        | 4            | 20           | jednoduchá       | žiadny            | 5-10      |
-| [Prásk!](<Peng%21.md>)                                                                                | 5            | 25           | jednoduchá       | žiadny            | 5-10      |
-| [Výmena miest s očným kontaktom](<Platztausch%20durch%20Augenkontakt.md>)                              | 5            | 25           | jednoduchá       | žiadny            | 5-10      |
-| [Vzájomné predstavenie](<Sich%20gegenseitig%20vorstellen.md>)                                        | 5            | 15           | stredná          | žiadny            | 10 - 15   |
+| [Ihla v oku](<Nadel%C3%B6hr.md>)                                                                     | 5            | 30           | jednoduchá       | žiadny            | 5-10      |
+| [Puf, puf, bum – Letíme do vesmíru](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                        | 4            | 20           | jednoduchá       | žiadny            | 5-10      |
+| [Peng](<Peng%21.md>)                                                                                | 5            | 25           | jednoduchá       | žiadny            | 5-10      |
+| [Výměna miest cez očný kontakt](<Platztausch%20durch%20Augenkontakt.md>)                              | 5            | 25           | jednoduchá       | žiadny            | 5-10      |
+| [Predstavenie sa navzájom](<Sich%20gegenseitig%20vorstellen.md>)                                        | 5            | 15           | stredná          | žiadny            | 10 - 15   |
 | [Triedenie v skupine](<Sortieren%20in%20der%20Gruppe.md>)                                            | 5            | 25           | stredná          | stoličky alebo taburety | 5-15      |
-| [Boj s býkmi - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                                | 5            | 20           | jednoduchá       | lano              | 5-10      |
-| [Ženatý-Rozvedený](<Verheiratet-Geschieden.md>)                                                       | 8            | 99           | jednoduchá       | žiadny            | 5-10      |
-| [Predstavenie - Životná cesta - Symbolické](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2            | 10           | stredná          | rôzne             | 30-45     |
+| [Býčí zápas - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                                | 5            | 20           | jednoduchá       | lano              | 5-10      |
+| [Ženatý, Rozvedený](<Verheiratet-Geschieden.md>)                                                       | 8            | 99           | jednoduchá       | žiadny            | 5-10      |
+| [Predstavenie - Kariérny postup - Symbolické](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2            | 10           | stredná          | rôzne             | 30-45     |
 | [Zah](<Zah.md>)                                                                                       | 6            | 30           | jednoduchá       | žiadny            | 5         |
-| [Jazykový vrah](<Zungenm%C3%B6rder.md>)                                                               | 10           | 30           | stredná          | žiadny            | 5 - 10    |
+| [Vrah jazyka](<Zungenm%C3%B6rder.md>)                                                               | 10           | 30           | stredná          | žiadny            | 5 - 10    |
 | [Žmurkanie](<Zuzwinkern.md>)                                                                          | 9            | 99           | stredná          | žiadny            | 7         |
 
 <!-- dynamic:end -->

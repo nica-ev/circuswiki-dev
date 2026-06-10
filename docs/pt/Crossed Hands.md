@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:06:48
-title: Crossed Hands
-description: Ein Reaktionsspiel im Kreis, bei dem gekreuzte Hände in Reihenfolge klatschen und Richtungswechsel auslösen.
+title: Mãos Cruzadas
+description: Um jogo de reação em círculo onde mãos cruzadas batem em sequência e acionam mudanças de direção.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Crossed Hands.md
-translation_source_hash: 30e8be313116cdaaf6bd621f7515dd410304b0195c98ae3582bfd893a2edbf35
+translation_source_hash: 85798d5a7d59eb993e1beb42f2e37370106078f5cbe5bdc17e4a7f647396622d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:29:29+00:00
+translation_source_body_hash: 85798d5a7d59eb993e1beb42f2e37370106078f5cbe5bdc17e4a7f647396622d
+translation_source_metadata_hash: d1f1adf935ead51d90a3e0e0bb7d283081823b534fd334ed5125c511769021bd
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:07:41+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo de reação em círculo, onde mãos cruzadas batem palmas em sequência e desencadeiam mudanças de direção.

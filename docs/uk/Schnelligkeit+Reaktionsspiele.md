@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:01
-title: Schnelligkeit+Reaktionsspiele
+title: Швидкість+Ігри на реакцію
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Schnelligkeit+Reaktionsspiele.md
-translation_source_hash: 15e580c99a4f142ddf3d4276ed828b7cdf967141772c77aae57e348a2331dcc6
+translation_source_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:48+00:00
+translation_source_body_hash: c1f4f7af9b840f9460b9091b80261f7d3cd932abcf11d250dea6efc57cf6537a
+translation_source_metadata_hash: 9e4d02af049114798fe7feebed427d6da4b34a1c156d1acdb5a3f3cb429a7de7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:05:36+00:00
 ---
 # Швидкість + Реакційні ігри
 
@@ -34,18 +39,18 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | файл                                                                | мін. група | макс. група | складність | Матеріал                          | тривалість гри |
 | ------------------------------------------------------------------- | --------- | --------- | ---------- | --------------------------------- | -------------- |
 | [Захисти свого друга](<Besch%C3%BCtze%20deinen%20Freund.md>)    | 8         | 30        | легко      | немає                             | 4-9            |
-| [Біллі Біллі Боб](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | середньо   | немає                             | 8              |
+| [Bille Bille Bob](<Bille%20Bille%20Bob.md>)                         | 6         | 30        | середньо   | немає                             | 8              |
 | [Бомба](<Bombe.md>)                                                 | 7         | 30        | легко      | м'яч                              | 3-6            |
-| [Банк, що тупотить](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | середньо   | немає                             | 2-8            |
+| [Топчучий банк](<Die%20stampfende%20Bank.md>)                 | 4         | 20        | середньо   | немає                             | 2-8            |
 | [Плескання в долоні](<H%C3%A4nde%20abklatschen.md>)                  | 5         | 25        | середньо   | немає                             | 6              |
-| [Гонки на подушках](<Kissenrennen.md>)                                   | 10        | 40        | середньо   | подушки                           | 3              |
-| [Йди-за-мною-біжи-від-мене](<komm-mit-lauf-weg.md>)                         | 5         | 99        | легко      | немає                             | 5 - 15         |
+| [Гонка з подушками](<Kissenrennen.md>)                                   | 10        | 40        | середньо   | подушки                           | 3              |
+| [Йди зі мною, тікай](<komm-mit-lauf-weg.md>)                         | 5         | 99        | легко      | немає                             | 5 - 15         |
 | [Команда](<Kommando.md>)                                           | 6         | 25        | легко      | килимки або позначки для сидіння | 4-7            |
-| [Стійка-бігунка](<Stehbock-Laufbock.md>)                         | 6         | 30        | легко      | немає                             | 3              |
+| [Стійка-бігун](<Stehbock-Laufbock.md>)                         | 6         | 30        | легко      | немає                             | 3              |
 | [Корида - Татонга](<Stierkampf%20-%20Tatonga.md>)               | 5         | 20        | легко      | мотузка                           | 5-10           |
-| [Командна гра "Камінь-ножиці-папір"](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | легко      | немає                             | 10             |
-| [Ультимативний Ніндзя](<Ultimate%20Ninja.md>)                             | 5         | 20        | середньо   | немає                             | 10             |
-| [За](<Zah.md>)                                                     | 6         | 30        | легко      | немає                             | 5              |
+| [Команда \\"Камінь-ножиці-папір\\](<Team%20Schnick-Schnack-Schnuck.md>) | 14        | 40        | легко      | немає                             | 10             |
+| [Ultimate Ninja](<Ultimate%20Ninja.md>)                             | 5         | 20        | середньо   | немає                             | 10             |
+| [Зах](<Zah.md>)                                                     | 6         | 30        | легко      | немає                             | 5              |
 | [Підморгування](<Zuzwinkern.md>)                                       | 9         | 99        | середньо   | немає                             | 7              |
 
 <!-- dynamic:end -->

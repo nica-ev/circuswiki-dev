@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:48:21
 title: Kataflasch
-description: Ein rhythmisches Kreisspiel, bei dem die Gruppe mit Sprache, Schritten und Bewegungen immer enger zusammenarbeitet.
+description: Ritmusjáték körben, ahol a csoport hanggal, lépésekkel és mozdulatokkal egyre szorosabban működik együtt.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kataflasch.md
-translation_source_hash: cb8d169acdb032758ca768f25757a8c3f4cdc5068a8f9c61776dbdb7acfacaa9
+translation_source_hash: 1a6555ad46f76fad7f76efb761ae8c425b8f30e4ac0f2f1fcff3b38b154d8829
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:47:00+00:00
+translation_source_body_hash: 1a6555ad46f76fad7f76efb761ae8c425b8f30e4ac0f2f1fcff3b38b154d8829
+translation_source_metadata_hash: ddd4c6fc2178744e466ea043883c0e73bf46c7a7f299f60bc00827f4994b4600
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:53:02+00:00
 ---
 > [!info] Rövid leírás
 > Ritmikus körjáték, amelyben a csoport beszéd, lépések és mozdulatok révén egyre szorosabb együttműködésre késztet.

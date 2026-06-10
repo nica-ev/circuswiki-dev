@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:01
-title: Vierfarbenfangen
-description: Ein komplexes Farb-Fangspiel, bei dem vier Teams im Kreisprinzip fangen, fliehen und ihre Reihenfolge merken müssen.
+title: Négy Szín Fogócska
+description: Egy összetett, színekkel játszott fogócska, ahol négy csapat körkörösen kerget, menekül és jegyzi meg a sorrendjét.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Vierfarbenfangen.md
-translation_source_hash: cc96e216f73415213b3c3bceee0f70926a4842d3b06c1860c23b9097d730cb55
+translation_source_hash: 3f76d9df140b07ac44c882f6c41d58cf3ccccc5323119d73acc9c65026b50a06
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:33:41+00:00
+translation_source_body_hash: 3f76d9df140b07ac44c882f6c41d58cf3ccccc5323119d73acc9c65026b50a06
+translation_source_metadata_hash: 07170c7d8b88432c3f1846b8ea625337f920fcfc0690fdfdf6978bbe4899ced4
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:01+00:00
 ---
 > [!info] Rövid leírás
 > Egy összetett szín-fogó játék, amelyben négy csapatnak körkörösen kell kergetnie, menekülnie és megjegyeznie a sorrendjét.

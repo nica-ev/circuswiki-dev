@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:58:45
-title: Suchkind
-description: Ein Kennenlernspiel, bei dem Kinder anhand charakteristischer Hinweise passende Gruppenmitglieder finden.
+title: Keresd a gyereket
+description: Egy ismerkedős játék, ahol a gyerekek jellegzetes nyomok alapján találnak meg megfelelő csoporttagokat.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ todo: fertig
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Suchkind.md
-translation_source_hash: 203077a1d76455a6bab18a92b76d7339dbbb5aa7fe94fe62794f34cf31dc6ce8
+translation_source_hash: 1a21bcbde76b56380cbf9015e82c1b8d2682e6e3de839d863c19812f0047418b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:29:23+00:00
+translation_source_body_hash: 1a21bcbde76b56380cbf9015e82c1b8d2682e6e3de839d863c19812f0047418b
+translation_source_metadata_hash: 5235ad04525c686e603af98bed5fd2a081de17d7468e53e5c40f38eece339b95
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:42+00:00
 ---
 > [!info] Rövid leírás
 > Egy ismerkedős játék, amelyben a gyerekek jellegzetes utalások alapján keresik meg a hozzájuk illő csoporttagokat.

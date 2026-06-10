@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:43:00
-title: Spiele zum Kennenlernen / Vorstellen
+title: Games for Getting to Know / Introducing Each Other
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele zum Kennenlernen.md
-translation_source_hash: 889ccbb3992353ba3a414ee00c88fcf38db692dbeac2ed61f6b3c2ba6d49a74a
+translation_source_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:27:35+00:00
+translation_source_body_hash: 2176fe4f2926edb81277fc2e90ab841aede86b8afe92031b9a42467707c58ccb
+translation_source_metadata_hash: 7b9b10b9f39a10e7ceda15394b2acd63ae993b594e7a5d7f6712fb93e1819ed7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:08+00:00
 ---
 # Icebreaker Games / Introductions
 
@@ -35,22 +40,22 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                  | group-min | group-max | Difficulty       | Material       | Duration |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------------- | -------- |
-| [Bällewirrwarr](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | easy - difficult | Balls          | 10       |
-| [Gute Seiten](<Gute%20Seiten.md>)                                                                     | 6         | 30        | easy             | Paper, Pens    | 10 - 30  |
-| [Hallo ich bin](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | easy             | none           | 2-10     |
-| [Hallo ich bin - mit Bällen](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | easy             | Balls          | 10 - 15  |
-| [Ich fahre Zug](<Ich%20fahre%20Zug.md>)                                                               | 10        | 30        | medium           | Chairs         | any      |
-| [Kennenlernen mit Bällen](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | easy             | Balls          | 2-10     |
-| [Kennenlernen mit Bällen hinterherlaufen](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | easy - medium    | Balls          | 10 - 15  |
-| [Namenkampf](<Namenkampf.md>)                                                                         | 10        | 30        | easy             | large cloth    | 10 - 15  |
-| [Niemand ist gern allein](<Niemand%20ist%20gern%20allein.md>)                                         | 8         | 99        | easy             | none           | any      |
-| [Ohrfeigen und Küsse](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | medium           | none           | 10 - 15  |
-| [Robert die rennende Robbe](<Robert%20die%20rennende%20Robbe.md>)                                     | 4         | 12        | easy             | none           | 3 - 10   |
-| [Sich gegenseitig vorstellen](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | medium           | none           | 10 - 15  |
-| [Suchkind](<Suchkind.md>)                                                                             | 5         | 20        | medium           | none           | 20 - 30  |
-| [Tratschen in Anwesenheit](<Tratschen%20in%20Anwesenheit.md>)                                         | 3         | 6         | easy             | none           | 10-15    |
-| [Vorstellungsrunde - Werdegang - Symbolisch](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medium           | various        | 30-45    |
+| [Ball Chaos](<B%C3%A4llewirrwarr.md>)                                                              | 5         | 15        | easy - difficult | Balls          | 10       |
+| [Good Sides](<Gute%20Seiten.md>)                                                                     | 6         | 30        | easy             | Paper, Pens    | 10 - 30  |
+| [Hello, I am](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | easy             | none           | 2-10     |
+| [Hello, I Am - With Balls](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | easy             | Balls          | 10 - 15  |
+| [I'm Riding the Train](<Ich%20fahre%20Zug.md>)                                                               | 10        | 30        | medium           | Chairs         | any      |
+| [Getting to Know Each Other with Balls](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | easy             | Balls          | 2-10     |
+| [Getting to know each other with balls, chasing](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | easy - medium    | Balls          | 10 - 15  |
+| [Name Fight](<Namenkampf.md>)                                                                         | 10        | 30        | easy             | large cloth    | 10 - 15  |
+| [Nobody Likes to Be Alone](<Niemand%20ist%20gern%20allein.md>)                                         | 8         | 99        | easy             | none           | any      |
+| [Slaps and Kisses](<Ohrfeigen%20und%20K%C3%BCsse.md>)                                              | 5         | 30        | medium           | none           | 10 - 15  |
+| [Robert the Running Seal](<Robert%20die%20rennende%20Robbe.md>)                                     | 4         | 12        | easy             | none           | 3 - 10   |
+| [Introducing Each Other](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | medium           | none           | 10 - 15  |
+| [Search Child](<Suchkind.md>)                                                                             | 5         | 20        | medium           | none           | 20 - 30  |
+| [Gossip in Presence](<Tratschen%20in%20Anwesenheit.md>)                                         | 3         | 6         | easy             | none           | 10-15    |
+| [Introduction Round - Career Path - Symbolic](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medium           | various        | 30-45    |
 | [Zombie](<Zombie.md>)                                                                                 | 6         | 18        | medium           | none           | 5-10     |
-| [Zuckerwasserschießen](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | a bit harder     | none           | 7        |
+| [Sugar Water Shooting](<Zuckerwasserschie%C3%9Fen.md>)                                                | 6         | 20        | a bit harder     | none           | 7        |
 
 <!-- dynamic:end -->

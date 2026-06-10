@@ -6,8 +6,8 @@ update: 2026-06-07 00:03:04
 publish: true
 tags:
   - spiele
-title: Beschütze deinen Freund
-description: Ein Kreisspiel, bei dem sich Personen durch Paarbildung vor dem Fänger in der Mitte schützen.
+title: Chroń swojego przyjaciela
+description: Gra w kręgu, w której uczestnicy chronią się przed łapiącym na środku, tworząc pary.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beschütze deinen Freund.md
-translation_source_hash: bff0af8b99455c361c223c5587237e15a1b3ed5d0b7c398aa5276881ab0e12f5
+translation_source_hash: 904bdf221f6176b5e39d9891167ddae6244b20ceb3e1399373ea7df3bbc7a714
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:24:23+00:00
+translation_source_body_hash: 904bdf221f6176b5e39d9891167ddae6244b20ceb3e1399373ea7df3bbc7a714
+translation_source_metadata_hash: 3d98fe794596632b961efc119f7f630d0ad3ab1d8e853b30c1ae8fe790c19dca
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:03+00:00
 ---
 > [!info] Krótki opis
 > Gra w kręgu, w której uczestnicy chronią się przed łapiącym pośrodku, tworząc pary.

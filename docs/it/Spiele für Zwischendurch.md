@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Giochi veloci
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:46+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:01+00:00
 ---
 # Giochi per rompere il ghiaccio
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                      | group-min | group-max | Difficoltà | Materiale                  | Durata |
 | ----------------------------------------------------------------------------------------- | --------- | --------- | ------------- | ------------------------- | ---------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2         | 99        | facile       | nessuno                    | 5-10       |
-| [Gioco del lancio egiziano](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | medio        | Palle                     | 5 - 10     |
-| [Gioco dei compiti](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | medio        | nessuno                    | 5-15       |
-| [Gioco di attenzione con le palle](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | facile       | Palle                     | 5-10       |
+| [Uno, due, tre](<1-2-3.md>)                                                                       | 2         | 99        | facile       | nessuno                    | 5-10       |
+| [Gioco di lancio egiziano](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4         | 99        | medio        | Palle                     | 5 - 10     |
+| [Gioco di compiti](<Aufgaben%20Spiel.md>)                                                   | 4         | 30        | medio        | nessuno                    | 5-15       |
+| [Gioco di attenzione con palline](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5         | 25        | facile       | Palle                     | 5-10       |
 | [Avatar](<Avatar.md>)                                                                     | 2         | 30        | facile       | nessuno                    | 5-10       |
-| [Il gioco del sì](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | facile       | nessuno                    | 5-10       |
-| [Il fotografo](<Der%20Photograph.md>)                                                   | 5         | 25        | facile       | nessuno                    | 10-20      |
+| [Il Gioco del Sì](<Das%20Ja%20Spiel.md>)                                                     | 4         | 30        | facile       | nessuno                    | 5-10       |
+| [Il Fotografo](<Der%20Photograph.md>)                                                   | 5         | 25        | facile       | nessuno                    | 10-20      |
 | [Il circo è in città](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10        | 40        | facile       | nessuno                    | 5-15       |
 | [Il circo arriva in città](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10        | 40        | facile       | Tappeto, aree delimitate | 5-15       |
 | [Evoluzione](<Evolution.md>)                                                               | 12        | 40        | facile       | nessuno                    | 10         |
-| [Morra cinese dei fan](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | facile       | nessuno                    | 8          |
+| [Fan Schnick-Schnack-Schnuck](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20        | 60        | facile       | nessuno                    | 8          |
 | [Scherma con le dita](<Finger-Fechten.md>)                                                     | 2         | 99        | facile       | nessuno                    | 2-5        |
 | [Amico e nemico](<Freund%20und%20Feind.md>)                                             | 5         | 20        | facile       | nessuno                    | 2-5        |
-| [Uguali e uguali](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | facile       | musica opzionale            | 5-15       |
-| [Grandi contro piccoli](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | medio        | Tappeto                     | 1-5        |
-| [Buon giorno signor vicino](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | medio        | nessuno                    | 5-10       |
-| [Memoria umana](<Human%20Memory.md>)                                                       | 8         | 40        | facile       | nessuno                    | 10-15      |
-| [Furgone killer](<Killerfunkwagen.md>)                                                   | 2         | 30        | facile       | nessuno                    | 5-10       |
-| [Teatro del pettegolezzo](<Klatsch%20Theater.md>)                                                 | 4         | 20        | facile       | nessuno                    | 7          |
-| [Re dell'aria](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | medio        | nessuno                    | 5-10       |
+| [Chi si assomiglia si piglia](<Gleich%20und%20gleich.md>)                                           | 6         | 30        | facile       | musica opzionale            | 5-15       |
+| [Grande contro Piccolo](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3         | 10        | medio        | Tappeto                     | 1-5        |
+| [Buongiorno Signor Vicino](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10        | 30        | medio        | nessuno                    | 5-10       |
+| [Memoria Umana](<Human%20Memory.md>)                                                       | 8         | 40        | facile       | nessuno                    | 10-15      |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2         | 30        | facile       | nessuno                    | 5-10       |
+| [Teatro del Battito di Mani](<Klatsch%20Theater.md>)                                                 | 4         | 20        | facile       | nessuno                    | 7          |
+| [Re dei cieli](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6         | 20        | medio        | nessuno                    | 5-10       |
 | [Stalla delle mucche](<Kuhstall.md>)                                                                 | 7         | 40        | facile       | nessuno                    | 5-10       |
 | [Orso che ride](<Lachb%C3%A4r.md>)                                                              | 6         | 30        | facile       | nessuno                    | 4          |
 | [Spada laser](<Laserschwert.md>)                                                         | 5         | 25        | facile       | nessuno                    | 5-10       |
-| [Bilanciare palloncini](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | facile       | Palloncini               | 5-10       |
+| [Bilanciare Palloncini](<Luftballons%20Balancieren.md>)                                 | 2         | 99        | facile       | Palloncini               | 5-10       |
 | [Massacro](<Massaker.md>)                                                                 | 2         | 30        | facile       | nessuno                    | 5-10       |
-| [Battaglia di nomi](<Namenkampf.md>)                                                             | 10        | 30        | facile       | grande telo               | 10 -  15   |
-| [Gioco di benvenuto dei pirati](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | facile       | nessuno                    | 5-10       |
-| [Capitano pirata](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | facile       | Tappeto                     | 5-15       |
-| [Passare il cerchio in cerchio](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | facile       | Cerchio                    | 5-10       |
-| [Corsa d'ombra](<Schattenlauf.md>)                                                         | 2         | 99        | facile       | nessuno                    | 5 - 15     |
+| [Duello di nomi](<Namenkampf.md>)                                                             | 10        | 30        | facile       | grande telo               | 10 -  15   |
+| [Gioco di Benvenuto Pirata](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4         | 99        | facile       | nessuno                    | 5-10       |
+| [Capitano Pirata](<Piraten%20Kapit%C3%A4n.md>)                                            | 5         | 25        | facile       | Tappeto                     | 5-15       |
+| [Passare i cerchi in cerchio](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5         | 30        | facile       | Cerchio                    | 5-10       |
+| [Ombra in movimento](<Schattenlauf.md>)                                                         | 2         | 99        | facile       | nessuno                    | 5 - 15     |
 | [Girare le tartarughe](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6         | 30        | medio        | nessuno                    | 5 - 10     |
-| [Presto, presto - sul posto](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | medio        | nessuno                    | 5-10       |
-| [Morra cinese](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | facile       | nessuno                    | 5-10       |
+| [Velo, velo - al posto giusto](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8         | 30        | medio        | nessuno                    | 5-10       |
+| [Schnick Schnack Schnuck](<Schnick_Schnack_Schnuck.md>)                                   | 4         | 99        | facile       | nessuno                    | 5-10       |
 | [Speed Dating](<Speed%20Dating.md>)                                                       | 6         | 40        | facile       | Biglietti, penne            | 10-20      |
-| [Sguardo fisso](<Totblicken.md>)                                                             | 7         | 30        | facile       | nessuno                    | 3-9        |
+| [Sguardo Mortale](<Totblicken.md>)                                                             | 7         | 30        | facile       | nessuno                    | 3-9        |
 | [Vampiro](<Vampir.md>)                                                                     | 6         | 30        | medio        | nessuno                    | 5-10       |
 | [Virus](<Virus.md>)                                                                       | 5         | 30        | facile       | nessuno                    | 5-10       |
-| [Cosa stai facendo](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | medio        | nessuno                    | 10-15      |
-| [Se fossi re](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | facile       | Pedana                    | 5-10       |
-| [Miscelatore di whisky](<Whiskeymixer.md>)                                                         | 5         | 30        | medio        | nessuno                    | 3-10       |
+| [Cosa stai facendo?](<Was%20tust%20Du%20da.md>)                                               | 4         | 20        | medio        | nessuno                    | 10-15      |
+| [Se fossi re...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4         | 30        | facile       | Pedana                    | 5-10       |
+| [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5         | 30        | medio        | nessuno                    | 3-10       |
 
 <!-- dynamic:end -->

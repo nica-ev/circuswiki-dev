@@ -6,8 +6,8 @@ update: 2025-03-17 01:57:05
 publish: true
 tags:
   - spiele
-title: Die Hürde
-description: Eine Kooperationsaufgabe, bei der die ganze Gruppe über ein gespanntes Seil kommen muss, ohne es zu berühren.
+title: Το Εμπόδιο
+description: Μια ομαδική άσκηση συνεργασίας όπου όλη η ομάδα πρέπει να περάσει πάνω από ένα τεντωμένο σχοινί χωρίς να το αγγίξει.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Die Hürde.md
-translation_source_hash: 2f70cd01568cf6a717ec508803527730a194a409ccc679f690a499227684c645
+translation_source_hash: a5df6f3ae781e3c709fb381462e091d43a3da5b08b6db0e117a3bcda0eb6bd22
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:33:01+00:00
+translation_source_body_hash: a5df6f3ae781e3c709fb381462e091d43a3da5b08b6db0e117a3bcda0eb6bd22
+translation_source_metadata_hash: 6f891ebf4dd79e8b9eaa50cd9604e774279fcdc3acc8fd0e330e5ba26dabd551
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:09:08+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Μια ομαδική άσκηση όπου ολόκληρη η ομάδα πρέπει να περάσει πάνω από ένα τεντωμένο σχοινί χωρίς να το αγγίξει.

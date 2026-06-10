@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Kooperativní hry
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:24+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:21+00:00
 ---
 # Kooperativní hry
 
@@ -37,12 +42,12 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Choulostivý transport vody](<Der%20heikle%20Wassertransport.md>)                                 | 5               | 15              | těžká     | hrnec, provázek, voda, druhá nádoba           | 5-20      |
 | [Překážka](<Die%20H%C3%BCrde.md>)                                                                  | 4               | 20              | střední   | lano                                          | 5-10      |
 | [Kvadratura kruhu](<Die%20Quadratur%20des%20Kreises.md>)                                           | 8               | 20              | střední   | lano, volitelně šátky na oči                  | 5-60      |
-| [Sněhová královna – obr a trpaslíci](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)              | 5               | 25              | lehká     | malý předmět                                  | 5-10      |
+| [Ledová královna - Obři a trpaslíci](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)              | 5               | 25              | lehká     | malý předmět                                  | 5-10      |
 | [Létající koberec](<Fliegender%20Teppich.md>)                                                      | 4               | 20              | lehká     | plachta                                       | 3-10      |
 | [Devět lidí – 8 nohou – 4 ruce](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10              | 30              | lehká     | žádný                                         | 10        |
 | [Vesmírná stanice](<Raumstation.md>)                                                               | 6               | 25              | střední   | vyznačený prostor, předměty                   | 10-15     |
 | [Překonání jezera](<See%C3%BCberquerung.md>)                                                       | 5               | 30              | střední   | papír, podložka na měkké povrchy, volitelně předměty | 15-20     |
-| [Třídění ve skupině](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5               | 25              | střední   | židle nebo stoličky                          | 5-15      |
+| [Řazení ve skupině](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5               | 25              | střední   | židle nebo stoličky                          | 5-15      |
 | [Pavoučí síť](<Spinnennetz.md>)                                                                    | 6               | 14              | lehká - těžká | lana                                          | 5 - 15    |
 
 <!-- dynamic:end -->

@@ -11,8 +11,11 @@ from translation.workflow import (
     health_summary,
     inspect_page,
     list_sources,
+    metadata_batch_item,
+    metadata_batch_plan,
     repair_vault_metadata,
     translate_batch_item,
+    translate_metadata_page,
     translate_page,
     vault_health_matrix,
 )
@@ -109,6 +112,26 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
         except Exception as exc:
             return handler.send_error_json(500, str(exc))
 
+    if path == "/api/translate-metadata":
+        source_path = payload.get("path")
+        if not source_path:
+            return handler.send_error_json(400, "Missing path")
+        source_lang = required_payload_value(handler, payload, "source_lang")
+        target_lang = required_payload_value(handler, payload, "target_lang")
+        if not source_lang or not target_lang:
+            return True
+        try:
+            result = translate_metadata_page(
+                source_path=str(source_path),
+                source_lang=source_lang,
+                target_lang=target_lang,
+                model=payload.get("model") or None,
+                dry_run=bool(payload.get("dry_run")),
+            )
+            return handler.send_json(result)
+        except Exception as exc:
+            return handler.send_error_json(500, str(exc))
+
     if path == "/api/repair-metadata":
         source_path = payload.get("path")
         if not source_path:
@@ -141,6 +164,22 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
         except Exception as exc:
             return handler.send_error_json(500, str(exc))
 
+    if path == "/api/metadata-batch-plan":
+        try:
+            target_lang = str(payload.get("target_lang") or "")
+            max_files = int(payload.get("max_files") or 0)
+            return handler.send_json(
+                metadata_batch_plan(
+                    target_lang=target_lang,
+                    max_files=max_files,
+                    source_lang=str(payload.get("source_lang") or "all"),
+                    reason=str(payload.get("reason") or "all"),
+                    path_filter=str(payload.get("path_filter") or ""),
+                )
+            )
+        except Exception as exc:
+            return handler.send_error_json(500, str(exc))
+
     if path == "/api/batch-translate-file":
         try:
             result = translate_batch_item(
@@ -149,6 +188,18 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
                 target_lang=str(payload.get("target_lang") or ""),
                 model=payload.get("model") or None,
                 prompt=payload.get("prompt") or None,
+            )
+            return handler.send_json(result)
+        except Exception as exc:
+            return handler.send_error_json(500, str(exc))
+
+    if path == "/api/metadata-batch-translate-file":
+        try:
+            result = metadata_batch_item(
+                source_path=str(payload.get("source_path") or ""),
+                source_lang=str(payload.get("source_lang") or ""),
+                target_lang=str(payload.get("target_lang") or ""),
+                model=payload.get("model") or None,
             )
             return handler.send_json(result)
         except Exception as exc:

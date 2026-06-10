@@ -5,15 +5,20 @@ created: 2025-09-09 18:00:05
 update: 2026-04-12 00:42:10
 publish: false
 tags:
-title: About the projects
+title: O projektech
 description:
 authors:
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Disclaimer.md
-translation_source_hash: 480c2f13500bbbcb7d6994ae471b03f06e43d231b77d6256ee077f91e68cb905
+translation_source_hash: 62fd006da79a6f1be92966ce1673099aeec028903369dcebe4c572739241bd1a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:38:00+00:00
+translation_source_body_hash: 62fd006da79a6f1be92966ce1673099aeec028903369dcebe4c572739241bd1a
+translation_source_metadata_hash: 1de61ea054e528aa7237d9f1b8307d78644c5c797dad2ee9ec81b62d8dc33de4
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:10:12+00:00
 ---
 ![EN_FundedbytheEU_RGB_POS.png](../img/EN_FundedbytheEU_RGB_POS.png)
 ## O projektech

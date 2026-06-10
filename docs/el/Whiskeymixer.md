@@ -7,7 +7,7 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: Ein Sprach- und Reaktionsspiel im Kreis, bei dem schwierige Wörter weitergegeben werden, ohne zu lachen oder sich zu versprechen.
+description: Ένα παιχνίδι γλώσσας και αντίδρασης σε κύκλο, όπου δύσκολες λέξεις μεταβιβάζονται χωρίς να γελάσει κανείς ή να μπερδέψει τα λόγια του.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Whiskeymixer.md
-translation_source_hash: 94393da6b70f6d8b26d2718fbbb8ade735da2dbeaead0b31cdcba5fbaeaeab7f
+translation_source_hash: 876337b17fab3e8461b44b6938a5c81aeeb0138132fbd0f9dce2d1d8faab35b0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:37:01+00:00
+translation_source_body_hash: 876337b17fab3e8461b44b6938a5c81aeeb0138132fbd0f9dce2d1d8faab35b0
+translation_source_metadata_hash: e4c81abc8c09896ad11d021685e26300ac395932a4dd79a7e426a21462ce46dc
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:11:55+00:00
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα παιχνίδι λόγου και αντίδρασης σε κύκλο, όπου δύσκολες λέξεις μεταβιβάζονται χωρίς να γελάσει κανείς ή να μπερδέψει τα λόγια του.

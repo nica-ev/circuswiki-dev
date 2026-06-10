@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:31
 publish: false
 tags:
   - case-study
-title: Weaving Routines in Confinement
+title: Tecendo Rotinas em Confinamento
 description:
 authors:
   - Jael Rodriguez
@@ -15,9 +15,14 @@ land: Argentina
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 13 - Latin America.md
-translation_source_hash: 7e5930fd44b4d932bed5d32cef5d2c977ae87f06e055ea6ae54a0c2afbebd11a
+translation_source_hash: a98d77fa03f44f19fe30ee3132674e267469eabb417b9523eb006ab76b7c41be
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:35:18+00:00
+translation_source_body_hash: a98d77fa03f44f19fe30ee3132674e267469eabb417b9523eb006ab76b7c41be
+translation_source_metadata_hash: df5bafc18aaff588393d18e33eafe0fee01b8a1239c257b41ef9e37a4a23c6ea
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:54+00:00
 ---
 # Tecendo Rotinas em Confinamento – Um Workshop Online de Hula Hoop (2021)
 

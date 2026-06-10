@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:47:15
-title: Kooperationsspiele
+title: Кооперативні ігри
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kooperationsspiele.md
-translation_source_hash: 6ae8cf54992161e4ee7758fe2d6aa803093b19a7b4a2cae425eb280c74c8b31a
+translation_source_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:17+00:00
+translation_source_body_hash: 14326ec42990f11434205459265fe970232bc8863348ec6550d3ab3cfac1ed56
+translation_source_metadata_hash: 77af19f523de9ad1f3476aeebb33056fcca7f984c7943a407eb4b5388858adfa
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:20+00:00
 ---
 # Ігри на співпрацю
 
@@ -33,16 +38,16 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | файл                                                                                                   | мін. група | макс. група | складність    | матеріал                                      | тривалість гри |
 | ------------------------------------------------------------------------------------------------------ | --------- | --------- | ---------------- | --------------------------------------------- | ---------- |
-| [Усі_проти_одного](<Alle_gegen_einen.md>)                                                              | 8         | 30        | середня           | обручі                                        | 10-15      |
-| [Крихкий_транспорт_води](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | складна           | горщик, мотузка, вода, друга посудина           | 5-20       |
+| [Всі проти одного](<Alle_gegen_einen.md>)                                                              | 8         | 30        | середня           | обручі                                        | 10-15      |
+| [Делікатне транспортування води](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | складна           | горщик, мотузка, вода, друга посудина           | 5-20       |
 | [Перешкода](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | середня           | мотузка                                          | 5-10       |
-| [Квадратура_кола](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | середня           | мотузка, за бажанням – пов'язка на очі                    | 5-60       |
-| [Снігова_королева_-_Велетень_і_гноми](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | проста          | маленький предмет                            | 5-10       |
-| [Літаючий_килим](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | проста          | покривало                                         | 3-10       |
-| [Дев'ять_людей_-_8_ніг_-_4_руки](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | проста          | немає                                        | 10         |
-| [Космічна_станція](<Raumstation.md>)                                                                        | 6         | 25        | середня           | розмічена площа, предмети                 | 10-15      |
-| [Переправа_через_озеро](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | середня           | папір, килимок для м'якої підлоги, за бажанням – предмети | 15-20       |
-| [Сортування_у_групі](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | середня           | стільці або табурети                            | 5-15       |
-| [Павутина](<Spinnennetz.md>)                                                                        | 6         | 14        | проста - складна | мотузки                                         | 5 - 15     |
+| [Квадратура кола](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | середня           | мотузка, за бажанням – пов'язка на очі                    | 5-60       |
+| [Снігова королева - Велетень і гноми](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | проста          | маленький предмет                            | 5-10       |
+| [Літаючий килим](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | проста          | покривало                                         | 3-10       |
+| [Дев'ять людей – 8 ніг – 4 руки](<Neun%20Menschen%20%E2%80%93%208%20Beine%20-%204%20H%C3%A4nde.md>) | 10        | 30        | проста          | немає                                        | 10         |
+| [Космічна станція](<Raumstation.md>)                                                                        | 6         | 25        | середня           | розмічена площа, предмети                 | 10-15      |
+| [Перетин озера](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | середня           | папір, килимок для м'якої підлоги, за бажанням – предмети | 15-20       |
+| [Сортування в групі](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | середня           | стільці або табурети                            | 5-15       |
+| [Павутиння](<Spinnennetz.md>)                                                                        | 6         | 14        | проста - складна | мотузки                                         | 5 - 15     |
 
 <!-- dynamic:end -->

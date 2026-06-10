@@ -6,8 +6,8 @@ update: 2026-06-07 01:15:15
 publish: true
 tags:
   - spiele
-title: Piraten Kapitän
-description: Ein thematisches Kommandospiel auf einem Piratenschiff, bei dem Piraten reagieren und vor Haien fliehen.
+title: Capitano Pirata
+description: Un gioco di comando a tema su una nave pirata in cui i pirati reagiscono e fuggono dagli squali.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 25
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Piraten Kapitän.md
-translation_source_hash: 145d0499229845f3528c7708ee23d9887e2d8eff6fed6fb02383a9010ffaf7f7
+translation_source_hash: fe54897ebd06a862ac5e592f44e91f65ac61794dbfbe8216b1a1b1bd480dc863
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:11:07+00:00
+translation_source_body_hash: fe54897ebd06a862ac5e592f44e91f65ac61794dbfbe8216b1a1b1bd480dc863
+translation_source_metadata_hash: 3d2f69ceccee33de33a25d393609c9a1908d89da35dd03b954f8e02f05d21089
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:02:39+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di comando a tema su una nave pirata, in cui i pirati reagiscono e fuggono dagli squali.

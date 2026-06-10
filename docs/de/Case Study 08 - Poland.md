@@ -2,11 +2,11 @@
 lang: de
 translation_id: case-study-08-poland
 created: 2025-08-30 20:51:10
-update: 2026-06-07 00:08:15
+update: 2026-06-06 21:49:02
 publish: false
 tags:
   - case-study
-title: No Age Limit
+title: Keine Altersgrenze
 description:
 authors:
   - Wiktoria Witenberg*
@@ -15,11 +15,15 @@ type: Artikel
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 08 - Poland.md
-translation_source_hash: c960d134175552c55a135927b6aaa8bcff04afee156862667fddef47607517d1
+translation_source_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5aec2fb24a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:09+00:00
+translation_source_body_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5aec2fb24a
+translation_source_metadata_hash: 729d594fd51d86536e69620c52472697df28892533e11274468174d9f65fe687
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:06:08+00:00
 ---
-
 # **Kein Alter als Grenze – Funktionelles Jonglieren mit Senioren während des Lockdowns**
 
 [Odskocznia Studio](Odskocznia%20Studio.md) – Warschau, Polen

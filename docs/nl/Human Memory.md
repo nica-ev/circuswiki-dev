@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:27:22
 title: Human Memory
-description: Ein lebendiges Memory-Spiel, bei dem Personenpaare passende Bewegungen und Geräusche bilden.
+description: Een levendig memoryspel waarbij paren mensen passende bewegingen en geluiden vormen.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 40
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Human Memory.md
-translation_source_hash: a6e3ae060bfaaf662921f9524678242728503f454a1fd872ade1b56a13278f0a
+translation_source_hash: 55d0a7c5b3a5241a5aea8f930fbdb5418667bc1de0df3c8312b68fef37f63d08
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:43:58+00:00
+translation_source_body_hash: 55d0a7c5b3a5241a5aea8f930fbdb5418667bc1de0df3c8312b68fef37f63d08
+translation_source_metadata_hash: e6ad9b219e28530c6414dc0c1780c5627eaa07e6ece4222f82083bbdb15f199a
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:50:34+00:00
 ---
 > [!info] Korte beschrijving
 > Een levendig memoryspel waarbij koppels passende bewegingen en geluiden vormen.

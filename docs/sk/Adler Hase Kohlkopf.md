@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:01
-title: Adler - Hase - Kohlkopf
-description: Ein Laufspiel mit Adler, Hase und Kohlköpfen, bei dem Rollen durch Antippen ständig wechseln.
+title: Orol - Zajac - Hlávka kapusty
+description: Behacia hra s orlom, zajacom a hlávkami kapusty, kde sa roly neustále menia klepnutím.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Adler Hase Kohlkopf.md
-translation_source_hash: 402d581fbd6c2c692d9b0e36c55badc3612a065d1785781ee400ebde05216305
+translation_source_hash: 3db1026d5904f2420e49f773b9c7dfd8013a3880c0f73c8edb9d4d4b92349e1a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:20:09+00:00
+translation_source_body_hash: 3db1026d5904f2420e49f773b9c7dfd8013a3880c0f73c8edb9d4d4b92349e1a
+translation_source_metadata_hash: 830648447ec055f0b6154a4c66cbc9c26d3968ded136d6349c7b67d8001ce0eb
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:01:10+00:00
 ---
 > [!info] Stručný popis
 > Bežecká hra s orlom, zajacom a hlávkami kapusty, kde sa roly neustále menia dotykom.

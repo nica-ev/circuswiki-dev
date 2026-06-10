@@ -3,7 +3,13 @@ from __future__ import annotations
 import argparse
 import json
 
-from translation.workflow import health_summary, inspect_page, translate_page
+from translation.workflow import (
+    health_summary,
+    inspect_page,
+    metadata_batch_plan,
+    translate_metadata_page,
+    translate_page,
+)
 
 
 def main() -> None:
@@ -26,6 +32,20 @@ def main() -> None:
     translate_parser.add_argument("--model")
     translate_parser.add_argument("--prompt")
     translate_parser.add_argument("--dry-run", action="store_true")
+
+    metadata_parser = subcommands.add_parser("translate-metadata", help="Translate target frontmatter title/description only")
+    metadata_parser.add_argument("path")
+    metadata_parser.add_argument("--source-lang", required=True)
+    metadata_parser.add_argument("--target-lang", required=True)
+    metadata_parser.add_argument("--model")
+    metadata_parser.add_argument("--dry-run", action="store_true")
+
+    metadata_plan_parser = subcommands.add_parser("metadata-plan", help="Plan batch metadata translation")
+    metadata_plan_parser.add_argument("--target-lang", required=True)
+    metadata_plan_parser.add_argument("--source-lang", default="all")
+    metadata_plan_parser.add_argument("--reason", default="all")
+    metadata_plan_parser.add_argument("--path-filter", default="")
+    metadata_plan_parser.add_argument("--max-files", type=int, required=True)
 
     args = parser.parse_args()
 
@@ -53,6 +73,38 @@ def main() -> None:
                     model=args.model,
                     prompt=args.prompt,
                     dry_run=args.dry_run,
+                ),
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return
+
+    if args.command == "translate-metadata":
+        print(
+            json.dumps(
+                translate_metadata_page(
+                    source_path=args.path,
+                    source_lang=args.source_lang,
+                    target_lang=args.target_lang,
+                    model=args.model,
+                    dry_run=args.dry_run,
+                ),
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return
+
+    if args.command == "metadata-plan":
+        print(
+            json.dumps(
+                metadata_batch_plan(
+                    target_lang=args.target_lang,
+                    max_files=args.max_files,
+                    source_lang=args.source_lang,
+                    reason=args.reason,
+                    path_filter=args.path_filter,
                 ),
                 ensure_ascii=False,
                 indent=2,

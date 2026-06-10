@@ -6,17 +6,22 @@ update: 2025-02-23 20:04:49
 publish: draft
 tags:
   - kaskade
-title: Kaskade 002 - 1984
-description: Transkript der Artikel der Kaskade 002 von 1984
+title: Kaskáda 002 - 1984
+description: Přepis článků z Kaskády 002 z roku 1984
 authors:
   - Marc Bielert
 type: Magazin
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade 002.md
-translation_source_hash: 1cd9d1e5e400439e4248a590b01f673872f9bbb3a67df283d7118c77b8932d52
+translation_source_hash: 95fbf5b35d54a130d4d5404e9dc84b9d0d5fbd478f502b07f8046b3718098c88
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:50:53+00:00
+translation_source_body_hash: 95fbf5b35d54a130d4d5404e9dc84b9d0d5fbd478f502b07f8046b3718098c88
+translation_source_metadata_hash: 325db526a3eb80feff1f272bc40a082935b6849b4bbdad183530285dfe95ac61
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:52:27+00:00
 ---
 ## TÝDEN JONGLÉRSTVÍ '84
 **Volné úvahy o Frankfurtu od toho, kdo tam byl**

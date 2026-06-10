@@ -6,17 +6,22 @@ update: 2025-02-09 20:52:46
 publish: draft
 tags:
   - kaskade
-title: Kaskade 003
-description: Transkript des Magazines "Kaskade 003" von 1984
+title: Каскад 003
+description: "Транскрипція журналу \"Каскад 003\" за 1984 рік"
 authors:
   - Marc Bielert
 type: Magazin
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade 003.md
-translation_source_hash: 7656980afdc6447bec67c83562457bbf3dec529d3cdca9e6058d9c1edac1033b
+translation_source_hash: 3936690d73f616dfd2aa5ca1d1f8dc956422e48662e5d367b478d8892bb8c959
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:25:16+00:00
+translation_source_body_hash: 3936690d73f616dfd2aa5ca1d1f8dc956422e48662e5d367b478d8892bb8c959
+translation_source_metadata_hash: c9839637ff1d2dbe5b3075e00524f4c8a12902c299ad8fc3f7a4092bbf6e29eb
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:52:33+00:00
 ---
 ## Жонглювання в Китаї
 

@@ -6,7 +6,7 @@ update: 2025-05-26 23:07:35
 publish: true
 tags:
   - spiele
-title: Robbe und Eisbären
+title: Fókák és jegesmedvék
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Robbe und Eisbären.md
-translation_source_hash: 77b5211ae7d99601115d41c02a836d5e426ec43868422109ae1f24e3675ab270
+translation_source_hash: 55ba562cb3c745916338fd7c435289e4c1089f291facabbebea754c094a3877e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:48:44+00:00
+translation_source_body_hash: 55ba562cb3c745916338fd7c435289e4c1089f291facabbebea754c094a3877e
+translation_source_metadata_hash: ba667f15b7356629df787a9b0031e47312faacc4406f3bb2cdb48ad71929bcd0
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:04:04+00:00
 ---
 # Fóka és jegesmedve
 

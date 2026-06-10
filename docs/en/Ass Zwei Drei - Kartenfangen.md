@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:09
-title: Ass Zwei Drei - Kartenfangen
-description: Ein taktisches Teamspiel mit Spielkarten, bei dem Kartenwerte, Kommunikation und gezielte Duelle über gewonnene Karten entscheiden.
+title: Ass Two Three - Card Catch
+description: A tactical team game with playing cards where card values, communication, and targeted duels decide which cards are won.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 60
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Ass Zwei Drei - Kartenfangen.md
-translation_source_hash: 6e4673731aef4eb08b4a951ade44f7842fb13b8f45ac5d1fd09f159107c76cac
+translation_source_hash: d9004de275bc91487be0fcee81cfe5c4415a5c3ab9a5120c54ff0ecd47293f77
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:21:21+00:00
+translation_source_body_hash: d9004de275bc91487be0fcee81cfe5c4415a5c3ab9a5120c54ff0ecd47293f77
+translation_source_metadata_hash: 37b599f6a435f7f0c32bb5454cb77c0f2a135a44ceb5ddbd9dd5a71ef07eff33
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:01:38+00:00
 ---
 > [!info] Short Description
 > A tactical team game using playing cards, where card values, communication, and targeted duels determine which cards are won.

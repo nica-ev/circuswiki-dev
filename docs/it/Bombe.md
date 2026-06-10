@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:02
-title: Bombe
-description: Ein Kreisspiel mit Ball, bei dem eine tickende Bombe weitergegeben wird und beim Explodieren neue Hindernisse entstehen.
+title: Bomba
+description: Un gioco di cerchio con la palla in cui una bomba che ticchetta viene passata e, quando esplode, crea nuovi ostacoli.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bombe.md
-translation_source_hash: 9db0f89c634551c893ea26ca1085801dfbf2f73b55746d8256fba99c15a00412
+translation_source_hash: 7550f72e35b94224a1263c3bc3b3fb67c0142ba42edb3d1ecf3d77bb729f09f1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:28:10+00:00
+translation_source_body_hash: 7550f72e35b94224a1263c3bc3b3fb67c0142ba42edb3d1ecf3d77bb729f09f1
+translation_source_metadata_hash: 50e76177f0e14cd202df88370b231bf34f414d957cae5815bb7e8c8d6364032d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:04:35+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di gruppo in cerchio con una palla, in cui viene passata una bomba che "ticchetta" e, quando esplode, crea nuovi ostacoli.

@@ -6,8 +6,8 @@ update: 2025-03-17 01:57:24
 publish: true
 tags:
   - spiele
-title: Neun Menschen – 8 Beine - 4 Hände
-description: Eine Teamaufgabe, bei der Gruppen eine Strecke mit vorgegeben begrenzten Bodenkontakten überwinden müssen.
+title: Kilenc ember – 8 láb – 4 kéz
+description: Csapatfeladat, ahol a csoportoknak korlátozott számú talajérintkezési ponttal kell leküzdeniük egy távolságot.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 30
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Neun Menschen – 8 Beine - 4 Hände.md
-translation_source_hash: 77a2014c8bfeb24139154d36778ef5d46c11b75c66792b1a23d7b48ea28ec365
+translation_source_hash: d5cd8e0f2f128d7404da359951ca5924c69195cf8244498aa83c54e3eaaa1699
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:47+00:00
+translation_source_body_hash: d5cd8e0f2f128d7404da359951ca5924c69195cf8244498aa83c54e3eaaa1699
+translation_source_metadata_hash: 5059b4453e1c04554cdabe3488a45298df16e18723bbe9ccaa78bf49f7636511
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:00:17+00:00
 ---
 > [!info] Rövid leírás
 > Csapatfeladat, amelyben a csoportoknak korlátozott számú talajérintkezési ponttal kell leküzdeniük egy távolságot.

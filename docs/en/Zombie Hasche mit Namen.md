@@ -6,7 +6,7 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 22:53:47
-title: Zombie Hasche mit Namen
+title: Zombie Hash with Name
 description: 
 authors:
   - Marc Bielert
@@ -22,9 +22,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zombie Hasche mit Namen.md
-translation_source_hash: 02bddefaa4a92041e7feabb2a27bb0896d212e9ab5e7885f11866bd05d23a041
+translation_source_hash: 25a606664a5e7b1f7a29b02271fdd0fdfdb7afbaf3d919dea1c23710e75033df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:30:28+00:00
+translation_source_body_hash: 25a606664a5e7b1f7a29b02271fdd0fdfdb7afbaf3d919dea1c23710e75033df
+translation_source_metadata_hash: 904744ec0c8b26c4381be46b9794e717d0260c5eadb79c896e4699c57af4bb4b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:13:56+00:00
 ---
 # Zombie Tag with Names
 

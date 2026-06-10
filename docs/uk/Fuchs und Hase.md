@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-18 02:38:33
-title: Fuchs und Hase
-description: Ein Fangspiel im Kreis, bei dem Fuchs und Hase je nach Blickrichtung der Mitspielenden unterschiedliche Wege nutzen können.
+title: Лис і Заєць
+description: Гра в квача в колі, де лис і заєць можуть використовувати різні шляхи залежно від того, куди дивляться інші гравці.
 authors:
   - Marc Bielert
 category:
@@ -23,9 +23,14 @@ todo: text inklusion
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fuchs und Hase.md
-translation_source_hash: 79719132875cc70d310c95c4d9f56d23e755a99f3d9237f1fff23e2cabed051d
+translation_source_hash: 18b18527bc6c7db91a37c575559cfa04d36c49eddfc110c8b182602329bc54a8
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:40:15+00:00
+translation_source_body_hash: 18b18527bc6c7db91a37c575559cfa04d36c49eddfc110c8b182602329bc54a8
+translation_source_metadata_hash: 931c2020e15c9e4d7e9f7b38ebae97c8f83d0774aac2443496ae862574143ffd
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:48:03+00:00
 ---
 > [!info] Короткий опис
 > Гра в квача в колі, де лисиця та заєць можуть використовувати різні шляхи залежно від напрямку погляду інших учасників.

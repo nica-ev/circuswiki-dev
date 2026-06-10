@@ -6,16 +6,21 @@ update: 2026-06-07 00:02:00
 publish: true
 tags:
   - functional-juggling
-title: 5-Step Methode
+title: 5-Step Method
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/5-Step Methode.md
-translation_source_hash: 8f5d2cceed571c28038a8e1610c1aeee6b3cd3aa40669536a5b51e6304ee47f1
+translation_source_hash: a7b9190c83d7e07dd3f18e3aced82d6a53b0cc4c01657c9e94cfe3c0012e43b2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:23:30+00:00
+translation_source_body_hash: a7b9190c83d7e07dd3f18e3aced82d6a53b0cc4c01657c9e94cfe3c0012e43b2
+translation_source_metadata_hash: 9663f9d854b8ff5c4173de9fb8d44fc7e80cc891928d7b69122f4129a717b67b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:00:55+00:00
 ---
 # 5-Step Method
 

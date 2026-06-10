@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 00:58:34
-title: Zuzwinkern
-description: Ein Kreisspiel, bei dem eine alleinstehende Person durch Zuzwinkern einen neuen Partner zu sich holen will.
+title: Piscar de Olhos
+description: Um jogo de círculo onde uma pessoa sozinha tenta atrair um novo parceiro piscando.
 authors:
   - Marc Bielert
 category:
@@ -24,9 +24,14 @@ todo: Text überarbeiten
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Zuzwinkern.md
-translation_source_hash: 11981c4cbcc83d7046b059ecd4387a1c851a82627c7544f409ebd955ceb710ff
+translation_source_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f0a55631f5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:40:22+00:00
+translation_source_body_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f0a55631f5
+translation_source_metadata_hash: a5b1fdb43ff296b4abbd1072cf7870e8d57a725bccd6178ca98a9558ca747dce
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:14:57+00:00
 ---
 > [!info] Breve Descrição
 > Um jogo em círculo em que uma pessoa sozinha tenta atrair um novo parceiro piscando.

@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:03:13
-title: Speed
+title: Velocità
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 886847e742d8055f004ad66a9152619083759ea8ca18cf84d88e93824a9a447e
+translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:57:38+00:00
+translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:02:49+00:00
 ---
 Introduzione al gioco "Speed".
 Descrizione del gioco.

@@ -8,16 +8,21 @@ tags:
   - spiele
   - moc
   - dynamic
-title: Taktik und Konzentrationsspiele
+title: Tactiek en concentratiespellen
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Taktik und Konzentrationsspiele.md
-translation_source_hash: 56e419f3365c661180b55266b15f7dd4a80054a1ca85595295cf9a517f2a289b
+translation_source_hash: 3fe02d1dd649274decda4e070592d67ea086414dced5d3bf0400b1db1916c9e1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:30:11+00:00
+translation_source_body_hash: 3fe02d1dd649274decda4e070592d67ea086414dced5d3bf0400b1db1916c9e1
+translation_source_metadata_hash: 2558e853ec27c9f455bb4c7d066cf96a60374a7dec8e073d1f7ed01a80d576f2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:09:19+00:00
 ---
 ## Tactiek- en concentratiespellen
 
@@ -33,10 +38,10 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                      | group-min | group-max | Moeilijkheidsgraad | Materiaal   | Speelduur |
 | ------------------------------------------------------------------------- | --------- | --------- | ------------------ | ----------- | --------- |
-| [Aas Twee Drie - Kaartenvangen](<Ass%20Zwei%20Drei%20-%20Kartenfangen.md>) | 20        | 60        | gemiddeld          | Kaartspel   | 10-15     |
+| [Aas Twee Drie - Kaart Vangen](<Ass%20Zwei%20Drei%20-%20Kartenfangen.md>) | 20        | 60        | gemiddeld          | Kaartspel   | 10-15     |
 | [Mensenhalma](<Menschenhalma.md>)                                         | 8         | 20        | makkelijk          | geen        | 4         |
 | [Mensen trekken](<Menschenziehen.md>)                                     | 12        | 40        | gemiddeld          | geen        | 5-9       |
-| [Moordenaarspel](<M%C3%B6rderspiel.md>)                                   | 8         | 30        | gemiddeld          | geen        | 6         |
+| [Moordspel](<M%C3%B6rderspiel.md>)                                   | 8         | 30        | gemiddeld          | geen        | 6         |
 | [Schaken](<Schach.md>)                                                    | 6         | 20        | gemiddeld          | geen        | 5-10      |
 
 <!-- dynamic:end -->

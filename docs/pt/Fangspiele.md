@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2026-06-08 23:47:16
-title: Fangspiele
+update: 2026-06-09 02:43:18
+title: Jogos de Perseguição
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fangspiele.md
-translation_source_hash: 4249cdbb5969b4423f4aa5a2b6be705224b04c742d59c8539b3c97eb496a3dbd
+translation_source_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T22:02:43+00:00
+translation_source_body_hash: f6236cc6492c95e940e62df74e89844bfacb6b00b83ec1d1951b0f10fdd2fc3f
+translation_source_metadata_hash: 2444206b7d60cb93c9787f982237034309376f0b0b040ae44790aca920c97370
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:46:14+00:00
 ---
 # Jogos de Perseguição
 
@@ -33,27 +38,27 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | ficheiro                                                                                  | min. grupo | máx. grupo | Dificuldade      | Material              | Duração do jogo |
 | ----------------------------------------------------------------------------------------- | ---------- | ---------- | ---------------- | --------------------- | --------------- |
-| [5 Dragões e Anões](<5%20Drachen%20und%20Zwerge.md>)                               | 8          | 20         | fácil            | Lenços                | 5-10            |
+| [Dragões e Anões](<5%20Drachen%20und%20Zwerge.md>)                               | 8          | 20         | fácil            | Lenços                | 5-10            |
 | [Jogo da Bomba](<Bombenspiel.md>)                                                       | 8          | 30         | fácil            | nenhum                | 15-20           |
-| [Perseguição de Cores](<Farbenhasche.md>)                                                     | 9          | 30         | médio            | Lenços                | 15-20           |
-| [Pregando o Alfinete](<Festnageln.md>)                                                         | 5          | 25         | médio            | nenhum                | 15-20           |
+| [Coelho de Cores](<Farbenhasche.md>)                                                     | 9          | 30         | médio            | Lenços                | 15-20           |
+| [Pregando](<Festnageln.md>)                                                         | 5          | 25         | médio            | nenhum                | 15-20           |
 | [Raposa e Lebre](<Fuchs%20und%20Hase.md>)                                             | 8          | 25         | médio            | nenhum                | 10 -  15        |
 | [Caça à Raposa](<Fuchsjagd.md>)                                                           | 5          | 25         | fácil            | Lenços                | 10 -  15        |
 | [Veado Dourado](<Goldener%20Hirsch.md>)                                             | 10         | 99         | fácil            | nenhum                | 5 - 15          |
-| [Tenho Sorte](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6          | 28         | fácil            | nenhum                | 5 - 10          |
-| [Vem Comigo, Corre Para Longe](<komm-mit-lauf-weg.md>)                                           | 5          | 99         | fácil            | nenhum                | 5 - 15          |
-| [Perseguição de Balão](<Luftballon%20Hasche.md>)                                         | 6          | 25         | médio            | nenhum                | 5 - 15          |
-| [Pedra, Papel, Tesoura Medieval](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6          | 20         | fácil            | nenhum                | 5 - 15          |
-| [Cenoura, Lebre, Raposa](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15         | 99         | fácil            | nenhum                | 10              |
+| [Eu Tenho Sorte](<Ich%20habe%20Gl%C3%BCck.md>)                                        | 6          | 28         | fácil            | nenhum                | 5 - 10          |
+| [Vem correr](<komm-mit-lauf-weg.md>)                                           | 5          | 99         | fácil            | nenhum                | 5 - 15          |
+| [Balão de Ar Quente Hasche](<Luftballon%20Hasche.md>)                                         | 6          | 25         | médio            | nenhum                | 5 - 15          |
+| [Pedra Papel Tesoura Medieval](<Mittelalter%20Schnick%20Schnack%20Schnuck.md>) | 6          | 20         | fácil            | nenhum                | 5 - 15          |
+| [Cenoura Coelho Raposa](<M%C3%B6hre%20Hase%20Fuchs.md>)                                    | 15         | 99         | fácil            | nenhum                | 10              |
 | [Pinguins e Ursos Polares](<Pinguine%20und%20Eisb%C3%A4ren.md>)                          | 6          | 31         | fácil - médio    | Tapete macio          | 5 - 15          |
 | [Pinguins e Flamingos Assassinos](<Pinguine%20und%20Killer-Flamingos.md>)               | 5          | 99         | fácil            | nenhum                | 5 - 10          |
 | [Pipoca](<Popcorn.md>)                                                               | 5          | 99         | fácil            | nenhum                | 5 - 15          |
-| [Foca e Ursos Polares](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5          | 30         | médio            | nenhum                | 10 -  15        |
-| [Perseguição de Rabos](<Schlangen%20Hasche.md>)                                           | 6          | 99         | fácil            | nenhum                | 5-10            |
-| [Perseguição de Rabinhos](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5          | 30         | fácil            | Lenços                | 10 -  15        |
-| [Pegador de Pratos](<Tellerf%C3%A4nger.md>)                                                | 6          | 30         | fácil            | Prato, lenço, diabolo | 5-10            |
-| [Perseguição do Tempo](<Zeithasche.md>)                                                         | 6          | 30         | médio            | nenhum                | 15-20           |
-| [Zombie - Perseguição](<Zombie%20-%20Hasche.md>)                                           | 10         | 98         | fácil            | nenhum                | 10 -  15        |
-| [Perseguição de Zombies com Nomes](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6          | 30         | médio            | nenhum                | 15-20           |
+| [Focas e Ursos Polares](<Robbe%20und%20Eisb%C3%A4ren.md>)                                | 5          | 30         | médio            | nenhum                | 10 -  15        |
+| [Pega-Pega de Cobras](<Schlangen%20Hasche.md>)                                           | 6          | 99         | fácil            | nenhum                | 5-10            |
+| [Pega-Rabo](<Schw%C3%A4nzchen-Hasche.md>)                                    | 5          | 30         | fácil            | Lenços                | 10 -  15        |
+| [Peg catcher](<Tellerf%C3%A4nger.md>)                                                | 6          | 30         | fácil            | Prato, lenço, diabolo | 5-10            |
+| [Bolsa de Tempo](<Zeithasche.md>)                                                         | 6          | 30         | médio            | nenhum                | 15-20           |
+| [Zombie - Hasche](<Zombie%20-%20Hasche.md>)                                           | 10         | 98         | fácil            | nenhum                | 10 -  15        |
+| [Zombie Hash com Nome](<Zombie%20Hasche%20mit%20Namen.md>)                         | 6          | 30         | médio            | nenhum                | 15-20           |
 
 <!-- dynamic:end -->

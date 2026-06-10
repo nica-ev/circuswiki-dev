@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-25 01:42:23
-update: 2026-06-09 01:21:14
-title: Aufwärmspiele
+update: 2026-06-09 16:58:39
+title: Warm-up Games
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Aufwärmspiele MOC.md
-translation_source_hash: 2f38eb21b3a7ae6862138f4b9e695d03529539e70954a829d358ff9210e6fc20
+translation_source_hash: 7366ae76ed77440d3ae81cf69106997916618ccddaf9bda3ca7e0dd0ad6e3a32
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-09T01:22:31+00:00
+translation_updated: 2026-06-10T19:59:18+00:00
+translation_source_metadata_hash: cfffa287d1a2c5add846cae443ab16d1caba7beabae24462bb934b62efceacad
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:59:18+00:00
+translation_source_body_hash: 7366ae76ed77440d3ae81cf69106997916618ccddaf9bda3ca7e0dd0ad6e3a32
 ---
 # Warm-up Games
 
@@ -35,26 +40,26 @@ columns: file, group-min, group-max, difficulty, material, duration
 | ---------------------------------------------------------------------------------- | --------- | --------- | ------------- | ----------------------------------- | ---------- |
 | [Alaska Baseball](<Alaska%20Baseball.md>)                                          | 30        | 100       | easy          | none                                | 5          |
 | [The Dog in the Big House](<Der%20Hund%20im%20gro%C3%9Fen%20Haus.md>)               | 5         | 30        | easy          | none                                | 5 - 10     |
-| [Triathlon](<Dreil%C3%A4nderkampf.md>)                                       | 4         | 20        | medium        | mats, field markings   | 5-10       |
-| [Polar Bear on the Ice Floe](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                   | 10        | 30        | medium        | soft floor mat                     | 5 - 10     |
-| [Nail It](<Festnageln.md>)                                                      | 5         | 25        | medium        | none                                | 15-20      |
-| [Fire Water Sand](<Feuer%20Wasser%20Sand.md>)                                    | 4         | 99        | easy          | elevated surfaces, optional drum        | 5-15       |
-| [Frutti del Mare - Warm-up Game](<Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel.md>) | 3         | 20        | easy          | none                                | 5-10       |
-| [Fox and Hare](<Fuchs%20und%20Hase.md>)                                          | 8         | 25        | medium        | none                                | 10 -  15   |
-| [I'm Lucky](<Ich%20habe%20Gl%C3%BCck.md>)                                     | 6         | 28        | easy          | none                                | 5 - 10     |
-| [Card Finder](<Kartenfinder.md>)                                                  | 4         | 20        | easy          | deck of cards                         | 10-15      |
-| [Kataflasch](<Kataflasch.md>)                                                      | 10        | 99        | easy          | none                                | 5          |
-| [Come With Me, Run Away](<komm-mit-lauf-weg.md>)                                        | 5         | 99        | easy          | none                                | 5 - 15     |
-| [Command Pimperle](<Kommando%20Pimperle.md>)                                      | 3         | 99        | easy          | none                                | 5-10       |
-| [Material Theft](<Materialklau.md>)                                                  | 16        | 32        | medium        | hoops and various small equipment | 10-15      |
-| [Carrot Hare Fox](<M%C3%B6hre%20Hase%20Fuchs.md>)                                 | 15        | 99        | easy          | none                                | 10         |
-| [Penguins and Polar Bears](<Pinguine%20und%20Eisb%C3%A4ren.md>)                       | 6         | 31        | easy - medium | soft floor mat                     | 5 - 15     |
-| [Knights and Dwarves](<Ritter%20und%20Zwerge.md>)                                    | 8         | 20        | easy          | broomstick                          | 5-10       |
-| [Snake Tag](<Schlangen%20Hasche.md>)                                        | 6         | 99        | easy          | none                                | 5-10       |
-| [Shake Game](<Sch%C3%BCttelspiel.md>)                                           | 4         | 99        | easy          | none                                | 5-10       |
-| [Tail Tag](<Schw%C3%A4nzchen-Hasche.md>)                                 | 5         | 30        | easy          | scarves                             | 10 -  15   |
-| [Slalom in a Row](<Slalom%20in%20Reihe.md>)                                        | 3         | 25        | easy          | none                                | 5-10       |
-| [Plate Catcher](<Tellerf%C3%A4nger.md>)                                             | 6         | 30        | easy          | plate, scarf, diabolo               | 5-10       |
-| [Circus Tag](<Zirkusfangen.md>)                                                  | 6         | 99        | easy          | none                                | 10 -  15   |
+| [Three Countries Match](<Dreil%C3%A4nderkampf.md>)                                       | 4         | 20        | medium           | Mat area, field markings   | 5-10       |
+| [Polar Bear on the Ice Floe](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                   | 10        | 30        | medium           | Soft mat                            | 5 - 10     |
+| [Nail Down](<Festnageln.md>)                                                      | 5         | 25        | medium           | none                              | 15-20      |
+| [Fire Water Sand](<Feuer%20Wasser%20Sand.md>)                                    | 4         | 99        | easy          | Elevated surfaces, optional drum        | 5-15       |
+| [Frutti del Mare](<Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel.md>) | 3         | 20        | easy          | none                              | 5-10       |
+| [Fox and Hare](<Fuchs%20und%20Hase.md>)                                          | 8         | 25        | medium           | none                              | 10 -  15   |
+| [I'm Lucky](<Ich%20habe%20Gl%C3%BCck.md>)                                     | 6         | 28        | easy          | none                              | 5 - 10     |
+| [Card Finder](<Kartenfinder.md>)                                                  | 4         | 20        | easy          | Deck of cards                         | 10-15      |
+| [Kataflasch](<Kataflasch.md>)                                                      | 10        | 99        | easy          | none                              | 5          |
+| [Come Along, Run Away](<komm-mit-lauf-weg.md>)                                        | 5         | 99        | easy          | none                              | 5 - 15     |
+| [Command Pimperle](<Kommando%20Pimperle.md>)                                      | 3         | 99        | easy          | none                              | 5-10       |
+| [Material Theft](<Materialklau.md>)                                                  | 16        | 32        | medium           | Hoops and various small equipment | 10-15      |
+| [Carrot Rabbit Fox](<M%C3%B6hre%20Hase%20Fuchs.md>)                                 | 15        | 99        | easy          | none                              | 10         |
+| [Penguins and Polar Bears](<Pinguine%20und%20Eisb%C3%A4ren.md>)                       | 6         | 31        | easy - medium | Soft mat                            | 5 - 15     |
+| [Knights and Dwarves](<Ritter%20und%20Zwerge.md>)                                    | 8         | 20        | easy          | Broomstick                          | 5-10       |
+| [Snake Tag](<Schlangen%20Hasche.md>)                                        | 6         | 99        | easy          | none                              | 5-10       |
+| [Shake Game](<Sch%C3%BCttelspiel.md>)                                           | 4         | 99        | easy          | none                              | 5-10       |
+| [Tail Tag](<Schw%C3%A4nzchen-Hasche.md>)                                 | 5         | 30        | easy          | Scarves                             | 10 -  15   |
+| [Row Slalom](<Slalom%20in%20Reihe.md>)                                        | 3         | 25        | easy          | none                              | 5-10       |
+| [Plate Catcher](<Tellerf%C3%A4nger.md>)                                             | 6         | 30        | easy          | Plate, scarf, diabolo               | 5-10       |
+| [Circus Tag](<Zirkusfangen.md>)                                                  | 6         | 99        | easy          | none                              | 10 -  15   |
 
 <!-- dynamic:end -->

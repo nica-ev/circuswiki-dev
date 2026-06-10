@@ -21,6 +21,34 @@ class LinkRepairTests(unittest.TestCase):
         self.assertEqual(result.repair_count, 1)
         self.assertIn("[Egyptian Throwing Game](<./%C3%84gyptisches%20Wurfspiel.md>)", result.body)
 
+    def test_repairs_markdown_image_targets_but_keeps_translated_alt_text(self) -> None:
+        source = "![Diabolo](../img/diabolo.png)\n"
+        translated = "![Diabolo illustration](../images/diabolo-translated.png)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertTrue(result.changed)
+        self.assertEqual(result.repair_count, 1)
+        self.assertIn("![Diabolo illustration](../img/diabolo.png)", result.body)
+
+    def test_repairs_angle_wrapped_markdown_image_targets(self) -> None:
+        source = "![Tuch](<../img/Tuch Jonglage.webp>)\n"
+        translated = "![Scarf](<../images/scarf juggling.webp>)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertIn("![Scarf](<../img/Tuch Jonglage.webp>)", result.body)
+
+    def test_does_not_repair_external_image_targets(self) -> None:
+        source = "![Logo](https://example.org/source.png)\n"
+        translated = "![Logo](https://example.org/translated.png)\n"
+
+        result = repair_link_targets(source, translated)
+
+        self.assertFalse(result.changed)
+        self.assertEqual(result.repair_count, 0)
+        self.assertIn("https://example.org/translated.png", result.body)
+
     def test_repairs_markdown_link_targets_inside_callouts(self) -> None:
         source = "> [!tip]\n> Siehe [Fangen](spiele/Fangen.md#regeln).\n"
         translated = "> [!tip]\n> See [Tag](games/Tag.md#rules).\n"

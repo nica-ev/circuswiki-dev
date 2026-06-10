@@ -7,16 +7,21 @@ tags:
   - beigoma
 created: 2025-01-24 03:50:50
 update: 2025-01-24 05:13:12
-title: Fordere den Meister heraus
+title: Hívd ki a mestert
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 0925dad71bb145e9c03ec54dbd44e37e1a158ac277237b43a83e673e1d366db7
+translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:39:20+00:00
+translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:47:16+00:00
 ---
 # Játékinfó: "Hívd ki a mestert!"
 

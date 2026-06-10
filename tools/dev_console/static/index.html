@@ -17,6 +17,7 @@
           <button class="tab active" type="button" data-tab="file-test">Individual File Test</button>
           <button class="tab" type="button" data-tab="vault-health">Vault Health</button>
           <button class="tab" type="button" data-tab="batch-translate">Batch Translate</button>
+          <button class="tab" type="button" data-tab="batch-metadata">Batch Metadata</button>
           <button class="tab" type="button" data-tab="original-graph">Original Graph</button>
           <button class="tab" type="button" data-tab="navigation">Navigation</button>
           <button class="tab" type="button" data-tab="dynamic">Dynamic Pages</button>
@@ -87,6 +88,7 @@
 
             <div class="actions">
               <button id="dry-run" type="button">Dry Run</button>
+              <button id="translate-metadata" type="button">Translate Metadata</button>
               <button id="translate" type="button" class="primary">Translate File</button>
             </div>
 
@@ -169,6 +171,38 @@
             <table class="batch-list" id="batch-list"></table>
           </div>
           <pre id="batch-log" class="log health-details">Batch output.</pre>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-batch-metadata">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Batch Metadata</h2>
+              <p class="hint">Translate only frontmatter fields that need localization, currently title and description. Planning does not call the API.</p>
+              <p class="hint">Metadata-only runs skip missing target files so they cannot create empty translated pages.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="metadata-source" title="Source language filter"></select>
+              <select id="metadata-target"></select>
+              <select id="metadata-reason" title="Candidate reason filter"></select>
+              <input id="metadata-path-filter" type="search" placeholder="Path/title filter" title="Filter by path, title, or translation ID">
+              <input id="metadata-max-files" type="number" min="1" max="100" value="10" title="Maximum files to process">
+              <button id="metadata-plan" type="button">Plan</button>
+              <button id="metadata-run" type="button" class="primary" disabled>Run Planned</button>
+            </div>
+          </div>
+
+          <div class="repair-panel">
+            <progress id="metadata-progress" value="0" max="0"></progress>
+            <span id="metadata-status">No metadata plan yet.</span>
+          </div>
+
+          <div id="metadata-summary" class="health-summary"></div>
+          <div class="batch-list-wrap">
+            <table class="batch-list" id="metadata-list"></table>
+          </div>
+          <pre id="metadata-log" class="log health-details">Metadata batch output.</pre>
         </section>
       </section>
 

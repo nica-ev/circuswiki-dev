@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:23:35
-title: Menschenhalma
-description: Ein stilles Taktikspiel in zwei Teams, bei dem Personen mit Sprüngen gegnerische Figuren schlagen oder die Grundlinie erreichen.
+title: Παιχνίδι Ντάμας Ανθρώπων
+description: Ένα ήσυχο παιχνίδι τακτικής για δύο ομάδες, όπου οι άνθρωποι χτυπούν φιγούρες του αντιπάλου με άλματα ή φτάνουν στην αρχική γραμμή.
 authors:
   - Marc Bielert
 category:
@@ -22,9 +22,14 @@ group-max: 20
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Menschenhalma.md
-translation_source_hash: 7738fc3c54e9797e7abfd1a474cdc13588b7078f25c1d6cc6a9e440250129242
+translation_source_hash: a472399930f7c422c08f2f27df26720e0f7de05082a299ab02bc0ad5bde90bef
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:06:29+00:00
+translation_source_body_hash: a472399930f7c422c08f2f27df26720e0f7de05082a299ab02bc0ad5bde90bef
+translation_source_metadata_hash: 9b0035bfbf8b4550ea8b3d74fbd8b9ab088b43e2cfb1f088b696497542447d10
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:58:29+00:00
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα σιωπηλό παιχνίδι τακτικής σε δύο ομάδες, όπου οι παίκτες χτυπούν φιγούρες του αντιπάλου με άλματα ή φτάνουν στη γραμμή βάσης.

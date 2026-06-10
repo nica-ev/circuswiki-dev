@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 02:04:36
-title: Bewegungsspiele
+title: Gry ruchowe
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Bewegungsspiele.md
-translation_source_hash: bdda5f99e1d1c54fe0e87d39d3cce26fee1213cbfd91babf2cbdbb0370637bcd
+translation_source_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:25:25+00:00
+translation_source_body_hash: b88e268db0311628da2f8e0314562a2fb7e5c4169db90a754b04f601926d48d7
+translation_source_metadata_hash: ecb42d81199f08d97e77b80523996b5aca5a6283081bd6f8ba21577f91508eae
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:03:23+00:00
 ---
 # Gry ruchowe
 
@@ -33,24 +38,24 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | plik                                                                      | min. osób | maks. osób | trudność | materiały                                        | czas gry |
 | ------------------------------------------------------------------------- | -------- | --------- | -------- | ------------------------------------------------ | -------- |
-| [Trzy w jednym rzędzie](<3%20gewinnt.md>)                                             | 4         | 30        | średnia        | 9 kół, 6 kolorowych przedmiotów, oznaczenie startu | 5-20       |
-| [Orzeł, zając, kapusta](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | średnia        | brak                                          | 5-15       |
-| [Ogień, woda, piasek](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | łatwa       | podwyższenia, opcjonalnie bęben                    | 5-15       |
+| [Trzy w rzędzie](<3%20gewinnt.md>)                                             | 4         | 30        | średnia        | 9 kół, 6 kolorowych przedmiotów, oznaczenie startu | 5-20       |
+| [Orzeł - Zając - Kapusta](<Adler%20Hase%20Kohlkopf.md>)                       | 8         | 30        | średnia        | brak                                          | 5-15       |
+| [Ogień Woda Piasek](<Feuer%20Wasser%20Sand.md>)                           | 4         | 99        | łatwa       | podwyższenia, opcjonalnie bęben                    | 5-15       |
 | [Łapanie figur](<Figurenfangen.md>)                                       | 6         | 30        | średnia        | brak                                          | 6          |
-| [Przybijanie gwoździ stopami](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | łatwa       | brak                                          | 5-10       |
-| [Rekin](<Haifisch.md>)                                                 | 10        | 30        | łatwa       | brak                                          | 5          |
+| [Przybijanie stóp](<F%C3%BC%C3%9Fenageln.md>)                                   | 5         | 30        | łatwa       | brak                                          | 5-10       |
+| [Rekin i ryba](<Haifisch.md>)                                                 | 10        | 30        | łatwa       | brak                                          | 5          |
 | [Każdy łapie każdego](<Jeder%20f%C3%A4ngt%20Jeden.md>)                      | 10        | 30        | łatwa       | brak                                          | 3          |
 | [Kot i mysz](<Katz%20und%20Maus.md>)                                   | 10        | 30        | trudna        | brak                                          | 5-10       |
 | [Łapanie spinaczy](<Klammern%20haschen.md>)                               | 5         | 30        | łatwa       | spinacze do prania                                  | 4-6        |
 | [Szpital](<Krankenhaus.md>)                                           | 8         | 30        | łatwa       | materace                                          | 5-10       |
-| [Chińczyk](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | łatwa       | koła lub hula-hop                           | 20-30      |
-| [Marchewka, zając, lis](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | łatwa       | brak                                          | 10         |
-| [Łapanie w parach i w łańcuchu](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | łatwa       | brak                                          | 5          |
+| [Człowieku, nie irytuj się](<Mensch%20%C3%A4rgere%20dich%20nicht.md>)      | 4         | 30        | łatwa       | koła lub hula-hop                           | 20-30      |
+| [Marchewka Zając Lis](<M%C3%B6hre%20Hase%20Fuchs.md>)                        | 15        | 99        | łatwa       | brak                                          | 10         |
+| [Łapanie w pary i łańcuchy](<Paar%20haschen%20%26%20Kettenhaschen.md>) | 15        | 40        | łatwa       | brak                                          | 5          |
 | [Pitbull](<Pitbull.md>)                                                   | 10        | 40        | średnia        | brak                                          | 7          |
-| [Rozrywanie owiec](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | łatwa       | brak                                          | 3-5        |
+| [Wilki łapią owce](<Schafe%20rei%C3%9Fen.md>)                                | 10        | 30        | łatwa       | brak                                          | 3-5        |
 | [Siostrzyczko, pomóż](<Schwesterchen%20hilf.md>)                           | 8         | 30        | łatwa       | brak                                          | 5          |
-| [T-shirt w spodniach](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | średnia        | piłka                                            | 5-15       |
-| [Łapanie w czterech kolorach](<Vierfarbenfangen.md>)                                 | 20        | 40        | średnia        | opcjonalnie kolorowe koszulki                        | 10         |
+| [T-Shirt w spodniach](<T-Shirt%20in%20der%20Hose.md>)                     | 6         | 30        | średnia        | piłka                                            | 5-15       |
+| [Czterokolorowe łapanie](<Vierfarbenfangen.md>)                                 | 20        | 40        | średnia        | opcjonalnie kolorowe koszulki                        | 10         |
 | [Bomba zegarowa](<Zeitbombe.md>)                                               | 8         | 30        | łatwa       | oznaczenie dla łapiącego                           | 5-10       |
 | [Zombieball](<Zombieball.md>)                                             | 5         | 30        | średnia        | piłki                                           | 10         |
 

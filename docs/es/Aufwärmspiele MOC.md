@@ -7,17 +7,22 @@ tags:
   - moc
   - dynamic
 created: 2025-01-25 01:42:23
-update: 2026-06-09 01:21:14
-title: Aufwärmspiele
+update: 2026-06-09 16:58:39
+title: Juegos de calentamiento
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Aufwärmspiele MOC.md
-translation_source_hash: 2f38eb21b3a7ae6862138f4b9e695d03529539e70954a829d358ff9210e6fc20
+translation_source_hash: 7366ae76ed77440d3ae81cf69106997916618ccddaf9bda3ca7e0dd0ad6e3a32
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-09T01:23:00+00:00
+translation_updated: 2026-06-10T19:59:56+00:00
+translation_source_metadata_hash: cfffa287d1a2c5add846cae443ab16d1caba7beabae24462bb934b62efceacad
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:59:56+00:00
+translation_source_body_hash: 7366ae76ed77440d3ae81cf69106997916618ccddaf9bda3ca7e0dd0ad6e3a32
 ---
 # Juegos de calentamiento
 
@@ -33,28 +38,28 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                               | group-min | group-max | Dificultad       | Material                            | Duración del juego |
 | ---------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ----------------------------------- | ------------------ |
-| [Béisbol de Alaska](<Alaska%20Baseball.md>)                                        | 30        | 100       | fácil            | ninguno                             | 5                  |
+| [Béisbol de Alaska](<Alaska%20Baseball.md>)                                          | 30        | 100       | fácil            | ninguno                             | 5                  |
 | [El perro en la casa grande](<Der%20Hund%20im%20gro%C3%9Fen%20Haus.md>)               | 5         | 30        | fácil            | ninguno                             | 5 - 10             |
-| [Combate de tres países](<Dreil%C3%A4nderkampf.md>)                                       | 4         | 20        | medio            | Superficie de colchonetas, delimitación del campo   | 5-10               |
-| [Oso polar en el témpano](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                   | 10        | 30        | medio            | Colchoneta blanda                     | 5 - 10             |
+| [Combate de tres países](<Dreil%C3%A4nderkampf.md>)                                       | 4         | 20        | medio            | Superficie de colchonetas, delimitación del campo de juego   | 5-10               |
+| [Oso polar en el témpano de hielo](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                   | 10        | 30        | medio            | Colchoneta blanda                   | 5 - 10             |
 | [Clavar](<Festnageln.md>)                                                      | 5         | 25        | medio            | ninguno                             | 15-20              |
-| [Fuego, agua, arena](<Feuer%20Wasser%20Sand.md>)                                    | 4         | 99        | fácil            | Elevaciones, tambor opcional        | 5-15               |
-| [Frutti del Mare - Juego de calentamiento](<Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel.md>) | 3         | 20        | fácil            | ninguno                             | 5-10               |
+| [Fuego Agua Arena](<Feuer%20Wasser%20Sand.md>)                                    | 4         | 99        | fácil            | Elevaciones, opcionalmente un tambor        | 5-15               |
+| [Frutti del Mare](<Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel.md>) | 3         | 20        | fácil            | ninguno                             | 5-10               |
 | [Zorro y liebre](<Fuchs%20und%20Hase.md>)                                          | 8         | 25        | medio            | ninguno                             | 10 -  15           |
 | [Tengo suerte](<Ich%20habe%20Gl%C3%BCck.md>)                                     | 6         | 28        | fácil            | ninguno                             | 5 - 10             |
 | [Buscador de cartas](<Kartenfinder.md>)                                                  | 4         | 20        | fácil            | Juego de cartas                     | 10-15              |
 | [Kataflasch](<Kataflasch.md>)                                                      | 10        | 99        | fácil            | ninguno                             | 5                  |
-| [ven-conmigo-corre-vete](<komm-mit-lauf-weg.md>)                                        | 5         | 99        | fácil            | ninguno                             | 5 - 15             |
+| [Ven, corre](<komm-mit-lauf-weg.md>)                                        | 5         | 99        | fácil            | ninguno                             | 5 - 15             |
 | [Comando Pimperle](<Kommando%20Pimperle.md>)                                      | 3         | 99        | fácil            | ninguno                             | 5-10               |
-| [Robo de material](<Materialklau.md>)                                                  | 16        | 32        | medio            | Aros y varios aparatos pequeños     | 10-15              |
-| [Zanahoria, liebre, zorro](<M%C3%B6hre%20Hase%20Fuchs.md>)                                 | 15        | 99        | fácil            | ninguno                             | 10                 |
-| [Pingüinos y osos polares](<Pinguine%20und%20Eisb%C3%A4ren.md>)                       | 6         | 31        | fácil - medio    | Colchoneta blanda                     | 5 - 15             |
-| [Caballeros y enanos](<Ritter%20und%20Zwerge.md>)                                    | 8         | 20        | fácil            | Palo de escoba                      | 5-10               |
-| [Pilla-serpiente](<Schlangen%20Hasche.md>)                                        | 6         | 99        | fácil            | ninguno                             | 5-10               |
-| [Juego de sacudir](<Sch%C3%BCttelspiel.md>)                                           | 4         | 99        | fácil            | ninguno                             | 5-10               |
-| [Pilla-rabitos](<Schw%C3%A4nzchen-Hasche.md>)                                 | 5         | 30        | fácil            | Pañuelos                            | 10 -  15           |
+| [Robo de Material](<Materialklau.md>)                                                  | 16        | 32        | medio            | Aros y varios objetos pequeños      | 10-15              |
+| [Zanahoria Conejo Zorro](<M%C3%B6hre%20Hase%20Fuchs.md>)                                 | 15        | 99        | fácil            | ninguno                             | 10                 |
+| [Pingüinos y osos polares](<Pinguine%20und%20Eisb%C3%A4ren.md>)                       | 6         | 31        | fácil - medio    | Colchoneta blanda                   | 5 - 15             |
+| [Caballeros y Enanos](<Ritter%20und%20Zwerge.md>)                                    | 8         | 20        | fácil            | Palo de escoba                      | 5-10               |
+| [Serpiente Atrapa](<Schlangen%20Hasche.md>)                                        | 6         | 99        | fácil            | ninguno                             | 5-10               |
+| [Juego de Sacudidas](<Sch%C3%BCttelspiel.md>)                                           | 4         | 99        | fácil            | ninguno                             | 5-10               |
+| [Cola de zorro](<Schw%C3%A4nzchen-Hasche.md>)                                 | 5         | 30        | fácil            | Pañuelos                            | 10 -  15           |
 | [Slalom en fila](<Slalom%20in%20Reihe.md>)                                        | 3         | 25        | fácil            | ninguno                             | 5-10               |
 | [Atrapador de platos](<Tellerf%C3%A4nger.md>)                                             | 6         | 30        | fácil            | Plato, pañuelo, diábolo            | 5-10               |
-| [Pilla-circo](<Zirkusfangen.md>)                                                  | 6         | 99        | fácil            | ninguno                             | 10 -  15           |
+| [Captura de Circo](<Zirkusfangen.md>)                                                  | 6         | 99        | fácil            | ninguno                             | 10 -  15           |
 
 <!-- dynamic:end -->

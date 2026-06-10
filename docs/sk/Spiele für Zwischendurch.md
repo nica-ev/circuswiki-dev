@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Hry na medzitým
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:27:32+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:07+00:00
 ---
 # Hry na vyplnenie času
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, obtiažnosť, materiál, dĺžka_hry
 
 | súbor                                                                                     | min_skupina | max_skupina | obtiažnosť | materiál                  | dĺžka_hry |
 | ----------------------------------------------------------------------------------------- | ----------- | ----------- | ---------- | ------------------------- | --------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2           | 99          | ľahká      | žiadny                    | 5-10      |
-| [Egyptská hra s hádzaním](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4           | 99          | stredná    | lopty                     | 5 - 10    |
-| [Hra na úlohy](<Aufgaben%20Spiel.md>)                                                   | 4           | 30          | stredná    | žiadny                    | 5-15      |
-| [Hra na pozornosť s loptami](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5           | 25          | ľahká      | lopty                     | 5-10      |
+| [Jedna, dva, tri](<1-2-3.md>)                                                                       | 2           | 99          | ľahká      | žiadny                    | 5-10      |
+| [Egyptská vrhacia hra](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4           | 99          | stredná    | lopty                     | 5 - 10    |
+| [Hra úloh](<Aufgaben%20Spiel.md>)                                                   | 4           | 30          | stredná    | žiadny                    | 5-15      |
+| [Hra pozornosti s loptičkami](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5           | 25          | ľahká      | lopty                     | 5-10      |
 | [Avatar](<Avatar.md>)                                                                     | 2           | 30          | ľahká      | žiadny                    | 5-10      |
 | [Hra Áno](<Das%20Ja%20Spiel.md>)                                                     | 4           | 30          | ľahká      | žiadny                    | 5-10      |
 | [Fotograf](<Der%20Photograph.md>)                                                   | 5           | 25          | ľahká      | žiadny                    | 10-20     |
 | [Cirkus je v meste](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10          | 40          | ľahká      | žiadny                    | 5-15      |
 | [Cirkus prichádza do mesta](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10          | 40          | ľahká      | podložka, vyznačené plochy | 5-15      |
 | [Evolúcia](<Evolution.md>)                                                               | 12          | 40          | ľahká      | žiadny                    | 10        |
-| [Fan Kameň, papier, nožnice](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20          | 60          | ľahká      | žiadny                    | 8         |
-| [Pestovanie prstov](<Finger-Fechten.md>)                                                     | 2           | 99          | ľahká      | žiadny                    | 2-5       |
+| [Fan Kamarát, nožnice, papier](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20          | 60          | ľahká      | žiadny                    | 8         |
+| [Päste na prsty](<Finger-Fechten.md>)                                                     | 2           | 99          | ľahká      | žiadny                    | 2-5       |
 | [Priateľ a nepriateľ](<Freund%20und%20Feind.md>)                                             | 5           | 20          | ľahká      | žiadny                    | 2-5       |
 | [Rovný rovného](<Gleich%20und%20gleich.md>)                                           | 6           | 30          | ľahká      | voliteľná hudba           | 5-15      |
-| [Veľký proti malému](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3           | 10          | stredná    | podložka                  | 1-5       |
-| [Dobrý deň, sused](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10          | 30          | stredná    | žiadny                    | 5-10      |
+| [Veľký proti malým](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3           | 10          | stredná    | podložka                  | 1-5       |
+| [Dobrý deň, pán sused](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10          | 30          | stredná    | žiadny                    | 5-10      |
 | [Ľudská pamäť](<Human%20Memory.md>)                                                       | 8           | 40          | ľahká      | žiadny                    | 10-15     |
-| [Zabijácky rádiovoz](<Killerfunkwagen.md>)                                                   | 2           | 30          | ľahká      | žiadny                    | 5-10      |
-| [Šepotové divadlo](<Klatsch%20Theater.md>)                                                 | 4           | 20          | ľahká      | žiadny                    | 7         |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2           | 30          | ľahká      | žiadny                    | 5-10      |
+| [Divadlo Klopanie](<Klatsch%20Theater.md>)                                                 | 4           | 20          | ľahká      | žiadny                    | 7         |
 | [Kráľ oblohy](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6           | 20          | stredná    | žiadny                    | 5-10      |
-| [Chliev](<Kuhstall.md>)                                                                 | 7           | 40          | ľahká      | žiadny                    | 5-10      |
-| [Medveď smiechu](<Lachb%C3%A4r.md>)                                                              | 6           | 30          | ľahká      | žiadny                    | 4         |
+| [Maštaľ](<Kuhstall.md>)                                                                 | 7           | 40          | ľahká      | žiadny                    | 5-10      |
+| [Smejúci sa medveď](<Lachb%C3%A4r.md>)                                                              | 6           | 30          | ľahká      | žiadny                    | 4         |
 | [Svetelný meč](<Laserschwert.md>)                                                         | 5           | 25          | ľahká      | žiadny                    | 5-10      |
 | [Balansovanie s balónmi](<Luftballons%20Balancieren.md>)                                 | 2           | 99          | ľahká      | balóny                    | 5-10      |
 | [Masaker](<Massaker.md>)                                                                 | 2           | 30          | ľahká      | žiadny                    | 5-10      |
-| [Boj o mená](<Namenkampf.md>)                                                             | 10          | 30          | ľahká      | veľká látka              | 10 -  15   |
-| [Pirátske privítanie](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4           | 99          | ľahká      | žiadny                    | 5-10      |
-| [Pirátsky kapitán](<Piraten%20Kapit%C3%A4n.md>)                                            | 5           | 25          | ľahká      | podložka                  | 5-15      |
-| [Podávanie kruhu v kruhu](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5           | 30          | ľahká      | kruhy                     | 5-10      |
+| [Súboj mien](<Namenkampf.md>)                                                             | 10          | 30          | ľahká      | veľká látka              | 10 -  15   |
+| [Pirátska uvítacia hra](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4           | 99          | ľahká      | žiadny                    | 5-10      |
+| [Kapitán pirátov](<Piraten%20Kapit%C3%A4n.md>)                                            | 5           | 25          | ľahká      | podložka                  | 5-15      |
+| [Podávanie obručí v kruhu](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5           | 30          | ľahká      | kruhy                     | 5-10      |
 | [Beh v tieni](<Schattenlauf.md>)                                                         | 2           | 99          | ľahká      | žiadny                    | 5 - 15     |
 | [Obracanie korytnačiek](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6           | 30          | stredná    | žiadny                    | 5 - 10     |
 | [Rýchlo, rýchlo - na mieste](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8           | 30          | stredná    | žiadny                    | 5-10      |
-| [Kameň, papier, nožnice](<Schnick_Schnack_Schnuck.md>)                                   | 4           | 99          | ľahká      | žiadny                    | 5-10      |
-| [Rýchle rande](<Speed%20Dating.md>)                                                       | 6           | 40          | ľahká      | papiere, perá             | 10-20     |
-| [Pozerať mŕtvo](<Totblicken.md>)                                                             | 7           | 30          | ľahká      | žiadny                    | 3-9       |
+| [Paličkovaná krajka](<Schnick_Schnack_Schnuck.md>)                                   | 4           | 99          | ľahká      | žiadny                    | 5-10      |
+| [Speed Dating](<Speed%20Dating.md>)                                                       | 6           | 40          | ľahká      | papiere, perá             | 10-20     |
+| [Pohľad na smrť](<Totblicken.md>)                                                             | 7           | 30          | ľahká      | žiadny                    | 3-9       |
 | [Upír](<Vampir.md>)                                                                     | 6           | 30          | stredná    | žiadny                    | 5-10      |
 | [Vírus](<Virus.md>)                                                                       | 5           | 30          | ľahká      | žiadny                    | 5-10      |
-| [Čo tam robíš](<Was%20tust%20Du%20da.md>)                                               | 4           | 20          | stredná    | žiadny                    | 10-15     |
-| [Keby som bol kráľ](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4           | 30          | ľahká      | podstavec                 | 5-10      |
-| [Whisky mixér](<Whiskeymixer.md>)                                                         | 5           | 30          | stredná    | žiadny                    | 3-10      |
+| [Čo tam robíš?](<Was%20tust%20Du%20da.md>)                                               | 4           | 20          | stredná    | žiadny                    | 10-15     |
+| [Keby som bol kráľ...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4           | 30          | ľahká      | podstavec                 | 5-10      |
+| [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5           | 30          | stredná    | žiadny                    | 3-10      |
 
 <!-- dynamic:end -->

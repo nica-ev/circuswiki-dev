@@ -6,16 +6,21 @@ tags:
   - beigoma
 created: 2025-02-01 02:31:52
 update: 2026-06-07 00:02:54
-title: Einführung der Beigoma-Terminologie
+title: Beigoma terminológia bevezetése
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: 3d8a128bc05836df64fe3f549a2bd2f7b054aae4e387f0c066f3971c39d3e9d3
+translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:33:53+00:00
+translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
+translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:02:55+00:00
 ---
 A beigoma (pörgettyű) játéka során különböző szakzsargonok kerülnek elő. Ezek csak egyszerű tartalmak. Ha ismerjük őket, könnyebb lesz a kommunikáció, ezért használjuk őket bátran!
 

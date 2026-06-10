@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:57:21
-title: Kreisspiele
+title: Giochi di cerchio
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kreisspiele MOC.md
-translation_source_hash: 2d59fa4a62aa18f3f44737b93ac4ad63c833b5e7b7a6d14a38210c3c7a0c62f4
+translation_source_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:09+00:00
+translation_source_body_hash: 665c36a70fa4901e2d6e2711ea33e75b413f6e1028ba492a59f645a5fc9ec8df
+translation_source_metadata_hash: a2713473f9e681e77d6ea9b04688c21d35e50c43d0270385ce8ffdc0adfbe93e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:55:35+00:00
 ---
 # Giochi in cerchio MOC
 
@@ -35,34 +40,34 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | file                                                                                                  | group-min | group-max | Difficoltà       | Materiale          | Durata del gioco |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ------------------ | ---------------- |
-| [Lanciare la palla a stella](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | facile           | Palle              | 5-10             |
+| [Lancio della palla a stella](<Ball%20werfen%20im%20Stern.md>)                                               | 5         | 15        | facile           | Palle              | 5-10             |
 | [Proteggi il tuo amico](<Besch%C3%BCtze%20deinen%20Freund.md>)                                      | 8         | 30        | facile           | nessuno            | 4-9              |
 | [Candidatura al circo](<Bewerbung%20im%20Zirkus.md>)                                                   | 8         | 99        | facile           | nessuno            | 5-10             |
 | [Bibbel Di Babbel Di Buh](<Bibbel%20Di%20Babbel%20Di%20Buh.md>)                                       | 6         | 25        | medio            | nessuno            | 10-15            |
-| [La bomba](<Bombe.md>)                                                                                   | 7         | 30        | facile           | Palla              | 3-6              |
-| [Mani incrociate](<Crossed%20Hands.md>)                                                                 | 5         | 20        | facile           | nessuno            | 5-10             |
+| [Bomba](<Bombe.md>)                                                                                   | 7         | 30        | facile           | Palla              | 3-6              |
+| [Mani Incrociate](<Crossed%20Hands.md>)                                                                 | 5         | 20        | facile           | nessuno            | 5-10             |
 | [La bomba](<Die%20Bombe.md>)                                                                         | 6         | 30        | facile           | Palla              | 5-10             |
-| [Sbucciare il serpente](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | facile           | nessuno            | 5-10             |
+| [La pelle del serpente](<Die%20Schlange%20h%C3%A4uten.md>)                                              | 5         | 20        | facile           | nessuno            | 5-10             |
 | [Sottosopra](<Drunter%20und%20Dr%C3%BCber.md>)                                                | 5         | 20        | facile           | Oggetti            | 5-10             |
-| [Cerchio di schiocchi energetici](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | facile           | nessuno            | 2-5              |
+| [Cerchio Energetico](<Energie%20Klatschkreis.md>)                                                   | 5         | 99        | facile           | nessuno            | 2-5              |
 | [Ciao, sono](<Hallo%20ich%20bin.md>)                                                               | 4         | 25        | facile           | nessuno            | 2-10             |
 | [Ciao, sono - con le palle](<Hallo%20ich%20bin%20-%20mit%20B%C3%A4llen.md>)                          | 3         | 30        | facile           | Palle              | 10 -  15         |
 | [Conoscersi con le palle](<Kennenlernen%20mit%20B%C3%A4llen.md>)                                      | 4         | 20        | facile           | Palle              | 2-10             |
-| [Conoscersi correndo dietro alle palle](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | facile - medio | Palle              | 10 -  15         |
-| [Schiaffo con contatto visivo](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | facile           | nessuno            | 5-10             |
+| [Conoscersi con le palle, correre dietro](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)    | 5         | 25        | facile - medio | Palle              | 10 -  15         |
+| [Bacio con contatto visivo](<Klatsch%20mit%20Augenkontakt.md>)                                         | 5         | 99        | facile           | nessuno            | 5-10             |
 | [Gioco di massaggio - Contadino e campo di patate](<Massagespiel%20-%20Bauer%20und%20Kartoffelfeld.md>)         | 4         | 20        | facile           | nessuno            | 5-10             |
 | [Medusa](<Medusa.md>)                                                                                 | 5         | 25        | facile           | nessuno            | 5-10             |
-| [Ago](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | facile           | nessuno            | 5-10             |
-| [Peng-Peng-Knall-Voliamo-nello-spazio](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | facile           | nessuno            | 5-10             |
-| [Peng!](<Peng%21.md>)                                                                                 | 5         | 25        | facile           | nessuno            | 5-10             |
-| [Scambio di posti con contatto visivo](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | facile           | nessuno            | 5-10             |
+| [Il buco dell'ago](<Nadel%C3%B6hr.md>)                                                                        | 5         | 30        | facile           | nessuno            | 5-10             |
+| [Peng, Peng, Boom - Voliamo nello spazio](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                 | 4         | 20        | facile           | nessuno            | 5-10             |
+| [Peng](<Peng%21.md>)                                                                                 | 5         | 25        | facile           | nessuno            | 5-10             |
+| [Scambio di posti tramite contatto visivo](<Platztausch%20durch%20Augenkontakt.md>)                             | 5         | 25        | facile           | nessuno            | 5-10             |
 | [Presentarsi a vicenda](<Sich%20gegenseitig%20vorstellen.md>)                                   | 5         | 15        | medio            | nessuno            | 10 -  15         |
-| [Ordinare in gruppo](<Sortieren%20in%20der%20Gruppe.md>)                                         | 5         | 25        | medio            | Sedie o sgabelli | 5-15             |
+| [Ordinare nel gruppo](<Sortieren%20in%20der%20Gruppe.md>)                                         | 5         | 25        | medio            | Sedie o sgabelli | 5-15             |
 | [Corrida - Tatonga](<Stierkampf%20-%20Tatonga.md>)                                                 | 5         | 20        | facile           | Corda              | 5-10             |
-| [Sposati-Divorziati](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | facile           | nessuno            | 5-10             |
-| [Giro di presentazioni - Percorso di vita - Simbolico](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medio            | vario              | 30-45            |
+| [Sposati, Divorziati](<Verheiratet-Geschieden.md>)                                                 | 8         | 99        | facile           | nessuno            | 5-10             |
+| [Presentazione - Percorso - Simbolico](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>) | 2         | 10        | medio            | vario              | 30-45            |
 | [Zah](<Zah.md>)                                                                                       | 6         | 30        | facile           | nessuno            | 5                |
-| [Assassino di lingue](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | medio            | nessuno            | 5 - 10           |
-| [Strizzare l'occhio](<Zuzwinkern.md>)                                                                         | 9         | 99        | medio            | nessuno            | 7                |
+| [Assassino con la Lingua](<Zungenm%C3%B6rder.md>)                                                                | 10        | 30        | medio            | nessuno            | 5 - 10           |
+| [Occhiolino](<Zuzwinkern.md>)                                                                         | 9         | 99        | medio            | nessuno            | 7                |
 
 <!-- dynamic:end -->

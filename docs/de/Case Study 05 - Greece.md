@@ -2,11 +2,11 @@
 lang: de
 translation_id: case-study-05-greece
 created: 2025-08-29 21:14:58
-update: 2026-06-07 00:08:13
+update: 2026-06-06 21:48:39
 publish: false
 tags:
   - case-study
-title: Colours and Patterns to Unlock Friendly Interactions
+title: Farben und Muster für freundliche Interaktionen
 description:
 authors:
   - Monokyklo team
@@ -15,11 +15,15 @@ land: Greece
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 05 - Greece.md
-translation_source_hash: c4c9c2d381bb2f791e3df06b7d847677666878c95ebca3aca81c1fca68392a24
+translation_source_hash: 71a0dd1e0d3b774dff4b22ecd17d1e14698dfd08d569cba7531dca9043a25219
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:52+00:00
+translation_source_body_hash: 71a0dd1e0d3b774dff4b22ecd17d1e14698dfd08d569cba7531dca9043a25219
+translation_source_metadata_hash: c094ae3f3c48f5e1eb5fc8efcbfc3855c0fac9449864c5db3b2ef0bc8918e854
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:05:45+00:00
 ---
-
 # **Farben und Muster zur Förderung freundlicher Interaktionen**
 
 [Monokyklo](Monokyklo.md) - Thessaloniki, Griechenland

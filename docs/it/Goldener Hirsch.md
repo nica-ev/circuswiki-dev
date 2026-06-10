@@ -6,8 +6,8 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-09 01:18:42
-title: Goldener Hirsch
-description: Ein Fangspiel, bei dem ein heimlich bestimmter Goldener Hirsch gefangene Personen befreien kann.
+title: Cervo d'Oro
+description: Un gioco di presa in cui un Cervo d'Oro designato segretamente può liberare le persone catturate.
 authors:
   - Marc Bielert
 category:
@@ -21,9 +21,14 @@ group-max: 99
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Goldener Hirsch.md
-translation_source_hash: 87b5941789b42997f5a502e5fbb80d84aadc4e111e6e136f8a525ea6bd95deac
+translation_source_hash: 85e3ace50a2fad71a7d4ec73b6b1405055cd4446c33247ae6cd4982fdbcc000a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:40:58+00:00
+translation_source_body_hash: 85e3ace50a2fad71a7d4ec73b6b1405055cd4446c33247ae6cd4982fdbcc000a
+translation_source_metadata_hash: 7c026b06543d8194c97c7e5a4c8a1e9018bd794c318082b368ed77331fb6354d
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T18:48:49+00:00
 ---
 > [!info] Breve descrizione
 > Un gioco di presa in cui un "Cervo d'oro" designato segretamente può liberare le persone catturate.

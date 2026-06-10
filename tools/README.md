@@ -81,10 +81,13 @@ Current endpoint contracts:
 - `GET /api/health?source_lang=<code>&target_lang=<code>`: returns the file-pair health summary for the explicit language pair. Missing language parameters return `400`.
 - `GET /api/page?path=<repo-path>&source_lang=<code>&target_lang=<code>`: inspects one explicit source/target pair. Missing `path`, `source_lang`, or `target_lang` returns `400`.
 - `GET /api/vault-health`: returns the multilingual translation matrix using canonical source detection per translation group.
-- `POST /api/translate`: translates one file. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model`, `prompt`, and `dry_run`.
+- `POST /api/translate`: translates one full file body plus localized metadata. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model`, `prompt`, and `dry_run`.
+- `POST /api/translate-metadata`: translates only target frontmatter `title` and `description` for an existing target file. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model` and `dry_run`.
 - `POST /api/repair-metadata`: deterministic metadata repair for one file. JSON body requires `path`.
 - `POST /api/batch-plan`: plans batch candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, optional `max_source_chars`, and optional `path_filter`.
 - `POST /api/batch-translate-file`: translates one planned batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`/`prompt`.
+- `POST /api/metadata-batch-plan`: plans metadata-only candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, and optional `path_filter`.
+- `POST /api/metadata-batch-translate-file`: translates metadata for one planned metadata batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`.
 - `GET /api/original-graph?exclude_sitemap=true|false`: returns canonical original nodes and explicit content-link edges normalized through translation groups for the Original Graph tab. `sitemap.md` is excluded by default.
 - `GET /api/navigation/scan`: inspects Zensical navigation and canonical navigation model state.
 - `POST /api/navigation/init`: creates the canonical navigation model from an explicit source language. JSON body requires `language`.
@@ -93,6 +96,10 @@ Current endpoint contracts:
 - `POST /api/navigation/translate-labels`: translates navigation labels for one target language. JSON body requires `model`, `source_lang`, and `target_lang`.
 - `POST /api/navigation/translate-all-labels`: translates navigation labels from an explicit source language to all other configured languages. JSON body requires `model` and `source_lang`.
 - `GET /api/obsidian/status`: reports optional Obsidian CLI availability.
+
+The Link Repair workflow restores local Markdown/wikilink targets and, for
+translated notes tagged `dynamic`, also rewrites Markdown link labels inside
+generated dynamic block content to the linked target-language page title.
 
 The console currently uses lightweight explicit endpoint contracts rather than
 a dedicated schema framework. Add a schema layer only when request/response

@@ -8,16 +8,21 @@ tags:
   - dynamic
 created: 2025-01-25 01:45:29
 update: 2026-06-09 02:43:22
-title: Spiele für Zwischendurch
+title: Gry na szybkie rozgrywki
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Spiele für Zwischendurch.md
-translation_source_hash: 7987607894d2ba3c8ac52a2902af755dc9e7b95830a8c146f2a73b10792cdaf8
+translation_source_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:33+00:00
+translation_source_body_hash: 8978f5d9211b7cd2e0ef3261340a98b7cbf1587514d29d4524c312466a2e9daf
+translation_source_metadata_hash: 035c18dc7350deababd7696054cd89db391da606bbec87bf386e83e817f24bb3
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-10T19:08:00+00:00
 ---
 # Gry na szybki rozruch
 
@@ -33,45 +38,45 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 
 | plik                                                                                      | min. gr. | maks. gr. | trudność | materiały                  | czas gry |
 | ----------------------------------------------------------------------------------------- | -------- | --------- | -------- | -------------------------- | -------- |
-| [1-2-3](<1-2-3.md>)                                                                       | 2        | 99        | łatwy    | brak                       | 5-10     |
-| [Egipskie gry w rzucanie](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4        | 99        | średni   | piłki                      | 5 - 10   |
-| [Gra z zadaniami](<Aufgaben%20Spiel.md>)                                                   | 4        | 30        | średni   | brak                       | 5-15     |
-| [Gra na uwagę z piłkami](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5        | 25        | łatwy    | piłki                      | 5-10     |
-| [Awatar](<Avatar.md>)                                                                     | 2        | 30        | łatwy    | brak                       | 5-10     |
-| [Gra na TAK](<Das%20Ja%20Spiel.md>)                                                     | 4        | 30        | łatwy    | brak                       | 5-10     |
+| [Jeden, dwa, trzy](<1-2-3.md>)                                                                       | 2        | 99        | łatwy    | brak                       | 5-10     |
+| [Egipska gra w rzucanie](<./%C3%84gyptisches%20Wurfspiel.md>)                              | 4        | 99        | średni   | piłki                      | 5 - 10   |
+| [Gra w zadania](<Aufgaben%20Spiel.md>)                                                   | 4        | 30        | średni   | brak                       | 5-15     |
+| [Gra z piłkami na przyciąganie uwagi](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)        | 5        | 25        | łatwy    | piłki                      | 5-10     |
+| [Avatar](<Avatar.md>)                                                                     | 2        | 30        | łatwy    | brak                       | 5-10     |
+| [Gra w Tak](<Das%20Ja%20Spiel.md>)                                                     | 4        | 30        | łatwy    | brak                       | 5-10     |
 | [Fotograf](<Der%20Photograph.md>)                                                   | 5        | 25        | łatwy    | brak                       | 10-20    |
 | [Cyrk jest w mieście](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                 | 10       | 40        | łatwy    | brak                       | 5-15     |
-| [Cyrk przyjeżdża do miasta](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10       | 40        | łatwy    | mata, wyznaczone obszary | 5-15     |
+| [Cyrk wkracza do miasta](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)             | 10       | 40        | łatwy    | mata, wyznaczone obszary | 5-15     |
 | [Ewolucja](<Evolution.md>)                                                               | 12       | 40        | łatwy    | brak                       | 10       |
 | [Fan Kamień-Papier-Nożyce](<Fan%20Schnick-Schnack-Schnuck.md>)                         | 20       | 60        | łatwy    | brak                       | 8        |
-| [Wywijanie palcami](<Finger-Fechten.md>)                                                     | 2        | 99        | łatwy    | brak                       | 2-5      |
+| [Walka na palce](<Finger-Fechten.md>)                                                     | 2        | 99        | łatwy    | brak                       | 2-5      |
 | [Przyjaciel i wróg](<Freund%20und%20Feind.md>)                                             | 5        | 20        | łatwy    | brak                       | 2-5      |
 | [Podobni do siebie](<Gleich%20und%20gleich.md>)                                           | 6        | 30        | łatwy    | opcjonalnie muzyka        | 5-15     |
-| [Duży kontra mały](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3        | 10        | średni   | mata                      | 1-5      |
-| [Dzień dobry, sąsiedzie](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10       | 30        | średni   | brak                       | 5-10     |
+| [Duży kontra Mały](<Gro%C3%9F%20gegen%20Klein.md>)                                        | 3        | 10        | średni   | mata                      | 1-5      |
+| [Dzień dobry Panie Sąsiedzie](<Guten%20Tag%20Herr%20Nachbar.md>)                               | 10       | 30        | średni   | brak                       | 5-10     |
 | [Ludzka Pamięć](<Human%20Memory.md>)                                                       | 8        | 40        | łatwy    | brak                       | 10-15    |
-| [Samochodzik z radiem](<Killerfunkwagen.md>)                                                   | 2        | 30        | łatwy    | brak                       | 5-10     |
+| [Killerfunkwagen](<Killerfunkwagen.md>)                                                   | 2        | 30        | łatwy    | brak                       | 5-10     |
 | [Teatr plotek](<Klatsch%20Theater.md>)                                                 | 4        | 20        | łatwy    | brak                       | 7        |
 | [Król przestworzy](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                     | 6        | 20        | średni   | brak                       | 5-10     |
-| [Obora](<Kuhstall.md>)                                                                 | 7        | 40        | łatwy    | brak                       | 5-10     |
-| [Miś Śmieszek](<Lachb%C3%A4r.md>)                                                              | 6        | 30        | łatwy    | brak                       | 4        |
+| [Zagroda dla krów](<Kuhstall.md>)                                                                 | 7        | 40        | łatwy    | brak                       | 5-10     |
+| [Śmiejący się Niedźwiedź](<Lachb%C3%A4r.md>)                                                              | 6        | 30        | łatwy    | brak                       | 4        |
 | [Miecz świetlny](<Laserschwert.md>)                                                         | 5        | 25        | łatwy    | brak                       | 5-10     |
 | [Balansowanie balonami](<Luftballons%20Balancieren.md>)                                 | 2        | 99        | łatwy    | balony                     | 5-10     |
 | [Masakra](<Massaker.md>)                                                                 | 2        | 30        | łatwy    | brak                       | 5-10     |
 | [Walka na imiona](<Namenkampf.md>)                                                             | 10       | 30        | łatwy    | duża chusta               | 10 -  15   |
-| [Pirackie powitanie](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4        | 99        | łatwy    | brak                       | 5-10     |
-| [Piracki kapitan](<Piraten%20Kapit%C3%A4n.md>)                                            | 5        | 25        | łatwy    | mata                      | 5-15     |
-| [Podawanie obręczy w kręgu](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5        | 30        | łatwy    | obręcze                    | 5-10     |
-| [Bieg cienia](<Schattenlauf.md>)                                                         | 2        | 99        | łatwy    | brak                       | 5 - 15     |
+| [Powitalna gra piracka](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                       | 4        | 99        | łatwy    | brak                       | 5-10     |
+| [Kapitan Piratów](<Piraten%20Kapit%C3%A4n.md>)                                            | 5        | 25        | łatwy    | mata                      | 5-15     |
+| [Podawanie kółek w kręgu](<Reifen%20durchgeben%20im%20Kreis.md>)                       | 5        | 30        | łatwy    | obręcze                    | 5-10     |
+| [Biegacz cienia](<Schattenlauf.md>)                                                         | 2        | 99        | łatwy    | brak                       | 5 - 15     |
 | [Przewracanie żółwi](<Schildkr%C3%B6ten%20umdrehen.md>)                                | 6        | 30        | średni   | brak                       | 5 - 10     |
-| [Szybko, szybko – na miejsce!](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8        | 30        | średni   | brak                       | 5-10     |
-| [Kamień-Papier-Nożyce](<Schnick_Schnack_Schnuck.md>)                                   | 4        | 99        | łatwy    | brak                       | 5-10     |
-| [Randka w 5 minut](<Speed%20Dating.md>)                                                       | 6        | 40        | łatwy    | kartki, długopisy          | 10-20    |
-| [Patrzenie na śmierć](<Totblicken.md>)                                                             | 7        | 30        | łatwy    | brak                       | 3-9        |
+| [Szybko, szybko - na miejsce](<Schnell%20schnell%20-%20an%20Ort%20und%20Stell.md>) | 8        | 30        | średni   | brak                       | 5-10     |
+| [Kamień, papier, nożyce](<Schnick_Schnack_Schnuck.md>)                                   | 4        | 99        | łatwy    | brak                       | 5-10     |
+| [Speed Dating](<Speed%20Dating.md>)                                                       | 6        | 40        | łatwy    | kartki, długopisy          | 10-20    |
+| [Spojrzenie śmierci](<Totblicken.md>)                                                             | 7        | 30        | łatwy    | brak                       | 3-9        |
 | [Wampir](<Vampir.md>)                                                                     | 6        | 30        | średni   | brak                       | 5-10     |
 | [Wirus](<Virus.md>)                                                                       | 5        | 30        | łatwy    | brak                       | 5-10     |
-| [Co tam robisz](<Was%20tust%20Du%20da.md>)                                               | 4        | 20        | średni   | brak                       | 10-15    |
-| [Gdybym był królem](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4        | 30        | łatwy    | podest                     | 5-10     |
-| [Mikser whisky](<Whiskeymixer.md>)                                                         | 5        | 30        | średni   | brak                       | 3-10     |
+| [Co tam robisz?](<Was%20tust%20Du%20da.md>)                                               | 4        | 20        | średni   | brak                       | 10-15    |
+| [Gdybym był królem...](<Wenn%20ich%20K%C3%B6nig%20w%C3%A4r.md>)                             | 4        | 30        | łatwy    | podest                     | 5-10     |
+| [Whiskeymixer](<Whiskeymixer.md>)                                                         | 5        | 30        | średni   | brak                       | 3-10     |
 
 <!-- dynamic:end -->
