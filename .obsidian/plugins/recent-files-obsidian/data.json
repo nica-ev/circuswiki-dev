@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "release notes",
+      "path": "docs/de/release notes.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/de/index.md"
+    },
+    {
       "basename": "Grundlagen Wurfjonglage - Kaskade",
       "path": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "spiele-content-schema",
       "path": "_system/spiele-content-schema.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/de/index.md"
     },
     {
       "basename": "Bewegungs-Spiele",
@@ -195,10 +199,6 @@
     {
       "basename": "Aufwärmspiele MOC",
       "path": "docs/pl/Aufwärmspiele MOC.md"
-    },
-    {
-      "basename": "Schlangen Hasche",
-      "path": "docs/nl/Schlangen Hasche.md"
     }
   ],
   "omittedPaths": [],

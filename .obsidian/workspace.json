@@ -40,13 +40,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
+                "file": "docs/de/release notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Grundlagen Wurfjonglage - Kaskade"
+              "title": "release notes"
             }
           },
           {
@@ -172,10 +172,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
+                "file": "docs/de/release notes.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von Grundlagen Wurfjonglage - Kaskade"
+              "title": "Dateieigenschaften von release notes"
             }
           },
           {
@@ -279,29 +279,30 @@
   },
   "active": "c21c7c7654ab681c",
   "lastOpenFiles": [
-    "site/1-2-3/index.html",
-    "site/1-2-3",
-    "site/es/Ägyptisches Wurfspiel",
-    "site/es/Zuzwinkern",
-    "site/es/Zungenmörder",
-    "site/es/Zuckerwasserschießen",
-    "site/es/Zonglowanie w parach z hula hoop",
-    "site/es/Zonglowanie w 5 krokach",
-    "site/es/Zombieball",
-    "site/es/Zombie Hasche mit Namen",
-    "site/es/Zombie - Hasche",
+    "site/cs/Ägyptisches Wurfspiel",
+    "site/cs/Zuzwinkern",
+    "site/cs/Zungenmörder",
+    "site/cs/Zuckerwasserschießen",
+    "site/cs/Zonglowanie w parach z hula hoop",
+    "site/cs/Zonglowanie w 5 krokach",
+    "site/cs/Zombieball",
+    "site/cs/Zombie Hasche mit Namen",
+    "site/cs/Zombie - Hasche",
+    "site/cs/Zombie",
+    "site/cs/Zirkusfangen",
+    "site/uk/assets/images/favicon.png",
+    "site/sk/assets/images/favicon.png",
+    "site/pt/assets/images/favicon.png",
+    "site/pl/assets/images/favicon.png",
+    "site/nl/assets/images/favicon.png",
+    "site/it/assets/images/favicon.png",
+    "site/hu/assets/images/favicon.png",
+    "site/en/assets/images/favicon.png",
     "site/el/assets/images/favicon.png",
-    "site/el/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/el/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/el/img/poland-03.jpg",
-    "site/el/img/poland-02.jpg",
-    "site/el/img/poland-01.jpg",
-    "site/el/img/nica-logo-simple-small-150x150.png",
-    "site/el/img/nica-background.jpg",
-    "site/el/img/monokyklo_feelingsafe_autism.jpg",
-    "site/el/img/monokyklo_colours_and_patterns.jpg",
-    "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+    "site/cs/assets/images/favicon.png",
+    "docs/de/index.md",
     "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
     "docs/de/blog/posts/Games - The Data Side.md",
     "docs/de/blog/index.md",
     "docs/de/Aufwärmspiele MOC.md",
@@ -311,7 +312,6 @@
     "__project/tasks.md",
     "__project/pdd.md",
     "_system/spiele-content-schema.md",
-    "docs/de/index.md",
     "docs/sk/Verheiratet-Geschieden.md",
     "docs/cs/Verheiratet-Geschieden.md",
     "docs/pt/Verheiratet-Geschieden.md",
